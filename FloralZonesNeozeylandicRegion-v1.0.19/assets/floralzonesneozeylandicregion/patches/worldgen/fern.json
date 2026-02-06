@@ -1,0 +1,161 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small Patches of Mountain Cabbage Tree",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:fern-cordylineindivisa"
+          ],
+          "minTemp": 6,
+          "maxTemp": 14,
+		  "minForest": 0.2,
+		  "maxForest": 1,
+          "minRain": 0.26,
+          "maxRain": 1,
+          "chance": 0.1,
+		  "minY": 0.1,
+          "maxY": 0.45,
+		  "minFertility":0.6,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 1, "var": 12 },
+          "offsetZ": { "avg": 1, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+	      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Spread out Patches of Mountain Cabbage Tree",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:fern-cordylineindivisa"
+          ],
+          "minTemp": 6,
+          "maxTemp": 14,
+		  "minForest": 0.2,
+		  "maxForest": 1,
+          "minRain": 0.26,
+          "maxRain": 1,
+          "chance": 0.1,
+		  "minY": 0.1,
+          "maxY": 0.45,
+		  "minFertility":0.6,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 30, "var": 15 },
+          "offsetX": { "avg": 61, "var": 35 },
+          "offsetZ": { "avg": 61, "var": 35 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+	      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large Patches of Parataniwha",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:fern-elatostemarugosum"
+          ],
+          "minTemp": 10,
+          "maxTemp": 16,
+		  "minForest": 0.5,
+		  "maxForest": 1,
+          "minRain": 0.59,
+          "maxRain": 0.95,
+          "chance": 0.8,
+		  "minY": 0,
+          "maxY": 0.16,
+		  "minFertility":0.4,
+		  "maxFertility": 1,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "quantity": { "dist": "invexp", "avg": 24, "var": 10 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+	      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small Patches of Pygmy Pine",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:fern-lepidothamnuslaxifolius"
+          ],
+          "minTemp": 3,
+          "maxTemp": 11,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minRain": 0.58,
+          "maxRain": 1,
+          "chance": 0.5,
+		  "minY": 0.21,
+          "maxY": 0.31,
+		  "minFertility":0,
+		  "maxFertility": 0.6,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+	      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large Patches of Crown Fern",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:fern-lomariadiscolor"
+          ],
+          "minTemp": 6,
+          "maxTemp": 16,
+		  "minForest": 0.4,
+		  "maxForest": 1,
+          "minRain": 0.26,
+          "maxRain": 1,
+          "chance": 1,
+		  "minY": 0,
+          "maxY": 0.4,
+		  "minFertility":0,
+		  "maxFertility": 1,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "quantity": { "dist": "invexp", "avg": 30, "var": 15 },
+          "offsetX": { "avg": 0, "var": 15 },
+          "offsetZ": { "avg": 0, "var": 15 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+	      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small Patches of King Fern",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:fern-ptisanasalicina"
+          ],
+          "minTemp": 11,
+          "maxTemp": 23,
+		  "minForest": 0.6,
+		  "maxForest": 1,
+          "minRain": 0.5,
+          "maxRain": 0.96,
+          "chance": 0.2,
+		  "minY": 0,
+          "maxY": 0.22,
+		  "minFertility":0.6,
+		  "maxFertility": 1,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "quantity": { "dist": "invexp", "avg": 5, "var": 3 },
+          "offsetX": { "avg": 4, "var": 15 },
+          "offsetZ": { "avg": 4, "var": 15 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+	      },
+]

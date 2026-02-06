@@ -1,0 +1,73 @@
+[
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+		"comment": "Patches of Swamp Astelia near water",
+		"blockCodes": ["floralzonesneozeylandicregion:bigberrybush-asteliagrandis-empty", "floralzonesneozeylandicregion:bigberrybush-asteliagrandis-flowering", "floralzonesneozeylandicregion:bigberrybush-asteliagrandis-ripe"],
+		"minTemp": 8,
+		"maxTemp": 16,
+		"minRain": 0.4,
+		"maxRain": 0.93,
+		"minFertility": 0.4,
+		"maxFertility": 1,
+		"chance": 1,
+		"minForest": 0.3,
+		"maxForest": 1,
+		"maxY": 0.25,
+		"placement": "NearWater",
+		"quantity": { "avg": 8, "var": 5 },
+          "offsetX": { "avg": 3, "var": 8 },
+          "offsetZ": { "avg": 3, "var": 8 }
+	},
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server"
+		},
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+		"comment": "Wide Patches of Swamp Astelia near water",
+		"blockCodes": ["floralzonesneozeylandicregion:bigberrybush-asteliagrandis-empty", "floralzonesneozeylandicregion:bigberrybush-asteliagrandis-flowering", "floralzonesneozeylandicregion:bigberrybush-asteliagrandis-ripe"],
+		"minTemp": 8,
+		"maxTemp": 16,
+		"minRain": 0.4,
+		"maxRain": 0.93,
+		"minFertility": 0.4,
+		"maxFertility": 1,
+		"chance": 1,
+		"minForest": 0.3,
+		"maxForest": 1,
+		"maxY": 0.25,
+		"placement": "NearWater",
+		"quantity": { "avg": 40, "var": 20 },
+          "offsetX": { "avg": 30, "var": 38 },
+          "offsetZ": { "avg": 30, "var": 38 }
+	},
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server"
+		},
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+		"comment": "Upland Patches of Swamp Astelia",
+		"blockCodes": ["floralzonesneozeylandicregion:bigberrybush-asteliagrandis-empty", "floralzonesneozeylandicregion:bigberrybush-asteliagrandis-flowering", "floralzonesneozeylandicregion:bigberrybush-asteliagrandis-ripe"],
+		"minTemp": 8,
+		"maxTemp": 16,
+		"minRain": 0.5,
+		"maxRain": 0.93,
+		"minFertility": 0.4,
+		"maxFertility": 1,
+		"chance": 0.1,
+		"minForest": 0.3,
+		"maxForest": 1,
+		"maxY": 0.25,
+		"quantity": { "avg": 20, "var": 10 },
+          "offsetX": { "avg": 30, "var": 38 },
+          "offsetZ": { "avg": 30, "var": 38 }
+	},
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server"
+		}
+]

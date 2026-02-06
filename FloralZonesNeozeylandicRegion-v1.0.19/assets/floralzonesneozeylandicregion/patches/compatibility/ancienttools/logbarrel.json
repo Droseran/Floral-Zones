@@ -1,0 +1,18 @@
+[
+	{
+		"op": "addeach",
+		"path": "/variantgroups/0/states/-",
+		"value": ["dacrydiumcupressinum", "nothofagusmenziesii", "podocarpustotara", "araucariaheterophylla"],
+		"file": "ancienttools:blocktypes/logbarrel",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/allowedVariants/-",
+		"value": ["logbarrel-dacrydiumcupressinum-*", "logbarrel-nothofagusmenziesii-*", "logbarrel-podocarpustotara-*", "logbarrel-araucariaheterophylla-*"],
+		"file": "ancienttools:blocktypes/logbarrel",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	}
+]

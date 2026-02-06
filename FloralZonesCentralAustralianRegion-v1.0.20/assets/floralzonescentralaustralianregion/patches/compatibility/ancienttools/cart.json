@@ -1,0 +1,30 @@
+﻿[
+	{
+		"op": "addeach",
+		"path": "/attributes/types/-",
+		"value": ["wood-corymbiaaparrerinja", "wood-eucalyptuscamaldulensis"],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/creativeinventoryStacks/0/stacks/-",
+		"value": [
+			{ type: "item", code: "cart", attributes: { type: "wood-corymbiaaparrerinja" } }
+		],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/creativeinventoryStacks/0/stacks/-",
+		"value": [
+			{ type: "item", code: "cart", attributes: { type: "wood-eucalyptuscamaldulensis" } }
+		],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	}
+]

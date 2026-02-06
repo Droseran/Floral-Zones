@@ -1,0 +1,32 @@
+{
+	"treeWorldPropertyCode": "abieskoreana",
+	"sizeMultiplier": 0.75,
+	"trunks": [{
+		"widthloss": 0.04,
+		"dieAt": { "avg": 0.06 },
+		"branchStart": { "dist": "gaussian", "avg": 0, "var": 0.2 },
+		"branchSpacing": { "avg": 0, "var": 0.005 },
+		"branchVerticalAngle":  { "dist": "gaussian", "avg": 1.57, "var": 0.3 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.3, "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 0.2 },
+		"branchQuantity": { "avg": 5, "var": 0 }
+	}],
+	"branches": [{
+		"widthLoss": 0.026,
+		"gravityDrag": -0.08,
+
+		"branchStart":  { "avg": 0.1, "var": 0.1 },
+		"branchSpacing": { "avg": 0, "var": 0 },
+		"branchVerticalAngle": { "avg": 1.57, "var": 0.5 },
+		"branchHorizontalAngle": { "avg": 1.2, "var": 3.1415 },
+
+		"branchQuantity": { "avg": 1, "var": 0 },
+		"branchWidthMultiplier": { "avg": 0.3, "var": 0 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "floralzoneseastasiaticregion:lognarrow-grown-abieskoreana-ud",
+		"leavesBlockCode": "floralzoneseastasiaticregion:leaves-grown-abieskoreana",
+		"leavesBranchyBlockCode": "floralzoneseastasiaticregion:leavesbranchy-grown-abieskoreana"
+	}
+}

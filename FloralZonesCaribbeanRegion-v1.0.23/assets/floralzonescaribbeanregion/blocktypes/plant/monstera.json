@@ -1,0 +1,98 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"plantContainable": {
+			"smallContainerByType": {
+				"*-monsteradeliciosa-*": {"shape": { "base": "block/plant/berrybush/monsteradeliciosa-empty"},"textures": {"leaf": { "base": "block/plant/berrybush/monsteradeliciosa-leaf1" },"flower": { "base": "block/plant/berrybush/monsteradeliciosa-flower" },"fruit": { "base": "item/resource/monsteradeliciosa" }}}
+				},
+			"largeContainerByType": {
+				"*-monsteradeliciosa-*": {"shape": { "base": "block/plant/berrybush/monsteradeliciosa-flowering"},"textures": {"leaf": { "base": "block/plant/berrybush/monsteradeliciosa-leaf1" },"flower": { "base": "block/plant/berrybush/monsteradeliciosa-flower" },"fruit": { "base": "item/resource/monsteradeliciosa" }}}
+				}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 7,
+		"resetBelowTemperature": 9,
+		"stopBelowTemperature": 11,
+		
+		"revertBlockAboveTemperature": 61,
+		"resetAboveTemperature": 57,
+		"stopAboveTemperature": 53,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 6.25, "var": 4.09 },
+		"*-flowering": { "avg": 11.98, "var": 0.09 },
+		"*-ripe": { "avg": 0.25, "var": 0.02 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 1 }  },
+			"harvestedBlockCode": "floralzonescaribbeanregion:smallberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["monsteradeliciosa"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-monsteradeliciosa-empty": { "base": "block/plant/berrybush/monsteradeliciosa-empty"},
+		"*-monsteradeliciosa-flowering": { "base": "block/plant/berrybush/monsteradeliciosa-flowering"},
+		"*-monsteradeliciosa-ripe": { "base": "block/plant/berrybush/monsteradeliciosa-ripe"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-monsteradeliciosa-*": {"leaf": { "base": "block/plant/berrybush/monsteradeliciosa-leaf1" },"flower": { "base": "block/plant/berrybush/monsteradeliciosa-flower" },"fruit": { "base": "item/resource/monsteradeliciosa" }}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 1, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 1 }  },
+			{ "type": "block", "code": "floralzonescaribbeanregion:smallberrybush-monsteradeliciosa-empty", "quantity": { "avg": 1 }  },
+		],
+		"*": [			{ "type": "block", "code": "floralzonescaribbeanregion:smallberrybush-monsteradeliciosa-empty", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

@@ -1,0 +1,203 @@
+{
+	"code": "fruit",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "loadFromProperties": "floralzonescaribbeanregion:block/fruit" }
+	],
+	"attributes": {
+		"foodTags": ["{fruit}"],
+		"nutritionPropsWhenInMeal": {
+			"satietyByType":  { 
+				"@*-(acoelorrhaphewrightii|sabaletonia|sabalmiamiensis|sabalminor|sabalpalmetto)": 60,
+				"*-harrisiaportoricensis": 90,
+				"*-monsteradeliciosa": 180, 
+				"*-selenicereuscostaricensis": 120
+			},
+			"foodcategory": "Fruit" 
+		},
+		"inPiePropertiesByType": {
+			"@*-(acoelorrhaphewrightii|sabaletonia|sabalmiamiensis|sabalminor|sabalpalmetto)": { "texture": "block/food/pie/fill-sabalpalmetto", "partType": "Filling" },
+			"*-monsteradeliciosa": { "texture": "game:block/food/pie/fill-breadfruit", "partType": "Filling" },
+			"*": { "texture": "block/food/pie/fill-{fruit}", "partType": "Filling" }
+		},
+		"juiceablePropertiesByType": {
+			"*-agavetequilana": {
+				"litresPerItem": 10,
+				"liquidStack": { "type": "item", "code": "floralzonescaribbeanregion:juiceportion-agavetequilana", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-agavetequilana", "stacksize": 1 }
+			},
+			"*-harrisiaportoricensis": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescaribbeanregion:juiceportion-harrisiaportoricensis", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-harrisiaportoricensis", "stacksize": 1 }
+			},
+			"@*-(acoelorrhaphewrightii|sabaletonia|sabalmiamiensis|sabalminor|sabalpalmetto)": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescaribbeanregion:juiceportion-sabalpalmetto", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-sabalpalmetto", "stacksize": 1 }
+			},
+			"*-monsteradeliciosa": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescaribbeanregion:juiceportion-monsteradeliciosa", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-monsteradeliciosa", "stacksize": 1 }
+			},
+			"*-roystonearegia": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescaribbeanregion:juiceportion-roystonearegia", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-roystonearegia", "stacksize": 1 }
+			},
+			"*-selenicereuscostaricensis": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescaribbeanregion:juiceportion-selenicereuscostaricensis", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-selenicereuscostaricensis", "stacksize": 1 }
+			}
+		}
+	},
+	"shapebytype": { 
+		"*": { "base": "item/resource/{fruit}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-acoelorrhaphewrightii": { "satiety": 30, "foodcategory": "Fruit" },
+		"*-harrisiaportoricensis": { "satiety": 60, "foodcategory": "Fruit" },
+		"*-monsteradeliciosa": { "satiety": 120, "foodcategory": "Fruit" },
+		"*-sabaletonia": { "satiety": 30, "foodcategory": "Fruit" },
+		"*-sabalmiamiensis": { "satiety": 30, "foodcategory": "Fruit" },
+		"*-sabalminor": { "satiety": 30, "foodcategory": "Fruit" },
+		"*-sabalpalmetto": { "satiety": 40, "foodcategory": "Fruit" },
+		"*-selenicereuscostaricensis": { "satiety": 80, "foodcategory": "Fruit" }
+	},
+	"transitionablePropsByType": {
+		"*-agavetequilana": [{
+			"type": "Perish",
+			"freshHours": { "avg": 360 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-harrisiaportoricensis": [{
+			"type": "Perish",
+			"freshHours": { "avg": 360 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-monsteradeliciosa": [{
+			"type": "Perish",
+			"freshHours": { "avg": 72 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-roystonearegia": [{
+			"type": "Perish",
+			"freshHours": { "avg": 252 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "treeseed-roystonearegia" },
+			"transitionRatio": 0.25
+		}],
+		"*-sabalpalmetto": [{
+			"type": "Perish",
+			"freshHours": { "avg": 252 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "treeseed-sabalpalmetto" },
+			"transitionRatio": 0.25
+		}],
+		"*-sabalminor": [{
+			"type": "Perish",
+			"freshHours": { "avg": 252 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-sabalmiamiensis": [{
+			"type": "Perish",
+			"freshHours": { "avg": 252 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-sabaletonia": [{
+			"type": "Perish",
+			"freshHours": { "avg": 252 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-acoelorraphewrightii": [{
+			"type": "Perish",
+			"freshHours": { "avg": 252 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-selenicereuscostaricensis": [{
+			"type": "Perish",
+			"freshHours": { "avg": 252 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}]
+	},
+	"guiTransformByType": {
+		
+		"@*-(acoelorrhaphewrightii|sabaletonia|sabalmiamiensis|sabalminor|sabalpalmetto)": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 83, "y": -103, "z": -55 },
+			"origin": { "x": 0.53, "y": 0.17, "z": 0.53 },
+			"scale": 2.6
+		},
+		"*-roystonearegia":{
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -60, "y": 12, "z": 19 },
+		"origin": { "x": 0.5299, "y": 0.15, "z": 0.4299 },
+		"scale": 2.37
+	},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 143, "y": -47, "z": -37 },
+			"origin": { "x": 0.5299, "y": 0.15, "z": 0.5299 },
+			"scale": 3.0
+		},
+	},
+	"fpHandTransformByType": {
+		"*":{
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 6, "y": 22, "z": 3 },
+		"origin": { "x": 0.3, "y": 0.8, "z": 0.7 }
+	},
+		"*-roystonearegia":{
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 6, "y": 22, "z": 3 },
+		"origin": { "x": 0.18, "y": 1.09, "z": 1.7 }
+	},
+		"*-harrisiaportoricensis":{
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 6, "y": 22, "z": 3 },
+		"origin": { "x": 0.2, "y": 0.7, "z": 0.7 }
+	},
+		"*-monsteradeliciosa":{
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -31, "y": 17, "z": 21 },
+		"origin": { "x": 0.8, "y": -0.5, "z": -0.3 },
+		"scale": 3.04
+	},
+		"*-selenicereuscostaricensis":{
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -22, "y": -22, "z": 3 },
+		"origin": { "x": 0.3, "y": -0.65, "z": 0.7 },
+		"scale": 3.09
+	}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -1.5, "y": -1.5, "z": -1.4 },
+			"rotation": { "x": 12, "y": -5, "z": 74 }
+		},
+	},
+	"groundTransformByType": {
+		"*": { 
+			"scale": 3.0
+		}
+	}
+}

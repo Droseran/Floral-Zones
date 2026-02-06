@@ -1,0 +1,89 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 9,
+		"resetBelowTemperature": 11,
+		"stopBelowTemperature": 13,
+		
+		"revertBlockAboveTemperature": 53,
+		"resetAboveTemperature": 49,
+		"stopAboveTemperature": 45,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 4.25, "var": 0.09 },
+		"*-flowering": { "avg": 3.49, "var": 0.09 },
+		"*-ripe": { "avg": 0.48, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescosmopolitanregion:fruit-{type}", "quantity": { "avg": 1.2 }  },
+			"harvestedBlockCode": "floralzonescosmopolitanregion:smallberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["cucurbitaficifolia"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-cucurbitaficifolia-ripe": { "base": "block/plant/berrybush/cucurbitaficifolia-ripe"},
+		"*": { "base": "block/plant/berrybush/cucurbitaficifolia-empty"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-cucurbitaficifolia-ripe": {"leaves1": { "base": "block/plant/berrybush/cucurbitaficifolia1" },"leaves2": { "base": "block/plant/berrybush/cucurbitaficifolia2" },"fruit": { "base": "item/food/fruit/cucurbitaficifolia" }},
+		"*-cucurbitaficifolia-*": {"leaves1": { "base": "block/plant/berrybush/cucurbitaficifolia1" },"leaves2": { "base": "block/plant/berrybush/cucurbitaficifolia2" },"leaves-empty": { "base": "block/plant/berrybush/cucurbitaficifolia-{state}" }}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescosmopolitanregion:fruit-{type}", "quantity": { "avg": 1.2 }  },
+			{ "type": "block", "code": "floralzonescosmopolitanregion:smallberrybush-{type}-empty", "quantity": { "avg": 1 }  },
+		],
+		"*": [			{ "type": "block", "code": "floralzonescosmopolitanregion:smallberrybush-{type}-empty", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

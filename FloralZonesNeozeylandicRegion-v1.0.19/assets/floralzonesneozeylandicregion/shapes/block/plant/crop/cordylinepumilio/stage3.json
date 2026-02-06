@@ -1,0 +1,71 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"stage 2": "block/plant/crop/cordylinepumilio/stage 2",
+		"stage 3": "block/plant/crop/cordylinepumilio/stage 3"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face",
+					"from": [ -6.0, 0.0, 0.0 ],
+					"to": [ 6.0, 12.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#stage 2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Face2",
+					"from": [ -6.0, 0.0, 0.0 ],
+					"to": [ 6.0, 12.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 67.5,
+					"faces": {
+						"north": { "texture": "#stage 2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Face3",
+					"from": [ -6.0, 0.0, 0.0 ],
+					"to": [ 6.0, 12.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -67.5,
+					"faces": {
+						"north": { "texture": "#stage 2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Face4",
+					"from": [ -6.0, 0.0, 0.0 ],
+					"to": [ 6.0, 12.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -83.0,
+					"faces": {
+						"north": { "texture": "#stage 3", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,7,7,0] }
+					}
+				}
+			]
+		}
+	]}

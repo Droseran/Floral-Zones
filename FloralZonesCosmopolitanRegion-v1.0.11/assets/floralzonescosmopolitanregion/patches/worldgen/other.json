@@ -1,0 +1,293 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large Patches of Saltmarsh Bulrush",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:tallplant-bolboschoenusmaritimus-land-normal-free"
+          ],
+          "minTemp": -4,
+          "maxTemp": 22,
+          "minRain": 0.2,
+          "maxRain": 1,
+		  "minFertility": 0.5,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "chance": 0.5,
+          "maxY": 0.01,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 45, "var": 5 },
+          "offsetX": { "avg": 0, "var": 15 },
+          "offsetZ": { "avg": 0, "var": 15 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Thick Patches of Saltmarsh Bulrush",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:tallplant-bolboschoenusmaritimus-land-normal-free"
+          ],
+          "minTemp": -4,
+          "maxTemp": 22,
+          "minRain": 0.2,
+          "maxRain": 1,
+		  "minFertility": 0.5,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "chance": 0.2,
+          "maxY": 0.01,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 145, "var": 55 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Creeping Water Primrose",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:waterlily-ludwigiapeploides"
+          ],
+		"minTemp": 10,
+		"maxTemp": 40,
+		"minFertility": 0.5,
+		"maxFertility": 1,
+     "quantity": { "avg": 150, "var": 125 },
+		"offsetX": { "avg": 0, "var": 9 },
+		"offsetZ": { "avg": 0, "var": 9 },
+		"chance": 0.05
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large Patches of Common Reed",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:tallplant-phragmitesaustralis-land-normal-free"
+          ],
+          "minTemp": 0,
+          "maxTemp": 40,
+          "minRain": 0.5,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "chance": 0.015,
+          "maxY": 0.45,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 1550, "var": 1250 },
+          "offsetX": { "avg": 0, "var": 55 },
+          "offsetZ": { "avg": 0, "var": 55 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Thick Patches of Common Reed",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:tallplant-phragmitesaustralis-land-normal-free"
+          ],
+          "minTemp": 0,
+          "maxTemp": 40,
+          "minRain": 0.5,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "chance": 0.03,
+          "maxY": 0.45,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 550, "var": 250 },
+          "offsetX": { "avg": 0, "var": 15 },
+          "offsetZ": { "avg": 0, "var": 15 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large Varied patches of Bogbean",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:waterlily-menyanthestrifoliata"
+          ],
+          "minTemp": -8,
+          "maxTemp": 10,
+          "minRain": 0.08,
+          "maxRain": 1,
+		      "minFertility": 0,
+		      "maxFertility": 0.5,
+		      "minForest": 0,
+		      "maxForest": 0.4,
+      		"quantity": { "avg": 250, "var": 245 },
+	     	"chance": 0.075
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large Varied patches of Water Lettuce",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:waterlily-pistiastratiotes"
+          ],
+		"minTemp": 19,
+		"maxTemp": 40,
+		"minRain": 0.22,
+		"maxRain": 1,
+		"quantity": { "avg": 30, "var": 15 },
+		"chance": 0.8
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Dense patches of Water Lettuce",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:waterlily-pistiastratiotes"
+          ],
+		"minTemp": 19,
+		"maxTemp": 40,
+		"minRain": 0.22,
+		"maxRain": 1,
+		"quantity": { "avg": 300, "var": 150 },
+    "offsetX": { "avg": 0, "var": 15 },
+    "offsetZ": { "avg": 0, "var": 15 },
+		"chance": 0.05
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Floating Bladderwort",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:waterlily-utriculariagibba"
+          ],
+		"minTemp": 2,
+		"maxTemp": 34,
+		"minRain": 0.55,
+		"maxRain": 1,
+		"quantity": { "avg": 14, "var": 8 },
+		"chance": 0.3
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Carolina Cabomba",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:aquatic-cabombacaroliniana-section"
+          ],
+		"minTemp": 8,
+		"maxTemp": 40,
+		"minRain": 0.12,
+		"quantity": { "avg": 9, "var": 8 },
+		"offsetX": { "avg": 0, "var": 7 },
+		"offsetZ": { "avg": 0, "var": 7 },
+		"chance": 1,
+		"minWaterDepth": 1,
+		"maxWaterDepth": 3,
+		"placement": "UnderWater"
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Dense thicket of Carolina Cabomba",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:aquatic-cabombacaroliniana-section"
+          ],
+		"minTemp": 8,
+		"maxTemp": 40,
+		"minRain": 0.22,
+		"quantity": { "avg": 90, "var": 80 },
+		"offsetX": { "avg": 0, "var": 7 },
+		"offsetZ": { "avg": 0, "var": 7 },
+		"chance": 0.02,
+		"minWaterDepth": 1,
+		"maxWaterDepth": 6,
+		"placement": "UnderWater"
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Sea Lettuce",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:aquaticplant-ulvalactuca"
+          ],
+		"minTemp": -6,
+		"maxTemp": 40,
+		"minRain": 0.05,
+		"quantity": { "avg": 10, "var": 8 },
+		"offsetX": { "avg": 0, "var": 15 },
+		"offsetZ": { "avg": 0, "var": 15 },
+		"chance": 0.5,
+		"minWaterDepth": 1,
+		"maxWaterDepth": 6,
+		"placement": "UnderSeaWater"
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Dense patches of Sea Lettuce",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:aquaticplant-ulvalactuca"
+          ],
+		"minTemp": -6,
+		"maxTemp": 40,
+		"minRain": 0.05,
+		"quantity": { "avg": 500, "var": 258 },
+		"offsetX": { "avg": 0, "var": 25 },
+		"offsetZ": { "avg": 0, "var": 25 },
+		"chance": 0.1,
+		"minWaterDepth": 1,
+		"maxWaterDepth": 6,
+		"placement": "UnderSeaWater"
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+      }
+]
+

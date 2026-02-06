@@ -1,0 +1,104 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": -2,
+		"resetBelowTemperature": 0,
+		"stopBelowTemperature": 2,
+		
+		"revertBlockAboveTemperature": 42,
+		"resetAboveTemperature": 38,
+		"stopAboveTemperature": 34,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 2.25, "var": 0.09 },
+		"*-flowering": { "avg": 4.04, "var": 0.09 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }},
+		"stackable": true
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonesmediterraneanregion:fruit-{type}", "quantity": { "avg": 2.5 }  },
+			"harvestedBlockCode": "floralzonesmediterraneanregion:bigberrybush-{type}-empty"
+		}} ],
+		"*-flowering": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-{type}", "quantity": { "avg": 4.5 }  },
+			"harvestedBlockCode": "floralzonesmediterraneanregion:bigberrybush-{type}-empty"
+		}} ],
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["capparisspinosa"] },
+		{ "code": "state", "states": ["empty","flowering","ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*": { "base": "block/plant/berrybush/capparisspinosa" }
+	},
+	"randomizeRotations": false,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-capparisspinosa-empty": {
+		"leaves": { "base": "block/plant/berrybush/capparisspinosa-empty" },
+		"flower": { "base": "block/plant/berrybush/capparisspinosa-empty" }
+		},
+		"*-capparisspinosa-flowering": {
+		"leaves": { "base": "block/plant/berrybush/capparisspinosa-empty" },
+			"flower": { "base": "block/plant/berrybush/capparisspinosa-flowering" }
+		},
+		"*-capparisspinosa-ripe": {
+		"leaves": { "base": "block/plant/berrybush/capparisspinosa-empty" },
+			"flower": { "base": "block/plant/berrybush/capparisspinosa-ripe" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"collisionbox": null,
+	"resistance": 5,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-capparisspinosa-ripe": [			{ "type": "block", "code": "floralzonesmediterraneanregion:bigberrybush-{type}-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-{type}", "quantity": { "avg": 2.5 }   },
+			],
+		"*-capparisspinosa-flowering": [			{ "type": "block", "code": "floralzonesmediterraneanregion:bigberrybush-{type}-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:vegetable-{type}", "quantity": { "avg": 4.5 }   },
+			],
+		"*": [			{ "type": "block", "code": "floralzonesmediterraneanregion:bigberrybush-{type}-empty", "quantity": { "avg": 1 }  }]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+}

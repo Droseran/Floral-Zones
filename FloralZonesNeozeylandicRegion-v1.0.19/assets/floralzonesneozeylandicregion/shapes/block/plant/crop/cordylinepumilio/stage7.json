@@ -1,0 +1,97 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 24,
+	"textureSizes": {
+		"stage 5": [24,24],
+		"stage 6": [24,24]
+	},
+	"textures": {
+		"stage 5": "block/plant/crop/cordylinepumilio/stage 5",
+		"stage 6": "block/plant/crop/cordylinepumilio/stage 6"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face 1",
+					"from": [ -10.0, 0.0, 0.0 ],
+					"to": [ 10.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#stage 5", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "autoUv": false, "windMode": [0,7,7,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face 2",
+					"from": [ -10.0, 0.0, 0.0 ],
+					"to": [ 10.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 119.0,
+					"faces": {
+						"north": { "texture": "#stage 6", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "autoUv": false, "windMode": [0,7,7,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face 3",
+					"from": [ -10.0, 0.0, 0.0 ],
+					"to": [ 10.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -119.0,
+					"faces": {
+						"north": { "texture": "#stage 6", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "autoUv": false, "windMode": [0,7,7,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face 4",
+					"from": [ -10.0, 0.0, 0.0 ],
+					"to": [ 10.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 172.0,
+					"faces": {
+						"north": { "texture": "#stage 6", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "autoUv": false, "windMode": [0,7,7,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face 5",
+					"from": [ -10.0, 0.0, 0.0 ],
+					"to": [ 10.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -86.0,
+					"faces": {
+						"north": { "texture": "#stage 5", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "autoUv": false, "windMode": [0,7,7,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face 6",
+					"from": [ -10.0, 0.0, 0.0 ],
+					"to": [ 10.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 116.0,
+					"faces": {
+						"north": { "texture": "#stage 5", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "autoUv": false, "windMode": [0,7,7,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		}
+	]}

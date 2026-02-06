@@ -1,0 +1,166 @@
+[
+	{
+		ingredientPattern: "_H,HP,PS",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "floralzonescaribbeanregion:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofing-sod-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H_,HPH,PSP",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "floralzonescaribbeanregion:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingridge-sod-ns-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H_,HHH,PSP",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "floralzonescaribbeanregion:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingtip-sod-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "PH_,PH_,PSH",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "floralzonescaribbeanregion:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-sod-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H,HH,PS",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "floralzonescaribbeanregion:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerouter-sod-east-free", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "__H,_H_,H__",
+		ingredients: {
+			"H": { type: "item", code: "floralzonescaribbeanregion:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofing-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H_,H_H",
+		ingredients: {
+			"H": { type: "item", code: "floralzonescaribbeanregion:plank-*", name: "wood", allowedVariants: ["lysilomalatisiliquum"], quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofingridge-{wood}-ns-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H_,HHH",
+		ingredients: {
+			"H": { type: "item", code: "floralzonescaribbeanregion:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofingtip-{wood}-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H,H_,_H",
+		ingredients: {
+			"H": { type: "item", code: "floralzonescaribbeanregion:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofingcornerinner-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H,HH",
+		ingredients: {
+			"H": { type: "item", code: "floralzonescaribbeanregion:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofingcornerouter-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,___,_H_",
+		ingredients: {
+			"H": { type: "block", code: "floralzonescaribbeanregion:slantedroofing-*-east-free", name: "wood", allowedVariants: ["lysilomalatisiliquum"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofingbottom-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H_,___,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonescaribbeanregion:slantedroofing-*-east-free", name: "wood", allowedVariants: ["lysilomalatisiliquum"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofingtop-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,H__,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonescaribbeanregion:slantedroofing-*-east-free", name: "wood", allowedVariants: ["lysilomalatisiliquum"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofinghalfleft-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,__H,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonescaribbeanregion:slantedroofing-*-east-free", name: "wood", allowedVariants: ["lysilomalatisiliquum"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofinghalfright-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,_H_,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonescaribbeanregion:slantedroofingridge-*-ns-free", name: "wood", allowedVariants: ["lysilomalatisiliquum"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofingridgeend-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,H__,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonescaribbeanregion:slantedroofingridge-*-ns-free", name: "wood", allowedVariants: ["lysilomalatisiliquum"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofingridgehalfleft-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,__H,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonescaribbeanregion:slantedroofingridge-*-ns-free", name: "wood", allowedVariants: ["lysilomalatisiliquum"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:slantedroofingridgehalfright-{wood}-east-free", quantity: 1  }
+	}
+]

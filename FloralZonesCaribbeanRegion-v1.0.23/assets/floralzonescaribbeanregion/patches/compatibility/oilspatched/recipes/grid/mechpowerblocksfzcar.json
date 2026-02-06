@@ -1,0 +1,129 @@
+[
+	{
+		"ingredientPattern": "_H_,_C_,RSO",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 80 },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 50 },
+			"R": { "type": "item", "code": "game:resin" },
+			"S": { "type": "block", "code": "floralzonescaribbeanregion:log-placed-*-ud", "quantity": 2 },
+			"O": { "type": "block", "code": "game:woodbucket" }
+		},
+		"width": 3,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "oils:plantoil-*" },
+				"requiresLitres": 1
+			}
+		},
+		"output": { "type": "block", "code": "game:windmillrotor-north", "quantity": 1 },
+		"enabled": false
+	},
+	{
+		"ingredientPattern": "H_,C_,SO",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 5 },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 5 },
+			"S": { "type": "block", "code": "floralzonescaribbeanregion:log-placed-*-ud", "name": "wood" },
+			"O": { "type": "block", "code": "game:woodbucket" }
+		},
+		"width": 2,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "oils:plantoil-*" },
+				"requiresLitres": 1
+			}
+		},
+		"output": { "type": "block", "code": "game:woodenaxle-ud", "quantity": 2 },
+		"enabled": false
+	},
+	{
+		"ingredientPattern": "HX_,PCP,RSO",
+		"ingredients": {
+			"X": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 10 },
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 10 },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 10 },
+			"S": { "type": "block", "code": "floralzonescaribbeanregion:log-placed-*-ud" },
+			"R": { "type": "item", "code": "game:resin" },
+			"P": { "type": "item", "code": "game:stick" },
+			"O": { "type": "block", "code": "game:woodbucket" }
+		},
+		"width": 3,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "oils:plantoil-*" },
+				"requiresLitres": 1
+			}
+		},
+		"output": { "type": "block", "code": "game:angledgears-s", "quantity": 1 },
+		"enabled": false
+	},
+	{
+		"ingredientPattern": "HCR,PAP,_O_",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 50 },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 20 },
+			"R": { "type": "item", "code": "game:resin", "quantity": 4 },
+			"P": { "type": "item", "code": "floralzonescaribbeanregion:plank-*", "name": "wood", "quantity": 4 },
+			"O": { "type": "block", "code": "game:woodbucket" },
+			"A": { "type": "block", "code": "game:woodenaxle-ud" }
+		},
+		"width": 3,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "oils:plantoil-*" },
+				"requiresLitres": 1
+			}
+		},
+		"output": { "type": "block", "code": "game:woodentoggle-ns", "quantity": 1 },
+		"enabled": false
+	},
+	{
+		"ingredientPattern": "HCX,PAS,RO_",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 30 },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 15 },
+			"X": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 25 },
+			"P": { "type": "item", "code": "floralzonescaribbeanregion:plank-*", "quantity": 8 },
+			"A": { "type": "block", "code": "floralzonescaribbeanregion:log-placed-*-ud" },
+			"S": { "type": "item", "code": "game:stick", "quantity": 8 },
+			"R": { "type": "item", "code": "game:resin", "quantity": 2 },
+			"O": { "type": "block", "code": "game:woodbucket" }
+		},
+		"width": 3,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "oils:plantoil-*" },
+				"requiresLitres": 2
+			}
+		},
+		"output": { "type": "block", "code": "game:clutch-north", "quantity": 1 },
+		"enabled": false
+	},
+	{
+		"ingredientPattern": "HCX,GPG,RO_",
+		"ingredients": {
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 30 },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 15 },
+			"X": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 25 },
+			"G": { "type": "block", "code": "game:angledgears-s" },
+			"P": { "type": "item", "code": "floralzonescaribbeanregion:plank-*", "name": "wood", "quantity": 8 },
+			"R": { "type": "item", "code": "game:resin", "quantity": 2 },
+			"O": { "type": "block", "code": "game:woodbucket" }
+		},
+		"width": 3,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "oils:plantoil-*" },
+				"requiresLitres": 1
+			}
+		},
+		"output": { "type": "block", "code": "game:transmission-ns", "quantity": 1 },
+		"enabled": false
+	}
+]

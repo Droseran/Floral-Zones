@@ -1,0 +1,77 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:entities/humanoid/usefultrader-forester.json",
+		"op": "addmerge",
+		"path": "/attributes/tradeProps/selling/list",
+		"value": [
+			{
+				"code": "floralzonescentralaustralianregion:treeseed-corymbiaaparrerinja",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonescentralaustralianregion:treeseed-eucalyptuscamaldulensis",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonescentralaustralianregion:smallberrybush-solanumellipticum-empty",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonescentralaustralianregion:smallberrybush-swainsonaformosa-empty",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonescentralaustralianregion:smallberrybush-enchylaenatomentosa-empty",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			}
+		]
+	}
+]

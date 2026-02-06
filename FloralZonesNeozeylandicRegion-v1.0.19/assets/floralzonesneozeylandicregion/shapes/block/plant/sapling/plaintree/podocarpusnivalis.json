@@ -1,0 +1,99 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"podocarpusnivalis1": [32,32],
+		"podocarpusnivalis2": [32,32]
+	},
+	"textures": {
+		"podocarpusnivalis1": "block/plant/leaves/large/podocarpusnivalis1",
+		"podocarpusnivalis2": "block/plant/leaves/large/podocarpusnivalis2"
+	},
+	"elements": [
+		{
+			"name": "Cube3",
+			"from": [ -8.0, -8.0, 8.0 ],
+			"to": [ 24.0, 24.0, 8.0 ],
+			"shade": false,			"gradientShade": true,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalGrass",
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationX": 0.33,
+			"rotationY": -22.5,
+			"rotationZ": -0.41,
+			"renderPass": 1,
+			"faces": {
+				"south": { "texture": "#podocarpusnivalis1", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+			}
+		},
+		{
+			"name": "Cube4",
+			"from": [ -8.0, -8.0, 8.0 ],
+			"to": [ 24.0, 24.0, 8.0 ],
+			"shade": false,			"gradientShade": true,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalGrass",
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationX": 0.48,
+			"rotationY": 67.5,
+			"rotationZ": -0.56,
+			"renderPass": 1,
+			"faces": {
+				"south": { "texture": "#podocarpusnivalis2", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+			}
+		},
+		{
+			"name": "Cube1",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 16.0, 16.0, 16.0 ],
+			"shade": false,			"gradientShade": true,
+			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"seasonColorMap": "seasonalGrass",
+			"renderPass": 1,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Cube6",
+					"from": [ -8.0, -8.0, 8.0 ],
+					"to": [ 24.0, 24.0, 8.0 ],
+					"shade": false,					"gradientShade": true,
+					"gradientShade": true,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalGrass",
+					"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+					"rotationX": 0.57,
+					"rotationY": -67.5,
+					"rotationZ": -0.32,
+			"renderPass": 1,
+					"faces": {
+						"south": { "texture": "#podocarpusnivalis1", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "Cube7",
+					"from": [ -8.0, -8.0, 8.0 ],
+					"to": [ 24.0, 24.0, 8.0 ],
+					"shade": false,					"gradientShade": true,
+					"gradientShade": true,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalGrass",
+					"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+					"rotationX": 0.21,
+					"rotationY": 22.5,
+					"rotationZ": -0.63,
+			"renderPass": 1,
+					"faces": {
+						"south": { "texture": "#podocarpusnivalis2", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,108 @@
+{
+	"code": "tallplant",
+	"class": "BlockReeds",
+	"entityClassByType": {
+		"*-harvested-*": "Transient"
+	},
+	"attributes": {
+        "butterflyFeedByType": {"*-normal": false},
+        "beeFeedByType": {"*-normal": false},
+		"plantContainable": {
+			"smallContainerByType": {	
+				"*-sonchuskirkii-*": {"shape": {"base": "block/plant/flower/sonchuskirkii1"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}}			
+			},
+			"largeContainerByType": {
+				"*-sonchuskirkii-*": {"shape": {"base": "block/plant/flower/sonchuskirkii1"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}}										
+			}
+		},
+		"transientPropsByType": {
+			"tallplant-sonchuskirkii-*": {
+				"convertFrom": "*-harvested-{cover}", 
+				"convertTo": "tallplant-sonchuskirkii-land-normal-{cover}", 
+				"inGameHours": "168",
+				"resetBelowTemperature": 4,
+				"stopBelowTemperature": 10
+			}
+		},
+		"maxWaterDepthByType": {
+			"tallplant-sonchuskirkii-*": 0,
+		}
+	},
+	"allowedVariants": [ 
+		"*-land-*", 
+	],
+	"variantgroups": [
+		{ "code": "type", "states": ["sonchuskirkii"] },
+		{ "code": "habitat", "states": ["land"] },
+		{ "code": "state", "states": ["normal", "harvested"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"creativeinventory": { 
+		"general": ["*-land-normal-free"], 
+		"flora": ["*-land-normal-free"] 
+	},
+	"shapeByType": {
+		"*-sonchuskirkii-*-harvested-*":{"base": "block/plant/flower/sonchuskirkii_harvested" },
+		"*-sonchuskirkii-*":{"base": "block/plant/flower/sonchuskirkii1", "alternates": [ { "base": "block/plant/flower/sonchuskirkii2" },{ "base": "block/plant/flower/sonchuskirkii3" } ] }
+	},
+	"lod2shapeByType": {
+	},
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"renderpass": "OpaqueNoCull",
+	"matterstate": "solid",
+	"blockmaterial": "plant",
+	"faceCullMode": "NeverCull",
+	"randomDrawOffset": true,
+	"randomizeRotations": true,
+	"texturesByType": {
+		"*-sonchuskirkii-*": {"flower": { "base": "block/plant/flower/petal/{type}" }}
+	},
+	"randomSizeAdjust": 0.33,
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": { "all" : false },
+	"emitsideao": { "all": false },
+	"sideao": { "all": true },
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0, "y1": 0, "z1": 0,
+		"x2": 1, "y2": 1, "z2": 1
+	},
+	"guitransform": {
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+  	"inside": "game:walk/grass"
+	},
+	"rainPermeableByType": {
+		"*-land-*": true
+	},
+	"materialDensity": 200,
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": -1.5, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 1.2, "z": 0.5 },
+		"scale": 0.65
+	},
+	"dropsByType": {
+	"*-sonchuskirkii-*-harvested-*":  [{ "type": "block", "code": "floralzonesneozeylandicregion:tallplant-sonchuskirkii-land-harvested-free", "quantity": { "avg": 1 }}],
+		"*-sonchuskirkii-*-normal-*": [ { "type": "item", "code": "floralzonesneozeylandicregion:vegetable-sonchuskirkii", "quantity": { "avg": 1 }}]
+	}
+}

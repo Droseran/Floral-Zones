@@ -1,0 +1,100 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"luffaaegyptiaca": [8,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "body",
+					"from": [ -3.5, 0.0, 0.5 ],
+					"to": [ 2.5, 2.0, 2.5 ],
+					"rotationOrigin": [ -1.5, 0.0, 0.5 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#luffaaegyptiaca", "uv": [ 0.0, 0.0, 2.0, 6.0 ], "rotation": 90 },
+						"east": { "texture": "#luffaaegyptiaca", "uv": [ 4.0, 0.0, 6.0, 2.0 ] },
+						"south": { "texture": "#luffaaegyptiaca", "uv": [ 2.5, 0.0, 4.5, 6.0 ], "rotation": 90 },
+						"west": { "texture": "#luffaaegyptiaca", "uv": [ 4.5, 2.0, 6.5, 4.0 ] },
+						"up": { "texture": "#luffaaegyptiaca", "uv": [ 2.5, 2.0, 4.5, 8.0 ], "rotation": 90 },
+						"down": { "texture": "#luffaaegyptiaca", "uv": [ 0.0, 1.0, 2.0, 7.0 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "top",
+							"from": [ 6.0, 0.2, 0.2 ],
+							"to": [ 7.0, 1.8, 1.8 ],
+							"rotationOrigin": [ 6.0, 0.2, 0.2 ],
+							"rotationY": -10.0,
+							"faces": {
+								"north": { "texture": "#luffaaegyptiaca", "uv": [ 5.0, 4.5, 6.0, 6.0 ] },
+								"east": { "texture": "#luffaaegyptiaca", "uv": [ 4.5, 3.0, 6.0, 4.5 ] },
+								"south": { "texture": "#luffaaegyptiaca", "uv": [ 5.5, 4.0, 6.5, 5.5 ] },
+								"up": { "texture": "#luffaaegyptiaca", "uv": [ 4.0, 3.0, 5.0, 4.5 ] },
+								"down": { "texture": "#luffaaegyptiaca", "uv": [ 5.5, 2.0, 6.5, 3.5 ] }
+							},
+							"children": [
+								{
+									"name": "very top",
+									"from": [ 1.0, 0.2, 0.2 ],
+									"to": [ 2.0, 1.4, 1.4 ],
+									"rotationOrigin": [ 1.0, 0.2, 0.2 ],
+									"rotationY": -10.0,
+									"faces": {
+										"north": { "texture": "#luffaaegyptiaca", "uv": [ 4.5, 4.0, 5.5, 5.0 ] },
+										"east": { "texture": "#luffaaegyptiaca", "uv": [ 4.0, 3.0, 5.0, 4.0 ] },
+										"south": { "texture": "#luffaaegyptiaca", "uv": [ 4.0, 2.5, 5.0, 3.5 ] },
+										"up": { "texture": "#luffaaegyptiaca", "uv": [ 4.5, 4.0, 5.5, 5.0 ] },
+										"down": { "texture": "#luffaaegyptiaca", "uv": [ 5.5, 1.5, 6.5, 2.5 ] }
+									},
+									"children": [
+										{
+											"name": "stem",
+											"from": [ 1.0, 0.4, 0.4 ],
+											"to": [ 3.0, 0.8, 0.8 ],
+											"rotationOrigin": [ 1.0, 0.4, 0.4 ],
+											"faces": {
+												"north": { "texture": "#luffaaegyptiaca", "uv": [ 6.5, 1.5, 7.0, 3.5 ], "rotation": 90 },
+												"east": { "texture": "#luffaaegyptiaca", "uv": [ 6.5, 1.5, 7.0, 2.0 ] },
+												"south": { "texture": "#luffaaegyptiaca", "uv": [ 7.0, 2.0, 7.5, 4.0 ], "rotation": 90 },
+												"up": { "texture": "#luffaaegyptiaca", "uv": [ 7.0, 0.5, 7.5, 2.5 ], "rotation": 90 },
+												"down": { "texture": "#luffaaegyptiaca", "uv": [ 7.0, 4.0, 7.5, 6.0 ], "rotation": 90 }
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Cube2",
+							"from": [ -1.0, 0.1, 0.1 ],
+							"to": [ 0.0, 1.9, 1.9 ],
+							"rotationOrigin": [ 0.0, 0.1, 0.1 ],
+							"rotationY": 5.0,
+							"faces": {
+								"north": { "texture": "#luffaaegyptiaca", "uv": [ 4.5, 5.5, 6.0, 6.5 ], "rotation": 90 },
+								"south": { "texture": "#luffaaegyptiaca", "uv": [ 4.0, 5.0, 5.0, 6.5 ] },
+								"west": { "texture": "#luffaaegyptiaca", "uv": [ 4.5, 5.0, 6.0, 6.5 ] },
+								"up": { "texture": "#luffaaegyptiaca", "uv": [ 4.0, 5.5, 5.0, 7.0 ] },
+								"down": { "texture": "#luffaaegyptiaca", "uv": [ 4.0, 3.5, 5.0, 5.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

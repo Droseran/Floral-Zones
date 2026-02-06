@@ -1,0 +1,60 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 8,
+	"textureSizes": {
+		"aloesuccotrina-leaf": [4,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [ 4.0, 0.1, 7.6 ],
+			"to": [ 12.0, 0.6, 8.6 ],
+			"rotationOrigin": [ 4.0, 0.1, 7.6 ],
+			"faces": {
+				"north": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "rotation": 270 },
+				"east": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#aloesuccotrina-leaf", "uv": [ 3.0, 7.0, 4.0, 7.5 ], "windMode": [-1,-1,-1,-1] },
+				"up": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#aloesuccotrina-leaf", "uv": [ 2.0, 0.0, 3.0, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Side Frond",
+					"from": [ 0.1, -0.09, -1.0 ],
+					"to": [ 8.2, 0.41, 0.0 ],
+					"rotationOrigin": [ 0.1, -0.1, -1.0 ],
+					"rotationY": -7.0,
+					"faces": {
+						"north": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "rotation": 270 },
+						"east": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#aloesuccotrina-leaf", "uv": [ 3.0, 7.0, 4.0, 7.5 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#aloesuccotrina-leaf", "uv": [ 1.0, 0.0, 2.0, 8.0 ], "rotation": 270, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Side Frond2",
+					"from": [ 0.1, -0.1, 1.0 ],
+					"to": [ 8.2, 0.4, 2.0 ],
+					"rotationOrigin": [ 0.1, -0.1, 2.0 ],
+					"rotationY": 7.0,
+					"faces": {
+						"north": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "rotation": 270 },
+						"east": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#aloesuccotrina-leaf", "uv": [ 3.0, 7.0, 4.0, 7.5 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#aloesuccotrina-leaf", "uv": [ 0.0, 0.0, 1.0, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#aloesuccotrina-leaf", "uv": [ 1.0, 0.0, 2.0, 8.0 ], "rotation": 270, "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}

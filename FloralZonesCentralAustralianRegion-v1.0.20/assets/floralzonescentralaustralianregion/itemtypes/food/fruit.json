@@ -1,0 +1,82 @@
+{
+  "code": "fruit",
+  "maxstacksize": 64,
+  "variantgroups": [
+    { "loadFromProperties": "floralzonescentralaustralianregion:block/fruit" }
+  ],
+  "materialDensityByType": {
+    "*": 600
+  },
+  "attributes": {
+    "inContainerTexture": {
+      "base": "game:block/food/pie/fill-pomegranate"
+    },
+			"foodTags": ["Fruit"],
+    "nutritionPropsWhenInMealByType": {
+      "*-enchylaenatomentosa": {
+        "satiety": 60,
+        "foodcategory": "Fruit"
+      }
+    },
+		"juiceablePropertiesByType": {
+			"*-enchylaenatomentosa": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescentralaustralianregion:juiceportion-enchylaenatomentosa", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescentralaustralianregion:pressedmash-enchylaenatomentosa", "stacksize": 1 }
+			}
+		}},
+  "shapebytype": {
+    "*": { "base": "floralzonescentralaustralianregion:item/food/fruit/{fruit}" }
+  },
+  "textureByType": {
+    "*": { "base": "floralzonescentralaustralianregion:item/food/fruit/{fruit}" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*-enchylaenatomentosa": {
+      "satiety": 60,
+      "foodcategory": "Fruit"
+    }
+  },
+  "transitionablePropsByType": {
+    "*-enchylaenatomentosa": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 330 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ]
+  },
+  "guiTransformByType": {
+    "*-enchylaenatomentosa": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+    }
+  },
+  "fpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.4
+		}
+  },
+  "tpHandTransformByType": {
+    "*":{
+			"translation": { "x": -1.2, "y": 0, "z": -1.1 },
+			"rotation": { "x": 0, "y": 0, "z": -98 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.25
+    }
+	}
+}

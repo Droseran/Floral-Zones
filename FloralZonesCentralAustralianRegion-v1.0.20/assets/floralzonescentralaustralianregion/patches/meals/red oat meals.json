@@ -1,0 +1,20 @@
+[
+  {
+    "file": "game:recipes/cooking/porridge",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonescentralaustralianregion:grain-themedatriandra",
+      "shapeElement": "bowl/grain/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/grain-themedatriandra",
+    "value": [ "grain", "group1" ]
+  }
+]

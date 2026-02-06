@@ -1,0 +1,52 @@
+﻿[
+	{
+		"op": "addeach",
+		"path": "/variantgroups/0/states/-",
+		"value": ["corymbiaaparrerinja", "eucalyptuscamaldulensis"],
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType/*-corymbiaaparrerinja-*",
+		"value": {
+			"bark": { base: "floralzonescentralaustralianregion:block/wood/bark/{variant}"},
+			"inside": { base: "game:block/wood/debarked/{variant}", rotation: 90 },
+			"basket-bark": { base: "floralzonescentralaustralianregion:block/wood/bark/{variant}"},
+			"basket-inside": { base: "game:block/wood/debarked/{variant}", rotation: 90 },
+		},
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType/*-eucalyptuscamaldulensis-*",
+		"value": {
+			"bark": { base: "floralzonescentralaustralianregion:block/wood/bark/{variant}"},
+			"inside": { base: "game:block/wood/debarked/{variant}", rotation: 90 },
+			"basket-bark": { base: "floralzonescentralaustralianregion:block/wood/bark/{variant}"},
+			"basket-inside": { base: "game:block/wood/debarked/{variant}", rotation: 90 },
+		},
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+        "op": "move",
+		"frompath": "/texturesByType/*",
+		"path": "/temp",
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server",
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/texturesByType/*",
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server",
+    }
+]

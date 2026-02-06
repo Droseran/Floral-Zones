@@ -1,0 +1,38 @@
+{
+"treeWorldPropertycode": "acaciaaneura",
+	"sizeMultiplier": 1.3,
+	"trunks": [{
+		"widthloss": 0.06,
+		"dieAt": { "avg": 0.002 },
+		"branchStart": { "avg": 0.34, "var": 0.05 },
+		"branchSpacing": { "avg": 0, "var": 0 },
+		"branchVerticalAngle":  { "avg": 1.6, "var": 0.1 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 1, "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 1 },
+		"branchquantity": { "avg": 5, "var": 0 },
+		"branchQuantityEvolve": { "transform": "linear", "factor": 3 },
+		"branchWidthLossMul": 0.5,
+		"angleVertEvolve": { "transform": "smoothstep", "factor": 2.3 }
+	}
+	],
+	"branches": [{
+		"widthloss": 0.06,
+		"gravityDrag": 0,
+		"dieAt": { "avg": 0.002 },
+		"branchStart":  { "avg": 0.2, "var": 0.1 },
+		"branchSpacing": { "avg": 0.4, "var": 0 },
+		"branchVerticalAngle": { "dist": "gaussian", "avg": 1.2, "var": 0.2 },
+		"branchHorizontalAngle": { "dist": "inversegaussian", "avg": 0, "var": 3.1415 },
+		"branchquantity": { "avg": 5, "var": 0 },
+		"branchQuantityEvolve": { "transform": "linear", "factor": 1 },
+		"branchWidthMultiplier": { "avg": 0.8, "var": 0 }
+	}],
+	"treeBlocks": {
+		"logBlockcode": "log-grown-acacia-ud",
+		"leavesBlockcode": "leaves-grown-acacia",
+		"leavesBranchyBlockcode": "leavesbranchy-grown-acacia",
+		"vinesBlockcode": "wildvine-section-north",
+    "vinesEndBlockcode": "wildvine-end-north", "mossDecorcode": "attachingplant-spottymoss"
+	}
+}

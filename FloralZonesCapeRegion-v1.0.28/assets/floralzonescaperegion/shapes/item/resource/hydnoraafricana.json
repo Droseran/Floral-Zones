@@ -1,0 +1,110 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"hydnoraafricana-fruit": [4,4]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Center",
+			"from": [ 6.93, 0.198, 6.93 ],
+			"to": [ 8.91, 1.683, 8.91 ],
+			"rotationOrigin": [ 6.93, 0.198, 6.93 ],
+			"faces": {
+				"north": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 1.0, 3.0, 3.0 ], "autoUv": false },
+				"east": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 1.0, 3.0, 3.0 ], "autoUv": false },
+				"south": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 1.0, 3.0, 3.0 ], "autoUv": false },
+				"west": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 1.0, 3.0, 3.0 ], "autoUv": false },
+				"up": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.5, 1.0, 3.5, 4.0 ], "autoUv": false },
+				"down": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.5, 1.0, 3.5, 4.0 ], "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Cube2",
+					"from": [ 0.2475, -0.198, 0.2475 ],
+					"to": [ 1.7325, 1.782, 1.7325 ],
+					"rotationOrigin": [ 0.2475, -0.198, 0.2475 ],
+					"faces": {
+						"north": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 1.0, 3.0, 3.0 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 1.0, 3.0, 3.0 ], "rotation": 90, "autoUv": false },
+						"south": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 1.0, 3.0, 3.0 ], "rotation": 90, "autoUv": false },
+						"west": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 1.0, 3.0, 3.0 ], "rotation": 90, "autoUv": false },
+						"up": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false },
+						"down": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "stalk",
+							"from": [ 0.3465, 1.98, 0.3465 ],
+							"to": [ 1.1385, 2.97, 1.1385 ],
+							"rotationOrigin": [ 0.3465, 1.98, 0.3465 ],
+							"faces": {
+								"north": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 0.0, 1.5, 1.0 ], "rotation": 90, "autoUv": false },
+								"east": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 0.0, 1.5, 1.0 ], "rotation": 90, "autoUv": false },
+								"south": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 0.0, 1.5, 1.0 ], "rotation": 90, "autoUv": false },
+								"west": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 0.0, 1.5, 1.0 ], "rotation": 90, "autoUv": false },
+								"up": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cube3",
+									"from": [ 0.0495, 0.891, 0.0 ],
+									"to": [ 0.6435, 1.386, 0.198 ],
+									"rotationOrigin": [ 0.0495, 0.891, 0.0 ],
+									"rotationX": 10.0,
+									"faces": {
+										"north": { "texture": "#hydnoraafricana-fruit", "uv": [ 2.5, 0.0, 3.0, 0.5 ], "autoUv": false },
+										"east": { "texture": "#hydnoraafricana-fruit", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#hydnoraafricana-fruit", "uv": [ 2.5, 0.0, 3.0, 0.5 ], "autoUv": false },
+										"west": { "texture": "#hydnoraafricana-fruit", "uv": [ 1.0, 0.0, 1.5, 0.5 ], "autoUv": false },
+										"up": { "texture": "#hydnoraafricana-fruit", "uv": [ 1.5, 0.0, 2.0, 0.5 ], "autoUv": false },
+										"down": { "texture": "#hydnoraafricana-fruit", "uv": [ 1.5, 0.5, 2.0, 1.0 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "Cube4",
+									"from": [ 0.8415, 0.891, 0.297 ],
+									"to": [ 1.4355, 1.386, 0.495 ],
+									"rotationOrigin": [ 0.8415, 0.891, 0.297 ],
+									"rotationX": -22.5,
+									"rotationY": -120.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"north": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "autoUv": false },
+										"east": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "autoUv": false },
+										"south": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "autoUv": false },
+										"west": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "autoUv": false },
+										"up": { "texture": "#hydnoraafricana-fruit", "uv": [ 1.0, 0.0, 1.5, 0.5 ], "autoUv": false },
+										"down": { "texture": "#hydnoraafricana-fruit", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "Cube5",
+									"from": [ 0.2475, 0.891, 0.792 ],
+									"to": [ 0.8415, 1.386, 0.99 ],
+									"rotationOrigin": [ 0.2475, 0.891, 0.792 ],
+									"rotationX": -10.0,
+									"rotationY": 120.0,
+									"rotationZ": 10.0,
+									"faces": {
+										"north": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "autoUv": false },
+										"east": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.0, 0.5, 0.5, 1.0 ], "autoUv": false },
+										"south": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "autoUv": false },
+										"west": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "autoUv": false },
+										"up": { "texture": "#hydnoraafricana-fruit", "uv": [ 1.0, 0.5, 1.5, 1.0 ], "autoUv": false },
+										"down": { "texture": "#hydnoraafricana-fruit", "uv": [ 0.5, 0.5, 1.0, 1.0 ], "autoUv": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

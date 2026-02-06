@@ -1,0 +1,104 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 12,
+	"textureHeight": 12,
+	"textureSizes": {
+		"asparagusscandens": [12,12]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond 1",
+					"from": [ 5.0, 0.0, 10.0 ],
+					"to": [ 17.0, 12.0, 10.0 ],
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalGrass",
+					"rotationOrigin": [ 11.0, 0.0, 10.0 ],
+					"rotationX": 72.0,
+					"rotationZ": -22.5,
+					"faces": {
+						"north": { "texture": "#asparagusscandens", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "windMode": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Frond 2",
+					"from": [ 2.0, 0.0, 10.0 ],
+					"to": [ 14.0, 12.0, 10.0 ],
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalGrass",
+					"rotationOrigin": [ 8.0, 0.0, 10.0 ],
+					"rotationX": 75.0,
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#asparagusscandens", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "windMode": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Frond 3",
+					"from": [ 2.0, 0.0, 7.0 ],
+					"to": [ 14.0, 12.0, 7.0 ],
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalGrass",
+					"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+					"rotationX": 90.0,
+					"rotationY": -12.5,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#asparagusscandens", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "windMode": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Frond 4",
+					"from": [ 2.0, 0.0, 7.0 ],
+					"to": [ 14.0, 12.0, 7.0 ],
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalGrass",
+					"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+					"rotationX": 112.5,
+					"rotationZ": 180.0,
+					"faces": {
+						"north": { "texture": "#asparagusscandens", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "windMode": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Frond 5",
+					"from": [ 2.0, 0.0, 7.0 ],
+					"to": [ 14.0, 12.0, 7.0 ],
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalGrass",
+					"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+					"rotationX": 90.0,
+					"rotationY": 12.5,
+					"rotationZ": -112.5,
+					"faces": {
+						"north": { "texture": "#asparagusscandens", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "windMode": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Frond 6",
+					"from": [ -1.0, 0.0, 7.0 ],
+					"to": [ 11.0, 12.0, 7.0 ],
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalGrass",
+					"rotationOrigin": [ 5.0, 0.0, 7.0 ],
+					"rotationX": 90.0,
+					"rotationY": 16.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#asparagusscandens", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "windMode": [0,1,1,0] }
+					}
+				}
+			]
+		}
+	]}

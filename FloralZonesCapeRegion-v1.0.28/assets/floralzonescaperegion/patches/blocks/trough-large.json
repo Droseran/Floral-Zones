@@ -1,0 +1,32 @@
+[
+     {
+        "op": "addeach",
+        "path": "/attributes/contentConfig/0",
+        "side": "server",
+        "value": [ 
+            { "code": "carpobrotusacinaciformis",
+                "content": { "type": "item", "code": "floralzonescaperegion:fruit-carpobrotusacinaciformis" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-carpobrotusacinaciformis" } ],
+        "file": "game:blocktypes/wood/trough-large.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-carpobrotusacinaciformis": {
+                "base": "block/food/pie/fill-peach",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            }
+        },
+        "file": "game:blocktypes/wood/trough-large.json"
+    }
+]

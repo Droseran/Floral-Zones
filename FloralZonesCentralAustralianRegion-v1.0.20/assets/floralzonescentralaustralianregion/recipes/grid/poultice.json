@@ -1,0 +1,34 @@
+[	
+	{
+		"ingredientPattern": "H	L",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"H": { "type": "item", "code": "floralzonescentralaustralianregion:corymbiasap", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "floralzonescentralaustralianregion:poultice-linen-corymbiasap", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H	C",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+			"H": { "type": "item", "code": "floralzonescentralaustralianregion:corymbiasap", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "floralzonescentralaustralianregion:poultice-reed-corymbiasap", "quantity": 1  }
+	},
+	
+	{
+		"ingredientPattern": "H	P",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+			"H": { "type": "item", "code": "floralzonescentralaustralianregion:corymbiasap", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "floralzonescentralaustralianregion:poultice-reed-corymbiasap", "quantity": 1  }
+	},	
+]

@@ -1,0 +1,259 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/Frond Base 1/Frond Stem 1",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 12,
+	"textureHeight": 16,
+	"textureSizes": {
+		"equisetummyriochaetum": [12,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Base stalk 1",
+			"from": [ 13.0, 2.0, 7.0 ],
+			"to": [ 14.0, 14.0, 8.0 ],
+			"rotationOrigin": [ 13.0, 2.0, 7.0 ],
+			"rotationZ": 98.0,
+			"faces": {
+				"north": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 12.0 ] },
+				"east": { "texture": "#equisetummyriochaetum", "uv": [ 1.0, 0.0, 2.0, 12.0 ] },
+				"south": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 12.0 ] },
+				"west": { "texture": "#equisetummyriochaetum", "uv": [ 1.0, 0.0, 2.0, 12.0 ] },
+				"up": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"down": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Final stalk 1",
+			"from": [ 12.0, 1.7, 7.0 ],
+			"to": [ 13.0, 9.7, 8.0 ],
+			"rotationOrigin": [ 12.5, 1.7, 7.5 ],
+			"rotationX": -15.0,
+			"rotationY": 13.0,
+			"rotationZ": 90.0,
+			"faces": {
+				"north": { "texture": "#equisetummyriochaetum", "uv": [ 2.0, 0.0, 3.0, 8.0 ], "windData": [3,4,4,3] },
+				"east": { "texture": "#equisetummyriochaetum", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "windData": [3,4,4,3] },
+				"south": { "texture": "#equisetummyriochaetum", "uv": [ 2.0, 0.0, 3.0, 8.0 ], "windData": [3,3,4,4] },
+				"west": { "texture": "#equisetummyriochaetum", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "windData": [3,3,4,4] },
+				"up": { "texture": "#equisetummyriochaetum", "uv": [ 2.5, 0.0, 3.5, 1.0 ], "windData": [4,4,4,4] },
+				"down": { "texture": "#equisetummyriochaetum", "uv": [ 2.5, 0.0, 3.5, 1.0 ], "windData": [3,3,3,3] }
+			},
+			"children": [
+				{
+					"name": "Tip",
+					"from": [ 0.2, 8.0, 0.2 ],
+					"to": [ 0.8, 9.6, 0.8 ],
+					"rotationOrigin": [ 0.2, 8.0, 0.2 ],
+					"rotationZ": -4.0,
+					"faces": {
+						"north": { "texture": "#equisetummyriochaetum", "uv": [ 2.5, 0.0, 3.0, 1.5 ], "windData": [4,4,4,3] },
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 3.0, 0.0, 3.5, 1.5 ], "windData": [3,4,4,3] },
+						"south": { "texture": "#equisetummyriochaetum", "uv": [ 3.5, 0.0, 4.0, 1.5 ], "windData": [4,3,4,4] },
+						"west": { "texture": "#equisetummyriochaetum", "uv": [ 2.0, 0.0, 2.5, 1.5 ], "windData": [4,4,4,4] },
+						"up": { "texture": "#equisetummyriochaetum", "uv": [ 3.0, 0.0, 3.5, 0.5 ], "windData": [4,4,4,4] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Second stalk 1",
+			"from": [ 14.0, 0.0, 12.0 ],
+			"to": [ 15.0, 12.0, 13.0 ],
+			"rotationOrigin": [ 14.5, 0.0, 12.5 ],
+			"rotationX": 22.5,
+			"rotationY": -22.5,
+			"rotationZ": 90.0,
+			"faces": {
+				"north": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 12.0 ], "windData": [0,1,1,0] },
+				"east": { "texture": "#equisetummyriochaetum", "uv": [ 1.0, 0.0, 2.0, 12.0 ], "windData": [0,1,1,0] },
+				"south": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 12.0 ], "windData": [0,0,1,1] },
+				"west": { "texture": "#equisetummyriochaetum", "uv": [ 1.0, 0.0, 2.0, 12.0 ], "windData": [0,0,1,1] },
+				"up": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windData": [1,1,1,1] },
+				"down": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+			},
+			"children": [
+				{
+					"name": "Second fronds A 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 12.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 12.0 ], "rotation": 180, "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Second fronds B 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 12.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"rotationY": 45.0,
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 12.0 ], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Second fronds C 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 12.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"rotationY": 90.0,
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 12.0 ], "rotation": 180, "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Second fronds D 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 12.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"rotationY": 135.0,
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 12.0 ], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Third stalk 1",
+			"from": [ 15.0, 1.0, 3.0 ],
+			"to": [ 16.0, 17.0, 4.0 ],
+			"rotationOrigin": [ 15.5, 1.0, 3.5 ],
+			"rotationY": 22.5,
+			"rotationZ": 90.0,
+			"faces": {
+				"north": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windData": [1,2,2,1] },
+				"east": { "texture": "#equisetummyriochaetum", "uv": [ 1.0, 0.0, 2.0, 16.0 ], "windData": [1,2,2,1] },
+				"south": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windData": [1,1,2,2] },
+				"west": { "texture": "#equisetummyriochaetum", "uv": [ 1.0, 0.0, 2.0, 16.0 ], "windData": [1,1,2,2] },
+				"up": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windData": [2,2,2,2] },
+				"down": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windData": [1,1,1,1] }
+			},
+			"children": [
+				{
+					"name": "Third fronds A 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 16.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "windData": [1,2,2,1] }
+					}
+				},
+				{
+					"name": "Third fronds B 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 16.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"rotationY": 45.0,
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "rotation": 180, "windData": [1,2,2,1] }
+					}
+				},
+				{
+					"name": "Third fronds C 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 16.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"rotationY": 90.0,
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "windData": [1,2,2,1] }
+					}
+				},
+				{
+					"name": "Third fronds D 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 16.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"rotationY": 135.0,
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "rotation": 180, "windData": [1,2,2,1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Fourth stalk 1",
+			"from": [ 15.0, 0.5, 7.0 ],
+			"to": [ 16.0, 16.5, 8.0 ],
+			"rotationOrigin": [ 15.5, 0.5, 7.5 ],
+			"rotationY": -8.0,
+			"rotationZ": 90.0,
+			"faces": {
+				"north": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windData": [2,3,3,2] },
+				"east": { "texture": "#equisetummyriochaetum", "uv": [ 1.0, 0.0, 2.0, 16.0 ], "windData": [2,3,3,2] },
+				"south": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windData": [2,2,3,3] },
+				"west": { "texture": "#equisetummyriochaetum", "uv": [ 1.0, 0.0, 2.0, 16.0 ], "windData": [2,2,3,3] },
+				"up": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windData": [3,3,3,3] },
+				"down": { "texture": "#equisetummyriochaetum", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windData": [2,2,2,2] }
+			},
+			"children": [
+				{
+					"name": "Fourth fronds A 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 16.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "rotation": 180, "windData": [2,3,3,2] }
+					}
+				},
+				{
+					"name": "Fourth fronds B 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 16.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"rotationY": 45.0,
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "windData": [2,3,3,2] }
+					}
+				},
+				{
+					"name": "Fourth fronds C 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 16.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"rotationY": 90.0,
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "rotation": 180, "windData": [2,3,3,2] }
+					}
+				},
+				{
+					"name": "Fourth fronds D 1",
+					"from": [ 0.5, 0.0, -3.5 ],
+					"to": [ 0.5, 16.0, 4.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 0.0, 0.5 ],
+					"rotationY": 135.0,
+					"faces": {
+						"east": { "texture": "#equisetummyriochaetum", "uv": [ 4.0, 0.0, 12.0, 16.0 ], "windData": [2,3,3,2] }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,670 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 8,
+	"textureSizes": {
+		"opuntiatriacantha": [4,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Segment 1",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 1.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationZ": 12.5,
+					"faces": {
+						"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 4.0, 2.0, 8.0 ], "rotation": 180 }
+					},
+					"children": [
+						{
+							"name": "Segment side 1",
+							"from": [ 1.0, 0.0, -0.5 ],
+							"to": [ 1.0, 4.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+							"faces": {
+								"east": { "texture": "#opuntiatriacantha", "uv": [ 0.5, 4.0, 1.5, 8.0 ] }
+							}
+						},
+						{
+							"name": "Segment 2",
+							"from": [ 0.0, 4.0, 0.0 ],
+							"to": [ 2.0, 7.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 4.0, 0.0 ],
+							"rotationY": 2.0,
+							"rotationZ": -12.5,
+							"faces": {
+								"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 5.0, 4.0, 8.0 ], "rotation": 180 }
+							},
+							"children": [
+								{
+									"name": "Segment side 2",
+									"from": [ 1.0, 0.0, -0.5 ],
+									"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 5.0, 3.5, 8.0 ] }
+									}
+								},
+								{
+									"name": "Segment 3",
+									"from": [ 0.0, 3.0, 0.0 ],
+									"to": [ 2.0, 5.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 3.0, 0.0 ],
+									"rotationZ": -4.0,
+									"faces": {
+										"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 2.5, 2.0, 4.5 ] }
+									},
+									"children": [
+										{
+											"name": "Segment side 3",
+											"from": [ 1.0, 0.0, -0.5 ],
+											"to": [ 1.0, 2.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+											"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+											"faces": {
+												"east": { "texture": "#opuntiatriacantha", "uv": [ 0.5, 2.5, 1.5, 4.5 ] }
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Segment 4",
+							"from": [ 0.0, 0.0, 0.2 ],
+							"to": [ 2.0, 3.0, 0.2 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 0.2 ],
+							"rotationX": 22.5,
+							"rotationZ": -22.5,
+							"faces": {
+								"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 2.0, 4.0, 5.0 ] }
+							},
+							"children": [
+								{
+									"name": "Segment side 4",
+									"from": [ 1.0, 0.0, -0.5 ],
+									"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 5.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "origin2",
+			"from": [ 6.0, 0.0, 10.0 ],
+			"to": [ 6.0, 0.0, 10.0 ],
+			"rotationOrigin": [ 6.0, 0.0, 10.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Segment 5",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 1.0, 3.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 15.0,
+					"rotationZ": 22.5,
+					"faces": {
+						"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 2.0, 4.0, 5.0 ], "rotation": 180 }
+					},
+					"children": [
+						{
+							"name": "Segment side 5",
+							"from": [ 1.0, 0.0, -0.5 ],
+							"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+							"faces": {
+								"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 5.0 ] }
+							}
+						},
+						{
+							"name": "Segment 6",
+							"from": [ 0.0, 3.0, 0.0 ],
+							"to": [ 2.0, 6.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 3.0, 0.0 ],
+							"rotationX": -12.5,
+							"rotationY": 22.5,
+							"rotationZ": -12.5,
+							"faces": {
+								"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "rotation": 180 }
+							},
+							"children": [
+								{
+									"name": "Segment side 6",
+									"from": [ 1.0, 0.0, -0.5 ],
+									"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"east": { "texture": "#opuntiatriacantha", "uv": [ 0.5, 0.0, 1.5, 3.0 ] }
+									}
+								},
+								{
+									"name": "Segment 7",
+									"from": [ 0.0, 3.0, 0.0 ],
+									"to": [ 2.0, 6.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 3.0, 0.0 ],
+									"rotationY": 4.0,
+									"rotationZ": -4.0,
+									"faces": {
+										"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 2.0, 4.0, 5.0 ] }
+									},
+									"children": [
+										{
+											"name": "Segment side 7",
+											"from": [ 1.0, 0.0, -0.5 ],
+											"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+											"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+											"faces": {
+												"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 5.0 ] }
+											}
+										},
+										{
+											"name": "Segment 9",
+											"from": [ 0.0, 3.0, 0.0 ],
+											"to": [ 2.0, 5.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+											"rotationOrigin": [ 1.0, 3.0, 0.0 ],
+											"rotationX": 0.0,
+											"rotationY": -22.5,
+											"rotationZ": -8.0,
+											"faces": {
+												"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 2.5, 2.0, 4.5 ] }
+											},
+											"children": [
+												{
+													"name": "Segment side 9",
+													"from": [ 1.0, 0.0, -0.5 ],
+													"to": [ 1.0, 2.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+													"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+													"faces": {
+														"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 4.0 ] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Segment 8",
+							"from": [ 0.0, 0.0, 0.2 ],
+							"to": [ 2.0, 3.0, 0.2 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 0.2 ],
+							"rotationX": 22.5,
+							"rotationZ": -22.5,
+							"faces": {
+								"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 2.0, 4.0, 5.0 ] }
+							},
+							"children": [
+								{
+									"name": "Segment side 8",
+									"from": [ 1.0, 0.0, -0.5 ],
+									"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 5.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "origin3",
+			"from": [ 9.0, 0.0, 4.0 ],
+			"to": [ 9.0, 0.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+			"rotationOrigin": [ 9.0, 0.0, 4.0 ],
+			"rotationY": -135.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Segment 10",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 1.0, 3.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 15.0,
+					"rotationZ": 22.5,
+					"faces": {
+						"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 2.0, 4.0, 5.0 ], "rotation": 180 }
+					},
+					"children": [
+						{
+							"name": "Segment side 10",
+							"from": [ 1.0, 0.0, -0.5 ],
+							"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+							"faces": {
+								"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 5.0 ] }
+							}
+						},
+						{
+							"name": "Segment 11",
+							"from": [ 0.0, 3.0, 0.0 ],
+							"to": [ 2.0, 6.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 3.0, 0.0 ],
+							"rotationX": -12.5,
+							"rotationY": 22.5,
+							"rotationZ": -12.5,
+							"faces": {
+								"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "rotation": 180 }
+							},
+							"children": [
+								{
+									"name": "Segment side 11",
+									"from": [ 1.0, 0.0, -0.5 ],
+									"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"east": { "texture": "#opuntiatriacantha", "uv": [ 0.5, 0.0, 1.5, 3.0 ] }
+									}
+								},
+								{
+									"name": "Segment 12",
+									"from": [ 0.0, 3.0, 0.0 ],
+									"to": [ 2.0, 6.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 3.0, 0.0 ],
+									"rotationY": 4.0,
+									"rotationZ": -4.0,
+									"faces": {
+										"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 2.0, 4.0, 5.0 ] }
+									},
+									"children": [
+										{
+											"name": "Segment side 12",
+											"from": [ 1.0, 0.0, -0.5 ],
+											"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+											"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+											"faces": {
+												"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 5.0 ] }
+											}
+										},
+										{
+											"name": "Segment 13",
+											"from": [ 0.0, 3.0, 0.0 ],
+											"to": [ 2.0, 5.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+											"rotationOrigin": [ 1.0, 3.0, 0.0 ],
+											"rotationX": 0.0,
+											"rotationY": -22.5,
+											"rotationZ": -8.0,
+											"faces": {
+												"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 2.5, 2.0, 4.5 ] }
+											},
+											"children": [
+												{
+													"name": "Segment side 13",
+													"from": [ 1.0, 0.0, -0.5 ],
+													"to": [ 1.0, 2.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+													"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+													"faces": {
+														"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 4.0 ] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Segment 14",
+							"from": [ 0.0, 0.0, 0.2 ],
+							"to": [ 2.0, 3.0, 0.2 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 0.2 ],
+							"rotationX": 22.5,
+							"rotationZ": -22.5,
+							"faces": {
+								"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 2.0, 4.0, 5.0 ] }
+							},
+							"children": [
+								{
+									"name": "Segment side 14",
+									"from": [ 1.0, 0.0, -0.5 ],
+									"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 5.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "origin4",
+			"from": [ 13.0, 0.0, 9.0 ],
+			"to": [ 13.0, 0.0, 9.0 ],
+			"rotationOrigin": [ 13.0, 0.0, 9.0 ],
+			"rotationY": 157.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Segment 15",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 1.4, 3.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 15.0,
+					"rotationZ": 22.5,
+					"faces": {
+						"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 2.0, 4.0, 5.0 ], "rotation": 180 }
+					},
+					"children": [
+						{
+							"name": "Segment side 15",
+							"from": [ 1.2, 0.0, -0.5 ],
+							"to": [ 1.2, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.2, 0.0, 0.0 ],
+							"faces": {
+								"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 5.0 ] }
+							}
+						},
+						{
+							"name": "Segment 16",
+							"from": [ 0.2, 3.0, 0.0 ],
+							"to": [ 2.2, 6.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.2, 3.0, 0.0 ],
+							"rotationX": -12.5,
+							"rotationY": 22.5,
+							"rotationZ": -12.5,
+							"faces": {
+								"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "rotation": 180 }
+							},
+							"children": [
+								{
+									"name": "Segment side 16",
+									"from": [ 1.0, 0.0, -0.5 ],
+									"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"east": { "texture": "#opuntiatriacantha", "uv": [ 0.5, 0.0, 1.5, 3.0 ] }
+									}
+								},
+								{
+									"name": "Segment 17",
+									"from": [ 0.0, 3.0, 0.0 ],
+									"to": [ 2.0, 6.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 3.0, 0.0 ],
+									"rotationY": 4.0,
+									"rotationZ": -4.0,
+									"faces": {
+										"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 2.0, 4.0, 5.0 ] }
+									},
+									"children": [
+										{
+											"name": "Segment side 17",
+											"from": [ 1.0, 0.0, -0.5 ],
+											"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+											"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+											"faces": {
+												"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 5.0 ] }
+											}
+										},
+										{
+											"name": "Segment 18",
+											"from": [ 0.0, 3.0, 0.0 ],
+											"to": [ 2.0, 5.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+											"rotationOrigin": [ 1.0, 3.0, 0.0 ],
+											"rotationX": 0.0,
+											"rotationY": -22.5,
+											"rotationZ": -8.0,
+											"faces": {
+												"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 2.5, 2.0, 4.5 ] }
+											},
+											"children": [
+												{
+													"name": "Segment side 18",
+													"from": [ 1.0, 0.0, -0.5 ],
+													"to": [ 1.0, 2.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+													"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+													"faces": {
+														"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 4.0 ] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Segment 19",
+							"from": [ 0.0, 0.0, 0.2 ],
+							"to": [ 2.0, 3.0, 0.2 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 0.2 ],
+							"rotationX": 22.5,
+							"rotationZ": -22.5,
+							"faces": {
+								"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 2.0, 4.0, 5.0 ] }
+							},
+							"children": [
+								{
+									"name": "Segment side 19",
+									"from": [ 1.0, 0.0, -0.5 ],
+									"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 2.0, 3.5, 5.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "origin5",
+			"from": [ 9.0, 0.0, 11.0 ],
+			"to": [ 9.0, 0.0, 11.0 ],
+			"rotationOrigin": [ 9.0, 0.0, 11.0 ],
+			"rotationY": 112.5,
+			"rotationZ": 22.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Segment 20",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 1.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationZ": 12.5,
+					"faces": {
+						"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 4.0, 2.0, 8.0 ], "rotation": 180 }
+					},
+					"children": [
+						{
+							"name": "Segment side 20",
+							"from": [ 1.0, 0.0, -0.5 ],
+							"to": [ 1.0, 4.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+							"faces": {
+								"east": { "texture": "#opuntiatriacantha", "uv": [ 0.5, 4.0, 1.5, 8.0 ] }
+							}
+						},
+						{
+							"name": "Segment 21",
+							"from": [ 0.0, 4.0, 0.0 ],
+							"to": [ 2.0, 7.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 4.0, 0.0 ],
+							"rotationY": 2.0,
+							"rotationZ": -12.5,
+							"faces": {
+								"south": { "texture": "#opuntiatriacantha", "uv": [ 2.0, 5.0, 4.0, 8.0 ], "rotation": 180 }
+							},
+							"children": [
+								{
+									"name": "Segment side 21",
+									"from": [ 1.0, 0.0, -0.5 ],
+									"to": [ 1.0, 3.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"east": { "texture": "#opuntiatriacantha", "uv": [ 2.5, 5.0, 3.5, 8.0 ] }
+									}
+								},
+								{
+									"name": "Segment 22",
+									"from": [ 0.0, 3.0, 0.0 ],
+									"to": [ 2.0, 5.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 3.0, 0.0 ],
+									"rotationZ": -4.0,
+									"faces": {
+										"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 2.5, 2.0, 4.5 ] }
+									},
+									"children": [
+										{
+											"name": "Segment side 22",
+											"from": [ 1.0, 0.0, -0.5 ],
+											"to": [ 1.0, 2.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+											"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+											"faces": {
+												"east": { "texture": "#opuntiatriacantha", "uv": [ 0.5, 2.5, 1.5, 4.5 ] }
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Segment 23",
+							"from": [ 0.0, 0.0, 0.2 ],
+							"to": [ 2.0, 4.0, 0.2 ],
+					"shade": false,
+					"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 0.2 ],
+							"rotationX": 22.5,
+							"rotationZ": -22.5,
+							"faces": {
+								"south": { "texture": "#opuntiatriacantha", "uv": [ 0.0, 4.0, 2.0, 8.0 ] }
+							},
+							"children": [
+								{
+									"name": "Segment side 23",
+									"from": [ 1.0, 0.0, -0.5 ],
+									"to": [ 1.0, 4.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+									"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+									"faces": {
+										"east": { "texture": "#opuntiatriacantha", "uv": [ 0.5, 4.0, 1.5, 8.0 ] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

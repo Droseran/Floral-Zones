@@ -1,0 +1,322 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 24,
+	"textureSizes": {
+		"vines": [24,24],
+		"leaves": [24,24],
+		"bark": [4,16],
+		"flower": [4,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stem",
+					"from": [ -0.5, 0.0, -0.5 ],
+					"to": [ 0.5, 16.0, 0.5 ],
+					"rotationOrigin": [ -0.5, 0.0, -0.5 ],
+					"faces": {
+						"north": { "texture": "#bark", "uv": [ 0.5, 0.0, 1.5, 16.0 ] },
+						"east": { "texture": "#bark", "uv": [ 1.5, 0.0, 2.5, 16.0 ] },
+						"south": { "texture": "#bark", "uv": [ 1.5, 0.0, 2.5, 16.0 ] },
+						"west": { "texture": "#bark", "uv": [ 2.0, 0.0, 3.0, 16.0 ] },
+						"up": { "texture": "#bark", "uv": [ 0.5, 1.0, 1.5, 2.0 ] }
+					},
+					"children": [
+						{
+							"name": "Plant base",
+							"from": [ 0.5, 8.0, 0.5 ],
+							"to": [ 0.5, 8.0, 0.5 ],
+							"rotationOrigin": [ 0.5, 8.0, 0.5 ],
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "Leaves 1",
+									"from": [ -12.0, 0.0, 0.0 ],
+									"to": [ 12.0, 24.0, 0.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalMaple",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": 20.0,
+									"faces": {
+										"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									},
+									"children": [
+										{
+											"name": "Vines 1",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 24.0, 24.0, 0.0 ],
+											"shade": false,
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#vines", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+											}
+										},
+										{
+											"name": "Flower a1",
+											"from": [ 11.0, 12.0, 0.0 ],
+											"to": [ 14.0, 18.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 11.0, 12.0, 0.0 ],
+											"rotationX": 10.0,
+											"faces": {
+												"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Flower b1",
+											"from": [ 5.0, 16.0, 0.0 ],
+											"to": [ 8.0, 22.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 5.0, 16.0, 0.0 ],
+											"rotationX": 10.0,
+											"faces": {
+												"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Leaves 2",
+									"from": [ -8.0, 0.0, 0.0 ],
+									"to": [ 16.0, 24.0, 0.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalMaple",
+									"renderPass": 1,
+									"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+									"rotationY": 90.0,
+									"faces": {
+										"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "rotation": 90, "windMode": [9,9,9,9], "windData": [0,2,2,0] }
+									},
+									"children": [
+										{
+											"name": "Vines 2",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 24.0, 24.0, 0.0 ],
+											"shade": false,
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#vines", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "rotation": 90, "windMode": [9,9,9,9], "windData": [0,2,2,0] }
+											}
+										},
+										{
+											"name": "Flower a2",
+											"from": [ 15.0, 17.0, 0.0 ],
+											"to": [ 18.0, 23.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 15.0, 17.0, 0.0 ],
+											"rotationX": 10.0,
+											"faces": {
+												"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Leaves 3",
+									"from": [ -16.0, 0.0, 0.0 ],
+									"to": [ 8.0, 24.0, 0.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalMaple",
+									"renderPass": 1,
+									"rotationOrigin": [ -4.0, 0.0, 0.0 ],
+									"rotationY": 90.0,
+									"faces": {
+										"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "rotation": 180, "windMode": [9,9,9,9], "windData": [0,2,2,0] }
+									},
+									"children": [
+										{
+											"name": "Vines 3",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 24.0, 24.0, 0.0 ],
+											"shade": false,
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#vines", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "rotation": 180, "windMode": [9,9,9,9], "windData": [0,2,2,0] }
+											}
+										},
+										{
+											"name": "Flower a3",
+											"from": [ 12.0, 12.0, 0.0 ],
+											"to": [ 15.0, 18.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 12.0, 12.0, 0.0 ],
+											"rotationX": -10.0,
+											"faces": {
+												"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Leaves 4",
+									"from": [ -12.0, 0.0, 0.0 ],
+									"to": [ 12.0, 24.0, 0.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalMaple",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -20.0,
+									"faces": {
+										"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "rotation": 270, "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									},
+									"children": [
+										{
+											"name": "Vines 4",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 24.0, 24.0, 0.0 ],
+											"shade": false,
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#vines", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "rotation": 270, "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+											}
+										},
+										{
+											"name": "Flower a4",
+											"from": [ 9.0, 12.0, 0.0 ],
+											"to": [ 12.0, 18.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 9.0, 12.0, 0.0 ],
+											"rotationX": -10.0,
+											"faces": {
+												"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Flower b4",
+											"from": [ 5.0, 17.0, 0.0 ],
+											"to": [ 8.0, 23.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 5.0, 17.0, 0.0 ],
+											"rotationX": -10.0,
+											"faces": {
+												"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Leaves 5",
+									"from": [ -12.0, 0.0, 0.0 ],
+									"to": [ 12.0, 24.0, 0.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalMaple",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationY": -45.0,
+									"faces": {
+										"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "windMode": [9,9,9,9], "windData": [0,2,2,0] }
+									},
+									"children": [
+										{
+											"name": "Vines 5",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 24.0, 24.0, 0.0 ],
+											"shade": false,
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#vines", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "windMode": [9,9,9,9], "windData": [0,2,2,0] }
+											}
+										},
+										{
+											"name": "Flower a5",
+											"from": [ 15.0, 17.0, 0.0 ],
+											"to": [ 18.0, 23.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 15.0, 17.0, 0.0 ],
+											"rotationX": 10.0,
+											"faces": {
+												"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Leaves 6",
+									"from": [ -12.0, 0.0, 0.0 ],
+									"to": [ 12.0, 24.0, 0.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalMaple",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationY": 45.0,
+									"faces": {
+										"north": { "texture": "#leaves", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "rotation": 90, "windMode": [9,9,9,9], "windData": [0,2,2,0] }
+									},
+									"children": [
+										{
+											"name": "Vines 6",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 24.0, 24.0, 0.0 ],
+											"shade": false,
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 12.0, 0.0, 0.0 ],
+											"faces": {
+												"north": { "texture": "#vines", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "rotation": 90, "windMode": [9,9,9,9], "windData": [0,2,2,0] }
+											}
+										},
+										{
+											"name": "Flower a6",
+											"from": [ 6.0, 17.0, 0.0 ],
+											"to": [ 9.0, 23.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 6.0, 17.0, 0.0 ],
+											"rotationX": 10.0,
+											"faces": {
+												"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

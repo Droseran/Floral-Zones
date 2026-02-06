@@ -1,0 +1,69 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+"variantgroups": [
+        { "code": "type", "states": ["cordylineindivisa"] }
+    ],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"plantContainable": {
+			"smallContainerByType": {
+			},
+			"largeContainerByType": {
+				"*-cordylineindivisa": {"shape": {"base": "block/plant/fern/cordylineindivisa_var*"},"textures": {"*-cordylineindivisa": {"bark": { "base": "block/plant/fern/cordylineindivisa1" },
+		 "leaves1": { "base": "block/plant/fern/cordylineindivisa2" },
+		 "leaves2": { "base": "block/plant/fern/cordylineindivisa3" },
+		 "leaves3": { "base": "block/plant/fern/cordylineindivisa4" },
+		 "deadleaves": { "base": "block/plant/fern/cordylineindivisa5" }}}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-cordylineindivisa":{"base": "block/plant/fern/cordylineindivisa_var0", "alternates": [ { "base": "block/plant/fern/cordylineindivisa_var*" } ]},
+	},
+	"texturesByType": {
+		"*-cordylineindivisa": {
+		 "bark": { "base": "block/plant/fern/cordylineindivisa1" },
+		 "leaves1": { "base": "block/plant/fern/cordylineindivisa2" },
+		 "leaves2": { "base": "block/plant/fern/cordylineindivisa3" },
+		 "leaves3": { "base": "block/plant/fern/cordylineindivisa4" },
+		 "deadleaves": { "base": "block/plant/fern/cordylineindivisa5" }
+		}
+	},
+	"randomDrawOffset": true,
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.25,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 2,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 2, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"break": "game:block/planks",
+		"hit": "game:block/planks"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5
+	},
+	"frostable": true,
+	"guiTransform": { "origin": { "x": 0.5, "y": 1.5, "z": 0.5},"scale": 0.2
+	}
+}

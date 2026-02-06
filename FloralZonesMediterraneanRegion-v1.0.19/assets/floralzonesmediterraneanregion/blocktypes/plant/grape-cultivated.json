@@ -1,0 +1,174 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"plantContainable": {
+			"smallContainerByType": {
+				"*-vitisvinifera-*": {"shape": { "base": "block/plant/flower/1patch-3faces-shadeless-16x16"},"textures": {"north1": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"north2": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"north3": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south1": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south2": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south3": { "base": "block/plant/berrybush/vitisvinifera-flowering" }}},
+				},
+			"largeContainerByType": {
+				"*-vitisvinifera-*": {"shape": { "base": "block/plant/flower/3patches-3faces-shadeless-16x16"},"textures": {"north1": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"north2": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"north3": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south1": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south2": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south3": { "base": "block/plant/berrybush/vitisvinifera-flowering" }}},
+				}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": -3,
+		"resetBelowTemperature": -1,
+		"stopBelowTemperature": 1,
+		
+		"revertBlockAboveTemperature": 41,
+		"resetAboveTemperature": 37,
+		"stopAboveTemperature": 33,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 2.25, "var": 0.09 },
+		"*-flowering": { "avg": 2.24, "var": 0.09 },
+		"*-ripe": { "avg": 1.25, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-blue-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStacks": [{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-blue", "quantity": { "avg": 4.5 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-purple", "quantity": { "avg": 0.02 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-red", "quantity": { "avg": 0.02 }  }],
+			"harvestedBlockCode": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-blue-empty"
+		}} ],
+		"*-purple-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStacks": [{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-purple", "quantity": { "avg": 4.5 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-purple", "quantity": { "avg": 0.02 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-black", "quantity": { "avg": 0.02 }  }],
+			"harvestedBlockCode": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-purple-empty"
+		}} ],
+		"*-red-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStacks": [{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-red", "quantity": { "avg": 4.5 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-blue", "quantity": { "avg": 0.02 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-yellow", "quantity": { "avg": 0.02 }  }],
+			"harvestedBlockCode": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-red-empty"
+		}} ],
+		"*-black-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStacks": [{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-black", "quantity": { "avg": 4.5 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-purple", "quantity": { "avg": 0.02 }  }],
+			"harvestedBlockCode": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-black-empty"
+		}} ],
+		"*-yellow-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStacks": [{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-yellow", "quantity": { "avg": 4.5 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-red", "quantity": { "avg": 0.02 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-green", "quantity": { "avg": 0.02 }  }],
+			"harvestedBlockCode": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-yellow-empty"
+		}} ],
+		"*-green-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStacks": [{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-green", "quantity": { "avg": 4.5 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-yellow", "quantity": { "avg": 0.02 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-white", "quantity": { "avg": 0.02 }  }],
+			"harvestedBlockCode": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-green-empty"
+		}} ],
+		"*-white-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStacks": [{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-white", "quantity": { "avg": 4.5 }  },{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-green", "quantity": { "avg": 0.02 }  }],
+			"harvestedBlockCode": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-white-empty"
+		}} ],		
+	},
+	"variantgroups": [
+		{ "code": "cultivated", "states": ["cultivated"] },
+		{ "code": "type", "states": ["vitisvinifera"] },
+		{ "code": "color", "states": ["blue","purple","red","black","yellow","green","white"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-vitisvinifera-*-empty": { "base": "block/plant/berrybush/vitisvinifera-cultivated-empty"},
+		"*-vitisvinifera-*-flowering": { "base": "block/plant/berrybush/vitisvinifera-cultivated-flowering"},
+		"*-vitisvinifera-*-ripe": { "base": "block/plant/berrybush/vitisvinifera-cultivated-ripe"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-vitisvinifera-*": {"leaves": { "base": "block/plant/berrybush/vitisvinifera-leaves" },"bark": { "base": "block/plant/berrybush/vitisvinifera-bark" },"vines": { "base": "block/plant/berrybush/vitisvinifera-vines" },"flower": { "base": "block/plant/berrybush/vitisvinifera-flower" },"fruit": { "base": "block/plant/berrybush/vitisvinifera-{color}" }}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-blue-ripe": [
+			{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-blue", "quantity": { "avg": 4.5 }  },
+			{ "type": "block", "code": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-{color}-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-{color}", "quantity": { "avg": 0.1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-purple", "quantity": { "avg": 0.01 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-red", "quantity": { "avg": 0.01 }  },
+		],
+		"*-purple-ripe": [
+			{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-purple", "quantity": { "avg": 4.5 }  },
+			{ "type": "block", "code": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-{color}-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-{color}", "quantity": { "avg": 0.1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-blue", "quantity": { "avg": 0.01 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-black", "quantity": { "avg": 0.01 }  },
+		],
+		"*-red-ripe": [
+			{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-red", "quantity": { "avg": 4.5 }  },
+			{ "type": "block", "code": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-{color}-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-{color}", "quantity": { "avg": 0.1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-blue", "quantity": { "avg": 0.01 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-yellow", "quantity": { "avg": 0.01 }  },
+		],
+		"*-black-ripe": [
+			{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-black", "quantity": { "avg": 4.5 }  },
+			{ "type": "block", "code": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-{color}-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-{color}", "quantity": { "avg": 0.1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-purple", "quantity": { "avg": 0.01 }  },
+		],
+		"*-yellow-ripe": [
+			{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-yellow", "quantity": { "avg": 4.5 }  },
+			{ "type": "block", "code": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-{color}-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-{color}", "quantity": { "avg": 0.1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-green", "quantity": { "avg": 0.01 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-red", "quantity": { "avg": 0.01 }  },
+		],
+		"*-green-ripe": [
+			{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-green", "quantity": { "avg": 4.5 }  },
+			{ "type": "block", "code": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-{color}-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-{color}", "quantity": { "avg": 0.1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-yellow", "quantity": { "avg": 0.01 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-white", "quantity": { "avg": 0.01 }  },
+		],
+		"*-white-ripe": [
+			{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-white", "quantity": { "avg": 4.5 }  },
+			{ "type": "block", "code": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-{color}-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-{color}", "quantity": { "avg": 0.1 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-green", "quantity": { "avg": 0.01 }  },
+		],
+		"*": [			{ "type": "block", "code": "floralzonesmediterraneanregion:smallberrybush-cultivated-{type}-{color}-empty", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*": { "origin": { "x": 0.5, "y": 0.85, "z": 0.5 }, "scale": 0.9}
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

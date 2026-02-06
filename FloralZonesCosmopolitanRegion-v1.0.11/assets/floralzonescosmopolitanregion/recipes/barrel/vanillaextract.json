@@ -1,0 +1,29 @@
+[
+	{
+		"code": "vanillaextract",
+		"sealHours": 1296,
+		"ingredients": [
+		{ "type": "item", "code": "floralzonescosmopolitanregion:fruit-vanillaplanifolia*", "name": "fruit", "quantity": 4},
+		{ "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-*", "litres": 1, "consumeLitres": 1, "name": "spirit", "allowedVariants": ["zeamays","ipomoeabatatas"]  }
+		],
+		"output": { "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-vanillaextract", "litres": 1 }
+	},
+	{
+		"code": "vanillaextract",
+		"sealHours": 1296,
+		"ingredients": [
+		{ "type": "item", "code": "game:spiritportion-*", "litres": 1, "consumeLitres": 1, "name": "spirit", "allowedVariants": ["cassava"]  },
+		{ "type": "item", "code": "floralzonescosmopolitanregion:fruit-vanillaplanifolia*", "name": "fruit", "quantity": 4}
+		],
+		"output": { "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-vanillaextract", "litres": 1 }
+	},
+	{
+		"code": "vanillaextract",
+		"sealHours": 1296,
+		"ingredients": [
+		{ "type": "item", "code": "game:alcoholportion", "litres": 1, "consumeLitres": 1  },
+		{ "type": "item", "code": "floralzonescosmopolitanregion:fruit-vanillaplanifolia*", "name": "fruit", "quantity": 4}
+		],
+		"output": { "type": "item", "code": "floralzonescosmopolitanregion:spiritportion-vanillaextract", "litres": 1 }
+	}
+]

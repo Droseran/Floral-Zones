@@ -1,0 +1,761 @@
+[
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Sparse patches of Mount Compass Oak-Brush",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-allocasuarinarobusta-free"
+          ],
+          "minTemp": 12,
+          "maxTemp": 14,
+          "minForest": 0.2,
+	      "maxForest": 0.7,
+          "minRain": 0.51,
+          "maxRain": 0.7,
+          "chance": 0.7,
+	      "minY": 0.05,
+          "maxY": 0.19,
+		  "minFertility": 0,
+	      "maxFertility": 0.5,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 4 },
+          "offsetX": { "avg": 5, "var": 25 },
+          "offsetZ": { "avg": 5, "var": 25 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "dense patch of Old man saltbush",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-atriplexnummularia-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 26,
+          "minForest": 0,
+	      "maxForest": 0.2,
+          "minRain": 0.08,
+          "maxRain": 0.62,
+          "chance": 0.1,
+	      "minY": 0,
+          "maxY": 0.1,
+		  "minFertility": 0.3,
+	      "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 15, "var": 14 },
+          "offsetX": { "avg": 0, "var": 5 },
+          "offsetZ": { "avg": 0, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "large patch of Old man saltbush",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-atriplexnummularia-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 26,
+          "minForest": 0,
+	      "maxForest": 0.2,
+          "minRain": 0.08,
+          "maxRain": 0.62,
+          "chance": 0.05,
+	      "minY": 0,
+          "maxY": 0.1,
+		  "minFertility": 0.3,
+	      "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 75, "var": 240 },
+          "offsetX": { "avg": 0, "var": 32 },
+          "offsetZ": { "avg": 0, "var": 32 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small varied patches of Pilbara rainbow plant",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-byblispilbarana-free"
+          ],
+          "minTemp": 26,
+          "maxTemp": 28,
+		      "minForest": 0,
+		      "maxForest": 0.3,
+          "minRain": 0.3,
+          "maxRain": 0.55,
+          "chance": 0.3,
+	    	  "minY": 0,
+          "maxY": 0.1,
+		      "maxFertility": 0.3,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 0, "var": 7 },
+          "offsetZ": { "avg": 0, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Parakeelya",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-calandriniabalonensis-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 28,
+		      "minForest": 0,
+		      "maxForest": 0.2,
+          "minRain": 0.2,
+          "maxRain": 0.63,
+          "chance": 0.2,
+	    	  "minY": 0,
+          "maxY": 0.1,
+		      "maxFertility": 0.3,
+          "quantity": { "dist": "invexp", "avg": 30, "var": 70 },
+          "offsetX": { "avg": 0, "var": 24 },
+          "offsetZ": { "avg": 0, "var": 24 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Dense patches of Fringe Myrtle",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-calytrixtetragona-free"
+          ],
+          "minTemp": 10,
+          "maxTemp": 18,
+		      "minForest": 0,
+		      "maxForest": 0.8,
+          "minRain": 0.45,
+          "maxRain": 0.75,
+          "chance": 0.3,
+	    	  "minY": 0,
+          "maxY": 0.39,
+		      "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 25, "var": 23 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Crimson Turkey Bush",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-eremophilalatrobei-free"
+          ],
+          "minTemp": 18,
+          "maxTemp": 30,
+		      "minForest": 0,
+		      "maxForest": 0.3,
+          "minRain": 0.08,
+          "maxRain": 0.75,
+          "chance": 0.2,
+	    	  "minY": 0.05,
+          "maxY": 0.07,
+		      "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 3 },
+          "offsetX": { "avg": 0, "var": 24 },
+          "offsetZ": { "avg": 0, "var": 24 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Red Mallee",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-eucalyptussocialis-free"
+          ],
+          "minTemp": 18,
+          "maxTemp": 26,
+		      "minForest": 0.1,
+		      "maxForest": 0.5,
+          "minRain": 0.09,
+          "maxRain": 0.57,
+          "chance": 0.1,
+	    	  "minY": 0,
+          "maxY": 0.05,
+		      "maxFertility": 0.6,
+          "quantity": { "dist": "invexp", "avg": 15, "var": 3 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Red Mallee",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-eucalyptussocialis-free"
+          ],
+          "minTemp": 18,
+          "maxTemp": 26,
+		      "minForest": 0.1,
+		      "maxForest": 0.5,
+          "minRain": 0.09,
+          "maxRain": 0.57,
+          "chance": 0.2,
+	    	  "minY": 0,
+          "maxY": 0.05,
+		      "maxFertility": 0.6,
+          "quantity": { "dist": "invexp", "avg": 1, "var": 4 },
+          "offsetX": { "avg": 0, "var": 2 },
+          "offsetZ": { "avg": 0, "var": 2 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small varied patches of Sturt's desert rose",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-gossypiumsturtianum-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 32,
+		      "minForest": 0,
+		      "maxForest": 0.4,
+          "minRain": 0.14,
+          "maxRain": 0.54,
+          "chance": 0.02,
+	    	  "minY": 0,
+          "maxY": 0.22,
+		      "maxFertility": 0.5,
+          "quantity": { "dist": "invexp", "avg": 1, "var": 9 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Waterside patches of Sturt's desert rose",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-gossypiumsturtianum-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 32,
+		      "minForest": 0,
+		      "maxForest": 0.4,
+          "minRain": 0.14,
+          "maxRain": 0.54,
+          "chance": 0.4,
+	    	  "minY": 0,
+          "maxY": 0.22,
+		      "placement": "NearWater",
+		      "maxFertility": 0.5,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 9 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Beaked Hakea",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-hakearostrata-free"
+          ],
+          "minTemp": 12,
+          "maxTemp": 16,
+		      "minForest": 0,
+		      "maxForest": 0.6,
+          "minRain": 0.52,
+          "maxRain": 0.65,
+          "chance": 0.3,
+	    	  "minY": 0,
+          "maxY": 0.35,
+		      "maxFertility": 0.5,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 3 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Bush Potato",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-ipomoeacostata-free"
+          ],
+          "minTemp": 26,
+          "maxTemp": 34,
+		      "minForest": 0,
+		      "maxForest": 0.3,
+          "minRain": 0.21,
+          "maxRain": 0.53,
+          "chance": 0.5,
+	    	  "minY": 0,
+          "maxY": 0.11,
+		      "maxFertility": 0.6,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Sand Ixodia",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-ixodiaachillaeoides-free"
+          ],
+          "minTemp": 12,
+          "maxTemp": 16,
+		      "minForest": 0.6,
+		      "maxForest": 0.8,
+          "minRain": 0.30,
+          "maxRain": 0.65,
+          "chance": 0.5,
+	    	  "minY": 0,
+          "maxY": 0.12,
+		      "maxFertility": 0.25,
+          "quantity": { "dist": "invexp", "avg": 12, "var": 10 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small thickets of Sand Ixodia",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-ixodiaachillaeoides-free"
+          ],
+          "minTemp": 12,
+          "maxTemp": 16,
+		      "minForest": 0.6,
+		      "maxForest": 0.8,
+          "minRain": 0.30,
+          "maxRain": 0.65,
+          "chance": 0.5,
+	    	  "minY": 0,
+          "maxY": 0.12,
+		      "maxFertility": 0.25,
+          "quantity": { "dist": "invexp", "avg": 32, "var": 20 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Pearl bluebush",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-maireanasedifolia-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 20,
+		      "minForest": 0,
+		      "maxForest": 0.2,
+          "minRain": 0.12,
+          "maxRain": 0.51,
+          "chance": 0.05,
+	    	  "minY": 0,
+          "maxY": 0.11,
+		      "minFertility": 0.3,
+          "quantity": { "dist": "invexp", "avg": 50, "var": 70 },
+          "offsetX": { "avg": 0, "var": 34 },
+          "offsetZ": { "avg": 0, "var": 34 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Pearl bluebush",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-maireanasedifolia-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 20,
+		      "minForest": 0,
+		      "maxForest": 0.2,
+          "minRain": 0.12,
+          "maxRain": 0.51,
+          "chance": 0.1,
+	    	  "minY": 0,
+          "maxY": 0.11,
+		      "minFertility": 0.3,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 9 },
+          "offsetX": { "avg": 0, "var": 14 },
+          "offsetZ": { "avg": 0, "var": 14 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Poached egg daisy",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-polycalymmastuartii-free"
+          ],
+          "minTemp": 15,
+          "maxTemp": 26,
+		      "minForest": 0,
+		      "maxForest": 0.2,
+          "minRain": 0.14,
+          "maxRain": 0.34,
+          "chance": 0.01,
+	    	  "minY": 0,
+          "maxY": 0.15,
+		      "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 90, "var": 150 },
+          "offsetX": { "avg": 0, "var": 34 },
+          "offsetZ": { "avg": 0, "var": 34 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Poached egg daisy",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-polycalymmastuartii-free"
+          ],
+          "minTemp": 15,
+          "maxTemp": 26,
+		      "minForest": 0,
+		      "maxForest": 0.2,
+          "minRain": 0.14,
+          "maxRain": 0.34,
+          "chance": 0.1,
+	    	  "minY": 0,
+          "maxY": 0.15,
+		      "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 9, "var": 15 },
+          "offsetX": { "avg": 0, "var": 14 },
+          "offsetZ": { "avg": 0, "var": 14 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Patches of Pink Mulla Mulla",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-ptilotusexaltatus-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 30,
+		      "minForest": 0.1,
+		      "maxForest": 0.8,
+          "minRain": 0.14,
+          "maxRain": 0.55,
+          "chance": 0.3,
+	    	  "minY": 0,
+          "maxY": 0.08,
+		      "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 0, "var": 24 },
+          "offsetZ": { "avg": 0, "var": 24 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Patches of Green Mulla Mulla",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-ptilotusxerophilus-free"
+          ],
+          "minTemp": 18,
+          "maxTemp": 26,
+		      "minForest": 0,
+		      "maxForest": 0.2,
+          "minRain": 0.21,
+          "maxRain": 0.58,
+          "chance": 0.1,
+	    	  "minY": 0,
+          "maxY": 0.12,
+		      "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 0, "var": 24 },
+          "offsetZ": { "avg": 0, "var": 24 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Patches of Fire bush",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-sennapleurocarpa-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 26,
+		      "minForest": 0.0,
+		      "maxForest": 0.3,
+          "minRain": 0.12,
+          "maxRain": 0.51,
+          "chance": 0.1,
+	    	  "minY": 0,
+          "maxY": 0.05,
+		      "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 16, "var": 24 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Patches of Fire Bush",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-sennapleurocarpa-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 26,
+		      "minForest": 0,
+		      "maxForest": 0.3,
+          "minRain": 0.12,
+          "maxRain": 0.51,
+          "chance": 0.1,
+	    	  "minY": 0,
+          "maxY": 0.05,
+		      "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 8, "var": 6 },
+          "offsetX": { "avg": 0, "var": 14 },
+          "offsetZ": { "avg": 0, "var": 14 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small Patches of Putulyu",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-tecticorniaverrucosa-free"
+          ],
+          "minTemp": 18,
+          "maxTemp": 34,
+		      "minForest": 0,
+		      "maxForest": 0.2,
+          "minRain": 0.12,
+          "maxRain": 0.51,
+          "chance": 0.3,
+	    	  "minY": 0,
+          "maxY": 0.05,
+		      "maxFertility": 0.3,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 4 },
+          "offsetX": { "avg": 2, "var": 14 },
+          "offsetZ": { "avg": 2, "var": 14 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Medium Patches of Ribbed Thryptomene",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-thryptomenemicrantha-free"
+          ],
+          "minTemp": 12,
+          "maxTemp": 16,
+		      "minForest": 0.1,
+		      "maxForest": 0.6,
+          "minRain": 0.51,
+          "maxRain": 0.7,
+          "chance": 0.25,
+	    	  "minY": 0,
+          "maxY": 0.4,
+		      "maxFertility": 0.5,
+          "quantity": { "dist": "invexp", "avg": 60, "var": 50 },
+          "offsetX": { "avg": 0, "var": 38 },
+          "offsetZ": { "avg": 0, "var": 38 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small Patches of Desert Grass Tree",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:flower-xanthorrhoeathorntonii-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 28,
+		      "minForest": 0,
+		      "maxForest": 0.2,
+          "minRain": 0.23,
+          "maxRain": 0.43,
+          "chance": 0.3,
+	    	  "minY": 0,
+          "maxY": 0.2,
+		      "maxFertility": 0.2,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 3 },
+          "offsetX": { "avg": 5, "var": 30 },
+          "offsetZ": { "avg": 5, "var": 30 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Kangaroo Grass",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:tallplant-themedatriandra-land-normal-free"
+          ],
+          "minTemp": 12,
+          "maxTemp": 40,
+		      "minForest": 0,
+		      "maxForest": 0.5,
+          "minRain": 0.23,
+          "maxRain": 0.83,
+          "chance": 0.125,
+	    	  "minY": 0.0,
+          "maxY": 0.7,
+		      "minFertility": 0.15,
+		      "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 320, "var": 240 },
+          "offsetX": { "avg": 0, "var": 32 },
+          "offsetZ": { "avg": 0, "var": 32 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Porcupine Grass",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:tallplant-triodiascariosa-land-normal-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 28,
+		      "minForest": 0,
+		      "maxForest": 0.5,
+          "minRain": 0.21,
+          "maxRain": 0.66,
+          "chance": 0.025,
+	    	  "minY": 0.0,
+          "maxY": 0.05,
+		      "maxFertility": 0.6,
+          "quantity": { "dist": "invexp", "avg": 120, "var": 240 },
+          "offsetX": { "avg": 0, "var": 32 },
+          "offsetZ": { "avg": 0, "var": 32 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Tight clump of Porcupine Grass",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:tallplant-triodiascariosa-land-normal-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 28,
+		      "minForest": 0,
+		      "maxForest": 0.5,
+          "minRain": 0.21,
+          "maxRain": 0.66,
+          "chance": 0.1,
+	    	  "minY": 0,
+          "maxY": 0.05,
+		      "maxFertility": 0.6,
+          "quantity": { "dist": "invexp", "avg": 15, "var": 10 },
+          "offsetX": { "avg": 0, "var": 3 },
+          "offsetZ": { "avg": 0, "var": 3 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      }
+]

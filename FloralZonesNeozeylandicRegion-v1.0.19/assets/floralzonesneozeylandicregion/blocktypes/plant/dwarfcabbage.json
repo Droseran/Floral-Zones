@@ -1,0 +1,95 @@
+{
+	"code": "crop",
+	"class": "BlockCrop",
+	"behaviors": [{"name": "Unstable"}],
+	"variantgroups": [
+		{ "code": "type", "states": ["cordylinepumilio"] },
+		{ "code": "stage", "states": ["1", "2", "3", "4", "5","6","7"] }
+	],
+	"creativeinventory": { "general": [""], "plants": [""] },
+	"renderpass": "OpaqueNoCull",
+	"shape": { "base": "block/plant/crop/cordylinepumilio/stage{stage}" },
+	"blockmaterial": "Plant",
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.2,
+	"attributes": {	
+		"foodTagsByType": {
+			"*-1": ["nibbleCrop"],
+			"*-2": ["nibbleCrop"],
+			"*-3": ["nibbleCrop"],
+			"*-4": ["nibbleCrop"],
+			"*-5": ["nibbleCrop"]
+		},
+		"butterflyFeedByType": {
+			"*-7": true,
+			"*": false
+		},
+		"beeFeedByType": {
+			"*-7": true,
+			"*": false
+		},
+		"tickGrowthProbability": 0.02,
+		"handbook": {
+			"include": true			
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-7": [
+			{ "type": "item", "code": "floralzonesneozeylandicregion:seeds-cordylinepumilio", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "floralzonesneozeylandicregion:vegetable-cordylinepumilio", "quantity": { "avg": 8, "var": 3 }  }
+		],
+		"*-6": [
+			{ "type": "item", "code": "floralzonesneozeylandicregion:seeds-cordylinepumilio", "quantity": { "avg": 1.1 }  },
+			{ "type": "item", "code": "floralzonesneozeylandicregion:vegetable-cordylinepumilio", "quantity": { "avg": 1.1}  }
+		],
+		"*-5": [
+			{ "type": "item", "code": "floralzonesneozeylandicregion:seeds-cordylinepumilio", "quantity": { "avg": 1.1 }  }
+		],
+		"*-4": [
+			{ "type": "item", "code": "floralzonesneozeylandicregion:seeds-cordylinepumilio", "quantity": { "avg": 1.1 }  }
+		],
+		"*": [
+			{ "type": "item", "code": "floralzonesneozeylandicregion:seeds-cordylinepumilio", "quantity": { "avg": 0.7 }  }
+		]
+	},
+	"cropProps": {
+		"requiredNutrient": "P",
+		"nutrientConsumption": 30,
+		"growthStages": 7,
+		"totalGrowthMonths": 9,
+		"coldDamageBelow": 0,
+		"heatDamageAbove": 35
+	},
+	"collisionBox": null,
+	"selectionBoxByType": {
+		"*-1": { "x1": 0.375, "y1": -0.0625, "z1": 0.375, "x2": 0.625, "y2": 0.125, "z2": 0.625 },
+		"*-2": { "x1": 0.375, "y1": -0.0625, "z1": 0.375, "x2": 0.625, "y2": 0.25, "z2": 0.625 },
+		"*-3": { "x1": 0.34, "y1": -0.0625, "z1": 0.34, "x2": 0.66, "y2": 0.375, "z2": 0.66 },
+		"*-4": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.375, "z2": 0.9 },
+		"*-5": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.375, "z2": 0.9 },
+		"*-6": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.375, "z2": 0.9 },
+		"*-7": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.375, "z2": 0.9 },
+	},
+	"materialDensity": 300,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	}
+}

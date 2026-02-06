@@ -1,0 +1,96 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"plantContainable": {
+			"smallContainerByType": {
+				"*-carpobrotusacinaciformis-*": {"shape": { "base": "block/plant/flower/1patch-3faces-shadeless-16x16"},"textures": {"north1": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" },"north2": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" },"north3": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" },"south1": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" },"south2": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" },"south3": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" }}},
+				},
+			"largeContainerByType": {
+				"*-carpobrotusacinaciformis-*": {"shape": { "base": "block/plant/flower/3patches-3faces-shadeless-16x16"},"textures": {"north1": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" },"north2": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" },"north3": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" },"south1": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" },"south2": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" },"south3": { "base": "block/plant/berrybush/carpobrotusacinaciformis-flowering" }}},
+				}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 0,
+		"resetBelowTemperature": 2,
+		"stopBelowTemperature": 4,
+		
+		"revertBlockAboveTemperature": 44,
+		"resetAboveTemperature": 40,
+		"stopAboveTemperature": 36,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 2.25, "var": 0.09 },
+		"*-flowering": { "avg": 1.98, "var": 0.09 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescaperegion:fruit-{type}", "quantity": { "avg": 1.4 }  },
+			"harvestedBlockCode": "floralzonescaperegion:smallberrybush-{type}-empty",
+			"exchangeBlock": false
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["carpobrotusacinaciformis"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*": { "base": "block/plant/flower/3patches-3faces-shadeless-16x16"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-carpobrotusacinaciformis-*": {"north1": { "base": "block/plant/berrybush/carpobrotusacinaciformis-{state}" },"north2": { "base": "block/plant/berrybush/carpobrotusacinaciformis-{state}" },"north3": { "base": "block/plant/berrybush/carpobrotusacinaciformis-{state}" },"south1": { "base": "block/plant/berrybush/carpobrotusacinaciformis-{state}" },"south2": { "base": "block/plant/berrybush/carpobrotusacinaciformis-{state}" },"south3": { "base": "block/plant/berrybush/carpobrotusacinaciformis-{state}" }}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescaperegion:fruit-{type}", "quantity": { "avg": 1.4 }  },
+			{ "type": "block", "code": "smallberrybush-carpobrotusacinaciformis-empty", "quantity": { "avg": 1 }  },
+		],
+		"*": [			{ "type": "block", "code": "smallberrybush-carpobrotusacinaciformis-empty", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

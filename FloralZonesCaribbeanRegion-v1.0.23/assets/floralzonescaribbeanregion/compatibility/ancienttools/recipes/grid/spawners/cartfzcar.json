@@ -1,0 +1,82 @@
+[
+    {
+		"enabled": false,
+		ingredientPattern: "PPPBBBWAW",
+        width: 3,
+        height: 3,
+        ingredients: {
+            "P": {
+                type: "item",
+                name: "wood",
+                code: "floralzonescaribbeanregion:plank-*",
+                allowedVariants: ["lysilomalatisiliquum"],
+                quantity: 4
+            },
+            "B": { 
+                type: "block",
+                name: "wood",
+                code: "floralzonescaribbeanregion:supportbeam-*",
+                allowedVariants: ["lysilomalatisiliquum"],
+                quantity: 4
+            },
+            "W": {
+                type: "item",
+                name: "wood",
+                code: "ancienttools:wheel-*",
+                allowedVariants: ["lysilomalatisiliquum"],
+                quantity: 1
+            },
+            "A": {
+                type: "block",
+                code: "game:woodenaxle-ud",
+                quantity: 1
+            }
+        },
+        output: { 
+            type: "item", 
+            code: "ancienttools:cart",
+            attributes: { type: "wood-{wood}" },
+            quantity: 1
+		}
+    },
+	{
+		"enabled": false,
+		ingredientPattern: "PPPBBBWAW",
+		width: 3,
+		height: 3,
+		ingredients: {
+			"P": {
+				type: "item",
+				name: "wood",
+				code: "floralzonescaribbeanregion:plank-*",
+				allowedVariants: ["lysilomalatisiliquum"],
+				quantity: 4
+			},
+			"B": { 
+				type: "item",
+				name: "wood",
+				code: "ancienttools:beam-*",
+				allowedVariants: ["lysilomalatisiliquum"],
+				quantity: 4
+			},
+			"W": {
+				type: "item",
+				name: "wood",
+				code: "ancienttools:wheel-*",
+				allowedVariants: ["lysilomalatisiliquum"],
+				quantity: 1
+			},
+			"A": {
+				type: "block",
+				code: "game:woodenaxle-ud",
+				quantity: 1
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:cart",
+			attributes: { type: "wood-{wood}" },
+			quantity: 1
+		}
+	}
+]

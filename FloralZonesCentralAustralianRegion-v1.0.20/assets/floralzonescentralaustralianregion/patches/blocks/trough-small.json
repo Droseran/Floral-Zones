@@ -1,0 +1,19 @@
+[
+     {
+        "op": "addeach",
+        "path": "/attributes/contentConfig/0",
+        "side": "server",
+        "value": [ 
+            { "code": "themedatriandra",
+                "content": { "type": "item", "code": "floralzonescentralaustralianregion:grain-themedatriandra" },
+			         	"foodFor": ["chicken-*"],
+                "quantityPerFillLevel": 1,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", 
+                                        "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2",
+                                        "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3",
+                                        "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4" ],
+                "textureCode": "contents-flax" } ],
+        "file": "game:blocktypes/wood/trough-small.json"
+    }
+]

@@ -1,0 +1,95 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"plantContainable": {
+			"largeContainerByType": {
+				"*-swainsonaformosa-*": {"shape": { "base": "block/plant/berrybush/swainsonaformosa-flowering"},"textures": {"leaves": { "base": "block/plant/berrybush/swainsonaformosa-leaves" },"flower": { "base": "block/plant/berrybush/swainsonaformosa-flower" }}},
+				}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 7,
+		"resetBelowTemperature": 9,
+		"stopBelowTemperature": 11,
+		
+		"revertBlockAboveTemperature": 51,
+		"resetAboveTemperature": 47,
+		"stopAboveTemperature": 43,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 3.25, "var": 0.09},
+		"*-flowering": { "avg": 3.04, "var": 0.09 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescentralaustralianregion:legume-{type}", "quantity": { "avg": 3.6 }  },
+			"harvestedBlockCode": "floralzonescentralaustralianregion:smallberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["swainsonaformosa"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-swainsonaformosa-empty": { "base": "block/plant/berrybush/swainsonaformosa-empty"},
+		"*-swainsonaformosa-flowering": { "base": "block/plant/berrybush/swainsonaformosa-flowering"},
+		"*-swainsonaformosa-ripe": { "base": "block/plant/berrybush/swainsonaformosa-flowering"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-swainsonaformosa-empty": {"leaves": { "base": "block/plant/berrybush/swainsonaformosa-leaves" }},
+		"*-swainsonaformosa-flowering": {"leaves": { "base": "block/plant/berrybush/swainsonaformosa-leaves" },"flower": { "base": "block/plant/berrybush/swainsonaformosa-flower" }},
+		"*-swainsonaformosa-ripe": {"leaves": { "base": "block/plant/berrybush/swainsonaformosa-leaves" },"flower": { "base": "block/plant/berrybush/swainsonaformosa-pea" }}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescentralaustralianregion:legume-{type}", "quantity": { "avg": 3.6 }  },
+			{ "type": "block", "code": "floralzonescentralaustralianregion:smallberrybush-swainsonaformosa-empty", "quantity": { "avg": 1 }  },
+		],
+		"*": [			{ "type": "block", "code": "smallberrybush-swainsonaformosa-empty", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

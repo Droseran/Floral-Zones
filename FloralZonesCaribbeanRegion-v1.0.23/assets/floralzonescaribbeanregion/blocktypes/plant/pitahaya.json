@@ -1,0 +1,96 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"plantContainable": {
+			"smallContainerByType": {
+				"*-selenicereuscostaricensis-*": {"shape": { "base": "block/plant/flower/1patch-3faces-shadeless-16x16"},"textures": {"north1": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" },"north2": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" },"north3": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" },"south1": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" },"south2": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" },"south3": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" }}},
+				},
+			"largeContainerByType": {
+				"*-selenicereuscostaricensis-*": {"shape": { "base": "block/plant/flower/3patches-3faces-shadeless-16x16"},"textures": {"north1": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" },"north2": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" },"north3": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" },"south1": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" },"south2": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" },"south3": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering" }}},
+				}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 16,
+		"resetBelowTemperature": 18,
+		"stopBelowTemperature": 20,
+		
+		"revertBlockAboveTemperature": 60,
+		"resetAboveTemperature": 56,
+		"stopAboveTemperature": 52,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 2.0, "var": 0.25 },
+		"*-flowering": { "avg": 1.3, "var": 0.3 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 1.4 }  },
+			"harvestedBlockCode": "floralzonescaribbeanregion:smallberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["selenicereuscostaricensis"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-selenicereuscostaricensis-empty": { "base": "block/plant/berrybush/selenicereuscostaricensis-empty"},
+		"*-selenicereuscostaricensis-flowering": { "base": "block/plant/berrybush/selenicereuscostaricensis-flowering"},
+		"*-selenicereuscostaricensis-ripe": { "base": "block/plant/berrybush/selenicereuscostaricensis-ripe"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-selenicereuscostaricensis-*": {"selenicereuscostaricensis": { "base": "block/plant/berrybush/selenicereuscostaricensis" },"selenicereuscostaricensis-flower": { "base": "block/plant/berrybush/selenicereuscostaricensis-flower" },"selenicereuscostaricensis-fruit": { "base": "item/resource/selenicereuscostaricensis" }}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 1.4 }  },
+			{ "type": "block", "code": "floralzonescaribbeanregion:smallberrybush-selenicereuscostaricensis-empty", "quantity": { "avg": 1 }  },
+		],
+		"*": [			{ "type": "block", "code": "floralzonescaribbeanregion:smallberrybush-selenicereuscostaricensis-empty", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

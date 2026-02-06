@@ -1,0 +1,72 @@
+{
+	"code": "legume",
+	"maxstacksize": 32,
+	"variantgroups": [
+		{ "code": "type", "states": ["phaseolusvulgaris","phaseolusvulgarisimmature" ] }
+	],
+	"shapeByType": {
+		"*": { "base": "item/food/legume/{type}" }
+	},
+	"attributes": {
+		"nutritionPropsWhenInMeal": { 
+			"satietyByType": {
+				"*-phaseolusvulgarisimmature": 100,
+				"*-phaseolusvulgaris": 240
+			},
+			"foodcategoryByType": {
+				"*-phaseolusvulgarisimmature": "Vegetable",
+				"*-phaseolusvulgaris": "Protein" },
+			"inPieProperties": { "texture": "block/food/pie/fill-phaseolusvulgarisimmature", "partType": "'Filling'", "allowMixing": false }
+		}
+	},
+	"texture": { "base": "item/food/legume/{type}" },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"transitionablePropsByType": {
+		"*-phaseolusvulgaris": [{
+			"type": "Perish",
+			"freshHours": { "avg": 2700 },
+			"transitionHours": { "avg": 180 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
+		"*-phaseolusvulgarisimmature": [{
+			"type": "Perish",
+			"freshHours": { "avg": 24 },
+			"transitionHours": { "avg": 18 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}]
+	},
+	"materialDensity": 600,
+	"nutritionPropsByType": {
+		"*-phaseolusvulgarisimmature": { "saturation": 80, "foodcategory": "Vegetable" },
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": -1, "y": 1, "z": 0 },
+			"rotation": { "x": -43, "y": 60, "z": -180 },
+			"origin": { "x": 0.6, "y": 0.2, "z": 0.5 },
+			"scale": 3.7
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"rotation": { "x": -8, "y": -81, "z": -27 }
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1.91
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -1.7, "y": -0.7, "z": -1.1 },
+			"rotation": { "x": 12, "y": 26, "z": -93 },
+			"origin": { "x": 0.5, "y": 0.21, "z": 0.48 }
+		}
+	},
+}

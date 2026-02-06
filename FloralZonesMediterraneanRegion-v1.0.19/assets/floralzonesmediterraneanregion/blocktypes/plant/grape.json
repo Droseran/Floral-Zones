@@ -1,0 +1,98 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"plantContainable": {
+			"smallContainerByType": {
+				"*-vitisvinifera-*": {"shape": { "base": "block/plant/flower/1patch-3faces-shadeless-16x16"},"textures": {"north1": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"north2": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"north3": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south1": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south2": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south3": { "base": "block/plant/berrybush/vitisvinifera-flowering" }}},
+				},
+			"largeContainerByType": {
+				"*-vitisvinifera-*": {"shape": { "base": "block/plant/flower/3patches-3faces-shadeless-16x16"},"textures": {"north1": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"north2": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"north3": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south1": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south2": { "base": "block/plant/berrybush/vitisvinifera-flowering" },"south3": { "base": "block/plant/berrybush/vitisvinifera-flowering" }}},
+				}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": -3,
+		"resetBelowTemperature": -1,
+		"stopBelowTemperature": 1,
+		
+		"revertBlockAboveTemperature": 41,
+		"resetAboveTemperature": 37,
+		"stopAboveTemperature": 33,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 2.49, "var": 0.09 },
+		"*-flowering": { "avg": 2.49, "var": 0.09 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-blue", "quantity": { "avg": 3.5 }  },
+			"harvestedBlockCode": "floralzonesmediterraneanregion:smallberrybush-wild-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "cultivated", "states": ["wild"] },
+		{ "code": "type", "states": ["vitisvinifera"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-vitisvinifera-empty": { "base": "block/plant/berrybush/vitisvinifera-empty"},
+		"*-vitisvinifera-flowering": { "base": "block/plant/berrybush/vitisvinifera-flowering*"},
+		"*-vitisvinifera-ripe": { "base": "block/plant/berrybush/vitisvinifera-ripe*"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-vitisvinifera-*": {"leaves": { "base": "block/plant/berrybush/vitisvinifera-leaves" },"vines": { "base": "block/plant/berrybush/vitisvinifera-vines" },"flower": { "base": "block/plant/berrybush/vitisvinifera-flower" },"fruit": { "base": "block/plant/berrybush/vitisvinifera-blue" }}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-blue", "quantity": { "avg": 3.5 }  },
+			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-blue", "quantity": { "avg": 4 }  },
+		],
+		"*-flowering": [			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-blue", "quantity": { "avg": 2 }  },],
+		"*": [			{ "type": "item", "code": "floralzonesmediterraneanregion:grapeclipping-blue", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+"variantgroups": [
+        { "code": "type", "states": ["acrostichumaureum","austroblechnumpennamarina","cocosnucifera","lagunculariaracemosa"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+		"plantContainable": {
+			"smallContainerByType": {
+			},
+			"largeContainerByType": {
+				"*-acrostichumaureum": {"shape": {"base": "block/plant/fern/acrostichumaureum02"}},
+				"*-austroblechnumpennamarina": {"shape": {"base": "block/plant/fern/austroblechnumpennamarina02"}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-acrostichumaureum":{"base": "block/plant/fern/acrostichumaureum*"},
+		"*-austroblechnumpennamarina":{"base": "block/plant/fern/austroblechnumpennamarina*"},
+		"*-cocosnucifera":{"base": "block/plant/berrybush/cocosnucifera-empty2", "alternates": [{"base": "block/plant/berrybush/cocosnucifera-empty3"}]},
+		"*-lagunculariaracemosa":{"base": "block/plant/mangroves/lagunculariaracemosa/roots2"}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"*-acrostichumaureum": {
+			"frond": { "base": "block/plant/fern/{type}_b1","alternates": [ { "base": "block/plant/fern/{type}_b2" } ] },"deadfrond": { "base": "block/plant/fern/{type}_b2","alternates": [ { "base": "block/plant/fern/{type}_b1" } ] },"bigfrond": { "base": "block/plant/fern/{type}_a1","alternates": [ { "base": "block/plant/fern/{type}_a2" } ] },"bigfrondb": { "base": "block/plant/fern/{type}_a3","alternates": [ { "base": "block/plant/fern/{type}_a2" } ] }
+		},
+		"*-austroblechnumpennamarina": {
+			"fern0": { "base": "block/plant/fern/{type}2","alternates": [ { "base": "block/plant/fern/{type}4" } ] },"fern1": { "base": "block/plant/fern/{type}1","alternates": [ { "base": "block/plant/fern/{type}4" } ] },"fern2": { "base": "block/plant/fern/{type}2","alternates": [ { "base": "block/plant/fern/{type}4" } ] },"fern3": { "base": "block/plant/fern/{type}3","alternates": [ { "base": "block/plant/fern/{type}4" } ] }
+		},
+		"*-cocosnucifera": {
+		"foliage": { "base": "block/plant/berrybush/cocosnuciferaflowercover2" },"frond": { "base": "block/plant/berrybush/cocosnuciferafrond1" },"frond1": { "base": "block/plant/berrybush/cocosnuciferafrond*" },"frond2": { "base": "block/plant/berrybush/cocosnuciferafrond2" }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"scaleByType": { "*-cocosnucifera":  0.95},
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-cocosnucifera": [
+			{ "type": "item", "code": "floralzonescosmopolitanregion:palmleaf-{type}", "quantity": { "avg":8, "var": 3  }  }
+		],
+		"*-lagunculariaracemosa": [
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 3.4 }  }
+		],
+		"*": [			{ "type": "block", "code": "floralzonescosmopolitanregion:fern-{type}", "quantity": { "avg": 1 }  }]
+	},
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5,
+	},
+	"frostable": true,
+	"guiTransform": {
+		"scale": 1.5
+	}
+}

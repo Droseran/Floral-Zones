@@ -1,0 +1,102 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 0,
+		"resetBelowTemperature": 2,
+		"stopBelowTemperature": 4,
+		
+		"revertBlockAboveTemperature": 54,
+		"resetAboveTemperature": 50,
+		"stopAboveTemperature": 46,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 1.8, "var": 0.09 },
+		"*-flowering": { "avg": 0.04, "var": 0 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }},
+		"stackable": false
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 2.5 }  },
+			"harvestedBlockCode": "floralzonescaribbeanregion:bigberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["harrisiaportoricensis"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-harrisiaportoricensis-empty": { "base": "block/plant/cactus/harrisiaportoricensis-empty"},
+		"*-harrisiaportoricensis-flowering": { "base": "block/plant/cactus/harrisiaportoricensis-flowering"},
+		"*-harrisiaportoricensis-ripe": { "base": "block/plant/cactus/harrisiaportoricensis-ripe"},
+		"*": { "base": "block/plant/berrybush/harrisiaportoricensis" }
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-harrisiaportoricensis-flowering": {
+		"cactus": { "base": "block/plant/cactus/harrisiaportoricensis" },
+			"fruit": { "base": "item/resource/harrisiaportoricensis" },
+			"flower": { "base": "block/plant/berrybush/selenicereuscostaricensis-flower" }
+		},
+		"*-harrisiaportoricensis-ripe": {
+		"cactus": { "base": "block/plant/cactus/harrisiaportoricensis" },
+			"fruit": { "base": "item/resource/harrisiaportoricensis" }
+		},
+		"*-harrisiaportoricensis-empty": {
+		"cactus": { "base": "block/plant/cactus/harrisiaportoricensis" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 2, "z2": 0.8125 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "block", "code": "floralzonescaribbeanregion:bigberrybush-harrisiaportoricensis-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 2.5 }  }
+		],
+		"*": [
+			{ "type": "block", "code": "floralzonescaribbeanregion:bigberrybush-harrisiaportoricensis-empty", "quantity": { "avg": 1 }  }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*": { "origin": { "x": 0.5, "y": 0.85, "z": 0.5},"scale": 0.75}
+	}
+}

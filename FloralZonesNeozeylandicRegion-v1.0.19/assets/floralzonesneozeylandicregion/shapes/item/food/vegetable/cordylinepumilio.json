@@ -1,0 +1,89 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 8,
+	"textureSizes": {
+		"vegetable": [4,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Root body",
+					"from": [ -0.5, 0.0, -0.5 ],
+					"to": [ 0.5, 4.0, 0.5 ],
+					"rotationOrigin": [ -0.5, 0.0, -0.5 ],
+					"faces": {
+						"north": { "texture": "#vegetable", "uv": [ 1.5, 0.0, 2.5, 4.0 ] },
+						"east": { "texture": "#vegetable", "uv": [ 1.5, 0.0, 2.5, 4.0 ] },
+						"south": { "texture": "#vegetable", "uv": [ 1.5, 0.0, 2.5, 4.0 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#vegetable", "uv": [ 1.5, 0.0, 2.5, 4.0 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#vegetable", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#vegetable", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+					},
+					"children": [
+						{
+							"name": "Root cap",
+							"from": [ 0.2, 4.0, 0.2 ],
+							"to": [ 0.8, 4.5, 0.8 ],
+							"rotationOrigin": [ 0.2, 4.0, 0.2 ],
+							"faces": {
+								"north": { "texture": "#vegetable", "uv": [ 3.0, 2.0, 3.5, 2.5 ] },
+								"east": { "texture": "#vegetable", "uv": [ 2.0, 1.5, 2.5, 2.0 ] },
+								"south": { "texture": "#vegetable", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#vegetable", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#vegetable", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#vegetable", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+							}
+						},
+						{
+							"name": "Cube2",
+							"from": [ -1.0, -1.0, 0.5 ],
+							"to": [ 2.0, 3.0, 0.5 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.5, -1.0, 0.5 ],
+							"faces": {
+								"north": { "texture": "#vegetable", "uv": [ 0.0, 3.5, 4.0, 8.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube3",
+							"from": [ -1.0, -1.0, 0.5 ],
+							"to": [ 2.0, 3.0, 0.5 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.5, -1.0, 0.5 ],
+							"rotationY": 135.0,
+							"faces": {
+								"north": { "texture": "#vegetable", "uv": [ 0.0, 3.5, 4.0, 8.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Cube4",
+							"from": [ -1.0, -1.0, 0.5 ],
+							"to": [ 2.0, 3.0, 0.5 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.5, -1.0, 0.5 ],
+							"rotationY": -135.0,
+							"faces": {
+								"north": { "texture": "#vegetable", "uv": [ 0.0, 3.5, 4.0, 8.0 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

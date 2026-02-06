@@ -1,0 +1,124 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperatureByType": {"*roystonearegia*": 14,"*sabalpalmetto*": 5},
+		"resetBelowTemperatureByType": {"*roystonearegia*": 16,"*sabalpalmetto*": 7},
+		"stopBelowTemperatureByType": {"*roystonearegia*": 18,"*sabalpalmetto*": 9},
+		
+		"revertBlockAboveTemperatureByType": {"*roystonearegia*": 58,"*sabalpalmetto*": 49},
+		"resetAboveTemperatureByType": {"*roystonearegia*": 54,"*sabalpalmetto*": 45},
+		"stopAboveTemperatureByType": {"*roystonearegia*": 50,"*sabalpalmetto*": 41},
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-roystonearegia-empty": { "avg": 2.25, "var": 2.09 },"*-roystonearegia-flowering": { "avg": 1.04, "var": 0.49 },"*-roystonearegia-ripe": { "avg": 0.48, "var": 0.09 },
+		"*-sabalpalmetto-empty": { "avg": 2.25, "var": 0.09 },"*-sabalpalmetto-flowering": { "avg": 3.04, "var": 0.09 },"*-sabalpalmetto-ripe": { "avg": 0.98, "var": 0.09 }},
+		"stackable": true
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 9.6 }  },
+			"harvestedBlockCode": "floralzonescaribbeanregion:bigberrybush-{type}-empty"
+		}} ],
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["roystonearegia","sabalpalmetto"] },
+		{ "code": "state", "states": ["empty","flowering","ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-roystonearegia-empty": { "base": "block/plant/berrybush/roystonearegia-empty"},
+		"*-roystonearegia-flowering": { "base": "block/plant/berrybush/roystonearegia-flowering"},
+		"*-roystonearegia-ripe": { "base": "block/plant/berrybush/roystonearegia-flowering"},
+		"*-sabalpalmetto-empty": { "base": "block/plant/berrybush/sabalpalmetto-empty"},
+		"*-sabalpalmetto-flowering": { "base": "block/plant/berrybush/sabalpalmetto-ripe"},
+		"*-sabalpalmetto-ripe": { "base": "block/plant/berrybush/sabalpalmetto-ripe"},
+		"*": { "base": "block/plant/berrybush/roystonearegia-empty" }
+	},
+	"randomizeRotations": false,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-roystonearegia-empty": {
+		"roystonearegia-stem": { "base": "block/plant/berrybush/roystonearegia-stem" }
+		},
+		"*-roystonearegia-flowering": {
+		"roystonearegia-stem": { "base": "block/plant/berrybush/roystonearegia-stem" },
+			"roystonearegia-flowering": { "base": "block/plant/berrybush/roystonearegia-flowering" }
+		},
+		"*-roystonearegia-ripe": {
+		"roystonearegia-stem": { "base": "block/plant/berrybush/roystonearegia-stem" },
+			"roystonearegia-flowering": { "base": "block/plant/berrybush/roystonearegia-ripe" }
+		},
+		"*-sabalpalmetto-empty": {
+		"frond": { "base": "block/plant/berrybush/sabalpalmetto-dead" },
+		"cut": { "base": "floralzonescaribbeanregion:block/wood/treetrunk/fruit/sabalpalmetto" },
+		"bark": { "base": "floralzonescaribbeanregion:block/wood/treetrunk/fruit/sabalpalmetto" }
+		},
+		"*-sabalpalmetto-flowering": {
+		"frond": { "base": "block/plant/berrybush/sabalpalmetto-dead" },
+		"cut": { "base": "floralzonescaribbeanregion:block/wood/treetrunk/fruit/sabalpalmetto" },
+		"bark": { "base": "floralzonescaribbeanregion:block/wood/treetrunk/fruit/sabalpalmetto" },
+		"fruit": { "base": "block/plant/berrybush/sabalpalmetto-flowering" }
+		},
+		"*-sabalpalmetto-ripe": {
+		"frond": { "base": "block/plant/berrybush/sabalpalmetto-dead" },
+		"cut": { "base": "floralzonescaribbeanregion:block/wood/treetrunk/fruit/sabalpalmetto" },
+		"bark": { "base": "floralzonescaribbeanregion:block/wood/treetrunk/fruit/sabalpalmetto" },
+		"fruit": { "base": "block/plant/berrybush/sabalpalmetto-fruiting" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"fertility": 30,
+	"lightAbsorption": 0,
+	"resistance": 5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-sabalpalmetto-ripe": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 1.6 }   },
+			{ "type": "item", "code": "floralzonescaribbeanregion:vegetable-palmheart", "quantity": { "avg": 1 }   },
+		],
+		"*-sabalpalmetto-*": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:vegetable-palmheart", "quantity": { "avg": 1 }   },
+		],
+		"*-roystonearegia-ripe": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 1.6 }   },
+			],
+		"*": []
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+}

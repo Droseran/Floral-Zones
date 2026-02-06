@@ -1,0 +1,153 @@
+{
+  "code": "fruit",
+  "maxstacksize": 64,
+  "variantgroups": [
+    { "loadFromProperties": "floralzonescaperegion:block/fruit" }
+  ],
+  "materialDensityByType": {
+    "*": 600
+  },
+  "attributes": {
+    "inContainerTexture": {
+      "base": "floralzonescaperegion:block/food/pie/fill-{fruit}"
+    },
+			"foodTags": ["{type}"],
+    "nutritionPropsWhenInMealByType": {
+      "*-carpobrotusacinaciformis": {
+        "satiety": 120,
+        "foodcategory": "Fruit"
+      },
+      "*-diospyroswhyteana": {
+        "satiety": 30,
+        "foodcategory": "Fruit"
+      },
+      "*-hydnoraafricana": {
+        "satiety": 75,
+        "foodcategory": "Fruit"
+      },
+      "*-strelitziaalba": {
+        "satiety": 30,
+        "foodcategory": "Fruit"
+      }
+    }},
+  "shapebytype": {
+    "*": { "base": "floralzonescaperegion:item/resource/{fruit}" }
+  },
+  "textureByType": {
+    "*": { "base": "floralzonescaperegion:item/resource/{fruit}" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*-carpobrotusacinaciformis": {
+      "satiety": 80,
+      "foodcategory": "Fruit"
+    },
+    "*-diospyroswhyteana": {
+      "satiety": 20,
+      "foodcategory": "Fruit"
+    },
+    "*-hydnoraafricana": {
+      "satiety": 50,
+      "foodcategory": "Fruit"
+    },
+    "*-strelitziaalba": {
+      "satiety": 20,
+      "foodcategory": "Fruit"
+    }
+  },
+  "transitionablePropsByType": {
+    "*-carpobrotusacinaciformis": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 330 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-diospyroswhyteana": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 72 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "floralzonescaperegion:treeseed-diospyroswhyteana"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-hydnoraafricana": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 1950 },
+        "transitionHours": { "avg": 48 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+    "*-strelitziaalba": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 150 },
+        "transitionHours": { "avg": 48 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ]
+  },
+  "guiTransformByType": {
+    "*-carpobrotusacinaciformis": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+    },
+    "*-diospyroswhyteana": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.6 },
+			"scale": 2.6
+    },
+    "*-hydnoraafricana": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+    },
+    "*-strelitziaalba": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+    }
+  },
+  "fpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+  },
+  "tpHandTransformByType": {
+    "*":{
+			"translation": { "x": -1.2, "y": 0, "z": -1.1 },
+			"rotation": { "x": 0, "y": 0, "z": -98 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.5
+    }
+	}
+}

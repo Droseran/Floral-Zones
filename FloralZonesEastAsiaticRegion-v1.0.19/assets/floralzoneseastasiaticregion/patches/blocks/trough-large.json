@@ -1,0 +1,92 @@
+[
+     {
+        "op": "addeach",
+        "path": "/attributes/contentConfig/0",
+        "side": "server",
+        "value": [ 
+            { "code": "liliumauratum",
+                "content": { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-liliumauratum" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-liliumauratum" },
+            { "code": "luffaaegyptiaca",
+                "content": { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-luffaaegyptiaca" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-luffaaegyptiaca" },
+            { "code": "petasitesjaponicus",
+                "content": { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-petasitesjaponicus" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-petasitesjaponicus" },
+            { "code": "puerariamontana",
+                "content": { "type": "item", "code": "floralzoneseastasiaticregion:vegetable-puerariamontana" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-puerariamontana" },
+            { "code": "lyciumbarbarumfruitmash",
+                "content": { "type": "item", "code": "floralzoneseastasiaticregion:pressedmash-lyciumbarbarum" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-pressedmash-lyciumbarbarum" } ],
+        "file": "game:blocktypes/wood/trough-large.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-liliumauratum": {
+                "base": "block/food/pie/fill-onion",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-luffaaegyptiaca": {
+                "base": "block/food/pie/fill-cabbage",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-petasitesjaponicus": {
+                "base": "block/food/pie/fill-olive",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-puerariamontana": {
+                "base": "block/food/pie/fill-soybean",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-pressedmash-lyciumbarbarum": {
+                "base": "block/food/pie/fill-lyciumbarbarum",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            }
+        },
+        "file": "game:blocktypes/wood/trough-large.json"
+    }
+]

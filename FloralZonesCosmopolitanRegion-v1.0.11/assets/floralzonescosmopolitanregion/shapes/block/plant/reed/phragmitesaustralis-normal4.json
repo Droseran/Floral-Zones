@@ -1,0 +1,87 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 96,
+	"textureSizes": {
+		"foliage4": [24,96]
+	},
+	"textures": {
+		"foliage4": "block/plant/reeds/phragmitesaustralis4"
+	},
+	"elements": [
+		{
+			"name": "grass 1",
+			"from": [ -3.0, 0.0, 8.0 ],
+			"to": [ 19.0, 96.0, 8.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -45.0,
+			"faces": {
+				"north": { "texture": "#foliage4", "uv": [ 0.5, 0.0, 22.5, 96.0 ], "windMode": [0,2,2,0], "windData": [0,3,3,0] }
+			}
+		},
+		{
+			"name": "grass 2",
+			"from": [ -3.0, 0.0, 8.0 ],
+			"to": [ 19.0, 96.0, 8.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#foliage4", "uv": [ 0.0, 0.0, 22.0, 96.0 ], "windMode": [0,2,2,0], "windData": [0,3,3,0] }
+			}
+		},
+		{
+			"name": "grass 3",
+			"from": [ -2.0, 0.0, 11.0 ],
+			"to": [ 20.0, 96.0, 11.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 7.0, 0.0, 11.0 ],
+			"rotationX": 12.0,
+			"faces": {
+				"north": { "texture": "#foliage4", "uv": [ 0.5, 0.0, 22.5, 96.0 ], "windMode": [0,2,2,0], "windData": [0,2,2,0] }
+			}
+		},
+		{
+			"name": "grass 4",
+			"from": [ 4.0, 0.0, -3.0 ],
+			"to": [ 4.0, 96.0, 19.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 4.0, 0.0, 6.0 ],
+			"rotationZ": 12.0,
+			"faces": {
+				"west": { "texture": "#foliage4", "uv": [ 1.0, 0.0, 23.0, 96.0 ], "windMode": [0,0,2,2], "windData": [0,0,2,2] }
+			}
+		},
+		{
+			"name": "grass 5",
+			"from": [ -2.0, 0.0, 5.0 ],
+			"to": [ 20.0, 96.0, 5.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 7.0, 0.0, 5.0 ],
+			"rotationX": -12.0,
+			"faces": {
+				"north": { "texture": "#foliage4", "uv": [ 0.5, 0.0, 22.5, 96.0 ], "windMode": [0,2,2,0], "windData": [0,2,2,0] }
+			}
+		},
+		{
+			"name": "grass 6",
+			"from": [ 12.0, 0.0, -3.0 ],
+			"to": [ 12.0, 96.0, 19.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 12.0, 0.0, 6.0 ],
+			"rotationZ": -12.0,
+			"faces": {
+				"west": { "texture": "#foliage4", "uv": [ 1.0, 0.0, 23.0, 96.0 ], "windMode": [0,0,2,2], "windData": [0,0,2,2] }
+			}
+		}
+	]}

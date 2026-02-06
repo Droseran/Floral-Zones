@@ -1,0 +1,443 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/Frond Base 1/Frond Stem 1,Root/Fruit Root 1",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 24,
+	"textureSizes": {
+		"xanthosomasagittifolium": [24,24]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "North origin 1",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stalk base",
+					"from": [ -0.3, 0.0, -0.6 ],
+					"to": [ 0.3, 7.2, 0.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -5.0,
+					"faces": {
+						"north": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Stalk ",
+							"from": [ 0.06, 7.08, 0.0 ],
+							"to": [ 0.54, 19.08, 0.6 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 7.08, 0.0 ],
+							"rotationX": -8.0,
+							"faces": {
+								"north": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 20.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+								"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 20.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+								"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 20.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Stalk top",
+									"from": [ 0.06, 11.88, 0.0 ],
+									"to": [ 0.42, 15.48, 0.36 ],
+									"renderPass": 1,
+									"rotationOrigin": [ 0.24, 11.88, 0.0 ],
+									"rotationX": -15.0,
+									"faces": {
+										"north": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,2,2,1] },
+										"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.5, 0.0, 13.0, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,2,2,1] },
+										"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,1,2,2] }
+									},
+									"children": [
+										{
+											"name": "Leafbase",
+											"from": [ 0.18, 3.6, 0.0 ],
+											"to": [ 0.18, 3.6, 0.6 ],
+											"rotationOrigin": [ 0.18, 3.6, 0.0 ],
+											"rotationX": 50.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "R leaf",
+													"from": [ 0.0, -9.6, 0.0 ],
+													"to": [ 6.6, 4.8, 0.0 ],
+													"shade": false,													"gradientShade": true,
+													"gradientShade": true,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 15.0,
+													"faces": {
+														"south": { "texture": "#xanthosomasagittifolium", "uv": [ 13.0, 0.0, 24.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [2,2,2,2] }
+													}
+												},
+												{
+													"name": "L leaf",
+													"from": [ -6.6, -9.6, 0.0 ],
+													"to": [ 0.0, 4.8, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -15.0,
+													"faces": {
+														"south": { "texture": "#xanthosomasagittifolium", "uv": [ 1.0, 0.0, 12.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [2,2,2,2] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "North origin 2",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -25.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stalk base2",
+					"from": [ -0.3, 0.0, -0.6 ],
+					"to": [ 0.3, 4.8, 0.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -22.0,
+					"faces": {
+						"north": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 8.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 8.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 8.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Stalk 2",
+							"from": [ 0.06, 4.68, 0.0 ],
+							"to": [ 0.54, 11.88, 0.6 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 4.68, 0.0 ],
+							"rotationX": -25.0,
+							"faces": {
+								"north": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 12.0 ], "autoUv": false, "windMode": [5,5,5,5] },
+								"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [5,5,5,5] },
+								"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [5,5,5,5] }
+							},
+							"children": [
+								{
+									"name": "Stalk top2",
+									"from": [ 0.06, 7.08, 0.0 ],
+									"to": [ 0.42, 10.68, 0.36 ],
+									"renderPass": 1,
+									"rotationOrigin": [ 0.24, 7.08, 0.0 ],
+									"rotationX": -15.0,
+									"faces": {
+										"north": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+										"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.5, 0.0, 13.0, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+										"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+									},
+									"children": [
+										{
+											"name": "Leafbase2",
+											"from": [ 0.18, 3.6, 0.0 ],
+											"to": [ 0.18, 3.6, 0.6 ],
+											"rotationOrigin": [ 0.18, 3.6, 0.0 ],
+											"rotationX": 89.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "R leaf2",
+													"from": [ 0.0, -9.6, 0.0 ],
+													"to": [ 6.6, 4.8, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 15.0,
+													"faces": {
+														"south": { "texture": "#xanthosomasagittifolium", "uv": [ 13.0, 0.0, 24.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "L leaf2",
+													"from": [ -6.6, -9.6, 0.0 ],
+													"to": [ 0.0, 4.8, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -15.0,
+													"faces": {
+														"south": { "texture": "#xanthosomasagittifolium", "uv": [ 1.0, 0.0, 12.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,1,1,1] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "South origin 1",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 5.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stalk base3",
+					"from": [ 0.0, 0.0, 0.3 ],
+					"to": [ 0.6, 7.2, 0.9 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 5.0,
+					"faces": {
+						"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Stalk 3",
+							"from": [ 0.06, 7.08, 0.0 ],
+							"to": [ 0.54, 19.08, 0.6 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 7.08, 0.6 ],
+							"rotationX": 8.0,
+							"faces": {
+								"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 20.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+								"south": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 20.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] },
+								"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 20.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Stalk top3",
+									"from": [ 0.06, 11.88, 0.24 ],
+									"to": [ 0.42, 15.48, 0.6 ],
+									"renderPass": 1,
+									"rotationOrigin": [ 0.24, 11.88, 0.6 ],
+									"rotationX": 15.0,
+									"faces": {
+										"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.5, 0.0, 13.0, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,2,2,1] },
+										"south": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,1,2,2] },
+										"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,1,2,2] }
+									},
+									"children": [
+										{
+											"name": "Leafbase3",
+											"from": [ 0.18, 3.6, 0.3 ],
+											"to": [ 0.18, 3.6, 0.9 ],
+											"rotationOrigin": [ 0.18, 3.6, 0.3 ],
+											"rotationX": -68.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "R leaf3",
+													"from": [ 0.0, -9.6, 0.0 ],
+													"to": [ 6.6, 4.8, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -15.0,
+													"faces": {
+														"north": { "texture": "#xanthosomasagittifolium", "uv": [ 1.0, 0.0, 12.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [2,2,2,2] }
+													}
+												},
+												{
+													"name": "L leaf3",
+													"from": [ -6.6, -9.6, 0.0 ],
+													"to": [ 0.0, 4.8, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 15.0,
+													"faces": {
+														"north": { "texture": "#xanthosomasagittifolium", "uv": [ 13.0, 0.0, 24.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [2,2,2,2] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "North origin 3",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 58.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stalk base4",
+					"from": [ -0.3, 0.0, -0.6 ],
+					"to": [ 0.3, 6.0, 0.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -17.0,
+					"faces": {
+						"north": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 10.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 10.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 10.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Stalk 4",
+							"from": [ 0.06, 5.88, 0.0 ],
+							"to": [ 0.54, 14.28, 0.6 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 5.88, 0.0 ],
+							"rotationX": -22.0,
+							"faces": {
+								"north": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 14.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+								"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 14.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+								"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 14.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "South origin 2",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -61.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stalk base8",
+					"from": [ 0.0, 0.0, 0.3 ],
+					"to": [ 0.6, 6.0, 0.9 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 19.0,
+					"faces": {
+						"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 10.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 10.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 10.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Stalk 8",
+							"from": [ 0.06, 5.88, 0.0 ],
+							"to": [ 0.54, 15.48, 0.6 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 5.88, 0.6 ],
+							"rotationX": 8.0,
+							"faces": {
+								"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] },
+								"south": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 16.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] },
+								"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Stalk top8",
+									"from": [ 0.06, 9.48, 0.24 ],
+									"to": [ 0.42, 13.08, 0.6 ],
+									"renderPass": 1,
+									"rotationOrigin": [ 0.24, 9.48, 0.6 ],
+									"rotationX": 15.0,
+									"faces": {
+										"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.5, 0.0, 13.0, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,1,1,1] },
+										"south": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,1,1,1] },
+										"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 12.5, 6.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [1,1,1,1] }
+									},
+									"children": [
+										{
+											"name": "Leafbase8",
+											"from": [ 0.18, 3.6, 0.3 ],
+											"to": [ 0.18, 3.6, 0.9 ],
+											"rotationOrigin": [ 0.18, 3.6, 0.3 ],
+											"rotationX": -68.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "R leaf8",
+													"from": [ 0.0, -9.6, 0.0 ],
+													"to": [ 6.6, 4.8, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -15.0,
+													"faces": {
+														"north": { "texture": "#xanthosomasagittifolium", "uv": [ 1.0, 0.0, 12.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [2,2,2,2] }
+													}
+												},
+												{
+													"name": "L leaf8",
+													"from": [ -6.6, -9.6, 0.0 ],
+													"to": [ 0.0, 4.8, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 15.0,
+													"faces": {
+														"north": { "texture": "#xanthosomasagittifolium", "uv": [ 13.0, 0.0, 24.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [2,2,2,2] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "South origin 3",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 66.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stalk base9",
+					"from": [ 0.0, 0.0, 0.3 ],
+					"to": [ 0.6, 7.2, 0.9 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 28.0,
+					"faces": {
+						"east": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#xanthosomasagittifolium", "uv": [ 12.0, 0.0, 13.0, 12.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					}
+				}
+			]
+		}
+	]}

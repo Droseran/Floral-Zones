@@ -1,0 +1,59 @@
+{
+	"treeWorldPropertyCode": "dacrydiumcupressinum",
+	"sizeMultiplier": 2.4,
+	"yOffset": -2,
+	"trunks": [{
+		"widthloss": 0.044,
+		"dx": 0.5,
+		"dz": 0.5,
+		"segment": 4,
+		"dieAt": { "avg": 0.001 },
+		"branchStart": { "dist": "gaussian", "avg": 0.8, "var": 0.2 },
+		"branchSpacing": { "avg": 0.15, "var": 0.005 },
+		"branchVerticalAngle":  { "dist": "gaussian", "avg": 0.8, "var": 0.1 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 1, "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 0.05 },
+		"branchQuantity": { "avg": 4, "var": 0 },
+		"branchQuantityEvolve": { "transform": "quadratic", "factor": 0.2 }
+		}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt", "segment"] },
+		"dieAt": { "avg": 0.2, "var": 0.1 },
+		"dx": 1.5,
+		"dz": 0.5,
+		"segment": 1
+	}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt", "segment"] },
+		"dieAt": { "avg": 0.2, "var": 0.1 },
+		"dx": 0.5,
+		"dz": 1.5,
+		"segment": 3,
+	}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt", "segment"] },
+		"dieAt": { "avg": 0.2, "var": 0.1 },
+		"dx": 1.5,
+		"dz": 1.5,
+		"segment": 2
+	}],
+	"branches": [{
+		"widthLoss": 0.03,
+		"gravityDrag": 0.1,
+
+		"branchStart":  { "avg": 0.6, "var": 0.1 },
+		"branchSpacing": { "avg": 0, "var": 0 },
+		"branchVerticalAngle": { "avg": 1.57, "var": 0 },
+		"branchHorizontalAngle": { "avg": 0, "var": 2.1415 },
+
+		"branchQuantity": { "avg": 1, "var": 0 },
+		"branchWidthMultiplier": { "avg": 0.06, "var": 0 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "floralzonesneozeylandicregion:log-grown-dacrydiumcupressinum-ud",
+		"otherLogBlockCode": "floralzonesneozeylandicregion:log-resin-dacrydiumcupressinum-ud",
+		"leavesBlockCode": "floralzonesneozeylandicregion:leaves-grown-dacrydiumcupressinum",
+		"leavesBranchyBlockCode": "floralzonesneozeylandicregion:leavesbranchy-grown-dacrydiumcupressinum",
+		"mossDecorCode": "attachingplant-spottymoss",
+		"trunkSegmentBase": "floralzonesneozeylandicregion:logsection-grown-dacrydiumcupressinum-",
+		"trunkSegmentVariants": [ "ne", "se", "sw", "nw" ]
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"diospyroswhyteana": [4,4]
+	},
+	"textures": {
+		"diospyroswhyteana": "item/resource/diospyroswhyteana"
+	},
+	"elements": [
+		{
+			"name": "Nut1",
+			"from": [ 7.0, 0.0, 7.0 ],
+			"to": [ 9.0, 1.5, 8.5 ],
+			"rotationOrigin": [ 7.0, 0.0, 7.0 ],
+			"rotationY": 22.5,
+			"faces": {
+				"north": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 4.0, 4.0 ] },
+				"east": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.0, 3.5, 3.5 ] },
+				"south": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.0, 4.0, 3.5 ] },
+				"west": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.0, 3.5, 3.5 ] },
+				"up": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 4.0, 4.0 ] },
+				"down": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 4.0, 4.0 ] }
+			}
+		},
+		{
+			"name": "Nut2",
+			"from": [ 8.0, 0.0, 7.0 ],
+			"to": [ 10.0, 1.5, 8.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+			"rotationX": 1.0,
+			"rotationY": -12.5,
+			"faces": {
+				"north": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 4.0, 4.0 ] },
+				"east": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 3.5, 4.0 ] },
+				"south": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.0, 4.0, 3.5 ] },
+				"west": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.0, 3.5, 3.5 ] },
+				"up": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 4.0, 4.0 ] },
+				"down": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 4.0, 4.0 ] }
+			}
+		},
+		{
+			"name": "Nut3",
+			"from": [ 8.8, 0.0, 6.3 ],
+			"to": [ 10.8, 1.5, 7.8 ],
+			"rotationOrigin": [ 8.8, 0.0, 6.3 ],
+			"rotationX": 1.0,
+			"rotationY": -32.5,
+			"faces": {
+				"north": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 4.0, 4.0 ] },
+				"east": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 3.5, 4.0 ] },
+				"south": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.0, 4.0, 3.5 ] },
+				"west": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.0, 3.5, 3.5 ] },
+				"up": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 4.0, 4.0 ] },
+				"down": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 4.0, 4.0 ] }
+			}
+		}
+	]}

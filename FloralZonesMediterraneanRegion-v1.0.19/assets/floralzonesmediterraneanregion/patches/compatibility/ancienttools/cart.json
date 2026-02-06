@@ -1,0 +1,21 @@
+﻿[
+	{
+		"op": "addeach",
+		"path": "/attributes/types/-",
+		"value": ["wood-populusalba", "wood-taxusbaccata"],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/creativeinventoryStacks/0/stacks/-",
+		"value": [
+			{ type: "item", code: "cart", attributes: { type: "wood-populusalba" } },
+			{ type: "item", code: "cart", attributes: { type: "wood-taxusbaccata" } }
+		],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	}
+]

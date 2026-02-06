@@ -1,0 +1,85 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"variantgroups": [
+		{ "code": "type", "states": ["mimetesfimbriifolius"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"plantContainable": {
+			"largeContainerByType": {
+				"*": {
+				"shape": { "base": "block/plant/flower/mimetesfimbriifolius-var0" },
+					"textures": {
+    "log": { "base": "block/plant/flower/petal/mimetesfimbriifolius-log" },
+    "bark": { "base": "block/plant/flower/petal/mimetesfimbriifolius-bark" },
+    "branch": { "base": "block/plant/flower/petal/mimetesfimbriifolius-branch" },
+    "top": { "base": "block/plant/flower/petal/mimetesfimbriifolius-top" }
+					}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"*-mimetesfimbriifolius-*":{"base": "block/plant/flower/mimetesfimbriifolius1", "alternates": [ { "base": "block/plant/flower/mimetesfimbriifolius*" }]},
+
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+    "*-mimetesfimbriifolius-*": {
+    "stem": { "base": "block/plant/flower/stem/mimetesfimbriifolius-branches" },
+    "leaves": { "base": "block/plant/flower/petal/mimetesfimbriifolius-leaves" }
+    }
+
+		
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.2,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 2, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-mimetesfimbriifolius-*": { "origin": { "x": 0.5, "y": 1.25, "z": 0.5},"scale": 0.4},
+		"*": { "scale": 1.5}
+	}
+}

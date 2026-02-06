@@ -1,0 +1,178 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:entities/humanoid/usefultrader-chef.json",
+		"op": "addmerge",
+		"path": "/attributes/tradeProps/selling/list",
+		"value": [
+			{
+				"code": "floralzonescosmopolitanregion:bread-cocosnucifera-perfect",
+				"type": "item",
+				"stacksize": 8,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 2,
+					"var": 0.5
+				}
+			},
+			{
+				"code": "floralzonescosmopolitanregion:bread-ipomoeabatatas-perfect",
+				"type": "item",
+				"stacksize": 8,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 2,
+					"var": 0.5
+				}
+			},
+			{
+				"code": "floralzonescosmopolitanregion:bread-zeamays-perfect",
+				"type": "item",
+				"stacksize": 8,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 2,
+					"var": 0.5
+				}
+			}
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:entities/humanoid/usefultrader-chef.json",
+		"op": "addmerge",
+		"path": "/attributes/tradeProps/buying/list",
+		"value": [
+			{
+				"code": "floralzonescosmopolitanregion:fruit-cucurbitaficifolia",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzonescosmopolitanregion:fruit-empetrumnigrum",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzonescosmopolitanregion:fruit-juniperuscommunis",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzonescosmopolitanregion:fruit-rubuschamaemorus",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzonescosmopolitanregion:fruit-vanillaplanifolia",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 2,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzonescosmopolitanregion:grain-zeamays",
+				"type": "item",
+				"stacksize": 64,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzonescosmopolitanregion:vegetable-alliumsativum",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 2,
+					"var": 0.5
+				}
+			},
+			{
+				"code": "floralzonescosmopolitanregion:vegetable-ipomoeabatatas",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzonescosmopolitanregion:legume-phaseolusvulgaris",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 5,
+					"var": 1.25
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			}
+		]
+	}
+]

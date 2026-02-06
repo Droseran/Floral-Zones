@@ -1,0 +1,25 @@
+[
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+		"comment": "Small patches of Chinese Wolfberry",
+		"blockCodes": ["floralzoneseastasiaticregion:bigberrybush-lyciumbarbarum-empty", "floralzoneseastasiaticregion:bigberrybush-lyciumbarbarum-flowering", "floralzoneseastasiaticregion:bigberrybush-lyciumbarbarum-ripe"],
+		"minTemp": 2,
+		"maxTemp": 16,
+		"minRain": 0.19,
+		"maxRain": 0.65,
+		"minFertility": 0,
+		"maxFertility": 0.8,
+		"chance": 0.25,
+		"minForest": 0.3,
+		"maxForest": 0.6,
+		"maxY": 0.6,
+		"quantity": { "avg": 7, "var": 4 },
+          "offsetX": { "avg": 10, "var": 6 },
+          "offsetZ": { "avg": 10, "var": 6 },
+	},
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server"
+      }
+]

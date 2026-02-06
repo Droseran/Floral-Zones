@@ -1,0 +1,36 @@
+{
+	"code": "silvertorchcactus",
+	"class": "BlockPlantDamageOnTouch",
+	"variantgroups": [
+		{ "code": "type", "states": ["opuntiatriacantha"] }
+	],
+	"behaviors": [{"name": "Unstable"}],
+	"attributes": {
+		"sprintIntoDamage": 1,
+		"fallIntoDamageMul": 2,
+		"immuneCreatures": ["game:locust-bronze", "game:locust-corrupt", "game:drifter-normal", "game:drifter-deep", "game:drifter-tainted", "game:drifter-nightmare", "game:drifter-corrupt", "game:drifter-doubleheaded"],
+		"plantContainable": {
+			"largeContainer": {
+				"shape": { "base":  "block/plant/cactus/opuntiatriacantha_var*" },"textures": {"opuntiatriacantha": { "base": "block/plant/cactus/opuntiatriacantha" }}
+			}
+		}
+	},
+	"shape": { 
+		"base": "block/plant/cactus/opuntiatriacantha_var*"
+	},
+	"textures": {
+		"opuntiatriacantha": { "base": "block/plant/cactus/opuntiatriacantha" }
+	},
+	"randomizeRotations": true,
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"blockmaterial": "Glass",
+	"replaceable": 900,
+	"lightAbsorption": 0,
+	"resistance": 0.25,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 0.5, "z2": 0.8125 },
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": { "all": false },
+	"selectionBox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.5, "z2": 0.9375 }
+}

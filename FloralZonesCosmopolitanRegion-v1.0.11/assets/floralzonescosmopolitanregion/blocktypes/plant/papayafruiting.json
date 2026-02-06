@@ -1,0 +1,95 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 5,
+		"resetBelowTemperature": 7,
+		"stopBelowTemperature": 9,
+		
+		"revertBlockAboveTemperature": 58,
+		"resetAboveTemperature": 54,
+		"stopAboveTemperature": 50,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 7.49, "var": 1.49 },
+		"*-flowering": { "avg": 4.49, "var": 0.09 },
+		"*-ripe": { "avg": 0.25, "var": 0.02 }},
+		"stackable": true
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonescosmopolitanregion:fruit-{type}", "quantity": { "avg": 2.6 }  },
+			"harvestedBlockCode": "floralzonescosmopolitanregion:bigberrybush-{type}-empty"
+		}} ],
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["caricapapaya"] },
+		{ "code": "state", "states": ["empty","flowering","ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-empty": { "base": "block/wood/log/caricapapaya" },
+		"*": { "base": "block/plant/berrybush/caricapapaya-{state}" }
+	},
+	"randomizeRotations": false,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-caricapapaya-empty": {
+		"all": { "base": "block/wood/bark/caricapapaya"}
+		},
+		"*-caricapapaya-ripe": {
+		"trunk": { "base": "block/wood/bark/caricapapaya" },"unripe": { "base": "item/food/fruit/caricapapaya2","alternates": [ { "base": "item/food/fruit/caricapapaya2" },{ "base": "item/food/fruit/caricapapaya2" },{ "base": "item/food/fruit/caricapapaya" } ] },
+		"ripe2": { "base": "item/food/fruit/caricapapaya","alternates": [ { "base": "item/food/fruit/caricapapaya" },{ "base": "item/food/fruit/caricapapaya" },{ "base": "item/food/fruit/caricapapaya2" } ]},"ripe3": { "base": "item/food/fruit/caricapapaya2","alternates": [ { "base": "item/food/fruit/caricapapaya2" },{ "base": "item/food/fruit/caricapapaya2" },{ "base": "item/food/fruit/caricapapaya" } ]},"ripe": { "base": "item/food/fruit/caricapapaya" }
+		},
+		"*-caricapapaya-flowering": {
+		"trunk": { "base": "block/wood/bark/caricapapaya" },"caricapapayaflower": { "base": "block/plant/berrybush/caricapapayaflower"}}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"fertility": 30,
+	"lightAbsorption": 0,
+	"resistance": 5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescosmopolitanregion:fruit-{type}", "quantity": { "avg": 1.6 }   },
+			{ "type": "item", "code": "game:stick", "quantity": { "avg": 1.1 }   },
+		],
+		"*": []
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+}

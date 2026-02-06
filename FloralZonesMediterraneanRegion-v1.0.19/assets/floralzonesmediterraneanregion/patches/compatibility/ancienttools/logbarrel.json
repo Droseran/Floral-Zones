@@ -1,0 +1,18 @@
+[
+	{
+		"op": "addeach",
+		"path": "/variantgroups/0/states/-",
+		"value": ["populusalba", "taxusbaccata"],
+		"file": "ancienttools:blocktypes/logbarrel",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/allowedVariants/-",
+		"value": ["logbarrel-populusalba-*", "logbarrel-taxusbaccata-*"],
+		"file": "ancienttools:blocktypes/logbarrel",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	}
+]

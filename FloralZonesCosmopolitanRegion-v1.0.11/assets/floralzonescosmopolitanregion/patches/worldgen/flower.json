@@ -1,0 +1,307 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Larges patches of Fireweed",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-chamaenerionangustifolium-free"
+          ],
+          "minTemp": -14,
+          "maxTemp": 0,
+		  "minForest": 0,
+		  "maxForest": 0.4,
+          "minRain": 0.17,
+          "maxRain": 1,
+          "chance": 0.008,
+          "maxY": 0.8,
+		  "minFertility": 0.3,
+		  "maxFertility": 0.7,
+          "quantity": { "dist": "invexp", "avg": 260, "var": 240 },
+          "offsetX": { "avg": 0, "var": 30 },
+          "offsetZ": { "avg": 0, "var": 30 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Fireweed",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-chamaenerionangustifolium-free"
+          ],
+          "minTemp": -14,
+          "maxTemp": 6,
+		  "minForest": 0,
+		  "maxForest": 0.4,
+          "minRain": 0.17,
+          "maxRain": 1,
+          "chance": 0.05,
+          "maxY": 0.8,
+		  "minFertility": 0.3,
+		  "maxFertility": 0.7,
+          "quantity": { "dist": "invexp", "avg": 8, "var": 3 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "All climates Patches of Reindeer Lichen",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-cladoniarangiferina-free"
+          ],
+          "minTemp": -22,
+          "maxTemp": 6,
+		  "minForest": 0,
+		  "maxForest": 1,
+          "minRain": 0.35,
+          "maxRain": 1,
+          "chance": 0.03,
+          "maxY": 0.42,
+		  "minFertility": 0,
+		  "maxFertility": 0.3,
+          "quantity": { "dist": "invexp", "avg": 8, "var": 6 },
+          "offsetX": { "avg": 2, "var": 12 },
+          "offsetZ": { "avg": 2, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Patches of Reindeer Lichen",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-cladoniarangiferina-free"
+          ],
+          "minTemp": -22,
+          "maxTemp": 0,
+		  "minForest": 0,
+		  "maxForest": 1,
+          "minRain": 0.35,
+          "maxRain": 1,
+          "chance": 0.27,
+          "maxY": 0.42,
+		  "minFertility": 0,
+		  "maxFertility": 0.3,
+          "quantity": { "dist": "invexp", "avg": 8, "var": 6 },
+          "offsetX": { "avg": 2, "var": 12 },
+          "offsetZ": { "avg": 2, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Vast Patches of Reindeer Lichen",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-cladoniarangiferina-free"
+          ],
+          "minTemp": -22,
+          "maxTemp": -12,
+		  "minForest": 0,
+		  "maxForest": 1,
+          "minRain": 0.35,
+          "maxRain": 1,
+          "chance": 0.05,
+          "maxY": 0.42,
+		  "minFertility": 0,
+		  "maxFertility": 0.3,
+          "quantity": { "dist": "invexp", "avg": 148, "var": 146 },
+          "offsetX": { "avg": 2, "var": 12 },
+          "offsetZ": { "avg": 2, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Patches of Giant Crinum Lily",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-crinumasiaticum-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 40,
+          "minRain": 0.6,
+          "maxRain": 1,
+		  "minFertility": 0.6,
+		  "maxFertility": 1,
+		  "minForest": 0.3,
+		  "maxForest": 0.5,
+          "chance": 0.3,
+          "maxY": 0.29,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 12, "var": 7 },
+          "offsetX": { "avg": 2, "var": 10 },
+          "offsetZ": { "avg": 2, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large Patches of Creeping Water Primrose",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-ludwigiapeploides-free"
+          ],
+          "minTemp": 10,
+          "maxTemp": 40,
+          "minRain": 0.62,
+          "maxRain": 0.92,
+		  "minFertility": 0.5,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 1,
+          "chance": 1,
+          "maxY": 0.61,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 25, "var": 15 },
+          "offsetX": { "avg": 0, "var": 5 },
+          "offsetZ": { "avg": 0, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large Patches of Bogbean",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-menyanthestrifoliata-free"
+          ],
+          "minTemp": -8,
+          "maxTemp": 10,
+          "minRain": 0.28,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 0.5,
+		  "minForest": 0,
+		  "maxForest": 0.4,
+          "chance": 0.5,
+          "maxY": 0.72,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 250, "var": 145 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Northern Labrador Tea",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-rhododendrontomentosum-free"
+          ],
+          "minTemp": -13,
+          "maxTemp": -1,
+          "minRain": 0.12,
+          "maxRain": 0.55,
+		  "minFertility": 0,
+		  "maxFertility": 0.4,
+		  "minForest": 0,
+		  "maxForest": 0.4,
+          "maxY": 0.56,
+          "chance": 0.3,
+          "quantity": { "dist": "invexp", "avg": 26, "var": 22 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Rare patches of Northern Labrador Tea",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-rhododendrontomentosum-free"
+          ],
+          "minTemp": -13,
+          "maxTemp": 4,
+          "minRain": 0.12,
+          "maxRain": 0.55,
+		  "minFertility": 0,
+		  "maxFertility": 0.4,
+		  "minForest": 0,
+		  "maxForest": 0.4,
+          "maxY": 0.56,
+          "chance": 0.03,
+          "quantity": { "dist": "invexp", "avg": 16, "var": 12 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Bay Cedar",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-surianamaritima-free"
+          ],
+          "minTemp": 22,
+          "maxTemp": 40,
+          "minRain": 0.53,
+          "maxRain": 0.77,
+		  "minFertility": 0,
+		  "maxFertility": 0.65,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "maxY": 0.02,
+          "chance": 0.3,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 18, "var": 10 },
+          "offsetX": { "avg": 3, "var": 35 },
+          "offsetZ": { "avg": 3, "var": 35 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Tight patches of Bay Cedar",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:flower-surianamaritima-free"
+          ],
+          "minTemp": 22,
+          "maxTemp": 40,
+          "minRain": 0.53,
+          "maxRain": 0.77,
+		  "minFertility": 0,
+		  "maxFertility": 0.65,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "maxY": 0.02,
+          "chance": 0.3,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 38, "var": 30 },
+          "offsetX": { "avg": 3, "var": 2 },
+          "offsetZ": { "avg": 3, "var": 2 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+      }
+]

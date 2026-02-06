@@ -1,0 +1,58 @@
+{
+	treeWorldPropertyCode: "araucariaheterophyllalarge",
+	sizeMultiplier: 3.3,
+	"yOffset": -2,
+	trunks: [{
+		widthloss: 0.1,
+		"dx": 0.5,
+		"dz": 0.5,
+		"segment": 4,
+		dieAt: { avg: 0.05 },
+		branchStart: { dist: "gaussian", avg: 0.3, var: 0.05 },
+		branchSpacing: { avg: 0.15, var: 0.005 },
+		branchVerticalAngle:  { dist: "gaussian", avg: 1.57, var: 0.3 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.2, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 0.05 },
+		branchQuantity: { avg: 18, var: 0 },
+		branchQuantityEvolve: { transform: "quadratic", factor: 0.2 }
+	}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt", "segment"] },
+		"dieAt": { "avg": 0.2, "var": 0.1 },
+		"dx": 1.5,
+		"dz": 0.5,
+		"segment": 1
+	}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt", "segment"] },
+		"dieAt": { "avg": 0.2, "var": 0.1 },
+		"dx": 0.5,
+		"dz": 1.5,
+		"segment": 3,
+	}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt", "segment"] },
+		"dieAt": { "avg": 0.2, "var": 0.1 },
+		"dx": 1.5,
+		"dz": 1.5,
+		"segment": 2
+	}],
+	branches: [{
+		widthLoss: 0.043,
+		gravityDrag: 0.02,
+
+		branchStart:  { avg: 1.25, var: 0.1 },
+		branchSpacing: { avg: 0, var: 0 },
+		branchVerticalAngle: { avg: 1.57, var: 0 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 14, var: 0 },
+		branchWidthMultiplier: { avg: 0.3, var: 0 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "floralzonesneozeylandicregion:log-grown-araucariaheterophylla-ud",
+		"leavesBlockCode": "floralzonesneozeylandicregion:leaves-grown-araucariaheterophylla",
+		"leavesBranchyBlockCode": "floralzonesneozeylandicregion:leavesbranchy-grown-araucariaheterophylla",
+		"mossDecorCode": "attachingplant-spottymoss",
+		"trunkSegmentBase": "floralzonesneozeylandicregion:logsection-grown-araucariaheterophylla-",
+		"trunkSegmentVariants": [ "ne", "se", "sw", "nw" ]
+	}
+}

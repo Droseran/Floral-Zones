@@ -1,0 +1,28 @@
+[
+	{
+		"enabled": false,
+		ingredientPattern: "SSS,SRS,W_W",
+		width: 3,
+		height: 3,
+		ingredients: {
+			"S": {
+				type: "item",
+				code: "game:stick"
+			},
+			"R": {
+				type: "item",
+				code: "game:rope"
+			},
+			"W": {
+				type: "block",
+				code: "floralzonescaribbeanregion:log-placed-*-ud",
+				name: "wood",
+				allowedVariants: ["lysilomalatisiliquum"]
+			}
+		},
+		output: {
+			type: "block",
+			code: "ancienttools:curingrack-{wood}-ns-full"
+		}
+	}
+]

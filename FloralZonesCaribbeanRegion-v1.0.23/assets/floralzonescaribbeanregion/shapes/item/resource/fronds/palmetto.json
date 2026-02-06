@@ -1,0 +1,97 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/Frond Base 1/Frond Stem 1,Root/Fruit Root 1",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 24,
+	"textureSizes": {
+		"sabalpalmetto": [16,24]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Frond Root 1",
+			"from": [ -13.0, 1.0, 8.0 ],
+			"to": [ -13.0, 1.0, 8.0 ],
+			"rotationOrigin": [ -13.0, 1.0, 8.0 ],
+			"rotationY": -180.0,
+			"rotationZ": 84.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Base 1",
+					"from": [ 1.1, -0.1, -0.4 ],
+					"to": [ 1.7, 15.9, 0.6 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ 1.1, -0.1, -0.4 ],
+					"rotationY": 180.0,
+					"rotationZ": -11.0,
+					"faces": {
+						"north": { "texture": "#sabalpalmetto", "uv": [ 15.5, 8.0, 16.0, 24.0 ], "windMode": [0,0,0,0] },
+						"south": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 15.5, 24.0 ], "windMode": [0,0,0,0] },
+						"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 16.0, 24.0 ], "windMode": [0,0,0,0] }
+					},
+					"children": [
+						{
+							"name": "Frond Stem 1",
+							"from": [ 0.0, 15.7, 0.1 ],
+							"to": [ 0.5, 31.7, 0.9 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 15.7, 0.1 ],
+							"rotationZ": 6.0,
+							"faces": {
+								"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,0,0] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 1",
+									"from": [ 0.0, 15.8, 0.4 ],
+									"to": [ 0.0, 15.8, 0.4 ],
+									"rotationOrigin": [ 0.0, 15.8, 0.4 ],
+									"rotationZ": 7.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL1",
+											"from": [ 0.0, -7.0, 0.0 ],
+											"to": [ 0.0, 17.0, 15.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"faces": {
+												"west": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "windMode": [0,0,7,7] }
+											}
+										},
+										{
+											"name": "Frond BaseR1",
+											"from": [ 0.0, -7.0, -15.0 ],
+											"to": [ 0.0, 17.0, 0.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"faces": {
+												"east": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "windMode": [0,7,7,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

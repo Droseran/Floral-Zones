@@ -1,0 +1,117 @@
+{
+    "code": "leaves",
+    "__comment": "BlockLeaves contains some code for map color tinting, stuff for wind affectedness and random testForDecay server block ticks",
+    "class": "BlockLeaves",
+    "behaviorsByType": {
+	"*-placed*-*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventname": "testForDecay"}}, { "name": "RainDrip" }],
+        "*": [{ "name": "RainDrip" }]
+    },
+    "attributes": {
+        "handbook": {
+            "groupBy": ["leaves-*"]
+        },
+        "treeFellingGroupCodeByType": {
+            "*-placed-*": "{wood}",
+            "*-placed1-*": "{wood}",
+            "*-placed2-*": "{wood}",
+            "*-placed3-*": "{wood}",
+            "*-placed4-*": "{wood}",
+            "*-placed5-*": "{wood}",
+            "*-placed6-*": "{wood}",
+            "*-placed7-*": "{wood}",
+
+	    "*-grown-*": "{wood}"
+        },
+        "treeFellingGroupSpreadIndex": 0,
+        "canDecayByType": {
+            "*-placed*-*": true
+        }
+    },
+    "variantgroups": [
+        { "code": "type", "states": ["placed", "placed1", "placed2", "placed3", "placed4", "placed5", "placed6", "placed7", "grown"] },
+        { "code": "wood", "states": ["leucadendronargenteum","pterocelastrustricuspidatus"], "loadFromProperties": "floralzonescaperegion:block/wood" }
+    ],
+    "creativeinventory": { "general": ["leaves-placed-*"], "flora": ["leaves-placed-*"] },
+    "shape": {
+        "base": "game:block/plant/leaves/normal",
+        "rotateY": 10,
+        "alternates": [{ "rotateY": 61 }, { "rotateY": 113 }, { "rotateY": 164 }, { "rotateY": 216 }, { "rotateY": 267 }, { "rotateY": 319 }]
+    },
+    "lod0Shape": {
+        "base": "game:block/plant/leaves/normal-lod0",
+        "rotateY": 10,
+        "alternates": [{ "rotateY": 61 }, { "rotateY": 113 }, { "rotateY": 164 }, { "rotateY": 216 }, { "rotateY": 267 }, { "rotateY": 319 }]
+    },
+    "shapeInventory": { "base": "game:block/plant/leaves/normal-lod0" },
+    "renderpass": "OpaqueNoCull",
+    "faceCullMode": "CollapseMaterial",
+    "blockmaterial": "Leaves",
+    "climateColorMapByType": {
+        "*-leucadendronargenteum": "None",
+        "*-ocoteabullata": "climatePlantTint",
+        "*": "climatePlantTint"
+    },
+    "seasonColorMapByType": {
+        "*-leucadendronargenteum": "None",
+        "*-ocoteabullata": "seasonalLarch",
+        "*": "seasonalFoliage"
+    },
+    "vertexFlags": {
+        "zOffset": 4,
+        "windMode": "Leaves"
+    },
+    "textures": {
+	"largeleavesByType": {
+	    "*": { "base": "floralzonescaperegion:block/plant/leaves/large/{wood}*" }
+	  },
+   "smallleavesByType": {
+      "*": { "base": "floralzonescaperegion:block/plant/leaves/small/{wood}*" }
+    }
+    },
+    "sideopaque": {"all": false},
+    "sidesolid": {"all": false},
+    "sideao": {"all": true},
+    "emitSideAo": {"all": false},
+    "snowCoverage": true,
+    "replaceable": 4000,
+    "lightAbsorption": 1,
+    "resistance": 0.5,
+    "collisionbox": null,
+    "drops": [
+        {
+            "type": "item",
+            "code": "floralzonescaperegion:treeseed-{wood}",
+            "quantityByType": {
+                "*": { "avg": 0.05, "var": 0 }
+            }
+        },
+        {
+            "type": "item",
+            "code": "game:stick",
+            "quantity": { "avg": 0.02, "var": 0 }
+        }
+    ],
+    "sounds": {
+        "break": "game:block/plant",
+        "place": "game:block/plant",
+        "hit": "game:block/plant",
+        "walk": "game:walk/grass",
+	      "inside": "game:walk/inside/leafy/bushrustle*"
+    },
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 10
+    },
+    "materialDensity": 300,
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+        "rotation": { "x": -2, "y": 25, "z": -78 },
+        "scale": 0.4
+    },
+    "guiTransform": {
+        "scale": 0.8
+    },
+    "frostable": true
+}

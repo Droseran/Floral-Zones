@@ -1,0 +1,100 @@
+{
+	"code": "pickledvegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["armoraciarusticana","capparisspinosa","cynaracardunculusscolymuspetals"] }
+    ],
+		"crockable": true,
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-armoraciarusticana": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   400,
+				"foodcategory": "Vegetable" },
+				"inPieProperties": {"texture": "block/food/pie/fill-armoraciarusticana", "partType": "Filling" }
+	},
+		"*-capparisspinosa": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  80,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-cynaracardunculusscolymuspetals": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   200,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	}
+	},
+	"shapebytype": {
+		"*-armoraciarusticana": { "base": "game:item/resource/crushed/bonemeal" },
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"texturebytype": {
+		"*-cynaracardunculusscolymuspetals": { "base": "block/plant/crop/cynaracardunculusscolymus/flower" },
+		"*-armoraciarusticana": { "base": "item/food/vegetable/{type}prepared" },
+		"*": { "base": "item/food/vegetable/{type}-pickled" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-armoraciarusticana": { "satiety": 160, "foodcategory": "Vegetable" },
+		"*-capparisspinosa": { "satiety": 40, "foodcategory": "Vegetable" },
+		"*-cynaracardunculusscolymuspetals": { "satiety": 80, "foodcategory": "Vegetable" }
+	},
+	"transitionablePropsByType": {
+		"*-armoraciarusticana": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
+		"*-capparisspinosa": [{
+			"type": "Perish",
+			"freshHours": { "avg": 5184 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
+		"*-cynaracardunculusscolymuspetals": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}]
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	}}

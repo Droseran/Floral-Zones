@@ -1,0 +1,65 @@
+{
+	"code": "cotton",
+		"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "SingleCenter"}}
+	],
+  "variantgroups": [
+    {"code": "type","states": [ "gossypiumhirsutum"]},
+    {"code": "state","states": [ "boll","fiber"]}],
+
+  "shapebytype": {
+    "*": {
+      "base": "item/resource/{type}{state}"
+    }
+  },
+  "texturesByType": {
+    "*-gossypiumhirsutum-*": {"gossypiumhirsutum": { "base": "item/resource/{type}" }}
+  },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"maxstacksize": 64,
+	"attributes": {
+		"handbook": {"groupBy": ["cotton-*"]},
+		"displaycaseable": false, 
+		"shelvable": false,
+		"onDisplayTransform": {
+			"translation": { "x": 0, "y": -0.05, "z": 0.0 },
+			"rotation": { "x": 0, "y": -45, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+			"scale": 1.0
+		},
+		"groundStorageTransform": {
+			"translation": { "x": 0, "y": 0.0, "z": -0.0 },
+			"rotation": { "x": 0, "y": 90, "z": 0 },
+			"scale": 3.5
+		}
+	},
+  "sounds": {
+    "walk": "game:walk/plant"
+  },
+	"materialDensity": 500,
+	"heldTpHitAnimation": "breaktool",
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": -0.5, "z": -1.5 },
+		"rotation": { "x": 180, "y": 0, "z": 90 },
+		"scale": 0.25
+	},
+	"guiTransformByType": {
+    "*-boll": {"translation": { "x": 0, "y": 1, "z": 0 },"rotation": { "x": 0, "y": 139, "z": 125 },"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },"scale": 3.18},
+    "*": {"translation": {"x": 0,"y": 1,"z": 0},"rotation": {"x": 6,"y": 130,"z": 40},"origin": {"x": 0.5,"y": 0.1,"z": 0.5},"scale": 4.4}
+	},
+	"tpHandTransform": {
+		"translation": { "x": -2.3, "y": -0.2, "z": -1.6},
+		"rotation": { "x": -90, "y": 90, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+		"scale": 0.25
+	},
+
+		"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0, "z": 0.5299 },
+		"scale": 0.25
+	}
+	
+
+}

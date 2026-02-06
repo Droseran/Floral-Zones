@@ -1,0 +1,71 @@
+{
+	"code": "coconuthusk",
+		"behaviors": [
+		{ "name": "GroundStorable", 
+			"properties": {
+				"layout": 'Stacking',
+				"placeRemoveSound": 'game:sounds/walk/wood*',
+				"stackingModel": 'item/resource/fiber/coconuthusk-pile',
+				"upSolid": false,
+				"modelItemsToStackSizeRatio": 6,
+				"stackingCapacity": 15,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 5,
+				"collisionBox": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.25, z2: 1 },
+				"cbScaleYByLayer": 0.2
+			}
+		}
+	],
+  "shape": {"base": "item/resource/fiber/coconuthusk"},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"maxstacksize": 64,
+	"attributes": {
+		"handbook": {"groupBy": ["coconut-*"]},
+		"displaycaseable": false, 
+		"shelvable": false,
+		"onDisplayTransform": {
+			"translation": { "x": 0, "y": -0.05, "z": 0.0 },
+			"rotation": { "x": 0, "y": -45, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+			"scale": 1.0
+		},
+		"groundStorageTransform": {
+			"translation": { "x": 0, "y": 0.0, "z": -0.0 },
+			"rotation": { "x": 0, "y": 90, "z": 0 },
+			"scale": 1.00
+		}
+	},
+  "sounds": {
+    "walk": "game:walk/plant"
+  },
+	"materialDensity": 500,
+	"heldTpHitAnimation": "breaktool",
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 20,
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": -0.5, "z": -1.5 },
+		"rotation": { "x": 160, "y": -23, "z": -108 },
+		"origin": { "x": 0, "y": -1, "z": 1 },
+		"scale": 1.05
+	},
+	"guiTransformByType": {
+    "*": {"translation": {"x": 0,"y": 1,"z": 0},"rotation": {"x": 0,"y": 145,"z": 125},"origin": {"x": 0.5,"y": 0.1,"z": 0.5},"scale": 3}
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.55, "y": -0.10, "z": -0.45},
+		"rotation": { "x": 90, "y": 90, "z": 90 },
+		"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+		"scale": 0.5
+	},
+
+		"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0, "z": 0.5299 },
+		"scale": 3
+	}
+	
+
+}

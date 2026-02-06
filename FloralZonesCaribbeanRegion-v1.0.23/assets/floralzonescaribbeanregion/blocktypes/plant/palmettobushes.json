@@ -1,0 +1,101 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperatureByType": {"*sabaletonia*": 7,"*sabalmiamiensis*": 7},
+		"resetBelowTemperatureByType": {"*sabaletonia*": 9,"*sabalmiamiensis*": 9},
+		"stopBelowTemperatureByType": {"*sabaletonia*": 11,"*sabalmiamiensis*": 11},
+		
+		"revertBlockAboveTemperatureByType": {"*sabaletonia*": 51,"*sabalmiamiensis*": 51},
+		"resetAboveTemperatureByType": {"*sabaletonia*": 47,"*sabalmiamiensis*": 47},
+		"stopAboveTemperatureByType": {"*sabaletonia*": 43,"*sabalmiamiensis*": 43},
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-sabaletonia-empty": { "avg": 2.25, "var": 0.09 },"*-sabaletonia-flowering": { "avg": 3.04, "var": 0.09 },"*-sabaletonia-ripe": { "avg": 0.98, "var": 0.09 },
+		"*-sabalmiamiensis-empty": { "avg": 2.25, "var": 0.09 },"*-sabalmiamiensis-flowering": { "avg": 3.04, "var": 0.09 },"*-sabalmiamiensis-ripe": { "avg": 0.98, "var": 0.09 }},
+		"stackable": false
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 6.5 }  },
+			"harvestedBlockCode": "floralzonescaribbeanregion:bigberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["sabaletonia","sabalmiamiensis"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-sabaletonia-empty": { "base": "block/plant/berrybush/sabaletonia-empty"},
+		"*-sabaletonia-flowering": { "base": "block/plant/berrybush/sabaletonia-ripe"},
+		"*-sabaletonia-ripe": { "base": "block/plant/berrybush/sabaletonia-ripe"},
+		"*-sabalmiamiensis-empty": { "base": "block/plant/berrybush/sabalmiamiensis-empty"},
+		"*-sabalmiamiensis-flowering": { "base": "block/plant/berrybush/sabalmiamiensis-ripe"},
+		"*-sabalmiamiensis-ripe": { "base": "block/plant/berrybush/sabalmiamiensis-ripe"},
+		"*": { "base": "block/plant/berrybush/sabalminor" }
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-flowering": {
+			"sabalpalmetto": { "base": "floralzonescaribbeanregion:block/plant/fern/sabalpalmetto" },
+			"fruit": { "base": "block/plant/berrybush/sabalpalmetto-flowering" }
+		},
+		"*-ripe": {
+			"sabalpalmetto": { "base": "floralzonescaribbeanregion:block/plant/fern/sabalpalmetto" },
+			"fruit": { "base": "block/plant/berrybush/sabalpalmetto-fruiting" }
+		},
+		"*-empty": {
+			"sabalpalmetto": { "base": "floralzonescaribbeanregion:block/plant/fern/sabalpalmetto" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": null,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:palmleaf-palmetto", "quantity": { "avg": 4.5, "var": 2  }  },
+			{ "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 6.5, "var": 2  }  },
+		],
+		"*": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:palmleaf-palmetto", "quantity": { "avg": 6.5, "var": 2  }  },
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+}

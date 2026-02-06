@@ -1,0 +1,88 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"alnusalnobetula": [8,8]
+	},
+	"textures": {
+		"alnusalnobetula": "item/resource/seeds/alnusalnobetula"
+	},
+	"elements": [
+		{
+			"name": "Cone",
+			"from": [ 6.0, 0.0, 6.0 ],
+			"to": [ 9.0, 3.0, 9.0 ],
+			"rotationOrigin": [ 6.0, 0.0, 6.0 ],
+			"faces": {
+				"north": { "texture": "#alnusalnobetula", "uv": [ 3.0, 5.0, 6.0, 8.0 ] },
+				"east": { "texture": "#alnusalnobetula", "uv": [ 0.0, 1.5, 3.0, 4.5 ] },
+				"south": { "texture": "#alnusalnobetula", "uv": [ 3.0, 5.0, 6.0, 8.0 ] },
+				"west": { "texture": "#alnusalnobetula", "uv": [ 1.0, 1.0, 4.0, 4.0 ] },
+				"up": { "texture": "#alnusalnobetula", "uv": [ 3.0, 1.0, 6.0, 4.0 ] },
+				"down": { "texture": "#alnusalnobetula", "uv": [ 1.5, 0.5, 4.5, 3.5 ] }
+			},
+			"children": [
+				{
+					"name": "End",
+					"from": [ 0.5, 0.5, 3.0 ],
+					"to": [ 2.5, 2.5, 4.0 ],
+					"rotationOrigin": [ 0.5, 0.5, 3.0 ],
+					"faces": {
+						"east": { "texture": "#alnusalnobetula", "uv": [ 2.0, 5.5, 3.0, 7.5 ] },
+						"south": { "texture": "#alnusalnobetula", "uv": [ 0.5, 5.5, 2.5, 7.5 ] },
+						"west": { "texture": "#alnusalnobetula", "uv": [ 0.0, 5.5, 1.0, 7.5 ] },
+						"up": { "texture": "#alnusalnobetula", "uv": [ 1.0, 5.0, 3.0, 6.0 ] },
+						"down": { "texture": "#alnusalnobetula", "uv": [ 0.5, 7.0, 2.5, 8.0 ] }
+					},
+					"children": [
+						{
+							"name": "tip",
+							"from": [ 0.5, 0.5, 1.0 ],
+							"to": [ 1.5, 1.5, 1.5 ],
+							"rotationOrigin": [ 0.5, 0.5, 1.0 ],
+							"faces": {
+								"east": { "texture": "#alnusalnobetula", "uv": [ 1.0, 5.5, 1.5, 6.5 ] },
+								"south": { "texture": "#alnusalnobetula", "uv": [ 1.0, 6.0, 2.0, 7.0 ] },
+								"west": { "texture": "#alnusalnobetula", "uv": [ 2.0, 6.0, 2.5, 7.0 ] },
+								"up": { "texture": "#alnusalnobetula", "uv": [ 1.0, 6.0, 2.0, 6.5 ] },
+								"down": { "texture": "#alnusalnobetula", "uv": [ 1.0, 6.5, 2.0, 7.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Base",
+					"from": [ 0.5, 0.5, -0.5 ],
+					"to": [ 2.5, 2.5, 0.0 ],
+					"rotationOrigin": [ 0.5, 0.5, -0.5 ],
+					"faces": {
+						"north": { "texture": "#alnusalnobetula", "uv": [ 3.5, 5.5, 5.5, 7.5 ] },
+						"east": { "texture": "#alnusalnobetula", "uv": [ 3.0, 5.5, 3.5, 7.5 ] },
+						"west": { "texture": "#alnusalnobetula", "uv": [ 5.5, 5.0, 6.0, 7.0 ] },
+						"up": { "texture": "#alnusalnobetula", "uv": [ 3.5, 5.0, 5.5, 5.5 ] },
+						"down": { "texture": "#alnusalnobetula", "uv": [ 3.5, 7.5, 5.5, 8.0 ] }
+					},
+					"children": [
+						{
+							"name": "Stem",
+							"from": [ 0.5, 0.5, -3.0 ],
+							"to": [ 1.5, 1.5, 0.0 ],
+							"rotationOrigin": [ 0.5, 0.5, 0.0 ],
+							"rotationY": -22.5,
+							"faces": {
+								"north": { "texture": "#alnusalnobetula", "uv": [ 7.0, 0.5, 8.0, 1.5 ] },
+								"east": { "texture": "#alnusalnobetula", "uv": [ 6.0, 0.0, 7.0, 3.0 ], "rotation": 90 },
+								"west": { "texture": "#alnusalnobetula", "uv": [ 6.0, 0.0, 7.0, 3.0 ], "rotation": 90 },
+								"up": { "texture": "#alnusalnobetula", "uv": [ 6.0, 0.0, 7.0, 3.0 ] },
+								"down": { "texture": "#alnusalnobetula", "uv": [ 6.5, 0.0, 7.5, 3.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

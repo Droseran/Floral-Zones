@@ -1,0 +1,166 @@
+[
+	{
+		ingredientPattern: "_H,HP,PS",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "floralzonesmediterraneanregion:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofing-sod-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H_,HPH,PSP",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "floralzonesmediterraneanregion:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingridge-sod-ns-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H_,HHH,PSP",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "floralzonesmediterraneanregion:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingtip-sod-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "PH_,PH_,PSH",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "floralzonesmediterraneanregion:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-sod-east-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "_H,HH,PS",
+		ingredients: {
+			"H": { type: "item", code: "game:drygrass", name: "type" },
+			"P": { type: "item", code: "floralzonesmediterraneanregion:plank-*", name: "wood", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none" }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerouter-sod-east-free", quantity: 4  }
+	},
+
+	{
+		ingredientPattern: "__H,_H_,H__",
+		ingredients: {
+			"H": { type: "item", code: "floralzonesmediterraneanregion:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofing-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H_,H_H",
+		ingredients: {
+			"H": { type: "item", code: "floralzonesmediterraneanregion:plank-*", name: "wood", allowedVariants: ["populusalba","taxusbaccata"], quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofingridge-{wood}-ns-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H_,HHH",
+		ingredients: {
+			"H": { type: "item", code: "floralzonesmediterraneanregion:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofingtip-{wood}-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H,H_,_H",
+		ingredients: {
+			"H": { type: "item", code: "floralzonesmediterraneanregion:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofingcornerinner-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H,HH",
+		ingredients: {
+			"H": { type: "item", code: "floralzonesmediterraneanregion:plank-*", name: "wood", quantity: 2 }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofingcornerouter-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,___,_H_",
+		ingredients: {
+			"H": { type: "block", code: "floralzonesmediterraneanregion:slantedroofing-*-east-free", name: "wood", allowedVariants: ["populusalba","taxusbaccata"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofingbottom-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_H_,___,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonesmediterraneanregion:slantedroofing-*-east-free", name: "wood", allowedVariants: ["populusalba","taxusbaccata"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofingtop-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,H__,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonesmediterraneanregion:slantedroofing-*-east-free", name: "wood", allowedVariants: ["populusalba","taxusbaccata"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofinghalfleft-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,__H,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonesmediterraneanregion:slantedroofing-*-east-free", name: "wood", allowedVariants: ["populusalba","taxusbaccata"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofinghalfright-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,_H_,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonesmediterraneanregion:slantedroofingridge-*-ns-free", name: "wood", allowedVariants: ["populusalba","taxusbaccata"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofingridgeend-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,H__,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonesmediterraneanregion:slantedroofingridge-*-ns-free", name: "wood", allowedVariants: ["populusalba","taxusbaccata"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofingridgehalfleft-{wood}-east-free", quantity: 1  }
+	},
+	{
+		ingredientPattern: "___,__H,___",
+		ingredients: {
+			"H": { type: "block", code: "floralzonesmediterraneanregion:slantedroofingridge-*-ns-free", name: "wood", allowedVariants: ["populusalba","taxusbaccata"], quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonesmediterraneanregion:slantedroofingridgehalfright-{wood}-east-free", quantity: 1  }
+	}
+]

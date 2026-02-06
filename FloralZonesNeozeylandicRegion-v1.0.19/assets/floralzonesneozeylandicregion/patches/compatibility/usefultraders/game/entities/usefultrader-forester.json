@@ -1,0 +1,116 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:entities/humanoid/usefultrader-forester.json",
+		"op": "addmerge",
+		"path": "/attributes/tradeProps/selling/list",
+		"value": [
+			{
+				"code": "floralzonesneozeylandicregion:treeseed-araucariaheterophylla",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesneozeylandicregion:treeseed-dacrydiumcupressinum",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesneozeylandicregion:treeseed-nothofagusmenziesii",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesneozeylandicregion:treeseed-podocarpustotara",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesneozeylandicregion:treeseed-rhopalostylissapida",
+				"type": "item",
+				"stacksize": 1,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesneozeylandicregion:bigberrybush-asteliagrandis-empty",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesneozeylandicregion:tallplant-phormiumtenax-land-harvested-free",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 2,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesneozeylandicregion:tallplant-sonchuskirkii-land-harvested-free",
+				"type": "block",
+				"stacksize": 4,
+				"stock": {
+					"avg": 2,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			}
+		]
+	}
+]

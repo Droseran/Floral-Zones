@@ -1,0 +1,128 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"plantContainable": {
+			"largeContainerByType": {
+				"*": {
+				"shape": { "base": "block/plant/berrybush/strelitziaalba2" },
+					"textures": {
+		"strelitziaalba-stem": { "base": "block/plant/berrybush/strelitziaalba-stem" },
+		"strelitziaalba-leaf": { "base": "block/plant/berrybush/strelitziaalba-leaf1" },
+		"strelitziaalba-leaf2": { "base": "block/plant/berrybush/strelitziaalba-leaf1" },
+		"strelitziaalba-dead": { "base": "block/plant/berrybush/strelitziaalba-leaf1" },
+		"strelitziaalba-top": { "base": "block/plant/berrybush/strelitziaalba-top" },
+		"strelitziaalba-cap": { "base": "block/plant/berrybush/strelitziaalba-cap" },
+			"strelitziaalba-flower": { "base": "block/plant/berrybush/strelitziaalba-flower" }
+					}}
+			}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 0,
+		"resetBelowTemperature": 2,
+		"stopBelowTemperature": 4,
+		
+		"revertBlockAboveTemperature": 44,
+		"resetAboveTemperature": 40,
+		"stopAboveTemperature": 36,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 4.25, "var": 0.09 },
+		"*-flowering": { "avg": 2.98, "var": 0.09 },
+		"*-ripe": { "avg": 0.75, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonescaperegion:fruit-{type}", "quantity": { "avg": 2.5 }  },
+			"harvestedBlockCode": "floralzonescaperegion:bigberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["strelitziaalba"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*": { "base": "block/plant/berrybush/strelitzia*" }
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-strelitziaalba-flowering": {
+		"strelitziaalba-stem": { "base": "block/plant/berrybush/strelitziaalba-stem" },
+		"strelitziaalba-leaf": { "base": "block/plant/berrybush/strelitziaalba-leaf1" },
+		"strelitziaalba-leaf2": { "base": "block/plant/berrybush/strelitziaalba-leaf*" },
+		"strelitziaalba-dead": { "base": "block/plant/berrybush/strelitziaalba-dead" },
+		"strelitziaalba-top": { "base": "block/plant/berrybush/strelitziaalba-top" },
+		"strelitziaalba-cap": { "base": "block/plant/berrybush/strelitziaalba-cap" },
+			"strelitziaalba-flower": { "base": "block/plant/berrybush/strelitziaalba-flower" }
+		},
+		"*-strelitziaalba-ripe": {
+		"strelitziaalba-stem": { "base": "block/plant/berrybush/strelitziaalba-stem" },
+		"strelitziaalba-leaf": { "base": "block/plant/berrybush/strelitziaalba-leaf1" },
+		"strelitziaalba-leaf2": { "base": "block/plant/berrybush/strelitziaalba-leaf*" },
+		"strelitziaalba-dead": { "base": "block/plant/berrybush/strelitziaalba-dead" },
+		"strelitziaalba-top": { "base": "block/plant/berrybush/strelitziaalba-top" },
+		"strelitziaalba-cap": { "base": "block/plant/berrybush/strelitziaalba-cap" },
+			"strelitziaalba-flower": { "base": "block/plant/berrybush/strelitziaalba-fruit" }
+		},
+		"*-strelitziaalba-empty": {
+		"strelitziaalba-stem": { "base": "block/plant/berrybush/strelitziaalba-stem" },
+		"strelitziaalba-leaf": { "base": "block/plant/berrybush/strelitziaalba-leaf1" },
+		"strelitziaalba-leaf2": { "base": "block/plant/berrybush/strelitziaalba-leaf*" },
+		"strelitziaalba-dead": { "base": "block/plant/berrybush/strelitziaalba-dead" },
+		"strelitziaalba-top": { "base": "block/plant/berrybush/strelitziaalba-top" },
+		"strelitziaalba-cap": { "base": "block/plant/berrybush/strelitziaalba-cap" },
+			"strelitziaalba-flower": { "base": "block/plant/berrybush/strelitziaalba-empty" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 2, "z2": 0.8125 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "block", "code": "floralzonescaperegion:bigberrybush-strelitziaalba-empty", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "floralzonescaperegion:fruit-{type}", "quantity": { "avg": 2.5 }  },
+		],
+		"*": [
+			{ "type": "block", "code": "floralzonescaperegion:bigberrybush-strelitziaalba-empty", "quantity": { "avg": 1 }  }
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-strelitziaalba-*": { "origin": { "x": 0.5, "y": 3.25, "z": 0.5},"scale": 0.2}
+	}
+}

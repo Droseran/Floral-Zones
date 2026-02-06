@@ -1,0 +1,94 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": -1,
+		"resetBelowTemperature": 1,
+		"stopBelowTemperature": 3,
+		
+		"revertBlockAboveTemperature": 43,
+		"resetAboveTemperature": 39,
+		"stopAboveTemperature": 35,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 2.25, "var": 0.09 },
+		"*-flowering": { "avg": 6.04, "var": 0.09 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }},
+		"stackable": true
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonesneozeylandicregion:treeseed-{type}", "quantity": { "avg": 2.1 }  },
+			"harvestedBlockCode": "floralzonesneozeylandicregion:bigberrybush-{type}-empty"
+		}} ],
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["rhopalostylissapida"] },
+		{ "code": "state", "states": ["empty","flowering","ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-rhopalostylissapida-empty": { "base": "block/plant/berrybush/rhopalostylissapida-empty"},
+		"*": { "base": "block/plant/berrybush/rhopalostylissapida-ripe" }
+	},
+	"randomizeRotationsByType": {"*-rhopalostylissapida-*":false,"*":true},
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-rhopalostylissapida-empty": {
+		"bark": { "base": "block/wood/treetrunk/rhopalostylissapida" }
+		},
+		"*-rhopalostylissapida-flowering": {
+		"bark": { "base": "block/wood/treetrunk/rhopalostylissapida" },
+			"flower": { "base": "block/plant/berrybush/rhopalostylissapida1" }
+		},
+		"*-rhopalostylissapida-ripe": {
+		"bark": { "base": "block/wood/treetrunk/rhopalostylissapida" },
+			"flower": { "base": "block/plant/berrybush/rhopalostylissapida2" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"fertility": 30,
+	"lightAbsorption": 0,
+	"resistance": 5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-rhopalostylissapida-ripe": [
+			{ "type": "item", "code": "floralzonesneozeylandicregion:treeseed-{type}", "quantity": { "avg": 0.6 }   },
+			]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+}

@@ -1,0 +1,99 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 3,
+		"resetBelowTemperature": 5,
+		"stopBelowTemperature": 7,
+		
+		"revertBlockAboveTemperature": 51,
+		"resetAboveTemperature": 47,
+		"stopAboveTemperature": 43,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 2.25, "var": 0.09 },
+		"*-flowering": { "avg": 3.04, "var": 0.09 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }},
+		"stackable": true,
+		"treeFellingGroupCodeByType": {"*": "{type}"},
+			"treeFellingGroupSpreadIndexByType": {"*": 1}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzoneseastasiaticregion:treeseed-{type}", "quantity": { "avg": 2.1 }  },
+			"harvestedBlockCode": "floralzoneseastasiaticregion:bigberrybush-{type}-empty",
+			"exchangeBlock": true
+		}} ],
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["trachycarpusfortunei"] },
+		{ "code": "state", "states": ["empty","flowering","ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-trachycarpusfortunei-empty": { "base": "block/plant/berrybush/trachycarpusfortunei-empty"},
+		"*-trachycarpusfortunei-flowering": { "base": "block/plant/berrybush/trachycarpusfortunei-flowering"},
+		"*-trachycarpusfortunei-ripe": { "base": "block/plant/berrybush/trachycarpusfortunei-ripe"},
+		"*": { "base": "block/plant/berrybush/trachycarpusfortunei-empty" }
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-trachycarpusfortunei-empty": {
+		"trachycarpusfortunei": { "base": "block/plant/berrybush/trachycarpusfortunei" }
+		},
+		"*-trachycarpusfortunei-flowering": {
+		"trachycarpusfortunei": { "base": "block/plant/berrybush/trachycarpusfortunei" }
+		},
+		"*-trachycarpusfortunei-ripe": {
+		"trachycarpusfortunei": { "base": "block/plant/berrybush/trachycarpusfortunei" },
+			"trachycarpusfortunei-fruit": { "base": "block/plant/berrybush/trachycarpusfortunei-fruit" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"fertility": 30,
+	"lightAbsorption": 0,
+	"resistance": 5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-trachycarpusfortunei-ripe": [
+			{ "type": "item", "code": "floralzoneseastasiaticregion:treeseed-{type}", "quantity": { "avg": 0.6 }   }
+			],
+		"*": []
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

@@ -1,0 +1,38 @@
+[
+	{
+		"ingredientPattern": "_P_	PBP	CPC",
+		"ingredients": {
+			"P": { "type": "item", "code": "phormiumtenaxbundle" },
+			"C": { "type": "item", "code": "game:clay-*" },
+			"B": { "type": "block", "code": "game:bowl-*-fired" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresLitres": 0.25
+			}
+		},	
+		"name": "skep",
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "game:beenade-opened"  }
+	},
+	{
+		"ingredientPattern": "_P_	PBP	CPC",
+		"ingredients": {
+			"P": { "type": "item", "code": "palmleaf-rhopalostylissapida" },
+			"C": { "type": "item", "code": "game:clay-*" },
+			"B": { "type": "block", "code": "game:bowl-*-fired" }
+		},
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:honeyportion" },
+				"requiresLitres": 0.25
+			}
+		},	
+		"name": "skep",
+		"width": 3,
+		"height": 3,
+		"output": { "type": "item", "code": "game:beenade-opened"  }
+	}
+]

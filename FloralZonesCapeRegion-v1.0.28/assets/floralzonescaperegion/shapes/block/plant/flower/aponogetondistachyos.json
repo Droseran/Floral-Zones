@@ -1,0 +1,70 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"leaves": [16,16],
+		"stem": [4,16],
+		"flower": [12,4]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [ 0.0, -1.5, 0.0 ],
+			"to": [ 16.0, -1.5, 16.0 ],
+			"climateColorMap": "",
+			"seasonColorMap": "",
+			"faces": {
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+			}
+		},
+		{
+			"name": "Roots",
+			"from": [ 6.0, -17.7, 8.0 ],
+			"to": [ 6.0, -17.7, 8.0 ],
+			"shade": false,
+			"rotationOrigin": [ 6.0, -1.0, 8.0 ],
+			"rotationX": -5.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "s-untint2",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 4.0, 16.0, 0.0 ],
+					"shade": false,
+					"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+					"rotationY": -67.5,
+					"faces": {
+						"south": { "texture": "#stem", "uv": [ 0.0, 0.0, 4.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "w-untint2",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 4.0, 16.0, 0.0 ],
+					"shade": false,
+					"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+					"rotationY": 45.0,
+					"faces": {
+						"south": { "texture": "#stem", "uv": [ 0.0, 0.0, 4.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "e-untint2",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 4.0, 16.0, 0.0 ],
+					"shade": false,
+					"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+					"faces": {
+						"south": { "texture": "#stem", "uv": [ 0.0, 0.0, 4.0, 16.0 ] }
+					}
+				}
+			]
+		}
+	]}

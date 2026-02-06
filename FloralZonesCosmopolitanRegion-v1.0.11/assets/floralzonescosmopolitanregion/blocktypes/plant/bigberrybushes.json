@@ -1,0 +1,96 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": -15,
+		"resetBelowTemperature": -13,
+		"stopBelowTemperature": -11,
+		
+		"revertBlockAboveTemperature": 29,
+		"resetAboveTemperature": 25,
+		"stopAboveTemperature": 21,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 1.25, "var": 0.09 },
+		"*-flowering": { "avg": 3.04, "var": 0.09 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }},
+		"stackable": true
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescosmopolitanregion:fruit-{type}", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "floralzonescosmopolitanregion:bigberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["juniperuscommunis"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*": { "base": "block/plant/berrybush/{type}01"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-juniperuscommunis-*": {"leaves-large-1": { "base": "block/plant/berrybush/{type}-large-1","alternates": [ { "base": "block/plant/berrybush/{type}-large-2" },{ "base": "block/plant/berrybush/{type}-large-3" } ] },"leaves-large-2": { "base": "block/plant/berrybush/{type}-large-2","alternates": [ { "base": "block/plant/berrybush/{type}-large-1" },{ "base": "block/plant/berrybush/{type}-large-3" } ] }
+															,"leaves-large-3": { "base": "block/plant/berrybush/{type}-large-3"},"leaves-small": { "base": "block/plant/berrybush/{type}-small-{state}"}
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"fertility": 30,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": {
+		"x1": 0.425, "y1": 0, "z1": 0.425,
+		"x2": 0.575, "y2": 1.0, "z2": 0.575
+	},
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.95, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescosmopolitanregion:fruit-{type}", "quantity": { "avg": 3.4 }  },
+			{ "type": "block", "code": "floralzonescosmopolitanregion:bigberrybush-{type}-empty", "quantity": { "avg": 1 }  },
+		],
+		"*": [			{ "type": "block", "code": "floralzonescosmopolitanregion:bigberrybush-{type}-empty", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

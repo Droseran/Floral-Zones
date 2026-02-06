@@ -1,0 +1,77 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 12,
+	"textureSizes": {
+		"ulvalactuca1": [16,12]
+	},
+	"textures": {
+		"ulvalactuca1": "block/plant/sealettuce/ulvalactuca1"
+	},
+	"elements": [
+		{
+			"name": "Block",
+			"from": [ 6.0, 0.0, 4.0 ],
+			"to": [ 9.0, 1.0, 7.0 ],
+			"rotationOrigin": [ 6.0, 0.0, 4.0 ],
+			"rotationY": 10.0,
+			"faces": {
+				"north": { "texture": "#ulvalactuca1", "uv": [ 11.0, 4.5, 14.0, 5.5 ] },
+				"east": { "texture": "#ulvalactuca1", "uv": [ 3.5, 4.5, 6.5, 5.5 ] },
+				"south": { "texture": "#ulvalactuca1", "uv": [ 3.0, 5.0, 6.0, 6.0 ] },
+				"west": { "texture": "#ulvalactuca1", "uv": [ 2.5, 5.0, 5.5, 6.0 ] },
+				"up": { "texture": "#ulvalactuca1", "uv": [ 2.0, 5.0, 5.0, 8.0 ] },
+				"down": { "texture": "#ulvalactuca1", "uv": [ 2.5, 5.0, 5.5, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Slice",
+					"from": [ 0.0, 0.0, 3.5 ],
+					"to": [ 3.0, 1.0, 4.5 ],
+					"rotationOrigin": [ 0.0, 0.0, 3.5 ],
+					"rotationY": -10.0,
+					"faces": {
+						"north": { "texture": "#ulvalactuca1", "uv": [ 10.5, 5.0, 13.5, 6.0 ] },
+						"east": { "texture": "#ulvalactuca1", "uv": [ 3.0, 6.0, 4.0, 7.0 ] },
+						"south": { "texture": "#ulvalactuca1", "uv": [ 4.0, 5.5, 7.0, 6.5 ] },
+						"west": { "texture": "#ulvalactuca1", "uv": [ 3.5, 4.5, 4.5, 5.5 ] },
+						"up": { "texture": "#ulvalactuca1", "uv": [ 3.0, 6.0, 6.0, 7.0 ] },
+						"down": { "texture": "#ulvalactuca1", "uv": [ 3.0, 6.0, 6.0, 7.0 ] }
+					}
+				},
+				{
+					"name": "Slice2",
+					"from": [ 0.0, 0.0, 4.6 ],
+					"to": [ 3.0, 1.0, 5.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 4.6 ],
+					"rotationY": -10.0,
+					"faces": {
+						"north": { "texture": "#ulvalactuca1", "uv": [ 2.5, 5.5, 5.5, 6.5 ] },
+						"east": { "texture": "#ulvalactuca1", "uv": [ 11.0, 4.0, 12.0, 5.0 ] },
+						"south": { "texture": "#ulvalactuca1", "uv": [ 3.0, 5.0, 6.0, 6.0 ] },
+						"west": { "texture": "#ulvalactuca1", "uv": [ 3.5, 4.5, 4.5, 5.5 ] },
+						"up": { "texture": "#ulvalactuca1", "uv": [ 2.5, 5.0, 5.5, 6.0 ] },
+						"down": { "texture": "#ulvalactuca1", "uv": [ 2.0, 4.5, 5.0, 5.5 ] }
+					}
+				},
+				{
+					"name": "Slice3",
+					"from": [ 0.0, 0.0, 5.7 ],
+					"to": [ 3.0, 1.0, 6.7 ],
+					"rotationOrigin": [ 0.0, 0.0, 5.7 ],
+					"rotationY": -10.0,
+					"faces": {
+						"north": { "texture": "#ulvalactuca1", "uv": [ 2.5, 5.5, 5.5, 6.5 ] },
+						"east": { "texture": "#ulvalactuca1", "uv": [ 3.0, 6.0, 4.0, 7.0 ] },
+						"south": { "texture": "#ulvalactuca1", "uv": [ 2.5, 6.0, 5.5, 7.0 ] },
+						"west": { "texture": "#ulvalactuca1", "uv": [ 3.5, 6.0, 4.5, 7.0 ] },
+						"up": { "texture": "#ulvalactuca1", "uv": [ 2.5, 6.0, 5.5, 7.0 ] },
+						"down": { "texture": "#ulvalactuca1", "uv": [ 9.0, 2.5, 12.0, 3.5 ] }
+					}
+				}
+			]
+		}
+	]}

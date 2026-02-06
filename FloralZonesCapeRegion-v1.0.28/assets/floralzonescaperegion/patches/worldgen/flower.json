@@ -1,0 +1,465 @@
+[
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Belladona Lily",
+          "blockCodes": [
+            "floralzonescaperegion:flower-amaryllisbelladonna-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 18,
+		      "minForest": 0,
+		      "maxForest": 0.3,
+          "minRain": 0.3,
+          "maxRain": 0.58,
+          "chance": 0.1,
+	    	  "minY": 0,
+          "maxY": 0.4,
+		      "maxFertility": 0.5,
+          "quantity": { "dist": "invexp", "avg": 12, "var": 11 },
+          "offsetX": { "avg": 1, "var": 26 },
+          "offsetZ": { "avg": 1, "var": 26 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Larges patches of Wine Cup",
+          "blockCodes": [
+            "floralzonescaperegion:flower-geissorhizaradians-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 16,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minRain": 0.26,
+          "maxRain": 0.50,
+          "chance": 0.5,
+          "maxY": 0.5,
+		  "maxFertility": 0.6,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 40, "var": 10 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Medium patches of Early Blue Disa",
+          "blockCodes": [
+            "floralzonescaperegion:flower-disapurpurescens-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 16,
+		      "minForest": 0,
+		      "maxForest": 0.35,
+          "minRain": 0.39,
+          "maxRain": 0.57,
+          "chance": 0.3,
+	    	  "minY": 0,
+          "maxY": 0.06,
+		      "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 12, "var": 5 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	  
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of King Sundew",
+          "blockCodes": [
+            "floralzonescaperegion:flower-droseraregia-free"
+          ],
+          "minTemp": 12,
+          "maxTemp": 16,
+	    	  "minForest": 0,
+	    	  "maxForest": 0.35,
+	    	  "minRain": 0.53,
+          "maxRain": 0.62,
+          "chance": 0.3,
+		      "minY": 0.1,
+          "maxY": 0.28,
+	    	  "maxFertility": 0.5,
+          "quantity": { "dist": "invexp", "avg": 15, "var": 14 },
+          "offsetX": { "avg": 0, "var": 3 },
+          "offsetZ": { "avg": 0, "var": 3 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	  	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Larges patches of Stream Golden-Reed",
+          "blockCodes": [
+            "floralzonescaperegion:flower-elegiafenestrata-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 18,
+		      "minRain": 0.27,
+          "maxRain": 0.58,
+          "chance": 0.6,
+          "maxY": 0.03,
+		      "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 40, "var": 20 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	  
+	  	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Larges patches of Rhinoceros Bush",
+          "blockCodes": [
+            "floralzonescaperegion:flower-elytropappusrhinocerotis-free"
+          ],
+          "minTemp": 12,
+          "maxTemp": 18,
+		      "minForest": 0,
+		       "maxForest": 0.35,
+		      "minRain": 0.30,
+          "maxRain": 0.58,
+          "chance": 0.4,
+		      "minY": 0.1,
+          "maxY": 0.28,
+			  "minFertility": 0.3,
+	    	  "maxFertility": 0.8,
+          "quantity": { "dist": "invexp", "avg": 20, "var": 10 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Blood Heath",
+          "blockCodes": [
+            "floralzonescaperegion:flower-ericacruenta-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 16,
+		  "minForest": 0,
+		  "maxForest": 0.35,
+          "minRain": 0.3,
+          "maxRain": 0.58,
+          "chance": 0.1,
+          "maxY": 0.4,
+		  "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 4 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	  	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Larges patches of Honey Heath",
+          "blockCodes": [
+            "floralzonescaperegion:flower-ericaericoides-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 17,
+		  "minRain": 0.30,
+          "maxRain": 0.58,
+          "chance": 0.2,
+		  "minY": 0.0,
+          "maxY": 0.4,
+		  "maxFertility": 0.5,
+          "quantity": { "dist": "invexp", "avg": 20, "var": 10 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Medium patches of Yellow Milk Bush",
+          "blockCodes": [
+            "floralzonescaperegion:flower-euphorbiamauritanica-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 20,
+		  "minForest": 0,
+		  "maxForest": 0.35,
+          "minRain": 0.30,
+          "maxRain": 0.58,
+          "chance": 0.3,
+		  "minY": 0,
+          "maxY": 0.6,
+		  "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 5 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Medium patches of Common Sunshine Conebush",
+          "blockCodes": [
+            "floralzonescaperegion:flower-leucadendronsalignum-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 18,
+		  "minForest": 0,
+		  "maxForest": 0.35,
+          "minRain": 0.30,
+          "maxRain": 0.58,
+          "chance": 0.3,
+		  "minY": 0,
+          "maxY": 0.6,
+          "quantity": { "dist": "invexp", "avg": 12, "var": 5 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Medium patches of Golden Metalasia",
+          "blockCodes": [
+            "floralzonescaperegion:flower-metalasiaaurea-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 18,
+		  "minForest": 0,
+		  "maxForest": 0.35,
+          "minRain": 0.25,
+          "maxRain": 0.48,
+          "chance": 0.3,
+		  "minY": 0,
+          "maxY": 0.05,
+		  "maxFertility": 0.7,
+          "quantity": { "dist": "invexp", "avg": 12, "var": 5 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Fringed Pagoda",
+          "blockCodes": [
+            "floralzonescaperegion:flower-mimetesfimbriifolius-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 16,
+	    	  "minForest": 0,
+	    	  "maxForest": 0.45,
+          "minRain": 0.34,
+          "maxRain": 0.55,
+          "chance": 0.1,
+          "maxY": 0.3,
+		  "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 6, "var": 12 },
+          "offsetZ": { "avg": 6, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Larges patches of King Protea",
+          "blockCodes": [
+            "floralzonescaperegion:flower-proteacynaroides-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 18,
+		  "minForest": 0,
+		  "maxForest": 0.35,
+          "minRain": 0.3,
+          "maxRain": 0.58,
+          "chance": 0.3,
+          "maxY": 0.4,
+		  "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 20, "var": 10 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Northern Dewstick",
+          "blockCodes": [
+            "floralzonescaperegion:flower-roriduladentata-free"
+          ],
+          "minTemp": 10,
+          "maxTemp": 16,
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minRain": 0.20,
+          "maxRain": 0.54,
+          "chance": 0.7,
+		  "minY": 0.28,
+          "maxY": 0.6,
+		  "maxFertility": 0.6,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 10, "var": 5 },
+          "offsetX": { "avg": 0, "var": 7 },
+          "offsetZ": { "avg": 0, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of White Arum Lily",
+          "blockCodes": [
+            "floralzonescaperegion:flower-zantedeschiaaethiopica-free"
+          ],
+          "minTemp": 12,
+          "maxTemp": 18,
+		  "minForest": 0,
+		  "maxForest": 0.8,
+          "minRain": 0.30,
+          "maxRain": 0.85,
+          "chance": 0.5,
+          "maxY": 0.6,
+		  "maxFertility": 0.8,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 40, "var": 25 },
+          "offsetX": { "avg": 0, "var": 8 },
+          "offsetZ": { "avg": 0, "var": 8 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Medium patches of Cape Snow Bush",
+          "blockCodes": [
+            "floralzonescaperegion:flower-eriocephalusafricanus-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 19,
+		  "minForest": 0,
+		  "maxForest": 0.45,
+          "minRain": 0.25,
+          "maxRain": 0.55,
+          "chance": 0.4,
+		  "minY": 0,
+          "maxY": 0.6,
+		  "maxFertility": 0.8,
+          "quantity": { "dist": "invexp", "avg": 8, "var": 4 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Medium patches of Matchstick Spiderhead",
+          "blockCodes": [
+            "floralzonescaperegion:flower-serruriazeyheri-free"
+          ],
+          "minTemp": 10,
+          "maxTemp": 16,
+		  "minForest": 0,
+		  "maxForest": 0.35,
+          "minRain": 0.25,
+          "maxRain": 0.58,
+          "chance": 0.5,
+		  "minY": 0.2,
+          "maxY": 0.4,
+		  "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 5 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Patches of Hare Grass",
+          "blockCodes": [
+            "floralzonescaperegion:flower-triboliumuniolae-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 18,
+		  "minForest": 0,
+		  "maxForest": 0.35,
+          "minRain": 0.25,
+          "maxRain": 0.60,
+          "chance": 0.5,
+		  "minY": 0,
+          "maxY": 0.3,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 60, "var": 180 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+]

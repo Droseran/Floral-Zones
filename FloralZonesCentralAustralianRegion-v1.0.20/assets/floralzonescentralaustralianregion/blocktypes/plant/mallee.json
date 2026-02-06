@@ -1,0 +1,84 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"variantgroups": [
+		{ "code": "type", "states": ["eucalyptussocialis"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"sprintIntoDamage": 1,
+		"fallIntoDamageMul": 2,
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"plantContainable": {
+			"largeContainer": {
+				"*": {
+				"shape": { "base": "block/plant/flower/eucalyptussocialis_var4" },
+					"textures": {"bark": { "base": "block/plant/flower/petal/eucalyptussocialis-bark" },"leaves1": { "base": "block/plant/flower/petal/eucalyptussocialis-leaves1" },"leaves2": { "base": "block/plant/flower/petal/eucalyptussocialis-leaves2" }}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"*-eucalyptussocialis-*":{"base": "block/plant/flower/eucalyptussocialis_var*"}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+    "*-eucalyptussocialis-*": {
+    "bark": { "base": "block/plant/flower/petal/eucalyptussocialis-bark" },
+    "leaves1": { "base": "block/plant/flower/petal/eucalyptussocialis-leaves1" },
+    "leaves2": { "base": "block/plant/flower/petal/eucalyptussocialis-leaves2" }
+    }		
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 12,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 2, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 1.0, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"break": "game:block/planks",
+		"hit": "game:block/planks",
+		"walk": "game:walk/inside/leafy/bushrustle*",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"dropsByType": {
+		"*": [			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 10, "var": 2 }}]
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-eucalyptussocialis-*": { "origin": { "x": 0.5, "y": 1.25, "z": 0.5},"scale": 0.4},
+		"*": { "scale": 1.5}
+	}
+}

@@ -1,0 +1,77 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:entities/humanoid/usefultrader-forester.json",
+		"op": "addmerge",
+		"path": "/attributes/tradeProps/selling/list",
+		"value": [
+			{
+				"code": "floralzonescaperegion:treeseed-afrocarpusfalcatus",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonescaperegion:treeseed-ocoteabullata",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonescaperegion:treeseed-searsialancea",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonescaperegion:smallberrybush-carpobrotusacinaciformis-empty",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonescaperegion:smallberrybush-hydnoraafricana-empty",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 2,
+					"var": 1
+				}
+			}
+		]
+	}
+]

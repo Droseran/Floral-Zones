@@ -1,0 +1,47 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"gossypiumhirsutum": [4,4]
+	},
+	"textures": {
+		"gossypiumhirsutum": "block/plant/crop/gossypiumhirsutum0"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Leaf 1",
+					"from": [ -0.75, 0.0, 0.0 ],
+					"to": [ 0.25, 2.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"south": { "texture": "#gossypiumhirsutum", "uv": [ 0.0, 2.0, 1.0, 4.0 ], "windMode": [-1,-1,2,2] }
+					}
+				},
+				{
+					"name": "Leaf 2",
+					"from": [ -0.725, 0.0, 0.0 ],
+					"to": [ 0.275, 2.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -90.0,
+					"faces": {
+						"south": { "texture": "#gossypiumhirsutum", "uv": [ 0.0, 2.0, 1.0, 4.0 ], "windMode": [-1,-1,2,2] }
+					}
+				}
+			]
+		}
+	]}

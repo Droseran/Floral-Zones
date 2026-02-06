@@ -1,0 +1,100 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": -3,
+		"resetBelowTemperature": -1,
+		"stopBelowTemperature": 1,
+		
+		"revertBlockAboveTemperature": 41,
+		"resetAboveTemperature": 37,
+		"stopAboveTemperature": 33,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 3.25, "var": 0.09 },
+		"*-flowering": { "avg": 1.04, "var": 0.09 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }},
+		"stackable": false,
+		"plantContainable": {
+			"largeContainerByType": {
+				"*-asteliagrandis-*": {"shape": {"base": "block/plant/berrybush/asteliagrandis-empty"},"textures": {"leaves": { "base": "block/plant/berrybush/asteliagrandis" },"leaves1": { "base": "block/plant/berrybush/asteliagrandis1" },"leaves2": { "base": "block/plant/berrybush/asteliagrandis2" }}}							
+			}
+		}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonesneozeylandicregion:fruit-{type}", "quantity": { "avg": 5.1 }  },
+			"harvestedBlockCode": "floralzonesneozeylandicregion:bigberrybush-{type}-empty"
+		}} ],
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["asteliagrandis"] },
+		{ "code": "state", "states": ["empty","flowering","ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-asteliagrandis-empty": { "base": "block/plant/berrybush/asteliagrandis-empty" },
+		"*": { "base": "block/plant/berrybush/asteliagrandis-ripe" }
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.25,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-asteliagrandis-empty": {
+		"leaves": { "base": "block/plant/berrybush/asteliagrandis" },"leaves1": { "base": "block/plant/berrybush/asteliagrandis1" },"leaves2": { "base": "block/plant/berrybush/asteliagrandis2" }
+		},
+		"*-asteliagrandis-flowering": {
+		"leaves": { "base": "block/plant/berrybush/asteliagrandis" },"leaves1": { "base": "block/plant/berrybush/asteliagrandis1" },"leaves2": { "base": "block/plant/berrybush/asteliagrandis2" },"flower": { "base": "block/plant/berrybush/asteliagrandis3" }
+		},
+		"*-asteliagrandis-ripe": {
+		"leaves": { "base": "block/plant/berrybush/asteliagrandis" },"leaves1": { "base": "block/plant/berrybush/asteliagrandis1" },"leaves2": { "base": "block/plant/berrybush/asteliagrandis2" },"flower": { "base": "block/plant/berrybush/asteliagrandis4*" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-asteliagrandis-ripe": [			{ "type": "block", "code": "floralzonesneozeylandicregion:bigberrybush-{type}-empty", "quantity": { "avg": 1 }  },
+											{ "type": "item", "code": "floralzonesneozeylandicregion:fruit-{type}", "quantity": { "avg": 4.5 }   },
+			],
+		"*": [{ "type": "block", "code": "floralzonesneozeylandicregion:bigberrybush-{type}-empty", "quantity": { "avg": 1 }   }]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

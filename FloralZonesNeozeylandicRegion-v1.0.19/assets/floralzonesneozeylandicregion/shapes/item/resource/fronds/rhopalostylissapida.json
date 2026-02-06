@@ -1,0 +1,63 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 48,
+	"textureSizes": {
+		"fronds": [24,48]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Palm1",
+					"from": [ 0.0, 0.1, 17.0 ],
+					"to": [ 0.0, 0.1, 17.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.1, 17.0 ],
+					"rotationX": -90.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Fronda1",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 9.0, 36.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": -22.0,
+							"faces": {
+								"north": { "texture": "#fronds", "uv": [ 0.0, 0.0, 12.0, 48.0 ], "autoUv": false, "windData": [0,2,2,0] }
+							},
+							"children": [
+								{
+									"name": "Frondb1",
+									"from": [ -9.0, 0.0, 0.0 ],
+									"to": [ 0.0, 36.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationY": 44.0,
+									"faces": {
+										"north": { "texture": "#fronds", "uv": [ 12.0, 0.0, 28.0, 48.0 ], "autoUv": false, "windData": [0,2,2,0] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

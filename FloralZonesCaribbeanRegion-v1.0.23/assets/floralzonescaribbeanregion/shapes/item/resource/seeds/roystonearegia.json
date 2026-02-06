@@ -1,0 +1,69 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"brown2": [16,16]
+	},
+	"textures": {
+		"brown2": "game:block/cloth/wool/brown2"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "body",
+					"from": [ -2.0, 1.5, 0.5 ],
+					"to": [ 1.0, 4.5, 3.5 ],
+					"rotationOrigin": [ -0.5, 1.5, 2.0 ],
+					"rotationX": -90.0,
+					"faces": {
+						"north": { "texture": "#brown2", "uv": [ 0.0, 2.5, 3.0, 5.5 ] },
+						"east": { "texture": "#brown2", "uv": [ 0.0, 2.5, 3.0, 5.5 ] },
+						"south": { "texture": "#brown2", "uv": [ 1.0, 2.5, 4.0, 5.5 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#brown2", "uv": [ 0.0, 2.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#brown2", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+						"down": { "texture": "#brown2", "uv": [ 0.0, 5.0, 3.0, 8.0 ], "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "tip",
+							"from": [ 1.0, -0.7, 1.0 ],
+							"to": [ 2.0, 0.3, 2.0 ],
+							"rotationOrigin": [ 1.5, 0.3, 1.5 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#brown2", "uv": [ 0.0, 6.0, 1.0, 7.0 ] },
+								"east": { "texture": "#brown2", "uv": [ 1.0, 6.0, 2.0, 7.0 ] },
+								"south": { "texture": "#brown2", "uv": [ 0.5, 5.5, 1.5, 6.5 ] },
+								"west": { "texture": "#brown2", "uv": [ 0.5, 5.0, 1.5, 6.0 ] },
+								"down": { "texture": "#brown2", "uv": [ 1.0, 6.0, 2.0, 7.0 ] }
+							}
+						},
+						{
+							"name": "top",
+							"from": [ 1.0, 2.6, 1.0 ],
+							"to": [ 2.0, 3.6, 2.0 ],
+							"rotationOrigin": [ 1.5, 2.6, 1.5 ],
+							"faces": {
+								"north": { "texture": "#brown2", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+								"east": { "texture": "#brown2", "uv": [ 2.5, 0.0, 3.5, 1.0 ] },
+								"south": { "texture": "#brown2", "uv": [ 2.5, 1.0, 3.5, 2.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#brown2", "uv": [ 2.0, 1.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#brown2", "uv": [ 3.0, 1.5, 4.0, 2.5 ], "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

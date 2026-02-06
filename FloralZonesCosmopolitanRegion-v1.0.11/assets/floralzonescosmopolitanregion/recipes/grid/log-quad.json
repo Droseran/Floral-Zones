@@ -1,0 +1,33 @@
+[
+	{
+		ingredientPattern: "_A_	GGG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescosmopolitanregion:lognarrow-placed-cocosnucifera-ud", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescosmopolitanregion:logquad-placed-cocosnucifera-ud", quantity: 6  }
+	},
+	{
+		ingredientPattern: "AG	GG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescosmopolitanregion:logquad-placed-cocosnucifera-ud", name: "wood" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonescosmopolitanregion:logquad-barkedcorner-cocosnucifera-north", quantity: 3  }
+	},
+	{
+		ingredientPattern: "__G	_AG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescosmopolitanregion:logquad-placed-cocosnucifera-ud", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescosmopolitanregion:logquad-barkedcorner-cocosnucifera-north", quantity: 5  }
+	}
+]

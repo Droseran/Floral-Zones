@@ -1,0 +1,110 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+	"variantgroups": [
+		{ "code": "type", "states": ["acanthusspinosus","asparagusalbus","calendulaarvensis","centaureagymnocarpa","cyclamenafricanum","cynaracardunculus","dianthuscaryophyllus","drosophyllumlusitanicum","ephedrafragilis","euphorbiamyrsinites","narcissusjonquilla","orchisitalica","sempervivumtectorum","silybummarianum","tracheliumcaeruleum","ulexeuropaeus"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"reinforcable": true,
+		"plantContainable": {
+			"smallContainerByType": {	
+				"*-calendulaarvensis-*": {"shape": {"base": "block/plant/flower/calendulaarvensis_02"},"textures": {"leaves": { "base": "block/plant/flower/stem/calendulaarvensis1" },"flower": { "base": "block/plant/flower/petal/calendulaarvensis1" }}},		
+				"*-centaureagymnocarpa-*": {"shape": {"base": "block/plant/flower/centaureagymnocarpa_02"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}2" },"flower2": { "base": "block/plant/flower/petal/{type}1" }}},	
+				"*-cyclamenafricanum-*": {"shape": {"base": "block/plant/flower/cyclamenafricanum_02"},"textures": {"leaves": { "base": "block/plant/flower/stem/cyclamenafricanum1" },"flower": { "base": "block/plant/flower/petal/cyclamenafricanum1" }}},	
+				"*-cynaracardunculus-*": {"shape": {"base": "block/plant/flower/cynaracardunculus_02"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1" }}},		
+				"*-dianthuscaryophyllus-*": {"shape": {"base": "block/plant/flower/dianthuscaryophyllus_05"},"textures": {"leaves": { "base": "block/plant/flower/stem/dianthuscaryophyllus1" },"flower": { "base": "block/plant/flower/petal/dianthuscaryophyllus1","alternates": [ { "base": "block/plant/flower/petal/dianthuscaryophyllus2"}, { "base": "block/plant/flower/petal/dianthuscaryophyllus3"}, { "base": "block/plant/flower/petal/dianthuscaryophyllus4"}, { "base": "block/plant/flower/petal/dianthuscaryophyllus5"} ] }}},	
+				"*-drosophyllumlusitanicum-*": {"shape": {"base": "block/plant/flower/drosophyllumlusitanicum_01"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},	
+				"*-narcissusjonquilla-*": {"shape": {"base": "block/plant/flower/narcissusjonquilla_01"},"textures": {"leaves": { "base": "block/plant/flower/stem/narcissusjonquilla1" },"flower": { "base": "block/plant/flower/petal/narcissusjonquilla1" }}},	
+				"*-orchisitalica-*": {"shape": {"base": "block/plant/flower/orchisitalica_01"},"textures": {"leaves": { "base": "block/plant/flower/stem/orchisitalica1" },"flower": { "base": "block/plant/flower/petal/orchisitalica1" }}},		
+				"*-sempervivumtectorum-*": {"shape": {"base": "block/plant/flower/sempervivumtectorum_01"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}2" }}},	
+				"*-silybummarianum-*": {"shape": {"base": "block/plant/flower/silybummarianum_01"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},				
+				"*-tracheliumcaeruleum-*": {"shape": {"base": "block/plant/flower/tracheliumcaeruleum_01"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/tracheliumcaeruleum1" }}}						
+			},
+			"largeContainerByType": {
+				"*-acanthusspinosus-*": {"shape": {"base": "block/plant/flower/acanthusspinosus_01"},"textures": {"leaves": { "base": "block/plant/flower/stem/acanthusspinosus1" },"flower": { "base": "block/plant/flower/petal/acanthusspinosus1" }}},	
+				"*-asparagusalbus-*": {"shape": {"base": "block/plant/flower/asparagusalbus_01"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}2" }}},	
+				"*-calendulaarvensis-*": {"shape": {"base": "block/plant/flower/calendulaarvensis_02"},"textures": {"leaves": { "base": "block/plant/flower/stem/calendulaarvensis1" },"flower": { "base": "block/plant/flower/petal/calendulaarvensis1" }}},		
+				"*-centaureagymnocarpa-*": {"shape": {"base": "block/plant/flower/centaureagymnocarpa_02"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}2" },"flower2": { "base": "block/plant/flower/petal/{type}1" }}},	
+				"*-cyclamenafricanum-*": {"shape": {"base": "block/plant/flower/cyclamenafricanum_02"},"textures": {"leaves": { "base": "block/plant/flower/stem/cyclamenafricanum1" },"flower": { "base": "block/plant/flower/petal/cyclamenafricanum1" }}},	
+				"*-cynaracardunculus-*": {"shape": {"base": "block/plant/flower/cynaracardunculus_02"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1" }}},	
+				"*-dianthuscaryophyllus-*": {"shape": {"base": "block/plant/flower/dianthuscaryophyllus_04"},"textures": {"leaves": { "base": "block/plant/flower/stem/dianthuscaryophyllus1" },"flower": { "base": "block/plant/flower/petal/dianthuscaryophyllus1","alternates": [ { "base": "block/plant/flower/petal/dianthuscaryophyllus2"}, { "base": "block/plant/flower/petal/dianthuscaryophyllus3"}, { "base": "block/plant/flower/petal/dianthuscaryophyllus4"}, { "base": "block/plant/flower/petal/dianthuscaryophyllus5"} ] }}},	
+				"*-drosophyllumlusitanicum-*": {"shape": {"base": "block/plant/flower/drosophyllumlusitanicum_01"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-ephedrafragilis-*": {"shape": {"base": "block/plant/flower/ephedrafragilis_03"},"textures": {"leaves": { "base": "block/plant/flower/stem/ephedrafragilis1" }}},	
+				"*-narcissusjonquilla-*": {"shape": {"base": "block/plant/flower/narcissusjonquilla_01"},"textures": {"leaves": { "base": "block/plant/flower/stem/narcissusjonquilla1" },"flower": { "base": "block/plant/flower/petal/narcissusjonquilla1" }}},	
+				"*-orchisitalica-*": {"shape": {"base": "block/plant/flower/orchisitalica_01"},"textures": {"leaves": { "base": "block/plant/flower/stem/orchisitalica1" },"flower": { "base": "block/plant/flower/petal/orchisitalica1" }}},		
+				"*-sempervivumtectorum-*": {"shape": {"base": "block/plant/flower/sempervivumtectorum_02"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}2" }}},	
+				"*-silybummarianum-*": {"shape": {"base": "block/plant/flower/silybummarianum_01"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},							
+				"*-tracheliumcaeruleum-*": {"shape": {"base": "block/plant/flower/tracheliumcaeruleum_01"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/tracheliumcaeruleum1" }}},				
+				"*-ulexeuropaeus-*": {"shape": {"base": "block/plant/flower/ulexeuropaeus_01"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}}			
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"@.*-(ephedrafragilis)-.*":{"base": "block/plant/flower/{type}_01","alternates": [ { "base": "block/plant/flower/{type}_02"} ]},
+		"@.*-(dianthuscaryophyllus)-.*":{"base": "block/plant/flower/{type}_01","alternates": [ { "base": "block/plant/flower/{type}_02"}, { "base": "block/plant/flower/{type}_03"} ]},
+		"*":{"base": "block/plant/flower/{type}*"}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"@.*-(centaureagymnocarpa)-.*": {"flower1": { "base": "block/plant/flower/petal/{type}1" },"flower2": { "base": "block/plant/flower/petal/{type}*" }},
+		"@.*-(drosophyllumlusitanicum|silybummarianum)-.*": {"flower": { "base": "block/plant/flower/petal/{type}" }},
+		"@.*-(ephedrafragilis)-.*": {"leaves": { "base": "block/plant/flower/stem/{type}*" }},
+		"@.*-(acanthusspinosus|calendulaarvensis|cyclamenafricanum|dianthuscaryophyllus|euphorbiamyrsinites|narcissusjonquilla|orchisitalica)-.*": {"leaves": { "base": "block/plant/flower/stem/{type}*" },"flower": { "base": "block/plant/flower/petal/{type}*" }},
+		"@.*-(asparagusalbus|cynaracardunculus|sempervivumtectorum)-.*": {"flower": { "base": "block/plant/flower/petal/{type}*" }},
+		"@.*-(tracheliumcaeruleum)-.*": {
+		 "leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}*" }
+		},
+		"@.*-(ulexeuropaeus)-.*": {
+		 "leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjustByType": {"@.*-(ephedrafragilis|silybummarianum)-.*": 0.3,"@.*-(tracheliumcaeruleum)-.*": 0.2,"@.*-(ulexeuropaeus)-.*": 0.4, "*" : 0.1},
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.75, "z2": 0.875
+	},
+	"soundsByType": {
+		"@.*-(acanthusspinosus|asparagusalbus|ephedrafragilis|cynaracardunculus|silybummarianum|tracheliumcaeruleum|ulexeuropaeus)-.*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass","inside": "game:walk/inside/leafy/bushrustle*"},
+		"*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass"}},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-ulexeuropaeus-*": { "origin": { "x": 0.5, "y": 0.9, "z": 0.53 },"scale": 0.5},
+		"*": { "scale": 1.5}
+	}
+}

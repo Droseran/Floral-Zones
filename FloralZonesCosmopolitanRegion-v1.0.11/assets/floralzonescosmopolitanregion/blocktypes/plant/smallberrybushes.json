@@ -1,0 +1,98 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"plantContainable": {
+			"largeContainerByType": {
+				"*-rubuschamaemorus-*": {"shape": { "base": "block/plant/berrybush/{type}-flowering2"},"textures": {"leaves": { "base": "block/plant/berrybush/rubuschamaemorus1" },"flower": { "base": "item/food/fruit/rubuschamaemorus" }}},
+				}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperatureByType": {"*empetrumnigrum*": -25,"*juniperuscommunis*": -15,"*rubuschamaemorus*": -20},
+		"resetBelowTemperatureByType": {"*empetrumnigrum*": -23,"*juniperuscommunis*": -13,"*rubuschamaemorus*": -18},
+		"stopBelowTemperatureByType": {"*empetrumnigrum*": -21,"*juniperuscommunis*": -11,"*rubuschamaemorus*": -16},
+		
+		"revertBlockAboveTemperatureByType": {"*empetrumnigrum*": 27,"*juniperuscommunis*": 29,"*rubuschamaemorus*": 29},
+		"resetAboveTemperatureByType": {"*empetrumnigrum*": 23,"*juniperuscommunis*": 25,"*rubuschamaemorus*": 25},
+		"stopAboveTemperatureByType": {"*empetrumnigrum*": 19,"*juniperuscommunis*": 21,"*rubuschamaemorus*": 21},
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empetrumnigrum-empty": { "avg": 3.25, "var": 0.09 },"*-empetrumnigrum-flowering": { "avg": 2.98, "var": 0.09 },"*-empetrumnigrum-ripe": { "avg": 2.0, "var": 0.09 },
+		"*-juniperuscommunis-empty": { "avg": 1.25, "var": 0.09 },"*-juniperuscommunis-flowering": { "avg": 3.04, "var": 0.09 },"*-juniperuscommunis-ripe": { "avg": 0.98, "var": 0.09 },
+		"*-rubuschamaemorus-empty": { "avg": 4.25, "var": 0.02 },"*-rubuschamaemorus-flowering": { "avg": 0.98, "var": 0.09 },"*-rubuschamaemorus-ripe": { "avg": 0.2, "var": 0.05 }},
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescosmopolitanregion:fruit-{type}", "quantity": { "avg": 3.4 }  },
+			"harvestedBlockCode": "floralzonescosmopolitanregion:smallberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["empetrumnigrum","juniperuscommunis","rubuschamaemorus"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-rubuschamaemorus-*": { "base": "block/plant/berrybush/{type}-{state}*"},
+		"*-juniperuscommunis-*": { "base": "block/plant/berrybush/{type}02"},
+		"*": { "base": "block/plant/berrybush/{type}0*"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-empetrumnigrum-*": {"leaves": { "base": "block/plant/berrybush/empetrumnigrum-{state}" }},
+		"*-juniperuscommunis-*": {"leaves-small": { "base": "block/plant/berrybush/{type}-small-{state}"}},
+		"*-rubuschamaemorus-*": {"leaves": { "base": "block/plant/berrybush/rubuschamaemorus1" },"flower": { "base": "item/food/fruit/rubuschamaemorus" }}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+		"inside": "game:walk/grass"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescosmopolitanregion:fruit-{type}", "quantity": { "avg": 3.4 }  },
+			{ "type": "block", "code": "floralzonescosmopolitanregion:smallberrybush-{type}-empty", "quantity": { "avg": 1 }  },
+		],
+		"*": [			{ "type": "block", "code": "floralzonescosmopolitanregion:smallberrybush-{type}-empty", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	}
+}

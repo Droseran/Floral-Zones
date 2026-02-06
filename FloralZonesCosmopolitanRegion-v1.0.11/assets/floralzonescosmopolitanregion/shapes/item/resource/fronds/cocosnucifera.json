@@ -1,0 +1,111 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 80,
+	"textureSizes": {
+		"cocosnuciferafrond1": [24,80]
+	},
+	"textures": {
+		"cocosnuciferafrond1": "block/plant/berrybush/cocosnuciferafrond1"
+	},
+	"elements": [
+		{
+			"name": "Stema",
+			"from": [ -22.0, 0.1, 7.0 ],
+			"to": [ -4.0, 0.1, 9.0 ],
+			"rotationOrigin": [ -22.0, 0.1, 8.0 ],
+			"rotationX": 0.5,
+			"rotationY": 0.5,
+			"rotationZ": 0.5,
+			"faces": {
+				"up": { "texture": "#cocosnuciferafrond1", "uv": [ 11.0, 62.0, 13.0, 80.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Stemb",
+					"from": [ 0.0, 0.0, 2.0 ],
+					"to": [ 18.0, 0.0, 5.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+					"rotationX": -30.0,
+					"faces": {
+						"up": { "texture": "#cocosnuciferafrond1", "uv": [ 13.0, 62.0, 16.0, 80.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Stemc",
+					"from": [ 0.0, 0.0, -3.0 ],
+					"to": [ 18.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 30.0,
+					"faces": {
+						"up": { "texture": "#cocosnuciferafrond1", "uv": [ 8.0, 62.0, 11.0, 80.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Fronda",
+					"from": [ 18.0, 0.0, 0.0 ],
+					"to": [ 60.0, 0.0, 2.0 ],
+					"rotationOrigin": [ 18.0, 0.0, 1.0 ],
+					"faces": {
+						"up": { "texture": "#cocosnuciferafrond1", "uv": [ 11.0, 20.0, 13.0, 62.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "Frondb",
+							"from": [ 0.0, 0.0, 2.0 ],
+							"to": [ 42.0, 0.0, 13.0 ],
+							"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+							"rotationX": -3.0,
+							"faces": {
+								"up": { "texture": "#cocosnuciferafrond1", "uv": [ 13.0, 20.0, 24.0, 62.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "Frondc",
+							"from": [ 0.0, 0.0, -11.0 ],
+							"to": [ 42.0, 0.0, 0.0 ],
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 3.0,
+							"faces": {
+								"up": { "texture": "#cocosnuciferafrond1", "uv": [ 0.5, 20.0, 11.5, 62.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "Frondtipa",
+							"from": [ 42.0, 0.0, 0.0 ],
+							"to": [ 62.0, 0.0, 2.0 ],
+							"rotationOrigin": [ 42.0, 0.0, 1.0 ],
+							"faces": {
+								"up": { "texture": "#cocosnuciferafrond1", "uv": [ 11.0, 0.0, 13.0, 20.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+							},
+							"children": [
+								{
+									"name": "Frondtipb",
+									"from": [ 0.0, 0.0, 2.0 ],
+									"to": [ 20.0, 0.0, 13.0 ],
+									"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+									"rotationX": -3.0,
+									"faces": {
+										"up": { "texture": "#cocosnuciferafrond1", "uv": [ 13.0, 0.0, 24.0, 20.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+									}
+								},
+								{
+									"name": "Frondtipc",
+									"from": [ 0.0, 0.0, -11.0 ],
+									"to": [ 20.0, 0.0, 0.0 ],
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": 3.0,
+									"faces": {
+										"up": { "texture": "#cocosnuciferafrond1", "uv": [ 0.0, 0.0, 11.0, 20.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

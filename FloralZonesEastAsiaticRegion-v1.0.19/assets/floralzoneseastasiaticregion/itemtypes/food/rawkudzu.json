@@ -1,0 +1,60 @@
+{
+	"code": "soakedkudzu",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "state", "states": ["soaked", "dried"] }
+	],
+	"attributes": {
+		"inContainerTextureByType": {
+			"*-dried":  { "base": "game:block/wood/barrel/raw-cassava" },
+			"*-soaked": { "base": "game:block/wood/barrel/soaked-cassava" }
+		},
+	},
+	"shapeByType": {
+			"*-dried":  { "base": "item/food/vegetable/puerariamontana2" },
+			"*-soaked": { "base": "item/food/vegetable/puerariamontana1" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"transitionablePropsByType": {
+		"*-soaked": [{
+				"type": "Dry",
+				"freshHours": { "avg": 0 },
+				"transitionHours": { "avg": 24 },
+				"transitionedStack": { "type": "item", "code": "soakedkudzu-dried" },
+				"transitionRatio": 1
+		}],
+		"*-dried": [{
+				"type": "Perish",
+				"freshHours": { "avg": 2688 },
+				"transitionHours": { "avg": 120 },
+				"transitionedStack": { "type": "item", "code": "game:rot" },
+				"transitionRatio": 0.5
+		}]
+	},
+	"grindingPropsByType": {
+		"*-dried": { "groundStack": { "type": "item", "code": "flour-puerariamontana" }}
+	},
+	"materialDensity": 700,
+	guiTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 135, y: -180, z: 27 },
+		origin: { x: 0.6, y: 0.3, z: 0.5 },
+		scale: 3
+	},
+	fpHandTransform: {
+		translation: { x: 0.2, y: -0.1, z: 0 },
+		rotation: { x: -95, y: 156, z: 67 },
+		scale: 1.26
+	},
+	tpHandTransform: {
+		translation: { x: -0.9, y: -0.7, z: -0.7 },
+		rotation: { x: 0, y: -21, z: 1 },
+		scale: 0.69
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 97, y: -18, z: -16 },
+		origin: { x: 0.5, y: 0.5, z: 0.5299 },
+		scale: 2.8
+	}
+}

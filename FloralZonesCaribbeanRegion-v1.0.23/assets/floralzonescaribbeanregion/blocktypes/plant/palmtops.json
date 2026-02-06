@@ -1,0 +1,72 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+	"behaviorsByType": {
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+"variantgroups": [
+        { "code": "type", "states": ["cecropiaobtusifolia1","roystonearegia","sabalpalmetto"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-cecropiaobtusifolia1":{"base": "block/plant/tree/cecropiaobtusifolia"},
+		"*-roystonearegia":{"base": "block/plant/fern/roystonearegia-leaves_var0"},
+		"*-sabalpalmetto":{"base": "block/plant/fern/sabalpalmetto-leaves_var0"},
+	},
+	"randomDrawOffset": false,
+	"texturesByType": {
+		"*-cecropiaobtusifolia*": {
+			"leaf": { "base": "floralzonescaribbeanregion:block/plant/leaves/small/cecropiaobtusifolia" },
+			"trunk": { "base": "floralzonescaribbeanregion:block/wood/treetrunk/cecropiaobtusifolia" }
+		},
+		"*-roystonearegia": {
+			"roystonearegia": { "base": "floralzonescaribbeanregion:block/plant/fern/roystonearegia" },
+			"roystonearegia-stem": { "base": "block/plant/berrybush/roystonearegia-stem" }
+		},
+		"*-sabalpalmetto": {
+			"sabalpalmetto": { "base": "floralzonescaribbeanregion:block/plant/fern/sabalpalmetto" }
+		},
+	},
+	"randomSizeAdjust": 0.1,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-roystonearegia": [			{ "type": "item", "code": "floralzonescaribbeanregion:palmleaf-roystonearegia", "quantity": { "avg": 6, "var": 1.5 }   }],
+		"*-sabalpalmetto": [			{ "type": "item", "code": "floralzonescaribbeanregion:palmleaf-palmetto", "quantity": { "avg": 10, "var": 5 }  }],
+		"*-cecropiaobtusifolia1": [			{ "type": "item", "code": "floralzonescaribbeanregion:treeseed-cecropiaobtusifolia", "quantity": { "avg": 0.5 }  }]
+	},
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 30
+	},
+	"frostable": true,
+	"guiTransform": {
+		"scale": 1.5
+	}
+}

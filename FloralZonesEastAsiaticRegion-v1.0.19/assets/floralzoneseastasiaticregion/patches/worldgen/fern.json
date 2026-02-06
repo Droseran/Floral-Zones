@@ -1,0 +1,57 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of King Sago",
+          "blockCodes": [
+            "floralzoneseastasiaticregion:fern-cycasrevoluta"
+          ],
+          "minTemp": 12,
+          "maxTemp": 18,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.66,
+          "maxRain": 0.81,
+          "chance": 0.3,
+          "maxY": 0.1,
+		  "minFertility":0,
+		  "maxFertility": 0.7,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 5 },
+          "offsetX": { "avg": 1, "var": 12 },
+          "offsetZ": { "avg": 1, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+	      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Tassle Fern",
+          "blockCodes": [
+            "floralzoneseastasiaticregion:fern-polystichumpolyblepharum"
+          ],
+          "minTemp": 6,
+          "maxTemp": 14,
+		  "minForest": 0.3,
+		  "maxForest": 1,
+          "minRain": 0.55,
+          "maxRain": 0.78,
+          "chance": 0.6,
+		  "minY": 0.18,
+          "maxY": 0.55,
+		  "minFertility":0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 15, "var": 10 },
+          "offsetX": { "avg": 0, "var": 20 },
+          "offsetZ": { "avg": 0, "var": 20 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+	      }
+]

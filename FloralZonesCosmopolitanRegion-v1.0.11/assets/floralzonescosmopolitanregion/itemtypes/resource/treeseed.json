@@ -1,0 +1,91 @@
+{
+	"code": "treeseed",
+	"classByType": {
+          "*": "ItemTreeSeed"
+        },
+	"maxstacksize": 64,
+	"attributes": {
+			"displaycaseable": true,
+			"shelvable": true,
+		"nutritionPropsWhenInMeal": {
+			"satietyByType":  { 
+				"*-caricapapaya": 60
+			},
+			"foodcategory": "Protein" 
+		}
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["alnusalnobetula","caricapapaya","cocosnucifera","lagunculariaracemosa","rhizophoramangle","sonneratiacaseolaris"] }
+	],
+	"shape": { "base": "floralzonescosmopolitanregion:item/resource/seeds/{type}" },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"storageFlags": 33,
+	"materialDensityByType": {
+		"*": 200
+	},
+	"nutritionPropsByType": {
+		"*-caricapapaya": { "satiety": 40, "foodcategory": "Protein" },
+	},	
+	"guiTransformByType": {
+		"*-caricapapaya": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": {  "x": -5, "y": -60, "z": -146 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 2.5
+		},
+		"*-alnusalnobetula": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -57, "y": 51, "z": -2 },
+			"origin": { "x": 0.54, "y": 0.15, "z": 0.46 },
+			"scale": 2.57
+		},
+		"*-cocosnucifera": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -56, "y": 45, "z": -146 },
+			"origin": { "x": 0.5, "y": 0.125, "z": 0.5 },
+			"scale": 3
+		},
+		"*-rhizophoramangle": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -8, "y": 91, "z": -41 },
+			"origin": { "x": 0.54, "y": 0, "z": 0.56 },
+			"scale": 2.35
+		},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -5, "y": -60, "z": -146 },
+			"origin": { "x": 0.64, "y": 0, "z": 0.46 },
+			"scale": 3.87
+		}
+	},
+	"groundTransformByType": {
+		"*-cocosnucifera": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 2.5
+		},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.1, "y": 0, "z": 0 },
+			"rotation": { "x": -21, "y": 90, "z": 13 },
+			"origin": { "x": 0.5, "y": 0.14, "z": 0.5 },
+			"scale": 1.45
+		}		
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -1.24, "y": -0.17, "z": -1.1 },
+			"rotation": { "x": -12, "y": 7, "z": -56 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.42
+		}
+	}
+}

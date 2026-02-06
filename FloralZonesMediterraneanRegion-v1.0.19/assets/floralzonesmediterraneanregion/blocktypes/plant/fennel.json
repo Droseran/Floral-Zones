@@ -1,0 +1,98 @@
+{
+	"code": "tallplant",
+	"class": "BlockReeds",
+	"entityClassByType": {
+		"*-harvested-*": "Transient"
+	},
+	"attributes": {
+        "butterflyFeedByType": {"*-normal": true},
+        "beeFeedByType": {"*-normal": true},
+		"transientPropsByType": {
+			"tallplant-ferulacommunis-*": {
+				"convertFrom": "*-harvested-{cover}", 
+				"convertTo": "tallplant-ferulacommunis-land-normal-{cover}", 
+				"inGameHours": "168",
+				"resetBelowTemperature": -4,
+				"stopBelowTemperature": 4
+			}
+		},
+		"maxWaterDepthByType": {
+			"tallplant-ferulacommunis-*": 0,
+		}
+	},
+	"allowedVariants": [ 
+		"*-land-*" 
+	],
+	"variantgroups": [
+		{ "code": "type", "states": ["ferulacommunis"] },
+		{ "code": "habitat", "states": ["land"] },
+		{ "code": "state", "states": ["normal", "harvested"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"creativeinventory": { 
+		"general": ["*-land-normal-free"], 
+		"flora": ["*-land-normal-free"] 
+	},
+	"shapeByType": {
+		"*-ferulacommunis-*-harvested-*":{"base": "block/plant/flower/ferulacommunis-empty" },
+		"*-ferulacommunis-*":{"base": "block/plant/flower/ferulacommunis_0*" }
+	},
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"renderpass": "OpaqueNoCull",
+	"matterstate": "solid",
+	"blockmaterial": "plant",
+	"faceCullMode": "NeverCull",
+	"randomDrawOffset": true,
+	"randomizeRotations": true,
+	"texturesByType": {
+		"*-ferulacommunis-*": {"flower": { "base": "block/plant/flower/petal/{type}*" },"leaves": { "base": "block/plant/flower/stem/{type}*" }}
+	},
+	"randomSizeAdjust": 0.1,
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": { "all" : false },
+	"emitsideao": { "all": false },
+	"sideao": { "all": true },
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0, "y1": 0, "z1": 0,
+		"x2": 1, "y2": 1, "z2": 1
+	},
+	"guitransform": {
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"walk": "game:walk/inside/leafy/bushrustle*",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeableByType": {
+		"*-land-*": true
+	},
+	"materialDensity": 200,
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": -1.5, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 1.2, "z": 0.5 },
+		"scale": 0.65
+	},
+	"dropsByType": {
+	"*-ferulacommunis-*-harvested-*": [{ "type": "item", "code": "game:resin", "quantity": { "avg": 1 }}],
+		"*-ferulacommunis-*-normal-*": [ { "type": "item", "code": "floralzonesmediterraneanregion:vegetable-ferulacommunis", "quantity": { "avg": 1 }}]
+	}
+}

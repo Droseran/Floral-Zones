@@ -1,0 +1,88 @@
+{
+	"code": "pickledvegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["luffaaegyptiaca","petasitesjaponicus"] }
+    ],
+		"crockable": true,
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-luffaaegyptiaca": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   200,
+				"foodcategory": "Vegetable" },
+				"inPieProperties": {"texture": "game:block/food/pie/fill-olive", "partType": "Filling" }
+	},
+		"*-petasitesjaponicus": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   200,
+				"foodcategory": "Vegetable" }
+	}
+	},
+	"shapebytype": {
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"texturebytype": {
+		"*": { "base": "item/food/vegetable/{type}-pickled" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-luffaaegyptiaca": { "satiety": 80, "foodcategory": "Vegetable" },
+		"*-petasitesjaponicus": { "satiety": 80, "foodcategory": "Vegetable" }
+	},
+	"transitionablePropsByType": {
+		"*-luffaaegyptiaca": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
+		"*-petasitesjaponicus": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}]
+	},
+	"guiTransformByType": {
+		"*-luffaaegyptiaca": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": -98, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 3.0
+		},
+		"*-petasitesjaponicus": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": -40, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.0
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.0
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -1, "y": -0.1, "z": -0.9 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.59
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	}}

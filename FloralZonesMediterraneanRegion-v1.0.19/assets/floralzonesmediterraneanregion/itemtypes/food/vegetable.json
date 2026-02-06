@@ -1,0 +1,167 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["armoraciarusticana","armoraciarusticanaprepared","capparisspinosa","cynaracardunculus","cynaracardunculusscolymuspetals","ferulacommunis","laurusnobilis"] }
+    ],
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-armoraciarusticana": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  225,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-armoraciarusticanaprepared": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  500,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-armoraciarusticana", partType: 'Filling' }
+	},
+		"*-capparisspinosa": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  100,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-cynaracardunculus": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  100,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-cynaracardunculusscolymuspetals", partType: 'Filling' }
+	},
+		"*-cynaracardunculusscolymuspetals": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  250,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-ferulacommunis": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  125,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-laurusnobilis": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  100,
+				"foodcategory": "Vegetable" }
+	},
+	},
+	"shapebytype": {
+		"*-armoraciarusticanaprepared": { "base": "game:item/resource/crushed/bonemeal" },
+		"*": { "base": "item/food/vegetable/{type}" },
+	},
+	"texturebytype": {
+		"*-cynaracardunculusscolymuspetals": { "base": "block/plant/crop/cynaracardunculusscolymus/flower" },
+		"*-laurusnobilis": { "base": "item/resource/seeds/laurusnobilis" },
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-armoraciarusticana": { "satiety": 90, "foodcategory": "Vegetable" },
+		"*-armoraciarusticanaprepared": { "satiety": 200, "foodcategory": "Vegetable" },
+		"*-capparisspinosa": { "satiety": 40, "foodcategory": "Vegetable" },
+		"*-cynaracardunculus": { "satiety": 40, "foodcategory": "Vegetable" },
+		"*-cynaracardunculusscolymuspetals": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-ferulacommunis": { "satiety": 80, "foodcategory": "Vegetable" },
+		"*-laurusnobilis": { "satiety": 10, "foodcategory": "Vegetable" },
+	},
+	"transitionablePropsByType": {
+		"*-armoraciarusticana": [{
+			"type": "Perish",
+			"freshHours": { "avg": 432 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-armoraciarusticanaprepared": [{
+			"type": "Perish",
+			"freshHours": { "avg": 864 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-capparisspinosa": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-cynaracardunculus": [{
+			"type": "Perish",
+			"freshHours": { "avg": 24 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-cynaracardunculusscolymuspetals": [{
+			"type": "Perish",
+			"freshHours": { "avg": 96 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-ferulacommunis": [{
+			"type": "Perish",
+			"freshHours": { "avg": 72 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-laurusnobilis": [{
+			"type": "Perish",
+			"freshHours": { "avg": 72 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+	},
+	"guiTransformByType": {
+		"*-laurusnobilis": {
+			"translation": { "x": 0, "y": 1, "z": 0 },
+			"rotation": { "x": -173, "y": 28, "z": -15 },
+			"origin": { "x": 0.5, "y": 0.22, "z": 0.5 },
+			"scale": 3.19
+		},
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*-laurusnobilis": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 95, "y": 11, "z": -135 },
+			"origin": { "x": 0.6, "y": 0.2, "z": 0.41 },
+			"scale": 3.4
+		},	
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	},
+}

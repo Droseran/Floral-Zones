@@ -1,0 +1,78 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+	"variantgroups": [
+		{ "code": "type", "states": ["callistephuschinensis"] },
+		{ "code": "color", "states": ["0","1","2","3","4","5","6","7"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"reinforcable": true,
+		"plantContainable": {
+			"smallContainerByType": {	
+				"*-callistephuschinensis-*": {"shape": {"base": "block/plant/flower/callistephuschinensis2"}}						
+			},
+			"largeContainerByType": {
+				"*-callistephuschinensis-*": {"shape": {"base": "block/plant/flower/callistephuschinensis1"}}								
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"@.*-(callistephuschinensis)-.*":{"base": "block/plant/flower/{type}"}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"@.*-(callistephuschinensis)-.*": {
+		 "leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}{color}" }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*": { "scale": 1.5}
+	}
+}

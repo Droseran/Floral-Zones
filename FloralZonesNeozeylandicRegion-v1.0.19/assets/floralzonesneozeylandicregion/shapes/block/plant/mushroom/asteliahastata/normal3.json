@@ -1,0 +1,85 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 24,
+	"textureSizes": {
+		"asteliahastata4": [16,16],
+		"asteliahastata2": [16,16]
+	},
+	"textures": {
+		"asteliahastata2": "block/plant/mushroom/asteliahastata2",
+		"asteliahastata4": "block/plant/mushroom/asteliahastata4"
+	},
+	"elements": [
+		{
+			"name": "Base plant",
+			"from": [ 0.0, 3.0, 16.0 ],
+			"to": [ 16.0, 19.0, 16.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 5.0, 16.0 ],
+			"rotationX": -12.0,
+			"rotationY": -2.0,
+			"faces": {
+				"north": { "texture": "#asteliahastata2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [-1,7,7,-1], "windData": [0,1,1,0] }
+			},
+			"children": [
+				{
+					"name": "Roots",
+					"from": [ -1.0, -12.0, 0.0 ],
+					"to": [ 15.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 7.0, 2.0, 0.0 ],
+					"rotationX": 12.0,
+					"rotationY": 4.0,
+					"faces": {
+						"north": { "texture": "#asteliahastata4", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Base plant2",
+					"from": [ 0.0, -1.0, 0.0 ],
+					"to": [ 16.0, 15.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 1.0, 0.0 ],
+					"rotationX": -22.5,
+					"rotationY": 157.5,
+					"rotationZ": 0.0,
+					"faces": {
+						"north": { "texture": "#asteliahastata2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,7,7,0], "windData": [0,1,0,0] }
+					}
+				},
+				{
+					"name": "Base plant3",
+					"from": [ 0.0, -1.0, 0.0 ],
+					"to": [ 16.0, 15.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 1.0, 0.0 ],
+					"rotationX": -22.5,
+					"rotationY": 67.5,
+					"rotationZ": 0.0,
+					"faces": {
+						"north": { "texture": "#asteliahastata2", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,7,7,0], "windData": [0,1,0,0] }
+					}
+				},
+				{
+					"name": "Roots2",
+					"from": [ -1.0, -14.0, 0.0 ],
+					"to": [ 15.0, 2.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 7.0, 0.0, 0.0 ],
+					"rotationX": 22.5,
+					"faces": {
+						"north": { "texture": "#asteliahastata4", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+					}
+				}
+			]
+		}
+	]}

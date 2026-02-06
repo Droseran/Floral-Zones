@@ -1,0 +1,78 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+	"variantgroups": [
+		{ "code": "type", "states": ["antirrhinummajus"] },
+		{ "code": "color", "states": ["lightpink","magenta","purple","white","red","orange","yellow"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"reinforcable": true,
+		"plantContainable": {
+			"smallContainerByType": {	
+				"*": {"shape": {"base": "block/plant/flower/antirrhinummajus_01"},"textures": {"leaves": { "base": "block/plant/flower/stem/antirrhinummajus1" },"flower": { "base": "block/plant/flower/petal/antirrhinummajus{color}" }}}						
+			},
+			"largeContainerByType": {
+				"*": {"shape": {"base": "block/plant/flower/antirrhinummajus_01"},"textures": {"leaves": { "base": "block/plant/flower/stem/antirrhinummajus1" },"flower": { "base": "block/plant/flower/petal/antirrhinummajus{color}" }}}							
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"*":{"base": "block/plant/flower/{type}_03","alternates": [ { "base": "block/plant/flower/{type}_02"}, { "base": "block/plant/flower/{type}_03"} ]}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"*": {
+		 "leaves": { "base": "block/plant/flower/stem/{type}1" },"flower": { "base": "block/plant/flower/petal/{type}{color}" }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*": { "scale": 1.5}
+	}
+}

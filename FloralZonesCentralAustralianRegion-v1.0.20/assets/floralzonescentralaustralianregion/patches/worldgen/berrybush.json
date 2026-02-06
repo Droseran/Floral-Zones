@@ -1,0 +1,102 @@
+[{
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Thicket of Ruby Saltbush",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:smallberrybush-enchylaenatomentosa-empty","floralzonescentralaustralianregion:smallberrybush-enchylaenatomentosa-flowering","floralzonescentralaustralianregion:smallberrybush-enchylaenatomentosa-ripe"
+          ],
+          "minTemp": 12,
+          "maxTemp": 26,
+		  "minForest": 0.0,
+		  "maxForest": 0.3,
+		  "minRain": 0.12,
+          "maxRain": 0.65,
+          "chance": 0.03,
+          "maxY": 0.22,
+		  "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 35, "var": 25 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Bush Tomato Near Water",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:smallberrybush-solanumellipticum-empty","floralzonescentralaustralianregion:smallberrybush-solanumellipticum-flowering","floralzonescentralaustralianregion:smallberrybush-solanumellipticum-ripe"
+          ],
+          "minTemp": 16,
+          "maxTemp": 24,
+		  "minForest": 0.3,
+		  "maxForest": 0.8,
+		  "minRain": 0.25,
+          "maxRain": 0.68,
+          "chance": 0.4,
+          "maxY": 0.15,
+		  "placement": "NearWater",
+		  "maxFertility": 0.7,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 4 },
+          "offsetX": { "avg": 0, "var": 7 },
+          "offsetZ": { "avg": 0, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Bush Tomato",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:smallberrybush-solanumellipticum-empty","floralzonescentralaustralianregion:smallberrybush-solanumellipticum-flowering","floralzonescentralaustralianregion:smallberrybush-solanumellipticum-ripe"
+          ],
+          "minTemp": 16,
+          "maxTemp": 24,
+		  "minForest": 0.3,
+		  "maxForest": 0.8,
+		  "minRain": 0.25,
+          "maxRain": 0.68,
+          "chance": 0.001,
+          "maxY": 0.15,
+		  "maxFertility": 0.7,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 4 },
+          "offsetX": { "avg": 0, "var": 7 },
+          "offsetZ": { "avg": 0, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Sturt's Desert Pea",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:smallberrybush-swainsonaformosa-empty","floralzonescentralaustralianregion:smallberrybush-swainsonaformosa-flowering","floralzonescentralaustralianregion:smallberrybush-swainsonaformosa-ripe"
+          ],
+          "minTemp": 16,
+          "maxTemp": 28,
+		  "minForest": 0,
+		  "maxForest": 0.1,
+		  "minRain": 0.06,
+          "maxRain": 0.56,
+          "chance": 0.2,
+          "maxY": 0.1,
+		  "maxFertility": 0.3,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 4 },
+          "offsetX": { "avg": 0, "var": 3 },
+          "offsetZ": { "avg": 0, "var": 3 }
+        },
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      }
+]

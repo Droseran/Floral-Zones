@@ -1,0 +1,74 @@
+[
+     {
+        "op": "addeach",
+        "path": "/attributes/contentConfig/0",
+        "side": "server",
+        "value": [ 
+            { "code": "themedatriandra",
+                "content": { "type": "item", "code": "floralzonescentralaustralianregion:grain-themedatriandra" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-flax" },
+            { "code": "swainsonaformosa",
+                "content": { "type": "item", "code": "floralzonescentralaustralianregion:legume-swainsonaformosa" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-swainsonaformosa" },
+            { "code": "ipomoeacostata",
+                "content": { "type": "item", "code": "floralzonescentralaustralianregion:vegetable-ipomoeacostata" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-ipomoeacostata" },
+            { "code": "solanumellipticum",
+                "content": { "type": "item", "code": "floralzonescentralaustralianregion:vegetable-solanumellipticum" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "turnip" },
+            { "code": "enchylaenatomentosafruitmash",
+                "content": { "type": "item", "code": "floralzonescentralaustralianregion:pressedmash-enchylaenatomentosa" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-pressedmash-pomegranate" } ],
+        "file": "game:blocktypes/wood/trough-large.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-swainsonaformosa": {
+                "base": "block/food/pie/fill-swainsonaformosa",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-ipomoeacostata": {
+                "base": "block/food/pie/fill-potato",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            }
+        },
+        "file": "game:blocktypes/wood/trough-large.json"
+    }
+]

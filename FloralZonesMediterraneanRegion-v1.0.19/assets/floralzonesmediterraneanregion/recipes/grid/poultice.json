@@ -1,0 +1,34 @@
+[	
+	{
+		"ingredientPattern": "H	L",
+		"ingredients": {
+			"L": { "type": "block", "code": "game:linen-*" },
+			"H": { "type": "block", "code": "floralzonesmediterraneanregion:flower-euphorbiaresinifera-free", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "floralzonesmediterraneanregion:poultice-linen-euphorbiaresinifera", "quantity": 3  }
+	},
+	
+	{
+		"ingredientPattern": "H	C",
+		"ingredients": {
+			"C": { "type": "item", "code": "game:cattailtops", "quantity": 2 },
+			"H": { "type": "block", "code": "floralzonesmediterraneanregion:flower-euphorbiaresinifera-free", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "floralzonesmediterraneanregion:poultice-reed-euphorbiaresinifera", "quantity": 3  }
+	},
+	
+	{
+		"ingredientPattern": "H	P",
+		"ingredients": {
+			"P": { "type": "item", "code": "game:papyrustops", "quantity": 2 },
+			"H": { "type": "block", "code": "floralzonesmediterraneanregion:flower-euphorbiaresinifera-free", "quantity": 1 }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "floralzonesmediterraneanregion:poultice-reed-euphorbiaresinifera", "quantity": 3  }
+	},	
+]

@@ -1,0 +1,119 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"enchylaenatomentosa": [4,4]
+	},
+	"textures": {
+		"enchylaenatomentosa": "item/food/fruit/enchylaenatomentosa"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "berry",
+					"from": [ -1.0, 0.1, -1.0 ],
+					"to": [ 1.0, 2.0, 1.0 ],
+					"rotationOrigin": [ 0.0, 0.1, 0.0 ],
+					"faces": {
+						"up": { "texture": "#enchylaenatomentosa", "uv": [ 2.0, 1.5, 4.0, 3.5 ] },
+						"down": { "texture": "#enchylaenatomentosa", "uv": [ 2.0, 0.0, 4.0, 2.0 ] }
+					},
+					"children": [
+						{
+							"name": "side",
+							"from": [ -0.5, -0.05, -0.5 ],
+							"to": [ 0.5, 2.05, 1.5 ],
+							"rotationOrigin": [ 0.5, -0.1, 0.5 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#enchylaenatomentosa", "uv": [ 0.0, 2.0, 1.0, 4.0 ] },
+								"east": { "texture": "#enchylaenatomentosa", "uv": [ 1.0, 2.0, 3.0, 4.0 ] },
+								"south": { "texture": "#enchylaenatomentosa", "uv": [ 3.0, 2.0, 4.0, 4.0 ] },
+								"west": { "texture": "#enchylaenatomentosa", "uv": [ 1.5, 2.0, 3.5, 4.0 ] },
+								"up": { "texture": "#enchylaenatomentosa", "uv": [ 0.5, 0.0, 1.5, 2.0 ] },
+								"down": { "texture": "#enchylaenatomentosa", "uv": [ 1.0, 0.0, 2.0, 2.0 ] }
+							}
+						},
+						{
+							"name": "side2",
+							"from": [ -0.5, -0.1, 0.5 ],
+							"to": [ 0.5, 2.1, 2.5 ],
+							"rotationOrigin": [ 0.5, -0.1, 1.5 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#enchylaenatomentosa", "uv": [ 3.0, 0.0, 4.0, 2.0 ] },
+								"east": { "texture": "#enchylaenatomentosa", "uv": [ 1.0, 0.0, 3.0, 2.0 ] },
+								"south": { "texture": "#enchylaenatomentosa", "uv": [ 3.0, 0.0, 4.0, 2.0 ] },
+								"west": { "texture": "#enchylaenatomentosa", "uv": [ 1.0, 0.0, 3.0, 2.0 ] },
+								"up": { "texture": "#enchylaenatomentosa", "uv": [ 3.0, 2.0, 4.0, 4.0 ] },
+								"down": { "texture": "#enchylaenatomentosa", "uv": [ 2.0, 2.0, 3.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "side3",
+							"from": [ 0.5, -0.05, 0.5 ],
+							"to": [ 1.5, 2.05, 2.5 ],
+							"rotationOrigin": [ 1.5, -0.1, 1.5 ],
+							"rotationY": 135.0,
+							"faces": {
+								"north": { "texture": "#enchylaenatomentosa", "uv": [ 3.0, 2.0, 4.0, 4.0 ] },
+								"east": { "texture": "#enchylaenatomentosa", "uv": [ 1.0, 2.0, 3.0, 4.0 ] },
+								"south": { "texture": "#enchylaenatomentosa", "uv": [ 0.0, 2.0, 1.0, 4.0 ] },
+								"west": { "texture": "#enchylaenatomentosa", "uv": [ 1.0, 2.0, 3.0, 4.0 ] },
+								"up": { "texture": "#enchylaenatomentosa", "uv": [ 3.0, 0.0, 4.0, 2.0 ] },
+								"down": { "texture": "#enchylaenatomentosa", "uv": [ 2.0, 0.0, 3.0, 2.0 ] }
+							}
+						},
+						{
+							"name": "side4",
+							"from": [ 0.5, -0.1, -0.5 ],
+							"to": [ 1.5, 2.1, 1.5 ],
+							"rotationOrigin": [ 1.5, -0.1, 0.5 ],
+							"rotationY": -135.0,
+							"faces": {
+								"north": { "texture": "#enchylaenatomentosa", "uv": [ 0.0, 1.0, 1.0, 3.0 ] },
+								"east": { "texture": "#enchylaenatomentosa", "uv": [ 1.0, 1.0, 3.0, 3.0 ] },
+								"south": { "texture": "#enchylaenatomentosa", "uv": [ 3.0, 1.0, 4.0, 3.0 ] },
+								"west": { "texture": "#enchylaenatomentosa", "uv": [ 1.0, 1.0, 3.0, 3.0 ] },
+								"up": { "texture": "#enchylaenatomentosa", "uv": [ 0.0, 1.0, 1.0, 3.0 ] },
+								"down": { "texture": "#enchylaenatomentosa", "uv": [ 3.0, 1.0, 4.0, 3.0 ] }
+							}
+						},
+						{
+							"name": "stem",
+							"from": [ 0.9, 1.9, 0.9 ],
+							"to": [ 1.1, 2.5, 1.1 ],
+							"rotationOrigin": [ 1.0, 1.9, 1.0 ],
+							"rotationX": 22.5,
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#enchylaenatomentosa", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#enchylaenatomentosa", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#enchylaenatomentosa", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#enchylaenatomentosa", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#enchylaenatomentosa", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#enchylaenatomentosa", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

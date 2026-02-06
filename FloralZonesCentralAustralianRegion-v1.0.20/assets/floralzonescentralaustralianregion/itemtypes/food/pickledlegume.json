@@ -1,0 +1,66 @@
+{
+	"code": "pickledlegume",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["swainsonaformosa"] }
+    ],
+		"crockable": true,
+		"inPieProperties": { "texture": "block/food/pie/fill-{type}", "partType": 'Filling' },
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-swainsonaformosa": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   80,
+				"foodcategory": "Vegetable" }
+	}
+	},
+	"shapebytype": {
+		"*-swainsonaformosa": { "base": "item/food/legume/swainsonaformosa" }
+	},
+	"texturebytype": {
+		"*-swainsonaformosa": { "base": "item/food/legume/swainsonaformosa-pickled" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-swainsonaformosa": { "satiety": 80, "foodcategory": "Protein" }
+	},
+	"transitionablePropsByType": {
+		"*-swainsonaformosa": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}]
+	},
+	"guiTransformByType": {
+		"*-swainsonaformosa": {
+			"translation": { "x": -1, "y": 1, "z": 0 },
+			"rotation": { "x": -43, "y": 60, "z": -180 },
+			"origin": { "x": 0.6, "y": 0.2, "z": 0.5 },
+			"scale": 3.7
+		}
+	},
+	"fpHandTransformByType": {
+		"*-swainsonaformosa": {
+			"rotation": { "x": -8, "y": -81, "z": -27 }
+		}
+	},
+	"tpHandTransformByType": {
+		"*-swainsonaformosa": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1.91
+		}
+	},
+	"groundTransformByType": {
+		"*-swainsonaformosa": {
+			"translation": { "x": -1.7, "y": -0.7, "z": -1.1 },
+			"rotation": { "x": 12, "y": 26, "z": -93 },
+			"origin": { "x": 0.5, "y": 0.21, "z": 0.48 }
+		}
+	}}

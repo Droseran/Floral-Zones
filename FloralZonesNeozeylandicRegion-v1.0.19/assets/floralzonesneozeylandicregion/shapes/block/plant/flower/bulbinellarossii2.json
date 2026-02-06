@@ -1,0 +1,214 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 8,
+	"textureSizes": {
+		"leaves": [16,8],
+		"leaves2": [16,8],
+		"flower": [8,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Grass 1",
+					"from": [ 0.0, 0.0, -8.0 ],
+					"to": [ 0.0, 8.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,1,1,0] }
+					},
+					"children": [
+						{
+							"name": "Grass side 1",
+							"from": [ -8.0, 0.0, 8.0 ],
+							"to": [ 8.0, 8.0, 8.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": 30.0,
+							"faces": {
+								"south": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,0,1,1] }
+							}
+						},
+						{
+							"name": "Grass side 2 1",
+							"from": [ -8.0, 0.0, 8.0 ],
+							"to": [ 8.0, 8.0, 8.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": -30.0,
+							"faces": {
+								"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,0,1,1] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Grass 2",
+					"from": [ 4.0, 0.0, -8.0 ],
+					"to": [ 4.0, 8.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+					"rotationY": -5.0,
+					"faces": {
+						"east": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,1,1,0] }
+					},
+					"children": [
+						{
+							"name": "Grass side 2",
+							"from": [ -8.0, 0.0, 8.0 ],
+							"to": [ 8.0, 8.0, 8.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": 30.0,
+							"faces": {
+								"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,0,1,1] }
+							}
+						},
+						{
+							"name": "Grass side 2 2",
+							"from": [ -8.0, 0.0, 8.0 ],
+							"to": [ 8.0, 8.0, 8.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": -30.0,
+							"faces": {
+								"south": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,0,1,1] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Grass 3",
+					"from": [ -4.0, 0.0, -8.0 ],
+					"to": [ -4.0, 8.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -4.0, 0.0, 0.0 ],
+					"rotationY": 5.0,
+					"faces": {
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,1,1,0] }
+					},
+					"children": [
+						{
+							"name": "Grass side 3",
+							"from": [ -8.0, 0.0, 8.0 ],
+							"to": [ 8.0, 8.0, 8.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": 30.0,
+							"faces": {
+								"south": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,0,1,1] }
+							}
+						},
+						{
+							"name": "Grass side 2 3",
+							"from": [ -8.0, 0.0, 8.0 ],
+							"to": [ 8.0, 8.0, 8.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": -30.0,
+							"faces": {
+								"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,0,1,1] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Grass 4",
+					"from": [ 0.0, 0.0, -12.0 ],
+					"to": [ 0.0, 8.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -4.0 ],
+					"rotationY": 5.0,
+					"faces": {
+						"east": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,1,1,0] }
+					},
+					"children": [
+						{
+							"name": "Grass side 4",
+							"from": [ -8.0, 0.0, 8.0 ],
+							"to": [ 8.0, 8.0, 8.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": 30.0,
+							"faces": {
+								"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,0,1,1] }
+							}
+						},
+						{
+							"name": "Grass side 2 4",
+							"from": [ -8.0, 0.0, 8.0 ],
+							"to": [ 8.0, 8.0, 8.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": -30.0,
+							"faces": {
+								"south": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,0,1,1] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Grass 5",
+					"from": [ 0.0, 0.0, -4.0 ],
+					"to": [ 0.0, 8.0, 12.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 4.0 ],
+					"rotationY": -5.0,
+					"faces": {
+						"east": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,1,1,0] }
+					},
+					"children": [
+						{
+							"name": "Grass side 5",
+							"from": [ -8.0, 0.0, 8.0 ],
+							"to": [ 8.0, 8.0, 8.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": 30.0,
+							"faces": {
+								"south": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,0,1,1] }
+							}
+						},
+						{
+							"name": "Grass side 2 5",
+							"from": [ -8.0, 0.0, 8.0 ],
+							"to": [ 8.0, 8.0, 8.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+							"rotationY": -30.0,
+							"faces": {
+								"south": { "texture": "#leaves", "uv": [ 0.0, 0.0, 16.0, 8.0 ], "windMode": [0,0,1,1] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

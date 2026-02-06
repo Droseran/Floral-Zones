@@ -1,0 +1,58 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Sponge Gourd",
+          "blockCodes": [
+            "floralzoneseastasiaticregion:crop-luffaaegyptiaca-4", "floralzoneseastasiaticregion:crop-luffaaegyptiaca-3", "floralzoneseastasiaticregion:crop-luffaaegyptiaca-2"
+          ],
+          "minTemp": 12,
+          "maxTemp": 40,
+		  "minForest": 0.5,
+		  "maxForest": 1,
+          "minRain": 0.5,
+          "maxRain": 0.88,
+		      "minFertility": 0.4,
+          "maxFertility": 0.7,
+          "chance": 0.1,
+		  "minY": 0,
+          "maxY": 0.1,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 1 },
+          "offsetX": { "avg": 0, "var": 3 },
+          "offsetZ": { "avg": 0, "var": 3 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+	      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Fuki",
+          "blockCodes": [
+            "floralzoneseastasiaticregion:crop-petasitesjaponicus-5", "floralzoneseastasiaticregion:crop-petasitesjaponicus-2"
+          ],
+          "minTemp": 2,
+          "maxTemp": 18,
+		  "minForest": 0.5,
+		  "maxForest": 1,
+          "minRain": 0.65,
+          "maxRain": 0.8,
+		      "minFertility": 0.5,
+          "maxFertility": 1,
+          "chance": 0.1,
+		  "minY": 0,
+          "maxY": 0.5,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 0, "var": 3 },
+          "offsetZ": { "avg": 0, "var": 3 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+	      },
+]

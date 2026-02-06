@@ -1,0 +1,95 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"plantContainable": {
+			"smallContainerByType": {
+				"*-solanumellipticum-*": {"shape": { "base": "block/plant/berrybush/solanumellipticum-potted"},"textures": {"flower": { "base": "block/plant/berrybush/solanumellipticum-{state}" }}}
+				},
+			"largeContainerByType": {
+					"*-solanumellipticum-*": {"shape": { "base": "block/plant/berrybush/solanumellipticum-potted"},"textures": {"flower": { "base": "block/plant/berrybush/solanumellipticum-{state}" }}}
+					}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 5,
+		"resetBelowTemperature": 7,
+		"stopBelowTemperature": 9,
+		
+		"revertBlockAboveTemperature": 49,
+		"resetAboveTemperature": 45,
+		"stopAboveTemperature": 41,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 2, "var": 0.09 },
+		"*-flowering": { "avg": 3.04, "var": 0.09 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescentralaustralianregion:vegetable-{type}", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "floralzonescentralaustralianregion:smallberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["solanumellipticum"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-solanumellipticum-*": { "base": "block/plant/berrybush/solanumellipticum"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-solanumellipticum-*": {
+		 "flower": { "base": "block/plant/berrybush/solanumellipticum-{state}" }}
+		},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescentralaustralianregion:vegetable-{type}", "quantity": { "avg": 4.4 }  },
+			{ "type": "block", "code": "floralzonescentralaustralianregion:smallberrybush-solanumellipticum-empty", "quantity": { "avg": 1 }  },
+		],
+		"*": [			{ "type": "block", "code": "smallberrybush-solanumellipticum-empty", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["cordylinepumilio","sonchuskirkii"] }
+    ],
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-cordylinepumilio": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  250,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-sonchuskirkii": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  125,
+				"foodcategory": "Vegetable" }
+	},
+	},
+	"shapebytype": {
+		"*": { "base": "item/food/vegetable/{type}" },
+	},
+	"texturebytype": {
+		"*-sonchuskirkii": { "base": "block/plant/flower/petal/{type}" },
+		"*": { "base": "item/food/vegetable/{type}" },
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-cordylinepumilio": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-sonchuskirkii": { "satiety": 50, "foodcategory": "Vegetable" },
+	},
+	"transitionablePropsByType": {
+		"*-cordylinepumilio": [{
+			"type": "Perish",
+			"freshHours": { "avg": 2000 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-sonchuskirkii": [{
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+	},
+	"guiTransformByType": {
+		"*-cordylinepumilio": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": -40, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 4.0
+		},
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	},
+}

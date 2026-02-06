@@ -1,0 +1,73 @@
+{
+  "code": "fruit",
+  "maxstacksize": 64,
+  "variantgroups": [
+    { "loadFromProperties": "floralzonesneozeylandicregion:block/fruit" }
+  ],
+  "materialDensityByType": {
+    "*": 600
+  },
+	"attributes": {
+		"foodTags": ["{fruit}"],
+		"nutritionPropsWhenInMeal": {
+			"satietyByType":  { 
+				"*-asteliagrandis": 120
+			},
+			"foodcategory": "Fruit" 
+		}
+	},
+  "shapebytype": {
+    "*": { "base": "floralzonesneozeylandicregion:item/food/fruit/{fruit}" }
+  },
+  "textureByType": {
+    "*": { "base": "floralzonesneozeylandicregion:item/food/fruit/{fruit}" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*-asteliagrandis": {
+      "satiety": 80,
+      "foodcategory": "Fruit"
+    }
+  },
+  "transitionablePropsByType": {
+    "*-asteliagrandis": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 330 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+  },
+  "guiTransformByType": {
+    "*-asteliagrandis": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+    },
+  },
+  "fpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+  },
+  "tpHandTransformByType": {
+    "*":{
+			"translation": { "x": -1.2, "y": 0, "z": -1.1 },
+			"rotation": { "x": 0, "y": 0, "z": -98 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.5
+    }
+	}
+}

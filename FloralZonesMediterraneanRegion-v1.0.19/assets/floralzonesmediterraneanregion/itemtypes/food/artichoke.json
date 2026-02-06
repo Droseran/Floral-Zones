@@ -1,0 +1,67 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["cynaracardunculusscolymus"] }
+    ],
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodcategory": ["{type}"],
+		"*-cynaracardunculusscolymus": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  100,
+				"foodcategory": "Vegetable" },
+				"foodcategory": "Vegetable", 
+				"foodTags": ["nibbleCrop","{type}"]
+	}
+	},
+	"shapebytype": {
+		"*": { "base": "item/food/vegetable/cynaracardunculus" },
+	},
+	"texturebytype": {
+		"*": { "base": "item/food/vegetable/cynaracardunculusscolymus" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"transitionablePropsByType": {
+		"*-cynaracardunculusscolymus": [{
+			"type": "Perish",
+			"freshHours": { "avg": 96 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	},
+}

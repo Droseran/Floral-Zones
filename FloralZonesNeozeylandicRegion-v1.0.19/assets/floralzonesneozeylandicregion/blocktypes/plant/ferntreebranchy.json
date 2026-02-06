@@ -1,0 +1,55 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+	"behaviorsByType": {
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+"variantgroups": [
+        { "code": "type", "states": ["alsophilatricolor2"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-alsophilatricolor2":{"base": "game:block/plant/ferntree/trunk-top-*"}
+	},
+	"randomDrawOffset": false,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"fertility": 30,
+	"resistance": 0.5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-alsophilatricolor2": [			{ "type": "item", "code": "floralzonesneozeylandicregion:treeseed-alsophilatricolor", "quantity": { "avg": 0.5 }  }]
+	},
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 30
+	},
+	"frostable": true,
+	"guiTransform": {
+		"scale": 1.5
+	}
+}

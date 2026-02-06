@@ -1,0 +1,131 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["agavetequilana","xanthosomasagittifoliumleaf","xanthosomasagittifoliumleafcooked","xanthosomasagittifoliumroot"] }
+    ],
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-xanthosomasagittifoliumleaf": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  75,
+				"foodcategory": "Vegetable" }
+	},
+		"*-xanthosomasagittifoliumroot": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   200,
+				"foodcategory": "Vegetable" },
+			"inPieProperties": { "texture": "game:block/food/pie/fill-potato", "partType": 'Filling' }
+	}
+	},
+	"shapebytype": {
+		"*-agavetequilana": { "base": "item/resource/agavetequilana" },
+		"*-xanthosomasagittifoliumleaf": { "base": "item/resource/xanthosomasagittifoliumleaf" },
+		"*-xanthosomasagittifoliumleafcooked": { "base": "item/resource/xanthosomasagittifoliumleaf" },
+		"*-xanthosomasagittifoliumroot": { "base": "item/resource/xanthosomasagittifoliumroot" }
+	},
+	"texturebytype": {
+		"*-agavetequilana": { "base": "item/resource/agavetequilana" },
+		"*-xanthosomasagittifoliumleaf": { "base": "block/plant/horsetail/xanthosomasagittifolium" },
+		"*-xanthosomasagittifoliumleafcooked": { "base": "block/plant/horsetail/xanthosomasagittifolium" },
+		"*-xanthosomasagittifoliumroot": { "base": "item/resource/xanthosomasagittifoliumcorm" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-xanthosomasagittifoliumleafcooked": { "satiety": 50, "foodcategory": "Vegetable" },
+		"*-xanthosomasagittifoliumroot": { "satiety": 100, "foodcategory": "Vegetable" }
+	},
+	"transitionablePropsByType": {
+		"*-agavetequilana": [{
+			"type": "Perish",
+			"freshHours": { "avg": 336 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-xanthosomasagittifoliumleaf": [{
+			"type": "Perish",
+			"freshHours": { "avg": 24 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-xanthosomasagittifoliumleafcooked": [{
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-xanthosomasagittifoliumroot": [{
+			"type": "Perish",
+			"freshHours": { "avg": 650 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}]
+	},
+	"guiTransformByType": {
+		"*-xanthosomasagittifoliumleaf": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": -40, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.0
+		},
+		"*-xanthosomasagittifoliumleafcooked": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": -40, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 1.5
+		},
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	},
+	"combustiblePropsByType": {
+		"*-xanthosomasagittifoliumleaf": {
+			"meltingPoint": 93,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "floralzonescaribbeanregion:vegetable-xanthosomasagittifoliumleafcooked" },
+			"requiresContainer": false
+		},
+		"*-agavetequilana": {
+			"meltingPoint": 60,
+			"meltingDuration": 720,
+			"smeltedRatio": 1,
+			"smeltingType": "convert",
+			"smeltedStack": { "type": "item", "code": "floralzonescaribbeanregion:fruit-agavetequilana" },
+			"requiresContainer": false
+		}
+}}

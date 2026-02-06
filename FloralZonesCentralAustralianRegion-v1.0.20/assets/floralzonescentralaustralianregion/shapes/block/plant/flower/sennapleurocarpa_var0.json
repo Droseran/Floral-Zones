@@ -1,0 +1,149 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"flower": [32,32]
+	},
+	"textures": {},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "face 1",
+					"from": [ -16.0, 0.0, 0.0 ],
+					"to": [ 16.0, 32.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,2,2,0], "windData": [0,2,2,0] }
+					}
+				},
+				{
+					"name": "face 2",
+					"from": [ -18.0, 14.0, 0.0 ],
+					"to": [ 14.0, 46.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 14.0, 0.0 ],
+					"rotationY": 15.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [2,2,2,2], "windData": [0,2,2,0] }
+					}
+				},
+				{
+					"name": "face 3",
+					"from": [ -18.0, 14.0, 0.0 ],
+					"to": [ 14.0, 46.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 14.0, 0.0 ],
+					"rotationY": 135.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [2,2,2,2], "windData": [0,2,2,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "origin2",
+			"from": [ 8.0, 0.0, 11.0 ],
+			"to": [ 8.0, 0.0, 11.0 ],
+			"rotationOrigin": [ 9.0, 0.0, 11.0 ],
+			"rotationX": 22.5,
+			"rotationY": 22.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "face 4",
+					"from": [ -16.0, 0.0, 0.0 ],
+					"to": [ 16.0, 32.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "face 5",
+					"from": [ -18.0, 14.0, 0.0 ],
+					"to": [ 14.0, 46.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 14.0, 0.0 ],
+					"rotationY": 15.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [2,2,2,2], "windData": [0,2,2,1] }
+					}
+				},
+				{
+					"name": "face 6",
+					"from": [ -18.0, 14.0, 0.0 ],
+					"to": [ 14.0, 46.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 14.0, 0.0 ],
+					"rotationY": 135.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [2,2,2,2], "windData": [0,2,2,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "origin3",
+			"from": [ 11.0, 0.0, 5.0 ],
+			"to": [ 11.0, 0.0, 5.0 ],
+			"rotationOrigin": [ 12.0, 0.0, 5.0 ],
+			"rotationX": -22.5,
+			"rotationY": -157.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "face 7",
+					"from": [ -16.0, 0.0, 0.0 ],
+					"to": [ 16.0, 32.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "face 8",
+					"from": [ -18.0, 14.0, 0.0 ],
+					"to": [ 14.0, 46.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 14.0, 0.0 ],
+					"rotationY": 15.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [2,2,2,2], "windData": [0,2,2,1] }
+					}
+				},
+				{
+					"name": "face 9",
+					"from": [ -18.0, 14.0, 0.0 ],
+					"to": [ 14.0, 46.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 14.0, 0.0 ],
+					"rotationY": 135.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [2,2,2,2], "windData": [0,2,2,0] }
+					}
+				}
+			]
+		}
+	]}

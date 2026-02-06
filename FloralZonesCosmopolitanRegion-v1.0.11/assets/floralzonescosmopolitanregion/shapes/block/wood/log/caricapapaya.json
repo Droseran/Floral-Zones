@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 16,
+	"textureSizes": {
+		"caricapapaya": [8,16]
+	},
+	"textures": {
+		"caricapapaya": "block/wood/bark/caricapapaya"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 5.5, 0.0, 5.5 ],
+			"to": [ 10.5, 16.0, 10.5 ],
+			"rotationOrigin": [ 5.5, 0.0, 5.5 ],
+			"faces": {
+				"north": { "texture": "#caricapapaya", "uv": [ 0.0, 0.0, 5.0, 16.0 ] },
+				"east": { "texture": "#caricapapaya", "uv": [ 0.0, 0.0, 5.0, 16.0 ] },
+				"south": { "texture": "#caricapapaya", "uv": [ 0.0, 0.0, 5.0, 16.0 ] },
+				"west": { "texture": "#caricapapaya", "uv": [ 0.0, 0.0, 5.0, 16.0 ] },
+				"up": { "texture": "#caricapapaya", "uv": [ 5.0, 0.0, 8.0, 3.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+				"down": { "texture": "#caricapapaya", "uv": [ 5.0, 0.0, 8.0, 3.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}

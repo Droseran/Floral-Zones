@@ -1,0 +1,202 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 12,
+	"textureHeight": 8,
+	"textureSizes": {
+		"e7": [4,12],
+		"s7": [4,12]
+	},
+	"textures": {
+		"e7": "block/plant/crop/alliumsativum/e4",
+		"s7": "block/plant/crop/alliumsativum/s4"
+	},
+	"elements": [
+		{
+			"name": "garlic",
+			"from": [ 3.75, -2.0, 6.75 ],
+			"to": [ 6.25, -0.5, 9.25 ],
+			"rotationOrigin": [ 4.8, -2.5, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "s ",
+					"from": [ -0.8, 1.0, 1.2 ],
+					"to": [ 3.2, 13.0, 1.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.2, 1.0, 1.7 ],
+					"faces": {
+						"south": { "texture": "#s7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,0,9,9] }
+					}
+				},
+				{
+					"name": "e ",
+					"from": [ 1.2, 1.0, -0.8 ],
+					"to": [ 1.2, 13.0, 3.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.7, 1.0, 1.2 ],
+					"faces": {
+						"east": { "texture": "#e7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,9,9,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "garlic2",
+			"from": [ 10.75, -1.9, 7.75 ],
+			"to": [ 13.25, -0.4, 10.25 ],
+			"rotationOrigin": [ 11.8, -2.4, 9.0 ],
+			"rotationY": 22.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "s 2",
+					"from": [ -0.8, 1.0, 1.2 ],
+					"to": [ 3.2, 13.0, 1.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.2, 1.0, 1.7 ],
+					"faces": {
+						"south": { "texture": "#s7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,0,9,9] }
+					}
+				},
+				{
+					"name": "e 2",
+					"from": [ 1.2, 1.0, -0.8 ],
+					"to": [ 1.2, 13.0, 3.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.7, 1.0, 1.2 ],
+					"faces": {
+						"east": { "texture": "#e7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,9,9,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "garlic3",
+			"from": [ 11.75, -1.9, 0.75 ],
+			"to": [ 14.25, -0.4, 3.25 ],
+			"rotationOrigin": [ 12.8, -2.4, 2.0 ],
+			"rotationY": -22.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "s 3",
+					"from": [ -0.8, 1.0, 1.2 ],
+					"to": [ 3.2, 13.0, 1.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.2, 1.0, 1.7 ],
+					"faces": {
+						"south": { "texture": "#s7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,0,9,9] }
+					}
+				},
+				{
+					"name": "e 3",
+					"from": [ 1.2, 1.0, -0.8 ],
+					"to": [ 1.2, 13.0, 3.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.7, 1.0, 1.2 ],
+					"faces": {
+						"east": { "texture": "#e7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,9,9,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "garlic4",
+			"from": [ 1.75, -1.9, 0.75 ],
+			"to": [ 4.25, -0.4, 3.25 ],
+			"rotationOrigin": [ 2.8, -2.4, 2.0 ],
+			"rotationY": 90.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "s 4",
+					"from": [ -0.8, 1.0, 1.2 ],
+					"to": [ 3.2, 13.0, 1.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.2, 1.0, 1.7 ],
+					"faces": {
+						"south": { "texture": "#s7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,0,9,9] }
+					}
+				},
+				{
+					"name": "e 4",
+					"from": [ 1.2, 1.0, -0.8 ],
+					"to": [ 1.2, 13.0, 3.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.7, 1.0, 1.2 ],
+					"faces": {
+						"east": { "texture": "#e7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,9,9,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "garlic5",
+			"from": [ 1.75, -1.9, 11.75 ],
+			"to": [ 4.25, -0.4, 14.25 ],
+			"rotationOrigin": [ 2.8, -2.4, 13.0 ],
+			"rotationY": 135.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "s 5",
+					"from": [ -0.8, 1.0, 1.2 ],
+					"to": [ 3.2, 13.0, 1.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.2, 1.0, 1.7 ],
+					"faces": {
+						"south": { "texture": "#s7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,0,9,9] }
+					}
+				},
+				{
+					"name": "e 5",
+					"from": [ 1.2, 1.0, -0.8 ],
+					"to": [ 1.2, 13.0, 3.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.7, 1.0, 1.2 ],
+					"faces": {
+						"east": { "texture": "#e7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,9,9,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "garlic6",
+			"from": [ 11.75, -1.9, 11.75 ],
+			"to": [ 14.25, -0.4, 14.25 ],
+			"rotationOrigin": [ 12.8, -2.4, 13.0 ],
+			"rotationY": -112.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "s 6",
+					"from": [ -0.8, 1.0, 1.2 ],
+					"to": [ 3.2, 13.0, 1.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.2, 1.0, 1.7 ],
+					"faces": {
+						"south": { "texture": "#s7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,0,9,9] }
+					}
+				},
+				{
+					"name": "e 6",
+					"from": [ 1.2, 1.0, -0.8 ],
+					"to": [ 1.2, 13.0, 3.2 ],
+					"shade": false,
+					"rotationOrigin": [ 1.7, 1.0, 1.2 ],
+					"faces": {
+						"east": { "texture": "#e7", "uv": [ 0.0, 0.0, 4.0, 12.0 ], "windMode": [0,9,9,0] }
+					}
+				}
+			]
+		}
+	]}

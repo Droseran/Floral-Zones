@@ -1,0 +1,63 @@
+{
+	"code": "waterlily",
+	"class": "BlockWaterLily",
+	"attributes": {
+    "maxDepthByType": {
+      "*-aponogetondistachyos": 1
+    }
+    },
+	"variantgroups": [
+		{ "code": "type", "states": ["aponogetondistachyos"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-aponogetondistachyos":{"base": "block/plant/flower/aponogetondistachyos", "alternates": [ { "base": "block/plant/flower/aponogetondistachyos-flowering" }]}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"*-aponogetondistachyos": {
+			"stem": { "base": "block/plant/flower/stem/aponogetondistachyos-stem" },
+			"leaves": { "base": "block/plant/flower/petal/aponogetondistachyos-leaves*" },
+			"flower": { "base": "block/plant/flower/petal/aponogetondistachyos-flower" }
+		}
+	},
+	"randomizeRotations": true,
+	"liquidSelectable": 1,
+	"randomSizeAdjust": 0.1,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"vertexFlags": {
+		"zOffset": 5,
+		"windMode": "Water"
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": true,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5,
+	},
+	"frostable": true,
+	"guiTransform": {"origin": { "x": 0.5, "y": -0.25, "z": 0.5},
+		"scale": 1.5
+	}
+}

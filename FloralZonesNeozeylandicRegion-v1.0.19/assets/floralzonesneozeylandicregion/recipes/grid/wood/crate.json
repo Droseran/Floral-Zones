@@ -1,0 +1,10 @@
+{
+	"ingredientPattern": "WWW,WSW,WWW",
+	"ingredients": {
+		"W": { "type": "item", "code": "floralzonesneozeylandicregion:plank-*", "name": "wood", "quantity": 2 },
+		"S": { "type": "item", "code": "game:saw-*", "isTool": true  }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "floralzonesneozeylandicregion:crate", "attributes": { "lidState": "closed", "type": "wood-{wood}" }  }
+}

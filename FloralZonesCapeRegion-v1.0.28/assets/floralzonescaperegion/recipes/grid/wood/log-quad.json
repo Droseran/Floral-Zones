@@ -1,0 +1,86 @@
+[
+	{
+		ingredientPattern: "_A_	GGG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaperegion:log-placed-*-ud", name: "wood", allowedVariants: ["afrocarpusfalcatus","ocoteabullata","searsialancea"],}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaperegion:logquad-placed-{wood}-ud", quantity: 6  }
+	},
+	{
+		ingredientPattern: "_A_	G_G	G_G",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaperegion:lognarrow-placed-*-ud", name: "wood", allowedVariants: ["leucadendronargenteum","pterocelastrustricuspidatus"],}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaperegion:logquad-placed-{wood}-ud", quantity: 1  }
+	},
+	{
+		ingredientPattern: "AG	GG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaperegion:logquad-placed-*-ud", name: "wood", allowedVariants: ["afrocarpusfalcatus","ocoteabullata","searsialancea"],}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonescaperegion:logquad-barkedcorner-{wood}-north", quantity: 3  }
+	},
+	{
+		ingredientPattern: "__G	_AG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaperegion:logquad-placed-*-ud", name: "wood", allowedVariants: ["afrocarpusfalcatus","ocoteabullata","searsialancea"],}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescaperegion:logquad-barkedcorner-{wood}-north", quantity: 5  }
+	},
+	{
+		ingredientPattern: "__G	_AG	G_G",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaperegion:lognarrow-placed-*-ud", name: "wood", allowedVariants: ["leucadendronargenteum","pterocelastrustricuspidatus"],}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescaperegion:logquad-barkedcorner-{wood}-north", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "_A_	GGG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaperegion:debarkedlog-*-ud", name: "wood", allowedVariants: ["afrocarpusfalcatus","ocoteabullata","searsialancea"],}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaperegion:logquad-debarked-{wood}-ud", quantity: 6  }
+	},
+	{
+		ingredientPattern: "AG	GG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaperegion:logquad-debarked-*-ud", name: "wood", allowedVariants: ["afrocarpusfalcatus","ocoteabullata","searsialancea"],}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonescaperegion:logquad-debarkedcorner-{wood}-north", quantity: 3  }
+	},
+	{
+		ingredientPattern: "__G	_AG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaperegion:logquad-debarked-*-ud", name: "wood", allowedVariants: ["afrocarpusfalcatus","ocoteabullata","searsialancea"],}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescaperegion:logquad-debarkedcorner-{wood}-north", quantity: 5  }
+	},
+]

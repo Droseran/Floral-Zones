@@ -1,0 +1,857 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/Frond Root 12,Root/Frond Root 11,Root/Frond Root 10,Root/Frond Base 1/Frond Stem 1,Root/Frond Root 9,Root/Frond Root 6,Root/Frond Root 7,Root/Frond Root 4,Root/Frond Root 5,Root/Frond Root 2,Root/Frond Root 3,Root/Frond Root 1,Root/Fruit Root 1",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 24,
+	"textureSizes": {
+		"frond": [16,24],
+		"sabalpalmetto": [16,24]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Frond Root 1",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Base 1",
+					"from": [ -0.8, 0.0, -0.32 ],
+					"to": [ -0.32, 8.0, 0.48 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ -0.8, 0.0, -0.32 ],
+					"faces": {
+						"north": { "texture": "#sabalpalmetto", "uv": [ 15.5, 8.0, 16.0, 18.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 15.5, 18.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 16.0, 18.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Frond Stem 1",
+							"from": [ 0.0, 7.76, 0.08 ],
+							"to": [ 0.4, 15.76, 0.72 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 7.76, 0.08 ],
+							"rotationZ": 6.0,
+							"faces": {
+								"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 1",
+									"from": [ 0.0, 7.84, 0.32 ],
+									"to": [ 0.0, 7.84, 0.32 ],
+									"rotationOrigin": [ 0.0, 7.84, 0.32 ],
+									"rotationZ": 7.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL1",
+											"from": [ 0.0, -5.6, 0.0 ],
+											"to": [ 0.0, 13.6, 12.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR1",
+											"from": [ 0.0, -5.6, -12.0 ],
+											"to": [ 0.0, 13.6, 0.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Frond Root 2",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -138.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Base 2",
+					"from": [ -0.72, 0.0, -0.288 ],
+					"to": [ -0.288, 6.72, 0.432 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ -0.72, 0.0, -0.288 ],
+					"rotationZ": 8.0,
+					"faces": {
+						"north": { "texture": "#sabalpalmetto", "uv": [ 15.5, 8.0, 16.0, 24.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 15.5, 24.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 16.0, 24.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Frond Stem 2",
+							"from": [ 0.0, 6.504, 0.072 ],
+							"to": [ 0.36, 18.024, 0.648 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 6.504, 0.072 ],
+							"rotationZ": 19.0,
+							"faces": {
+								"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 2",
+									"from": [ 0.0, 11.376, 0.288 ],
+									"to": [ 0.0, 11.376, 0.288 ],
+									"rotationOrigin": [ 0.0, 11.376, 0.288 ],
+									"rotationZ": 7.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL2",
+											"from": [ 0.0, -5.04, 0.0 ],
+											"to": [ 0.0, 12.24, 10.8 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 18.0,
+											"faces": {
+												"west": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR2",
+											"from": [ 0.0, -5.04, -10.8 ],
+											"to": [ 0.0, 12.24, 0.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -30.0,
+											"faces": {
+												"east": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Frond Root 3",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 119.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Base 3",
+					"from": [ -1.12, 0.0, -0.24 ],
+					"to": [ -0.64, 8.0, 0.56 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ -1.12, 0.0, -0.24 ],
+					"rotationZ": 8.0,
+					"faces": {
+						"north": { "texture": "#sabalpalmetto", "uv": [ 15.5, 8.0, 16.0, 18.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 15.5, 18.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 16.0, 18.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Frond Stem 3",
+							"from": [ 0.0, 7.76, 0.08 ],
+							"to": [ 0.4, 14.16, 0.72 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 7.76, 0.08 ],
+							"rotationZ": 22.0,
+							"faces": {
+								"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 3",
+									"from": [ 0.0, 6.24, 0.32 ],
+									"to": [ 0.0, 6.24, 0.32 ],
+									"rotationOrigin": [ 0.0, 6.24, 0.32 ],
+									"rotationZ": 7.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL3",
+											"from": [ 0.0, -5.6, 0.0 ],
+											"to": [ 0.0, 13.6, 12.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR3",
+											"from": [ 0.0, -5.6, -12.0 ],
+											"to": [ 0.0, 13.6, 0.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Frond Root 4",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 47.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Base 4",
+					"from": [ -1.52, 0.0, -0.304 ],
+					"to": [ -1.064, 6.56, 0.456 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ -1.52, 0.0, -0.304 ],
+					"rotationZ": 50.0,
+					"faces": {
+						"north": { "texture": "#sabalpalmetto", "uv": [ 15.5, 8.0, 16.0, 24.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 15.5, 24.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 16.0, 24.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Frond Stem 4",
+							"from": [ 0.0, 6.328, 0.076 ],
+							"to": [ 0.38, 12.088, 0.684 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 6.332, 0.076 ],
+							"rotationZ": 19.0,
+							"faces": {
+								"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 4",
+									"from": [ 0.0, 5.608, 0.304 ],
+									"to": [ 0.0, 5.608, 0.304 ],
+									"rotationOrigin": [ 0.0, 5.608, 0.304 ],
+									"rotationY": -28.0,
+									"rotationZ": 7.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL4",
+											"from": [ 0.0, -5.32, 0.0 ],
+											"to": [ 0.0, 12.92, 11.4 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,0,5,5] }
+											}
+										},
+										{
+											"name": "Frond BaseR4",
+											"from": [ 0.0, -5.32, -11.4 ],
+											"to": [ 0.0, 12.92, 0.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,0,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Frond Root 5",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -53.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Base 5",
+					"from": [ -1.44, 0.0, -0.288 ],
+					"to": [ -1.008, 8.32, 0.432 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ -1.44, 0.0, -0.288 ],
+					"rotationZ": 19.0,
+					"faces": {
+						"north": { "texture": "#sabalpalmetto", "uv": [ 15.5, 8.0, 16.0, 24.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 15.5, 24.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 16.0, 24.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Frond Stem 5",
+							"from": [ 0.0, 8.104, 0.072 ],
+							"to": [ 0.36, 16.424, 0.648 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 8.104, 0.072 ],
+							"rotationZ": 30.0,
+							"faces": {
+								"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 5",
+									"from": [ 0.0, 8.176, 0.288 ],
+									"to": [ 0.0, 8.176, 0.288 ],
+									"rotationOrigin": [ 0.0, 8.176, 0.288 ],
+									"rotationY": 30.0,
+									"rotationZ": 7.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL5",
+											"from": [ 0.0, -5.04, 0.0 ],
+											"to": [ 0.0, 12.24, 10.8 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -25.0,
+											"faces": {
+												"west": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR5",
+											"from": [ 0.0, -5.04, -10.8 ],
+											"to": [ 0.0, 12.24, 0.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Frond Root 6",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -105.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Base 6",
+					"from": [ -2.4, 0.0, -0.32 ],
+					"to": [ -1.92, 8.0, 0.48 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ -2.4, 0.0, -0.32 ],
+					"rotationZ": 50.0,
+					"faces": {
+						"north": { "texture": "#sabalpalmetto", "uv": [ 15.5, 8.0, 16.0, 18.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 15.5, 18.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 16.0, 18.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Frond Stem 6",
+							"from": [ 0.0, 7.76, 0.08 ],
+							"to": [ 0.4, 12.56, 0.72 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 7.76, 0.08 ],
+							"rotationZ": 11.0,
+							"faces": {
+								"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 6",
+									"from": [ 0.0, 4.64, 0.32 ],
+									"to": [ 0.0, 4.64, 0.32 ],
+									"rotationOrigin": [ 0.0, 4.64, 0.32 ],
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL6",
+											"from": [ 0.0, -5.6, 0.0 ],
+											"to": [ 0.0, 13.6, 12.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -39.0,
+											"faces": {
+												"west": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,0,5,5] }
+											}
+										},
+										{
+											"name": "Frond BaseR6",
+											"from": [ 0.0, -5.6, -12.0 ],
+											"to": [ 0.0, 13.6, 0.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 17.0,
+											"faces": {
+												"east": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [0,5,5,5] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Frond Root 7",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -174.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Base 7",
+					"from": [ -2.04, 0.0, -0.272 ],
+					"to": [ -1.632, 7.68, 0.408 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ -2.04, 0.0, -0.272 ],
+					"rotationZ": 14.0,
+					"faces": {
+						"north": { "texture": "#sabalpalmetto", "uv": [ 15.5, 8.0, 16.0, 24.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 15.5, 24.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 16.0, 24.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Frond Stem 7",
+							"from": [ 0.0, 7.48, 0.068 ],
+							"to": [ 0.34, 18.36, 0.612 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 7.476, 0.068 ],
+							"rotationX": 11.0,
+							"rotationZ": 19.0,
+							"faces": {
+								"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 7",
+									"from": [ 0.0, 10.744, 0.272 ],
+									"to": [ 0.0, 10.744, 0.272 ],
+									"rotationOrigin": [ 0.0, 10.744, 0.272 ],
+									"rotationY": 33.0,
+									"rotationZ": 7.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL7",
+											"from": [ 0.0, -4.76, 0.0 ],
+											"to": [ 0.0, 11.56, 10.2 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -66.0,
+											"faces": {
+												"west": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR7",
+											"from": [ 0.0, -4.76, -10.2 ],
+											"to": [ 0.0, 11.56, 0.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,1,1,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Frond Root 8",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": 158.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Base 8",
+					"from": [ -2.4, 0.0, -0.32 ],
+					"to": [ -1.92, 3.2, 0.48 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ -2.4, 0.0, -0.32 ],
+					"rotationZ": 25.0,
+					"faces": {
+						"north": { "texture": "#sabalpalmetto", "uv": [ 15.5, 8.0, 16.0, 12.0 ], "autoUv": false, "windMode": [0,0,5,0] },
+						"south": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 15.5, 12.0 ], "autoUv": false, "windMode": [0,0,5,0] },
+						"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 8.0, 16.0, 12.0 ], "autoUv": false, "windMode": [0,0,0,0] }
+					},
+					"children": [
+						{
+							"name": "Frond Stem 8",
+							"from": [ 0.0, 2.96, 0.08 ],
+							"to": [ 0.4, 12.56, 0.72 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 2.96, 0.08 ],
+							"rotationZ": 25.0,
+							"faces": {
+								"west": { "texture": "#sabalpalmetto", "uv": [ 15.0, 0.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 8",
+									"from": [ 0.0, 9.44, 0.32 ],
+									"to": [ 0.0, 9.44, 0.32 ],
+									"rotationOrigin": [ 0.0, 9.44, 0.32 ],
+									"rotationY": 86.0,
+									"rotationZ": 7.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL8",
+											"from": [ 0.0, -5.6, 0.0 ],
+											"to": [ 0.0, 13.6, 12.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -28.0,
+											"faces": {
+												"west": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [5,5,5,5], "windData": [0,0,1,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR8",
+											"from": [ 0.0, -5.6, -12.0 ],
+											"to": [ 0.0, 13.6, 0.0 ],
+											"shade": false,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#sabalpalmetto", "uv": [ 0.0, 0.0, 15.0, 24.0 ], "autoUv": false, "windMode": [0,5,5,5], "windData": [0,0,1,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dead Frond Root 1",
+			"from": [ 10.0, -14.0, 8.0 ],
+			"to": [ 10.0, -14.0, 8.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Dead Frond Base 1",
+					"from": [ -4.0, 14.0, -0.2 ],
+					"to": [ -3.7, 18.0, 0.3 ],
+					"shade": false,
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ -4.0, 14.0, -0.2 ],
+					"rotationZ": 39.0,
+					"faces": {
+						"north": { "texture": "#frond", "uv": [ 15.5, 0.0, 16.0, 8.0 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#frond", "uv": [ 15.5, 0.0, 16.0, 8.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#frond", "uv": [ 15.0, 8.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Dead Frond Stem 1",
+							"from": [ 0.0, 3.85, 0.05 ],
+							"to": [ 0.25, 7.85, 0.45 ],
+							"shade": false,
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 3.85, 0.05 ],
+							"rotationZ": 61.0,
+							"faces": {
+								"west": { "texture": "#frond", "uv": [ 15.5, 0.0, 16.0, 8.0 ], "autoUv": false, "windMode": [0,0,0,0] }
+							},
+							"children": [
+								{
+									"name": "Dead Frond Segment 1 1",
+									"from": [ 0.0, 3.9, 0.2 ],
+									"to": [ 0.0, 3.9, 0.2 ],
+									"rotationOrigin": [ 0.0, 3.9, 0.2 ],
+									"rotationZ": 3.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Dead Frond BaseL1",
+											"from": [ 0.0, -0.5, 0.0 ],
+											"to": [ 0.0, 11.5, 5.5 ],
+											"shade": false,
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#frond", "uv": [ 0.0, 0.0, 11.0, 24.0 ], "autoUv": false, "windMode": [0,5,0,0] }
+											}
+										},
+										{
+											"name": "Dead Frond BaseR1",
+											"from": [ 0.0, -0.5, -5.5 ],
+											"to": [ 0.0, 11.5, 0.0 ],
+											"shade": false,
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#frond", "uv": [ 0.0, 0.0, 11.0, 24.0 ], "autoUv": false, "windMode": [5,0,0,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dead Frond Root 2",
+			"from": [ 12.0, -14.0, 9.0 ],
+			"to": [ 12.0, -14.0, 9.0 ],
+			"rotationOrigin": [ 9.0, 0.0, 9.0 ],
+			"rotationY": 100.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Dead Frond Base 2",
+					"from": [ -4.0, 14.0, -0.2 ],
+					"to": [ -3.7, 18.0, 0.3 ],
+					"shade": false,
+					"climateColorMap": "",
+					"seasonColorMap": "",
+					"renderPass": 1,
+					"rotationOrigin": [ -4.0, 14.0, -0.2 ],
+					"rotationZ": 39.0,
+					"faces": {
+						"north": { "texture": "#frond", "uv": [ 15.5, 0.5, 16.0, 8.5 ], "autoUv": false, "windMode": [0,5,5,0] },
+						"south": { "texture": "#frond", "uv": [ 15.5, 0.0, 16.0, 8.0 ], "autoUv": false, "windMode": [0,0,5,5] },
+						"west": { "texture": "#frond", "uv": [ 15.0, 8.0, 16.0, 16.0 ], "autoUv": false, "windMode": [0,0,5,5] }
+					},
+					"children": [
+						{
+							"name": "Dead Frond Stem 2",
+							"from": [ 0.0, 3.85, 0.05 ],
+							"to": [ 0.25, 7.85, 0.45 ],
+							"shade": false,
+							"climateColorMap": "",
+							"seasonColorMap": "",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 3.85, 0.05 ],
+							"rotationZ": 61.0,
+							"faces": {
+								"west": { "texture": "#frond", "uv": [ 15.5, 0.0, 16.0, 8.0 ], "autoUv": false, "windMode": [0,0,0,0] }
+							},
+							"children": [
+								{
+									"name": "Dead Frond Segment 1 2",
+									"from": [ 0.0, 3.9, 0.2 ],
+									"to": [ 0.0, 3.9, 0.2 ],
+									"rotationOrigin": [ 0.0, 3.9, 0.2 ],
+									"rotationZ": 3.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Dead Frond BaseL2",
+											"from": [ 0.0, -0.5, 0.0 ],
+											"to": [ 0.0, 11.5, 5.5 ],
+											"shade": false,
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#frond", "uv": [ 0.0, 0.0, 11.0, 24.0 ], "autoUv": false, "windMode": [0,5,0,0] }
+											}
+										},
+										{
+											"name": "Dead Frond BaseR2",
+											"from": [ 0.0, -0.5, -5.5 ],
+											"to": [ 0.0, 11.5, 0.0 ],
+											"shade": false,
+											"climateColorMap": "",
+											"seasonColorMap": "",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#frond", "uv": [ 0.0, 0.0, 11.0, 24.0 ], "autoUv": false, "windMode": [5,0,0,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,2194 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 32,
+	"textureSizes": {
+		"agavetequilanaleaf1": [4,32],
+		"agavetequilanaleaf2": [4,32]
+	},
+	"textures": {
+		"agavetequilanaleaf1": "block/plant/crop/agavetequilanaleaf1",
+		"agavetequilanaleaf2": "block/plant/crop/agavetequilanaleaf2"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Rotation 1",
+					"from": [ 0.0, -1.71, 0.0 ],
+					"to": [ 0.0, -1.71, 0.0 ],
+					"rotationOrigin": [ 0.0, -1.71, 0.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "third frond 1",
+							"from": [ 0.0, 0.486, 0.0 ],
+							"to": [ 0.0, 0.486, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.486, 0.0 ],
+							"rotationX": -20.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l third frond 1",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 0.0, 0.0, 2.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								},
+								{
+									"name": "r third frond 1",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 2.0, 0.0, 4.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fourth frond 1",
+							"from": [ 0.0, 0.729, 0.0 ],
+							"to": [ 0.0, 0.729, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.729, 0.0 ],
+							"rotationX": -30.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fourth frond 1",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fourth frond 1",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fifth frond 1",
+							"from": [ 0.0, 0.972, 0.0 ],
+							"to": [ 0.0, 0.972, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.972, 0.0 ],
+							"rotationX": -40.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fifth frond 1",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fifth frond 1",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "sixth frond 1",
+							"from": [ 0.0, 1.215, 0.0 ],
+							"to": [ 0.0, 1.215, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.215, 0.0 ],
+							"rotationX": -50.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l sixth frond 1",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r sixth frond 1",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "seventh frond 1",
+							"from": [ 0.0, 1.458, 0.0 ],
+							"to": [ 0.0, 1.458, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.458, 0.0 ],
+							"rotationX": -60.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l seventh frond 1",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r seventh frond 1",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "eighth frond 1",
+							"from": [ 0.0, 1.701, 0.0 ],
+							"to": [ 0.0, 1.701, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.701, 0.0 ],
+							"rotationX": -70.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l eighth frond 1",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r eighth frond 1",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "ninth frond 1",
+							"from": [ 0.0, 1.944, 0.0 ],
+							"to": [ 0.0, 1.944, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.944, 0.0 ],
+							"rotationX": -80.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l ninth frond 1",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r ninth frond 1",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation 2",
+					"from": [ 0.0, -1.71, 0.0 ],
+					"to": [ 0.0, -1.71, 0.0 ],
+					"rotationOrigin": [ 0.0, -1.71, 0.0 ],
+					"rotationY": 90.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "third frond 2",
+							"from": [ 0.0, 0.486, 0.0 ],
+							"to": [ 0.0, 0.486, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.486, 0.0 ],
+							"rotationX": -20.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l third frond 2",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 0.0, 0.0, 2.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								},
+								{
+									"name": "r third frond 2",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 2.0, 0.0, 4.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fourth frond 2",
+							"from": [ 0.0, 0.729, 0.0 ],
+							"to": [ 0.0, 0.729, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.729, 0.0 ],
+							"rotationX": -30.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fourth frond 2",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fourth frond 2",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fifth frond 2",
+							"from": [ 0.0, 0.972, 0.0 ],
+							"to": [ 0.0, 0.972, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.972, 0.0 ],
+							"rotationX": -40.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fifth frond 2",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fifth frond 2",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "sixth frond 2",
+							"from": [ 0.0, 1.215, 0.0 ],
+							"to": [ 0.0, 1.215, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.215, 0.0 ],
+							"rotationX": -50.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l sixth frond 2",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r sixth frond 2",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "seventh frond 2",
+							"from": [ 0.0, 1.458, 0.0 ],
+							"to": [ 0.0, 1.458, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.458, 0.0 ],
+							"rotationX": -60.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l seventh frond 2",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r seventh frond 2",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "eighth frond 2",
+							"from": [ 0.0, 1.701, 0.0 ],
+							"to": [ 0.0, 1.701, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.701, 0.0 ],
+							"rotationX": -70.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l eighth frond 2",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r eighth frond 2",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "ninth frond 2",
+							"from": [ 0.0, 1.944, 0.0 ],
+							"to": [ 0.0, 1.944, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.944, 0.0 ],
+							"rotationX": -80.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l ninth frond 2",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r ninth frond 2",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation 3",
+					"from": [ 0.0, -1.71, 0.0 ],
+					"to": [ 0.0, -1.71, 0.0 ],
+					"rotationOrigin": [ 0.0, -1.71, 0.0 ],
+					"rotationY": 180.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "third frond 3",
+							"from": [ 0.0, 0.486, 0.0 ],
+							"to": [ 0.0, 0.486, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.486, 0.0 ],
+							"rotationX": -20.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l third frond 3",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 0.0, 0.0, 2.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								},
+								{
+									"name": "r third frond 3",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 2.0, 0.0, 4.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fourth frond 3",
+							"from": [ 0.0, 0.729, 0.0 ],
+							"to": [ 0.0, 0.729, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.729, 0.0 ],
+							"rotationX": -30.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fourth frond 3",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fourth frond 3",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fifth frond 3",
+							"from": [ 0.0, 0.972, 0.0 ],
+							"to": [ 0.0, 0.972, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.972, 0.0 ],
+							"rotationX": -40.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fifth frond 3",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fifth frond 3",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "sixth frond 3",
+							"from": [ 0.0, 1.215, 0.0 ],
+							"to": [ 0.0, 1.215, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.215, 0.0 ],
+							"rotationX": -50.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l sixth frond 3",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r sixth frond 3",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "seventh frond 3",
+							"from": [ 0.0, 1.458, 0.0 ],
+							"to": [ 0.0, 1.458, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.458, 0.0 ],
+							"rotationX": -60.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l seventh frond 3",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r seventh frond 3",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "eighth frond 3",
+							"from": [ 0.0, 1.701, 0.0 ],
+							"to": [ 0.0, 1.701, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.701, 0.0 ],
+							"rotationX": -70.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l eighth frond 3",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r eighth frond 3",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "ninth frond 3",
+							"from": [ 0.0, 1.944, 0.0 ],
+							"to": [ 0.0, 1.944, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.944, 0.0 ],
+							"rotationX": -80.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l ninth frond 3",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r ninth frond 3",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation 4",
+					"from": [ 0.0, -1.71, 0.0 ],
+					"to": [ 0.0, -1.71, 0.0 ],
+					"rotationOrigin": [ 0.0, -1.71, 0.0 ],
+					"rotationY": -90.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "third frond 4",
+							"from": [ 0.0, 0.486, 0.0 ],
+							"to": [ 0.0, 0.486, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.486, 0.0 ],
+							"rotationX": -20.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l third frond 4",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 0.0, 0.0, 2.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								},
+								{
+									"name": "r third frond 4",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 2.0, 0.0, 4.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fourth frond 4",
+							"from": [ 0.0, 0.729, 0.0 ],
+							"to": [ 0.0, 0.729, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.729, 0.0 ],
+							"rotationX": -30.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fourth frond 4",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fourth frond 4",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fifth frond 4",
+							"from": [ 0.0, 0.972, 0.0 ],
+							"to": [ 0.0, 0.972, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.972, 0.0 ],
+							"rotationX": -40.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fifth frond 4",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fifth frond 4",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "sixth frond 4",
+							"from": [ 0.0, 1.215, 0.0 ],
+							"to": [ 0.0, 1.215, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.215, 0.0 ],
+							"rotationX": -50.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l sixth frond 4",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r sixth frond 4",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "seventh frond 4",
+							"from": [ 0.0, 1.458, 0.0 ],
+							"to": [ 0.0, 1.458, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.458, 0.0 ],
+							"rotationX": -60.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l seventh frond 4",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r seventh frond 4",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "eighth frond 4",
+							"from": [ 0.0, 1.701, 0.0 ],
+							"to": [ 0.0, 1.701, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.701, 0.0 ],
+							"rotationX": -70.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l eighth frond 4",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r eighth frond 4",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "ninth frond 4",
+							"from": [ 0.0, 1.944, 0.0 ],
+							"to": [ 0.0, 1.944, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.944, 0.0 ],
+							"rotationX": -80.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l ninth frond 4",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r ninth frond 4",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation 5",
+					"from": [ 0.0, -1.71, 0.0 ],
+					"to": [ 0.0, -1.71, 0.0 ],
+					"rotationOrigin": [ 0.0, -1.71, 0.0 ],
+					"rotationY": 45.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "third frond 5",
+							"from": [ 0.0, 0.486, 0.0 ],
+							"to": [ 0.0, 0.486, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.486, 0.0 ],
+							"rotationX": -20.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l third frond 5",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 0.0, 0.0, 2.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								},
+								{
+									"name": "r third frond 5",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 2.0, 0.0, 4.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fourth frond 5",
+							"from": [ 0.0, 0.729, 0.0 ],
+							"to": [ 0.0, 0.729, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.729, 0.0 ],
+							"rotationX": -30.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fourth frond 5",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fourth frond 5",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fifth frond 5",
+							"from": [ 0.0, 0.972, 0.0 ],
+							"to": [ 0.0, 0.972, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.972, 0.0 ],
+							"rotationX": -40.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fifth frond 5",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fifth frond 5",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "sixth frond 5",
+							"from": [ 0.0, 1.215, 0.0 ],
+							"to": [ 0.0, 1.215, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.215, 0.0 ],
+							"rotationX": -50.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l sixth frond 5",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r sixth frond 5",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "seventh frond 5",
+							"from": [ 0.0, 1.458, 0.0 ],
+							"to": [ 0.0, 1.458, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.458, 0.0 ],
+							"rotationX": -60.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l seventh frond 5",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r seventh frond 5",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "eighth frond 5",
+							"from": [ 0.0, 1.701, 0.0 ],
+							"to": [ 0.0, 1.701, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.701, 0.0 ],
+							"rotationX": -70.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l eighth frond 5",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r eighth frond 5",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation 6",
+					"from": [ 0.0, -1.71, 0.0 ],
+					"to": [ 0.0, -1.71, 0.0 ],
+					"rotationOrigin": [ 0.0, -1.71, 0.0 ],
+					"rotationY": 135.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "third frond 6",
+							"from": [ 0.0, 0.486, 0.0 ],
+							"to": [ 0.0, 0.486, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.486, 0.0 ],
+							"rotationX": -20.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l third frond 6",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 0.0, 0.0, 2.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								},
+								{
+									"name": "r third frond 6",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 2.0, 0.0, 4.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fourth frond 6",
+							"from": [ 0.0, 0.729, 0.0 ],
+							"to": [ 0.0, 0.729, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.729, 0.0 ],
+							"rotationX": -30.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fourth frond 6",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fourth frond 6",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fifth frond 6",
+							"from": [ 0.0, 0.972, 0.0 ],
+							"to": [ 0.0, 0.972, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.972, 0.0 ],
+							"rotationX": -40.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fifth frond 6",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fifth frond 6",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "sixth frond 6",
+							"from": [ 0.0, 1.215, 0.0 ],
+							"to": [ 0.0, 1.215, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.215, 0.0 ],
+							"rotationX": -50.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l sixth frond 6",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r sixth frond 6",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "seventh frond 6",
+							"from": [ 0.0, 1.458, 0.0 ],
+							"to": [ 0.0, 1.458, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.458, 0.0 ],
+							"rotationX": -60.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l seventh frond 6",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r seventh frond 6",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "eighth frond 6",
+							"from": [ 0.0, 1.701, 0.0 ],
+							"to": [ 0.0, 1.701, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.701, 0.0 ],
+							"rotationX": -70.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l eighth frond 6",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r eighth frond 6",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation 7",
+					"from": [ 0.0, -1.71, 0.0 ],
+					"to": [ 0.0, -1.71, 0.0 ],
+					"rotationOrigin": [ 0.0, -1.71, 0.0 ],
+					"rotationY": -135.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "third frond 7",
+							"from": [ 0.0, 0.486, 0.0 ],
+							"to": [ 0.0, 0.486, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.486, 0.0 ],
+							"rotationX": -20.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l third frond 7",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 0.0, 0.0, 2.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								},
+								{
+									"name": "r third frond 7",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 2.0, 0.0, 4.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fourth frond 7",
+							"from": [ 0.0, 0.729, 0.0 ],
+							"to": [ 0.0, 0.729, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.729, 0.0 ],
+							"rotationX": -30.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fourth frond 7",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fourth frond 7",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fifth frond 7",
+							"from": [ 0.0, 0.972, 0.0 ],
+							"to": [ 0.0, 0.972, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.972, 0.0 ],
+							"rotationX": -40.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fifth frond 7",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fifth frond 7",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "sixth frond 7",
+							"from": [ 0.0, 1.215, 0.0 ],
+							"to": [ 0.0, 1.215, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.215, 0.0 ],
+							"rotationX": -50.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l sixth frond 7",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r sixth frond 7",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "seventh frond 7",
+							"from": [ 0.0, 1.458, 0.0 ],
+							"to": [ 0.0, 1.458, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.458, 0.0 ],
+							"rotationX": -60.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l seventh frond 7",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r seventh frond 7",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "eighth frond 7",
+							"from": [ 0.0, 1.701, 0.0 ],
+							"to": [ 0.0, 1.701, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.701, 0.0 ],
+							"rotationX": -70.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l eighth frond 7",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r eighth frond 7",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation 8",
+					"from": [ 0.0, -1.71, 0.0 ],
+					"to": [ 0.0, -1.71, 0.0 ],
+					"rotationOrigin": [ 0.0, -1.71, 0.0 ],
+					"rotationY": -45.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "third frond 8",
+							"from": [ 0.0, 0.486, 0.0 ],
+							"to": [ 0.0, 0.486, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.486, 0.0 ],
+							"rotationX": -20.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l third frond 8",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 0.0, 0.0, 2.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								},
+								{
+									"name": "r third frond 8",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 24.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf1", "uv": [ 2.0, 0.0, 4.0, 30.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fourth frond 8",
+							"from": [ 0.0, 0.729, 0.0 ],
+							"to": [ 0.0, 0.729, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.729, 0.0 ],
+							"rotationX": -30.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fourth frond 8",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fourth frond 8",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "fifth frond 8",
+							"from": [ 0.0, 0.972, 0.0 ],
+							"to": [ 0.0, 0.972, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.972, 0.0 ],
+							"rotationX": -40.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l fifth frond 8",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r fifth frond 8",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "sixth frond 8",
+							"from": [ 0.0, 1.215, 0.0 ],
+							"to": [ 0.0, 1.215, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.215, 0.0 ],
+							"rotationX": -50.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l sixth frond 8",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r sixth frond 8",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "seventh frond 8",
+							"from": [ 0.0, 1.458, 0.0 ],
+							"to": [ 0.0, 1.458, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.458, 0.0 ],
+							"rotationX": -60.0,
+							"rotationY": 5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l seventh frond 8",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "r seventh frond 8",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						},
+						{
+							"name": "eighth frond 8",
+							"from": [ 0.0, 1.701, 0.0 ],
+							"to": [ 0.0, 1.701, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 1.701, 0.0 ],
+							"rotationX": -70.0,
+							"rotationY": -5.5,
+							"faces": {
+							},
+							"children": [
+								{
+									"name": "l eighth frond 8",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 1.62, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": 22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 0.0, 0.0, 2.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								},
+								{
+									"name": "r eighth frond 8",
+									"from": [ -1.62, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 25.92 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -5.0,
+									"rotationZ": -22.5,
+									"faces": {
+										"up": { "texture": "#agavetequilanaleaf2", "uv": [ 2.0, 0.0, 4.0, 32.0 ], "rotation": 180, "autoUv": false, "windMode": [0,9,9,0], "windData": [0,2,2,0] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

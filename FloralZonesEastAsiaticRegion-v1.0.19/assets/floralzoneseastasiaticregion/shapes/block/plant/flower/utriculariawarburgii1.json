@@ -1,0 +1,458 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"flower": [4,4]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stalk",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.1, 3.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "windMode": [0,7,7,0] }
+					},
+					"children": [
+						{
+							"name": "Flowerbody",
+							"from": [ -0.1, 2.9, 0.0 ],
+							"to": [ 0.2, 3.2, 0.2 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 2.9, 0.1 ],
+							"rotationX": 5.0,
+							"faces": {
+								"north": { "texture": "#flower", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "windMode": [7,7,7,7] },
+								"east": { "texture": "#flower", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "windMode": [7,7,7,7] },
+								"west": { "texture": "#flower", "uv": [ 0.5, 1.0, 1.0, 1.5 ], "windMode": [7,7,7,7] },
+								"up": { "texture": "#flower", "uv": [ 1.5, 0.0, 2.0, 0.5 ], "windMode": [7,7,7,7] },
+								"down": { "texture": "#flower", "uv": [ 0.5, 1.5, 1.0, 2.0 ], "windMode": [7,7,7,7] }
+							},
+							"children": [
+								{
+									"name": "flower tail",
+									"from": [ 0.1, 0.2, 0.0 ],
+									"to": [ 0.2, 0.4, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.1, 0.2, 0.0 ],
+									"rotationX": -45.0,
+									"faces": {
+										"north": { "texture": "#flower", "uv": [ 3.0, 0.5, 3.5, 1.0 ], "windMode": [7,7,7,7] }
+									}
+								},
+								{
+									"name": "Flowercap",
+									"from": [ 0.0, 0.3, 0.2 ],
+									"to": [ 0.3, 0.3, 0.5 ],
+									"shade": false,
+									"rotationOrigin": [ 0.0, 0.3, 0.2 ],
+									"rotationX": 5.0,
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 0.5, 1.0, 1.0, 1.5 ], "windMode": [7,7,7,7] }
+									},
+									"children": [
+										{
+											"name": "Flowerrwing",
+											"from": [ -0.3, 0.0, 0.0 ],
+											"to": [ 0.0, 0.0, 0.3 ],
+											"shade": false,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationZ": 25.0,
+											"faces": {
+												"up": { "texture": "#flower", "uv": [ 0.5, 1.5, 1.0, 2.0 ], "windMode": [7,7,7,7] }
+											}
+										},
+										{
+											"name": "Flowerlwing",
+											"from": [ 0.3, 0.0, 0.0 ],
+											"to": [ 0.6, 0.0, 0.3 ],
+											"shade": false,
+											"rotationOrigin": [ 0.3, 0.0, 0.0 ],
+											"rotationZ": -25.0,
+											"faces": {
+												"up": { "texture": "#flower", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "windMode": [7,7,7,7] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Flowertongue",
+									"from": [ 0.1, 0.0, 0.2 ],
+									"to": [ 0.2, 0.0, 0.6 ],
+									"shade": false,
+									"rotationOrigin": [ 0.1, 0.0, 0.2 ],
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 1.0, 1.5, 1.5, 2.0 ], "windMode": [7,7,7,7] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Stalk2",
+					"from": [ 1.0, 0.0, 1.0 ],
+					"to": [ 1.1, 2.7, 1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+					"rotationY": 15.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 0.5, 2.5 ], "windMode": [0,7,7,0] }
+					},
+					"children": [
+						{
+							"name": "Flowerbody2",
+							"from": [ -0.1, 2.6, 0.0 ],
+							"to": [ 0.2, 2.9, 0.2 ],
+							"shade": false,
+							"rotationOrigin": [ 0.0, 2.6, 0.1 ],
+							"rotationX": 5.0,
+							"faces": {
+								"north": { "texture": "#flower", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "windMode": [7,7,7,7] },
+								"east": { "texture": "#flower", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "windMode": [7,7,7,7] },
+								"west": { "texture": "#flower", "uv": [ 0.5, 1.0, 1.0, 1.5 ], "windMode": [7,7,7,7] },
+								"up": { "texture": "#flower", "uv": [ 1.5, 0.0, 2.0, 0.5 ], "windMode": [7,7,7,7] },
+								"down": { "texture": "#flower", "uv": [ 0.5, 1.5, 1.0, 2.0 ], "windMode": [7,7,7,7] }
+							},
+							"children": [
+								{
+									"name": "flower tail2",
+									"from": [ 0.1, 0.2, 0.0 ],
+									"to": [ 0.2, 0.4, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.1, 0.2, 0.0 ],
+									"rotationX": -45.0,
+									"faces": {
+										"north": { "texture": "#flower", "uv": [ 3.0, 0.5, 3.5, 1.0 ], "windMode": [7,7,7,7] }
+									}
+								},
+								{
+									"name": "Flowercap2",
+									"from": [ 0.0, 0.3, 0.2 ],
+									"to": [ 0.3, 0.3, 0.5 ],
+									"shade": false,
+									"rotationOrigin": [ 0.0, 0.3, 0.2 ],
+									"rotationX": 5.0,
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 0.5, 1.0, 1.0, 1.5 ], "windMode": [7,7,7,7] }
+									},
+									"children": [
+										{
+											"name": "Flowerrwing2",
+											"from": [ -0.3, 0.0, 0.0 ],
+											"to": [ 0.0, 0.0, 0.3 ],
+											"shade": false,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationZ": 25.0,
+											"faces": {
+												"up": { "texture": "#flower", "uv": [ 0.5, 1.5, 1.0, 2.0 ], "windMode": [7,7,7,7] }
+											}
+										},
+										{
+											"name": "Flowerlwing2",
+											"from": [ 0.3, 0.0, 0.0 ],
+											"to": [ 0.6, 0.0, 0.3 ],
+											"shade": false,
+											"rotationOrigin": [ 0.3, 0.0, 0.0 ],
+											"rotationZ": -25.0,
+											"faces": {
+												"up": { "texture": "#flower", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "windMode": [7,7,7,7] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Flowertongue2",
+									"from": [ 0.1, 0.0, 0.2 ],
+									"to": [ 0.2, 0.0, 0.6 ],
+									"shade": false,
+									"rotationOrigin": [ 0.1, 0.0, 0.2 ],
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 1.0, 1.5, 1.5, 2.0 ], "windMode": [7,7,7,7] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Stalk3",
+					"from": [ 1.0, 0.0, -1.0 ],
+					"to": [ 1.1, 2.7, -1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, -1.0 ],
+					"rotationY": -115.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 0.5, 2.5 ], "windMode": [0,7,7,0] }
+					},
+					"children": [
+						{
+							"name": "Flowerbody3",
+							"from": [ -0.1, 2.6, 0.0 ],
+							"to": [ 0.2, 2.9, 0.2 ],
+							"shade": false,
+							"rotationOrigin": [ 0.0, 2.6, 0.1 ],
+							"rotationX": 5.0,
+							"faces": {
+								"north": { "texture": "#flower", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "windMode": [7,7,7,7] },
+								"east": { "texture": "#flower", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "windMode": [7,7,7,7] },
+								"west": { "texture": "#flower", "uv": [ 0.5, 1.0, 1.0, 1.5 ], "windMode": [7,7,7,7] },
+								"up": { "texture": "#flower", "uv": [ 1.5, 0.0, 2.0, 0.5 ], "windMode": [7,7,7,7] },
+								"down": { "texture": "#flower", "uv": [ 0.5, 1.5, 1.0, 2.0 ], "windMode": [7,7,7,7] }
+							},
+							"children": [
+								{
+									"name": "flower tail3",
+									"from": [ 0.1, 0.2, 0.0 ],
+									"to": [ 0.2, 0.4, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.1, 0.2, 0.0 ],
+									"rotationX": -45.0,
+									"faces": {
+										"north": { "texture": "#flower", "uv": [ 3.0, 0.5, 3.5, 1.0 ], "windMode": [7,7,7,7] }
+									}
+								},
+								{
+									"name": "Flowercap3",
+									"from": [ 0.0, 0.3, 0.2 ],
+									"to": [ 0.3, 0.3, 0.5 ],
+									"shade": false,
+									"rotationOrigin": [ 0.0, 0.3, 0.2 ],
+									"rotationX": 5.0,
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 0.5, 1.0, 1.0, 1.5 ], "windMode": [7,7,7,7] }
+									},
+									"children": [
+										{
+											"name": "Flowerrwing3",
+											"from": [ -0.3, 0.0, 0.0 ],
+											"to": [ 0.0, 0.0, 0.3 ],
+											"shade": false,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationZ": 25.0,
+											"faces": {
+												"up": { "texture": "#flower", "uv": [ 0.5, 1.5, 1.0, 2.0 ], "windMode": [7,7,7,7] }
+											}
+										},
+										{
+											"name": "Flowerlwing3",
+											"from": [ 0.3, 0.0, 0.0 ],
+											"to": [ 0.6, 0.0, 0.3 ],
+											"shade": false,
+											"rotationOrigin": [ 0.3, 0.0, 0.0 ],
+											"rotationZ": -25.0,
+											"faces": {
+												"up": { "texture": "#flower", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "windMode": [7,7,7,7] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Flowertongue3",
+									"from": [ 0.1, 0.0, 0.2 ],
+									"to": [ 0.2, 0.0, 0.6 ],
+									"shade": false,
+									"rotationOrigin": [ 0.1, 0.0, 0.2 ],
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 1.0, 1.5, 1.5, 2.0 ], "windMode": [7,7,7,7] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Stalk4",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ -0.9, 2.7, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 0.0, 0.0 ],
+					"rotationY": 145.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 0.5, 2.5 ], "windMode": [0,7,7,0] }
+					},
+					"children": [
+						{
+							"name": "Flowerbody4",
+							"from": [ -0.1, 2.6, 0.0 ],
+							"to": [ 0.2, 2.9, 0.2 ],
+							"shade": false,
+							"rotationOrigin": [ 0.0, 2.6, 0.1 ],
+							"rotationX": 5.0,
+							"faces": {
+								"north": { "texture": "#flower", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "windMode": [7,7,7,7] },
+								"east": { "texture": "#flower", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "windMode": [7,7,7,7] },
+								"west": { "texture": "#flower", "uv": [ 0.5, 1.0, 1.0, 1.5 ], "windMode": [7,7,7,7] },
+								"up": { "texture": "#flower", "uv": [ 1.5, 0.0, 2.0, 0.5 ], "windMode": [7,7,7,7] },
+								"down": { "texture": "#flower", "uv": [ 0.5, 1.5, 1.0, 2.0 ], "windMode": [7,7,7,7] }
+							},
+							"children": [
+								{
+									"name": "flower tail4",
+									"from": [ 0.1, 0.2, 0.0 ],
+									"to": [ 0.2, 0.4, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.1, 0.2, 0.0 ],
+									"rotationX": -45.0,
+									"faces": {
+										"north": { "texture": "#flower", "uv": [ 3.0, 0.5, 3.5, 1.0 ], "windMode": [7,7,7,7] }
+									}
+								},
+								{
+									"name": "Flowercap4",
+									"from": [ 0.0, 0.3, 0.2 ],
+									"to": [ 0.3, 0.3, 0.5 ],
+									"shade": false,
+									"rotationOrigin": [ 0.0, 0.3, 0.2 ],
+									"rotationX": 5.0,
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 0.5, 1.0, 1.0, 1.5 ], "windMode": [7,7,7,7] }
+									},
+									"children": [
+										{
+											"name": "Flowerrwing4",
+											"from": [ -0.3, 0.0, 0.0 ],
+											"to": [ 0.0, 0.0, 0.3 ],
+											"shade": false,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationZ": 25.0,
+											"faces": {
+												"up": { "texture": "#flower", "uv": [ 0.5, 1.5, 1.0, 2.0 ], "windMode": [7,7,7,7] }
+											}
+										},
+										{
+											"name": "Flowerlwing4",
+											"from": [ 0.3, 0.0, 0.0 ],
+											"to": [ 0.6, 0.0, 0.3 ],
+											"shade": false,
+											"rotationOrigin": [ 0.3, 0.0, 0.0 ],
+											"rotationZ": -25.0,
+											"faces": {
+												"up": { "texture": "#flower", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "windMode": [7,7,7,7] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Flowertongue4",
+									"from": [ 0.1, 0.0, 0.2 ],
+									"to": [ 0.2, 0.0, 0.6 ],
+									"shade": false,
+									"rotationOrigin": [ 0.1, 0.0, 0.2 ],
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 1.0, 1.5, 1.5, 2.0 ], "windMode": [7,7,7,7] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Stalk5",
+					"from": [ -1.0, 0.0, 1.0 ],
+					"to": [ -0.9, 2.4, 1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 0.0, 1.0 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 0.5, 2.0 ], "windMode": [0,7,7,0] }
+					},
+					"children": [
+						{
+							"name": "Flowerbody5",
+							"from": [ -0.1, 2.3, 0.0 ],
+							"to": [ 0.2, 2.6, 0.2 ],
+							"shade": false,
+							"rotationOrigin": [ 0.0, 2.3, 0.1 ],
+							"rotationX": 5.0,
+							"faces": {
+								"north": { "texture": "#flower", "uv": [ 0.5, 0.0, 1.0, 0.5 ], "windMode": [7,7,7,7] },
+								"east": { "texture": "#flower", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "windMode": [7,7,7,7] },
+								"west": { "texture": "#flower", "uv": [ 0.5, 1.0, 1.0, 1.5 ], "windMode": [7,7,7,7] },
+								"up": { "texture": "#flower", "uv": [ 1.5, 0.0, 2.0, 0.5 ], "windMode": [7,7,7,7] },
+								"down": { "texture": "#flower", "uv": [ 0.5, 1.5, 1.0, 2.0 ], "windMode": [7,7,7,7] }
+							},
+							"children": [
+								{
+									"name": "flower tail5",
+									"from": [ 0.1, 0.2, 0.0 ],
+									"to": [ 0.2, 0.4, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.1, 0.2, 0.0 ],
+									"rotationX": -45.0,
+									"faces": {
+										"north": { "texture": "#flower", "uv": [ 3.0, 0.5, 3.5, 1.0 ], "windMode": [7,7,7,7] }
+									}
+								},
+								{
+									"name": "Flowercap5",
+									"from": [ 0.0, 0.3, 0.2 ],
+									"to": [ 0.3, 0.3, 0.5 ],
+									"shade": false,
+									"rotationOrigin": [ 0.0, 0.3, 0.2 ],
+									"rotationX": 5.0,
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 0.5, 1.0, 1.0, 1.5 ], "windMode": [7,7,7,7] }
+									},
+									"children": [
+										{
+											"name": "Flowerrwing5",
+											"from": [ -0.3, 0.0, 0.0 ],
+											"to": [ 0.0, 0.0, 0.3 ],
+											"shade": false,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationZ": 25.0,
+											"faces": {
+												"up": { "texture": "#flower", "uv": [ 0.5, 1.5, 1.0, 2.0 ], "windMode": [7,7,7,7] }
+											}
+										},
+										{
+											"name": "Flowerlwing5",
+											"from": [ 0.3, 0.0, 0.0 ],
+											"to": [ 0.6, 0.0, 0.3 ],
+											"shade": false,
+											"rotationOrigin": [ 0.3, 0.0, 0.0 ],
+											"rotationZ": -25.0,
+											"faces": {
+												"up": { "texture": "#flower", "uv": [ 1.0, 1.0, 1.5, 1.5 ], "windMode": [7,7,7,7] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Flowertongue5",
+									"from": [ 0.1, 0.0, 0.2 ],
+									"to": [ 0.2, 0.0, 0.6 ],
+									"shade": false,
+									"rotationOrigin": [ 0.1, 0.0, 0.2 ],
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 1.0, 1.5, 1.5, 2.0 ], "windMode": [7,7,7,7] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

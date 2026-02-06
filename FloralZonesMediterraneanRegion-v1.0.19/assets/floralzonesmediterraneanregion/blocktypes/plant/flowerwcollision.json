@@ -1,0 +1,74 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+	"variantgroups": [
+		{ "code": "type", "states": ["ericaarborea","euphorbiaresinifera"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"reinforcable": true,
+		"plantContainable": {
+			"smallContainerByType": {						
+			},
+			"largeContainerByType": {
+				"*-ericaarborea-*": {"shape": {"base": "block/plant/flower/ericaarborea_01"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}2" },"leaves": { "base": "block/plant/flower/stem/{type}*" }}},	
+				"*-euphorbiaresinifera-*": {"shape": {"base": "block/plant/flower/euphorbiaresinifera_01"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}3" }}}									
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"*":{"base": "block/plant/flower/{type}*"}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"@.*-(ericaarborea)-.*": {"flower": { "base": "block/plant/flower/petal/{type}*" },"leaves": { "base": "block/plant/flower/stem/{type}*" }},
+		"@.*-(euphorbiaresinifera)-.*": {"flower": { "base": "block/plant/flower/petal/{type}*" }}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjustByType": {"@.*-(ericaarborea)-.*": 0.3, "*" : 0.1},
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 0.7, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5, "z2": 0.875
+	},
+	"soundsByType": {
+		"@.*-(ericaarborea)-.*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass","inside": "game:walk/inside/leafy/bushrustle*"},
+		"*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass"}},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*": { "scale": 1.0}
+	}
+}

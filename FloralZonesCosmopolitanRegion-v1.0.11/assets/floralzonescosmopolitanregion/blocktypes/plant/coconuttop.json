@@ -1,0 +1,101 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 1,
+		"resetBelowTemperature": 3,
+		"stopBelowTemperature": 4,
+		
+		"revertBlockAboveTemperature": 50,
+		"resetAboveTemperature": 48,
+		"stopAboveTemperature": 46,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 0.25, "var": 0.02 },
+		"*-flowering": { "avg": 0.5, "var": 0.02 },
+		"*-ripe": { "avg": 0.075, "var": 0.02 }},
+		"stackable": true
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonescosmopolitanregion:coconut-wholecoconut", "quantity": { "avg": 2.6 }  },
+			"harvestedBlockCode": "floralzonescosmopolitanregion:bigberrybush-{type}-empty"
+		}} ],
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["cocosnucifera"] },
+		{ "code": "state", "states": ["empty","flowering","ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*": { "base": "block/plant/berrybush/{type}-{state}*" }
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-empty": {
+		"foliage": { "base": "block/plant/berrybush/cocosnuciferaflowercover2" },"frond": { "base": "block/plant/berrybush/cocosnuciferafrond1" },"frond1": { "base": "block/plant/berrybush/cocosnuciferafrond*" },"frond2": { "base": "block/plant/berrybush/cocosnuciferafrond2" }
+		},
+		"*-flowering": {
+		"flower": {"base": "block/plant/berrybush/cocosnuciferaflower1"}, "flowercover": { "base": "block/plant/berrybush/cocosnuciferaflowercover1" },"foliage": { "base": "block/plant/berrybush/cocosnuciferaflowercover2" },"frond": { "base": "block/plant/berrybush/cocosnuciferafrond1" },"frond1": { "base": "block/plant/berrybush/cocosnuciferafrond*" },"frond2": { "base": "block/plant/berrybush/cocosnuciferafrond2" }
+		},
+		"*-ripe": {
+			"stem": { "base": "block/plant/berrybush/cocosnuciferafruitstem*" },"fruit": { "base": "item/food/fruit/cocosnucifera" },"foliage": { "base": "block/plant/berrybush/cocosnuciferaflowercover2" },"frond": { "base": "block/plant/berrybush/cocosnuciferafrond1" },"frond1": { "base": "block/plant/berrybush/cocosnuciferafrond*" },"frond2": { "base": "block/plant/berrybush/cocosnuciferafrond2" }
+		},
+		"*": {
+		"frond": { "base": "block/plant/berrybush/cocosnuciferafrond1" },"frond1": { "base": "block/plant/berrybush/cocosnuciferafrond*" },"frond2": { "base": "block/plant/berrybush/cocosnuciferafrond2" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-cocosnucifera-ripe": [
+			{ "type": "item", "code": "floralzonescosmopolitanregion:coconut-wholecoconut", "quantity": { "avg": 1.6 }   },
+			{ "type": "item", "code": "floralzonescaribbeanregion:vegetable-palmheart", "quantity": { "avg": 1 }   },
+			{ "type": "item", "code": "floralzonescosmopolitanregion:palmleaf-{type}", "quantity": { "avg": 8, "var": 3 }  }
+		],
+		"*-cocosnucifera-*": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:vegetable-palmheart", "quantity": { "avg": 1 }   },
+			{ "type": "item", "code": "floralzonescosmopolitanregion:palmleaf-{type}", "quantity": { "avg": 8, "var": 3 }  }
+		],
+		"*": []
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+}

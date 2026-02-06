@@ -1,0 +1,82 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"variantgroups": [
+		{ "code": "type", "states": ["jasminocereusthouarsii"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"sprintIntoDamage": 1,
+		"fallIntoDamageMul": 2,
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"plantContainable": {
+			"largeContainer": {
+				"*": {
+				"shape": { "base": "block/plant/cactus/jasminocereusthouarsii_var*" },
+					"textures": {"cactus1": { "base": "block/plant/cactus/jasminocereusthouarsii1" },"cactus2": { "base": "block/plant/cactus/jasminocereusthouarsii2" }
+					}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"*-jasminocereusthouarsii-*":{"base": "block/plant/cactus/jasminocereusthouarsii*"}
+
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+    "*-jasminocereusthouarsii-*": {
+    "cactus1": { "base": "block/plant/cactus/jasminocereusthouarsii1" },
+    "cactus2": { "base": "block/plant/cactus/jasminocereusthouarsii2" }
+    }
+
+		
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.2,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.2,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 2, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 2.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-jasminocereusthouarsii-*": { "origin": { "x": 0.5, "y": 1.25, "z": 0.5},"scale": 0.4},
+		"*": { "scale": 1.5}
+	}
+}

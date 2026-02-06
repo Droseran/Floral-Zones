@@ -1,0 +1,33 @@
+{
+	"treeWorldPropertyCode": "enteleaarborescens",
+	"sizeMultiplier": 0.85,
+	"trunks": [{
+		"widthloss": 0.15,
+		"dieAt": { "avg": 0.09 },
+		"branchStart": { "dist": "gaussian", "avg": 0.6,  "var": 0.1 },
+		"branchSpacing": { "dist": "gaussian", "avg": 0.2,  "var": 0.1 },
+		"branchVerticalAngle":  { "avg": 0.8,  "var": 0 },
+		"branchHorizontalAngle": { "avg": 0,  "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.1,  "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 1 },
+		"branchQuantity": { "avg": 2,  "var": 0 },
+		"branchWidthLossMul": 0.98
+	}],
+	"branches": [{
+		"widthLoss": 0.019,
+		"gravityDrag": 0.1,
+		"dieAt": { "avg": 0.001 },
+		"branchStart": { "dist": "gaussian", "avg": 0.1, "var": 0.1 },
+		"branchSpacing": { "avg": 0.2, "var": 0.005 },
+		"branchVerticalAngle":  { "dist": "inversegaussian", "avg": 1.5, "var": 0.4 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.4, "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 0.1 },
+		"branchQuantity": { "avg": 20, "var": 5 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "floralzonesneozeylandicregion:lognarrow-grown-enteleaarborescens-ud",
+		"leavesBlockCode": "floralzonesneozeylandicregion:leaves-grown-enteleaarborescens",
+		"leavesBranchyBlockCode": "floralzonesneozeylandicregion:leavesbranchy-grown-enteleaarborescens"
+	}
+}

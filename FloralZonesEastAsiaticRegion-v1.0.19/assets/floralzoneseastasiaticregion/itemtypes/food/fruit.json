@@ -1,0 +1,83 @@
+{
+  "code": "fruit",
+  "maxstacksize": 64,
+  "variantgroups": [
+    { "loadFromProperties": "floralzoneseastasiaticregion:block/fruit" }
+  ],
+  "materialDensityByType": {
+    "*": 600
+  },
+	"attributes": {
+		"foodTags": ["{fruit}"],
+		"nutritionPropsWhenInMeal": {
+			"satietyByType":  { 
+				"*-lyciumbarbarum": 120
+			},
+			"foodcategory": "Fruit" 
+		},
+		"inPiePropertiesByType": {
+			"*": { "texture": "block/food/pie/fill-{fruit}", "partType": "Filling" }
+		},
+		"juiceablePropertiesByType": {
+			"*-lyciumbarbarum": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzoneseastasiaticregion:juiceportion-lyciumbarbarum", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzoneseastasiaticregion:pressedmash-lyciumbarbarum", "stacksize": 1 }
+			}
+		}
+	},
+  "shapebytype": {
+    "*": { "base": "floralzoneseastasiaticregion:item/food/fruit/{fruit}" }
+  },
+  "textureByType": {
+    "*": { "base": "floralzoneseastasiaticregion:item/food/fruit/{fruit}" }
+  },
+  "creativeinventory": {
+    "general": [ "*" ],
+    "items": [ "*" ]
+  },
+  "nutritionPropsByType": {
+    "*-lyciumbarbarum": {
+      "satiety": 80,
+      "foodcategory": "Fruit"
+    }
+  },
+  "transitionablePropsByType": {
+    "*-lyciumbarbarum": [
+      {
+        "type": "Perish",
+        "freshHours": { "avg": 330 },
+        "transitionHours": { "avg": 12 },
+        "transitionedStack": {
+          "type": "item",
+          "code": "game:rot"
+        },
+        "transitionRatio": 0.25
+      }
+    ],
+  },
+  "guiTransformByType": {
+    "*-lyciumbarbarum": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+    },
+  },
+  "fpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+  },
+  "tpHandTransformByType": {
+    "*":{
+			"translation": { "x": -1.2, "y": 0, "z": -1.1 },
+			"rotation": { "x": 0, "y": 0, "z": -98 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 0.5
+    }
+	}
+}

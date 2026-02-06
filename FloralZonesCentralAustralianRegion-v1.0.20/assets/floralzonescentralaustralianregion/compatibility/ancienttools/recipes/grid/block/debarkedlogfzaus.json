@@ -1,0 +1,48 @@
+[
+	{
+		"enabled": false,
+		ingredientPattern: "LA",
+		width: 2,
+		height: 1,
+		ingredients: {
+			"L": { 
+				type: "block",
+				code: "floralzonescentralaustralianregion:log-placed-corymbiaaparrerinja-ud",
+				returnedStack: { type: "block", code: "floralzonescentralaustralianregion:debarkedlog-corymbiaaparrerinja-ud" }
+			},
+			"A": {
+				type: "item",
+				code: "ancienttools:adze-*",
+				isTool: true
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:bark-corymbiaaparrerinja",
+			quantity: 4
+		}
+	},
+	{
+		"enabled": false,
+		ingredientPattern: "LA",
+		width: 2,
+		height: 1,
+		ingredients: {
+			"L": { 
+				type: "block",
+				code: "floralzonescentralaustralianregion:log-placed-eucalyptuscamaldulensis-ud",
+				returnedStack: { type: "block", code: "floralzonescentralaustralianregion:debarkedlog-eucalyptuscamaldulensis-ud" }
+			},
+			"A": {
+				type: "item",
+				code: "ancienttools:adze-*",
+				isTool: true
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:bark-eucalyptuscamaldulensis",
+			quantity: 4
+		}
+	}
+]

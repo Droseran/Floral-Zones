@@ -1,0 +1,131 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"ocoteabullata": [4,4]
+	},
+	"textures": {
+		"ocoteabullata": "item/resource/seeds/ocoteabullata"
+	},
+	"elements": [
+		{
+			"name": "Seed",
+			"from": [ 7.0, 2.0, 7.0 ],
+			"to": [ 9.0, 4.0, 9.0 ],
+			"rotationOrigin": [ 7.0, 2.0, 7.0 ],
+			"rotationZ": -90.0,
+			"faces": {
+				"north": { "texture": "#ocoteabullata", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+				"east": { "texture": "#ocoteabullata", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+				"south": { "texture": "#ocoteabullata", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+				"up": { "texture": "#ocoteabullata", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+				"down": { "texture": "#ocoteabullata", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+			},
+			"children": [
+				{
+					"name": "Tip",
+					"from": [ 2.0, 0.5, 0.5 ],
+					"to": [ 2.5, 1.5, 1.5 ],
+					"rotationOrigin": [ 2.0, 0.5, 0.5 ],
+					"faces": {
+						"north": { "texture": "#ocoteabullata", "uv": [ 1.0, 3.0, 1.5, 4.0 ] },
+						"east": { "texture": "#ocoteabullata", "uv": [ 0.5, 3.0, 1.5, 4.0 ] },
+						"south": { "texture": "#ocoteabullata", "uv": [ 0.5, 2.5, 1.0, 3.5 ] },
+						"up": { "texture": "#ocoteabullata", "uv": [ 0.0, 2.5, 0.5, 3.5 ] },
+						"down": { "texture": "#ocoteabullata", "uv": [ 1.0, 2.5, 1.5, 3.5 ] }
+					}
+				},
+				{
+					"name": "Cap",
+					"from": [ -0.9, -0.1, -0.1 ],
+					"to": [ 0.1, 2.1, 2.1 ],
+					"rotationOrigin": [ -0.9, -0.1, -0.1 ],
+					"faces": {
+						"north": { "texture": "#ocoteabullata", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "rotation": 90 },
+						"east": { "texture": "#ocoteabullata", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"south": { "texture": "#ocoteabullata", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "rotation": 270 },
+						"west": { "texture": "#ocoteabullata", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"up": { "texture": "#ocoteabullata", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "rotation": 270 },
+						"down": { "texture": "#ocoteabullata", "uv": [ 2.0, 0.0, 4.0, 1.0 ], "rotation": 90 }
+					},
+					"children": [
+						{
+							"name": "Stem",
+							"from": [ -2.0, 0.2, 0.6 ],
+							"to": [ 0.0, 1.2, 1.6 ],
+							"rotationOrigin": [ 0.0, 0.2, 0.6 ],
+							"rotationX": 1.0,
+							"rotationZ": -10.0,
+							"faces": {
+								"north": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.5 ] },
+								"south": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.0, 4.0, 3.0 ] },
+								"west": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.0, 3.0, 3.0 ] },
+								"down": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.5 ] }
+							},
+							"children": [
+								{
+									"name": "Stem tip",
+									"from": [ -2.0, 0.2, 0.1 ],
+									"to": [ 0.0, 1.0, 0.9 ],
+									"rotationOrigin": [ 0.0, 0.2, 0.1 ],
+									"faces": {
+										"north": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.0 ] },
+										"south": { "texture": "#ocoteabullata", "uv": [ 2.0, 3.0, 4.0, 3.5 ] },
+										"west": { "texture": "#ocoteabullata", "uv": [ 2.5, 2.5, 3.0, 3.0 ] },
+										"up": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.0 ] },
+										"down": { "texture": "#ocoteabullata", "uv": [ 2.0, 3.0, 4.0, 3.5 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "Stem2",
+							"from": [ -2.0, 1.1, 0.6 ],
+							"to": [ 0.0, 2.1, 1.6 ],
+							"rotationOrigin": [ 0.0, 2.1, 0.6 ],
+							"rotationX": 1.0,
+							"rotationZ": 10.0,
+							"faces": {
+								"north": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.5 ] },
+								"south": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.5 ] },
+								"west": { "texture": "#ocoteabullata", "uv": [ 2.0, 3.0, 3.0, 4.0 ] },
+								"up": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.5 ] }
+							}
+						},
+						{
+							"name": "Stem3",
+							"from": [ -2.0, 0.6, 0.2 ],
+							"to": [ 0.0, 1.6, 1.2 ],
+							"rotationOrigin": [ 0.0, 0.6, 0.2 ],
+							"rotationX": 1.0,
+							"rotationY": 10.0,
+							"faces": {
+								"north": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.5 ] },
+								"west": { "texture": "#ocoteabullata", "uv": [ 2.5, 2.0, 3.5, 3.0 ] },
+								"up": { "texture": "#ocoteabullata", "uv": [ 2.0, 3.0, 4.0, 4.0 ] },
+								"down": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.5 ] }
+							}
+						},
+						{
+							"name": "Stem4",
+							"from": [ -2.0, 0.6, 1.0 ],
+							"to": [ 0.0, 1.6, 2.0 ],
+							"rotationOrigin": [ 0.0, 0.6, 2.0 ],
+							"rotationX": 1.0,
+							"rotationY": -10.0,
+							"faces": {
+								"south": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.5 ] },
+								"west": { "texture": "#ocoteabullata", "uv": [ 2.5, 3.0, 3.5, 4.0 ] },
+								"up": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.5 ] },
+								"down": { "texture": "#ocoteabullata", "uv": [ 2.0, 2.5, 4.0, 3.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,88 @@
+{
+	"code": "logquad",
+	"behaviorsByType": {
+		"*": [{"name": "Pillar"}, { "name": "WrenchOrientable", "properties": { "baseCode": "game:logquad-{type}-{wood}"  } }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["placed", "debarked"] },
+		{ "code": "wood", states: ["brachychitongregorii"], "loadFromProperties": "floralzonescentralaustralianregion:block/wood" },
+		{ "code": "rotation", "states": ["ud", "ns", "we"] }
+	],
+	"skipVariants": ["*-debarked-brachychitongregorii-*"],
+	"creativeinventory": { "general": ["logquad-{type}-*-ud"], "flora": ["logquad-{type}-*-ud"], "construction": ["logquad-{type}-*-ud"] },
+	"shape": { "base": "game:block/basic/cube" },
+	"drawtype": "cube",
+	"blockmaterial": "Wood",
+	"requiredMiningTier": 1,
+	"attributes": {
+		"handbook": {
+			"groupBy": ["logquad-*-{wood}-*"]
+		}
+	},
+	"texturesByType": {
+		"*-ud": {
+			"all": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}" },
+
+			"inside-north": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}"},
+			"inside-east": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}" },
+			"inside-south": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}" },
+			"inside-west": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}" },
+
+			"up": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/ends/{type}/{wood}" },
+			"down": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/ends/{type}/{wood}" }
+		},
+		"*-ns": {
+			"all": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}", "rotation": 90 },
+			"up": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}" },
+			"down": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}" },
+
+			"inside-up": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}" },
+			"inside-down": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}" },
+			"inside-west": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}", "rotation": 90 },
+			"inside-east": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}", "rotation": 90 },
+
+			"north": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/ends/{type}/{wood}" },
+			"south": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/ends/{type}/{wood}" }
+		},
+		"*-we": {
+			"all": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}", "rotation": 90 },
+			"up": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}", "rotation": 90},
+
+			"inside-up": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}", "rotation": 90 },
+			"inside-down": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}", "rotation": 90 },
+			"inside-north": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}", "rotation": 90 },
+			"inside-south": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/{type}/{wood}", "rotation": 90 },
+
+			"west": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/ends/{type}/{wood}"  },
+			"east": { "base": "floralzonescentralaustralianregion:block/wood/bark/quad/ends/{type}/{wood}"  }
+		}
+	},
+	"replaceable": 500,
+	"resistance": 4.5,
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": { "hit": "block/chop", "break": "block/planks" }
+		}
+	},
+	"drops": [
+		{ "type": "block", "code": "floralzonescentralaustralianregion:logquad-{type}-{wood}-ud", "quantity": { "avg": 1 }  }
+	],
+	"combustiblePropsByType": {
+		"*": {
+			"burnTemperature": 800,
+			"burnDuration": 72
+		}
+	},
+	"maxStackSize": 16,
+	"materialDensity": 700,
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldRightReadyAnimation": "heldblockready", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	}
+}

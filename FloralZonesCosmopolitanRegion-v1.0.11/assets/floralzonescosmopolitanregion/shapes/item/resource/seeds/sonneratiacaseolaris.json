@@ -1,0 +1,135 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"sonneratiacaseolaris": [4,4]
+	},
+	"textures": {
+		"sonneratiacaseolaris": "item/resource/seeds/sonneratiacaseolaris"
+	},
+	"elements": [
+		{
+			"name": "Seed 1",
+			"from": [ 7.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.5, 8.5 ],
+			"rotationOrigin": [ 7.0, 0.0, 8.0 ],
+			"rotationY": 22.5,
+			"faces": {
+				"north": { "texture": "#sonneratiacaseolaris", "uv": [ 1.5, 1.0, 2.5, 1.5 ] },
+				"east": { "texture": "#sonneratiacaseolaris", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+				"south": { "texture": "#sonneratiacaseolaris", "uv": [ 0.5, 0.5, 1.5, 1.0 ] },
+				"west": { "texture": "#sonneratiacaseolaris", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+				"up": { "texture": "#sonneratiacaseolaris", "uv": [ 2.0, 2.0, 3.0, 2.5 ] },
+				"down": { "texture": "#sonneratiacaseolaris", "uv": [ 2.5, 3.0, 3.5, 3.5 ] }
+			}
+		},
+		{
+			"name": "Seed 2",
+			"from": [ 9.0, 0.0, 8.0 ],
+			"to": [ 10.0, 0.5, 8.5 ],
+			"rotationOrigin": [ 9.0, 0.0, 8.0 ],
+			"rotationY": -67.5,
+			"faces": {
+				"north": { "texture": "#sonneratiacaseolaris", "uv": [ 1.0, 2.5, 2.0, 3.0 ] },
+				"east": { "texture": "#sonneratiacaseolaris", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+				"south": { "texture": "#sonneratiacaseolaris", "uv": [ 1.5, 2.0, 2.5, 2.5 ] },
+				"west": { "texture": "#sonneratiacaseolaris", "uv": [ 2.0, 1.0, 2.5, 1.5 ] },
+				"up": { "texture": "#sonneratiacaseolaris", "uv": [ 0.5, 1.5, 1.5, 2.0 ] },
+				"down": { "texture": "#sonneratiacaseolaris", "uv": [ 1.5, 1.5, 2.5, 2.0 ] }
+			}
+		},
+		{
+			"name": "Seed 3",
+			"from": [ 9.0, 0.0, 6.0 ],
+			"to": [ 10.0, 0.5, 6.5 ],
+			"rotationOrigin": [ 9.0, 0.0, 6.0 ],
+			"rotationY": -90.0,
+			"faces": {
+				"north": { "texture": "#sonneratiacaseolaris", "uv": [ 1.5, 0.0, 2.5, 0.5 ] },
+				"east": { "texture": "#sonneratiacaseolaris", "uv": [ 3.0, 1.5, 3.5, 2.0 ] },
+				"south": { "texture": "#sonneratiacaseolaris", "uv": [ 1.0, 0.0, 2.0, 0.5 ] },
+				"west": { "texture": "#sonneratiacaseolaris", "uv": [ 3.0, 0.5, 3.5, 1.0 ] },
+				"up": { "texture": "#sonneratiacaseolaris", "uv": [ 2.0, 0.5, 3.0, 1.0 ] },
+				"down": { "texture": "#sonneratiacaseolaris", "uv": [ 2.5, 0.5, 3.5, 1.0 ] }
+			}
+		},
+		{
+			"name": "Seed 4",
+			"from": [ 7.0, 0.0, 6.0 ],
+			"to": [ 8.0, 0.5, 6.5 ],
+			"rotationOrigin": [ 7.0, 0.0, 6.0 ],
+			"rotationY": -45.0,
+			"faces": {
+				"north": { "texture": "#sonneratiacaseolaris", "uv": [ 2.0, 3.0, 3.0, 3.5 ] },
+				"east": { "texture": "#sonneratiacaseolaris", "uv": [ 0.0, 2.5, 0.5, 3.0 ] },
+				"south": { "texture": "#sonneratiacaseolaris", "uv": [ 0.0, 1.0, 1.0, 1.5 ] },
+				"west": { "texture": "#sonneratiacaseolaris", "uv": [ 3.0, 0.0, 3.5, 0.5 ] },
+				"up": { "texture": "#sonneratiacaseolaris", "uv": [ 2.0, 1.0, 3.0, 1.5 ] },
+				"down": { "texture": "#sonneratiacaseolaris", "uv": [ 0.0, 0.5, 1.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Seed 5",
+			"from": [ 6.0, 0.0, 9.0 ],
+			"to": [ 7.0, 0.5, 9.5 ],
+			"rotationOrigin": [ 6.0, 0.0, 9.0 ],
+			"rotationY": 67.5,
+			"faces": {
+				"north": { "texture": "#sonneratiacaseolaris", "uv": [ 1.0, 3.0, 2.0, 3.5 ] },
+				"east": { "texture": "#sonneratiacaseolaris", "uv": [ 0.0, 1.0, 0.5, 1.5 ] },
+				"south": { "texture": "#sonneratiacaseolaris", "uv": [ 2.0, 2.5, 3.0, 3.0 ] },
+				"west": { "texture": "#sonneratiacaseolaris", "uv": [ 2.5, 2.5, 3.0, 3.0 ] },
+				"up": { "texture": "#sonneratiacaseolaris", "uv": [ 1.5, 2.5, 2.5, 3.0 ] },
+				"down": { "texture": "#sonneratiacaseolaris", "uv": [ 1.5, 0.5, 2.5, 1.0 ] }
+			}
+		},
+		{
+			"name": "Seed 6",
+			"from": [ 6.0, 0.0, 8.0 ],
+			"to": [ 7.0, 0.5, 8.5 ],
+			"rotationOrigin": [ 6.0, 0.0, 8.0 ],
+			"rotationY": 157.5,
+			"faces": {
+				"north": { "texture": "#sonneratiacaseolaris", "uv": [ 0.0, 1.5, 1.0, 2.0 ] },
+				"east": { "texture": "#sonneratiacaseolaris", "uv": [ 1.0, 2.0, 1.5, 2.5 ] },
+				"south": { "texture": "#sonneratiacaseolaris", "uv": [ 2.0, 1.5, 3.0, 2.0 ] },
+				"west": { "texture": "#sonneratiacaseolaris", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+				"up": { "texture": "#sonneratiacaseolaris", "uv": [ 0.0, 0.5, 1.0, 1.0 ] },
+				"down": { "texture": "#sonneratiacaseolaris", "uv": [ 2.0, 2.5, 3.0, 3.0 ] }
+			}
+		},
+		{
+			"name": "Seed 7",
+			"from": [ 8.0, 0.0, 9.0 ],
+			"to": [ 9.0, 0.5, 9.5 ],
+			"rotationOrigin": [ 8.0, 0.0, 9.0 ],
+			"rotationY": -67.5,
+			"faces": {
+				"north": { "texture": "#sonneratiacaseolaris", "uv": [ 1.0, 1.0, 2.0, 1.5 ] },
+				"east": { "texture": "#sonneratiacaseolaris", "uv": [ 2.5, 1.0, 3.0, 1.5 ] },
+				"south": { "texture": "#sonneratiacaseolaris", "uv": [ 2.5, 1.5, 3.5, 2.0 ] },
+				"west": { "texture": "#sonneratiacaseolaris", "uv": [ 3.0, 3.0, 3.5, 3.5 ] },
+				"up": { "texture": "#sonneratiacaseolaris", "uv": [ 0.5, 0.5, 1.5, 1.0 ] },
+				"down": { "texture": "#sonneratiacaseolaris", "uv": [ 2.5, 3.0, 3.5, 3.5 ] }
+			}
+		},
+		{
+			"name": "Seed 8",
+			"from": [ 10.0, 0.0, 8.0 ],
+			"to": [ 11.0, 0.5, 8.5 ],
+			"rotationOrigin": [ 10.0, 0.0, 8.0 ],
+			"rotationY": 135.0,
+			"faces": {
+				"north": { "texture": "#sonneratiacaseolaris", "uv": [ 0.5, 1.5, 1.5, 2.0 ] },
+				"east": { "texture": "#sonneratiacaseolaris", "uv": [ 1.0, 2.5, 1.5, 3.0 ] },
+				"south": { "texture": "#sonneratiacaseolaris", "uv": [ 0.0, 2.5, 1.0, 3.0 ] },
+				"west": { "texture": "#sonneratiacaseolaris", "uv": [ 1.0, 2.5, 1.5, 3.0 ] },
+				"up": { "texture": "#sonneratiacaseolaris", "uv": [ 1.0, 1.0, 2.0, 1.5 ] },
+				"down": { "texture": "#sonneratiacaseolaris", "uv": [ 0.5, 2.5, 1.5, 3.0 ] }
+			}
+		}
+	]}

@@ -1,0 +1,62 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+"variantgroups": [
+        { "code": "type", "states": ["chamaeropshumilis"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+		"plantContainable": {
+			"smallContainerByType": {
+			},
+			"largeContainerByType": {
+				"*-chamaeropshumilis": {"shape": {"base": "block/plant/fern/chamaeropshumilis_01"},"textures": {"*-chamaeropshumilis": {"trunk": { "base": "block/plant/fern/chamaeropshumilistrunk" },"fronds": { "base": "block/plant/fern/chamaeropshumilis" }}}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-chamaeropshumilis":{"base": "block/plant/fern/chamaeropshumilis_*", "alternates": [ { "base": "block/plant/fern/chamaeropshumilis_01" },{ "base": "block/plant/fern/chamaeropshumilis_0*" } ]},
+	},
+	"texturesByType": {
+		"*-chamaeropshumilis": {
+		 "trunk": { "base": "block/plant/fern/chamaeropshumilistrunk" },
+		 "fronds": { "base": "block/plant/fern/chamaeropshumilis" }
+		}
+	},
+	"randomDrawOffset": true,
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 2,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 2, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"break": "game:block/planks",
+		"hit": "game:block/planks"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5
+	},
+	"frostable": true,
+	"guiTransform": { "origin": { "x": 0.5, "y": 0.5, "z": 0.5},"scale": 0.75
+	}
+}

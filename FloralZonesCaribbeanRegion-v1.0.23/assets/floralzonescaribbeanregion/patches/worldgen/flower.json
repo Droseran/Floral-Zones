@@ -1,0 +1,397 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Chamula Agave",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-agavechiapensis-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 24,
+		  "minForest": 0.3,
+		  "maxForest": 0.7,
+          "minRain": 0.45,
+          "maxRain": 0.9,
+          "chance": 0.8,
+		  "minY": 0.28,
+          "maxY": 0.65,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 0, "var": 5 },
+          "offsetZ": { "avg": 0, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Dagger Log",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-agavekaratto-free"
+          ],
+          "minTemp": 25,
+          "maxTemp": 29,
+		  "minForest": 0,
+		  "maxForest": 0.4,
+          "minRain": 0.06,
+          "maxRain": 0.75,
+          "chance": 0.05,
+		       "minY": 0,
+          "maxY": 0.05,
+		  "maxFertility": 0.3,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 0, "var": 15 },
+          "offsetZ": { "avg": 0, "var": 15 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Wild Plantain",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-heliconiacaribaea-free"
+          ],
+          "minTemp": 24,
+          "maxTemp": 40,
+		  "minForest": 0.6,
+		  "maxForest": 1.0,
+          "minRain": 0.44,
+          "maxRain": 1.0,
+          "chance": 0.1,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "maxY": 0.3,
+		  "minFertility":0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 4, "var": 2 },
+          "offsetZ": { "avg": 4, "var": 2 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Wild Plantain",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-heliconiacaribaea-free"
+          ],
+          "minTemp": 24,
+          "maxTemp": 40,
+		  "minForest": 0.8,
+		  "maxForest": 1.0,
+          "minRain": 0.60,
+          "maxRain": 1.0,
+          "chance": 0.4,
+          "maxY": 0.3,
+		  "minFertility":0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 4, "var": 2 },
+          "offsetZ": { "avg": 4, "var": 2 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Hanging Lobster Claw",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-heliconiarostrata-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 40,
+		  "minForest": 0.6,
+		  "maxForest": 1.0,
+          "minRain": 0.44,
+          "maxRain": 1.0,
+          "chance": 0.1,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "maxY": 0.2,
+		  "minFertility":0,
+		  "maxFertility": 0.6,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 4, "var": 2 },
+          "offsetZ": { "avg": 4, "var": 2 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Hanging Lobster Claw",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-heliconiarostrata-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 40,
+		  "minForest": 0.8,
+		  "maxForest": 1.0,
+          "minRain": 0.60,
+          "maxRain": 1.0,
+          "chance": 0.4,
+          "maxY": 0.2,
+		  "minFertility":0,
+		  "maxFertility": 0.6,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 4, "var": 2 },
+          "offsetZ": { "avg": 4, "var": 2 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Candelabra Cactus",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-jasminocereusthouarsii-free"
+          ],
+          "minTemp": 22,
+          "maxTemp": 26,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "minRain": 0.08,
+          "maxRain": 0.4,
+          "chance": 0.1,
+          "maxY": 0.1,
+		  "minFertility":0,
+		  "maxFertility": 0.7,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 4, "var": 2 },
+          "offsetZ": { "avg": 4, "var": 2 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Singular Candelabra Cactus",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-jasminocereusthouarsii-free"
+          ],
+          "minTemp": 22,
+          "maxTemp": 26,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "minRain": 0.08,
+          "maxRain": 0.4,
+          "chance": 0.1,
+          "maxY": 0.1,
+		  "minFertility":0,
+		  "maxFertility": 0.7,
+          "quantity": { "dist": "invexp", "avg": 1, "var": 0 },
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Firecracker Bush",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-justiciaspicigera-free"
+          ],
+          "minTemp": 18,
+          "maxTemp": 34,
+		  "minForest": 0.4,
+		  "maxForest": 0.8,
+          "minRain": 0.55,
+          "maxRain": 1,
+          "chance": 0.3,
+          "maxY": 0.6,
+		  "minFertility":0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 4 },
+          "offsetX": { "avg": 1, "var": 12 },
+          "offsetZ": { "avg": 1, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied clumps of Firecracker Bush",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-justiciaspicigera-free"
+          ],
+          "minTemp": 18,
+          "maxTemp": 34,
+		  "minForest": 0.4,
+		  "maxForest": 0.8,
+          "minRain": 0.55,
+          "maxRain": 1,
+          "chance": 0.2,
+          "maxY": 0.6,
+		  "minFertility":0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 12, "var": 8 },
+          "offsetX": { "avg": 1, "var": 4 },
+          "offsetZ": { "avg": 1, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Giant Butterwort",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-pinguiculagigantea-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 24,
+		  "minForest": 0.3,
+		  "maxForest": 0.8,
+          "minRain": 0.55,
+          "maxRain": 1,
+          "chance": 0.5,
+		  "minY": 0.05,
+          "maxY": 0.12,
+		  "maxFertility": 0.8,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 0, "var": 5 },
+          "offsetZ": { "avg": 0, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Mexican Bush Sage",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-salvialeucantha-free"
+          ],
+          "minTemp": 16,
+          "maxTemp": 26,
+		  "minForest": 0.2,
+		  "maxForest": 0.6,
+          "minRain": 0.33,
+          "maxRain": 0.75,
+          "chance": 1,
+		  "minY": 0.3,
+          "maxY": 0.65,
+		  "minFertility":0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 4 },
+          "offsetX": { "avg": 4, "var": 2 },
+          "offsetZ": { "avg": 4, "var": 2 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Silver Inch Plant",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-tradescantiazebrina-free"
+          ],
+          "minTemp": 22,
+          "maxTemp": 31,
+		  "minForest": 0.5,
+		  "maxForest": 0.8,
+          "minRain": 0.65,
+          "maxRain": 0.9,
+          "chance": 0.5,
+		  "minY": 0,
+          "maxY": 0.6,
+		  "minFertility":0,
+		  "maxFertility": 0.8,
+          "quantity": { "dist": "invexp", "avg": 15, "var": 10 },
+          "offsetX": { "avg": 0, "var": 2 },
+          "offsetZ": { "avg": 0, "var": 2 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Silver Inch Plant near water",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-tradescantiazebrina-free"
+          ],
+          "minTemp": 22,
+          "maxTemp": 40,
+		  "minForest": 0.5,
+		  "maxForest": 0.8,
+          "minRain": 0.45,
+          "maxRain": 0.9,
+		  "placement": "NearWater",
+          "chance": 0.5,
+		  "minY": 0,
+          "maxY": 0.6,
+		  "minFertility":0,
+		  "maxFertility": 0.8,
+          "quantity": { "dist": "invexp", "avg": 15, "var": 10 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Ramgoat Dashalong",
+          "blockCodes": [
+            "floralzonescaribbeanregion:flower-turneraulmifolia-free"
+          ],
+          "minTemp": 18,
+          "maxTemp": 26,
+		  "minForest": 0.5,
+		  "maxForest": 0.7,
+          "minRain": 0.41,
+          "maxRain": 0.70,
+          "chance": 0.5,
+		  "minY": 0,
+          "maxY": 0.05,
+		  "minFertility":0.5,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 9, "var": 5 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      }
+]

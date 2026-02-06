@@ -1,0 +1,28 @@
+[
+	{
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Larges patches of Climbing asparagus fern",
+          "blockCodes": [
+            "floralzonescaperegion:fern-asparagusscandens"
+          ],
+          "minTemp": 14,
+          "maxTemp": 17,
+		  "minForest": 0.5,
+		  "maxForest": 1.0,
+          "minRain": 0.60,
+          "maxRain": 0.88,
+          "chance": 1,
+          "maxY": 0.6,
+		  "maxFertility": 0.8,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "quantity": { "dist": "invexp", "avg": 10, "var": 3 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+]

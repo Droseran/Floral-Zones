@@ -1,0 +1,80 @@
+{
+	"code": "pickledvegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["alliumsativum","ipomoeabatatas","phaseolusvulgarisimmature"] }
+    ],
+		"crockable": true,
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"shapebytype": {
+		"*-phaseolusvulgarisimmature": { "base": "item/food/legume/{type}-pickled" },
+		"*": { "base": "item/food/vegetable/{type}-pickled" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-alliumsativum": { "satiety": 80, "health": 1, "foodcategory": "Vegetable" },
+		"*-ipomoeabatatas": { "satiety": 80, "foodcategory": "Vegetable" },
+		"*-phaseolusvulgarisimmature": { "satiety": 80, "foodcategory": "Vegetable" }
+	},
+	"transitionablePropsByType": {
+		"*-alliumsativum": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
+		"*-ipomoeabatatas": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
+		"*-phaseolusvulgarisimmature": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}]
+	},
+	"guiTransformByType": {
+		"*-ipomoeabatatas": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 3
+		},
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 4.0
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	}}

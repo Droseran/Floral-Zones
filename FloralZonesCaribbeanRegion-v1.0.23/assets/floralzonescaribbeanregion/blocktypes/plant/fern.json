@@ -1,0 +1,70 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+"variantgroups": [
+        { "code": "type", "states": ["carludovicapalmata","zamiafurfuracea"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+		"plantContainable": {
+			"smallContainerByType": {
+			},
+			"largeContainerByType": {
+				"*-carludovicapalmata": {"shape": {"base": "block/plant/fern/carludovicapalmata_var0"},"textures": {"leaf": { "base": "block/plant/fern/carludovicapalmata" }}},
+				"*-zamiafurfuracea": {"shape": {"base": "block/plant/fern/zamiafurfuracea_var0"},"textures": {"stem": { "base": "block/plant/fern/zamiafurfuracea-stem" },"leaf": { "base": "block/plant/fern/zamiafurfuracea-leaf" }}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-carludovicapalmata":{"base": "block/plant/fern/carludovicapalmata_var0", "alternates": [ { "base": "block/plant/fern/carludovicapalmata_var1" },{ "base": "block/plant/fern/carludovicapalmata_var2" },{ "base": "block/plant/fern/carludovicapalmata_var3" } ]},
+		"*-zamiafurfuracea":{"base": "block/plant/fern/zamiafurfuracea_var0", "alternates": [ { "base": "block/plant/fern/zamiafurfuracea_var1" },{ "base": "block/plant/fern/zamiafurfuracea_var2" },{ "base": "block/plant/fern/zamiafurfuracea_var3" } ]}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"*-carludovicapalmata": {
+		 "leaf": { "base": "block/plant/fern/carludovicapalmata" }
+		},
+		"*-zamiafurfuracea": {
+		 "stem": { "base": "block/plant/fern/zamiafurfuracea-stem" },
+		 "leaf": { "base": "block/plant/fern/zamiafurfuracea-leaf" }
+		},
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5,
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-carludovicapalmata": { "origin": { "x": 0.5, "y": 1.2, "z": 0.5},"scale": 0.5},
+		"*": { "scale": 1.5}
+	}
+}

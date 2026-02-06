@@ -1,0 +1,70 @@
+{
+	"code": "bamboo",
+	"behaviorsByType": {
+		"bamboo-*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}]
+	},
+	"attributes": {
+		"fenceConnect": { "north": false, "east": false, "west": false, "south": false },
+		"preventsDecayByType": {"bamboo-*": true},
+		"treeFellingGroupCodeByType": {"*-phyllostachysaurea-*": "bamboo-phyllostachysaurea","*-phyllostachysedulis-*": "bamboo-phyllostachysedulis","*-phyllostachysnigra-*": "bamboo-phyllostachysnigra"},
+			"treeFellingGroupSpreadIndexByType": {"*-segment1": 3,"*-segment2": 2,"*-segment3": 1
+			}
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["grown", "placed"] },
+		{ "code": "wood", "states": ["phyllostachysaurea","phyllostachysedulis","phyllostachysnigra"] },
+		{ "code": "part", "states": ["segment1", "segment2", "segment3"] }
+	],
+	"creativeinventory": { "general": ["bamboo-placed-*"], "flora": ["bamboo-placed-*"] },
+	"lod0Shape": { "base": "block/plant/bamboo/{wood}/{part}lod0-*" },
+	"shape": { "base": "block/plant/bamboo/{wood}/{part}-*" },
+	"shapeInventory": { "base": "block/plant/bamboo/{wood}/{part}-1", "overlays": [{ "base": "block/plant/bamboo/{wood}/{part}lod0-1" }] },
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+  "sideao": {"all": true},
+  "emitSideAo": {"all": false},
+	"blockmaterial": "Wood",
+	"requiredMiningTier": 1,
+	"randomizeAxes": "xz",
+	"replaceable": 500,
+	"resistance": 2,
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": { "hit": "game:block/chop", "break": "game:block/planks" }
+		}
+	},
+	"dropsByType": {
+	"*-phyllostachysaurea-segment1": [ { "type": "item", "code": "game:bamboostakes", "quantity": { "avg": 1 }}],
+	"*-phyllostachysedulis-segment1": [ { "type": "block", "code": "bamboo-placed-phyllostachysedulis-segment1", "quantity": { "avg": 1 }}],
+	"*-phyllostachysnigra-segment1": [ { "type": "item", "code": "game:bamboostakes", "quantity": { "avg": 1.1 }}],
+	
+	"*": [ { "type": "item", "code": "game:bamboostakes", "quantity": { "avg": 1 }},{ "type": "block", "code": "sapling-{wood}-free", "quantity": { "avg": 0.2 }}]
+	},
+	"combustibleProps": {
+		"burnTemperature": 700,
+		"burnDuration": 10
+	},
+	"collisionboxByType": {
+		"*-phyllostachysedulis-*": { "x1": 0.3, "y1": 0, "z1": 0.3, "x2": 0.7, "y2": 1, "z2": 0.7 },
+		"*": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 1, "z2": 0.875 }},
+	"selectionboxByType": {
+		"*-segment3": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 1, "z2": 1 },
+		"*": { "x1": 0.125, "y1": 0, "z1": 0.125, "x2": 0.875, "y2": 1, "z2": 0.875 }},
+	"maxStackSize": 16,
+	"materialDensity": 700,
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	},
+	"frostable": true
+}

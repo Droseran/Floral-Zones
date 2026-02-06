@@ -1,0 +1,1439 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"selenicereuscostaricensis": [4,4],
+		"selenicereuscostaricensis-flower": [8,4]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stem 1 top 1",
+					"from": [ 0.0, 0.4, 0.0 ],
+					"to": [ 4.0, 1.4, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"faces": {
+						"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "Stem 1 right 1",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 4.0, 0.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 22.5,
+							"faces": {
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "Stem 1 left 1",
+							"from": [ 0.0, 0.0, -1.0 ],
+							"to": [ 4.0, 0.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": -22.5,
+							"faces": {
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "Stem 2 top 1",
+							"from": [ 4.0, 0.0, 0.0 ],
+							"to": [ 8.0, 1.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+							"rotationY": 22.5,
+							"faces": {
+								"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Stem 2 right 1",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 4.0, 0.0, 1.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": 22.5,
+									"faces": {
+										"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+									}
+								},
+								{
+									"name": "Stem 2 left 1",
+									"from": [ 0.0, 0.0, -1.0 ],
+									"to": [ 4.0, 0.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -22.5,
+									"faces": {
+										"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "Stem 3 top 1",
+									"from": [ 4.0, 0.0, 0.0 ],
+									"to": [ 8.0, 1.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+									"rotationY": -22.5,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Stem 3 right 1",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 4.0, 0.0, 1.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": 22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 3 left 1",
+											"from": [ 0.0, 0.0, -1.0 ],
+											"to": [ 4.0, 0.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": -22.5,
+											"faces": {
+												"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Stem 1 top 2",
+					"from": [ 0.0, 0.4, 0.0 ],
+					"to": [ 4.0, 1.4, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationY": 135.0,
+					"faces": {
+						"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Stem 1 right 2",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 4.0, 0.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 22.5,
+							"faces": {
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+							}
+						},
+						{
+							"name": "Stem 1 left 2",
+							"from": [ 0.0, 0.0, -1.0 ],
+							"to": [ 4.0, 0.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": -22.5,
+							"faces": {
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Stem 2 top 2",
+							"from": [ 4.0, 0.0, 0.0 ],
+							"to": [ 8.0, 1.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+							"rotationY": 22.5,
+							"faces": {
+								"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Stem 2 right 2",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 4.0, 0.0, 1.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": 22.5,
+									"faces": {
+										"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+									}
+								},
+								{
+									"name": "Stem 2 left 2",
+									"from": [ 0.0, 0.0, -1.0 ],
+									"to": [ 4.0, 0.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -22.5,
+									"faces": {
+										"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "Stem 3 top 2",
+									"from": [ 4.0, 0.0, 0.0 ],
+									"to": [ 8.0, 1.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+									"rotationY": -22.5,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Stem 3 right 2",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 4.0, 0.0, 1.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": 22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 3 left 2",
+											"from": [ 0.0, 0.0, -1.0 ],
+											"to": [ 4.0, 0.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": -22.5,
+											"faces": {
+												"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+											}
+										}
+									]
+								},
+								{
+									"name": "Stem 1 top 3",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 4.0, 1.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationY": 67.5,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Stem 1 right 3",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 4.0, 0.0, 1.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": 22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 1 left 3",
+											"from": [ 0.0, 0.0, -1.0 ],
+											"to": [ 4.0, 0.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": -22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 2 top 3",
+											"from": [ 4.0, 0.0, 0.0 ],
+											"to": [ 8.0, 1.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+											"rotationY": 22.5,
+											"faces": {
+												"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+											},
+											"children": [
+												{
+													"name": "Stem 2 right 3",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 4.0, 0.0, 1.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationX": 22.5,
+													"faces": {
+														"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+													}
+												},
+												{
+													"name": "Stem 2 left 3",
+													"from": [ 0.0, 0.0, -1.0 ],
+													"to": [ 4.0, 0.0, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationX": -22.5,
+													"faces": {
+														"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+													}
+												},
+												{
+													"name": "Stem 3 top 3",
+													"from": [ 4.0, 0.0, 0.0 ],
+													"to": [ 8.0, 1.0, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+													"rotationY": -22.5,
+													"rotationZ": -10.0,
+													"faces": {
+														"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "Stem 3 right 3",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 4.0, 0.0, 1.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationX": 22.5,
+															"faces": {
+																"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false }
+															}
+														},
+														{
+															"name": "Stem 3 left 3",
+															"from": [ 0.0, 0.0, -1.0 ],
+															"to": [ 4.0, 0.0, 0.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationX": -22.5,
+															"faces": {
+																"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+															}
+														}
+													]
+												},
+												{
+													"name": "Stem 1 top 4",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 4.0, 1.0, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -90.0,
+													"faces": {
+														"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "Stem 1 right 4",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 4.0, 0.0, 1.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationX": 22.5,
+															"faces": {
+																"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+															}
+														},
+														{
+															"name": "Stem 1 left 4",
+															"from": [ 0.0, 0.0, -1.0 ],
+															"to": [ 4.0, 0.0, 0.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationX": -22.5,
+															"faces": {
+																"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+															}
+														},
+														{
+															"name": "Stem 2 top 4",
+															"from": [ 4.0, 0.0, 0.0 ],
+															"to": [ 8.0, 1.0, 0.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+															"rotationY": 22.5,
+															"rotationZ": -10.0,
+															"faces": {
+																"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+															},
+															"children": [
+																{
+																	"name": "Stem 2 right 4",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 4.0, 0.0, 1.0 ],
+																	"shade": false,
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationX": 22.5,
+																	"faces": {
+																		"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+																	}
+																},
+																{
+																	"name": "Stem 2 left 4",
+																	"from": [ 0.0, 0.0, -1.0 ],
+																	"to": [ 4.0, 0.0, 0.0 ],
+																	"shade": false,
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationX": -22.5,
+																	"faces": {
+																		"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+																	}
+																},
+																{
+																	"name": "Stem 3 top 4",
+																	"from": [ 4.0, 0.0, 0.0 ],
+																	"to": [ 8.0, 1.0, 0.0 ],
+																	"shade": false,
+																	"renderPass": 1,
+																	"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+																	"rotationY": -22.5,
+																	"rotationZ": -10.0,
+																	"faces": {
+																		"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+																	},
+																	"children": [
+																		{
+																			"name": "Stem 3 right 4",
+																			"from": [ 0.0, 0.0, 0.0 ],
+																			"to": [ 4.0, 0.0, 1.0 ],
+																			"shade": false,
+																			"renderPass": 1,
+																			"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																			"rotationX": 22.5,
+																			"faces": {
+																				"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false }
+																			}
+																		},
+																		{
+																			"name": "Stem 3 left 4",
+																			"from": [ 0.0, 0.0, -1.0 ],
+																			"to": [ 4.0, 0.0, 0.0 ],
+																			"shade": false,
+																			"renderPass": 1,
+																			"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																			"rotationX": -22.5,
+																			"faces": {
+																				"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Stem 1 top 5",
+					"from": [ -2.0, 0.4, -1.0 ],
+					"to": [ 2.0, 1.4, -1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -2.0, 0.4, -1.0 ],
+					"rotationY": -112.5,
+					"faces": {
+						"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Stem 1 right 5",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 4.0, 0.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 22.5,
+							"faces": {
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+							}
+						},
+						{
+							"name": "Stem 1 left 5",
+							"from": [ 0.0, 0.0, -1.0 ],
+							"to": [ 4.0, 0.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": -22.5,
+							"faces": {
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Stem 2 top 5",
+							"from": [ 4.0, 0.0, 0.0 ],
+							"to": [ 8.0, 1.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+							"rotationY": 22.5,
+							"faces": {
+								"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Stem 2 right 5",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 4.0, 0.0, 1.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": 22.5,
+									"faces": {
+										"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+									}
+								},
+								{
+									"name": "Stem 2 left 5",
+									"from": [ 0.0, 0.0, -1.0 ],
+									"to": [ 4.0, 0.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -22.5,
+									"faces": {
+										"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "Stem 3 top 5",
+									"from": [ 4.0, 0.0, 0.0 ],
+									"to": [ 8.0, 1.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+									"rotationY": -22.5,
+									"rotationZ": -5.0,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Stem 3 right 5",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 4.0, 0.0, 1.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": 22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 3 left 5",
+											"from": [ 0.0, 0.0, -1.0 ],
+											"to": [ 4.0, 0.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": -22.5,
+											"faces": {
+												"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+											}
+										}
+									]
+								},
+								{
+									"name": "Stem 1 top 6",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 4.0, 1.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationY": 67.5,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Stem 1 right 6",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 4.0, 0.0, 1.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": 22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 1 left 6",
+											"from": [ 0.0, 0.0, -1.0 ],
+											"to": [ 4.0, 0.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": -22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 2 top 6",
+											"from": [ 4.0, 0.0, 0.0 ],
+											"to": [ 8.0, 1.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+											"rotationY": 22.5,
+											"faces": {
+												"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+											},
+											"children": [
+												{
+													"name": "Stem 2 right 6",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 4.0, 0.0, 1.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationX": 22.5,
+													"faces": {
+														"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+													}
+												},
+												{
+													"name": "Stem 2 left 6",
+													"from": [ 0.0, 0.0, -1.0 ],
+													"to": [ 4.0, 0.0, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationX": -22.5,
+													"faces": {
+														"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+													}
+												},
+												{
+													"name": "Stem 3 top 6",
+													"from": [ 4.0, 0.0, 0.0 ],
+													"to": [ 8.0, 1.0, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+													"rotationY": -22.5,
+													"faces": {
+														"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "Stem 3 right 6",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 4.0, 0.0, 1.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationX": 22.5,
+															"faces": {
+																"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false }
+															}
+														},
+														{
+															"name": "Stem 3 left 6",
+															"from": [ 0.0, 0.0, -1.0 ],
+															"to": [ 4.0, 0.0, 0.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationX": -22.5,
+															"faces": {
+																"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+															}
+														}
+													]
+												},
+												{
+													"name": "Stem 1 top 7",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 4.0, 1.0, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -90.0,
+													"faces": {
+														"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "Stem 1 right 7",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 4.0, 0.0, 1.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationX": 22.5,
+															"faces": {
+																"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+															}
+														},
+														{
+															"name": "Stem 1 left 7",
+															"from": [ 0.0, 0.0, -1.0 ],
+															"to": [ 4.0, 0.0, 0.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationX": -22.5,
+															"faces": {
+																"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+															}
+														},
+														{
+															"name": "Stem 2 top 7",
+															"from": [ 4.0, 0.0, 0.0 ],
+															"to": [ 8.0, 1.0, 0.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+															"rotationY": -22.5,
+															"rotationZ": -10.0,
+															"faces": {
+																"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+															},
+															"children": [
+																{
+																	"name": "Stem 2 right 7",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 4.0, 0.0, 1.0 ],
+																	"shade": false,
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationX": 22.5,
+																	"faces": {
+																		"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+																	}
+																},
+																{
+																	"name": "Stem 2 left 7",
+																	"from": [ 0.0, 0.0, -1.0 ],
+																	"to": [ 4.0, 0.0, 0.0 ],
+																	"shade": false,
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationX": -22.5,
+																	"faces": {
+																		"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+																	}
+																},
+																{
+																	"name": "Stem 3 top 7",
+																	"from": [ 4.0, 0.0, 0.0 ],
+																	"to": [ 8.0, 1.0, 0.0 ],
+																	"shade": false,
+																	"renderPass": 1,
+																	"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+																	"rotationZ": -10.0,
+																	"faces": {
+																		"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+																	},
+																	"children": [
+																		{
+																			"name": "Stem 3 right 7",
+																			"from": [ 0.0, 0.0, 0.0 ],
+																			"to": [ 4.0, 0.0, 1.0 ],
+																			"shade": false,
+																			"renderPass": 1,
+																			"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																			"rotationX": 22.5,
+																			"faces": {
+																				"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false }
+																			}
+																		},
+																		{
+																			"name": "Stem 3 left 7",
+																			"from": [ 0.0, 0.0, -1.0 ],
+																			"to": [ 4.0, 0.0, 0.0 ],
+																			"shade": false,
+																			"renderPass": 1,
+																			"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																			"rotationX": -22.5,
+																			"faces": {
+																				"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Stem 1 top 8",
+					"from": [ -2.0, 0.4, -1.0 ],
+					"to": [ 2.0, 1.4, -1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -2.0, 0.4, -1.0 ],
+					"rotationY": 45.0,
+					"rotationZ": 22.5,
+					"faces": {
+						"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Stem 1 right 8",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 4.0, 0.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 22.5,
+							"faces": {
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+							}
+						},
+						{
+							"name": "Stem 1 left 8",
+							"from": [ 0.0, 0.0, -1.0 ],
+							"to": [ 4.0, 0.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": -22.5,
+							"faces": {
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Stem 2 top 8",
+							"from": [ 4.0, 0.0, 0.0 ],
+							"to": [ 8.0, 1.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+							"rotationY": -22.5,
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Stem 2 right 8",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 4.0, 0.0, 1.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": 22.5,
+									"faces": {
+										"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+									}
+								},
+								{
+									"name": "Stem 2 left 8",
+									"from": [ 0.0, 0.0, -1.0 ],
+									"to": [ 4.0, 0.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -22.5,
+									"faces": {
+										"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "Stem 3 top 8",
+									"from": [ 4.0, 0.0, 0.0 ],
+									"to": [ 8.0, 1.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+									"rotationY": -22.5,
+									"rotationZ": 22.5,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Stem 3 right 8",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 4.0, 0.0, 1.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": 22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 3 left 8",
+											"from": [ 0.0, 0.0, -1.0 ],
+											"to": [ 4.0, 0.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": -22.5,
+											"faces": {
+												"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+											}
+										}
+									]
+								},
+								{
+									"name": "Stem 1 top 9",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 4.0, 1.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationY": -90.0,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Stem 1 right 9",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 4.0, 0.0, 1.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": 22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 1 left 9",
+											"from": [ 0.0, 0.0, -1.0 ],
+											"to": [ 4.0, 0.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": -22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 2 top 9",
+											"from": [ 4.0, 0.0, 0.0 ],
+											"to": [ 8.0, 1.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+											"rotationY": 22.5,
+											"faces": {
+												"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+											},
+											"children": [
+												{
+													"name": "Stem 2 right 9",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 4.0, 0.0, 1.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationX": 22.5,
+													"faces": {
+														"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+													}
+												},
+												{
+													"name": "Stem 2 left 9",
+													"from": [ 0.0, 0.0, -1.0 ],
+													"to": [ 4.0, 0.0, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationX": -22.5,
+													"faces": {
+														"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+													}
+												},
+												{
+													"name": "Stem 3 top 9",
+													"from": [ 4.0, 0.0, 0.0 ],
+													"to": [ 8.0, 1.0, 0.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+													"rotationZ": 22.5,
+													"faces": {
+														"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+													},
+													"children": [
+														{
+															"name": "Stem 3 right 9",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 4.0, 0.0, 1.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationX": 22.5,
+															"faces": {
+																"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false }
+															}
+														},
+														{
+															"name": "Stem 3 left 9",
+															"from": [ 0.0, 0.0, -1.0 ],
+															"to": [ 4.0, 0.0, 0.0 ],
+															"shade": false,
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationX": -22.5,
+															"faces": {
+																"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Stem 1 top 10",
+					"from": [ 4.0, 0.4, 0.0 ],
+					"to": [ 8.0, 1.4, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 4.0, 0.4, 0.0 ],
+					"rotationY": 112.5,
+					"faces": {
+						"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Stem 1 right 10",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 4.0, 0.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 22.5,
+							"faces": {
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+							}
+						},
+						{
+							"name": "Stem 1 left 10",
+							"from": [ 0.0, 0.0, -1.0 ],
+							"to": [ 4.0, 0.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": -22.5,
+							"faces": {
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Stem 2 top 10",
+							"from": [ 4.0, 0.0, 0.0 ],
+							"to": [ 8.0, 1.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+							"rotationY": 22.5,
+							"faces": {
+								"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Stem 2 right 10",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 4.0, 0.0, 1.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": 22.5,
+									"faces": {
+										"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "rotation": 180, "autoUv": false }
+									}
+								},
+								{
+									"name": "Stem 2 left 10",
+									"from": [ 0.0, 0.0, -1.0 ],
+									"to": [ 4.0, 0.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+									"rotationX": -22.5,
+									"faces": {
+										"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 0.0, 4.0, 2.0 ], "autoUv": false }
+									}
+								},
+								{
+									"name": "Stem 3 top 10",
+									"from": [ 4.0, 0.0, 0.0 ],
+									"to": [ 8.0, 1.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 4.0, 0.0, 0.0 ],
+									"rotationY": -22.5,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Stem 3 right 10",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 4.0, 0.0, 1.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": 22.5,
+											"faces": {
+												"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "rotation": 180, "autoUv": false }
+											}
+										},
+										{
+											"name": "Stem 3 left 10",
+											"from": [ 0.0, 0.0, -1.0 ],
+											"to": [ 4.0, 0.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationX": -22.5,
+											"faces": {
+												"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Flower stem 1",
+			"from": [ 4.4, 0.8, 10.7 ],
+			"to": [ 4.9, 1.8, 11.2 ],
+			"shade": false,
+			"rotationOrigin": [ 4.4, 0.8, 10.7 ],
+			"faces": {
+				"north": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 2.0, 3.0, 4.0, 4.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"east": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 2.0, 3.0, 4.0, 4.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"south": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 2.0, 3.0, 4.0, 4.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+				"west": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 2.0, 3.0, 4.0, 4.0 ], "rotation": 90, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+			},
+			"children": [
+				{
+					"name": "Flowerbloom 1 1",
+					"from": [ 0.0, 1.0, 0.0 ],
+					"to": [ 3.0, 1.0, 3.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"rotationX": -12.5,
+					"rotationZ": 12.5,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Flowerbloom 2 1",
+					"from": [ 0.0, 1.0, -2.5 ],
+					"to": [ 3.0, 1.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 1.0, 0.5 ],
+					"rotationX": 12.0,
+					"rotationZ": 12.0,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Flowerbloom 3 1",
+					"from": [ -2.5, 1.0, -2.5 ],
+					"to": [ 0.5, 1.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+					"rotationX": 12.0,
+					"rotationZ": -12.0,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "rotation": 270, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Flowerbloom 4 1",
+					"from": [ -2.5, 1.0, 0.0 ],
+					"to": [ 0.5, 1.0, 3.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 1.0, 0.0 ],
+					"rotationX": -12.5,
+					"rotationZ": -12.5,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Flowerpetals 1 1",
+					"from": [ 0.0, 1.0, 0.0 ],
+					"to": [ 4.0, 1.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"rotationX": -32.5,
+					"rotationZ": 52.5,
+					"faces": {
+						"down": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Flowerpetals 2 1",
+					"from": [ 0.0, 1.0, -3.5 ],
+					"to": [ 4.0, 1.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 1.0, 0.5 ],
+					"rotationX": 32.0,
+					"rotationZ": 52.0,
+					"faces": {
+						"down": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 270, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Flowerpetals 3 1",
+					"from": [ -3.5, 1.0, -3.5 ],
+					"to": [ 0.5, 1.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+					"rotationX": 32.0,
+					"rotationZ": -52.0,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "Flowerpetals 4 1",
+					"from": [ -3.5, 1.0, 0.0 ],
+					"to": [ 0.5, 1.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 1.0, 0.0 ],
+					"rotationX": -32.5,
+					"rotationZ": -52.5,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "Stamen 1",
+					"from": [ 0.0, 1.6, 0.0 ],
+					"to": [ 0.5, 2.6, 0.5 ],
+					"shade": false,
+					"rotationOrigin": [ 0.0, 1.6, 0.0 ],
+					"faces": {
+						"north": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 3.0, 2.0, 4.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 3.0, 2.0, 4.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 3.0, 2.0, 4.0 ], "rotation": 270, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 3.0, 2.0, 4.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 1.0, 3.0, 2.0, 4.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Flower stem 2",
+			"from": [ 10.4, 0.8, 4.8 ],
+			"to": [ 10.9, 1.8, 5.3 ],
+			"shade": false,
+			"rotationOrigin": [ 10.4, 0.8, 4.8 ],
+			"rotationY": 22.5,
+			"faces": {
+				"north": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 2.0, 3.0, 4.0, 4.0 ], "rotation": 90, "autoUv": false },
+				"east": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 2.0, 3.0, 4.0, 4.0 ], "rotation": 270, "autoUv": false },
+				"south": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 2.0, 3.0, 4.0, 4.0 ], "rotation": 270, "autoUv": false },
+				"west": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 2.0, 3.0, 4.0, 4.0 ], "rotation": 90, "autoUv": false }
+			},
+			"children": [
+				{
+					"name": "Flowerbloom 1 2",
+					"from": [ 0.0, 1.0, 0.0 ],
+					"to": [ 3.0, 1.0, 3.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"rotationX": -12.5,
+					"rotationZ": 12.5,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Flowerbloom 2 2",
+					"from": [ 0.0, 1.0, -2.5 ],
+					"to": [ 3.0, 1.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 1.0, 0.5 ],
+					"rotationX": 12.0,
+					"rotationZ": 12.0,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 0.0, 3.0, 3.0 ] }
+					}
+				},
+				{
+					"name": "Flowerbloom 3 2",
+					"from": [ -2.5, 1.0, -2.5 ],
+					"to": [ 0.5, 1.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+					"rotationX": 12.0,
+					"rotationZ": -12.0,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "Flowerbloom 4 2",
+					"from": [ -2.5, 1.0, 0.0 ],
+					"to": [ 0.5, 1.0, 3.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 1.0, 0.0 ],
+					"rotationX": -12.5,
+					"rotationZ": -12.5,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "Flowerpetals 1 2",
+					"from": [ 0.0, 1.0, 0.0 ],
+					"to": [ 4.0, 1.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"rotationX": -32.5,
+					"rotationZ": 52.5,
+					"faces": {
+						"down": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "Flowerpetals 2 2",
+					"from": [ 0.0, 1.0, -3.5 ],
+					"to": [ 4.0, 1.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 1.0, 0.5 ],
+					"rotationX": 32.0,
+					"rotationZ": 52.0,
+					"faces": {
+						"down": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "Flowerpetals 3 2",
+					"from": [ -3.5, 1.0, -3.5 ],
+					"to": [ 0.5, 1.0, 0.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+					"rotationX": 32.0,
+					"rotationZ": -52.0,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "Flowerpetals 4 2",
+					"from": [ -3.5, 1.0, 0.0 ],
+					"to": [ 0.5, 1.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.5, 1.0, 0.0 ],
+					"rotationX": -32.5,
+					"rotationZ": -52.5,
+					"faces": {
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "Stamen 2",
+					"from": [ 0.0, 1.6, 0.0 ],
+					"to": [ 0.5, 2.6, 0.5 ],
+					"shade": false,
+					"rotationOrigin": [ 0.0, 1.6, 0.0 ],
+					"faces": {
+						"north": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 3.0, 2.0, 4.0 ], "rotation": 270, "autoUv": false },
+						"east": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 3.0, 2.0, 4.0 ], "rotation": 180, "autoUv": false },
+						"south": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 3.0, 2.0, 4.0 ], "rotation": 270, "autoUv": false },
+						"west": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 0.0, 3.0, 2.0, 4.0 ], "rotation": 180, "autoUv": false },
+						"up": { "texture": "#selenicereuscostaricensis-flower", "uv": [ 1.0, 3.0, 2.0, 4.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

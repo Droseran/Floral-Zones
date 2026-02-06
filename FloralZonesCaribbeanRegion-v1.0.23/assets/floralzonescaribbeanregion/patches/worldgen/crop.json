@@ -1,0 +1,77 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Blue Agave",
+          "blockCodes": [
+            "floralzonescaribbeanregion:crop-agavetequilana-4", "floralzonescaribbeanregion:crop-agavetequilana-6", "floralzonescaribbeanregion:crop-agavetequilana-2", "floralzonescaribbeanregion:crop-agavetequilana-9"
+          ],
+          "minTemp": 16,
+          "maxTemp": 24,
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minRain": 0.08,
+          "maxRain": 0.32,
+          "chance": 1,
+		  "minY": 0.45,
+          "maxY": 0.65,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Blue Agave",
+          "blockCodes": [
+            "floralzonescaribbeanregion:crop-agavetequilana-4", "floralzonescaribbeanregion:crop-agavetequilana-6", "floralzonescaribbeanregion:crop-agavetequilana-2", "floralzonescaribbeanregion:crop-agavetequilana-9"
+          ],
+          "minTemp": 16,
+          "maxTemp": 24,
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minRain": 0.08,
+          "maxRain": 0.32,
+          "chance": 0.02,
+		  "minY": 0,
+          "maxY": 0.5,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Mexican Cotton",
+          "blockCodes": [
+            "floralzonescaribbeanregion:crop-gossypiumhirsutum-4", "floralzonescaribbeanregion:crop-gossypiumhirsutum-1", "floralzonescaribbeanregion:crop-gossypiumhirsutum-2", "floralzonescaribbeanregion:crop-gossypiumhirsutum-3"
+          ],
+          "minTemp": 22,
+          "maxTemp": 32,
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minRain": 0.31,
+          "maxRain": 0.73,
+          "chance": 0.1,
+		  "minY": 0,
+          "maxY": 0.6,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      }
+]

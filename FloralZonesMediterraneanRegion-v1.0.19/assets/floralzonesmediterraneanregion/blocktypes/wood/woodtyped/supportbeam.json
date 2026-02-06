@@ -1,0 +1,56 @@
+{
+	"code": "supportbeam",
+	"class": "BlockSupportBeam",
+	"entityclass": "Generic",
+	"heldTpUseAnimation": "interactstatic-beams",
+	"attributes": {
+		"unstableRockStabilization": 3,
+		"partialEnds": true,
+        "handbook": {
+            "groupBy": ["supportbeam-*"]
+        }
+	},
+	"entitybehaviors": [ { "name": "SupportBeam" } ],
+	"variantgroups": [
+		{ "code": "wood", "loadFromProperties": "floralzonesmediterraneanregion:block/wood" }
+	],
+	"creativeinventory": { "general": ["*"], "construction": ["*"] },
+	"shape": { "base": "game:block/wood/supportbeam/16" },
+	"blockmaterial": "Wood",
+	"drawtype": "json",
+	"textures": {
+		"wood": { "base": "game:block/wood/debarked/{wood}*"  }
+	},
+	"faceCullMode": "NeverCull",
+	"sideopaque": { "all": false },
+	"emitSideAo": { "all": false },
+	"sideSolid": { "all": false },
+	"lightAbsorption": 0,
+	"rainPermeable": true,
+	"resistance": 3.5,
+	"sounds": {
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"place": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"combustiblePropsByType": {
+		"*": {
+			"burnTemperature": 600,
+			"burnDuration": 20
+		}
+	},
+	"maxstacksize": 32,
+	"materialDensity": 600,
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	},
+	"guiTransform": {
+		"rotation": { "x": -22.6, "y": -64, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 2.24
+	},
+	"drops": []
+}

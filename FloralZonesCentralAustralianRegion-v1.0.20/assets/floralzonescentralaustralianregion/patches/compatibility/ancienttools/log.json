@@ -1,0 +1,73 @@
+[
+    {
+        "op": "add",
+        "path": "/attributes/woodStrippable",
+        "value": {
+            "resultingLog": "floralzonescentralaustralianregion:debarkedlog-{wood}-{rotation}", 
+            "barkMultiplier": 1
+        },
+        "file": "floralzonescentralaustralianregion:blocktypes/wood/woodtyped/log",
+		"dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server"
+    },
+    {
+        "op": "add",
+        "path": "/behaviorsByType/*-grown-*/-",
+        "value": { "name": "SplitLog", 
+            properties: { 
+			wedgebox1: { x1: 0.0, y1: 1.0, z1: 0.0, x2: 1.0, y2: 1.1, z2: 1.0 },
+			wedgebox2: { x1: 0.0, y1: 0.0, z1: 0.0, x2: 1.0, y2: -0.1, z2: 1.0 }
+		    }  
+        },
+        "file": "floralzonescentralaustralianregion:blocktypes/wood/woodtyped/log",
+		"dependsOn": [ { "modid": "ancienttools" }],
+        "side": "Server",
+    },
+    {
+        "op": "add",
+        "path": "/behaviorsByType/*/-",
+        "value": { "name": "SplitLog", 
+            properties: { 
+			wedgebox1: { x1: 0.2, y1: 1.0, z1: 0.4, x2: 0.4, y2: 1.1, z2: 0.6 },
+			wedgebox2: { x1: 0.6, y1: 1.0, z1: 0.4, x2: 0.8, y2: 1.1, z2: 0.6 },
+			wedgebox3: { x1: 0.2, y1: -0.1, z1: 0.4, x2: 0.4, y2: 0.0, z2: 0.6 },
+			wedgebox4: { x1: 0.6, y1: -0.1, z1: 0.4, x2: 0.8, y2: 0.0, z2: 0.6 },
+		    }  
+        },
+        "file": "floralzonescentralaustralianregion:blocktypes/wood/woodtyped/log",
+		"dependsOn": [ { "modid": "ancienttools" }],
+        "side": "Server",
+    },
+    {
+        "op": "move",
+		"frompath": "/behaviorsByType/*-grown-*",
+		"path": "/temp",
+		"file": "floralzonescaperegion:blocktypes/wood/woodtyped/log",
+		"dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server",
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/behaviorsByType/*-grown-*",
+		"file": "floralzonescaperegion:blocktypes/wood/woodtyped/log",
+		"dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server",
+    },
+    {
+        "op": "move",
+		"frompath": "/behaviorsByType/*",
+		"path": "/temp",
+		"file": "floralzonescaperegion:blocktypes/wood/woodtyped/log",
+		"dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server",
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/behaviorsByType/*",
+		"file": "floralzonescaperegion:blocktypes/wood/woodtyped/log",
+		"dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server",
+    }
+]

@@ -1,0 +1,196 @@
+{
+	"code": "fruit",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "fruit","loadFromProperties": "floralzonescosmopolitanregion:block/fruit" }
+	],
+	"attributes": {
+		"foodTags": ["{fruit}"],
+		"nutritionPropsWhenInMeal": {
+			"satietyByType":  { 
+				"*-caricapapaya": 150,
+				"*-cocosnucifera": 120,
+				"*-cucurbitaficifolia": 150,
+				"*-empetrumnigrum": 90,
+				"*-juniperuscommunis": 90,
+				"*-rubuschamaemorus": 90,
+				"*-vanillaplanifolia": 90,
+			},
+			"foodcategory": "Fruit" 
+		},
+		"inPiePropertiesByType": {
+			"*-cocosnucifera": { "texture": "game:block/food/pie/fill-lychee", "partType": "Filling" },
+			"*-empetrumnigrum": { "texture": "game:block/food/pie/fill-plum", "partType": "Filling" },
+			"*-juniperuscommunis": { "texture": "game:block/food/pie/fill-pineapple", "partType": "Filling" },
+			"*-rubuschamaemorus": { "texture": "game:block/food/pie/fill-orange", "partType": "Filling" },
+			"*-vanillaplanifolia": { "texture": "game:block/food/pie/fill-breadfruit", "partType": "Filling" },
+			"*": { "texture": "block/food/pie/fill-{fruit}", "partType": "Filling" }
+		},
+		"juiceablePropertiesByType": {
+			"*-caricapapaya": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescosmopolitanregion:juiceportion-caricapapaya", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescosmopolitanregion:pressedmash-caricapapaya", "stacksize": 1 }
+			},
+			"*-cucurbitaficifolia": {
+				"litresPerItem": 5,
+				"liquidStack": { "type": "item", "code": "floralzonescosmopolitanregion:juiceportion-cucurbitaficifolia", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescosmopolitanregion:pressedmash-cucurbitaficifolia", "stacksize": 1 }
+			},
+			"*-empetrumnigrum": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescosmopolitanregion:juiceportion-empetrumnigrum", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescosmopolitanregion:pressedmash-empetrumnigrum", "stacksize": 1 }
+			},
+			"*-juniperuscommunis": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescosmopolitanregion:juiceportion-juniperuscommunis", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescosmopolitanregion:pressedmash-juniperuscommunis", "stacksize": 1 }
+			},
+			"*-rubuschamaemorus": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescosmopolitanregion:juiceportion-rubuschamaemorus", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescosmopolitanregion:pressedmash-rubuschamaemorus", "stacksize": 1 }
+			}
+		}
+	},
+	"shapebytype": { 
+		"*": { "base": "item/food/fruit/{fruit}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-caricapapaya": { "satiety": 100, "foodcategory": "Fruit" },
+		"*-cocosnucifera": { "satiety": 80, "foodcategory": "Fruit" },
+		"*-cucurbitaficifolia": { "satiety": 100, "foodcategory": "Fruit" },
+		"*-empetrumnigrum": { "satiety": 60, "foodcategory": "Fruit" },
+		"*-juniperuscommunis": { "satiety": 60, "foodcategory": "Fruit" },
+		"*-rubuschamaemorus": { "satiety": 60, "foodcategory": "Fruit" },
+		"*-vanillaplanifolia": { "satiety": 60, "foodcategory": "Fruit" },
+		"*-lagunculariaracemosa": { "satiety": 20, "foodcategory": "Fruit" },
+		"*-sonneratiacaseolaris": { "satiety": 20, "foodcategory": "Fruit" },
+	},
+	"transitionablePropsByType": {
+		"*-caricapapaya": [{
+			"type": "Perish",
+			"freshHours": { "avg": 120 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "floralzonescosmopolitanregion:treeseed-caricapapaya" },
+			"transitionRatio": 0.25
+		}],
+		"*-cocosnucifera": [{
+			"type": "Perish",
+			"freshHours": { "avg": 648 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-cucurbitaficifolia": [{
+			"type": "Perish",
+			"freshHours": { "avg": 5184 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-empetrumnigrum": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1296 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-juniperuscommunis": [{
+			"type": "Perish",
+			"freshHours": { "avg": 2592 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-rubuschamaemorus": [{
+			"type": "Perish",
+			"freshHours": { "avg": 54 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-vanillaplanifolia": [{
+			"type": "Perish",
+			"freshHours": { "avg": 5184 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-lagunculariaracemosa": [{
+			"type": "Perish",
+			"freshHours": { "avg": 216 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "floralzonescosmopolitanregion:treeseed-lagunculariaracemosa" },
+			"transitionRatio": 0.25
+		}],
+		"*-sonneratiacaseolaris": [{
+			"type": "Perish",
+			"freshHours": { "avg": 216 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "floralzonescosmopolitanregion:treeseed-sonneratiacaseolaris" },
+			"transitionRatio": 0.25
+		}],
+	},
+	"grindingPropsByType": {
+		"*-cocosnucifera": { "groundStack": { "type": "item", "code": "flour-cocosnucifera" }}
+	},
+	"guiTransformByType": {
+		"*-cucurbitaficifolia": {
+			"translation": { "x": 2, "y": 3, "z": 0 },
+			"rotation": { "x": 27, "y": 0, "z": 23 },
+			"origin": { "x": 0.45, "y": 0.3, "z": 0.5 },
+			"scale": 2.0
+		},
+		"*-juniperuscommunis": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 98, "y": -4, "z": -20 },
+			"origin": { "x": 0.52, "y": 0.15, "z": 0.52 },
+			"scale": 2.0
+		},
+		"*-rubuschamaemorus": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 143, "y": -37, "z": 18 },
+			"origin": { "x": 0.5, "y": 0.15, "z": 0.52 },
+			"scale": 4.75
+		},
+		"*-sonneratiacaseolaris": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 143, "y": 58, "z": -37 },
+			"origin": { "x": 0.45, "y": 0.15, "z": 0.45 },
+			"scale": 3.0
+		},
+		"*-vanillaplanifolia": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 143, "y": -47, "z": -37 },
+			"origin": { "x": 0.5299, "y": 0.05, "z": 0.5299 },
+			"scale": 3.8
+		},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 143, "y": -47, "z": -37 },
+			"origin": { "x": 0.5299, "y": 0.15, "z": 0.5299 },
+			"scale": 3.0
+		}
+	},
+	"fpHandTransformByType": {
+		"*":{
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 6, "y": 22, "z": 3 },
+		"origin": { "x": 0.3, "y": 0.8, "z": 0.7 }
+	}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -1.5, "y": -1.5, "z": -1.4 },
+			"rotation": { "x": 12, "y": -5, "z": 74 }
+		},
+	},
+	"groundTransformByType": {
+		"*": { 
+			"scale": 1.0
+		}
+	}
+}

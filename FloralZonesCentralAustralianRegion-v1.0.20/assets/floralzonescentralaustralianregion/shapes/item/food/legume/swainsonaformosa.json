@@ -1,0 +1,92 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"swainsonaformosa": [4,4]
+	},
+	"textures": {
+		"swainsonaformosa": "item/food/legume/swainsonaformosa"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "tip",
+					"from": [ 0.0, -2.0, -0.2 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, -0.2 ],
+					"rotationX": -45.0,
+					"faces": {
+						"east": { "texture": "#swainsonaformosa", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#swainsonaformosa", "uv": [ 0.0, 0.0, 0.5, 4.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "lower body",
+					"from": [ -0.2, 0.0, -0.2 ],
+					"to": [ 0.2, 2.0, 0.4 ],
+					"rotationOrigin": [ -0.2, 0.0, -0.2 ],
+					"rotationX": -12.5,
+					"faces": {
+						"north": { "texture": "#swainsonaformosa", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#swainsonaformosa", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "autoUv": false },
+						"south": { "texture": "#swainsonaformosa", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "autoUv": false },
+						"west": { "texture": "#swainsonaformosa", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "autoUv": false },
+						"down": { "texture": "#swainsonaformosa", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "upper body",
+							"from": [ -0.1, 2.0, 0.0 ],
+							"to": [ 0.5, 4.0, 0.6 ],
+							"rotationOrigin": [ -0.1, 2.0, 0.0 ],
+							"rotationX": 12.0,
+							"faces": {
+								"north": { "texture": "#swainsonaformosa", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "autoUv": false },
+								"east": { "texture": "#swainsonaformosa", "uv": [ 1.0, 0.0, 2.0, 4.0 ], "autoUv": false },
+								"south": { "texture": "#swainsonaformosa", "uv": [ 0.0, 0.0, 1.0, 4.0 ], "autoUv": false },
+								"west": { "texture": "#swainsonaformosa", "uv": [ 1.0, 0.0, 2.0, 4.0 ], "autoUv": false }
+							},
+							"children": [
+								{
+									"name": "Cap",
+									"from": [ -0.1, 1.4, -0.1 ],
+									"to": [ 0.7, 2.4, 0.7 ],
+									"rotationOrigin": [ -0.1, 1.4, -0.1 ],
+									"faces": {
+										"north": { "texture": "#swainsonaformosa", "uv": [ 2.0, 0.5, 3.0, 1.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+										"east": { "texture": "#swainsonaformosa", "uv": [ 3.0, 0.5, 4.0, 1.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+										"south": { "texture": "#swainsonaformosa", "uv": [ 2.0, 0.5, 3.0, 1.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+										"west": { "texture": "#swainsonaformosa", "uv": [ 3.0, 0.5, 4.0, 1.5 ], "autoUv": false, "windMode": [-1,-1,-1,-1] },
+										"up": { "texture": "#swainsonaformosa", "uv": [ 2.0, 0.0, 3.0, 1.0 ], "autoUv": false }
+									},
+									"children": [
+										{
+											"name": "Cube2",
+											"from": [ 0.4, 1.0, 0.3 ],
+											"to": [ 0.4, 2.0, 0.5 ],
+											"rotationOrigin": [ 0.4, 1.0, 0.5 ],
+											"rotationX": -22.5,
+											"faces": {
+												"west": { "texture": "#swainsonaformosa", "uv": [ 2.0, 0.0, 2.5, 2.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

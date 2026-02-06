@@ -1,0 +1,98 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"plantContainable": {
+			"smallContainerByType": {
+				"*-enchylaenatomentosa-*": {"shape": { "base": "block/plant/berrybush/solanumellipticum-potted"},"textures": {"flower": { "base": "block/plant/berrybush/solanumellipticum-{state}" }}}
+				},
+			"largeContainerByType": {
+				"*-enchylaenatomentosa-*": {"shape": { "base": "block/plant/berrybush/solanumellipticum-potted"},"textures": {"flower": { "base": "block/plant/berrybush/solanumellipticum-{state}" }}}
+					}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 4,
+		"resetBelowTemperature": 6,
+		"stopBelowTemperature": 8,
+		
+		"revertBlockAboveTemperature": 48,
+		"resetAboveTemperature": 44,
+		"stopAboveTemperature": 40,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 2.25, "var": 0.09 },
+		"*-flowering": { "avg": 3.04, "var": 0.09 },
+		"*-ripe": { "avg": 0.98, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescentralaustralianregion:fruit-{type}", "quantity": { "avg": 4.4 }  },
+			"harvestedBlockCode": "floralzonescentralaustralianregion:smallberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["enchylaenatomentosa"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-enchylaenatomentosa-*": { "base": "block/plant/berrybush/solanumellipticum"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-enchylaenatomentosa-*": {
+		 "flower": { "base": "block/plant/berrybush/enchylaenatomentosa-{state}" }}
+		},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+  	"inside": "game:walk/grass"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescentralaustralianregion:fruit-{type}", "quantity": { "avg": 4.4 }  },
+			{ "type": "block", "code": "floralzonescentralaustralianregion:smallberrybush-enchylaenatomentosa-empty", "quantity": { "avg": 1 }  },
+		],
+		"*": [			{ "type": "block", "code": "smallberrybush-enchylaenatomentosa-empty", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

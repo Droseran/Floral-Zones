@@ -1,0 +1,52 @@
+{
+	"treeWorldPropertyCode": "ceibapentandralarge",
+	"isTropical": true,
+	"sizeMultiplier": 2.5,
+	"trunks": [{
+		"widthloss": 0.075,
+		"dieAt": { "avg": 0.001 },
+		"branchStart": { "dist": "gaussian", "avg": 0.7, "var": 0.2 },
+		"branchSpacing": { "avg": 0.15, "var": 0.005 },
+		"branchVerticalAngle":  { "dist": "gaussian", "avg": 0.8, "var": 0.1 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 1, "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 0.05 },
+		"branchQuantity": { "avg": 4, "var": 0 },
+		"branchQuantityEvolve": { "transform": "quadratic", "factor": 0.2 }
+		},
+		{
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt"] },
+		"dieAt": { "avg": 0.1, "var": 0.05 },
+		"dx": 1,
+		"dz": 0
+	}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt"] },
+		"dieAt": { "avg": 0.2, "var": 0.05 },
+		"dx": 0,
+		"dz": 1
+
+	}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt"] },
+		"dieAt": { "avg": 0.3	, "var": 0.05 },
+		"dx": 1,
+		"dz": 1
+	}],
+	"branches": [{
+		"widthLoss": 0.075,
+		"gravityDrag": 0.005,
+
+		"branchStart":  { "avg": 0.7, "var": 0.1 },
+		"branchSpacing": { "avg": 0, "var": 0 },
+		"branchVerticalAngle": { "avg": 1.57, "var": 1.57 },
+		"branchHorizontalAngle": { "avg": 0, "var": 2.1415 },
+
+		"branchQuantity": { "avg": 2, "var": 0 },
+		"branchWidthMultiplier": { "avg": 0.06, "var": 0 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "log-grown-kapok-ud",
+		"leavesBlockCode": "leaves-grown-kapok",
+		"leavesBranchyBlockCode": "leavesbranchy-grown-kapok",
+		"mossDecorCode": "attachingplant-spottymoss"
+	}
+}

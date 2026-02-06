@@ -1,0 +1,126 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["liliumauratum","luffaaegyptiaca","petasitesjaponicus","puerariamontana"] }
+    ],
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-liliumauratum": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  250,
+				"foodcategory": "Vegetable" }
+	},
+		"*-luffaaegyptiaca": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  250,
+				"foodcategory": "Vegetable" },
+				"inPieProperties": {"texture": "game:block/food/pie/fill-olive", "partType": "Filling" }
+		},
+		"*-petasitesjaponicus": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  250,
+				"foodcategory": "Vegetable" }
+	},
+		"*-puerariamontana": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  100,
+				"foodcategory": "Vegetable" }
+	}
+	},
+	"shapebytype": {
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"texturebytype": {
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-liliumauratum": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-luffaaegyptiaca": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-petasitesjaponicus": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-puerariamontana": { "satiety": 40, "foodcategory": "Vegetable" },
+	},
+	"transitionablePropsByType": {
+		"*-liliumauratum": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1000 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-luffaaegyptiaca": [{
+			"type": "Perish",
+			"freshHours": { "avg": 72 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-petasitesjaponicus": [{
+			"type": "Perish",
+			"freshHours": { "avg": 72 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-puerariamontana": [{
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}]
+	},
+	"guiTransformByType": {
+		"*-luffaaegyptiaca": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": -98, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 3.0
+		},
+		"*-petasitesjaponicus": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": -40, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.0
+		},
+		"*-puerariamontana": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 135, "y": -180, "z": 27 },
+			"origin": { "x": 0.6, "y": 0.3, "z": 0.5 },
+			"scale": 3.0
+		},
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 3.0
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.0
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -1, "y": -0.1, "z": -0.9 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.59
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	},
+}

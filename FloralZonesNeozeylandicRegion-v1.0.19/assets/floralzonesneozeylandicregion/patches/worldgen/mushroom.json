@@ -1,0 +1,20 @@
+[
+	{
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Patches of Tank Lily",
+		"blockCodes": ["floralzonesneozeylandicregion:mushroom-asteliahastata-normal-north"],
+		"placement": "OnTrees",
+		"treeType": "Any",
+		"minRain": 0.29,
+		"minTemp": 10,
+		"maxTemp": 16,
+        "maxY": 0.39,
+		"quantity": { "avg": 20, "var": 19 },
+		"chance": 9
+	},
+        "file": "game:worldgen/blockpatches/mushroom.json",
+        "side": "server",
+	      },
+]

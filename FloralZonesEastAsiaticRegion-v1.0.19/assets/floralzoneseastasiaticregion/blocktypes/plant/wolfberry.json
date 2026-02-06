@@ -1,0 +1,91 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": -6,
+		"resetBelowTemperature": -4,
+		"stopBelowTemperature": -2,
+		
+		"revertBlockAboveTemperature": 45,
+		"resetAboveTemperature": 41,
+		"stopAboveTemperature": 37,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 3.25, "var": 0.09 },
+		"*-flowering": { "avg": 3.04, "var": 0.09 },
+		"*-ripe": { "avg": 0.58, "var": 0.09 }},
+		"stackable": true
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzoneseastasiaticregion:fruit-{type}", "quantity": { "avg": 5.1 }  },
+			"harvestedBlockCode": "floralzoneseastasiaticregion:bigberrybush-{type}-empty"
+		}} ],
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["lyciumbarbarum"] },
+		{ "code": "state", "states": ["empty","flowering","ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*": { "base": "block/plant/berrybush/lyciumbarbarum" }
+	},
+	"randomizeRotations": false,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-lyciumbarbarum-empty": {
+		"flower": { "base": "block/plant/berrybush/lyciumbarbarum-empty" }
+		},
+		"*-lyciumbarbarum-flowering": {
+			"flower": { "base": "block/plant/berrybush/lyciumbarbarum-flowering" }
+		},
+		"*-lyciumbarbarum-ripe": {
+			"flower": { "base": "block/plant/berrybush/lyciumbarbarum-ripe" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 5,
+	"collisionbox": null,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-lyciumbarbarum-ripe": [{ "type": "item", "code": "floralzoneseastasiaticregion:fruit-{type}", "quantity": { "avg": 4.5 }}, {"type": "block", "code": "floralzoneseastasiaticregion:bigberrybush-lyciumbarbarum-empty", "quantity": { "avg": 1 }}],
+		"*": [{ "type": "block", "code": "floralzoneseastasiaticregion:bigberrybush-lyciumbarbarum-empty", "quantity": { "avg": 1 }}]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

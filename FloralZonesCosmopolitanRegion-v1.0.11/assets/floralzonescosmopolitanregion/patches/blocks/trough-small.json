@@ -1,0 +1,102 @@
+[
+     {
+        "op": "addeach",
+        "path": "/attributes/contentConfig/0",
+        "side": "server",
+        "value": [ 
+            { "code": "zeamays",
+                "content": { "type": "item", "code": "floralzonescosmopolitanregion:grain-zeamays" },
+			         	"foodFor": ["chicken-*"],
+                "quantityPerFillLevel": 1,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", 
+                                        "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2",
+                                        "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3",
+                                        "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4" ],
+                "textureCode": "contents-spelt" },
+            { "code": "caricapapayafruitmash",
+                "content": { "type": "item", "code": "floralzonescosmopolitanregion:pressedmash-caricapapaya" },
+                "quantityPerFillLevel":1,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", 
+                                        "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2",
+                                        "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3",
+                                        "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4" ],
+                "textureCode": "contents-pressedmash-caricapapaya" },
+            { "code": "cucurbitaficifoliafruitmash",
+                "content": { "type": "item", "code": "floralzonescosmopolitanregion:pressedmash-cucurbitaficifolia" },
+                "quantityPerFillLevel": 1,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", 
+                                        "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2",
+                                        "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3",
+                                        "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4" ],
+                "textureCode": "contents-pressedmash-cucurbitaficifolia" },
+            { "code": "empetrumnigrumfruitmash",
+                "content": { "type": "item", "code": "floralzonescosmopolitanregion:pressedmash-empetrumnigrum" },
+                "quantityPerFillLevel": 1,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", 
+                                        "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2",
+                                        "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3",
+                                        "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4" ],
+                "textureCode": "contents-pressedmash-empetrumnigrum" },
+            { "code": "juniperuscommunisfruitmash",
+                "content": { "type": "item", "code": "floralzonescosmopolitanregion:pressedmash-juniperuscommunis" },
+                "quantityPerFillLevel": 1,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", 
+                                        "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2",
+                                        "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3",
+                                        "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4" ],
+                "textureCode": "contents-pressedmash-juniperuscommunis" },
+            { "code": "rubuschamaemorusfruitmash",
+                "content": { "type": "item", "code": "floralzonescosmopolitanregion:pressedmash-rubuschamaemorus" },
+                "quantityPerFillLevel": 1,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", 
+                                        "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2",
+                                        "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3",
+                                        "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4" ],
+                "textureCode": "contents-pressedmash-rubuschamaemorus" } ],
+        "file": "game:blocktypes/wood/trough-small.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-pressedmash-caricapapaya": {
+                "base": "block/food/pie/fill-caricapapaya",
+                "overlays": [
+                  "block/wood/trough/small/shadow"
+                ]
+            },
+            "contents-pressedmash-cucurbitaficifolia": {
+                "base": "block/food/pie/fill-cucurbitaficifolia",
+                "overlays": [
+                  "block/wood/trough/small/shadow"
+                ]
+            },
+            "contents-pressedmash-empetrumnigrum": {
+                "base": "block/food/pie/fill-plum",
+                "overlays": [
+                  "block/wood/trough/small/shadow"
+                ]
+            },
+            "contents-pressedmash-juniperuscommunis": {
+                "base": "block/food/pie/fill-pineapple",
+                "overlays": [
+                  "block/wood/trough/small/shadow"
+                ]
+            },
+            "contents-pressedmash-rubuschamaemorus": {
+                "base": "block/food/pie/fill-orange",
+                "overlays": [
+                  "block/wood/trough/small/shadow"
+                ]
+            }
+        },
+        "file": "game:blocktypes/wood/trough-small.json"
+    }
+]

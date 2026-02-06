@@ -1,0 +1,70 @@
+{
+	"code": "treeseed",
+	"classByType": {
+          "*": "ItemTreeSeed"
+        },
+	"maxstacksize": 64,
+	"attributes": {
+			"displaycaseable": true,
+			"shelvable": true
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["araucariaheterophylla","alsophilatricolor","dacrydiumcupressinum","enteleaarborescens","halocarpusbidwillii","nothofagusmenziesii","podocarpusnivalis","podocarpustotara","psuedopanaxcrassifolius","rhopalostylissapida"] }
+	],
+	"shape": { "base": "floralzonesneozeylandicregion:item/resource/seeds/{type}" },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"storageFlags": 33,
+	"materialDensityByType": {
+		"*": 200
+	},
+	"guiTransformByType": {
+		"*-araucariaheterophylla": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 170, "y": 0, "z": 26 },
+			"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+			"scale": 2.0
+		},
+		"*-rhopalostylissapida": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 46, "y": 144, "z": -21 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 2.0
+		},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 170, "y": 0, "z": 26 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 2.0
+		}
+	},
+	"groundTransformByType": {
+		"*-araucariaheterophylla": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 2
+		},
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.1, "y": 0, "z": 0 },
+			"rotation": { "x": -21, "y": 90, "z": 13 },
+			"origin": { "x": 0.5, "y": 0.14, "z": 0.5 },
+			"scale": 1.45
+		}		
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -1.24, "y": -0.17, "z": -1.1 },
+			"rotation": { "x": -12, "y": 7, "z": -56 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.42
+		}
+	}
+}

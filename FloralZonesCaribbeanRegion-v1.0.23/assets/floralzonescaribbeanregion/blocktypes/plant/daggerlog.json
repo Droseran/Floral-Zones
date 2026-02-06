@@ -1,0 +1,81 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"variantgroups": [
+		{ "code": "type", "states": ["agavekaratto"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"sprintIntoDamage": 1,
+		"fallIntoDamageMul": 2,
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"plantContainable": {
+			"largeContainer": {
+				"*": {
+				"shape": { "base": "block/plant/fern/agavekaratto_var3" },
+					"textures": {"agavekaratto": { "base": "block/plant/fern/agavekaratto" },"agavetequilanaflower": { "base": "block/plant/crop/agavetequilanaflower" }}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"*-agavekaratto-*":{"base": "block/plant/fern/agavekaratto_var*"},
+
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+    "*-agavekaratto-*": {
+    "agavekaratto": { "base": "block/plant/fern/agavekaratto" },
+    "agavetequilanaflower": { "base": "block/plant/crop/agavetequilanaflower" }
+    }
+
+		
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.2,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 2, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-agavekaratto-*": { "origin": { "x": 0.5, "y": 1.25, "z": 0.5},"scale": 0.4},
+		"*": { "scale": 1.5}
+	}
+}

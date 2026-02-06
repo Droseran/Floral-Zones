@@ -1,0 +1,189 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 32,
+	"textureSizes": {
+		"bark": [16,16],
+		"leaf": [16,32]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Trunk base",
+					"from": [ -3.0, 0.0, -3.0 ],
+					"to": [ 3.0, 8.0, 3.0 ],
+					"faces": {
+						"north": { "texture": "#bark", "uv": [ 9.5, 3.0, 15.5, 11.0 ] },
+						"east": { "texture": "#bark", "uv": [ 9.5, 3.0, 15.5, 11.0 ] },
+						"south": { "texture": "#bark", "uv": [ 9.5, 3.0, 15.5, 11.0 ] },
+						"west": { "texture": "#bark", "uv": [ 9.0, 3.0, 15.0, 11.0 ] },
+						"up": { "texture": "#bark", "uv": [ 3.0, 0.0, 9.0, 6.0 ] }
+					},
+					"children": [
+						{
+							"name": "Trunk side N",
+							"from": [ 0.1, 0.0, -2.0 ],
+							"to": [ 6.1, 8.0, 0.0 ],
+							"rotationOrigin": [ 0.1, 0.0, -2.0 ],
+							"rotationX": 15.0,
+							"faces": {
+								"north": { "texture": "#bark", "uv": [ 10.0, 6.0, 16.0, 14.0 ] },
+								"east": { "texture": "#bark", "uv": [ 8.5, 2.5, 10.5, 10.5 ] },
+								"west": { "texture": "#bark", "uv": [ 9.0, 3.5, 11.0, 11.5 ] },
+								"up": { "texture": "#bark", "uv": [ 3.0, 0.5, 9.0, 2.5 ] }
+							}
+						},
+						{
+							"name": "Trunk side S",
+							"from": [ 0.1, 0.0, 6.0 ],
+							"to": [ 6.1, 8.0, 8.0 ],
+							"rotationOrigin": [ 0.1, 0.0, 8.0 ],
+							"rotationX": -15.0,
+							"faces": {
+								"east": { "texture": "#bark", "uv": [ 14.0, 4.5, 16.0, 12.5 ] },
+								"south": { "texture": "#bark", "uv": [ 9.0, 5.0, 15.0, 13.0 ] },
+								"west": { "texture": "#bark", "uv": [ 8.0, 4.5, 10.0, 12.5 ] },
+								"up": { "texture": "#bark", "uv": [ 9.5, 3.5, 15.5, 5.5 ] }
+							}
+						},
+						{
+							"name": "Trunk side E",
+							"from": [ 6.0, 0.0, -0.1 ],
+							"to": [ 8.0, 8.0, 5.9 ],
+							"rotationOrigin": [ 8.0, 0.0, -0.1 ],
+							"rotationZ": 15.0,
+							"faces": {
+								"north": { "texture": "#bark", "uv": [ 13.5, 4.5, 15.5, 12.5 ] },
+								"east": { "texture": "#bark", "uv": [ 10.0, 5.0, 16.0, 13.0 ] },
+								"south": { "texture": "#bark", "uv": [ 7.5, 4.5, 9.5, 12.5 ] },
+								"up": { "texture": "#bark", "uv": [ 4.0, 0.5, 6.0, 6.5 ] }
+							}
+						},
+						{
+							"name": "Trunk side W",
+							"from": [ -2.0, 0.0, -0.1 ],
+							"to": [ 0.0, 8.0, 5.9 ],
+							"rotationOrigin": [ -2.0, 0.0, -0.1 ],
+							"rotationZ": -15.0,
+							"faces": {
+								"north": { "texture": "#bark", "uv": [ 7.5, 4.0, 9.5, 12.0 ] },
+								"south": { "texture": "#bark", "uv": [ 14.0, 3.5, 16.0, 11.5 ] },
+								"west": { "texture": "#bark", "uv": [ 9.0, 5.0, 15.0, 13.0 ] },
+								"up": { "texture": "#bark", "uv": [ 7.5, 1.0, 9.5, 7.0 ] }
+							}
+						},
+						{
+							"name": "Trunk 2",
+							"from": [ 1.0, 8.0, 1.0 ],
+							"to": [ 5.0, 16.0, 5.0 ],
+							"rotationOrigin": [ 1.0, 8.0, 1.0 ],
+							"faces": {
+								"north": { "texture": "#bark", "uv": [ 12.0, 0.0, 16.0, 8.0 ], "rotation": 180 },
+								"east": { "texture": "#bark", "uv": [ 9.5, 0.0, 13.5, 8.0 ], "rotation": 180 },
+								"south": { "texture": "#bark", "uv": [ 12.0, 0.0, 16.0, 8.0 ], "rotation": 180 },
+								"west": { "texture": "#bark", "uv": [ 9.5, 0.0, 13.5, 8.0 ], "rotation": 180 },
+								"up": { "texture": "#bark", "uv": [ 5.0, 0.5, 9.0, 4.5 ] }
+							},
+							"children": [
+								{
+									"name": "Branch 1",
+									"from": [ 0.5, 7.8, 0.5 ],
+									"to": [ 3.5, 15.8, 3.5 ],
+									"rotationOrigin": [ 0.5, 7.8, 0.5 ],
+									"faces": {
+										"north": { "texture": "#bark", "uv": [ 6.0, 0.0, 9.0, 8.0 ], "rotation": 180 },
+										"east": { "texture": "#bark", "uv": [ 3.0, 0.0, 6.0, 8.0 ], "rotation": 180 },
+										"south": { "texture": "#bark", "uv": [ 6.0, 0.0, 9.0, 8.0 ], "rotation": 180 },
+										"west": { "texture": "#bark", "uv": [ 3.0, 0.0, 6.0, 8.0 ], "rotation": 180 },
+										"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 3.0, 3.0 ] }
+									},
+									"children": [
+										{
+											"name": "Segment 1 Branch 1",
+											"from": [ 0.5, 7.0, 0.5 ],
+											"to": [ 2.5, 15.0, 2.5 ],
+											"rotationOrigin": [ 0.5, 7.0, 0.5 ],
+											"faces": {
+												"north": { "texture": "#bark", "uv": [ 0.0, 0.0, 2.0, 8.0 ] },
+												"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 2.0, 8.0 ] },
+												"south": { "texture": "#bark", "uv": [ 0.0, 0.0, 2.0, 8.0 ] },
+												"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 2.0, 8.0 ] }
+											},
+											"children": [
+												{
+													"name": "Segment 2 Branch 1",
+													"from": [ 0.0, 8.0, 0.0 ],
+													"to": [ 2.0, 24.0, 2.0 ],
+													"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+													"faces": {
+														"north": { "texture": "#bark", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+														"east": { "texture": "#bark", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+														"south": { "texture": "#bark", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+														"west": { "texture": "#bark", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+														"up": { "texture": "#bark", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+													},
+													"children": [
+														{
+															"name": "N leaf Branch 1",
+															"from": [ -7.0, 0.0, 1.0 ],
+															"to": [ 9.0, 32.0, 1.0 ],
+															"shade": false,
+															"gradientShade": true,
+															"renderPass": 1,
+															"rotationOrigin": [ 1.0, 16.0, 1.0 ],
+															"rotationY": 15.0,
+															"faces": {
+																"south": { "texture": "#leaf", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "windMode": [9,9,9,9], "windData": [2,2,4,4] }
+															}
+														},
+														{
+															"name": "NW leaf Branch 1",
+															"from": [ -7.0, 0.0, 1.0 ],
+															"to": [ 9.0, 32.0, 1.0 ],
+															"shade": false,
+															"gradientShade": true,
+															"renderPass": 1,
+															"rotationOrigin": [ 1.0, 16.0, 1.0 ],
+															"rotationY": 67.5,
+															"faces": {
+																"south": { "texture": "#leaf", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "windMode": [9,9,9,9], "windData": [2,2,4,4] }
+															}
+														},
+														{
+															"name": "W leaf Branch 1",
+															"from": [ 1.0, 0.0, -7.0 ],
+															"to": [ 1.0, 32.0, 9.0 ],
+															"shade": false,
+															"gradientShade": true,
+															"renderPass": 1,
+															"rotationOrigin": [ 1.0, 16.0, 1.0 ],
+															"rotationY": 22.5,
+															"faces": {
+																"east": { "texture": "#leaf", "uv": [ 0.0, 0.0, 16.0, 32.0 ], "windMode": [9,9,9,9], "windData": [2,4,4,2] }
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

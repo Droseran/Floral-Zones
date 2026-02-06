@@ -1,0 +1,66 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["aloesuccotrina"] }
+    ],
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+		"*-aloesuccotrina": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   30,
+				"foodcategory": "Vegetable" }
+	}},
+	"shapebytype": {
+		"*-aloesuccotrina": { "base": "item/resource/aloesuccotrina-leaf" }
+	},
+	"texturebytype": {
+		"*-aloesuccotrina": { "base": "item/resource/aloesuccotrina-leaf" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-aloesuccotrina": { "satiety": 30, "foodcategory": "Vegetable" }
+	},
+	"transitionablePropsByType": {
+		"*-aloesuccotrina": [{
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}]
+	},
+	"guiTransformByType": {
+		"*-aloesuccotrina": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+		}
+	},
+	"fpHandTransformByType": {
+		"*-aloesuccotrina": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*-aloesuccotrina": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*-aloesuccotrina": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	}
+}

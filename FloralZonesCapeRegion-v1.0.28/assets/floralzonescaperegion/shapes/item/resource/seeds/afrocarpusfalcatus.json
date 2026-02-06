@@ -1,0 +1,180 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"afrocarpusfalcatus": "item/resource/seeds/afrocarpusfalcatus"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "seed1",
+					"from": [ -1.0, 0.0, -1.1 ],
+					"to": [ 1.0, 2.0, 0.9 ],
+					"rotationOrigin": [ 0.0, 0.0, -0.1 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#afrocarpusfalcatus", "uv": [ 5.5, 2.5, 7.5, 4.5 ] },
+						"east": { "texture": "#afrocarpusfalcatus", "uv": [ 6.0, 2.5, 8.0, 4.5 ] },
+						"south": { "texture": "#afrocarpusfalcatus", "uv": [ 6.0, 3.0, 8.0, 5.0 ] },
+						"west": { "texture": "#afrocarpusfalcatus", "uv": [ 5.5, 2.5, 7.5, 4.5 ] },
+						"up": { "texture": "#afrocarpusfalcatus", "uv": [ 5.5, 3.0, 7.5, 5.0 ] },
+						"down": { "texture": "#afrocarpusfalcatus", "uv": [ 6.0, 2.5, 8.0, 4.5 ] }
+					},
+					"children": [
+						{
+							"name": "topS",
+							"from": [ 0.0, 2.0, 1.0 ],
+							"to": [ 2.0, 2.0, 2.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 1.0 ],
+							"rotationX": -22.5,
+							"faces": {
+								"up": { "texture": "#afrocarpusfalcatus", "uv": [ 2.0, 2.5, 4.0, 3.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "topN",
+							"from": [ 0.0, 2.0, 0.0 ],
+							"to": [ 2.0, 2.0, 1.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 1.0 ],
+							"rotationX": 22.5,
+							"faces": {
+								"up": { "texture": "#afrocarpusfalcatus", "uv": [ 2.0, 2.5, 4.0, 3.5 ] }
+							}
+						},
+						{
+							"name": "topW",
+							"from": [ 0.0, 2.0, 0.0 ],
+							"to": [ 1.0, 2.0, 2.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 1.0 ],
+							"rotationZ": -22.5,
+							"faces": {
+								"up": { "texture": "#afrocarpusfalcatus", "uv": [ 2.0, 2.5, 4.0, 3.5 ], "rotation": 270 }
+							}
+						},
+						{
+							"name": "topE",
+							"from": [ 1.0, 2.0, 0.0 ],
+							"to": [ 2.0, 2.0, 2.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 1.0 ],
+							"rotationZ": 22.5,
+							"faces": {
+								"up": { "texture": "#afrocarpusfalcatus", "uv": [ 2.0, 2.5, 4.0, 3.5 ], "rotation": 90 }
+							}
+						}
+					]
+				},
+				{
+					"name": "seed2",
+					"from": [ -0.8, 0.0, 2.0 ],
+					"to": [ 1.2, 2.0, 4.0 ],
+					"rotationOrigin": [ 0.2, 0.0, 3.0 ],
+					"rotationY": 17.0,
+					"faces": {
+						"north": { "texture": "#afrocarpusfalcatus", "uv": [ 5.5, 0.5, 7.5, 2.5 ] },
+						"east": { "texture": "#afrocarpusfalcatus", "uv": [ 6.0, 0.5, 8.0, 2.5 ] },
+						"south": { "texture": "#afrocarpusfalcatus", "uv": [ 6.0, 0.5, 8.0, 2.5 ] },
+						"west": { "texture": "#afrocarpusfalcatus", "uv": [ 6.0, 0.0, 8.0, 2.0 ] },
+						"up": { "texture": "#afrocarpusfalcatus", "uv": [ 5.5, 0.0, 7.5, 2.0 ] },
+						"down": { "texture": "#afrocarpusfalcatus", "uv": [ 5.5, 0.5, 7.5, 2.5 ] }
+					},
+					"children": [
+						{
+							"name": "topS8",
+							"from": [ 0.0, 2.0, 1.0 ],
+							"to": [ 2.0, 2.0, 2.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 1.0 ],
+							"rotationX": -22.5,
+							"faces": {
+								"up": { "texture": "#afrocarpusfalcatus", "uv": [ 2.0, 0.5, 4.0, 1.5 ], "rotation": 180 }
+							}
+						},
+						{
+							"name": "topN9",
+							"from": [ 0.0, 2.0, 0.0 ],
+							"to": [ 2.0, 2.0, 1.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 1.0 ],
+							"rotationX": 22.5,
+							"faces": {
+								"up": { "texture": "#afrocarpusfalcatus", "uv": [ 2.0, 0.5, 4.0, 1.5 ] }
+							}
+						},
+						{
+							"name": "topW10",
+							"from": [ 0.0, 2.0, 0.0 ],
+							"to": [ 1.0, 2.0, 2.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 1.0 ],
+							"rotationZ": -22.5,
+							"faces": {
+								"up": { "texture": "#afrocarpusfalcatus", "uv": [ 2.5, 0.5, 4.5, 1.5 ], "rotation": 270 }
+							}
+						},
+						{
+							"name": "topE11",
+							"from": [ 1.0, 2.0, 0.0 ],
+							"to": [ 2.0, 2.0, 2.0 ],
+							"rotationOrigin": [ 1.0, 2.0, 1.0 ],
+							"rotationZ": 22.5,
+							"faces": {
+								"up": { "texture": "#afrocarpusfalcatus", "uv": [ 2.0, 0.5, 4.0, 1.5 ], "rotation": 90 }
+							}
+						}
+					]
+				},
+				{
+					"name": "branch",
+					"from": [ -0.3, 2.2, -2.0 ],
+					"to": [ 0.2, 2.7, 4.5 ],
+					"rotationOrigin": [ 0.0, 2.2, 0.0 ],
+					"faces": {
+						"north": { "texture": "#afrocarpusfalcatus", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"east": { "texture": "#afrocarpusfalcatus", "uv": [ 1.0, 1.0, 1.5, 7.5 ], "rotation": 90 },
+						"south": { "texture": "#afrocarpusfalcatus", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"west": { "texture": "#afrocarpusfalcatus", "uv": [ 1.0, 1.0, 1.5, 7.5 ], "rotation": 90 },
+						"up": { "texture": "#afrocarpusfalcatus", "uv": [ 1.0, 1.0, 1.5, 7.5 ] },
+						"down": { "texture": "#afrocarpusfalcatus", "uv": [ 1.0, 0.5, 1.5, 7.0 ] }
+					},
+					"children": [
+						{
+							"name": "leaf",
+							"from": [ -2.0, 0.2, 2.0 ],
+							"to": [ 1.5, 0.2, 4.5 ],
+							"rotationOrigin": [ 1.5, 0.2, 3.3 ],
+							"rotationX": 22.0,
+							"rotationY": 161.0,
+							"rotationZ": 6.0,
+							"faces": {
+								"up": { "texture": "#afrocarpusfalcatus", "uv": [ 4.5, 5.5, 8.0, 8.0 ] }
+							}
+						},
+						{
+							"name": "branch-side ",
+							"from": [ 0.3, 0.0, 2.0 ],
+							"to": [ 3.3, 0.4, 2.4 ],
+							"rotationOrigin": [ 0.3, 0.2, 2.2 ],
+							"rotationY": -36.0,
+							"faces": {
+								"north": { "texture": "#afrocarpusfalcatus", "uv": [ 1.0, 5.0, 1.5, 8.0 ], "rotation": 90 },
+								"east": { "texture": "#afrocarpusfalcatus", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#afrocarpusfalcatus", "uv": [ 0.0, 3.0, 0.5, 6.0 ], "rotation": 90 },
+								"up": { "texture": "#afrocarpusfalcatus", "uv": [ 1.5, 2.5, 2.0, 5.5 ], "rotation": 90 },
+								"down": { "texture": "#afrocarpusfalcatus", "uv": [ 1.0, 3.5, 1.5, 6.5 ], "rotation": 90 }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,24 @@
+[
+	{
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Patches of Wild Vanilla",
+		"blockCodes": ["floralzonescosmopolitanregion:mushroom-vanillaplanifolia-normal-north"],
+		"placement": "OnTrees",
+		"treeType": "Any",
+		"minTemp": 22,
+		"maxTemp": 40,
+		"minRain": 0.88,
+		"maxRain": 1,
+		"minFertility": 0.6,
+		"maxFertility": 1,
+		"minForest": 0.6,
+		"maxForest": 1,
+		"quantity": { "avg": 20, "var": 9 },
+		"chance": 9
+	},
+        "file": "game:worldgen/blockpatches/mushroom.json",
+        "side": "server"
+	      },
+]

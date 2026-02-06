@@ -1,0 +1,87 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+"variantgroups": [
+        { "code": "type", "states": ["elatostemarugosum","lepidothamnuslaxifolius","lomariadiscolor","ptisanasalicina"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+		"plantContainable": {
+			"smallContainerByType": {
+			},
+			"largeContainerByType": {
+				"*-lepidothamnuslaxifolius": {"shape": {"base": "block/plant/fern/lepidothamnuslaxifolius_var0"}},
+				"*-lomariadiscolor": {"shape": {"base": "block/plant/fern/lomariadiscolor_var0"}},
+				"*-ptisanasalicina": {"shape": {"base": "block/plant/fern/ptisanasalicina_var3"}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-elatostemarugosum":{"base": "block/plant/fern/elatostemarugosum_var*"},
+		"*-lepidothamnuslaxifolius":{"base": "block/plant/fern/lepidothamnuslaxifolius_var*"},
+		"*-lomariadiscolor":{"base": "block/plant/fern/lomariadiscolor*"},
+		"*-ptisanasalicina":{"base": "block/plant/fern/ptisanasalicina_var*"}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"@.*-(elatostemarugosum)": {
+		 "leaves": { "base": "block/plant/fern/{type}" },
+		 "leaves2": { "base": "block/plant/fern/{type}1" }
+		},
+		"@.*-(lepidothamnuslaxifolius)": {
+		 "leaves": { "base": "block/plant/fern/{type}" }
+		},
+		"*-lomariadiscolor": {
+		 "center": { "base": "block/plant/fern/{type}1" },
+		 "fronds1": { "base": "block/plant/fern/{type}2" },
+		 "fronds2": { "base": "block/plant/fern/{type}3" }
+		},
+		"@.*-(ptisanasalicina)": {
+		 "leaves1": { "base": "block/plant/fern/{type}leavesl1","alternates": [ { "base": "block/plant/fern/{type}leavesl2" }, { "base": "block/plant/fern/{type}leavesl3" }] },
+		 "leaves2": { "base": "block/plant/fern/{type}leavesl2","alternates": [ { "base": "block/plant/fern/{type}leavesl3" }, { "base": "block/plant/fern/{type}leavesl4" }] },
+		 "leaves3": { "base": "block/plant/fern/{type}leavesl3","alternates": [ { "base": "block/plant/fern/{type}leavesl4" }, { "base": "block/plant/fern/{type}leavesl1" }] },
+		 "leaves4": { "base": "block/plant/fern/{type}leavesl4","alternates": [ { "base": "block/plant/fern/{type}leavesl1" }, { "base": "block/plant/fern/{type}leavesl2" }] },
+		 "stem": { "base": "block/plant/fern/{type}stem" }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjustByType": {"@.*-(elatostemarugosum|ptisanasalicina)": 0.25,"*":0.1},	
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+  "sideao": {"all": true},
+  "emitSideAo": {"all": false},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.75, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"inside": "game:walk/grass"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-ptisanasalicina": { "scale": 0.5},
+		"*": { "scale": 1.5}
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 8,
+	"textureSizes": {
+		"south1": [16,12],
+		"north1": [16,12],
+		"southTinted1": [16,12],
+		"northTinted1": [16,12]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "flower",
+					"from": [ 8.0, 0.0, 8.0 ],
+					"to": [ 8.0, 0.0, 8.0 ],
+					"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "face 6",
+							"from": [ -8.0, 0.0, 0.0 ],
+							"to": [ 8.0, 12.0, 0.0 ],
+							"shade": false,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": -22.5,
+							"faces": {
+								"north": { "texture": "#north1", "uv": [ 0.0, 0.0, 16.0, 12.0 ], "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+							}
+						},
+						{
+							"name": "face 7",
+							"from": [ -8.0, 0.0, 0.0 ],
+							"to": [ 8.0, 12.0, 0.0 ],
+							"shade": false,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#south1", "uv": [ 0.0, 0.0, 16.0, 12.0 ], "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+							}
+						},
+						{
+							"name": "face 8",
+							"from": [ -8.0, 0.0, 0.0 ],
+							"to": [ 8.0, 12.0, 0.0 ],
+							"shade": false,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": -67.5,
+							"faces": {
+								"north": { "texture": "#north1", "uv": [ 0.0, 0.0, 16.0, 12.0 ], "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

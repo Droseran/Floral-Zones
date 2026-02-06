@@ -1,0 +1,60 @@
+[
+  {
+    "op": "addeach",
+    "path": "/variantgroups/0/states/-",
+    "value": ["populusalba", "taxusbaccata"],
+    "file": "ancienttools:itemtypes/resources/bark",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {        
+      "@bark-(populusalba|taxusbaccata)": {
+        handbook: {
+          groupBy: ["bark-*"],
+          createdBy: "ancienttools:handbook-barkstripping-craftinfo" },
+        },
+      },
+    "file": "ancienttools:itemtypes/resources/bark",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "@bark-(populusalba|taxusbaccata)": [{ "name": "GroundStorable", "properties": { "layout": "Quadrants" } }]
+      },
+    "file": "ancienttools:itemtypes/resources/bark",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/@bark-(populusalba|taxusbaccata)",
+    "value": {
+        bark: { base: "floralzonesmediterraneanregion:block/wood/bark/{bark}" },
+    },
+    "file": "ancienttools:itemtypes/resources/bark",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "frompath": "/texturesByType/*",
+    "path": "/temp",
+    "file": "ancienttools:itemtypes/resources/bark.json",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "frompath": "/temp",
+    "path": "/texturesByType/*",
+    "file": "ancienttools:itemtypes/resources/bark.json",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "file": "game:recipes/cooking/jam",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonescosmopolitanregion:fruit-vanillaplanifolia",
+      "shapeElement": "bowl/fruit"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonescosmopolitanregion:fruit-vanillaplanifolia",
+      "shapeElement": "bowl/fruit 1/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/porridge",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonescosmopolitanregion:fruit-vanillaplanifolia",
+      "shapeElement": "bowl/fruit 1/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/porridge",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonescosmopolitanregion:fruit-vanillaplanifolia",
+      "shapeElement": "bowl/fruit 1/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/porridge",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/5/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonescosmopolitanregion:spiritportion-vanillaextract",
+      "shapeElement": "bowl/topping/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/8/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonescosmopolitanregion:spiritportion-vanillaextract",
+      "shapeElement": "bowl/topping/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-vanillaplanifolia",
+    "value": [ "fruit", "group3" ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/spiritportion-vanillaextract",
+    "value": [ "water", "group4" ]
+  }
+]

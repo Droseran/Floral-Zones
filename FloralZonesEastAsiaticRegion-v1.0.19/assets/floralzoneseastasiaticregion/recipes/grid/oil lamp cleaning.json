@@ -1,0 +1,38 @@
+[
+{
+	"ingredientPattern": "KPW",
+	"ingredients": {
+		"K": { "type": "item", "code": "floralzoneseastasiaticregion:sponge-luffaaegyptiaca", "isTool": true },
+		"P": { "type": "block", "code": "game:oillamp-*-up", "name": "color","allowedVariants": ["blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan"] },
+		"W": { 
+				"type": "block", 
+				"code": "game:woodbucket"
+			},
+	},
+	"width": 3,
+	"height": 1,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "game:vinegarportion" },
+				"requiresLitres": 1
+			},
+		},
+	"shapeless": true,
+	"output": { "type": "block", "code": "game:bowl-{color}-fired", "quantity": 1   }
+},
+{
+	"ingredientPattern": "KPW",
+	"ingredients": {
+		"K": { "type": "item", "code": "floralzoneseastasiaticregion:sponge-luffaaegyptiaca", "isTool": true },
+		"P": { "type": "block", "code": "game:dirtyclaypot-*-empty", "name": "color","allowedVariants": ["blue", "fire", "black", "brown", "cream", "gray", "orange", "red", "tan"] },
+		"W": { 
+				"type": "item", 
+				"code": "game:fat"
+			},
+	},
+	"width": 3,
+	"height": 1,
+	"shapeless": true,
+	"output": { "type": "block", "code": "game:claypot-{color}-fired", "quantity": 1   }
+}
+]

@@ -1,0 +1,92 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": -8,
+		"resetBelowTemperature": -4,
+		"stopBelowTemperature": 0,
+		
+		"revertBlockAboveTemperature": 48,
+		"resetAboveTemperature": 44,
+		"stopAboveTemperature": 40,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 18.25, "var": 6.09 },
+		"*-flowering": { "avg": 0.15, "var": 0.09 },
+		"*-ripe": { "avg": 1.49, "var": 0.25}}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescaperegion:fruit-{type}", "quantity": { "avg": 1.2 }  },
+			"harvestedBlockCode": "floralzonescaperegion:smallberrybush-{type}-empty"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["hydnoraafricana"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-hydnoraafricana-empty": { "base": "block/plant/flower/hydnoraafricana-empty"},
+		"*-hydnoraafricana-flowering": { "base": "block/plant/flower/hydnoraafricana-flowering"},
+		"*-hydnoraafricana-ripe": { "base": "block/plant/flower/hydnoraafricana-fruiting"},
+		"*": { "base": "block/plant/flower/hydnoraafricana-empty" }
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-hydnoraafricana-*": {
+		"hydnoraafricana": { "base": "block/plant/flower/petal/hydnoraafricana" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescaperegion:fruit-{type}", "quantity": { "avg": 1.2 }  },
+		],
+		"*": []
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

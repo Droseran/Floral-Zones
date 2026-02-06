@@ -1,0 +1,111 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["alliumsativum","chamaenerionangustifolium","cladoniarangiferina","ipomoeabatatas","menyanthestrifoliata","ulvalactuca"] }
+    ],
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+		"*-alliumsativum": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   160, "health": 1,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-ipomoeabatatas": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   200,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"@.*-(chamaenerionangustifolium|cladoniarangiferina|menyanthestrifoliata)": {
+			"foodcategory": "Vegetable", 
+			"foodTags": ["nibbleCrop","{type}"]
+		},
+		"*": {
+			"foodcategory": "Vegetable", 
+			"foodTags": ["{type}"]
+		}
+	},
+	"shape": {"base": "item/food/vegetable/{type}"},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-alliumsativum": { "satiety": 80, "health": 1,"foodcategory": "Vegetable" },		
+		"*-chamaenerionangustifolium": { "satiety": 80,"foodtags": ["grass"], "foodcategory": "Vegetable" },	
+		"*-cladoniarangiferina": { "satiety": 100,"foodtags": ["nibbleCrop"], "foodcategory": "NoNutrition" },			
+		"*-ipomoeabatatas": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-menyanthestrifoliata": { "satiety": 100,"foodtags": ["nibbleCrop"], "foodcategory": "NoNutrition" },	
+		"*-ulvalactuca": { "satiety": 100, "foodcategory": "Vegetable" },	
+	},
+	"transitionablePropsByType": {
+		"*-alliumsativum": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1296 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-chamaenerionangustifolium": [{
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-ipomoeabatatas": [{
+			"type": "Perish",
+			"freshHours": { "avg": 216 },
+			"transitionHours": { "avg": 24 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+	},
+	"grindingPropsByType": {
+		"*-ipomoeabatatas": { "groundStack": { "type": "item", "code": "flour-ipomoeabatatas" }}
+	},
+	"guiTransformByType": {
+		"*-chamaenerionangustifolium": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": -48, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+		},
+		"*-menyanthestrifoliata": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+			"scale": 3
+		},
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 3
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	},
+}

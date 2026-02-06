@@ -1,0 +1,122 @@
+[
+     {
+        "op": "addeach",
+        "path": "/attributes/contentConfig/0",
+        "side": "server",
+        "value": [ 
+            { "code": "agavetequilanafruitmash",
+                "content": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-agavetequilana" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-pressedmash-agavetequilana" },
+            { "code": "harrisiaportoricensisfruitmash",
+                "content": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-harrisiaportoricensis" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-pressedmash-harrisiaportoricensis" },
+            { "code": "monsteradeliciosafruitmash",
+                "content": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-monsteradeliciosa" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-pressedmash-monsteradeliciosa" },
+            { "code": "roystonearegiafruitmash",
+                "content": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-roystonearegia" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-pressedmash-roystonearegia" },
+            { "code": "sabalpalmettofruitmash",
+                "content": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-sabalpalmetto" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-pressedmash-sabalpalmetto" },
+            { "code": "selenicereuscostaricensisfruitmash",
+                "content": { "type": "item", "code": "floralzonescaribbeanregion:pressedmash-selenicereuscostaricensis" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-pressedmash-selenicereuscostaricensis" },
+            { "code": "xanthosomasagittifoliumroot",
+                "content": { "type": "item", "code": "floralzonescaribbeanregion:vegetable-xanthosomasagittifoliumroot" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/cassavafill1", "block/wood/trough/large/cassavafill1", 
+                                        "block/wood/trough/large/cassavafill2", "block/wood/trough/large/cassavafill2",
+                                        "block/wood/trough/large/cassavafill3", "block/wood/trough/large/cassavafill3",
+                                        "block/wood/trough/large/cassavafill4", "block/wood/trough/large/cassavafill4" ],
+                "textureCode": "contents-xanthosomasagittifoliumroot" } ],
+        "file": "game:blocktypes/wood/trough-large.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-pressedmash-agavetequilana": {
+                "base": "block/food/pie/fill-agavetequilana",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-pressedmash-harrisiaportoricensis": {
+                "base": "block/food/pie/fill-harrisiaportoricensis",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-pressedmash-monsteradeliciosa": {
+                "base": "block/food/pie/fill-breadfruit",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-pressedmash-roystonearegia": {
+                "base": "block/food/pie/fill-cranberry",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-pressedmash-sabalpalmetto": {
+                "base": "block/food/pie/fill-sabalpalmetto",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-pressedmash-selenicereuscostaricensis": {
+                "base": "block/food/pie/fill-selenicereuscostaricensis",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            },
+            "contents-xanthosomasagittifoliumroot": {
+                "base": "block/wood/barrel/peeled-cassava",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            }
+        },
+        "file": "game:blocktypes/wood/trough-large.json"
+    }
+]

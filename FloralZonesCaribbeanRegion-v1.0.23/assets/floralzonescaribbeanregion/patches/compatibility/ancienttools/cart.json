@@ -1,0 +1,20 @@
+﻿[
+	{
+		"op": "addeach",
+		"path": "/attributes/types/-",
+		"value": ["wood-lysilomalatisiliquum"],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/creativeinventoryStacks/0/stacks/-",
+		"value": [
+			{ type: "item", code: "cart", attributes: { type: "wood-lysilomalatisiliquum" } }
+		],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	}
+]

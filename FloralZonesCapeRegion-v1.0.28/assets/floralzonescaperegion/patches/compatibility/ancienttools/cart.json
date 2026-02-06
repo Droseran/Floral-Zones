@@ -1,0 +1,22 @@
+﻿[
+	{
+		"op": "addeach",
+		"path": "/attributes/types/-",
+		"value": ["wood-afrocarpusfalcatus", "wood-searsialancea", "wood-ocoteabullata"],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/creativeinventoryStacks/0/stacks/-",
+		"value": [
+			{ type: "item", code: "cart", attributes: { type: "wood-afrocarpusfalcatus" } },
+			{ type: "item", code: "cart", attributes: { type: "wood-searsialancea" } },
+			{ type: "item", code: "cart", attributes: { type: "wood-ocoteabullata" } }
+		],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	}
+]

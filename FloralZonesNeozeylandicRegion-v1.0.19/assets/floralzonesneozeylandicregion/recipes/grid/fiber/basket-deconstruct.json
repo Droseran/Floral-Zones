@@ -1,0 +1,14 @@
+[
+{
+	ingredientPattern: "KB",
+	ingredients: {
+		"K": { type: "item", code: "game:knife-*", isTool: true },
+		"B": { type: "item", code: "basket-normal-phormiumtenax" }
+	},
+	name: "basket",
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "item", code: "phormiumtenaxbundle", quantity: 5 }
+}
+]
