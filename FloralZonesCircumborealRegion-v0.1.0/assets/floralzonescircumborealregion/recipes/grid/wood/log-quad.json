@@ -1,0 +1,126 @@
+[
+	{
+		ingredientPattern: "_A_	GGG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:log-placed-*-ud", name: "wood", allowedVariants: ["abiesbalsamea","alnusglutinosa","piceaglauca"],}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-placed-{wood}-ud", quantity: 6  }
+	},
+	{
+		ingredientPattern: "AG	GG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:logquad-placed-*-ud", name: "wood", allowedVariants: ["abiesbalsamea","alnusglutinosa","piceaglauca"],}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-barkedcorner-{wood}-north", quantity: 3  }
+	},
+	{
+		ingredientPattern: "__G	_AG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:logquad-placed-*-ud", name: "wood", allowedVariants: ["abiesbalsamea","alnusglutinosa","piceaglauca"],}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-barkedcorner-{wood}-north", quantity: 5  }
+	},
+	{
+		ingredientPattern: "_A_	GGG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:debarkedlog-*-ud", name: "wood", allowedVariants: ["abiesbalsamea","alnusglutinosa","piceaglauca"],}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-debarked-{wood}-ud", quantity: 6  }
+	},
+	{
+		ingredientPattern: "AG	GG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:logquad-debarked-*-ud", name: "wood", allowedVariants: ["abiesbalsamea","alnusglutinosa","piceaglauca"],}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-debarkedcorner-{wood}-north", quantity: 3  }
+	},
+	{
+		ingredientPattern: "__G	_AG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:logquad-debarked-*-ud", name: "wood", allowedVariants: ["abiesbalsamea","alnusglutinosa","piceaglauca"],}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-debarkedcorner-{wood}-north", quantity: 5  }
+	},
+	{
+		ingredientPattern: "_A_	GGG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:lognarrow-placed-piceamariana-ud", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-placed-piceaglauca-ud", quantity: 6  }
+	},
+	{
+		ingredientPattern: "AG	GG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:logquad-placed-piceaglauca-ud", name: "wood" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-barkedcorner-piceaglauca-north", quantity: 3  }
+	},
+	{
+		ingredientPattern: "__G	_AG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:logquad-placed-piceaglauca-ud", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-barkedcorner-piceaglauca-north", quantity: 5  }
+	},
+	{
+		ingredientPattern: "_A_	GGG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:lognarrow-placed-populustremuloides-ud", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-placed-populustremuloides-ud", quantity: 6  }
+	},
+	{
+		ingredientPattern: "AG	GG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:logquad-placed-populustremuloides-ud", name: "wood" }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-barkedcorner-populustremuloides-north", quantity: 3  }
+	},
+	{
+		ingredientPattern: "__G	_AG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescircumborealregion:logquad-placed-populustremuloides-ud", name: "wood" }
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescircumborealregion:logquad-barkedcorner-populustremuloides-north", quantity: 5  }
+	}
+]

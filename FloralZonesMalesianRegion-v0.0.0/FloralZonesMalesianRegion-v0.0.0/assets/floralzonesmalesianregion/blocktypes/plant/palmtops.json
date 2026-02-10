@@ -1,0 +1,64 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+	"behaviorsByType": {
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+"variantgroups": [
+        { "code": "type", "states": ["cycasrumphii","cyrtostachysrenda"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-cycasrumphii":{"base": "block/plant/fern/cycasrumphii"},
+		"*-cyrtostachysrenda":{"base": "block/plant/fern/cyrtostachysrenda"}
+	},
+	"randomDrawOffset": false,
+	"texturesByType": {
+		"*-alsophilatricolor": {"top": { "base": "block/plant/fern/alsophilatricolor1" },"bottom": { "base": "block/plant/fern/alsophilatricolor*" }},
+		"*-rhopalostylissapida": {"fronds": { "base": "block/plant/fern/rhopalostylissapida" },"crownshaft": { "base": "block/plant/fern/rhopalostylissapidacrownshaft" },"crownshaftbot": { "base": "block/plant/fern/rhopalostylissapidacrownshaftbottom" }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjustByType": {"@.*-(alsophilatricolor)": 0.33,"*":0.25},	
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+  "sideao": {"all": true},
+  "emitSideAo": {"all": false},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*": [{ "type": "item", "code": "floralzonescaribbeanregion:treeseed-{type}", "quantity": { "avg": 1.1 }   },{ "type": "item", "code": "floralzonesneozeylandicregion:palmleaf-{type}", "quantity": { "avg": 6, "var": 3 }  }],
+	},
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 30
+	},
+	"frostable": true,
+	"guiTransform": {
+		"scale": 1.5
+	}
+}

@@ -1,0 +1,11 @@
+{
+	ingredientPattern: "SP",
+	ingredients: {
+		"S": { type: "item", code: "game:saw-*", isTool: true  },
+		"P": { type: "item", code: "floralzonescircumborealregion:plank-*", "name": "wood", "allowedVariants": ["abiesbalsamea","alnusglutinosa","piceaglauca"], quantity: 2 }
+	},
+	width: 2,
+	height: 1,
+	shapeless: true,
+	output: { type: "block", code: "floralzonescircumborealregion:woodenpath-{wood}-ns", quantity: 1  }
+}

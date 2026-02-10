@@ -1,0 +1,100 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+	"variantgroups": [
+		{ "code": "type", "states": ["cirsiumhelenioides","hemerocallislilioasphodelus","papaverradicatum","rosagallica","rosamajalis","salixarctica","sarraceniapurpurea","sileneacaulis","taraxacumofficinale","trifoliumpratense","typhaminima"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"reinforcable": true,
+		"plantContainable": {
+			"smallContainerByType": {	
+				"*-cirsiumhelenioides-*": {"shape": {"base": "block/plant/flower/cirsiumhelenioides3"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1"},"flower2": { "base": "block/plant/flower/petal/{type}2"}}},
+				"*-eriophorumcallitrix-*": {"shape": {"base": "block/plant/flower/eriophorumcallitrix3"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"},"leaves": { "base": "block/plant/flower/stem/{type}1"}}},
+				"*-papaverradicatum-*": {"shape": {"base": "block/plant/flower/papaverradicatum1"}},
+				"*-trifoliumpratense-*": {"shape": {"base": "block/plant/flower/trifoliumpratense3"},"textures": {"leavesa": { "base": "block/plant/flower/stem/{type}1"},"leavesb": { "base": "block/plant/flower/stem/{type}2"},"leavesc": { "base": "block/plant/flower/stem/{type}3"},"flowera": { "base": "block/plant/flower/petal/{type}1"},"flowerb": { "base": "block/plant/flower/petal/{type}2"},"flowerc": { "base": "block/plant/flower/petal/{type}3"}}},
+				"*-typhaminima-*": {"shape": {"base": "block/plant/flower/typhaminima1"}}		
+			},
+			"largeContainerByType": {
+				"*-cirsiumhelenioides-*": {"shape": {"base": "block/plant/flower/cirsiumhelenioides3"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1"},"flower2": { "base": "block/plant/flower/petal/{type}2"}}},
+				"*-eriophorumcallitrix-*": {"shape": {"base": "block/plant/flower/eriophorumcallitrix3"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"},"leaves": { "base": "block/plant/flower/stem/{type}1"}}},
+				"*-papaverradicatum-*": {"shape": {"base": "block/plant/flower/papaverradicatum3"}},
+				"*-sileneacaulis-*": {"shape": {"base": "block/plant/flower/sileneacaulis1"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}a"}}},
+				"*-trifoliumpratense-*": {"shape": {"base": "block/plant/flower/trifoliumpratense3"},"textures": {"leavesa": { "base": "block/plant/flower/stem/{type}1"},"leavesb": { "base": "block/plant/flower/stem/{type}2"},"leavesc": { "base": "block/plant/flower/stem/{type}3"},"flowera": { "base": "block/plant/flower/petal/{type}1"},"flowerb": { "base": "block/plant/flower/petal/{type}2"},"flowerc": { "base": "block/plant/flower/petal/{type}3"}}},
+				"*-typhaminima-*": {"shape": {"base": "block/plant/flower/typhaminima2"}}					
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"@.*-(rosamajalis)-.*":{"base": "block/plant/flower/{type}"},
+		"@.*-(cirsiumhelenioides|eriophorumcallitrix|papaverradicatum|trifoliumpratense|typhaminima)-.*":{"base": "block/plant/flower/{type}*"},
+		"@.*-(sileneacaulis)-.*":{"base": "block/plant/flower/{type}1","alternates": [ { "base": "block/plant/flower/{type}2"},{ "base": "block/plant/flower/{type}3"} ]}
+	},
+	"randomDrawOffset": true,
+  "texturesByType": {
+    "@.*-(cirsiumhelenioides)-.*": {
+      "flower1": { "base": "block/plant/flower/petal/{type}1","alternates": [ { "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}3"} ] },
+      "flower2": { "base": "block/plant/flower/petal/{type}2","alternates": [ { "base": "block/plant/flower/petal/{type}3"},{ "base": "block/plant/flower/petal/{type}1"} ] }
+    },
+    "@.*-(eriophorumcallitrix)-.*": {
+      "flower": { "base": "block/plant/flower/petal/{type}*" },
+      "leaves": { "base": "block/plant/flower/stem/{type}*" }
+    },
+    "@.*-(sileneacaulis)-.*": { "flower": { "base": "block/plant/flower/petal/{type}a","alternates": [ { "base": "block/plant/flower/petal/{type}a"},{ "base": "block/plant/flower/petal/{type}a"},{ "base": "block/plant/flower/petal/{type}c"},{ "base": "block/plant/flower/petal/{type}c"},{ "base": "block/plant/flower/petal/{type}c"} ] }},
+    "@.*-(trifoliumpratense)-.*": {
+      "leavesa": { "base": "block/plant/flower/stem/{type}1","alternates": [ { "base": "block/plant/flower/stem/{type}*"} ] },
+      "leavesb": { "base": "block/plant/flower/stem/{type}2","alternates": [ { "base": "block/plant/flower/stem/{type}*"} ] },
+      "leavesc": { "base": "block/plant/flower/stem/{type}3","alternates": [ { "base": "block/plant/flower/stem/{type}*"} ] },
+      "flowera": { "base": "block/plant/flower/petal/{type}1","alternates": [ { "base": "block/plant/flower/petal/{type}*"} ] },
+      "flowerb": { "base": "block/plant/flower/petal/{type}2","alternates": [ { "base": "block/plant/flower/petal/{type}*"} ] },
+      "flowerc": { "base": "block/plant/flower/petal/{type}3","alternates": [ { "base": "block/plant/flower/petal/{type}*"} ] }
+    }
+  },
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"soundsByType": {
+		"@.*-(rosamajalis)-.*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass","inside": "game:walk/inside/leafy/bushrustle*"},
+		"*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass"}},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*": { "scale": 1.5}
+	}
+}

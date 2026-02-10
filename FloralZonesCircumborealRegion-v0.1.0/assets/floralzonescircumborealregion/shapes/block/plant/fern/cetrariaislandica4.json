@@ -1,0 +1,129 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"leaves": [16,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [ 7.0, 0.0, 6.0 ],
+			"to": [ 10.0, 0.5, 9.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 6.0 ],
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 6.5, 7.0, 9.5, 7.5 ], "rotation": 180 },
+				"east": { "texture": "#leaves", "uv": [ 9.5, 7.5, 10.0, 10.5 ], "rotation": 90 },
+				"south": { "texture": "#leaves", "uv": [ 6.5, 10.5, 9.5, 11.0 ] },
+				"west": { "texture": "#leaves", "uv": [ 6.0, 7.5, 6.5, 10.5 ], "rotation": 270 },
+				"up": { "texture": "#leaves", "uv": [ 6.5, 7.5, 9.5, 10.5 ] }
+			},
+			"children": [
+				{
+					"name": "Top",
+					"from": [ 0.5, 0.5, 0.5 ],
+					"to": [ 2.5, 1.0, 2.5 ],
+					"rotationOrigin": [ 0.5, 0.5, 0.5 ],
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 7.5, 6.5, 9.5, 7.0 ], "rotation": 180 },
+						"east": { "texture": "#leaves", "uv": [ 9.5, 7.0, 10.0, 9.0 ], "rotation": 90 },
+						"south": { "texture": "#leaves", "uv": [ 7.5, 8.5, 9.5, 9.0 ] },
+						"west": { "texture": "#leaves", "uv": [ 7.0, 7.5, 7.5, 9.5 ], "rotation": 270 },
+						"up": { "texture": "#leaves", "uv": [ 7.5, 7.0, 9.5, 9.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Base2",
+			"from": [ 7.0, 0.0, 11.0 ],
+			"to": [ 10.0, 0.5, 15.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 11.0 ],
+			"rotationY": 22.5,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 6.5, 6.0, 9.5, 6.5 ], "rotation": 180 },
+				"east": { "texture": "#leaves", "uv": [ 9.5, 6.5, 10.0, 10.5 ], "rotation": 90 },
+				"south": { "texture": "#leaves", "uv": [ 6.5, 10.5, 9.5, 11.0 ] },
+				"west": { "texture": "#leaves", "uv": [ 6.0, 6.5, 6.5, 10.5 ], "rotation": 270 },
+				"up": { "texture": "#leaves", "uv": [ 6.5, 6.5, 9.5, 10.5 ] }
+			},
+			"children": [
+				{
+					"name": "Top2",
+					"from": [ 0.5, 0.5, 0.5 ],
+					"to": [ 2.5, 1.0, 3.5 ],
+					"rotationOrigin": [ 0.5, 0.5, 0.5 ],
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 7.5, 6.5, 9.5, 7.0 ], "rotation": 180 },
+						"east": { "texture": "#leaves", "uv": [ 9.5, 7.0, 10.0, 10.0 ], "rotation": 90 },
+						"south": { "texture": "#leaves", "uv": [ 7.5, 9.5, 9.5, 10.0 ] },
+						"west": { "texture": "#leaves", "uv": [ 7.0, 7.5, 7.5, 10.5 ], "rotation": 270 },
+						"up": { "texture": "#leaves", "uv": [ 7.5, 7.0, 9.5, 10.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Base3",
+			"from": [ 1.0, 0.0, 11.0 ],
+			"to": [ 4.0, 0.5, 14.0 ],
+			"rotationOrigin": [ 1.0, 0.0, 11.0 ],
+			"rotationY": 22.5,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 6.5, 7.0, 9.5, 7.5 ], "rotation": 180 },
+				"east": { "texture": "#leaves", "uv": [ 9.5, 7.5, 10.0, 10.5 ], "rotation": 90 },
+				"south": { "texture": "#leaves", "uv": [ 6.5, 10.5, 9.5, 11.0 ] },
+				"west": { "texture": "#leaves", "uv": [ 6.0, 7.5, 6.5, 10.5 ], "rotation": 270 },
+				"up": { "texture": "#leaves", "uv": [ 6.5, 7.5, 9.5, 10.5 ] }
+			},
+			"children": [
+				{
+					"name": "Top3",
+					"from": [ 0.5, 0.5, 0.5 ],
+					"to": [ 2.5, 1.0, 2.5 ],
+					"rotationOrigin": [ 0.5, 0.5, 0.5 ],
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 7.5, 6.5, 9.5, 7.0 ], "rotation": 180 },
+						"east": { "texture": "#leaves", "uv": [ 9.5, 7.0, 10.0, 9.0 ], "rotation": 90 },
+						"south": { "texture": "#leaves", "uv": [ 7.5, 8.5, 9.5, 9.0 ] },
+						"west": { "texture": "#leaves", "uv": [ 7.0, 7.5, 7.5, 9.5 ], "rotation": 270 },
+						"up": { "texture": "#leaves", "uv": [ 7.5, 7.0, 9.5, 9.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Base4",
+			"from": [ 11.0, 0.0, 6.0 ],
+			"to": [ 14.0, 0.5, 9.0 ],
+			"rotationOrigin": [ 11.0, 0.0, 6.0 ],
+			"rotationY": 30.0,
+			"faces": {
+				"north": { "texture": "#leaves", "uv": [ 6.5, 7.0, 9.5, 7.5 ], "rotation": 180 },
+				"east": { "texture": "#leaves", "uv": [ 9.5, 7.5, 10.0, 10.5 ], "rotation": 90 },
+				"south": { "texture": "#leaves", "uv": [ 6.5, 10.5, 9.5, 11.0 ] },
+				"west": { "texture": "#leaves", "uv": [ 6.0, 7.5, 6.5, 10.5 ], "rotation": 270 },
+				"up": { "texture": "#leaves", "uv": [ 6.5, 7.5, 9.5, 10.5 ] }
+			},
+			"children": [
+				{
+					"name": "Top4",
+					"from": [ 0.5, 0.5, 0.5 ],
+					"to": [ 2.5, 1.0, 2.5 ],
+					"rotationOrigin": [ 0.5, 0.5, 0.5 ],
+					"faces": {
+						"north": { "texture": "#leaves", "uv": [ 7.5, 6.5, 9.5, 7.0 ], "rotation": 180 },
+						"east": { "texture": "#leaves", "uv": [ 9.5, 7.0, 10.0, 9.0 ], "rotation": 90 },
+						"south": { "texture": "#leaves", "uv": [ 7.5, 8.5, 9.5, 9.0 ] },
+						"west": { "texture": "#leaves", "uv": [ 7.0, 7.5, 7.5, 9.5 ], "rotation": 270 },
+						"up": { "texture": "#leaves", "uv": [ 7.5, 7.0, 9.5, 9.0 ] }
+					}
+				}
+			]
+		}
+	]}

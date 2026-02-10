@@ -1,0 +1,81 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Garden Angelica",
+          "blockCodes": [
+            "floralzonescircumborealregion:crop-angelicaarchangelica-4", "floralzonescircumborealregion:crop-angelicaarchangelica-6", "floralzonescircumborealregion:crop-angelicaarchangelica-5", "floralzonescircumborealregion:crop-angelicaarchangelica-7"
+          ],
+          "minTemp": -6,
+          "maxTemp": 10,
+		  "minForest": 0.4,
+		  "maxForest": 0.8,
+          "minRain": 0.46,
+          "maxRain": 1,
+		  "minFertility": 0.5,
+		  "maxFertility": 1,
+          "chance": 0.05,
+		  "minY": 0,
+          "maxY": 0.3,
+          "quantity": { "dist": "uniform", "avg": 5, "var": 5 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Garden Angelica",
+          "blockCodes": [
+            "floralzonescircumborealregion:crop-angelicaarchangelica-4", "floralzonescircumborealregion:crop-angelicaarchangelica-6", "floralzonescircumborealregion:crop-angelicaarchangelica-5", "floralzonescircumborealregion:crop-angelicaarchangelica-7"
+          ],
+          "minTemp": -6,
+          "maxTemp": 10,
+		  "minForest": 0.4,
+		  "maxForest": 0.8,
+          "minRain": 0.46,
+          "maxRain": 1,
+		  "minFertility": 0.5,
+		  "maxFertility": 1,
+          "chance": 0.85,
+		  "minY": 0,
+          "maxY": 0.3,
+	      	"placement": "NearWater",
+          "quantity": { "dist": "uniform", "avg": 25, "var": 25 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Lettuce",
+          "blockCodes": [
+            "floralzonescircumborealregion:crop-lactucasativa-2", "floralzonescircumborealregion:crop-lactucasativa-6", "floralzonescircumborealregion:crop-lactucasativa-5", "floralzonescircumborealregion:crop-lactucasativa-3", "floralzonescircumborealregion:crop-lactucasativa-4"
+          ],
+          "minTemp": 4,
+          "maxTemp": 23,
+		  "minForest": 0.1,
+		  "maxForest": 0.4,
+          "minRain": 0.18,
+          "maxRain": 0.58,
+		  "minFertility": 0.3,
+		  "maxFertility": 1,
+          "chance": 0.05,
+		  "minY": 0,
+          "maxY": 0.61,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+		},
+]

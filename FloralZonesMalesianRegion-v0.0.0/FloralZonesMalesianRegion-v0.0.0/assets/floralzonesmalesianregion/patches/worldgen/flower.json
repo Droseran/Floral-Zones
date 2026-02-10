@@ -1,0 +1,241 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Titan Arum",
+          "blockCodes": [
+            "floralzonesmalesianregion:flower-amorphophallustitanum-free"
+          ],
+          "minTemp": 28,
+          "maxTemp": 35,
+          "minRain": 0.84,
+          "maxRain": 1,
+		  "minFertility": 0.6,
+		  "maxFertility": 1,
+		  "minForest": 0.5,
+		  "maxForest": 1,
+          "chance": 0.1,
+		  "minY": 0,
+          "maxY": 0.3,
+          "quantity": { "dist": "invexp", "avg": 2, "var": 1 },
+          "offsetX": { "avg": 0, "var": 8 },
+          "offsetZ": { "avg": 0, "var": 8 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Javanese Edelweiss",
+          "blockCodes": [
+            "floralzonesmalesianregion:flower-anaphalisjavanica-free"
+          ],
+          "minTemp": 7,
+          "maxTemp": 29,
+          "minRain": 0.71,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "chance": 0.3,
+		  "minY": 0.52,
+          "maxY": 0.76,
+          "quantity": { "dist": "invexp", "avg": 12, "var": 4 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Pagoda Flower",
+          "blockCodes": [
+            "floralzonesmalesianregion:flower-clerodendrumpaniculatum-free"
+          ],
+          "minTemp": 26,
+          "maxTemp": 36,
+          "minRain": 0.71,
+          "maxRain": 1,
+		  "minFertility": 0.5,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 1,
+          "chance": 0.1,
+		  "minY": 0,
+          "maxY": 0.1,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 0, "var": 8 },
+          "offsetZ": { "avg": 0, "var": 8 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Ti",
+          "blockCodes": [
+            "floralzonesmalesianregion:flower-cordylinefruticosa-free"
+          ],
+          "minTemp": 22,
+          "maxTemp": 35,
+          "minRain": 0.5,
+          "maxRain": 1,
+		  "minFertility": 0.5,
+		  "maxFertility": 1,
+		  "minForest": 0.4,
+		  "maxForest": 1,
+          "chance": 0.1,
+		  "minY": 0,
+          "maxY": 0.4,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 2 },
+          "offsetX": { "avg": 0, "var": 5 },
+          "offsetZ": { "avg": 0, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of New Guinea Impatiens",
+          "blockCodes": [
+            "floralzonesmalesianregion:flower-impatienshawkeri-free"
+          ],
+          "minTemp": 22,
+          "maxTemp": 31,
+          "minRain": 0.91,
+          "maxRain": 1,
+		  "minFertility": 0.7,
+		  "maxFertility": 1,
+		  "minForest": 0.2,
+		  "maxForest": 1,
+          "chance": 0.3,
+		  "minY": 0.4,
+          "maxY": 0.6,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 0, "var": 7 },
+          "offsetZ": { "avg": 0, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Broad-Petaled Balsam",
+          "blockCodes": [
+            "floralzonesmalesianregion:flower-impatiensplatypetala-free"
+          ],
+          "minTemp": 30,
+          "maxTemp": 35,
+          "minRain": 0.81,
+          "maxRain": 1,
+		  "minFertility": 0.7,
+		  "maxFertility": 1,
+		  "minForest": 0.4,
+		  "maxForest": 1,
+          "chance": 0.3,
+		  "minY": 0,
+          "maxY": 0.51,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 0, "var": 7 },
+          "offsetZ": { "avg": 0, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Flask-Shaped Pitcher Plant",
+          "blockCodes": [
+            "floralzonesmalesianregion:flower-nepenthesampullaria-free"
+          ],
+          "minTemp": 29,
+          "maxTemp": 35,
+          "minRain": 0.91,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 0.6,
+		  "minForest": 0.2,
+		  "maxForest": 1,
+          "chance": 0.3,
+		  "minY": 0,
+          "maxY": 0.08,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Common Swamp Pitcher Plant",
+          "blockCodes": [
+            "floralzonesmalesianregion:flower-nepenthesmirabilis-free"
+          ],
+          "minTemp": 29,
+          "maxTemp": 35,
+          "minRain": 0.8,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 0.6,
+		  "minForest": 0.1,
+		  "maxForest": 0.6,
+          "chance": 0.3,
+		  "minY": 0,
+          "maxY": 0.5,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 0, "var": 8 },
+          "offsetZ": { "avg": 0, "var": 8 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of King Pitcher Plant",
+          "blockCodes": [
+            "floralzonesmalesianregion:flower-nepenthesrajah-free"
+          ],
+          "minTemp": 21,
+          "maxTemp": 27,
+          "minRain": 0.92,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 0.6,
+		  "minForest": 0.1,
+		  "maxForest": 0.4,
+          "chance": 0.3,
+		  "minY": 0.5,
+          "maxY": 0.66,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "quantity": { "dist": "invexp", "avg": 2, "var": 1 },
+          "offsetX": { "avg": 0, "var": 8 },
+          "offsetZ": { "avg": 0, "var": 8 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+]

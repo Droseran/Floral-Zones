@@ -1,0 +1,52 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Zebrina Alocasia",
+          "blockCodes": [
+            "floralzonesmalesianregion:fern-alocasiazebrina"
+          ],
+          "minTemp": 29,
+          "maxTemp": 35,
+		  "minForest": 0.4,
+		  "maxForest": 1,
+          "minRain": 0.84,
+          "maxRain": 1,
+          "chance": 0.3,
+          "maxY": 0.5,
+		  "minFertility":0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 7 },
+          "offsetX": { "avg": 1, "var": 6 },
+          "offsetZ": { "avg": 1, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Bird's Nest Fern",
+          "blockCodes": [
+            "floralzonesmalesianregion:fern-aspleniumnidus"
+          ],
+          "minTemp": 26,
+          "maxTemp": 36,
+		  "minForest": 0.3,
+		  "maxForest": 0.7,
+          "minRain": 0.53,
+          "maxRain": 1,
+          "chance": 0.1,
+          "maxY": 0.55,
+		  "minFertility":0.3,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 15, "var": 10 },
+          "offsetX": { "avg": 1, "var": 20 },
+          "offsetZ": { "avg": 1, "var": 20 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+		},
+]

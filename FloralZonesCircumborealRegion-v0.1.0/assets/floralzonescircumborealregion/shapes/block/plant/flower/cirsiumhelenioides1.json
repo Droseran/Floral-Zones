@@ -1,0 +1,169 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 20,
+	"textureSizes": {
+		"flower1": [8,20],
+		"flower2": [8,20]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Plant center",
+			"from": [ 7.0, 0.0, 2.0 ],
+			"to": [ 7.0, 0.0, 2.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 2.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Flowera",
+					"from": [ -4.0, 0.0, 0.0 ],
+					"to": [ 4.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 8.0, 20.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Flowerb",
+					"from": [ 0.0, 0.0, -4.0 ],
+					"to": [ 0.0, 20.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 8.0, 20.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Plant center2",
+			"from": [ 12.0, 0.0, 12.0 ],
+			"to": [ 12.0, 0.0, 12.0 ],
+			"rotationOrigin": [ 12.0, 0.0, 12.0 ],
+			"rotationY": 22.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Flowera2",
+					"from": [ -4.0, 0.0, 0.0 ],
+					"to": [ 4.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 8.0, 20.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Flowerb2",
+					"from": [ 0.0, 0.0, -4.0 ],
+					"to": [ 0.0, 20.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 8.0, 20.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Plant center3",
+			"from": [ 3.0, 0.0, 10.0 ],
+			"to": [ 3.0, 0.0, 10.0 ],
+			"rotationOrigin": [ 3.0, 0.0, 10.0 ],
+			"rotationY": 45.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Flowera3",
+					"from": [ -4.0, 0.0, 0.0 ],
+					"to": [ 4.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 8.0, 20.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Flowerb3",
+					"from": [ 0.0, 0.0, -4.0 ],
+					"to": [ 0.0, 20.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 8.0, 20.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Plant center4",
+			"from": [ 12.0, 0.0, 4.0 ],
+			"to": [ 12.0, 0.0, 4.0 ],
+			"rotationOrigin": [ 12.0, 0.0, 4.0 ],
+			"rotationY": 90.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Flowera4",
+					"from": [ -4.0, 0.0, 0.0 ],
+					"to": [ 4.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 8.0, 20.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Flowerb4",
+					"from": [ 0.0, 0.0, -4.0 ],
+					"to": [ 0.0, 20.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 8.0, 20.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Plant center5",
+			"from": [ 1.0, 0.0, 2.0 ],
+			"to": [ 1.0, 0.0, 2.0 ],
+			"rotationOrigin": [ 1.0, 0.0, 2.0 ],
+			"rotationY": 67.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Flowera5",
+					"from": [ -4.0, 0.0, 0.0 ],
+					"to": [ 4.0, 20.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 8.0, 20.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Flowerb5",
+					"from": [ 0.0, 0.0, -4.0 ],
+					"to": [ 0.0, 20.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 8.0, 20.0 ], "windMode": [0,5,5,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		}
+	]}

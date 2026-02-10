@@ -1,0 +1,69 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["humuluslupulus"] }
+    ],
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-humuluslupulus": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  150,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+	},
+	"shapebytype": {
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"texturebytype": {
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-humuluslupulus": { "satiety": 30, "foodcategory": "Vegetable" },
+	},
+	"transitionablePropsByType": {
+		"*-humuluslupulus": [{
+				"type": "Dry",
+				"freshHours": { "avg": 0 },
+				"transitionHours": { "avg": 36 },
+				"transitionedStack": { "type": "item", "code": "hops-dried" },
+				"transitionRatio": 1
+		}]
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 3.2
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1.75
+		}
+	}
+}

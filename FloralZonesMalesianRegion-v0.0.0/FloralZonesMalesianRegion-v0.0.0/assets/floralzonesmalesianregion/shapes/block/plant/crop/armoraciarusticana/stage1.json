@@ -1,0 +1,47 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"stage 1": [4,4]
+	},
+	"textures": {
+		"stage 1": "block/plant/crop/armoraciarusticana/stage 1"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Leaf face 1",
+					"from": [ -2.0, 0.0, 0.0 ],
+					"to": [ 2.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#stage 1", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "windMode": [0,2,2,0] }
+					}
+				},
+				{
+					"name": "Leaf face 4",
+					"from": [ -2.0, 0.0, 0.0 ],
+					"to": [ 2.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#stage 1", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "windMode": [0,2,2,0] }
+					}
+				}
+			]
+		}
+	]}

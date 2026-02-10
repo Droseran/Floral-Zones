@@ -1,0 +1,94 @@
+[
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+		"comment": "Varied patches of Creeping Dogwood",
+		"blockCodes": ["floralzonescircumborealregion:smallberrybush-cornuscanadensis-empty-free", "floralzonescircumborealregion:smallberrybush-cornuscanadensis-flowering-free", "floralzonescircumborealregion:smallberrybush-cornuscanadensis-ripe-free"],
+		"minTemp": -8,
+		"maxTemp": 6,
+		"minRain": 0.14,
+		"maxRain": 1,
+		"minFertility": 0,
+		"maxFertility": 0.75,
+		"chance": 0.25,
+		"minForest": 0.2,
+		"maxForest": 0.6,
+		"maxY": 0.74,
+		"quantity": { "dist": "invexp", "avg": 8, "var": 72 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+	},
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server"
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+		"comment": "Vast patches of Arctic Cotton",
+		"blockCodes": ["floralzonescircumborealregion:smallberrybush-eriophorumcallitrix-empty-free", "floralzonescircumborealregion:smallberrybush-eriophorumcallitrix-flowering-free", "floralzonescircumborealregion:smallberrybush-eriophorumcallitrix-ripe-free"],
+		"minTemp": -14,
+		"maxTemp": -2,
+		"minRain": 0.16,
+		"maxRain": 0.58,
+		"minFertility": 0.3,
+		"maxFertility": 1,
+		"chance": 0.0125,
+		"minForest": 0,
+		"maxForest": 0.2,
+		"maxY": 0.66,
+		"quantity": { "dist": "invexp","avg": 200, "var": 800 },
+          "offsetX": { "avg": 0, "var": 20 },
+          "offsetZ": { "avg": 0, "var": 20 }
+	},
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server"
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+		"comment": "Small patches of Arctic Cotton",
+		"blockCodes": ["floralzonescircumborealregion:smallberrybush-eriophorumcallitrix-empty-free", "floralzonescircumborealregion:smallberrybush-eriophorumcallitrix-flowering-free", "floralzonescircumborealregion:smallberrybush-eriophorumcallitrix-ripe-free"],
+		"minTemp": -14,
+		"maxTemp": -2,
+		"minRain": 0.16,
+		"maxRain": 0.58,
+		"minFertility": 0.3,
+		"maxFertility": 1,
+		"chance": 0.25,
+		"minForest": 0,
+		"maxForest": 0.2,
+		"maxY": 0.66,
+		"quantity": { "dist": "invexp","avg": 20, "var": 80 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+	},
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server"
+      },
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+		"comment": "Varied patches of common hops",
+		"blockCodes": ["floralzonescircumborealregion:smallberrybush-wild-humuluslupulus-empty-free", "floralzonescircumborealregion:smallberrybush-wild-humuluslupulus-flowering-free", "floralzonescircumborealregion:smallberrybush-wild-humuluslupulus-ripe-free"],
+		"minTemp": 0,
+		"maxTemp": 14,
+		"minRain": 0.17,
+		"maxRain": 1,
+		"minFertility": 0.4,
+		"maxFertility": 1,
+		"chance": 0.25,
+		"minForest": 0.4,
+		"maxForest": 0.8,
+		"maxY": 0.3,
+		"quantity": { "avg": 13, "var": 12 },
+          "offsetX": { "avg": 0, "var": 3 },
+          "offsetZ": { "avg": 0, "var": 2 }
+	},
+        "file": "game:worldgen/blockpatches/berrybush.json",
+        "side": "server"
+      }
+]

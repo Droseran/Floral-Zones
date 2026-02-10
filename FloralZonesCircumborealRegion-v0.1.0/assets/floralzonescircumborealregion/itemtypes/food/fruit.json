@@ -1,0 +1,69 @@
+{
+	"code": "fruit",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "fruit","loadFromProperties": "floralzonescircumborealregion:block/fruit" }
+	],
+	"attributes": {
+		"foodTags": ["{fruit}"],
+		"nutritionPropsWhenInMeal": {
+			"satietyByType":  { 
+				"*-cornuscanadensis": 120
+			},
+			"foodcategory": "Fruit" 
+		},
+		"inPiePropertiesByType": {
+			"*": { "texture": "game:block/food/pie/fill-raspberry", "partType": "Filling" }
+		},
+		"juiceablePropertiesByType": {
+			"*-cornuscanadensis": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescircumborealregion:juiceportion-cornuscanadensis", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescircumborealregion:pressedmash-cornuscanadensis", "stacksize": 1 }
+			}
+		}
+	},
+	"shapebytype": { 
+		"*": { "base": "item/food/fruit/{fruit}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-cornuscanadensis": { "satiety": 80, "foodcategory": "Fruit" }
+	},
+	"transitionablePropsByType": {
+		"*-cornuscanadensis": [{
+			"type": "Perish",
+			"freshHours": { "avg": 252 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}]
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 126, "y": -47, "z": -37 },
+			"origin": { "x": 0.5299, "y": 0.05, "z": 0.5299 },
+			"scale": 6.0
+		},
+	},
+	"fpHandTransformByType": {
+		"*-cornuscanadensis":{
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": -22, "y": -22, "z": 3 },
+		"origin": { "x": 0.3, "y": -0.65, "z": 0.7 },
+		"scale": 3.09
+	}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -1.5, "y": -1.5, "z": -1.4 },
+			"rotation": { "x": 12, "y": -5, "z": 74 }
+		},
+	},
+	"groundTransformByType": {
+		"*": { 
+			"scale": 1.0
+		}
+	}
+}

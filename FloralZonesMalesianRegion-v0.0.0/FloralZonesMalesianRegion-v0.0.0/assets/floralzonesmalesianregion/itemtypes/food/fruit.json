@@ -1,0 +1,136 @@
+{
+	"code": "fruit",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "loadFromProperties": "floralzonesmalesianregion:block/fruit" }
+	],
+	"attributes": {
+		"foodTags": ["{fruit}"],
+		"nutritionPropsWhenInMeal": {
+			"satietyByType":  { 
+				"*-breyniaandrogyna": 90,
+				"*-duriotestudinarius": 150,
+				"*-musaacuminata": 120,
+				"*-musaacuminatachopped": 60,
+				"*-musaacuminatadried": 60,
+			},
+			"foodcategory": "Fruit" 
+		},
+		"inPiePropertiesByType": {
+			"*-breyniaandrogyna": { "texture": "game:block/food/pie/fill-breadfruit", "partType": "Filling" },
+			"*-duriotestudinarius": { "texture": "game:block/food/pie/fill-cottagecheese", "partType": "Filling" },
+			"*-musaacuminata": { "texture": "game:block/food/pie/fill-cottagecheese", "partType": "Filling" },
+			"*-musaacuminatachopped": { "texture": "game:block/food/pie/fill-cottagecheese", "partType": "Filling" },
+			"*": { "texture": "block/food/pie/fill-{fruit}", "partType": "Filling" }
+		},
+		"juiceablePropertiesByType": {
+			"*-breyniaandrogyna": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonesmalesianregion:juiceportion-breyniaandrogyna", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonesmalesianregion:pressedmash-breyniaandrogyna", "stacksize": 1 }
+			},
+			"*-duriotestudinarius": {
+				"litresPerItem": 0.5,
+				"liquidStack": { "type": "item", "code": "floralzonesmalesianregion:juiceportion-duriotestudinarius", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonesmalesianregion:pressedmash-duriotestudinarius", "stacksize": 1 }
+			},
+			"*-musaacuminata": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonesmalesianregion:juiceportion-musaacuminata", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonesmalesianregion:pressedmash-musaacuminata", "stacksize": 1 }
+			},
+			"*-musaacuminatachopped": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonesmalesianregion:juiceportion-musaacuminata", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonesmalesianregion:pressedmash-musaacuminata", "stacksize": 1 }
+			},
+			"*-saccharumofficinarum": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonesmalesianregion:juiceportion-saccharumofficinarum", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonesmalesianregion:pressedmash-saccharumofficinarum", "stacksize": 1 }
+			}
+		}
+	},
+	"shapebytype": { 
+		"*": { "base": "item/food/fruit/{fruit}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-breyniaandrogyna": { "satiety": 60, "foodcategory": "Fruit" },
+		"*-duriotestudinarius": { "satiety": 100, "foodcategory": "Fruit" },
+		"*-musaacuminata": { "satiety": 80, "foodcategory": "Fruit" },
+		"*-musaacuminatachopped": { "satiety": 40, "foodcategory": "Fruit" },
+		"*-musaacuminatadried": { "satiety": 40, "foodcategory": "Fruit" },
+		"*-saccharumofficinarum": { "satiety": 20, "foodcategory": "Fruit" }
+	},
+	"transitionablePropsByType": {
+		"*-breyniaandrogyna": [{
+			"type": "Perish",
+			"freshHours": { "avg": 144 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-duriotestudinarius": [{
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "floralzonesmalesianregion:treeseed-duriotestudinarius" },
+			"transitionRatio": 0.25
+		}],
+		"*-musaacuminata": [{
+			"type": "Perish",
+			"freshHours": { "avg": 144 },
+			"transitionHours": { "avg": 12 },
+			"transitionedStack": { "type": "item", "code": "floralzonesmalesianregion:treeseed-musaacuminata" },
+			"transitionRatio": 0.25
+		}],
+		"*-musaacuminatachopped": [{
+			"type": "Dry",
+			"freshHours": { "avg": 0 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "floralzonesmalesianregion:fruit-musaacuminatadried" },
+			"transitionRatio": 0.55
+		}],
+		"*-musaacuminatadried": [{
+			"type": "Perish",
+			"freshHours": { "avg": 336 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-saccharumofficinarum": [{
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 143, "y": -47, "z": -37 },
+			"origin": { "x": 0.5299, "y": 0.15, "z": 0.5299 },
+			"scale": 3.0
+		}
+	},
+	"fpHandTransformByType": {
+		"*":{
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 6, "y": 22, "z": 3 },
+		"origin": { "x": 0.3, "y": 0.8, "z": 0.7 }
+	}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -1.5, "y": -1.5, "z": -1.4 },
+			"rotation": { "x": 12, "y": -5, "z": 74 }
+		},
+	},
+	"groundTransformByType": {
+		"*": { 
+			"scale": 1.0
+		}
+	}
+}

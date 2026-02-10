@@ -1,0 +1,133 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 4,
+	"textureSizes": {
+		"taxusbaccata": [8,4]
+	},
+	"textures": {
+		"taxusbaccata": "item/resource/seeds/taxusbaccata"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "Base",
+					"from": [ -0.5, 0.0, -0.5 ],
+					"to": [ 0.5, 1.0, 0.5 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 30.0,
+					"faces": {
+						"north": { "texture": "#taxusbaccata", "uv": [ 7.0, 3.0, 8.0, 4.0 ] },
+						"east": { "texture": "#taxusbaccata", "uv": [ 6.5, 3.0, 7.5, 4.0 ] },
+						"south": { "texture": "#taxusbaccata", "uv": [ 6.0, 3.0, 7.0, 4.0 ] },
+						"west": { "texture": "#taxusbaccata", "uv": [ 6.0, 2.5, 7.0, 3.5 ] },
+						"up": { "texture": "#taxusbaccata", "uv": [ 6.5, 2.5, 7.5, 3.5 ] },
+						"down": { "texture": "#taxusbaccata", "uv": [ 6.0, 3.0, 7.0, 4.0 ] }
+					},
+					"children": [
+						{
+							"name": "South",
+							"from": [ 0.0, 1.0, 1.0 ],
+							"to": [ 1.0, 4.0, 2.0 ],
+							"rotationOrigin": [ 0.0, 1.0, 1.0 ],
+							"faces": {
+								"north": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"south": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+								"down": { "texture": "#taxusbaccata", "uv": [ 1.5, 3.0, 2.5, 4.0 ] }
+							}
+						},
+						{
+							"name": "North",
+							"from": [ 0.0, 1.0, -1.0 ],
+							"to": [ 1.0, 4.0, 0.0 ],
+							"rotationOrigin": [ 0.0, 1.0, -1.0 ],
+							"faces": {
+								"north": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"south": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"up": { "texture": "#taxusbaccata", "uv": [ 1.5, 0.0, 2.5, 1.0 ] },
+								"down": { "texture": "#taxusbaccata", "uv": [ 1.5, 3.0, 2.5, 4.0 ] }
+							}
+						},
+						{
+							"name": "East",
+							"from": [ 1.0, 1.0, -1.0 ],
+							"to": [ 2.0, 4.0, 2.0 ],
+							"rotationOrigin": [ 1.0, 1.0, -1.0 ],
+							"faces": {
+								"north": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"east": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+								"south": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"west": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+								"up": { "texture": "#taxusbaccata", "uv": [ 1.0, 0.0, 4.0, 1.0 ], "rotation": 90 },
+								"down": { "texture": "#taxusbaccata", "uv": [ 0.5, 3.0, 3.5, 4.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "West",
+							"from": [ -1.0, 1.0, -1.0 ],
+							"to": [ 0.0, 4.0, 2.0 ],
+							"rotationOrigin": [ -1.0, 1.0, -1.0 ],
+							"faces": {
+								"north": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"east": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+								"south": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 1.0, 3.0 ] },
+								"west": { "texture": "#taxusbaccata", "uv": [ 0.5, 0.0, 3.5, 3.0 ] },
+								"up": { "texture": "#taxusbaccata", "uv": [ 0.0, 0.0, 3.0, 1.0 ], "rotation": 90 },
+								"down": { "texture": "#taxusbaccata", "uv": [ 0.0, 3.0, 3.0, 4.0 ], "rotation": 90 }
+							}
+						},
+						{
+							"name": "Seed",
+							"from": [ 0.0, 2.6, 0.0 ],
+							"to": [ 1.0, 3.6, 1.0 ],
+							"rotationOrigin": [ 0.5, 2.6, 0.5 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#taxusbaccata", "uv": [ 4.5, 1.5, 5.5, 2.5 ] },
+								"east": { "texture": "#taxusbaccata", "uv": [ 4.5, 0.5, 5.5, 1.5 ] },
+								"south": { "texture": "#taxusbaccata", "uv": [ 4.5, 0.5, 5.5, 1.5 ] },
+								"west": { "texture": "#taxusbaccata", "uv": [ 5.0, 1.0, 6.0, 2.0 ] },
+								"up": { "texture": "#taxusbaccata", "uv": [ 5.0, 0.0, 6.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "Needles",
+							"from": [ 0.0, 0.4, -4.0 ],
+							"to": [ 1.0, 0.4, 0.0 ],
+							"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+							"faces": {
+								"up": { "texture": "#taxusbaccata", "uv": [ 6.0, 0.0, 7.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "Needles2",
+							"from": [ -0.5, 0.5, -4.0 ],
+							"to": [ 0.5, 0.5, 0.0 ],
+							"rotationOrigin": [ 0.5, 0.5, 0.0 ],
+							"rotationY": 67.5,
+							"faces": {
+								"up": { "texture": "#taxusbaccata", "uv": [ 7.0, 0.0, 8.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

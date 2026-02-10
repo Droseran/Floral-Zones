@@ -1,0 +1,158 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["amorphophalluspaeoniifolius","alocasiamacrorrhizoscorm","alocasiamacrorrhizoscormcooked","alocasiamacrorrhizosleaf","alocasiamacrorrhizosleafcooked","breyniaandrogyna","zingiberzerumbet"] }
+    ],
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-amorphophalluspaeoniifolius": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  450,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-alocasiamacrorrhizoscorm": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  300,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-breyniaandrogyna": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  90,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-zingiberzerumbet": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  150,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+	},
+	"shapebytype": {
+		"*": { "base": "item/food/vegetable/{type}" },
+	},
+	"texturebytype": {
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-amorphophalluspaeoniifolius": { "satiety": 300, "foodcategory": "Vegetable" },
+		"*-alocasiamacrorrhizoscormcooked": { "satiety": 200, "foodcategory": "Vegetable" },
+		"*-alocasiamacrorrhizosleafcooked": { "satiety": 50, "foodcategory": "Vegetable" },
+		"*-breyniaandrogyna": { "satiety": 60, "foodcategory": "Vegetable" },
+		"*-zingiberzerumbet": { "satiety": 100, "foodcategory": "Vegetable" },
+	},
+	"transitionablePropsByType": {
+		"*-amorphophalluspaeoniifolius": [{
+			"type": "Perish",
+			"freshHours": { "avg": 60 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-alocasiamacrorrhizoscorm": [{
+			"type": "Perish",
+			"freshHours": { "avg": 650 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-alocasiamacrorrhizoscormcooked": [{
+			"type": "Perish",
+			"freshHours": { "avg": 650 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-alocasiamacrorrhizosleaf": [{
+			"type": "Perish",
+			"freshHours": { "avg": 24 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-alocasiamacrorrhizosleafcooked": [{
+			"type": "Perish",
+			"freshHours": { "avg": 48 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-breyniaandrogyna": [{
+			"type": "Perish",
+			"freshHours": { "avg": 72 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-zingiberzerumbet": [{
+			"type": "Perish",
+			"freshHours": { "avg": 504 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}]
+		
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*-laurusnobilis": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 95, "y": 11, "z": -135 },
+			"origin": { "x": 0.6, "y": 0.2, "z": 0.41 },
+			"scale": 3.4
+		},	
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	},
+	"combustiblePropsByType": {
+		"*-alocasiamacrorrhizoscorm": {
+			"meltingPoint": 93,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "cook",
+			"smeltedStack": { "type": "item", "code": "floralzonesmalesianregion:vegetable-alocasiamacrorrhizoscormcooked" },
+			"requiresContainer": false
+		},
+		"*-alocasiamacrorrhizosleaf": {
+			"meltingPoint": 93,
+			"meltingDuration": 30,
+			"smeltedRatio": 1,
+			"smeltingType": "convert",
+			"smeltedStack": { "type": "item", "code": "floralzonesmalesianregion:vegetable-alocasiamacrorrhizosleafcooked" },
+			"requiresContainer": false
+		}
+}
+}

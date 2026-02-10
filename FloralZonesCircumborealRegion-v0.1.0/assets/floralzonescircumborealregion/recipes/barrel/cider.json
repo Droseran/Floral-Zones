@@ -1,0 +1,64 @@
+[
+	{
+		"code": "cider",
+		"sealHours": 168,
+		"ingredients": [
+			{ "type": "item", "code": "floralzonescircumborealregion:juiceportion-*",  "name": "fruit", "allowedVariants": ["cornuscanadensis"], "litres": 0.1 }
+		],
+		"output": { "type": "item", "code": "floralzonescircumborealregion:ciderportion-{fruit}", "litres": 0.1 }
+	},
+	{
+		"code": "cider",
+		"sealHours": 168,
+		"ingredients": [
+			{ "type": "item", "code": "floralzonescircumborealregion:hops-dried", "quantity": 1 },
+			{ "type": "item", "code": "game:ciderportion-mead", "litres": 0.2 }
+		],
+		"output": { "type": "item", "code": "floralzonescircumborealregion:ciderportion-mead-hopped", "litres": 0.1 }
+	},
+	{
+		"code": "cider",
+		"sealHours": 168,
+		"ingredients": [
+			{ "type": "item", "code": "floralzonescircumborealregion:hops-dried", "quantity": 1 },
+			{ "type": "item", "code": "game:ciderportion-spelt", "litres": 0.2 }
+		],
+		"output": { "type": "item", "code": "floralzonescircumborealregion:ciderportion-spelt-hopped", "litres": 0.1 }
+	},
+	{
+		"code": "cider",
+		"sealHours": 168,
+		"ingredients": [
+			{ "type": "item", "code": "floralzonescircumborealregion:hops-dried", "quantity": 1 },
+			{ "type": "item", "code": "game:ciderportion-rice", "litres": 0.2 }
+		],
+		"output": { "type": "item", "code": "floralzonescircumborealregion:ciderportion-rice-hopped", "litres": 0.1 }
+	},
+	{
+		"code": "cider",
+		"sealHours": 168,
+		"ingredients": [
+			{ "type": "item", "code": "floralzonescircumborealregion:hops-dried", "quantity": 1 },
+			{ "type": "item", "code": "game:ciderportion-rye", "litres": 0.2 }
+		],
+		"output": { "type": "item", "code": "floralzonescircumborealregion:ciderportion-rye-hopped", "litres": 0.1 }
+	},
+	{
+		"code": "cider",
+		"sealHours": 168,
+		"ingredients": [
+			{ "type": "item", "code": "floralzonescircumborealregion:hops-dried", "quantity": 1 },
+			{ "type": "item", "code": "game:ciderportion-amaranth", "litres": 0.2 }
+		],
+		"output": { "type": "item", "code": "floralzonescircumborealregion:ciderportion-amaranth-hopped", "litres": 0.1 }
+	},
+	{
+		"code": "cider",
+		"sealHours": 168,
+		"ingredients": [
+			{ "type": "item", "code": "floralzonescircumborealregion:hops-dried", "quantity": 1 },
+			{ "type": "item", "code": "game:ciderportion-cassava", "litres": 0.2 }
+		],
+		"output": { "type": "item", "code": "floralzonescircumborealregion:ciderportion-cassava-hopped", "litres": 0.1 }
+	}
+]

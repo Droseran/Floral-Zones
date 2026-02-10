@@ -1,0 +1,59 @@
+{
+	"code": "waterlily",
+	"class": "BlockWaterLily",
+	"attributes": {
+    },
+	"variantgroups": [
+		{ "code": "type", "states": ["calthanatans"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-calthanatans":{"base": "block/plant/calthanatans/calthanatans"}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {	
+		"*-ludwigiapeploides": {
+		 "leaves1": { "base": "block/plant/flower/leaves/{type}1" ,"alternates": [ { "base": "block/plant/flower/petal/{type}1" },{ "base": "block/plant/flower/petal/{type}1" } ]},"leaves2": { "base": "block/plant/flower/petal/{type}2" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}2" },{ "base": "block/plant/flower/leaves/{type}2" } ]}},		
+		"*-menyanthestrifoliata": {
+		 "leaves1": { "base": "block/plant/flower/leaves/{type}1" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}1" },{ "base": "block/plant/flower/petal/{type}1" },{ "base": "block/plant/flower/leaves/{type}1" } ]},"flower1": { "base": "block/plant/flower/petal/{type}1" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}1" },{ "base": "block/plant/flower/petal/{type}1" },{ "base": "block/plant/flower/leaves/{type}1" } ]}}				
+	},
+	"randomizeRotations": true,
+	"liquidSelectable": 1,
+	"randomSizeAdjust": 0.1,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"vertexFlags": {
+		"zOffset": 5,
+		"windMode": "Water"
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": true,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5,
+	},
+	"frostable": true,
+	"guiTransform": {"origin": { "x": 0.5, "y": -0.25, "z": 0.5},
+		"scale": 1.5
+	}
+}

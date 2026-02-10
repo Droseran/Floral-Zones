@@ -1,0 +1,85 @@
+{
+	"code": "crop",
+	"class": "BlockCrop",
+	"behaviors": [{"name": "Unstable"}],
+	"variantgroups": [
+		{ "code": "type", "states": ["lactucasativa"] },
+		{ "code": "stage", "states": ["1", "2", "3", "4", "5","6","7"] }
+	],
+	"creativeinventory": { "general": [""], "plants": [""] },
+	"renderpass": "OpaqueNoCull",
+	"shape": { "base": "block/plant/crop/lactucasativa/stage{stage}" },
+	"blockmaterial": "Plant",
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.05,
+	"attributes": {	
+		"foodTagsByType": {
+			"*": ["nibbleCrop"]
+		},
+		"butterflyFeedByType": {
+			"*": false
+		},
+		"beeFeedByType": {
+			"*": false
+		},
+		"tickGrowthProbability": 0.02,
+		"handbook": {
+			"include": true			
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-7": [
+			{ "type": "item", "code": "floralzonescircumborealregion:seeds-lactucasativa", "quantity": { "avg": 1.2 }  },
+			{ "type": "item", "code": "floralzonescircumborealregion:vegetable-lactucasativa", "quantity": { "avg": 4.5, "var": 0.5}  }
+		],
+		"*-6": [
+			{ "type": "item", "code": "floralzonescircumborealregion:seeds-lactucasativa", "quantity": { "avg": 1.1 }  }
+		],
+		"*-5": [
+			{ "type": "item", "code": "floralzonescircumborealregion:seeds-lactucasativa", "quantity": { "avg": 1.1 }  }
+		],
+		"*": [
+			{ "type": "item", "code": "floralzonescircumborealregion:seeds-lactucasativa", "quantity": { "avg": 0.7 }  }
+		]
+	},
+	"cropProps": {
+		"requiredNutrient": "K",
+		"nutrientConsumption": 20,
+		"growthStages": 7,
+		"totalGrowthMonths": 1,
+		"coldDamageBelow": -7,
+		"heatDamageAbove": 25
+	},
+	"collisionBox": null,
+	"selectionBoxByType": {
+		"*-1": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.125, "z2": 0.9 },
+		"*-2": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.25, "z2": 0.9 },
+		"*-3": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.375, "z2": 0.9 },
+		"*-4": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.375, "z2": 0.9 },
+		"*-5": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.375, "z2": 0.9 },
+		"*-6": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.375, "z2": 0.9 },
+		"*": { "x1": 0.1, "y1": -0.0625, "z1": 0.1, "x2": 0.9, "y2": 0.375, "z2": 0.9 }
+	},
+	"materialDensity": 300,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"treeWorldPropertyCode": "eusideroxylonzwagerilarge",
+	"sizeMultiplier": 3,
+	"yOffset": -2,
+	"trunks": [{
+		"widthloss": 0.1,
+		"dx": 0.5,
+		"dz": 0.5,
+		"segment": 4,
+		"dieAt": { "avg": 0.001 },
+		"branchStart": { "avg": 0.5, "var": 0.05 },
+		"branchSpacing": { "avg": 0, "var": 0 },
+		"branchVerticalAngle":  { "avg": 1.32, "var": 0 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.03, "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 0.8 },
+		"branchQuantity": { "avg": 2, "var": 0 },
+		"branchQuantityEvolve": { "transform": "linear", "factor": 1.5 }
+	}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt", "segment"] },
+		"dieAt": { "avg": 0.2, "var": 0.1 },
+		"dx": 1.5,
+		"dz": 0.5,
+		"segment": 1
+	}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt", "segment"] },
+		"dieAt": { "avg": 0.2, "var": 0.1 },
+		"dx": 0.5,
+		"dz": 1.5,
+		"segment": 3,
+	}, {
+		"inherit": { "from": 0, "skip": ["dx", "dz", "dieAt", "segment"] },
+		"dieAt": { "avg": 0.2, "var": 0.1 },
+		"dx": 1.5,
+		"dz": 1.5,
+		"segment": 2
+	}],
+	"branches": [{
+		"widthLoss": 0.08,
+		"gravityDrag": 0,
+
+		"branchStart":  { "avg": 0, "var": 0 },
+		"branchSpacing": { "avg": 0.01, "var": 0 },
+		"branchVerticalAngle": { "avg": 1.1, "var": 0.2 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+
+		"branchQuantity": { "avg": 0.5, "var": 0 },
+		"branchWidthMultiplier": { "avg": 0.25, "var": 0 }
+	}, {
+		"branchStart": { "avg": 2 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "floralzonesmalesianregion:log-grown-eusideroxylonzwageri-ud",
+		"leavesBlockCode": "floralzonesmalesianregion:leaves-grown-eusideroxylonzwageri",
+		"leavesBranchyBlockCode": "floralzonesmalesianregion:leavesbranchy-grown-eusideroxylonzwageri",
+		"mossDecorCode": "attachingplant-spottymoss",
+		"trunkSegmentBase": "floralzonesmalesianregion:logsection-grown-eusideroxylonzwageri-",
+		"trunkSegmentVariants": [ "ne", "se", "sw", "nw" ]
+	}
+}

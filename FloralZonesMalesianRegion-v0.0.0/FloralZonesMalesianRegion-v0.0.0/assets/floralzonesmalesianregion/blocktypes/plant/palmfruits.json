@@ -1,0 +1,98 @@
+{
+	"code": "bigberrybush",
+	"class": "BlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 11,
+		"resetBelowTemperature": 13,
+		"stopBelowTemperature": 15,
+		
+		"revertBlockAboveTemperature": 59,
+		"resetAboveTemperature": 55,
+		"stopAboveTemperature": 51,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 2.04, "var": 0.09 },
+		"*-flowering": { "avg": 4.04, "var": 0.09 },
+		"*-ripe": { "avg": 1.49, "var": 0.09 }},
+		"stackable": false,
+		"treeFellingGroupCodeByType": {"*": "{type}"},
+			"treeFellingGroupSpreadIndexByType": {"*": 1}
+	},
+	"entityclass": "BerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonesmalesianregion:fruit-{type}", "quantity": { "avg": 6.1 }  },
+			"harvestedBlockCode": "floralzonesmalesianregion:bigberrybush-{type}-empty",
+			"exchangeBlock": true
+		}} ],
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["musaacuminata"] },
+		{ "code": "state", "states": ["empty","flowering","ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-musaacuminata-empty": { "base": "block/plant/berrybush/musaacuminata-empty"},
+		"*-musaacuminata-flowering": { "base": "block/plant/berrybush/musaacuminata-flowering"},
+		"*-musaacuminata-ripe": { "base": "block/plant/berrybush/musaacuminata-ripe"},
+		"*": { "base": "block/plant/berrybush/musaacuminata-empty" }
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-musaacuminata-empty": {
+		"musaacuminata": { "base": "block/plant/berrybush/musaacuminata" }
+		},
+		"*-musaacuminata-flowering": {
+		"musaacuminata": { "base": "block/plant/berrybush/musaacuminata" }
+		},
+		"*-musaacuminata-ripe": {
+		"musaacuminata": { "base": "block/plant/berrybush/musaacuminata" },
+			"musaacuminata-fruit": { "base": "block/plant/berrybush/musaacuminata-fruit" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-musaacuminata-ripe": [
+			{ "type": "item", "code": "floralzonesmalesianregion:fruit-{type}", "quantity": { "avg": 4.6 }   }
+			],
+		"*": []
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

@@ -1,0 +1,104 @@
+{
+	"code": "bigberrybush",
+	"class": "BlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 7,
+		"resetBelowTemperature": 9,
+		"stopBelowTemperature": 11,
+		
+		"revertBlockAboveTemperature": 61,
+		"resetAboveTemperature": 57,
+		"stopAboveTemperature": 51,
+		"overrideRandomDrawOffset": 53,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 6.25, "var": 0.09 },
+		"*-flowering": { "avg": 1.04, "var": 0.09 },
+		"*-ripe": { "avg": 1.25, "var": 0.09 }},
+		"stackable": true,
+		"treeFellingGroupCodeByType": {"*": "{type}"},
+			"treeFellingGroupSpreadIndexByType": {"*": 1}
+	},
+	"entityclass": "BerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonesmalesianregion:fruit-{type}", "quantity": { "avg": 2.6 }  },
+			"harvestedBlockCode": "floralzonesmalesianregion:bigberrybush-{type}-empty",
+			"exchangeBlock": true
+		}} ],
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["duriotestudinarius"] },
+		{ "code": "state", "states": ["empty","flowering","ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-duriotestudinarius-empty": { "base": "block/plant/berrybush/duriotestudinarius-empty"},
+		"*-duriotestudinarius-flowering": { "base": "block/plant/berrybush/duriotestudinarius-flowering"},
+		"*-duriotestudinarius-ripe": { "base": "block/plant/berrybush/duriotestudinarius-ripe"},
+		"*": { "base": "block/plant/berrybush/duriotestudinarius-empty" }
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-duriotestudinarius-empty": {
+		"duriotestudinarius": { "base": "block/plant/berrybush/duriotestudinarius" }
+		},
+		"*-duriotestudinarius-flowering": {
+		"duriotestudinarius": { "base": "block/plant/berrybush/duriotestudinarius" }
+		},
+		"*-duriotestudinarius-ripe": {
+		"duriotestudinarius": { "base": "block/plant/berrybush/duriotestudinarius" },
+			"duriotestudinarius-fruit": { "base": "block/plant/berrybush/duriotestudinarius-fruit" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"blockmaterial": "Wood",
+	"requiredMiningTier": 1,
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": { "hit": "game:block/chop", "break": "game:block/planks" }
+		}
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-duriotestudinarius-ripe": [
+			{ "type": "item", "code": "floralzonesmalesianregion:fruit-{type}", "quantity": { "avg": 0.6 }   }
+			],
+		"*": []
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true
+}

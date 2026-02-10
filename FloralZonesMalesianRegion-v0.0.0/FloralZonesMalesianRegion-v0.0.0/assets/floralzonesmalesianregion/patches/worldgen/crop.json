@@ -1,0 +1,80 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Elephant-Foot Yam",
+          "blockCodes": [
+            "floralzonesmalesianregion:crop-armoraciarusticana-4", "floralzonesmalesianregion:crop-armoraciarusticana-6", "floralzonesmalesianregion:crop-armoraciarusticana-5", "floralzonesmalesianregion:crop-armoraciarusticana-7"
+          ],
+          "minTemp": 29,
+          "maxTemp": 36,
+          "minRain": 0.73,
+          "maxRain": 1,
+		  "minFertility": 0.6,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "chance": 0.05,
+		  "minY": 0,
+          "maxY": 0.55,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Abaca",
+          "blockCodes": [
+            "floralzonesmalesianregion:crop-musatextilis-10", "floralzonesmalesianregion:crop-musatextilis-9", "floralzonesmalesianregion:crop-musatextilis-6", "floralzonesmalesianregion:crop-musatextilis-7"
+          ],
+          "minTemp": 29,
+          "maxTemp": 34,
+          "minRain": 0.88,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0.2,
+		  "maxForest": 1,
+          "chance": 0.05,
+		  "minY": 0,
+          "maxY": 0.35,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 1 },
+          "offsetX": { "avg": 1, "var": 6 },
+          "offsetZ": { "avg": 1, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Bitter Ginger",
+          "blockCodes": [
+            "floralzonesmalesianregion:crop-zingiberzerumbet-10", "floralzonesmalesianregion:crop-zingiberzerumbet-9", "floralzonesmalesianregion:crop-zingiberzerumbet-4", "floralzonesmalesianregion:crop-zingiberzerumbet-8"
+          ],
+          "minTemp": 26,
+          "maxTemp": 35,
+          "minRain": 0.72,
+          "maxRain": 1,
+		  "minFertility": 0.6,
+		  "maxFertility": 1,
+		  "minForest": 0.6,
+		  "maxForest": 1,
+          "chance": 0.05,
+		  "minY": 0,
+          "maxY": 0.5,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 1 },
+          "offsetX": { "avg": 1, "var": 6 },
+          "offsetZ": { "avg": 1, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+		}
+]

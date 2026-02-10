@@ -1,0 +1,56 @@
+{
+	code: "boat",
+	class: "ItemBoat",
+	variantgroups: [
+		{ code: "type", states: ["raft", "sailed"] },
+		{ "code": "material", "loadFromProperties": "floralzonesmalesianregion:block/wood" },
+	],
+	skipVariants: [
+		"boat-sailed-aged",
+		"boat-sailed-bamboo"
+	],
+	shapeByType: {
+			"boat-raft-*": { base: "game:entity/nonliving/boat/raft" },
+			"boat-sailed-*": { base: "game:entity/nonliving/boat/sailed", ignoreElements: ["hideWater"] }
+		},
+	texturesByType: {
+		"*-bamboo": {},
+		"*": {
+			"material": { base: "floralzonesmalesianregion:block/wood/debarked/{material}" },
+			"oak": { base: "floralzonesmalesianregion:block/wood/debarked/{material}" },
+			"oak1": { base: "floralzonesmalesianregion:block/wood/planks/{material}*" },
+			"birch1": { base: "floralzonesmalesianregion:block/wood/planks/{material}*" },
+			"plainoak": { base: "floralzonesmalesianregion:block/wood/debarked/{material}" }
+
+		}
+	},
+	heldTpIdleAnimation: "holdunderarm",
+	maxstacksize: 1,
+	materialDensity: 1,
+	liquidSelectable: 1,
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransform: {
+		translation: { x: 4.0, y: 7.0, z: 0.0 },
+		rotation: { x: -32.0, y: -35.0, z: -180.0 },
+		origin: { x: 0.5, y: 0.0, z: 0.5 },
+		scale: 0.6
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.4, z: 0.46 },
+		rotation: { x: 9, y: -8, z: 88 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 1.06
+	},
+	groundTransform: {
+		translation: { x: 0.0, y: 0.0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 6.3
+	},
+	tpHandTransform: {
+		translation: { x: -0.78, y: 0.48, z: -0.85 },
+		rotation: { x: 98, y: -145, z: 19 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.52
+	}
+}

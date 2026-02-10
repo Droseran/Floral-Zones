@@ -1,0 +1,97 @@
+{
+	"code": "pickledvegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["amorphophalluspaeoniifolius","alocasiamacrorrhizoscormcooked","zingiberzerumbet"] }
+    ],
+		"crockable": true,
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-amorphophalluspaeoniifolius": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   360,
+				"foodcategory": "Vegetable" },
+				"inPieProperties": {"texture": "block/food/pie/fill-armoraciarusticana", "partType": "Filling" }
+	},
+		"*-alocasiamacrorrhizoscormcooked": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   250,
+				"foodcategory": "Vegetable" },
+				"inPieProperties": {"texture": "block/food/pie/fill-armoraciarusticana", "partType": "Filling" }
+	},
+		"*-zingiberzerumbet": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":   120,
+				"foodcategory": "Vegetable" },
+				"inPieProperties": {"texture": "block/food/pie/fill-armoraciarusticana", "partType": "Filling" }
+	},
+	},
+	"shapebytype": {
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"texturebytype": {
+		"*": { "base": "item/food/vegetable/{type}-pickled" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-amorphophalluspaeoniifolius": { "satiety": 250, "foodcategory": "Vegetable" },
+		"*-alocasiamacrorrhizoscormcooked": { "satiety": 160, "foodcategory": "Vegetable" },		
+		"*-zingiberzerumbet": { "satiety": 80, "foodcategory": "Vegetable" }
+	},
+	"transitionablePropsByType": {
+		"*-amorphophalluspaeoniifolius": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
+		"*-alocasiamacrorrhizoscormcooked": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}],
+		"*-zingiberzerumbet": [{
+			"type": "Perish",
+			"freshHours": { "avg": 1800 },
+			"transitionHours": { "avg": 240 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.5
+		}]
+	},
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	}}

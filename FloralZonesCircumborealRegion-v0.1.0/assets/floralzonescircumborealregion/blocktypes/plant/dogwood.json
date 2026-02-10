@@ -1,0 +1,120 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering-*": true
+		},
+		"beeFeedByType": {
+			"*-flowering-*": true
+		},
+		"plantContainable": {
+			"smallContainerByType": {
+				"*-cornuscanadensis-*": {"shape": { "base": "block/plant/berrybush/cornuscanadensis4", "IgnoreElements": ["Fruit *"]},"textures": {"leaves": { "base": "block/plant/flower/stem/cornuscanadensis" },"flower": { "base": "block/plant/flower/petal/cornuscanadensis" }}},
+				},
+			"largeContainerByType": {
+				"*-cornuscanadensis-*": {"shape": { "base": "block/plant/berrybush/cornuscanadensis4", "IgnoreElements": ["Fruit *"]},"textures": {"leaves": { "base": "block/plant/flower/stem/cornuscanadensis" },"flower": { "base": "block/plant/flower/petal/cornuscanadensis" }}},
+				}
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": -17,
+		"resetBelowTemperature": -15,
+		"stopBelowTemperature": -13,
+		
+		"revertBlockAboveTemperature": 35,
+		"resetAboveTemperature": 31,
+		"stopAboveTemperature": 27,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty-*": { "avg": 3.75, "var": 0.09 },
+		"*-flowering-*": { "avg": 3.75, "var": 0.09 },
+		"*-ripe-*": { "avg": 1.04, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe-*": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescircumborealregion:fruit-{type}", "quantity": { "avg": 1.4 }  },
+			"harvestedBlockCode": "floralzonescircumborealregion:smallberrybush-{type}-empty-free"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["cornuscanadensis"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] },
+		{ "code": "cover", "states": ["free", "snow"]}
+	],
+
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-cornuscanadensis-empty-*": { "base": "block/plant/berrybush/cornuscanadensis1", "IgnoreElements": ["Flower *","Fruit *"],"alternates": [ {"base": "block/plant/berrybush/cornuscanadensis2", "IgnoreElements": ["Flower *","Fruit *"]},{"base": "block/plant/berrybush/cornuscanadensis3", "IgnoreElements": ["Flower *","Fruit *"]}]},
+		"*-cornuscanadensis-flowering-*": { "base": "block/plant/berrybush/cornuscanadensis2", "IgnoreElements": ["Fruit *"],"alternates": [ {"base": "block/plant/berrybush/cornuscanadensis2", "IgnoreElements": ["Fruit *"]},{"base": "block/plant/berrybush/cornuscanadensis3", "IgnoreElements": ["Fruit *"]}]},
+		"*-cornuscanadensis-ripe-*": { "base": "block/plant/berrybush/cornuscanadensis1", "IgnoreElements": ["Flower *"],"alternates": [ {"base": "block/plant/berrybush/cornuscanadensis2", "IgnoreElements": ["Flower *"]},{"base": "block/plant/berrybush/cornuscanadensis3", "IgnoreElements": ["Flower *"]}]}
+	},
+	"texturesByType": {
+		"*-cornuscanadensis*": {"leaves": { "base": "block/plant/flower/stem/cornuscanadensis" },"flower": { "base": "block/plant/flower/petal/cornuscanadensis" },"fruit": { "base": "item/food/fruit/cornuscanadensis" }}
+	},
+	"randomizeRotations": true,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"breakByType": {
+		 	"*": "game:block/plant"
+		},
+		"hitByType": {
+		 	"*": "game:block/plant"
+		},
+		"walkByType": {
+			"*-snow*": "game:walk/snow"
+		}
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe-*": [
+			{ "type": "item", "code": "floralzonescircumborealregion:fruit-{type}", "quantity": { "avg": 1.4 }  },
+			{ "type": "block", "code": "floralzonescircumborealregion:smallberrybush-cornuscanadensis-empty-free", "quantity": { "avg": 1 }  }
+		],
+		"*": [			{ "type": "block", "code": "floralzonescircumborealregion:smallberrybush-cornuscanadensis-empty-free", "quantity": { "avg": 1 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

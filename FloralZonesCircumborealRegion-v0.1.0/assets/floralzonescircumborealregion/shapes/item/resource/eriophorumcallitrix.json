@@ -1,0 +1,81 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"flower": [4,4]
+	},
+	"textures": {
+		"flower": "block/plant/berrybush/eriophorumcallitrix-ripe"
+	},
+	"elements": [
+		{
+			"name": "Fluffa",
+			"from": [ 7.0, -0.4, 7.0 ],
+			"to": [ 9.0, 1.6, 9.0 ],
+			"rotationOrigin": [ 7.0, -0.4, 7.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.5, 1.0, 2.5, 3.0 ], "windMode": [9,9,9,9], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "windMode": [9,9,9,9], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.5, 0.5, 2.5, 2.5 ], "windMode": [9,9,9,9], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 1.0, 2.0, 3.0 ], "windMode": [9,9,9,9], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 1.0, 1.0, 3.0, 3.0 ], "windMode": [9,9,9,9], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 1.0, 0.5, 3.0, 2.5 ], "windMode": [9,9,9,9], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Fluffa1",
+					"from": [ -0.5, 0.0, 1.0 ],
+					"to": [ 2.5, 3.0, 1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Fluffa2",
+					"from": [ -0.5, 0.0, 1.0 ],
+					"to": [ 2.5, 3.0, 1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+					"rotationY": 120.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false }
+					}
+				},
+				{
+					"name": "Fluffa3",
+					"from": [ -0.5, 0.0, 1.0 ],
+					"to": [ 2.5, 3.0, 1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+					"rotationY": -120.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 4.0 ], "autoUv": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 3.0 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ], "enabled": false },
+						"up": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,32 @@
+[
+     {
+        "op": "addeach",
+        "path": "/attributes/contentConfig/0",
+        "side": "server",
+        "value": [ 
+            { "code": "cornuscanadensisfruitmash",
+                "content": { "type": "item", "code": "floralzonescircumborealregion:pressedmash-cornuscanadensis" },
+                "quantityPerFillLevel":1,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", 
+                                        "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2",
+                                        "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3",
+                                        "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4" ],
+                "textureCode": "contents-pressedmash-cornuscanadensis" } ],
+        "file": "game:blocktypes/wood/trough-small.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-pressedmash-cornuscanadensis": {
+                "base": "game:block/food/pie/fill-raspberry",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            }
+        },
+        "file": "game:blocktypes/wood/trough-small.json"
+    }
+]

@@ -1,0 +1,104 @@
+{
+	"code": "vegetable",
+	"maxstacksize": 64,
+    "variantgroups": [
+		{ "code": "type", "states": ["angelicaarchangelica","ascophyllumnodosum","lactucasativa"] }
+    ],
+		  "materialDensityByType": {
+    "*": 600
+  },
+	"attributesByType": {
+			"foodTags": ["{type}"],
+		"*-angelicaarchangelica": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  150,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+		"*-lactucasativa": {
+			"nutritionPropsWhenInMeal": { 
+				"satiety":  150,
+				"foodcategory": "Vegetable" },
+			inPieProperties: { texture: "block/food/pie/fill-{type}", partType: 'Filling' }
+	},
+	},
+	"shapebytype": {
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"texturebytype": {
+		"*": { "base": "item/food/vegetable/{type}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-angelicaarchangelica": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-ascophyllumnodosum": { "satiety": 100, "foodcategory": "Vegetable" },
+		"*-lactucasativa": { "satiety": 100, "foodcategory": "Vegetable" },
+	},
+	"transitionablePropsByType": {
+		"*-angelicaarchangelica": [{
+			"type": "Perish",
+			"freshHours": { "avg": 60 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-ascophyllumnodosum": [{
+			"type": "Perish",
+			"freshHours": { "avg": 24 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		"*-lactucasativa": [{
+			"type": "Perish",
+			"freshHours": { "avg": 72 },
+			"transitionHours": { "avg": 72 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.55
+		}],
+		
+	},
+	"guiTransformByType": {
+		"*-laurusnobilis": {
+			"translation": { "x": 0, "y": 1, "z": 0 },
+			"rotation": { "x": -173, "y": 28, "z": -15 },
+			"origin": { "x": 0.5, "y": 0.22, "z": 0.5 },
+			"scale": 3.19
+		},
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 2.6
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*-laurusnobilis": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 95, "y": 11, "z": -135 },
+			"origin": { "x": 0.6, "y": 0.2, "z": 0.41 },
+			"scale": 3.4
+		},	
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	},
+}

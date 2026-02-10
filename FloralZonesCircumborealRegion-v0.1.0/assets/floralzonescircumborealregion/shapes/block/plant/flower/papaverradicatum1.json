@@ -1,0 +1,170 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"papaverradicatum1": [4,4]
+	},
+	"textures": {
+		"papaverradicatum1": "block/plant/flower/petal/papaverradicatum1"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Leavesa",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 1.0, 1.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -20.0,
+					"faces": {
+						"north": { "texture": "#papaverradicatum1", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Leavesb",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 1.0, 1.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 20.0,
+					"rotationY": 135.0,
+					"rotationZ": -15.0,
+					"faces": {
+						"north": { "texture": "#papaverradicatum1", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Leavesc",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 1.0, 1.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -90.0,
+					"rotationY": -70.0,
+					"rotationZ": -90.0,
+					"faces": {
+						"north": { "texture": "#papaverradicatum1", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Leavesd",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 1.0, 1.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -18.8817,
+					"rotationY": 41.6411,
+					"rotationZ": 12.2363,
+					"faces": {
+						"north": { "texture": "#papaverradicatum1", "uv": [ 0.0, 2.0, 4.0, 4.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "stema",
+					"from": [ 0.0, 0.4, 0.0 ],
+					"to": [ 0.1, 2.4, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 12.5,
+					"faces": {
+						"north": { "texture": "#papaverradicatum1", "uv": [ 0.0, 1.5, 4.0, 2.0 ], "rotation": 90, "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Flowera",
+							"from": [ -0.1, 2.0, -0.15 ],
+							"to": [ 0.2, 2.2, 0.15 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.05, 2.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#papaverradicatum1", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#papaverradicatum1", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"south": { "texture": "#papaverradicatum1", "uv": [ 0.5, 1.0, 1.0, 1.5 ] },
+								"west": { "texture": "#papaverradicatum1", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#papaverradicatum1", "uv": [ 2.5, 0.5, 3.0, 1.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "stemb",
+					"from": [ 0.0, 0.4, 0.0 ],
+					"to": [ 0.1, 2.4, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -14.0,
+					"rotationY": 17.0,
+					"rotationZ": 22.0,
+					"faces": {
+						"north": { "texture": "#papaverradicatum1", "uv": [ 0.0, 1.5, 4.0, 2.0 ], "rotation": 90, "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Flowerb",
+							"from": [ -0.1, 2.0, -0.15 ],
+							"to": [ 0.2, 2.2, 0.15 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.05, 2.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#papaverradicatum1", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#papaverradicatum1", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"south": { "texture": "#papaverradicatum1", "uv": [ 0.5, 1.0, 1.0, 1.5 ] },
+								"west": { "texture": "#papaverradicatum1", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#papaverradicatum1", "uv": [ 2.5, 0.5, 3.0, 1.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "stemc",
+					"from": [ 0.0, 0.1, 0.0 ],
+					"to": [ 0.1, 2.1, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.1, 0.0 ],
+					"rotationX": -25.0,
+					"rotationY": -14.0,
+					"rotationZ": -14.0,
+					"faces": {
+						"north": { "texture": "#papaverradicatum1", "uv": [ 0.0, 1.5, 4.0, 2.0 ], "rotation": 90, "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "Flowerc",
+							"from": [ -0.1, 2.0, -0.15 ],
+							"to": [ 0.2, 2.2, 0.15 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.05, 2.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#papaverradicatum1", "uv": [ 0.5, 0.0, 1.0, 0.5 ] },
+								"east": { "texture": "#papaverradicatum1", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+								"south": { "texture": "#papaverradicatum1", "uv": [ 0.5, 1.0, 1.0, 1.5 ] },
+								"west": { "texture": "#papaverradicatum1", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+								"down": { "texture": "#papaverradicatum1", "uv": [ 2.5, 0.5, 3.0, 1.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

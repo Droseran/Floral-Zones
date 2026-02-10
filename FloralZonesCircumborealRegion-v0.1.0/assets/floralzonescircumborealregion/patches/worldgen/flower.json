@@ -1,0 +1,397 @@
+[
+
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Melancholy Thistle",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-cirsiumhelenioides-free"
+          ],
+          "minTemp": -6,
+          "maxTemp": 10,
+          "minRain": 0.28,
+          "maxRain": 0.75,
+		  "minFertility": 0.5,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minY": 0,
+          "maxY": 0.3,
+          "chance": 0.1,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 3 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Thick patches of Melancholy Thistle",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-cirsiumhelenioides-free"
+          ],
+          "minTemp": -6,
+          "maxTemp": 10,
+          "minRain": 0.28,
+          "maxRain": 0.75,
+		  "minFertility": 0.5,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minY": 0,
+          "maxY": 0.3,
+          "chance": 0.1,
+          "quantity": { "dist": "invexp", "avg": 20, "var": 30 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Lemon Daylily",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-hemerocallislilioasphodelus-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 19,
+          "minRain": 0.29,
+          "maxRain": 0.64,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0.1,
+		  "maxForest": 0.4,
+          "minY": 0,
+          "maxY": 0.1,
+          "chance": 0.0,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 0, "var": 9 },
+          "offsetZ": { "avg": 0, "var": 9 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Arctic Poppy",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-papaverradicatum-free"
+          ],
+          "minTemp": -19,
+          "maxTemp": 2,
+          "minRain": 0.34,
+          "maxRain": 0.61,
+		  "minFertility": 0,
+		  "maxFertility": 0.3,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "minY": 0,
+          "maxY": 0.8,
+          "chance": 0.3,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 1 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of French Rose",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-rosagallica-free"
+          ],
+          "minTemp": 14,
+          "maxTemp": 22,
+          "minRain": 0.49,
+          "maxRain": 0.55,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.4,
+          "minY": 0,
+          "maxY": 0.58,
+          "chance": 0.0,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Cinnamon Rose",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-rosamajalis-free"
+          ],
+          "minTemp": 3,
+          "maxTemp": 16,
+          "minRain": 0.23,
+          "maxRain": 0.61,
+		  "minFertility": 0.3,
+		  "maxFertility": 1,
+		  "minForest": 0.1,
+		  "maxForest": 0.4,
+          "minY": 0,
+          "maxY": 0.65,
+          "chance": 0.0,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 2 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Arctic Willow",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-salixarctica-free"
+          ],
+          "minTemp": -19,
+          "maxTemp": 7,
+          "minRain": 0.21,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 0.4,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minY": 0,
+          "maxY": 0.6,
+          "chance": 0.0,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 2 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Patches of Purple Pitcher Plant near water",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-sarraceniapurpurea-free"
+          ],
+          "minTemp": 4,
+          "maxTemp": 24,
+          "minRain": 0.23,
+          "maxRain": 0.78,
+		  "minFertility": 0,
+		  "maxFertility": 0.5,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minY": 0,
+          "maxY": 0.3,
+		  "placement": "NearWater",
+          "chance": 0.0,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 8 },
+          "offsetX": { "avg": 0, "var": 30 },
+          "offsetZ": { "avg": 0, "var": 30 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small varied patches of Moss Campion",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-sileneacaulis-free"
+          ],
+          "minTemp": -18,
+          "maxTemp": 8,
+          "minRain": 0.09,
+          "maxRain": 0.75,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minY": 0,
+          "maxY": 0.7,
+          "chance": 0.3,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 3 },
+          "offsetX": { "avg": 0, "var": 5 },
+          "offsetZ": { "avg": 0, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Common Dandelion",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-taraxacumofficinale-free"
+          ],
+          "minTemp": 4,
+          "maxTemp": 27,
+          "minRain": 0.09,
+          "maxRain": 0.95,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 1,
+          "minY": 0,
+          "maxY": 0.75,
+          "chance": 0.0,
+          "quantity": { "dist": "invexp", "avg": 25, "var": 20 },
+          "offsetX": { "avg": 0, "var": 80 },
+          "offsetZ": { "avg": 0, "var": 80 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Red Clover",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-trifoliumpratense-free"
+          ],
+          "minTemp": -1,
+          "maxTemp": 15,
+          "minRain": 0.29,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minY": 0,
+          "maxY": 0.72,
+          "chance": 0.01,
+          "quantity": { "dist": "invexp", "avg": 100, "var": 900 },
+          "offsetX": { "avg": 0, "var": 20 },
+          "offsetZ": { "avg": 0, "var": 20 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Red Clover",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-trifoliumpratense-free"
+          ],
+          "minTemp": -1,
+          "maxTemp": 15,
+          "minRain": 0.29,
+          "maxRain": 1,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minY": 0,
+          "maxY": 0.72,
+          "chance": 0.1,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 30 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Dwarf Bulrush near water",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-typhaminima-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 14,
+          "minRain": 0.16,
+          "maxRain": 0.75,
+		      "minFertility": 0,
+		      "maxFertility": 0.6,
+		  "minForest": 0,
+		  "maxForest": 0.7,
+          "minY": 0,
+          "maxY": 0.2,
+		  "placement": "NearWater",
+          "chance": 1,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 4 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Thick patches of Dwarf Bulrush near water",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-typhaminima-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 14,
+          "minRain": 0.16,
+          "maxRain": 0.75,
+		  "minFertility": 0,
+		  "maxFertility": 0.6,
+		  "minForest": 0,
+		  "maxForest": 0.7,
+          "minY": 0,
+          "maxY": 0.2,
+		  "placement": "NearWater",
+          "chance": 0.5,
+          "quantity": { "dist": "invexp", "avg": 200, "var": 400 },
+          "offsetX": { "avg": 0, "var": 20 },
+          "offsetZ": { "avg": 0, "var": 20 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+	    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Wild Pansy",
+          "blockCodes": [
+            "floralzonescircumborealregion:flower-violatricolor-blue-free", "floralzonescircumborealregion:flower-violatricolor-indigo-free", "floralzonescircumborealregion:flower-violatricolor-indigoandyellow-free", "floralzonescircumborealregion:flower-violatricolor-lavender-free", "floralzonescircumborealregion:flower-violatricolor-purple-free", "floralzonescircumborealregion:flower-violatricolor-purpleandindigo-free", "floralzonescircumborealregion:flower-violatricolor-purpleandyellow-free", "floralzonescircumborealregion:flower-violatricolor-purpleandwhite-free",
+          ],
+          "minTemp": 3,
+          "maxTemp": 22,
+          "minRain": 0.23,
+          "maxRain": 0.72,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minY": 0,
+          "maxY": 0.67,
+          "chance": 0.0,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 3 },
+          "offsetX": { "avg": 0, "var": 12 },
+          "offsetZ": { "avg": 0, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+      },
+
+]

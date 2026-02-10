@@ -1,0 +1,37 @@
+{
+	treeWorldPropertyCode: "abiesbalsamea",
+	sizeMultiplier: 0.6,
+	trunks: [{
+		widthloss: 0.05,
+		dieAt: { avg: 0.05 },
+		branchStart: { dist: "gaussian", avg: 0.1, var: 0.1 },
+		branchSpacing: { avg: 0.15, var: 0.008 },
+		branchVerticalAngle:  { dist: "gaussian", avg: 1.57, var: 0.3 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+		branchWidthMultiplier: { avg: 0.35, var: 0 },
+		branchWidthMultiplierEvolve: { transform: "linear", factor: 0.1 },
+		branchQuantity: { avg: 10, var: 0 },
+		branchQuantityEvolve: { transform: "quadratic", factor: 0.3 }
+	}],
+	branches: [{
+		widthLoss: 0.05,
+		gravityDrag: 0.02,
+
+		branchStart:  { avg: 1.25, var: 0.1 },
+		branchSpacing: { avg: 0, var: 0 },
+		branchVerticalAngle: { avg: 1.57, var: 0 },
+		branchHorizontalAngle: { avg: 0, var: 3.1415 },
+
+		branchQuantity: { avg: 24, var: 0 },
+		branchWidthMultiplier: { avg: 0.28, var: 0 }
+	}],
+	treeBlocks: {
+		logBlockCode: "floralzonescircumborealregion:log-grown-abiesbalsamea-ud",
+		leavesBlockCode: "floralzonescircumborealregion:leaves-grown-abiesbalsamea",
+		otherLogBlockCode: "floralzonescircumborealregion:log-resin-abiesbalsamea-ud",
+		otherLogChance: 0.01,
+		leavesBranchyBlockCode: "floralzonescircumborealregion:leavesbranchy-grown-abiesbalsamea",
+		vinesBlockCode: "wildvine-section-north",
+		vinesEndBlockCode: "wildvine-end-north", mossDecorCode: "attachingplant-spottymoss"
+	}
+}
