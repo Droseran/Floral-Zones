@@ -1,0 +1,14 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "foodshelves" }
+		],
+		"side": "Server",
+		"file": "foodshelves:config/restrictions/general/liquidystuff.json",
+		"op": "addmerge",
+		"path": "/CollectibleCodes",
+		"value": [
+			"floralzonescentralaustralianregion:grain-*"
+		]
+	}
+]

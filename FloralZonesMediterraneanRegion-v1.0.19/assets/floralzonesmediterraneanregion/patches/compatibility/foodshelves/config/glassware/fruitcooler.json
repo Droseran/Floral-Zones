@@ -1,0 +1,21 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "foodshelves" }
+		],
+		"side": "Server",
+		"file": "foodshelves:config/restrictions/glassware/fruitcooler.json",
+		"op": "addmerge",
+		"path": "/CollectibleCodes",
+		"value": [
+			"floralzonesmediterraneanregion:fruit-capparisspinosa",
+			"floralzonesmediterraneanregion:fruit-vitisvinifera-blue",
+			"floralzonesmediterraneanregion:fruit-vitisvinifera-purple",
+			"floralzonesmediterraneanregion:fruit-vitisvinifera-red",
+			"floralzonesmediterraneanregion:fruit-vitisvinifera-black",
+			"floralzonesmediterraneanregion:fruit-vitisvinifera-yellow",
+			"floralzonesmediterraneanregion:fruit-vitisvinifera-green",
+			"floralzonesmediterraneanregion:fruit-vitisvinifera-white",
+		]
+	}
+]

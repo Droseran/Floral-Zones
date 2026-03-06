@@ -1,0 +1,14 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "foodshelves" }
+		],
+		"side": "Server",
+		"file": "foodshelves:config/restrictions/glassware/fruitcooler.json",
+		"op": "addmerge",
+		"path": "/CollectibleCodes",
+		"value": [
+			"floralzonescentralaustralianregion:fruit-*"
+		]
+	}
+]

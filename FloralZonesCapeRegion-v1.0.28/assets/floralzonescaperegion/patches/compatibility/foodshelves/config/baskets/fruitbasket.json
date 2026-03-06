@@ -1,0 +1,14 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "foodshelves" }
+		],
+		"side": "Server",
+		"file": "foodshelves:config/restrictions/baskets/fruitbasket.json",
+		"op": "addmerge",
+		"path": "/CollectibleCodes",
+		"value": [
+			"floralzonescaperegion:fruit-*"
+		]
+	}
+]
