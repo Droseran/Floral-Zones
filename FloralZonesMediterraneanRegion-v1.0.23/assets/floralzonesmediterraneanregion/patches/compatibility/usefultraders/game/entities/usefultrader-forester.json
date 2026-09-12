@@ -1,0 +1,90 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:entities/humanoid/usefultrader-forester.json",
+		"op": "addmerge",
+		"path": "/attributes/tradeProps/selling/list",
+		"value": [
+			{
+				"code": "floralzonesmediterraneanregion:treeseed-populusalba",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:treeseed-quercusilex",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:treeseed-taxusbaccata",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:bigberrybush-capparisspinosa-empty",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:smallberrybush-wild-vitisvinifera-empty",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:tallplant-ferulacommunis-land-normal-free",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 2,
+					"var": 1
+				},
+				"price": {
+					"avg": 2,
+					"var": 1
+				}
+			}
+		]
+	}
+]

@@ -1,0 +1,49 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 4,
+	"textureSizes": {
+		"luffaaegyptiaca3-b": [16,4],
+		"luffaaegyptiaca3-a": [16,4]
+	},
+	"textures": {
+		"luffaaegyptiaca3-a": "block/plant/crop/luffaaegyptiaca3-a",
+		"luffaaegyptiaca3-b": "block/plant/crop/luffaaegyptiaca3-b"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face1",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#luffaaegyptiaca3-a", "uv": [ 0.0, 0.0, 16.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "Face2",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#luffaaegyptiaca3-b", "uv": [ 0.0, 0.0, 16.0, 4.0 ] }
+					}
+				}
+			]
+		}
+	]}

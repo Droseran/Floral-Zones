@@ -1,0 +1,82 @@
+[
+    {
+		"enabled": false,
+		ingredientPattern: "PPPBBBWAW",
+        width: 3,
+        height: 3,
+        ingredients: {
+            "P": {
+                type: "item",
+                name: "wood",
+                code: "floralzonescaperegion:plank-*",
+                allowedVariants: ["afrocarpusfalcatus", "searsialancea", "ocoteabullata"],
+                quantity: 4
+            },
+            "B": { 
+                type: "block",
+                name: "wood",
+                code: "floralzonescaperegion:supportbeam-*",
+                allowedVariants: ["afrocarpusfalcatus", "searsialancea", "ocoteabullata"],
+                quantity: 4
+            },
+            "W": {
+                type: "item",
+                name: "wood",
+                code: "ancienttools:wheel-*",
+                allowedVariants: ["afrocarpusfalcatus", "searsialancea", "ocoteabullata"],
+                quantity: 1
+            },
+            "A": {
+                type: "block",
+                code: "game:woodenaxle-ud",
+                quantity: 1
+            }
+        },
+        output: { 
+            type: "item", 
+            code: "ancienttools:cart",
+            attributes: { type: "wood-{wood}" },
+            quantity: 1
+		}
+    },
+	{
+		"enabled": false,
+		ingredientPattern: "PPPBBBWAW",
+		width: 3,
+		height: 3,
+		ingredients: {
+			"P": {
+				type: "item",
+				name: "wood",
+				code: "floralzonescaperegion:plank-*",
+				allowedVariants: ["afrocarpusfalcatus", "searsialancea", "ocoteabullata"],
+				quantity: 4
+			},
+			"B": { 
+				type: "item",
+				name: "wood",
+				code: "ancienttools:beam-*",
+				allowedVariants: ["afrocarpusfalcatus", "searsialancea", "ocoteabullata"],
+				quantity: 4
+			},
+			"W": {
+				type: "item",
+				name: "wood",
+				code: "ancienttools:wheel-*",
+				allowedVariants: ["afrocarpusfalcatus", "searsialancea", "ocoteabullata"],
+				quantity: 1
+			},
+			"A": {
+				type: "block",
+				code: "game:woodenaxle-ud",
+				quantity: 1
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:cart",
+			attributes: { type: "wood-{wood}" },
+			quantity: 1
+		}
+	}
+]

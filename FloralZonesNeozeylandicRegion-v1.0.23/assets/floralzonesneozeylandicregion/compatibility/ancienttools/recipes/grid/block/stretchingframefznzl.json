@@ -1,0 +1,28 @@
+[
+	{
+		"enabled": false,
+		ingredientPattern: "RSR,SWS,RSR",
+		width: 3,
+		height: 3,
+		ingredients: {
+			"S": {
+				type: "item",
+				code: "game:stick"
+			},
+			"R": {
+				type: "item",
+				code: "game:rope"
+			},
+			"W": {
+				type: "block",
+				code: "floralzonesneozeylandicregion:log-placed-*-ud",
+				name: "wood",
+				allowedVariants: ["dacrydiumcupressinum", "nothofagusmenziesii", "podocarpustotara", "araucariaheterophylla"]
+			}
+		},
+		output: {
+			type: "block",
+			code: "ancienttools:stretchingframe-{wood}-north"
+		}
+	}
+]

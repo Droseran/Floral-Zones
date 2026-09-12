@@ -1,0 +1,36 @@
+{
+	"treeWorldPropertyCode": "lysilomalatisiliquum",
+	"sizeMultiplier": 1.2,
+	"trunks": [{
+		"widthloss": 0.1,
+		"dieAt": { "avg": 0.01 },
+		"branchStart": { "dist": "gaussian", "avg": 0.5, "var": 0.1 },
+		"branchSpacing": { "avg": 0.15, "var": 0.005 },
+		"branchVerticalAngle":  { "dist": "gaussian", "avg": 0.9, "var": 0.1 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.1, "var": 0.1 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 1 },
+		"branchQuantity": { "avg": 5, "var": 2 },
+		"branchQuantityEvolve": { "transform": "quadratic", "factor": 0.2 }
+	}],
+	"branches": [{
+		"widthLoss": 0.026,
+		"gravityDrag": 0.09,
+
+		"branchStart":  { "avg": 0.6, "var": 0.1 },
+		"branchSpacing": { "avg": 0, "var": 0 },
+		"branchVerticalAngle": { "avg": 1.57, "var": 0.5 },
+		"branchHorizontalAngle": { "avg": 0, "var": 2.1415 },
+
+		"branchQuantity": { "avg": 20, "var": 0 },
+		"branchWidthMultiplier": { "avg": 0.3, "var": 0 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "floralzonescaribbeanregion:log-grown-lysilomalatisiliquum-ud",
+		"leavesBlockCode": "floralzonescaribbeanregion:leaves-grown-lysilomalatisiliquum",
+		"leavesBranchyBlockCode": "floralzonescaribbeanregion:leavesbranchy-grown-lysilomalatisiliquum",
+		"vinesBlockCode": "wildvine-section-north",
+		"vinesEndBlockCode": "wildvine-end-north",
+		"mossDecorCode": "attachingplant-spottymoss"
+	}
+}

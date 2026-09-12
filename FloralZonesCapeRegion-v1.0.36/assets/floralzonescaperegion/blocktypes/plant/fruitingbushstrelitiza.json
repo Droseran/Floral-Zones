@@ -1,0 +1,190 @@
+{
+	code: "fruitingbush",
+	class: "BlockRequireFertileGround",
+	behaviors: [ 
+		{ name: "FruitingBush" }, 
+		{ name: "BlockEntityInteract" },
+		{ name: "Unstable" }
+	],
+	entityClassByType: {
+		"fruitingbush-wild-*": "WildFruitingBush",
+		"*": "Generic"
+	},
+	entityBehaviors: [ 
+		{ name: "FruitingBush" }, 
+		{ name: "FruitingBushMesh" }
+	],
+	variantgroups: [
+		{ code: "state", states: ["wild", "grown"] },
+		{ code: "type",	states: ["strelitziaalba"]},
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		foodTags: ["sweetBerryBush"],
+		forageStatAffectedByType: {
+			"*-wild-*": true,
+			"*": false
+		},
+		textureVariantsByType: {
+			"*": 1
+		},
+		cuttingBlockCode: "floralzonescaperegion:fruitingbushcutting-{type}-free",
+		growthProperties: {
+			pauseGrowthBelowTemperature: 4,
+			pauseGrowthAboveTemperature: 36,
+			resetGrowthBelowTemperature: 2,
+			resetGrowthAboveTemperature: 40,
+			goDormantBelowTemperatureByType: {
+				"*": 0
+			},
+			leaveDormantAboveTemperatureByType: {
+				"*": 44
+			},
+			nutrientUseByHealthStateByType: {
+				"*": {
+					"bountiful": { n: 10, p: 10, k: 10 },
+					"healthy": { n: 7, p: 7, k: 7 },
+					"struggling": { n: 4, p: 4, k: 4 },
+					"barren": { n: 1, p: 1, k: 1 }
+				},
+			},
+			youngStageMonths: { avg: 6, var: 1 },
+			emptyStageMonths: { avg: 1, var: 0.1 },
+			floweringStageMonths: { avg: 6, var: 0.1 },
+			ripeningStageMonths: { avg: 1, var: 0.1 },
+			ripeStageMonths: { avg: 4, var: 0.1 }
+		},
+		harvestedStacksByType: {
+			"*": [{ type: "item", code: "floralzonescaperegion:fruit-{type}", quantity: { avg: 5.5 }  }]
+		},
+		textureMappingByType: {
+			"*": {
+				"stemcenter1": {
+					base: "floralzonescaperegion:block/plant/berrybush/{type}/stem/stemcenter1"
+				},
+				"leavescenter1": {
+					base: "floralzonescaperegion:block/plant/berrybush/{type}/leaves/{healthstate}/leaf2",
+					alternates: [
+						{ base: "floralzonescaperegion:block/plant/berrybush/{type}/leaves/{healthstate}/leaf2" }
+					]
+				},
+				"leavescenter2": {
+					base: "floralzonescaperegion:block/plant/berrybush/{type}/leaves/{healthstate}/leaf2",
+					alternates: [
+						{ base: "floralzonescaperegion:block/plant/berrybush/{type}/leaves/{healthstate}/leaf1" }
+					]
+				},
+				"leavescenter3": {
+					base: "floralzonescaperegion:block/plant/berrybush/strelitziaalba-dead",
+					alternates: [
+						{ base: "floralzonescaperegion:block/plant/berrybush/{type}/leaves/{healthstate}/leaf2" }
+					]
+				},
+				"stemcenter3": {
+					base: "floralzonescaperegion:block/plant/berrybush/strelitziaalba-top"
+				},
+				"stemcenter2": {
+					base: "floralzonescaperegion:block/plant/berrybush/strelitziaalba-cap"
+				},
+				"flowerberrycenter1": {
+					base: "floralzonescaperegion:block/plant/berrybush/{type}/berries/healthy/{berrystage}"
+				}
+			}
+		},
+		youngTextureMappingByType: {
+			"*": {
+			north1: { base: "floralzonescaperegion:block/plant/berrybush/cuttings/{type}-stem1" },
+			south1: { base: "floralzonescaperegion:block/plant/berrybush/cuttings/{type}-stem2" }
+			}
+		},
+		youngShape: { base: "block/plant/flower/1patch-cross-16x16",
+			"selectiveElements": [ "origin/South","origin/North" ]  },
+		reinforcable: true,
+		overrideRandomDrawOffset: 14,
+		allowOverlays: false
+	},
+	shapeByType: {
+		"*": { "base": "block/plant/berrybush/strelitziaalba1",
+					alternates: [
+				{ rotateY: 10 },
+				{ rotateY: 10, base: "block/plant/berrybush/strelitziaalba2" },
+				{ rotateY: 10, base: "block/plant/berrybush/strelitziaalba3" },
+				{ rotateY: 70 },
+				{ rotateY: 70, base: "block/plant/berrybush/strelitziaalba2" },
+				{ rotateY: 70, base: "block/plant/berrybush/strelitziaalba3" },
+				{ rotateY: 130 },
+				{ rotateY: 130, base: "block/plant/berrybush/strelitziaalba2" },
+				{ rotateY: 130, base: "block/plant/berrybush/strelitziaalba3" },
+				{ rotateY: 190 },
+				{ rotateY: 190, base: "block/plant/berrybush/strelitziaalba2" },
+				{ rotateY: 190, base: "block/plant/berrybush/strelitziaalba3" },
+				{ rotateY: 250 },
+				{ rotateY: 250, base: "block/plant/berrybush/strelitziaalba2" },
+				{ rotateY: 250, base: "block/plant/berrybush/strelitziaalba3" },
+				{ rotateY: 310 },
+				{ rotateY: 310, base: "block/plant/berrybush/strelitziaalba2" },
+				{ rotateY: 310, base: "block/plant/berrybush/strelitziaalba3" }
+					] }
+	},
+	"shapeInventoryByType": {
+		"*": { "base": "block/plant/berrybush/strelitziaalba1" }
+	},
+	texturesByType: {
+		"*": {			
+			"particle": { base: "floralzonescaperegion:block/plant/berrybush/strelitziaalba-leaf1" }
+		}
+	},
+	drawtypeByType: {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	blockmaterialByType: {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	faceCullModeByType: {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},	
+	particlesTextureCode: "particle",
+	creativeinventory: { "general": [ "*-free" ], "flora": [ "*-free" ] },
+	randomizeRotations: true,
+	renderpass: "OpaqueNoCull",
+	renderAlphaTest: 0.4,
+	blockmaterial: "Plant",
+	sideopaqueByType: {
+		"*-snow": { all: false, down: true },
+		"*": { all: false }
+	},
+	sidesolid: {"all": true},
+	replaceable: 3000,
+	lightAbsorption: 0,
+	resistance: 1.5,
+	"collisionbox": { "x1": 0.275, "y1": 0, "z1": 0.275, "x2": 0.7725, "y2": 2, "z2": 0.7725 },
+	selectionboxByType: {
+		"*": { x1: 0.25, y1: 0, z1: 0.25, x2: 0.75, y2: 1, z2: 0.75 },
+	},
+	sounds: {
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant",
+		inside: "game:walk/inside/leafy/bushrustle*"
+	},
+	rainPermeable: false,
+	drops: [
+		{
+			type: "item",
+			code: "game:plantdebris-leafy",
+			quantity: { "avg": 3 }
+		}
+	],
+	materialDensity: 200,
+	frostable: true,
+	"guiTransformByType": {
+		"*-strelitziaalba-*": { "origin": { "x": 0.5, "y": 3.25, "z": 0.5},"scale": 0.2}
+	},
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10
+	}
+}

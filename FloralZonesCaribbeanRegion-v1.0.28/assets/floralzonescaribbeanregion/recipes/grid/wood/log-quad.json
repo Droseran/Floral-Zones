@@ -1,0 +1,107 @@
+[
+	{
+		ingredientPattern: "_A_	GGG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaribbeanregion:log-placed-*-ud", name: "wood", allowedVariants: ["lysilomalatisiliquum"],}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:logquad-placed-{wood}-ud", quantity: 6  }
+	},
+	{
+		ingredientPattern: "_A_	G_G	G_G",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaribbeanregion:lognarrow-placed-*-ud", name: "wood", allowedVariants: ["comarostaphylisarbutoides", "roystonearegia","sabalpalmetto","scalesiapedunculata"],}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:logquad-placed-{wood}-ud", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_A_	G_G	G_G",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaribbeanregion:lognarrow-placed-*-ud", name: "wood", allowedVariants: ["pinuscaribaea"],}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:logquad-placed-pine-ud", quantity: 1  }
+	},
+	{
+		ingredientPattern: "AG	GG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaribbeanregion:logquad-placed-*-ud", name: "wood", allowedVariants: ["lysilomalatisiliquum"],}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonescaribbeanregion:logquad-barkedcorner-{wood}-north", quantity: 3  }
+	},
+	{
+		ingredientPattern: "__G	_AG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaribbeanregion:logquad-placed-*-ud", name: "wood", allowedVariants: ["lysilomalatisiliquum"],}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescaribbeanregion:logquad-barkedcorner-{wood}-north", quantity: 5  }
+	},
+	{
+		ingredientPattern: "__G	_AG	G_G",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaribbeanregion:lognarrow-placed-*-ud", name: "wood", allowedVariants: ["comarostaphylisarbutoides", "roystonearegia","sabalpalmetto","scalesiapedunculata"],}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescaribbeanregion:logquad-barkedcorner-{wood}-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "__G	_AG	G_G",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaribbeanregion:lognarrow-placed-*-ud", name: "wood", allowedVariants: ["pinuscaribaea"],}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "game:logquad-barkedcorner-pine-north", quantity: 1  }
+	},
+
+	{
+		ingredientPattern: "_A_	GGG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaribbeanregion:debarkedlog-*-ud", name: "wood", allowedVariants: ["lysilomalatisiliquum"]}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzonescaribbeanregion:logquad-debarked-{wood}-ud", quantity: 6  }
+	},
+	{
+		ingredientPattern: "AG	GG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaribbeanregion:logquad-debarked-*-ud", name: "wood", allowedVariants: ["lysilomalatisiliquum"]}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "block", code: "floralzonescaribbeanregion:logquad-debarkedcorner-{wood}-north", quantity: 3  }
+	},
+	{
+		ingredientPattern: "__G	_AG	GGG",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzonescaribbeanregion:logquad-debarked-*-ud", name: "wood", allowedVariants: ["lysilomalatisiliquum"]}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzonescaribbeanregion:logquad-debarkedcorner-{wood}-north", quantity: 5  }
+	},
+]

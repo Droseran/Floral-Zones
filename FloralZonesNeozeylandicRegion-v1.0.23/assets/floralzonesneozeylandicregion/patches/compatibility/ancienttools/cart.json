@@ -1,0 +1,50 @@
+﻿[
+	{
+		"op": "addeach",
+		"path": "/attributes/types/-",
+		"value": ["wood-dacrydiumcupressinum", "wood-nothofagusmenziesii", "wood-podocarpustotara", "wood-araucariaheterophylla"],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/creativeinventoryStacks/0/stacks/-",
+		"value": [
+			{ type: "item", code: "cart", attributes: { type: "wood-dacrydiumcupressinum" } }
+		],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/creativeinventoryStacks/0/stacks/-",
+		"value": [
+			{ type: "item", code: "cart", attributes: { type: "wood-nothofagusmenziesii" } }
+		],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/creativeinventoryStacks/0/stacks/-",
+		"value": [
+			{ type: "item", code: "cart", attributes: { type: "wood-podocarpustotara" } }
+		],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addeach",
+		"path": "/creativeinventoryStacks/0/stacks/-",
+		"value": [
+			{ type: "item", code: "cart", attributes: { type: "wood-araucariaheterophylla" } }
+		],
+		"file": "ancienttools:itemtypes/spawners/cart",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	}
+]

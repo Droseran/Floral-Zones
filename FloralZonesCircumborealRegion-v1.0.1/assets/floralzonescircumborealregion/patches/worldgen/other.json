@@ -1,0 +1,137 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Egg Wrack",
+          "blockCodes": [
+            "floralzonescircumborealregion:aquaticplant-ascophyllumnodosum"
+          ],
+		"minTemp": -6,
+		"maxTemp": 12,
+		"minRain": 0,
+		"quantity": { "avg": 10, "var": 8 },
+		"offsetX": { "avg": 0, "var": 15 },
+		"offsetZ": { "avg": 0, "var": 15 },
+		"chance": 1,
+		"minWaterDepth": 3,
+		"maxWaterDepth": 8,
+		"placement": "UnderSeaWater"
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Bed of Egg Wrack",
+          "blockCodes": [
+            "floralzonescircumborealregion:aquaticplant-ascophyllumnodosum"
+          ],
+		"minTemp": -6,
+		"maxTemp": 12,
+		"minRain": 0,
+		"quantity": { "dist": "invexp","avg": 100, "var": 900 },
+		"offsetX": { "avg": 0, "var": 15 },
+		"offsetZ": { "avg": 0, "var": 15 },
+		"chance": 0.1,
+		"minWaterDepth": 4,
+		"maxWaterDepth": 8,
+		"placement": "UnderSeaWater"
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Floating Marsh Marigold",
+          "blockCodes": [
+            "floralzonescircumborealregion:aquaticplant-calthanatans"
+          ],
+		"minTemp": -10,
+		"maxTemp": 6,
+     "quantity": { "dist": "invexp","avg": 7, "var": 21 },
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minRain": 0.21,
+          "maxRain": 0.9,
+		"offsetX": { "avg": 0, "var": 3 },
+		"offsetZ": { "avg": 0, "var": 3 },
+		"chance": 0.3
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Thick patch of Floating Marsh Marigold",
+          "blockCodes": [
+            "floralzonescircumborealregion:aquaticplant-calthanatans"
+          ],
+		"minTemp": -10,
+		"maxTemp": 6,
+     "quantity": { "dist": "invexp","avg": 40, "var": 60 },
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minRain": 0.21,
+          "maxRain": 0.9,
+		"minWaterDepth": 0,
+		"maxWaterDepth": 1,
+		"offsetX": { "avg": 0, "var": 3 },
+		"offsetZ": { "avg": 0, "var": 3 },
+		"chance": 0.1
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Oarweed",
+          "blockCodes": [
+            "floralzonescircumborealregion:aquaticplant-laminariadigitata"
+          ],
+		"minTemp": -2,
+		"maxTemp": 12,
+		"minRain": 0,
+		"quantity": { "dist": "invexp","avg": 10, "var": 30 },
+		"offsetX": { "avg": 0, "var": 4 },
+		"offsetZ": { "avg": 0, "var": 4 },
+		"chance": 0.75,
+		"minWaterDepth": 3,
+		"maxWaterDepth": 24,
+		"placement": "UnderSeaWater"
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Oarweed",
+          "blockCodes": [
+            "floralzonescircumborealregion:aquaticplant-laminariadigitata"
+          ],
+		"minTemp": -2,
+		"maxTemp": 12,
+		"minRain": 0,
+		"quantity": { "dist": "invexp","avg": 10, "var": 500 },
+		"offsetX": { "avg": 0, "var": 15 },
+		"offsetZ": { "avg": 0, "var": 15 },
+		"chance": 0.125,
+		"minWaterDepth": 3,
+		"maxWaterDepth": 24,
+		"placement": "UnderSeaWater"
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+      }
+]
+

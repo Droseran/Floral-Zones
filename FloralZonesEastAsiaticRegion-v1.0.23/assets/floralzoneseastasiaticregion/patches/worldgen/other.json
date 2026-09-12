@@ -1,0 +1,133 @@
+[
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "dense patch of Fountain Bamboo",
+          "blockCodes": [
+            "floralzoneseastasiaticregion:tallplant-fargesianitida-land-normal-free"
+          ],
+          "minTemp": 0,
+          "maxTemp": 14,
+          "minRain": 0.22,
+          "maxRain": 0.78,
+		      "minFertility": 0.25,
+          "maxFertility": 1,
+          "minForest": 0.2,
+          "maxForest": 0.85,
+          "minY": 0.5,
+          "maxY": 0.76,
+          "chance": 1,
+          "quantity": { "dist": "invexp", "avg": 15, "var": 10 },
+          "offsetX": { "avg": 0, "var": 7 },
+          "offsetZ": { "avg": 0, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+		},
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "vast patch of Fountain Bamboo",
+          "blockCodes": [
+            "floralzoneseastasiaticregion:tallplant-fargesianitida-land-normal-free"
+          ],
+          "minTemp": 0,
+          "maxTemp": 14,
+          "minRain": 0.22,
+          "maxRain": 0.78,
+		      "minFertility": 0.25,
+          "maxFertility": 1,
+          "minForest": 0.2,
+          "maxForest": 0.85,
+          "minY": 0.5,
+          "maxY": 0.76,
+          "chance": 0.25,
+          "quantity": { "dist": "invexp", "avg": 150, "var": 110 },
+          "offsetX": { "avg": 0, "var": 11 },
+          "offsetZ": { "avg": 0, "var": 11 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+		},
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "dense patch of Kudzu",
+          "blockCodes": [
+            "floralzoneseastasiaticregion:tallplant-puerariamontana-land-normal-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 40,
+          "minRain": 0.65,
+          "maxRain": 0.91,
+		  "minFertility": 0,
+          "maxFertility": 1,
+          "minForest": 0.2,
+          "maxForest": 0.5,
+          "minY": 0,
+          "maxY": 0.63,
+          "chance": 0.5,
+          "quantity": { "dist": "invexp", "avg": 20, "var": 4 },
+          "offsetX": { "avg": 0, "var": 7 },
+          "offsetZ": { "avg": 0, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+		},
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "vast patch of Kudzu",
+          "blockCodes": [
+            "floralzoneseastasiaticregion:tallplant-puerariamontana-land-normal-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 40,
+          "minRain": 0.65,
+          "maxRain": 0.91,
+		  "minFertility": 0,
+          "maxFertility": 1,
+          "minForest": 0.2,
+          "maxForest": 0.5,
+          "minY": 0,
+          "maxY": 0.63,
+          "chance": 0.01,
+          "quantity": { "dist": "invexp", "avg": 200, "var": 140 },
+          "offsetX": { "avg": 0, "var": 13 },
+          "offsetZ": { "avg": 0, "var": 13 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+		},
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "dense patch of Kudzu",
+          "blockCodes": [
+            "floralzoneseastasiaticregion:tallplant-puerariamontana-land-normal-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 40,
+          "minRain": 0.19,
+          "maxRain": 0.91,
+		      "minFertility": 0,
+          "maxFertility": 1,
+          "minForest": 0.2,
+          "maxForest": 0.5,
+          "minY": 0,
+          "maxY": 0.63,
+		      "placement": "NearWater",
+          "chance": 1,
+          "quantity": { "dist": "invexp", "avg": 20, "var": 4 },
+          "offsetX": { "avg": 0, "var": 7 },
+          "offsetZ": { "avg": 0, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server"
+		}
+]

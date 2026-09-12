@@ -1,0 +1,62 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"leaves": [32,32]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [ -8.0, 1.0, -8.0 ],
+			"to": [ 24.0, 1.0, 24.0 ],
+			"faces": {
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [-1,-1,-1,-1] }
+			}
+		},
+		{
+			"name": "base2",
+			"from": [ -8.0, 1.0, -8.0 ],
+			"to": [ 24.0, 1.0, 24.0 ],
+			"rotationOrigin": [ -8.0, 1.0, -8.0 ],
+			"rotationZ": 17.0,
+			"faces": {
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "rotation": 90, "windMode": [-1,-1,7,7] }
+			}
+		},
+		{
+			"name": "base3",
+			"from": [ -8.0, 1.0, -8.0 ],
+			"to": [ 24.0, 1.0, 24.0 ],
+			"rotationOrigin": [ -8.0, 1.0, -8.0 ],
+			"rotationX": -16.0,
+			"faces": {
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "rotation": 180, "windMode": [-1,7,7,-1] }
+			}
+		},
+		{
+			"name": "base4",
+			"from": [ -8.0, 1.0, -8.0 ],
+			"to": [ 24.0, 1.0, 24.0 ],
+			"rotationOrigin": [ 24.0, 1.0, 24.0 ],
+			"rotationX": 15.0,
+			"faces": {
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "rotation": 270, "windMode": [7,-1,-1,7] }
+			}
+		},
+		{
+			"name": "base5",
+			"from": [ -8.0, 1.0, -8.0 ],
+			"to": [ 24.0, 1.0, 24.0 ],
+			"rotationOrigin": [ 24.0, 1.0, 24.0 ],
+			"rotationZ": -14.0,
+			"faces": {
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [7,7,-1,-1] }
+			}
+		}
+	]}

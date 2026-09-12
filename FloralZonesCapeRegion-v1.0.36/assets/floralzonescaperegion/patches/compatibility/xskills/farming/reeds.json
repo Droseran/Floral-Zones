@@ -1,0 +1,20 @@
+[
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/aloe",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-normal-*": [
+        {
+          "name": "XSkillsMushroom",
+          "properties": {
+            "xp": 0.1
+          }
+        }
+      ]
+    }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

@@ -1,0 +1,38 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:config/tradelists/trader-survivalgoods.json",
+		"op": "addmerge",
+		"path": "/buying/list",
+		"value": [
+			{
+				"code": "floralzonescentralaustralianregion:triodiascariosabundle",
+				"type": "item",
+				"stacksize": 64,
+				"stock": {
+					"avg": 2,
+					"var": 0.5
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzonescentralaustralianregion:bread-themedatriandra-perfect",
+				"type": "item",
+				"stacksize": 8,
+				"stock": {
+					"avg": 5,
+					"var": 1.25
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			}
+		]
+	}
+]

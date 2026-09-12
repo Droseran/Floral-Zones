@@ -1,0 +1,93 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 12,
+	"textureSizes": {
+		"trachycarpusfortunei": [24,12]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ -6.0, 0.0, 8.0 ],
+			"to": [ -6.0, 0.0, 8.0 ],
+			"shade": false,
+			"rotationOrigin": [ -6.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Root 1",
+					"from": [ 0.0, 0.8, 0.0 ],
+					"to": [ 0.0, 0.8, 0.0 ],
+					"shade": false,
+					"rotationOrigin": [ 0.0, 0.8, 0.0 ],
+					"rotationX": 180.0,
+					"rotationZ": -84.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk1",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk1",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 5.0,
+									"rotationZ": -5.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets1",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270 }
+											}
+										},
+										{
+											"name": "rleaftlets1",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90 }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

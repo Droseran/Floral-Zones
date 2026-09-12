@@ -1,0 +1,29 @@
+{
+	"treeWorldPropertyCode": "alnusalnobetulashrub",
+	"sizeMultiplier": 0.4,
+	"trunks": [{
+		"widthloss": 0.2,
+		"dieAt": { "avg": 0.001 },
+		"branchStart": { "dist": "gaussian", "avg": 0.2,  "var": 0.1 },
+		"branchSpacing": { "dist": "gaussian", "avg": 0.2,  "var": 0.1 },
+		"branchVerticalAngle":  { "avg": 0.7,  "var": 0.1 },
+		"branchHorizontalAngle": { "avg": 0,  "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.1,  "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 1 },
+		"branchQuantity": { "avg": 5,  "var": 0 },
+		"branchWidthLossMul": 0.98,
+		"angleVert": { "avg": 0, "var": 0 }
+	}],
+	"branches": [{
+		"widthLoss": 0.008,
+		"gravityDrag": 0,
+		"dieAt": { "avg": 0.001 },
+
+		"branchStart":  { "avg": 2, "var": 0.01 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "floralzonescosmopolitanregion:leavesbranchy-grown-alnusalnobetula",
+		"leavesBlockCode": "floralzonescosmopolitanregion:leaves-grown-alnusalnobetula",
+		"leavesBranchyBlockCode": "floralzonescosmopolitanregion:leavesbranchy-grown-alnusalnobetula",
+	}
+}

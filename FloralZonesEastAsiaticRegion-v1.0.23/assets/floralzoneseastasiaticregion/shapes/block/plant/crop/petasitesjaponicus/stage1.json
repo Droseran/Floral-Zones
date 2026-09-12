@@ -1,0 +1,414 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 4,
+	"textureSizes": {
+		"petasitesjaponicus1": [8,4]
+	},
+	"textures": {
+		"petasitesjaponicus1": "block/plant/crop/petasitesjaponicus1"
+	},
+	"elements": [
+		{
+			"name": "Sprout origin",
+			"from": [ 9.0, 0.0, 9.0 ],
+			"to": [ 9.0, 0.0, 9.0 ],
+			"rotationOrigin": [ 9.0, 0.0, 9.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Sprout center1",
+					"from": [ -0.8, 0.2, -0.8 ],
+					"to": [ 0.8, 1.8, 0.8 ],
+					"rotationOrigin": [ 0.2, 0.2, 0.2 ],
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus1", "uv": [ 1.5, 1.0, 3.0, 2.5 ], "windMode": [0,0,0,0] },
+						"east": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 1.0, 1.5, 2.5 ], "windMode": [0,0,0,0] },
+						"south": { "texture": "#petasitesjaponicus1", "uv": [ 1.5, 2.0, 3.0, 3.5 ], "windMode": [0,0,0,0] },
+						"west": { "texture": "#petasitesjaponicus1", "uv": [ 2.0, 0.5, 3.5, 2.0 ], "windMode": [0,0,0,0] },
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 1.5, 1.5, 3.0 ], "windMode": [0,0,0,0] },
+						"down": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 0.0, 1.5, 1.5 ], "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Sprout leavesa1",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 5.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Sprout leavesb1",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -5.0,
+					"rotationY": 30.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Sprout leavesc1",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -5.0,
+					"rotationY": 60.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Sprout leavesd1",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 5.0,
+					"rotationY": -25.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 270, "windMode": [0,0,0,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Sprout origin2",
+			"from": [ 12.0, 0.0, 12.0 ],
+			"to": [ 12.0, 0.0, 12.0 ],
+			"rotationOrigin": [ 12.0, 0.0, 12.0 ],
+			"rotationY": 15.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Sprout center2",
+					"from": [ -0.8, 0.2, -0.8 ],
+					"to": [ 0.8, 1.8, 0.8 ],
+					"rotationOrigin": [ 0.2, 0.2, 0.2 ],
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus1", "uv": [ 1.5, 1.0, 3.0, 2.5 ] },
+						"east": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 1.0, 1.5, 2.5 ] },
+						"south": { "texture": "#petasitesjaponicus1", "uv": [ 1.5, 2.0, 3.0, 3.5 ] },
+						"west": { "texture": "#petasitesjaponicus1", "uv": [ 2.0, 0.5, 3.5, 2.0 ] },
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 1.5, 1.5, 3.0 ] },
+						"down": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
+					}
+				},
+				{
+					"name": "Sprout leavesa2",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 5.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "Sprout leavesb2",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -5.0,
+					"rotationY": 30.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Sprout leavesc2",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -5.0,
+					"rotationY": 60.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "Sprout leavesd2",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 5.0,
+					"rotationY": -25.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 270 }
+					}
+				}
+			]
+		},
+		{
+			"name": "Sprout origin3",
+			"from": [ 4.0, 0.0, 12.0 ],
+			"to": [ 4.0, 0.0, 12.0 ],
+			"rotationOrigin": [ 4.0, 0.0, 12.0 ],
+			"rotationY": -15.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Sprout center3",
+					"from": [ -0.8, 0.2, -0.8 ],
+					"to": [ 0.8, 1.8, 0.8 ],
+					"rotationOrigin": [ 0.2, 0.2, 0.2 ],
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus1", "uv": [ 1.5, 1.0, 3.0, 2.5 ] },
+						"east": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 1.0, 1.5, 2.5 ] },
+						"south": { "texture": "#petasitesjaponicus1", "uv": [ 1.5, 2.0, 3.0, 3.5 ] },
+						"west": { "texture": "#petasitesjaponicus1", "uv": [ 2.0, 0.5, 3.5, 2.0 ] },
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 1.5, 1.5, 3.0 ] },
+						"down": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
+					}
+				},
+				{
+					"name": "Sprout leavesa3",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 5.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "Sprout leavesb3",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -5.0,
+					"rotationY": 30.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Sprout leavesc3",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -5.0,
+					"rotationY": 60.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "Sprout leavesd3",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 5.0,
+					"rotationY": -25.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 270 }
+					}
+				}
+			]
+		},
+		{
+			"name": "Sprout origin4",
+			"from": [ 6.0, 0.0, 4.0 ],
+			"to": [ 6.0, 0.0, 4.0 ],
+			"rotationOrigin": [ 6.0, 0.0, 4.0 ],
+			"rotationY": 25.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Sprout center4",
+					"from": [ -0.8, 0.2, -0.8 ],
+					"to": [ 0.8, 1.8, 0.8 ],
+					"rotationOrigin": [ 0.2, 0.2, 0.2 ],
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus1", "uv": [ 1.5, 1.0, 3.0, 2.5 ] },
+						"east": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 1.0, 1.5, 2.5 ] },
+						"south": { "texture": "#petasitesjaponicus1", "uv": [ 1.5, 2.0, 3.0, 3.5 ] },
+						"west": { "texture": "#petasitesjaponicus1", "uv": [ 2.0, 0.5, 3.5, 2.0 ] },
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 1.5, 1.5, 3.0 ] },
+						"down": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
+					}
+				},
+				{
+					"name": "Sprout leavesa4",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 5.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "Sprout leavesb4",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -5.0,
+					"rotationY": 30.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Sprout leavesc4",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -5.0,
+					"rotationY": 60.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "Sprout leavesd4",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 5.0,
+					"rotationY": -25.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 270 }
+					}
+				}
+			]
+		},
+		{
+			"name": "Sprout origin5",
+			"from": [ 12.0, 0.0, 5.0 ],
+			"to": [ 12.0, 0.0, 5.0 ],
+			"rotationOrigin": [ 12.0, 0.0, 5.0 ],
+			"rotationY": -25.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Sprout center5",
+					"from": [ -0.8, 0.2, -0.8 ],
+					"to": [ 0.8, 1.8, 0.8 ],
+					"rotationOrigin": [ 0.2, 0.2, 0.2 ],
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus1", "uv": [ 1.5, 1.0, 3.0, 2.5 ] },
+						"east": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 1.0, 1.5, 2.5 ] },
+						"south": { "texture": "#petasitesjaponicus1", "uv": [ 1.5, 2.0, 3.0, 3.5 ] },
+						"west": { "texture": "#petasitesjaponicus1", "uv": [ 2.0, 0.5, 3.5, 2.0 ] },
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 1.5, 1.5, 3.0 ] },
+						"down": { "texture": "#petasitesjaponicus1", "uv": [ 0.0, 0.0, 1.5, 1.5 ] }
+					}
+				},
+				{
+					"name": "Sprout leavesa5",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 5.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "Sprout leavesb5",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -5.0,
+					"rotationY": 30.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Sprout leavesc5",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": -5.0,
+					"rotationY": 60.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 180 }
+					}
+				},
+				{
+					"name": "Sprout leavesd5",
+					"from": [ -2.0, 0.4, -2.0 ],
+					"to": [ 2.0, 0.4, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationX": 5.0,
+					"rotationY": -25.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"up": { "texture": "#petasitesjaponicus1", "uv": [ 4.0, 0.0, 8.0, 4.0 ], "rotation": 270 }
+					}
+				}
+			]
+		}
+	]}

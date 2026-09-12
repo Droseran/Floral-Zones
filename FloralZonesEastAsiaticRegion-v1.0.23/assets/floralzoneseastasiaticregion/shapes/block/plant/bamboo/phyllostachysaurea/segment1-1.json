@@ -1,0 +1,66 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"stem": "game:block/plant/bamboo/stem-brown"
+	},
+	"elements": [
+		{
+			"name": "StalkTopSW",
+			"from": [ 3.75, 0.0, 10.75 ],
+			"to": [ 5.25, 16.0, 12.25 ],
+			"faces": {
+				"north": { "texture": "#stem", "uv": [ 1.0, 0.0, 2.5, 16.0 ], "windMode": [5,5,5,5] },
+				"east": { "texture": "#stem", "uv": [ 3.0, 0.0, 4.5, 16.0 ], "windMode": [5,5,5,5] },
+				"south": { "texture": "#stem", "uv": [ 3.0, 0.0, 4.5, 16.0 ], "windMode": [5,5,5,5] },
+				"west": { "texture": "#stem", "uv": [ 4.0, 0.0, 5.5, 16.0 ], "windMode": [5,5,5,5] },
+				"up": { "texture": "#stem", "uv": [ 9.0, 11.5, 10.5, 13.0 ], "windMode": [5,5,5,5] },
+				"down": { "texture": "#stem", "uv": [ 9.0, 12.0, 10.5, 13.5 ], "windMode": [5,5,5,5] }
+			}
+		},
+		{
+			"name": "StalkTopSE",
+			"from": [ 11.75, 0.0, 11.75 ],
+			"to": [ 13.25, 16.0, 13.25 ],
+			"faces": {
+				"north": { "texture": "#stem", "uv": [ 4.0, 0.0, 5.5, 16.0 ], "windMode": [5,5,5,5] },
+				"east": { "texture": "#stem", "uv": [ 3.0, 0.0, 4.5, 16.0 ], "windMode": [5,5,5,5] },
+				"south": { "texture": "#stem", "uv": [ 1.0, 0.0, 2.5, 16.0 ], "windMode": [5,5,5,5] },
+				"west": { "texture": "#stem", "uv": [ 1.0, 0.0, 2.5, 16.0 ], "windMode": [5,5,5,5] },
+				"up": { "texture": "#stem", "uv": [ 8.5, 8.5, 10.0, 10.0 ], "windMode": [5,5,5,5] },
+				"down": { "texture": "#stem", "uv": [ 8.5, 12.0, 10.0, 13.5 ], "windMode": [5,5,5,5] }
+			}
+		},
+		{
+			"name": "StalkTopNE",
+			"from": [ 9.75, 0.0, 3.75 ],
+			"to": [ 11.25, 16.0, 5.25 ],
+			"faces": {
+				"north": { "texture": "#stem", "uv": [ 2.0, 0.0, 3.5, 16.0 ], "windMode": [5,5,5,5] },
+				"east": { "texture": "#stem", "uv": [ 2.0, 0.0, 3.5, 16.0 ], "windMode": [5,5,5,5] },
+				"south": { "texture": "#stem", "uv": [ 0.0, 0.0, 1.5, 16.0 ], "windMode": [5,5,5,5] },
+				"west": { "texture": "#stem", "uv": [ 4.0, 0.0, 5.5, 16.0 ], "windMode": [5,5,5,5] },
+				"up": { "texture": "#stem", "uv": [ 8.5, 12.0, 10.0, 13.5 ], "windMode": [5,5,5,5] },
+				"down": { "texture": "#stem", "uv": [ 8.5, 12.0, 10.0, 13.5 ], "windMode": [5,5,5,5] }
+			}
+		},
+		{
+			"name": "StalkTopNW",
+			"from": [ 2.75, 0.0, 1.75 ],
+			"to": [ 4.25, 16.0, 3.25 ],
+			"faces": {
+				"north": { "texture": "#stem", "uv": [ 5.0, 0.0, 6.5, 16.0 ], "windMode": [5,5,5,5] },
+				"east": { "texture": "#stem", "uv": [ 6.0, 0.0, 7.5, 16.0 ], "windMode": [5,5,5,5] },
+				"south": { "texture": "#stem", "uv": [ 6.0, 0.0, 7.5, 16.0 ], "windMode": [5,5,5,5] },
+				"west": { "texture": "#stem", "uv": [ 3.0, 0.0, 4.5, 16.0 ], "windMode": [5,5,5,5] },
+				"up": { "texture": "#stem", "uv": [ 8.5, 11.5, 10.0, 13.0 ], "windMode": [5,5,5,5] },
+				"down": { "texture": "#stem", "uv": [ 8.5, 12.0, 10.0, 13.5 ], "windMode": [5,5,5,5] }
+			}
+		}
+	]}

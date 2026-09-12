@@ -1,0 +1,61 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"flower": [32,32]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin2",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"rotationY": -22.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "leaves 4",
+					"from": [ -16.0, 0.0, 0.0 ],
+					"to": [ 16.0, 32.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -150.0,
+					"faces": {
+						"south": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,0,2,2], "windData": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "leaves 5",
+					"from": [ -16.0, 0.0, 0.0 ],
+					"to": [ 16.0, 32.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -3.0,
+					"faces": {
+						"south": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,0,2,2], "windData": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "leaves 6",
+					"from": [ -16.0, 0.0, 0.0 ],
+					"to": [ 16.0, 32.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -67.5,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		}
+	]}

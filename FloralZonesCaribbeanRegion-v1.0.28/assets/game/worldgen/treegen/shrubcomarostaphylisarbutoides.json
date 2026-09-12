@@ -1,0 +1,29 @@
+{
+	"treeWorldPropertyCode": "shrubcomarostaphylisarbutoides",
+	"sizeMultiplier": 0.5,
+	"trunks": [{
+		"widthloss": 0.2,
+		"dieAt": { "avg": 0.001 },
+		"branchStart": { "dist": "gaussian", "avg": 0.25,  "var": 0.2 },
+		"branchSpacing": { "dist": "gaussian", "avg": 0.2,  "var": 0.1 },
+		"branchVerticalAngle":  { "avg": 0.8,  "var": 0.1 },
+		"branchHorizontalAngle": { "avg": 0,  "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.1,  "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 1 },
+		"branchQuantity": { "avg": 5,  "var": 0 },
+		"branchWidthLossMul": 0.98,
+		"angleVert": { "avg": 0, "var": 0 }
+	}],
+	"branches": [{
+		"widthLoss": 0.008,
+		"gravityDrag": 0,
+		"dieAt": { "avg": 0.001 },
+
+		"branchStart":  { "avg": 2, "var": 0.01 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "floralzonescaribbeanregion:lognarrow-grown-comarostaphylisarbutoides-ud",
+		"leavesBlockCode": "floralzonescaribbeanregion:leaves-grown-comarostaphylisarbutoides",
+		"leavesBranchyBlockCode": "floralzonescaribbeanregion:leavesbranchy-grown-comarostaphylisarbutoides",
+	}
+}

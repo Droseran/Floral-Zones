@@ -1,0 +1,105 @@
+{
+	"code": "fruit",
+	"maxstacksize": 64,
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": 'Quadrants', "collisionBox": { x1: 0, y1: 0, z1: 0, x2: 1, y2: 0.125, z2: 1 } } }
+	],
+	"variantgroups": [
+		{ "code": "fruit","loadFromProperties": "floralzonescircumborealregion:block/fruit" }
+	],
+	"attributes": {
+		"foodTags": ["{fruit}"],
+		"nutritionPropsWhenInMeal": {
+			"satietyByType":  { 
+				"*-cornuscanadensis": 120,
+				"*-rosagallica": 60,
+				"*-rosamajalis": 60
+			},
+			"foodcategory": "Fruit" 
+		},
+		"inPiePropertiesByType": {
+			"*": { "texture": "game:block/food/pie/fill-raspberry", "partType": "Filling" }
+		},
+		"juiceablePropertiesByType": {
+			"*-cornuscanadensis": {
+				"litresPerItem": 0.3125,
+				"liquidStack": { "type": "item", "code": "floralzonescircumborealregion:juiceportion-cornuscanadensis", "stacksize": 1 },
+				"pressedStack": { "type": "item", "code": "floralzonescircumborealregion:pressedmash-cornuscanadensis", "stacksize": 1 }
+			}
+		}
+	},
+	"shapebytype": { 
+		"*": { "base": "item/food/fruit/{fruit}" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*-cornuscanadensis": { "satiety": 80, "foodcategory": "Fruit" },
+		"*-rosagallica": { "satiety": 40, "foodcategory": "Fruit" },
+		"*-rosamajalis": { "satiety": 40, "foodcategory": "Fruit" }
+	},
+	"transitionablePropsByType": {
+		"*-cornuscanadensis": [{
+			"type": "Perish",
+			"freshHours": { "avg": 252 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-rosagallica": [{
+			"type": "Perish",
+			"freshHours": { "avg": 168 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}],
+		"*-rosamajalis": [{
+			"type": "Perish",
+			"freshHours": { "avg": 168 },
+			"transitionHour": { "avg": 48 },
+			"transitionedStack": { "type": "item", "code": "game:rot" },
+			"transitionRatio": 0.25
+		}]
+	},
+	"guiTransformByType": {
+		"*-rosamajalis": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 138, y: 0, z: -1 },
+			origin: { x: 0.48, y: 0.1, z: 0.5 },
+			scale: 2.25
+		},
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 138, y: 0, z: -1 },
+			origin: { x: 0.48, y: 0.1, z: 0.5 },
+			scale: 3.19
+		},
+	},
+	"tpHandTransformByType": {
+		"*-rosamajalis": {
+			translation: { x: -2.1, y: -0.9, z: -0.6 },
+			rotation: { x: 0, y: 22, z: -90 },
+			origin: { x: 1.4, y: 0, z: 0.5 },
+			scale: 0.5
+		},
+		"*": {
+			translation: { x: -2.1, y: -0.9, z: -0.6 },
+			rotation: { x: 0, y: 22, z: -90 },
+			origin: { x: 1.4, y: 0, z: 0.5 },
+			scale: 0.7
+		},
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0, y: 0, z: 0 },
+			rotation: { x: 2, y: 0, z: 0 },
+			origin: { x: 0.5, y: -0, z: 0.5 },
+			scale: 2
+		}
+	},
+	heldRightReadyAnimationByType: {
+		"@*(cornuscanadensis|rosagallica|rosamajalis)": "holdbothhands"
+	},
+	heldTpIdleAnimationByType: {
+		"@*(cornuscanadensis|rosagallica|rosamajalis)": "holdbothhands"
+	}
+}

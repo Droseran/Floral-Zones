@@ -1,0 +1,74 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:config/tradelists/trader-agriculture.json",
+		"op": "addmerge",
+		"path": "/selling/list",
+		"value": [
+			{
+				"code": "floralzonescaribbeanregion:seeds-agavetequilana",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 2,
+					"var": 0
+				},
+				"price": {
+					"avg": 6,
+					"var": 2
+				}
+			},
+			{
+				"code": "floralzonescaribbeanregion:seeds-gossypiumhirsutum",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 2,
+					"var": 0
+				},
+				"price": {
+					"avg": 6,
+					"var": 2
+				}
+			}
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:config/tradelists/trader-agriculture.json",
+		"op": "addmerge",
+		"path": "/buying/list",
+		"value": [
+			{
+				"code": "floralzonescaribbeanregion:fruit-monsteradeliciosa",
+				"type": "item",
+				"stacksize": 8,
+				"stock": {
+					"avg": 4,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzonescaribbeanregion:fruit-selenicereuscostaricensis",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 6,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			}
+		]
+	}
+]

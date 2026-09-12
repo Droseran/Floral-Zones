@@ -1,0 +1,39 @@
+﻿[
+	{
+		"op": "addeach",
+		"path": "/variantgroups/0/states/-",
+		"value": ["lysilomalatisiliquum"],
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType/*-lysilomalatisiliquum-*",
+		"value": {
+			"bark": { base: "floralzonescaribbeanregion:block/wood/bark/{variant}"},
+			"inside": { base: "floralzonescaribbeanregion:block/wood/debarked/{variant}", rotation: 90 },
+			"basket-bark": { base: "floralzonescaribbeanregion:block/wood/bark/{variant}"},
+			"basket-inside": { base: "floralzonescaribbeanregion:block/wood/debarked/{variant}", rotation: 90 },
+		},
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+        "op": "move",
+		"frompath": "/texturesByType/*",
+		"path": "/temp",
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server",
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/texturesByType/*",
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server",
+    }
+]

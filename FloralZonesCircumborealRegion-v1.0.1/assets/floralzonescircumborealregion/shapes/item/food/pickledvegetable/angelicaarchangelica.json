@@ -1,0 +1,136 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"angelicaarchangelica": [4,4]
+	},
+	"textures": {
+		"angelicaarchangelica": "item/food/pickledvegetable/angelicaarchangelica"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "stem1",
+					"from": [ 0.1, 0.0, -2.5 ],
+					"to": [ 1.1, 2.0, -0.5 ],
+					"rotationOrigin": [ 1.1, 0.0, -2.0 ],
+					"rotationY": -152.0,
+					"faces": {
+						"north": { "texture": "#angelicaarchangelica", "uv": [ 1.5, 0.5, 2.5, 2.5 ], "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 2.0, 4.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#angelicaarchangelica", "uv": [ 1.5, 1.0, 2.5, 3.0 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#angelicaarchangelica", "uv": [ 3.0, 0.0, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#angelicaarchangelica", "uv": [ 1.5, 0.5, 2.5, 2.5 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "stem2",
+					"from": [ 0.4, 0.0, -0.2 ],
+					"to": [ 1.4, 2.0, 1.8 ],
+					"rotationOrigin": [ 1.4, 0.0, 0.3 ],
+					"rotationY": -78.0,
+					"faces": {
+						"north": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+						"east": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 2.0, 4.0, 4.0 ] },
+						"south": { "texture": "#angelicaarchangelica", "uv": [ 0.5, 0.0, 1.5, 2.0 ] },
+						"west": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+						"up": { "texture": "#angelicaarchangelica", "uv": [ 1.5, 1.0, 2.5, 3.0 ] },
+						"down": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 0.5, 3.0, 2.5 ] }
+					}
+				},
+				{
+					"name": "stem3",
+					"from": [ -1.8, 0.0, -0.2 ],
+					"to": [ -0.8, 2.0, 1.8 ],
+					"rotationOrigin": [ -0.8, 0.0, 0.2 ],
+					"rotationY": 33.0,
+					"faces": {
+						"north": { "texture": "#angelicaarchangelica", "uv": [ 1.5, 1.0, 2.5, 3.0 ] },
+						"east": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+						"south": { "texture": "#angelicaarchangelica", "uv": [ 0.5, 0.0, 1.5, 2.0 ] },
+						"west": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 2.0, 4.0, 4.0 ] },
+						"up": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.5, 1.0, 2.5 ] },
+						"down": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 0.0, 3.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "stem4",
+					"from": [ -2.6, 0.0, -2.6 ],
+					"to": [ -1.6, 2.0, -0.6 ],
+					"rotationOrigin": [ -1.6, 0.0, -2.1 ],
+					"rotationY": 17.0,
+					"faces": {
+						"north": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.5, 1.0, 2.5 ] },
+						"east": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 2.0, 4.0, 4.0 ] },
+						"south": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.5, 1.0, 2.5 ] },
+						"west": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+						"up": { "texture": "#angelicaarchangelica", "uv": [ 1.5, 1.0, 2.5, 3.0 ] },
+						"down": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 0.0, 3.0, 2.0 ] }
+					}
+				},
+				{
+					"name": "stem5",
+					"from": [ 1.0, 0.0, 1.8 ],
+					"to": [ 2.0, 2.0, 3.8 ],
+					"rotationOrigin": [ 2.0, 0.0, 2.3 ],
+					"rotationY": -39.0,
+					"faces": {
+						"north": { "texture": "#angelicaarchangelica", "uv": [ 2.5, 0.0, 3.5, 2.0 ] },
+						"east": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+						"south": { "texture": "#angelicaarchangelica", "uv": [ 2.5, 0.5, 3.5, 2.5 ] },
+						"west": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 2.0, 4.0, 4.0 ] },
+						"up": { "texture": "#angelicaarchangelica", "uv": [ 0.5, 0.0, 1.5, 2.0 ] },
+						"down": { "texture": "#angelicaarchangelica", "uv": [ 1.0, 0.5, 2.0, 2.5 ] }
+					}
+				},
+				{
+					"name": "stem6",
+					"from": [ 2.1, 0.0, -1.5 ],
+					"to": [ 4.1, 2.0, -0.5 ],
+					"rotationOrigin": [ 3.1, 0.0, -1.0 ],
+					"rotationY": -102.0,
+					"faces": {
+						"north": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+						"east": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.5, 1.0, 2.5 ] },
+						"south": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 2.0, 4.0, 4.0 ] },
+						"west": { "texture": "#angelicaarchangelica", "uv": [ 0.5, 0.5, 1.5, 2.5 ] },
+						"up": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.5, 2.0, 1.5 ] },
+						"down": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 1.5, 2.0, 2.5 ] }
+					}
+				},
+				{
+					"name": "stem7",
+					"from": [ -3.5, 0.0, 0.4 ],
+					"to": [ -1.5, 2.0, 1.4 ],
+					"rotationOrigin": [ -2.5, 0.0, 0.8 ],
+					"rotationY": -102.0,
+					"faces": {
+						"north": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 2.0, 4.0, 4.0 ] },
+						"east": { "texture": "#angelicaarchangelica", "uv": [ 1.5, 1.5, 2.5, 3.5 ] },
+						"south": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+						"west": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+						"up": { "texture": "#angelicaarchangelica", "uv": [ 0.0, 0.0, 2.0, 1.0 ] },
+						"down": { "texture": "#angelicaarchangelica", "uv": [ 2.0, 1.5, 4.0, 2.5 ] }
+					}
+				}
+			]
+		}
+	]}

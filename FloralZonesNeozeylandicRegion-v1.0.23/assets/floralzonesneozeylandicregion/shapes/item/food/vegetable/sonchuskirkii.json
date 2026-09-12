@@ -1,0 +1,103 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 12,
+	"textureHeight": 16,
+	"textureSizes": {
+		"vegetable": [12,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stem",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.4, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#vegetable", "uv": [ 5.5, 3.5, 6.0, 11.5 ] }
+					},
+					"children": [
+						{
+							"name": "Flower head",
+							"from": [ -3.1, 8.0, 0.0 ],
+							"to": [ 2.9, 12.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.2, 8.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#vegetable", "uv": [ 3.0, 0.0, 9.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "Flower head2",
+							"from": [ -3.1, 8.0, 0.0 ],
+							"to": [ 2.9, 12.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.2, 8.0, 0.0 ],
+							"rotationY": 135.0,
+							"faces": {
+								"north": { "texture": "#vegetable", "uv": [ 3.0, 0.0, 9.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "Flower head3",
+							"from": [ -3.1, 8.0, 0.0 ],
+							"to": [ 2.9, 12.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.2, 8.0, 0.0 ],
+							"rotationY": -135.0,
+							"faces": {
+								"north": { "texture": "#vegetable", "uv": [ 3.0, 0.0, 9.0, 4.0 ] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Stem2",
+					"from": [ 0.2, 0.0, 0.2 ],
+					"to": [ 0.6, 8.0, 0.2 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.2, 0.0, 0.2 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#vegetable", "uv": [ 5.5, 3.5, 6.0, 11.5 ] }
+					},
+					"children": [
+						{
+							"name": "Leaves",
+							"from": [ -7.0, 0.0, 0.0 ],
+							"to": [ 0.0, 6.0, 0.0 ],
+							"faces": {
+								"north": { "texture": "#vegetable", "uv": [ 6.0, 10.0, 13.0, 16.0 ] }
+							}
+						},
+						{
+							"name": "Leaves2",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 6.0, 4.5, 0.0 ],
+							"rotationOrigin": [ 0.2, 0.0, 0.0 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#vegetable", "uv": [ 0.0, 11.5, 6.0, 16.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

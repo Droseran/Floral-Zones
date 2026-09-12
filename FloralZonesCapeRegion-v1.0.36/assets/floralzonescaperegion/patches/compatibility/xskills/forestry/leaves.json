@@ -1,0 +1,76 @@
+[
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/leaves/normal",
+    "op": "replace",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-placed*-*": [
+        {
+          "name": "PushEventOnBlockBroken",
+          "properties": {
+            "eventname": "testForDecay"
+          }
+        },
+        {
+          "name": "RainDrip"
+        }
+      ],
+      "*-grown-*": [
+        {
+          "name": "RainDrip"
+        },
+        {
+          "name": "XSkillsLeaves",
+          "properties": {
+            "xp": 0.01
+          }
+        }
+      ],
+      "*": [
+        {
+          "name": "RainDrip"
+        }
+      ]
+    }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/leaves/branchy",
+    "op": "replace",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-placed*-*": [
+        {
+          "name": "PushEventOnBlockBroken",
+          "properties": {
+            "eventname": "testForDecay"
+          }
+        },
+        {
+          "name": "RainDrip"
+        }
+      ],
+      "*-grown-*": [
+        {
+          "name": "RainDrip"
+        },
+        {
+          "name": "XSkillsLeaves",
+          "properties": {
+            "xp": 0.02
+          }
+        }
+      ],
+      "*": [
+        {
+          "name": "RainDrip"
+        }
+      ]
+    }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "L,S",
+		ingredients: {
+			"L": { type: "item", code: "game:*", name: "leather", allowedvariants: ["leather-normal-plain", "hide-pelt-small"], quantity: 1 },
+			"S": { type: "item", code: "treeseed-*", name: "seed", "allowedvariants": ["abieskoreana", "acerginnala","metasequoiaglyptostroboides", "quercusserrata"],  quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "clothes-arm-{seed}"  }
+	}
+]

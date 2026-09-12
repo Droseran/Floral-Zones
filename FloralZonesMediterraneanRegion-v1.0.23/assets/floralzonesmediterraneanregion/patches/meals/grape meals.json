@@ -1,0 +1,95 @@
+[
+  {
+    "file": "game:recipes/cooking/jam",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-*",
+      "shapeElement": "bowl/fruit"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/7/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-*",
+      "shapeElement": "bowl/fruit 1/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/porridge",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-*",
+      "shapeElement": "bowl/fruit 1/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/porridge",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonesmediterraneanregion:fruit-vitisvinifera-*",
+      "shapeElement": "bowl/fruit 2/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-vitisvinifera-blue",
+    "value": [ "fruit", "group1" ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-vitisvinifera-purple",
+    "value": [ "vegetable", "group5" ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-vitisvinifera-red",
+    "value": [ "fruit", "group6" ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-vitisvinifera-black",
+    "value": [ "fruit", "group5" ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-vitisvinifera-white",
+    "value": [ "fruit", "group4" ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-vitisvinifera-yellow",
+    "value": [ "fruit", "group4" ]
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/fruit-vitisvinifera-green",
+    "value": [ "vegetable", "group17" ]
+  }
+]

@@ -1,0 +1,1323 @@
+{
+	"editor": {
+		"collapsedPaths": "",
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 32,
+	"textureSizes": {
+		"frond": [12,24],
+		"deadfrond": [12,24],
+		"bigfrond": [16,32],
+		"bigfrondb": [16,32]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond base1",
+					"from": [ -6.0, 0.0, 0.0 ],
+					"to": [ 6.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 10.0,
+					"faces": {
+						"north": { "texture": "#bigfrond", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 1",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 15.0,
+							"faces": {
+								"north": { "texture": "#bigfrond", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+							},
+							"children": [
+								{
+									"name": "R Leaf1",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 50.0,
+									"faces": {
+										"north": { "texture": "#bigfrond", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "L Leaf1",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -50.0,
+									"faces": {
+										"north": { "texture": "#bigfrond", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "Leaf tip1",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrond", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base2",
+					"from": [ -7.0, 0.0, 0.6 ],
+					"to": [ 5.0, 4.0, 0.6 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 0.0, 0.6 ],
+					"rotationX": 34.4829,
+					"rotationY": -52.8355,
+					"rotationZ": 28.6939,
+					"faces": {
+						"north": { "texture": "#bigfrondb", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 2",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 25.0,
+							"faces": {
+								"north": { "texture": "#bigfrondb", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+							},
+							"children": [
+								{
+									"name": "R Leaf2",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "L Leaf2",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "Leaf tip2",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base3",
+					"from": [ -5.0, 0.0, -1.0 ],
+					"to": [ 7.0, 4.0, -1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, -1.0 ],
+					"rotationX": 163.6698,
+					"rotationY": 51.8598,
+					"rotationZ": -167.0233,
+					"faces": {
+						"north": { "texture": "#bigfrondb", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 3",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 25.0,
+							"faces": {
+								"north": { "texture": "#bigfrondb", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+							},
+							"children": [
+								{
+									"name": "R Leaf3",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 50.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "L Leaf3",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -50.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "Leaf tip3",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base4",
+					"from": [ -7.0, 0.0, -1.0 ],
+					"to": [ 5.0, 4.0, -1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 0.0, -1.0 ],
+					"rotationX": 164.6602,
+					"rotationY": -48.9735,
+					"rotationZ": 168.3079,
+					"faces": {
+						"north": { "texture": "#bigfrondb", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 4",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 25.0,
+							"faces": {
+								"north": { "texture": "#bigfrondb", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+							},
+							"children": [
+								{
+									"name": "R Leaf4",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 50.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "L Leaf4",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -50.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "Leaf tip4",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base5",
+					"from": [ -5.0, 0.0, 0.0 ],
+					"to": [ 7.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+					"rotationX": 60.2636,
+					"rotationY": 66.8033,
+					"rotationZ": -58.1401,
+					"faces": {
+						"north": { "texture": "#bigfrondb", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 5",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 25.0,
+							"faces": {
+								"north": { "texture": "#bigfrondb", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+							},
+							"children": [
+								{
+									"name": "R Leaf5",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "L Leaf5",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "Leaf tip5",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base6",
+					"from": [ -6.0, 0.0, -2.0 ],
+					"to": [ 6.0, 4.0, -2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -2.0 ],
+					"rotationX": 160.0,
+					"rotationY": 0.0,
+					"rotationZ": -180.0,
+					"faces": {
+						"north": { "texture": "#bigfrondb", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 6",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 25.0,
+							"faces": {
+								"north": { "texture": "#bigfrondb", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+							},
+							"children": [
+								{
+									"name": "R Leaf6",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "L Leaf6",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "Leaf tip6",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base7",
+					"from": [ -6.0, 0.0, 2.0 ],
+					"to": [ 6.0, 4.0, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+					"rotationX": 20.1014,
+					"rotationY": -5.6369,
+					"rotationZ": 2.0588,
+					"faces": {
+						"north": { "texture": "#bigfrondb", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 7",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 25.0,
+							"faces": {
+								"north": { "texture": "#bigfrondb", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+							},
+							"children": [
+								{
+									"name": "R Leaf7",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "L Leaf7",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+									}
+								},
+								{
+									"name": "Leaf tip7",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base8",
+					"from": [ -4.0, 0.0, 2.0 ],
+					"to": [ 8.0, 4.0, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 2.0, 0.0, 2.0 ],
+					"rotationX": 59.9818,
+					"rotationY": 42.0669,
+					"rotationZ": -49.2271,
+					"faces": {
+						"north": { "texture": "#bigfrondb", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 8",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 25.0,
+							"faces": {
+								"north": { "texture": "#bigfrondb", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "R Leaf8",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,0,1,0] }
+									}
+								},
+								{
+									"name": "L Leaf8",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9], "windData": [0,1,0,0] }
+									}
+								},
+								{
+									"name": "Leaf tip8",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base9",
+					"from": [ -8.0, 0.0, 2.0 ],
+					"to": [ 4.0, 4.0, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -2.0, 0.0, 2.0 ],
+					"rotationX": 47.1952,
+					"rotationY": -28.8218,
+					"rotationZ": 27.4978,
+					"faces": {
+						"north": { "texture": "#bigfrondb", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 9",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 35.0,
+							"faces": {
+								"north": { "texture": "#bigfrondb", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "R Leaf9",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9] }
+									}
+								},
+								{
+									"name": "L Leaf9",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9] }
+									}
+								},
+								{
+									"name": "Leaf tip9",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base10",
+					"from": [ -8.0, 0.0, -2.0 ],
+					"to": [ 4.0, 4.0, -2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -2.0, 0.0, -2.0 ],
+					"rotationX": 113.8129,
+					"rotationY": -51.1746,
+					"rotationZ": 119.5307,
+					"faces": {
+						"north": { "texture": "#bigfrondb", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 10",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 35.0,
+							"faces": {
+								"north": { "texture": "#bigfrondb", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "R Leaf10",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9] }
+									}
+								},
+								{
+									"name": "L Leaf10",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9] }
+									}
+								},
+								{
+									"name": "Leaf tip10",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base11",
+					"from": [ -5.0, 0.0, -2.0 ],
+					"to": [ 7.0, 4.0, -2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, -2.0 ],
+					"rotationX": 137.9812,
+					"rotationY": 31.0315,
+					"rotationZ": -155.0864,
+					"faces": {
+						"north": { "texture": "#bigfrondb", "uv": [ 2.0, 28.0, 14.0, 32.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Leaf base 11",
+							"from": [ 5.0, 4.0, 0.0 ],
+							"to": [ 7.0, 29.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+							"rotationX": 35.0,
+							"faces": {
+								"north": { "texture": "#bigfrondb", "uv": [ 7.0, 3.5, 9.0, 28.5 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "R Leaf11",
+									"from": [ 2.0, 0.5, 0.0 ],
+									"to": [ 9.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 2.0, 0.5, 0.0 ],
+									"rotationY": 30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 0.0, 1.0, 7.0, 28.0 ], "windMode": [9,9,9,9] }
+									}
+								},
+								{
+									"name": "L Leaf11",
+									"from": [ -7.0, 0.5, 0.0 ],
+									"to": [ 0.0, 27.5, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+									"rotationY": -30.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 9.0, 1.0, 16.0, 28.0 ], "windMode": [9,9,9,9] }
+									}
+								},
+								{
+									"name": "Leaf tip11",
+									"from": [ 0.0, 25.0, 0.0 ],
+									"to": [ 2.0, 29.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 1.0, 25.0, 0.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#bigfrondb", "uv": [ 7.0, 0.0, 9.0, 4.0 ], "windMode": [9,9,9,9] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond base1",
+					"from": [ -6.0, 0.0, 0.0 ],
+					"to": [ 6.0, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 50.0,
+					"faces": {
+						"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 24.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Frond stem 1",
+							"from": [ 0.0, 8.0, 0.0 ],
+							"to": [ 12.0, 16.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 8.0, 0.0 ],
+							"rotationX": 10.0,
+							"faces": {
+								"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 24.0 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "Leaf base 1",
+									"from": [ 5.0, 8.0, 0.0 ],
+									"to": [ 7.0, 16.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 6.0, 8.0, 0.0 ],
+									"rotationX": 10.0,
+									"faces": {
+										"north": { "texture": "#deadfrond", "uv": [ 5.0, 8.0, 7.0, 16.0 ], "windMode": [9,9,9,9] }
+									},
+									"children": [
+										{
+											"name": "R Leaf1",
+											"from": [ 2.0, 0.0, 0.0 ],
+											"to": [ 7.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+											"rotationY": 50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 0.0, 4.0, 5.0, 16.0 ], "windMode": [9,9,9,9], "windData": [0,0,1,0] }
+											}
+										},
+										{
+											"name": "L Leaf1",
+											"from": [ -5.0, 0.0, 0.0 ],
+											"to": [ 0.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 7.0, 4.0, 12.0, 16.0 ], "windMode": [9,9,9,9], "windData": [0,1,0,0] }
+											}
+										},
+										{
+											"name": "Leaf tip1",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 2.0, 16.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 1.0, 8.0, 0.0 ],
+											"rotationX": 15.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 5.0, 0.0, 7.0, 8.0 ], "windMode": [9,9,9,9] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base2",
+					"from": [ -5.0, 0.0, 0.0 ],
+					"to": [ 7.0, 7.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, 0.0 ],
+					"rotationX": 55.0,
+					"rotationY": 8.0,
+					"rotationZ": -25.0,
+					"faces": {
+						"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 23.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Frond stem 2",
+							"from": [ 0.0, 7.0, 0.0 ],
+							"to": [ 12.0, 15.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 7.0, 0.0 ],
+							"rotationX": 20.0,
+							"faces": {
+								"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 24.0 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "Leaf base 2",
+									"from": [ 5.0, 8.0, 0.0 ],
+									"to": [ 7.0, 16.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 6.0, 8.0, 0.0 ],
+									"rotationX": 10.0,
+									"faces": {
+										"north": { "texture": "#deadfrond", "uv": [ 5.0, 8.0, 7.0, 16.0 ], "windMode": [9,9,9,9] }
+									},
+									"children": [
+										{
+											"name": "R Leaf2",
+											"from": [ 2.0, 0.0, 0.0 ],
+											"to": [ 7.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+											"rotationY": 50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 0.0, 4.0, 5.0, 16.0 ], "windMode": [9,9,9,9] }
+											}
+										},
+										{
+											"name": "L Leaf2",
+											"from": [ -5.0, 0.0, 0.0 ],
+											"to": [ 0.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 7.0, 4.0, 12.0, 16.0 ], "windMode": [9,9,9,9] }
+											}
+										},
+										{
+											"name": "Leaf tip2",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 2.0, 16.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 1.0, 8.0, 0.0 ],
+											"rotationX": 15.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 5.0, 0.0, 7.0, 8.0 ], "windMode": [9,9,9,9] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base3",
+					"from": [ -7.0, 0.0, 0.0 ],
+					"to": [ 5.0, 7.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 0.0, 0.0 ],
+					"rotationX": 37.8437,
+					"rotationY": -35.4143,
+					"rotationZ": 24.2374,
+					"faces": {
+						"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 23.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Frond stem 3",
+							"from": [ 0.0, 7.0, 0.0 ],
+							"to": [ 12.0, 15.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 7.0, 0.0 ],
+							"rotationX": 42.0,
+							"rotationY": -14.0,
+							"rotationZ": -33.0,
+							"faces": {
+								"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 24.0 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "Leaf base 3",
+									"from": [ 5.0, 8.0, 0.0 ],
+									"to": [ 7.0, 16.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 6.0, 8.0, 0.0 ],
+									"rotationX": 22.0,
+									"faces": {
+										"north": { "texture": "#deadfrond", "uv": [ 5.0, 8.0, 7.0, 16.0 ], "windMode": [9,9,9,9] }
+									},
+									"children": [
+										{
+											"name": "R Leaf3",
+											"from": [ 2.0, 0.0, 0.0 ],
+											"to": [ 7.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+											"rotationY": 50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 0.0, 4.0, 5.0, 16.0 ], "windMode": [9,9,9,9] }
+											}
+										},
+										{
+											"name": "L Leaf3",
+											"from": [ -5.0, 0.0, 0.0 ],
+											"to": [ 0.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 7.0, 4.0, 12.0, 16.0 ], "windMode": [9,9,9,9] }
+											}
+										},
+										{
+											"name": "Leaf tip3",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 2.0, 16.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 1.0, 8.0, 0.0 ],
+											"rotationX": 15.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 5.0, 0.0, 7.0, 8.0 ], "windMode": [9,0,0,9] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base4",
+					"from": [ -6.0, 0.0, -1.0 ],
+					"to": [ 6.0, 7.0, -1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -1.0 ],
+					"rotationX": 149.5378,
+					"rotationY": 9.5115,
+					"rotationZ": -174.4488,
+					"faces": {
+						"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 23.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Frond stem 4",
+							"from": [ 0.0, 7.0, 0.0 ],
+							"to": [ 12.0, 15.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 7.0, 0.0 ],
+							"rotationX": 42.0,
+							"faces": {
+								"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 24.0 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "Leaf base 4",
+									"from": [ 5.0, 8.0, 0.0 ],
+									"to": [ 7.0, 16.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 6.0, 8.0, 0.0 ],
+									"rotationX": 22.0,
+									"faces": {
+										"north": { "texture": "#deadfrond", "uv": [ 5.0, 8.0, 7.0, 16.0 ], "windMode": [9,9,9,9] }
+									},
+									"children": [
+										{
+											"name": "R Leaf4",
+											"from": [ 2.0, 0.0, 0.0 ],
+											"to": [ 7.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+											"rotationY": 50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 0.0, 4.0, 5.0, 16.0 ], "windMode": [9,9,9,9] }
+											}
+										},
+										{
+											"name": "L Leaf4",
+											"from": [ -5.0, 0.0, 0.0 ],
+											"to": [ 0.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 7.0, 4.0, 12.0, 16.0 ], "windMode": [9,9,9,9] }
+											}
+										},
+										{
+											"name": "Leaf tip4",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 2.0, 16.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 1.0, 8.0, 0.0 ],
+											"rotationX": 15.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 5.0, 0.0, 7.0, 8.0 ], "windMode": [9,9,9,9] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base5",
+					"from": [ -6.0, 0.0, 0.0 ],
+					"to": [ 6.0, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 143.1026,
+					"rotationY": 55.2728,
+					"rotationZ": -148.3245,
+					"faces": {
+						"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 24.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Frond stem 5",
+							"from": [ 0.0, 8.0, 0.0 ],
+							"to": [ 12.0, 16.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 8.0, 0.0 ],
+							"rotationX": 47.0,
+							"faces": {
+								"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 24.0 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "Leaf base 5",
+									"from": [ 5.0, 8.0, 0.0 ],
+									"to": [ 7.0, 16.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 6.0, 8.0, 0.0 ],
+									"rotationX": 47.0,
+									"faces": {
+										"north": { "texture": "#deadfrond", "uv": [ 5.0, 8.0, 7.0, 16.0 ], "windMode": [9,9,9,9] }
+									},
+									"children": [
+										{
+											"name": "R Leaf5",
+											"from": [ 2.0, 0.0, 0.0 ],
+											"to": [ 7.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+											"rotationY": 50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 0.0, 4.0, 5.0, 16.0 ], "windMode": [9,9,9,9] }
+											}
+										},
+										{
+											"name": "L Leaf5",
+											"from": [ -5.0, 0.0, 0.0 ],
+											"to": [ 0.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 7.0, 4.0, 12.0, 16.0 ], "windMode": [9,9,9,9] }
+											}
+										},
+										{
+											"name": "Leaf tip5",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 2.0, 16.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 1.0, 8.0, 0.0 ],
+											"rotationX": 15.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 5.0, 0.0, 7.0, 8.0 ], "windMode": [9,0,0,9] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base6",
+					"from": [ -6.0, 0.0, 0.0 ],
+					"to": [ 6.0, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 145.5171,
+					"rotationY": -52.8355,
+					"rotationZ": 151.3061,
+					"faces": {
+						"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 24.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Frond stem 6",
+							"from": [ 0.0, 8.0, 0.0 ],
+							"to": [ 12.0, 16.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 8.0, 0.0 ],
+							"rotationX": 53.0,
+							"faces": {
+								"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 24.0 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "Leaf base 6",
+									"from": [ 5.0, 8.0, 0.0 ],
+									"to": [ 7.0, 16.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 6.0, 8.0, 0.0 ],
+									"rotationX": 39.0,
+									"rotationZ": 25.0,
+									"faces": {
+										"north": { "texture": "#deadfrond", "uv": [ 5.0, 8.0, 7.0, 16.0 ], "windMode": [9,9,9,9] }
+									},
+									"children": [
+										{
+											"name": "R Leaf6",
+											"from": [ 2.0, 0.0, 0.0 ],
+											"to": [ 7.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+											"rotationY": 50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 0.0, 4.0, 5.0, 16.0 ], "windMode": [9,9,9,9] }
+											}
+										},
+										{
+											"name": "L Leaf6",
+											"from": [ -5.0, 0.0, 0.0 ],
+											"to": [ 0.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 7.0, 4.0, 12.0, 16.0 ], "windMode": [9,9,9,9] }
+											}
+										},
+										{
+											"name": "Leaf tip6",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 2.0, 16.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 1.0, 8.0, 0.0 ],
+											"rotationX": 15.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 5.0, 0.0, 7.0, 8.0 ], "windMode": [9,0,0,9] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond base7",
+					"from": [ -6.0, 0.0, -1.0 ],
+					"to": [ 6.0, 7.0, -1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -1.0 ],
+					"rotationX": 118.3408,
+					"rotationY": 29.4987,
+					"rotationZ": -137.6059,
+					"faces": {
+						"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 23.0 ], "windMode": [0,9,9,0] }
+					},
+					"children": [
+						{
+							"name": "Frond stem 7",
+							"from": [ 0.0, 7.0, 0.0 ],
+							"to": [ 12.0, 15.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 7.0, 0.0 ],
+							"rotationX": 42.0,
+							"faces": {
+								"north": { "texture": "#deadfrond", "uv": [ 0.0, 16.0, 12.0, 24.0 ], "windMode": [9,9,9,9] }
+							},
+							"children": [
+								{
+									"name": "Leaf base 7",
+									"from": [ 5.0, 8.0, 0.0 ],
+									"to": [ 7.0, 16.0, 0.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 6.0, 8.0, 0.0 ],
+									"rotationX": 10.0,
+									"faces": {
+										"north": { "texture": "#deadfrond", "uv": [ 5.0, 8.0, 7.0, 16.0 ], "windMode": [9,0,0,9] }
+									},
+									"children": [
+										{
+											"name": "R Leaf7",
+											"from": [ 2.0, 0.0, 0.0 ],
+											"to": [ 7.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+											"rotationY": 50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 0.0, 4.0, 5.0, 16.0 ], "windMode": [9,0,9,9] }
+											}
+										},
+										{
+											"name": "L Leaf7",
+											"from": [ -5.0, 0.0, 0.0 ],
+											"to": [ 0.0, 12.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -50.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 7.0, 4.0, 12.0, 16.0 ], "windMode": [9,9,0,9] }
+											}
+										},
+										{
+											"name": "Leaf tip7",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 2.0, 16.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 1.0, 8.0, 0.0 ],
+											"rotationX": 15.0,
+											"faces": {
+												"north": { "texture": "#deadfrond", "uv": [ 5.0, 0.0, 7.0, 8.0 ], "windMode": [0,0,0,0] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

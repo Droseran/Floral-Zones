@@ -1,0 +1,107 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+	"variantgroups": [
+		{ "code": "type", "states": ["atriplexnummularia","byblispilbarana","calandriniabalonensis","calytrixtetragona","eremophilalatrobei","gossypiumsturtianum","hakearostrata","ipomoeacostata","ixodiaachillaeoides","maireanasedifolia","ptilotusexaltatus","ptilotusxerophilus","polycalymmastuartii","sennapleurocarpa","tecticorniaverrucosa","thryptomenemicrantha"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"reinforcable": true,
+		"plantContainable": {
+			"smallContainerByType": {
+				"*-byblispilbarana-*": {"shape": {"base": "block/plant/flower/byblispilbarana"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-ixodiaachillaeoides-*": {"shape": {"base": "block/plant/flower/ixodiaachillaeoides1"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1" },"flowerb": { "base": "block/plant/flower/petal/{type}2" }}},	
+				"*-polycalymmastuartii-*": {"shape": {"base": "block/plant/flower/polycalymmastuartii"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},				
+				"*-ptilotusexaltatus-*": {"shape": {"base": "block/plant/flower/ptilotusexaltatus"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},				
+				"*-tecticorniaverrucosa-*": {"shape": {"base": "block/plant/flower/tecticorniaverrucosa"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}-a1" },"flowerb": { "base": "block/plant/flower/petal/{type}-a2" },"flower3": { "base": "block/plant/flower/petal/{type}-a2" }}}						
+			},
+			"largeContainerByType": {
+				"*-atriplexnummularia-*": {"shape": {"base": "block/plant/flower/atriplexnummularia_var3"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},		
+				"*-byblispilbarana-*": {"shape": {"base": "block/plant/flower/byblispilbarana"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},					
+				"*-calandriniabalonensis-*": {"shape": {"base": "block/plant/flower/calandriniabalonensis"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},	
+				"*-eremophilalatrobei-*": {"shape": {"base": "block/plant/flower/eremophilalatrobei_var0"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},		
+				"*-gossypiumsturtianum-*": {"shape": {"base": "block/plant/flower/gossypiumsturtianum"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},		
+				"*-hakearostrata-*": {"shape": {"base": "block/plant/flower/hakearostrata4"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},		
+				"*-ixodiaachillaeoides-*": {"shape": {"base": "block/plant/flower/ixodiaachillaeoides1"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1" },"flowerb": { "base": "block/plant/flower/petal/{type}2" }}},			
+				"*-polycalymmastuartii-*": {"shape": {"base": "block/plant/flower/polycalymmastuartii"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},				
+				"*-ptilotusexaltatus-*": {"shape": {"base": "block/plant/flower/ptilotusexaltatus"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-ptilotusxerophilus-*": {"shape": {"base": "block/plant/flower/ptilotusxerophilus"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}2" }}},
+				"*-sennapleurocarpa-*": {"shape": {"base": "block/plant/flower/sennapleurocarpa_var2"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},				
+				"*-tecticorniaverrucosa-*": {"shape": {"base": "block/plant/flower/tecticorniaverrucosa"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}-a1" },"flowerb": { "base": "block/plant/flower/petal/{type}-a2" },"flower3": { "base": "block/plant/flower/petal/{type}-a2" }}},
+				"*-thryptomenemicrantha-*": {"shape": {"base": "block/plant/flower/thryptomenemicrantha1"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1" }}}						
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"@.*-(atriplexnummularia|eremophilalatrobei|maireanasedifolia|sennapleurocarpa)-.*":{"base": "block/plant/flower/{type}_var*" },
+		"@.*-(byblispilbarana|calandriniabalonensis|gossypiumsturtianum|maireanasedifolia|polycalymmastuartii|ptilotusexaltatus|ptilotusxerophilus|tecticorniaverrucosa)-.*":{"base": "block/plant/flower/{type}"},
+		"@.*-(calytrixtetragona|hakearostrata|ipomoeacostata|ixodiaachillaeoides|thryptomenemicrantha)-.*":{"base": "block/plant/flower/{type}*"}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"@.*-(atriplexnummularia|byblispilbarana|calandriniabalonensis|eremophilalatrobei|gossypiumsturtianum|polycalymmastuartii|ptilotusexaltatus|sennapleurocarpa)-.*": {
+		 "flower": { "base": "block/plant/flower/petal/{type}" }
+		},
+		"@.*-(calytrixtetragona)-.*": {
+		 "flower1": { "base": "block/plant/flower/petal/{type}a*"},"flower2": { "base": "block/plant/flower/petal/{type}b*"}},
+		"@.*-(hakearostrata)-.*": {
+		 "stem": { "base": "block/plant/flower/stem/{type}"},"flower": { "base": "block/plant/flower/petal/{type}"}},
+		"@.*-(ipomoeacostata)-.*": {
+		 "flower1": { "base": "block/plant/flower/petal/{type}1"},"flower2": { "base": "block/plant/flower/petal/{type}2"}},
+		"@.*-(ixodiaachillaeoides)-.*": {
+		 "flower1": { "base": "block/plant/flower/petal/{type}1", "alternates": [ { "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}3"}]},"flower2": { "base": "block/plant/flower/petal/{type}1"}},
+		"@.*-(maireanasedifolia|ptilotusxerophilus|thryptomenemicrantha)-.*": {
+		 "flower": { "base": "block/plant/flower/petal/{type}*" }
+		},
+		"@.*-(tecticorniaverrucosa)-.*": {
+		 "flower1": { "base": "block/plant/flower/petal/{type}-a*", "alternates": [ { "base": "block/plant/flower/petal/{type}-b*"}]},"flower2": { "base": "block/plant/flower/petal/{type}-a*", "alternates": [ { "base": "block/plant/flower/petal/{type}-b*"}]},"flower3": { "base": "block/plant/flower/petal/{type}-a*", "alternates": [ { "base": "block/plant/flower/petal/{type}-b*"}] }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5, "z2": 0.875
+	},
+	"soundsByType": {
+		"@.*-(atriplexnummularia|eremophilalatrobei|calytrixtetragona|gossypiumsturtianum|hakearostrata|ipomoeacostata|ixodiaachillaeoides|maireanasedifolia|gossypiumsturtianum|ptilotusexaltatus|sennapleurocarpa|thryptomenemicrantha)-.*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass","inside": "game:walk/inside/leafy/bushrustle*"},
+		"*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass"}},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*": { "scale": 1.5}
+	}
+}

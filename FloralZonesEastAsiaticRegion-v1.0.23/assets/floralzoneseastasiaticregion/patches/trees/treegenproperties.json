@@ -1,0 +1,277 @@
+[
+		{
+			"op": "add",
+			"path": "/treegens/-",
+			"value": {
+				"Generator": "abieskoreana",
+				"MinSize": 0.2,
+				"MaxSize": 1,
+				"Weight": 30,
+				"SuitabilitySizeBonus": 0.6,
+				"MinTemp": 8,
+				"MaxTemp": 12,
+				"MinRain": 133,
+				"MaxRain": 237,
+				"MinFert": 0,
+				"MaxFert": 255,
+				"MinForest": 128,
+				"MaxForest": 255,
+				"MinHeight": 0.3,
+				"MaxHeight": 0.64
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+
+		},
+		{
+			"op": "add",
+			"path": "/treegens/-",
+			"value": {
+				"Generator": "acerginnala",
+				"MinSize": 0.8,
+				"MaxSize": 1,
+				"Weight": 100,
+				"SuitabilitySizeBonus": 0.1,
+				"MinTemp": 0,
+				"MaxTemp": 12,
+				"MinRain": 51,
+				"MaxRain": 135,
+				"MinFert": 0,
+				"MaxFert": 255,
+				"MinForest": 0,
+				"MaxForest": 128,
+				"MinHeight": 0,
+				"MaxHeight": 0.55
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+		},
+		{
+			"op": "add",
+			"path": "/treegens/-",
+			"value": {
+				"Generator": "betulaplatyphylla",
+				"MinSize": 0.4,
+				"MaxSize": 1,
+				"Weight": 30,
+				"SuitabilitySizeBonus": 0.7,
+				"MinTemp": -8,
+				"MaxTemp": 12,
+				"MinRain": 69,
+				"MaxRain": 173,
+				"MinFert": 0,
+				"MaxFert": 178,
+				"MinForest": 0,
+				"MaxForest": 204,
+				"MinHeight": 0.1,
+				"MaxHeight": 0.89
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+		},
+		{
+			"op": "add",
+			"path": "/treegens/-",
+			"value": {
+				"Generator": "larixkaempferi",
+				"MinSize": 0.3,
+				"MaxSize": 1,
+				"Weight": 0.2,
+				"SuitabilitySizeBonus": 0.4,
+				"MinTemp": 2,
+				"MaxTemp": 16,
+				"MinRain": 158,
+				"MaxRain": 232,
+				"MinFert": 0,
+				"MaxFert": 255,
+				"MinForest": 0,
+				"MaxForest": 102,
+				"MinHeight": 0.1,
+				"MaxHeight": 0.73
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+		},
+		{
+			"op": "add",
+			"path": "/treegens/-",
+			"value": {
+				"Generator": "metasequoiaglyptostroboides",
+				"MinSize": 0.8,
+				"MaxSize": 1,
+				"Weight": 0.1,
+				"SuitabilitySizeBonus": 0.2,
+				"MinTemp": 10,
+				"MaxTemp": 16,
+				"MinRain": 133,
+				"MaxRain": 224,
+				"MinFert": 0,
+				"MaxFert": 255,
+				"MinForest": 0,
+				"MaxForest": 153,
+				"MinHeight": 0.15,
+				"MaxHeight": 0.89
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+
+		},
+		{
+			"op": "add",
+			"path": "/shrubgens/-",
+			"value": {
+				"Generator": "phyllostachysaurea",
+				"MinSize": 0.8,
+				"MaxSize": 1,
+				"Weight": 150,
+				"SuitabilitySizeBonus": 0.2,
+				"MinTemp": 12,
+				"MaxTemp": 18,
+				"MinRain": 133,
+				"MaxRain": 255,
+				"MinFert": 179,
+				"MaxFert": 255,
+				"MinForest": 204,
+				"MaxForest": 245,
+				"MinHeight": 0,
+				"MaxHeight": 0.53
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+		},
+		{
+			"op": "add",
+			"path": "/treegens/-",
+			"value": {
+				"Generator": "phyllostachysedulis",
+				"MinSize": 0.25,
+				"MaxSize": 1,
+				"Weight": 150,
+				"SuitabilitySizeBonus": 0.2,
+				"MinTemp": 8,
+				"MaxTemp": 22,
+				"MinRain": 128,
+				"MaxRain": 255,
+				"MinFert": 102,
+				"MaxFert": 255,
+				"MinForest": 178,
+				"MaxForest": 255,
+				"MinHeight": 0,
+				"MaxHeight": 0.74
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+		},
+		{
+			"op": "add",
+			"path": "/treegens/-",
+			"value": {
+				"Generator": "phyllostachysnigra",
+				"MinSize": 0.25,
+				"MaxSize": 1,
+				"Weight": 50,
+				"SuitabilitySizeBonus": 0.2,
+				"MinTemp": 14,
+				"MaxTemp": 20,
+				"MinRain": 164,
+				"MaxRain": 216,
+				"MinFert": 102,
+				"MaxFert": 255,
+				"MinForest": 165,
+				"MaxForest": 216,
+				"MinHeight": 0,
+				"MaxHeight": 0.57
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+		},
+		{
+			"op": "add",
+			"path": "/treegens/-",
+			"value": {
+				"Generator": "pinusdensiflora",
+				"MinSize": 0.3,
+				"MaxSize": 1,
+				"Weight": 50,
+				"SuitabilitySizeBonus": 0.9,
+				"MinTemp": 4,
+				"MaxTemp": 16,
+				"MinRain": 54,
+				"MaxRain": 242,
+				"MinFert": 0,
+				"MaxFert": 255,
+				"MinForest": 0,
+				"MaxForest": 255,
+				"MinHeight": 0,
+				"MaxHeight": 0.57
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+		},
+		{
+			"op": "add",
+			"path": "/treegens/-",
+			"value": {
+				"Generator": "quercusserrata",
+				"MinSize": 0.3,
+				"MaxSize": 1,
+				"Weight": 40,
+				"SuitabilitySizeBonus": 0.5,
+				"MinTemp": 10,
+				"MaxTemp": 20,
+				"MinRain": 54,
+				"MaxRain": 216,
+				"MinFert": 128,
+				"MaxFert": 255,
+				"MinForest": 78,
+				"MaxForest": 255,
+				"MinHeight": 0.02,
+				"MaxHeight": 0.76
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true }]
+
+		},
+		{
+			"op": "add",
+			"path": "/treegens/-",
+			"value": {
+				"Generator": "trachycarpusfortunei",
+				"MinSize": 0.2,
+				"MaxSize": 0.8,
+				"Weight": 0.2,
+				"SuitabilitySizeBonus": 0.2,
+				"MinTemp": 14,
+				"MaxTemp": 22,
+				"MinRain": 104,
+				"MaxRain": 221,
+				"MinFert": 15,
+				"MaxFert": 255,
+				"MinForest": 153,
+				"MaxForest": 255,
+				"MinHeight": 0.05,
+				"MaxHeight": 0.72
+			},
+			"file": "game:worldgen/treengenproperties.json",
+			"side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+
+		}
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/bladdernutfoliage",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-ripe",
+    "value": [
+      {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/jackalfood",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-ripe",
+    "value": [
+      {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/sourfig",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-ripe",
+    "value": [
+      {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonescaperegion:blocktypes/plant/strelitzia",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-ripe",
+    "value": [
+      {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

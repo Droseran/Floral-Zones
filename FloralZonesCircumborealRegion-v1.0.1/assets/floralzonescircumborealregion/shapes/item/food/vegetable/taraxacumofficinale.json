@@ -1,0 +1,210 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 12,
+	"textureSizes": {
+		"taraxacumofficinale1": [16,12]
+	},
+	"textures": {
+		"taraxacumofficinale1": "block/plant/flower/petal/taraxacumofficinale1"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "enabled": false }
+			},
+			"children": [
+				{
+					"name": "Flower stema",
+					"from": [ 0.0, 0.5, 0.0 ],
+					"to": [ 1.0, 0.5, 3.0 ],
+					"rotationOrigin": [ 0.0, 0.5, 0.0 ],
+					"rotationX": 10.0,
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#taraxacumofficinale1", "uv": [ 8.0, 8.5, 9.0, 11.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Flower stemb",
+							"from": [ 0.0, 0.0, -3.0 ],
+							"to": [ 1.0, 0.0, 0.0 ],
+							"rotationOrigin": [ 0.5, 0.0, 0.0 ],
+							"rotationX": -10.0,
+							"rotationZ": 5.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+								"up": { "texture": "#taraxacumofficinale1", "uv": [ 8.0, 4.5, 9.0, 7.5 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "Flower heada",
+									"from": [ -1.05, 0.0, -1.0 ],
+									"to": [ 1.45, 0.0, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.2, 0.0, 0.0 ],
+									"rotationX": 0.0,
+									"rotationY": 0.0,
+									"rotationZ": 0.0,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"up": { "texture": "#taraxacumofficinale1", "uv": [ 7.0, 3.5, 9.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 1.0 ], "enabled": false }
+									}
+								},
+								{
+									"name": "Flower headb",
+									"from": [ -1.05, 0.0, -1.0 ],
+									"to": [ 1.45, 0.0, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.2, 0.0, 0.0 ],
+									"rotationX": 0.0,
+									"rotationY": 0.0,
+									"rotationZ": -135.0,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"up": { "texture": "#taraxacumofficinale1", "uv": [ 7.0, 3.5, 9.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 1.0 ], "enabled": false }
+									}
+								},
+								{
+									"name": "Flower headc",
+									"from": [ -1.05, 0.0, -1.0 ],
+									"to": [ 1.45, 0.0, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.2, 0.0, 0.0 ],
+									"rotationX": 0.0,
+									"rotationY": 0.0,
+									"rotationZ": 112.5,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"up": { "texture": "#taraxacumofficinale1", "uv": [ 7.0, 3.5, 9.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 1.0 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Flower stema2",
+					"from": [ 0.0, 0.5, 1.0 ],
+					"to": [ 1.0, 0.5, 4.0 ],
+					"rotationOrigin": [ 0.0, 0.5, 1.0 ],
+					"rotationX": 10.0,
+					"rotationY": -22.5,
+					"faces": {
+						"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+						"east": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+						"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+						"west": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+						"up": { "texture": "#taraxacumofficinale1", "uv": [ 8.0, 8.5, 9.0, 11.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "enabled": false }
+					},
+					"children": [
+						{
+							"name": "Flower stemb2",
+							"from": [ 0.0, 0.0, -3.0 ],
+							"to": [ 1.0, 0.0, 0.0 ],
+							"rotationOrigin": [ 0.5, 0.0, 0.0 ],
+							"rotationX": -10.0,
+							"rotationZ": 5.0,
+							"faces": {
+								"north": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+								"south": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ], "enabled": false },
+								"up": { "texture": "#taraxacumofficinale1", "uv": [ 8.0, 4.5, 9.0, 7.5 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 3.0 ], "enabled": false }
+							},
+							"children": [
+								{
+									"name": "Flower heada2",
+									"from": [ -1.05, 0.0, -1.0 ],
+									"to": [ 1.45, 0.0, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.2, 0.0, 0.0 ],
+									"rotationX": 0.0,
+									"rotationY": 0.0,
+									"rotationZ": 0.0,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"up": { "texture": "#taraxacumofficinale1", "uv": [ 7.0, 3.5, 9.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 1.0 ], "enabled": false }
+									}
+								},
+								{
+									"name": "Flower headb2",
+									"from": [ -1.05, 0.0, -1.0 ],
+									"to": [ 1.45, 0.0, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.2, 0.0, 0.0 ],
+									"rotationX": 0.0,
+									"rotationY": 0.0,
+									"rotationZ": -135.0,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"up": { "texture": "#taraxacumofficinale1", "uv": [ 7.0, 3.5, 9.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 1.0 ], "enabled": false }
+									}
+								},
+								{
+									"name": "Flower headc2",
+									"from": [ -1.05, 0.0, -1.0 ],
+									"to": [ 1.45, 0.0, 0.0 ],
+									"shade": false,
+									"rotationOrigin": [ 0.2, 0.0, 0.0 ],
+									"rotationX": 0.0,
+									"rotationY": 0.0,
+									"rotationZ": 112.5,
+									"faces": {
+										"north": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"east": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"south": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 0.5 ], "enabled": false },
+										"west": { "texture": "#null", "uv": [ 0.0, 0.0, 1.0, 0.5 ], "enabled": false },
+										"up": { "texture": "#taraxacumofficinale1", "uv": [ 7.0, 3.5, 9.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#null", "uv": [ 0.0, 0.0, 2.5, 1.0 ], "enabled": false }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

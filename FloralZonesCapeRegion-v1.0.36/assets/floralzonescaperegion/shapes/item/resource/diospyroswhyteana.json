@@ -1,0 +1,246 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"diospyroswhyteana": [4,4]
+	},
+	"textures": {
+		"diospyroswhyteana": "item/resource/diospyroswhyteana"
+	},
+	"elements": [
+		{
+			"name": "Stem",
+			"from": [ 7.0, 0.0, 8.0 ],
+			"to": [ 8.5, 0.6, 8.6 ],
+			"rotationOrigin": [ 7.0, 0.0, 8.0 ],
+			"rotationZ": 20.0,
+			"faces": {
+				"north": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 3.5, 3.0 ] },
+				"south": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 3.0, 4.0, 3.5 ] },
+				"west": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 2.5, 3.0, 3.0 ] },
+				"up": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 2.5, 4.0, 3.0 ] },
+				"down": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 2.5, 4.0, 3.0 ] }
+			},
+			"children": [
+				{
+					"name": "Fruit",
+					"from": [ 1.5, -0.6, -0.6 ],
+					"to": [ 3.5, 1.4, 1.4 ],
+					"rotationOrigin": [ 1.5, -0.6, -0.6 ],
+					"faces": {
+						"north": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"east": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"south": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"up": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"down": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+					},
+					"children": [
+						{
+							"name": "Fruit case1",
+							"from": [ 0.0, 0.0, -0.2 ],
+							"to": [ 2.0, 2.0, 1.8 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.8 ],
+							"rotationY": 10.0,
+							"faces": {
+								"north": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "Fruit case2",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 2.0, 2.0, 2.0 ],
+							"rotationOrigin": [ 0.0, 1.0, 1.0 ],
+							"rotationY": -10.0,
+							"faces": {
+								"south": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "Fruit case3",
+							"from": [ 0.0, 0.0, -0.2 ],
+							"to": [ 2.0, 2.0, 1.8 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.8 ],
+							"rotationZ": 10.0,
+							"faces": {
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+								"up": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "Fruit case4",
+							"from": [ 0.0, 0.0, -0.2 ],
+							"to": [ 2.0, 2.0, 1.8 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.8 ],
+							"rotationZ": -10.0,
+							"faces": {
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+								"down": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stem2",
+			"from": [ 5.5, 0.0, 8.6 ],
+			"to": [ 7.0, 0.6, 9.2 ],
+			"rotationOrigin": [ 5.5, 0.0, 8.6 ],
+			"rotationY": -45.0,
+			"rotationZ": 20.0,
+			"faces": {
+				"north": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 3.5, 3.0 ] },
+				"south": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 3.0, 4.0, 3.5 ] },
+				"west": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 2.5, 3.0, 3.0 ] },
+				"up": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 2.5, 4.0, 3.0 ] },
+				"down": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 2.5, 4.0, 3.0 ] }
+			},
+			"children": [
+				{
+					"name": "Fruit2",
+					"from": [ 1.5, -0.6, -0.6 ],
+					"to": [ 3.5, 1.4, 1.4 ],
+					"rotationOrigin": [ 1.5, -0.6, -0.6 ],
+					"faces": {
+						"north": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 0.0, 4.0, 2.0 ] },
+						"east": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 0.0, 4.0, 2.0 ] },
+						"south": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 0.0, 4.0, 2.0 ] },
+						"west": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 0.0, 4.0, 2.0 ] },
+						"up": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 0.0, 4.0, 2.0 ] },
+						"down": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 0.0, 4.0, 2.0 ] }
+					},
+					"children": [
+						{
+							"name": "Fruit case5",
+							"from": [ 0.0, 0.0, -0.2 ],
+							"to": [ 2.0, 2.0, 1.8 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.8 ],
+							"rotationY": 10.0,
+							"faces": {
+								"north": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "Fruit case6",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 2.0, 2.0, 2.0 ],
+							"rotationOrigin": [ 0.0, 1.0, 1.0 ],
+							"rotationY": -10.0,
+							"faces": {
+								"south": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "Fruit case7",
+							"from": [ 0.0, 0.0, -0.2 ],
+							"to": [ 2.0, 2.0, 1.8 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.8 ],
+							"rotationZ": 10.0,
+							"faces": {
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+								"up": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "Fruit case8",
+							"from": [ 0.0, 0.0, -0.2 ],
+							"to": [ 2.0, 2.0, 1.8 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.8 ],
+							"rotationZ": -10.0,
+							"faces": {
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+								"down": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stem3",
+			"from": [ 6.5, 0.0, 7.0 ],
+			"to": [ 8.0, 0.6, 7.6 ],
+			"rotationOrigin": [ 6.5, 0.0, 7.0 ],
+			"rotationX": 10.0,
+			"rotationY": -10.0,
+			"rotationZ": 80.0,
+			"faces": {
+				"north": { "texture": "#diospyroswhyteana", "uv": [ 2.0, 2.5, 3.5, 3.0 ] },
+				"south": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 3.0, 4.0, 3.5 ] },
+				"west": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 2.5, 3.0, 3.0 ] },
+				"up": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 2.5, 4.0, 3.0 ] },
+				"down": { "texture": "#diospyroswhyteana", "uv": [ 2.5, 2.5, 4.0, 3.0 ] }
+			},
+			"children": [
+				{
+					"name": "Fruit3",
+					"from": [ 1.5, -0.6, -0.6 ],
+					"to": [ 3.5, 1.4, 1.4 ],
+					"rotationOrigin": [ 1.5, -0.6, -0.6 ],
+					"faces": {
+						"north": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"east": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"south": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"up": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+						"down": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+					},
+					"children": [
+						{
+							"name": "Fruit case9",
+							"from": [ 0.0, 0.0, -0.2 ],
+							"to": [ 2.0, 2.0, 1.8 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.8 ],
+							"rotationY": 10.0,
+							"faces": {
+								"north": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "Fruit case10",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 2.0, 2.0, 2.0 ],
+							"rotationOrigin": [ 0.0, 1.0, 1.0 ],
+							"rotationY": -10.0,
+							"faces": {
+								"south": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+							}
+						},
+						{
+							"name": "Fruit case11",
+							"from": [ 0.0, 0.0, -0.2 ],
+							"to": [ 2.0, 2.0, 1.8 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.8 ],
+							"rotationZ": 10.0,
+							"faces": {
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+								"up": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "Fruit case12",
+							"from": [ 0.0, 0.0, -0.2 ],
+							"to": [ 2.0, 2.0, 1.8 ],
+							"rotationOrigin": [ 0.0, 1.0, 0.8 ],
+							"rotationZ": -10.0,
+							"faces": {
+								"west": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ] },
+								"down": { "texture": "#diospyroswhyteana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

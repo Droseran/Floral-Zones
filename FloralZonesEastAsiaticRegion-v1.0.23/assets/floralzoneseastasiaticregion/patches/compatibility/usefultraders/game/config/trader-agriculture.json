@@ -1,0 +1,87 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:config/tradelists/trader-agriculture.json",
+		"op": "addmerge",
+		"path": "/selling/list",
+		"value": [
+			{
+				"code": "floralzoneseastasiaticregion:seeds-luffaaegyptiaca",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 2,
+					"var": 0
+				},
+				"price": {
+					"avg": 6,
+					"var": 2
+				}
+			},
+			{
+				"code": "floralzoneseastasiaticregion:seeds-petasitesjaponicus",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 2,
+					"var": 0
+				},
+				"price": {
+					"avg": 6,
+					"var": 2
+				}
+			}
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:config/tradelists/trader-agriculture.json",
+		"op": "addmerge",
+		"path": "/buying/list",
+		"value": [
+			{
+				"code": "floralzoneseastasiaticregion:fruit-lyciumbarbarum",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzoneseastasiaticregion:vegetable-luffaaegyptiaca",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzoneseastasiaticregion:vegetable-petasitesjaponicus",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			}
+		]
+	}
+]

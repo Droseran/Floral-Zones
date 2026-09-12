@@ -1,0 +1,87 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+"variantgroups": [
+        { "code": "type", "states": ["cetrariaislandica","juniperushorizontalis","sphagnumaustinii","sphagnumcapillifolium"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+		"plantContainable": {
+			"smallContainerByType": {
+			},
+			"largeContainerByType": {
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-cetrariaislandica":{"base": "block/plant/fern/{type}1",
+					alternates: [
+				{ rotateY: 90 },
+				{ rotateY: 270 },
+				{ rotateY: 180 }
+					]},
+		"*-sphagnumaustinii":{"base": "block/plant/fern/sphagnumcapillifolium1"},
+		"*":{"base": "block/plant/fern/{type}*"}
+	},
+	"randomDrawOffsetByType": {"*-cetrariaislandica":true,"*":true},
+	"texturesByType": {
+		"*-cetrariaislandica": {
+		 "leaves": { "base": "block/plant/fern/cetrariaislandica*" }},
+		"*-juniperushorizontalis": {
+		 "leaves1": { "base": "block/plant/fern/juniperushorizontalis-leaves*" },
+		 "leaves2": { "base": "block/plant/fern/juniperushorizontalis-leaves*","alternates": [ { "base": "block/plant/fern/juniperushorizontalis-leaves1"},{ "base": "block/plant/fern/juniperushorizontalis-leaves2"},{ "base": "block/plant/fern/juniperushorizontalis-leaves3"} ] },
+		 "leaves3": { "base": "block/plant/fern/juniperushorizontalis-leaves*","alternates": [ { "base": "block/plant/fern/juniperushorizontalis-leaves2"},{ "base": "block/plant/fern/juniperushorizontalis-leaves3"},{ "base": "block/plant/fern/juniperushorizontalis-leaves1"} ] },
+		 "stem1": { "base": "block/plant/fern/juniperushorizontalis-stem*" }
+		},
+		"*-sphagnumaustinii": {
+		 "leaves1": { "base": "block/plant/fern/{type}2","alternates": [ { "base": "block/plant/fern/{type}1"},{ "base": "block/plant/fern/{type}1"},{ "base": "block/plant/fern/{type}3"},{ "base": "block/plant/fern/{type}3"},{ "base": "block/plant/fern/{type}1"},{ "base": "block/plant/fern/{type}1"},{ "base": "block/plant/fern/{type}3"} ] },
+		 "leaves2": { "base": "block/plant/fern/{type}3","alternates": [ { "base": "block/plant/fern/{type}3"},{ "base": "block/plant/fern/{type}2"},{ "base": "block/plant/fern/{type}2"},{ "base": "block/plant/fern/{type}1"},{ "base": "block/plant/fern/{type}2"},{ "base": "block/plant/fern/{type}3"},{ "base": "block/plant/fern/{type}2"} ] },
+		 "leaves3": { "base": "block/plant/fern/{type}1","alternates": [ { "base": "block/plant/fern/{type}3"},{ "base": "block/plant/fern/{type}2"},{ "base": "block/plant/fern/{type}2"},{ "base": "block/plant/fern/{type}1"},{ "base": "block/plant/fern/{type}2"},{ "base": "block/plant/fern/{type}3"},{ "base": "block/plant/fern/{type}1"}] }
+		},
+		"*-sphagnumcapillifolium": {
+		 "leaves1": { "base": "block/plant/fern/{type}2","alternates": [ { "base": "block/plant/fern/{type}4"},{ "base": "block/plant/fern/{type}4"},{ "base": "block/plant/fern/{type}4"},{ "base": "block/plant/fern/{type}2"},{ "base": "block/plant/fern/{type}2"},{ "base": "block/plant/fern/{type}4"},{ "base": "block/plant/fern/{type}4"} ] },
+		 "leaves2": { "base": "block/plant/fern/{type}3","alternates": [ { "base": "block/plant/fern/{type}*"},{ "base": "block/plant/fern/{type}5"},{ "base": "block/plant/fern/{type}6"},{ "base": "block/plant/fern/{type}1"},{ "base": "block/plant/fern/{type}6"},{ "base": "block/plant/fern/{type}1"},{ "base": "block/plant/fern/{type}6"} ] },
+		 "leaves3": { "base": "block/plant/fern/{type}1","alternates": [ { "base": "block/plant/fern/{type}*"},{ "base": "block/plant/fern/{type}3"},{ "base": "block/plant/fern/{type}3"},{ "base": "block/plant/fern/{type}1"},{ "base": "block/plant/fern/{type}6"},{ "base": "block/plant/fern/{type}1"},{ "base": "block/plant/fern/{type}6"}] }
+		}
+	},
+	"randomizeRotationsByType": {"*-cetrariaislandica":false,"*":true},
+	"randomSizeAdjustByType": {"*-cetrariaislandica":0,"*":0.1},
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionboxByType": {
+		"*" :null},
+	"selectionboxByType": {
+		"*-cetrariaislandica": {"x1": 0.125, "y1": 0, "z1": 0.125,"x2": 0.875, "y2": 0.05, "z2": 0.875},
+		"*": {"x1": 0.025, "y1": 0, "z1": 0.025,"x2": 0.975, "y2": 0.2, "z2": 0.975}
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+		"inside": "game:walk/grass*"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-cycasrevoluta": { "origin": { "x": 0.5, "y": 1.2, "z": 0.5},"scale": 0.5},
+		"*": { "scale": 1.5}
+	}
+}

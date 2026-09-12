@@ -1,0 +1,77 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:entities/humanoid/usefultrader-forester.json",
+		"op": "addmerge",
+		"path": "/attributes/tradeProps/selling/list",
+		"value": [
+			{
+				"code": "floralzoneseastasiaticregion:treeseed-acerginnala",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzoneseastasiaticregion:treeseed-metasequoiaglyptostroboides",
+				"type": "item",
+				"stacksize": 1,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 8,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzoneseastasiaticregion:treeseed-quercusserrata",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzoneseastasiaticregion:bigberrybush-lyciumbarbarum-empty",
+				"type": "block",
+				"stacksize": 2,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzoneseastasiaticregion:tallplant-fargesianitida-land-harvested-free",
+				"type": "block",
+				"stacksize": 4,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 2,
+					"var": 1
+				}
+			}
+		]
+	}
+]

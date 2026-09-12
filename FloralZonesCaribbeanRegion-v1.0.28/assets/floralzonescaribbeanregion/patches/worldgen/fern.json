@@ -1,0 +1,80 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Ponytail Palm",
+          "blockCodes": [
+            "floralzonescaribbeanregion:fern-beaucarnearecurvata"
+          ],
+          "minTemp": 18,
+          "maxTemp": 24,
+		  "minForest": 0.4,
+		  "maxForest": 0.8,
+          "minRain": 0.55,
+          "maxRain": 0.65,
+          "chance": 0.3,
+          "maxY": 0.52,
+		  "minFertility":0,
+		  "maxFertility": 0.6,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 1, "var": 12 },
+          "offsetZ": { "avg": 1, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Toquila Palm",
+          "blockCodes": [
+            "floralzonescaribbeanregion:fern-carludovicapalmata"
+          ],
+          "minTemp": 24,
+          "maxTemp": 40,
+		  "minForest": 0.6,
+		  "maxForest": 1,
+          "minRain": 0.66,
+          "maxRain": 1,
+          "chance": 0.3,
+          "maxY": 0.21,
+		  "minFertility":0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 2 },
+          "offsetX": { "avg": 1, "var": 12 },
+          "offsetZ": { "avg": 1, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Cardboard Palm",
+          "blockCodes": [
+            "floralzonescaribbeanregion:fern-zamiafurfuracea"
+          ],
+          "minTemp": 16,
+          "maxTemp": 24,
+		  "minForest": 0.3,
+		  "maxForest": 0.8,
+          "minRain": 0.42,
+          "maxRain": 1,
+          "chance": 0.1,
+          "maxY": 0.7,
+		  "minFertility":0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 1, "var": 22 },
+          "offsetZ": { "avg": 1, "var": 22 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      }
+]

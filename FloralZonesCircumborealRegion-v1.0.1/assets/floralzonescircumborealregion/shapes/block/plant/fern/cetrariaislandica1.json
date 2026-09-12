@@ -1,0 +1,33 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 20,
+	"textureHeight": 20,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Overlay",
+			"from": [ -2.0, 0.0, -2.0 ],
+			"to": [ 18.0, 0.0, 18.0 ],
+			"shade": false,
+			"climateColorMap": "climateLighterPlantTint",
+			"seasonColorMap": "seasonalMoss",
+			"renderPass": 1,
+			"rotationOrigin": [ -2.0, 0.0, -2.0 ],
+			"rotationX": -0.07,
+			"rotationZ": 0.07,
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 20.0, 0.5 ], "windMode": [-1,-1,-1,-1], "enabled": false },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 20.0, 0.5 ], "enabled": false },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 20.0, 0.5 ], "enabled": false },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 20.0, 0.5 ], "enabled": false },
+				"up": { "texture": "#leaves", "uv": [ 0.0, 0.0, 20.0, 20.0 ], "windMode": [-1,-1,-1,-1] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 20.0, 20.0 ], "enabled": false }
+			}
+		}
+	]}

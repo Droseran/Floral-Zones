@@ -1,0 +1,76 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"flower": [32,32]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Leaves",
+					"from": [ -1.5, 1.0, -1.5 ],
+					"to": [ 1.5, 1.0, 1.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"rotationX": 22.5,
+					"faces": {
+						"up": { "texture": "#flower", "uv": [ 2.5, 14.0, 8.5, 20.0 ], "autoUv": false, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Leaves2",
+					"from": [ -1.5, 1.0, -1.5 ],
+					"to": [ 1.5, 1.0, 1.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"rotationX": 22.5,
+					"rotationY": -67.5,
+					"rotationZ": 22.5,
+					"faces": {
+						"up": { "texture": "#flower", "uv": [ 22.5, 11.0, 28.5, 17.0 ], "autoUv": false, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Leaves3",
+					"from": [ -1.5, 0.4, -1.5 ],
+					"to": [ 1.5, 0.4, 1.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationY": 90.0,
+					"rotationZ": -22.5,
+					"faces": {
+						"up": { "texture": "#flower", "uv": [ 3.0, 14.0, 9.0, 20.0 ], "autoUv": false, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Leaves4",
+					"from": [ -1.5, 0.4, -1.5 ],
+					"to": [ 1.5, 0.4, 1.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.4, 0.0 ],
+					"rotationY": 90.0,
+					"rotationZ": 22.5,
+					"faces": {
+						"up": { "texture": "#flower", "uv": [ 22.5, 11.0, 28.5, 17.0 ], "autoUv": false, "windMode": [0,0,0,0] }
+					}
+				}
+			]
+		}
+	]}

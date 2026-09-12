@@ -1,0 +1,49 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"reinforcable": true,
+		"stackable": true
+	},
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }],
+	"variantgroups": [
+		{ "code": "type", "states": ["rhizophoramangle"] },
+		{ "code": "state", "states": ["empty"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*": { "base": "block/plant/mangroves/{type}/foliage*","alternates": [ { "base": "block/plant/mangroves/{type}/foliage1" },{ "base": "block/plant/mangroves/{type}/foliage4" },{ "base": "block/plant/mangroves/{type}/foliage3" } ] }
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*": [	{ "type": "item", "code": "game:firewood", "quantity": { "avg": 1 }   },{ "type": "item", "code": "floralzonescosmopolitanregion:treeseed-rhizophoramangle", "quantity": { "avg": 1.1 }   }]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+}

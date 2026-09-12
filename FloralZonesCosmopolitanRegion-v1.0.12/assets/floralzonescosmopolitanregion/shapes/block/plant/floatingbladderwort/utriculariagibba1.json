@@ -1,0 +1,589 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"leaves1": [4,4]
+	},
+	"textures": {
+		"leaves1": "block/plant/floatingbladderwort/leaves1"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, -2.0, 8.0 ],
+			"to": [ 8.0, -2.0, 8.0 ],
+			"rotationOrigin": [ 8.0, -2.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Spoke a",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke b",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": -53.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke c",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 180.0,
+					"rotationY": -58.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke d",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 11.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke e",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 55.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke f",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": 66.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Stema",
+					"from": [ -1.25, 0.0, 0.0 ],
+					"to": [ 0.75, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 2.0, 0.0, 4.0, 4.0 ], "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Stemb",
+					"from": [ -1.25, 0.0, 0.0 ],
+					"to": [ 0.75, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 72.0,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 2.0, 0.0, 4.0, 4.0 ], "windMode": [0,7,7,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Origin2",
+			"from": [ 15.0, -2.0, 5.0 ],
+			"to": [ 15.0, -2.0, 5.0 ],
+			"rotationOrigin": [ 15.0, -2.0, 5.0 ],
+			"rotationY": 17.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Spoke a2",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke b2",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": -53.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke c2",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 180.0,
+					"rotationY": -58.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke d2",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 11.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke e2",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 55.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke f2",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": 66.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Stema2",
+					"from": [ -1.25, 0.0, 0.0 ],
+					"to": [ 0.75, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 2.0, 0.0, 4.0, 4.0 ], "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Stemb2",
+					"from": [ -1.25, 0.0, 0.0 ],
+					"to": [ 0.75, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 72.0,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 2.0, 0.0, 4.0, 4.0 ], "windMode": [0,7,7,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Origin3",
+			"from": [ 12.0, -2.1, 11.0 ],
+			"to": [ 12.0, -2.1, 11.0 ],
+			"rotationOrigin": [ 12.0, -2.1, 11.0 ],
+			"rotationY": 17.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Spoke a3",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke b3",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": -53.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke c3",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 180.0,
+					"rotationY": -58.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke d3",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 11.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke e3",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 55.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke f3",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": 66.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Stema3",
+					"from": [ -1.25, 0.0, 0.0 ],
+					"to": [ 0.75, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 2.0, 0.0, 4.0, 4.0 ], "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Stemb3",
+					"from": [ -1.25, 0.0, 0.0 ],
+					"to": [ 0.75, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 72.0,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 2.0, 0.0, 4.0, 4.0 ], "windMode": [0,7,7,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Origin4",
+			"from": [ 3.0, -2.1, 11.0 ],
+			"to": [ 3.0, -2.1, 11.0 ],
+			"rotationOrigin": [ 3.0, -2.1, 11.0 ],
+			"rotationY": 33.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Spoke a4",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke b4",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": -53.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke c4",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 180.0,
+					"rotationY": -58.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke d4",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 11.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke e4",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 55.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke f4",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": 66.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Stema4",
+					"from": [ -1.25, 0.0, 0.0 ],
+					"to": [ 0.75, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 2.0, 0.0, 4.0, 4.0 ], "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Stemb4",
+					"from": [ -1.25, 0.0, 0.0 ],
+					"to": [ 0.75, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 72.0,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 2.0, 0.0, 4.0, 4.0 ], "windMode": [0,7,7,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Origin5",
+			"from": [ 3.0, -2.1, -1.0 ],
+			"to": [ 3.0, -2.1, -1.0 ],
+			"rotationOrigin": [ 3.0, -2.1, -1.0 ],
+			"rotationY": 33.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Spoke a5",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke b5",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": -53.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke c5",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 180.0,
+					"rotationY": -58.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke d5",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 11.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke e5",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 55.0,
+					"rotationZ": 178.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Spoke f5",
+					"from": [ 0.0, 0.0, -0.8 ],
+					"to": [ 4.0, 0.0, 0.8 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 0.0,
+					"rotationY": 66.0,
+					"rotationZ": -2.0,
+					"faces": {
+						"up": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 1.5, 4.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Stema5",
+					"from": [ -1.25, 0.0, 0.0 ],
+					"to": [ 0.75, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 2.0, 0.0, 4.0, 4.0 ], "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Stemb5",
+					"from": [ -1.25, 0.0, 0.0 ],
+					"to": [ 0.75, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 72.0,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 2.0, 0.0, 4.0, 4.0 ], "windMode": [0,7,7,0] }
+					}
+				}
+			]
+		}
+	]}

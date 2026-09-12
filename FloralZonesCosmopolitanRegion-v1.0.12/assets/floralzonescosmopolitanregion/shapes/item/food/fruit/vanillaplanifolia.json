@@ -1,0 +1,122 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 16,
+	"textureSizes": {
+		"vanillaplanifolia": [4,16]
+	},
+	"textures": {
+		"vanillaplanifolia": "block/plant/berrybush/vanillaplanifolia"
+	},
+	"elements": [
+		{
+			"name": "Bean base 3",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.4, 0.4, 10.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.0, 0.0, 10.0 ],
+			"rotationX": 67.5,
+			"rotationY": 10.0,
+			"faces": {
+				"north": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 9.0, 3.5, 9.5 ] },
+				"east": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 8.0, 3.5, 10.0 ], "rotation": 90 },
+				"south": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 9.0, 3.5, 9.5 ] },
+				"west": { "texture": "#vanillaplanifolia", "uv": [ 2.5, 8.0, 3.0, 10.0 ], "rotation": 90 },
+				"up": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 8.5, 3.5, 10.5 ] },
+				"down": { "texture": "#vanillaplanifolia", "uv": [ 3.5, 8.5, 4.0, 10.5 ] }
+			},
+			"children": [
+				{
+					"name": "Beanstema3",
+					"from": [ -0.2, -4.4, -0.2 ],
+					"to": [ 0.3, 0.1, 0.3 ],
+					"shade": false,
+					"rotationOrigin": [ 0.0, 0.1, 0.0 ],
+					"faces": {
+						"north": { "texture": "#vanillaplanifolia", "uv": [ 3.5, 7.0, 4.0, 11.5 ] },
+						"east": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 7.0, 3.5, 11.5 ] },
+						"south": { "texture": "#vanillaplanifolia", "uv": [ 2.5, 7.0, 3.0, 11.5 ] },
+						"west": { "texture": "#vanillaplanifolia", "uv": [ 3.5, 7.0, 4.0, 11.5 ] },
+						"up": { "texture": "#vanillaplanifolia", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 10.5, 3.5, 11.0 ] }
+					}
+				},
+				{
+					"name": "Beanstemb3",
+					"from": [ 0.1, -4.4, -0.4 ],
+					"to": [ 0.6, 0.1, 0.1 ],
+					"shade": false,
+					"rotationOrigin": [ 0.3, 0.1, -0.2 ],
+					"rotationX": 10.0,
+					"rotationY": 10.0,
+					"rotationZ": 10.0,
+					"faces": {
+						"north": { "texture": "#vanillaplanifolia", "uv": [ 2.5, 7.0, 3.0, 11.5 ] },
+						"east": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 7.0, 3.5, 11.5 ] },
+						"south": { "texture": "#vanillaplanifolia", "uv": [ 2.5, 7.0, 3.0, 11.5 ] },
+						"west": { "texture": "#vanillaplanifolia", "uv": [ 3.5, 7.0, 4.0, 11.5 ] },
+						"up": { "texture": "#vanillaplanifolia", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 10.5, 3.5, 11.0 ] }
+					}
+				},
+				{
+					"name": "Beanstemc3",
+					"from": [ -0.5, -4.5, -0.4 ],
+					"to": [ 0.0, 0.0, 0.1 ],
+					"shade": false,
+					"rotationOrigin": [ -0.3, 0.0, -0.2 ],
+					"rotationX": 10.0,
+					"rotationY": 10.0,
+					"rotationZ": -10.0,
+					"faces": {
+						"north": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 7.0, 3.5, 11.5 ] },
+						"east": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 7.0, 3.5, 11.5 ] },
+						"south": { "texture": "#vanillaplanifolia", "uv": [ 2.5, 7.0, 3.0, 11.5 ] },
+						"west": { "texture": "#vanillaplanifolia", "uv": [ 3.5, 7.0, 4.0, 11.5 ] },
+						"up": { "texture": "#vanillaplanifolia", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 10.5, 3.5, 11.0 ] }
+					}
+				},
+				{
+					"name": "Beanstemd3",
+					"from": [ -0.5, -4.4, 0.1 ],
+					"to": [ 0.0, 0.1, 0.6 ],
+					"shade": false,
+					"rotationOrigin": [ -0.3, 0.1, 0.3 ],
+					"rotationX": -5.0,
+					"rotationY": 10.0,
+					"rotationZ": -5.0,
+					"faces": {
+						"north": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 7.0, 3.5, 11.5 ] },
+						"east": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 7.0, 3.5, 11.5 ] },
+						"south": { "texture": "#vanillaplanifolia", "uv": [ 2.5, 7.0, 3.0, 11.5 ] },
+						"west": { "texture": "#vanillaplanifolia", "uv": [ 3.5, 7.0, 4.0, 11.5 ] },
+						"up": { "texture": "#vanillaplanifolia", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 10.5, 3.5, 11.0 ] }
+					}
+				},
+				{
+					"name": "Beansteme3",
+					"from": [ 0.3, -4.4, 0.1 ],
+					"to": [ 0.8, 0.1, 0.6 ],
+					"shade": false,
+					"rotationOrigin": [ 0.5, 0.1, 0.3 ],
+					"rotationX": -5.0,
+					"rotationY": 10.0,
+					"rotationZ": 5.0,
+					"faces": {
+						"north": { "texture": "#vanillaplanifolia", "uv": [ 3.5, 7.0, 4.0, 11.5 ] },
+						"east": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 7.0, 3.5, 11.5 ] },
+						"south": { "texture": "#vanillaplanifolia", "uv": [ 2.5, 7.0, 3.0, 11.5 ] },
+						"west": { "texture": "#vanillaplanifolia", "uv": [ 3.5, 7.0, 4.0, 11.5 ] },
+						"up": { "texture": "#vanillaplanifolia", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"down": { "texture": "#vanillaplanifolia", "uv": [ 3.0, 10.5, 3.5, 11.0 ] }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,45 @@
+[
+	{
+		ingredientPattern: "_A_	G_G	G_G",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzoneseastasiaticregion:lognarrow-placed-*-ud", name: "wood", allowedVariants: ["abieskoreana"]}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzoneseastasiaticregion:logquad-placed-{wood}-ud", quantity: 1  }
+	},
+	{
+		ingredientPattern: "_A_	G_G	G_G",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzoneseastasiaticregion:bamboo-placed-*-segment1", name: "wood", allowedVariants: ["phyllostachysedulis"]}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "floralzoneseastasiaticregion:logquad-placed-{wood}-ud", quantity: 1  }
+	},
+	{
+		ingredientPattern: "__G	_AG	G_G",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzoneseastasiaticregion:lognarrow-placed-*-ud", name: "wood", allowedVariants: ["abieskoreana"]}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzoneseastasiaticregion:logquad-barkedcorner-{wood}-north", quantity: 1  }
+	},
+	{
+		ingredientPattern: "__G	_AG	G_G",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true  },
+			"G": { type: "block", code: "floralzoneseastasiaticregion:bamboo-placed-*-segment1", name: "wood", allowedVariants: ["phyllostachysedulis"]}
+		},
+		width: 3,
+		height: 3,
+		recipeGroup: 1,
+		output: { type: "block", code: "floralzoneseastasiaticregion:logquad-barkedcorner-{wood}-north", quantity: 1  }
+	}
+
+]

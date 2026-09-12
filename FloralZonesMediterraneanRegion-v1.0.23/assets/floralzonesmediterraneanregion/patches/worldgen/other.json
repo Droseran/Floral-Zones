@@ -1,0 +1,54 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small varied patches of Giant Fennel",
+          "blockCodes": [
+            "floralzonesmediterraneanregion:tallplant-ferulacommunis-land-normal-free"
+          ],
+          "minTemp": 10,
+          "maxTemp": 16,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "minRain": 0.28,
+          "maxRain": 0.69,
+          "chance": 0.2,
+		  "minY": 0,
+          "maxY": 0.62,
+		  "minFertility":0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 3 },
+          "offsetX": { "avg": 2, "var": 8 },
+          "offsetZ": { "avg": 2, "var": 8 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Spanish Broom",
+          "blockCodes": [
+            "floralzonesmediterraneanregion:tallplant-spartiumjunceum-land-normal-free"
+          ],
+          "minTemp": 8,
+          "maxTemp": 16,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.27,
+          "maxRain": 0.89,
+          "chance": 0.3,
+		  "minY": 0,
+          "maxY": 0.28,
+		  "minFertility":0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 3 },
+          "offsetX": { "avg": 2, "var": 7 },
+          "offsetZ": { "avg": 2, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+		},
+]

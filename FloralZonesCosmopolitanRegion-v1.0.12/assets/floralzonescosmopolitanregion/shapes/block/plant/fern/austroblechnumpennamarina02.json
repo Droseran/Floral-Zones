@@ -1,0 +1,174 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 8,
+	"textureSizes": {
+		"fern0": [16,8],
+		"fern1": [16,8],
+		"fern2": [16,8],
+		"fern3": [16,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Center frond",
+					"from": [ -1.5, 0.0, 0.0 ],
+					"to": [ 1.5, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#fern3", "uv": [ 0.0, 0.0, 3.0, 8.0 ], "windMode": [0,9,9,0] }
+					}
+				},
+				{
+					"name": "Lower frond a",
+					"from": [ -1.5, 0.0, 0.0 ],
+					"to": [ 1.5, 0.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -20.0,
+					"faces": {
+						"up": { "texture": "#fern0", "uv": [ 0.0, 0.0, 3.0, 8.0 ], "rotation": 180, "windMode": [0,0,0,0] }
+					}
+				},
+				{
+					"name": "Lower frond b",
+					"from": [ -1.5, 0.0, 0.0 ],
+					"to": [ 1.5, 0.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -32.1965,
+					"rotationY": -40.2388,
+					"rotationZ": -22.1334,
+					"faces": {
+						"up": { "texture": "#fern0", "uv": [ 6.5, 0.0, 9.5, 8.0 ], "rotation": 180, "windMode": [0,9,9,0] }
+					}
+				},
+				{
+					"name": "Lower frond c",
+					"from": [ -1.5, 0.0, 0.0 ],
+					"to": [ 1.5, 0.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -130.6797,
+					"rotationY": -57.5656,
+					"rotationZ": -135.5218,
+					"faces": {
+						"up": { "texture": "#fern0", "uv": [ 9.0, 0.0, 12.0, 8.0 ], "rotation": 180, "windMode": [0,9,9,0] }
+					}
+				},
+				{
+					"name": "Lower frond d",
+					"from": [ -2.0, 0.0, 0.0 ],
+					"to": [ 1.0, 0.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -155.6028,
+					"rotationY": 10.0387,
+					"rotationZ": 175.4795,
+					"faces": {
+						"up": { "texture": "#fern0", "uv": [ 12.0, 0.0, 15.0, 8.0 ], "rotation": 180, "windMode": [0,9,9,0] }
+					}
+				},
+				{
+					"name": "Lower frond e",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 2.0, 0.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -37.8198,
+					"rotationY": 48.4461,
+					"rotationZ": 30.1514,
+					"faces": {
+						"up": { "texture": "#fern0", "uv": [ 3.0, 0.0, 6.0, 8.0 ], "rotation": 180, "windMode": [0,9,9,0] }
+					}
+				},
+				{
+					"name": "Upper frond a",
+					"from": [ -1.5, 0.0, 0.0 ],
+					"to": [ 1.5, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 27.2363,
+					"rotationY": -41.6411,
+					"rotationZ": 18.8817,
+					"faces": {
+						"south": { "texture": "#fern1", "uv": [ 0.0, 0.0, 3.0, 8.0 ], "windMode": [0,0,9,9] }
+					}
+				},
+				{
+					"name": "Upper frond b",
+					"from": [ -1.5, 0.0, 0.0 ],
+					"to": [ 1.5, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 138.6535,
+					"rotationY": -50.2277,
+					"rotationZ": 145.9283,
+					"faces": {
+						"south": { "texture": "#fern1", "uv": [ 3.0, 0.0, 6.0, 8.0 ], "windMode": [0,0,9,9] }
+					}
+				},
+				{
+					"name": "Upper frond c",
+					"from": [ -2.0, 0.0, 0.0 ],
+					"to": [ 1.0, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 49.9793,
+					"rotationY": 49.2393,
+					"rotationZ": -42.0512,
+					"faces": {
+						"south": { "texture": "#fern1", "uv": [ 6.5, 0.0, 9.5, 8.0 ], "windMode": [0,0,9,9] }
+					}
+				},
+				{
+					"name": "Upper frond d",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 2.0, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 130.0207,
+					"rotationY": 49.2393,
+					"rotationZ": -137.9488,
+					"faces": {
+						"south": { "texture": "#fern1", "uv": [ 9.0, 0.0, 12.0, 8.0 ], "windMode": [0,0,9,9] }
+					}
+				},
+				{
+					"name": "Upper frond e",
+					"from": [ -1.0, 0.0, 0.0 ],
+					"to": [ 2.0, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 150.0,
+					"rotationZ": 180.0,
+					"faces": {
+						"south": { "texture": "#fern1", "uv": [ 12.0, 0.0, 15.0, 8.0 ], "windMode": [0,0,9,9] }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,78 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+	"variantgroups": [
+		{ "code": "type", "states": ["violatricolor"] },
+		{ "code": "color", "states": ["black","blue","indigo","indigoandyellow","lavender","purple","purpleandblack","purpleandindigo","purpleandyellow","purpleandwhite","redandblack","redandyellow","white","whiteandpurple","yellow"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"reinforcable": true,
+		"plantContainable": {
+			"smallContainerByType": {	
+				"*": {"shape": {"base": "block/plant/flower/violatricolor4"},"textures": {"leaves": { "base": "block/plant/flower/stem/violatricolor1" },"flower1": { "base": "block/plant/flower/petal/violatricolor/{color}1" },"flower2": { "base": "block/plant/flower/petal/violatricolor/{color}2" }}}						
+			},
+			"largeContainerByType": {
+				"*": {"shape": {"base": "block/plant/flower/violatricolor3"},"textures": {"leaves": { "base": "block/plant/flower/stem/violatricolor1" },"flower1": { "base": "block/plant/flower/petal/violatricolor/{color}1" },"flower2": { "base": "block/plant/flower/petal/violatricolor/{color}2" }}}							
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"*":{"base": "block/plant/flower/{type}1","alternates": [ { "base": "block/plant/flower/{type}2"},{ "base": "block/plant/flower/{type}3"} ]}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"*": {
+		 "leaves1": { "base": "block/plant/flower/stem/{type}1" },"flower1": { "base": "block/plant/flower/petal/{type}/{color}1" },"flower2": { "base": "block/plant/flower/petal/{type}/{color}2" }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.025, "y1": 0, "z1": 0.025,
+		"x2": 0.975, "y2": 0.25, "z2": 0.975
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*": { "scale": 1.5}
+	}
+}

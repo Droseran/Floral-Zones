@@ -1,0 +1,74 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"ipomoeacostata": [4,4]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Body 1",
+			"from": [ 7.0, 0.0, 6.0 ],
+			"to": [ 9.0, 2.0, 10.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 6.0 ],
+			"faces": {
+				"north": { "texture": "#ipomoeacostata", "uv": [ 0.5, 1.0, 2.5, 3.0 ] },
+				"east": { "texture": "#ipomoeacostata", "uv": [ 0.0, 0.0, 4.0, 2.0 ] },
+				"south": { "texture": "#ipomoeacostata", "uv": [ 0.5, 0.5, 2.5, 2.5 ] },
+				"west": { "texture": "#ipomoeacostata", "uv": [ 0.0, 0.5, 4.0, 2.5 ] },
+				"up": { "texture": "#ipomoeacostata", "uv": [ 0.0, 0.0, 2.0, 4.0 ] },
+				"down": { "texture": "#ipomoeacostata", "uv": [ 0.5, 0.0, 2.5, 4.0 ] }
+			},
+			"children": [
+				{
+					"name": "Stem",
+					"from": [ 0.5, 0.5, -2.0 ],
+					"to": [ 1.5, 1.5, 0.0 ],
+					"rotationOrigin": [ 0.5, 0.5, -2.0 ],
+					"faces": {
+						"north": { "texture": "#ipomoeacostata", "uv": [ 2.0, 0.0, 3.0, 1.0 ] },
+						"east": { "texture": "#ipomoeacostata", "uv": [ 0.5, 2.5, 2.5, 3.5 ] },
+						"west": { "texture": "#ipomoeacostata", "uv": [ 1.5, 1.0, 3.5, 2.0 ] },
+						"up": { "texture": "#ipomoeacostata", "uv": [ 0.5, 0.5, 1.5, 2.5 ] },
+						"down": { "texture": "#ipomoeacostata", "uv": [ 2.5, 0.0, 3.5, 2.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Body 2",
+			"from": [ 9.0, 0.0, 6.0 ],
+			"to": [ 11.0, 2.0, 9.0 ],
+			"rotationOrigin": [ 9.0, 0.0, 6.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#ipomoeacostata", "uv": [ 1.5, 1.0, 3.5, 3.0 ] },
+				"east": { "texture": "#ipomoeacostata", "uv": [ 0.5, 0.0, 3.5, 2.0 ] },
+				"south": { "texture": "#ipomoeacostata", "uv": [ 1.5, 1.0, 3.5, 3.0 ] },
+				"west": { "texture": "#ipomoeacostata", "uv": [ 0.5, 1.0, 3.5, 3.0 ] },
+				"up": { "texture": "#ipomoeacostata", "uv": [ 0.5, 0.0, 2.5, 3.0 ] },
+				"down": { "texture": "#ipomoeacostata", "uv": [ 1.5, 0.0, 3.5, 3.0 ] }
+			},
+			"children": [
+				{
+					"name": "Stem2",
+					"from": [ 0.5, 0.5, -2.0 ],
+					"to": [ 1.5, 1.5, 0.0 ],
+					"rotationOrigin": [ 1.0, 1.0, -2.0 ],
+					"rotationZ": 20.0,
+					"faces": {
+						"north": { "texture": "#ipomoeacostata", "uv": [ 0.5, 2.5, 1.5, 3.5 ] },
+						"east": { "texture": "#ipomoeacostata", "uv": [ 0.5, 0.0, 2.5, 1.0 ] },
+						"west": { "texture": "#ipomoeacostata", "uv": [ 1.0, 2.0, 3.0, 3.0 ] },
+						"up": { "texture": "#ipomoeacostata", "uv": [ 1.5, 0.0, 2.5, 2.0 ] },
+						"down": { "texture": "#ipomoeacostata", "uv": [ 1.5, 1.0, 2.5, 3.0 ] }
+					}
+				}
+			]
+		}
+	]}

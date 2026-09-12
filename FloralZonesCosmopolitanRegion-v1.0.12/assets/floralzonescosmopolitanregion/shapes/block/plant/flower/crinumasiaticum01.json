@@ -1,0 +1,109 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 24,
+	"textureSizes": {
+		"leaves1": [32,24],
+		"leaves2": [32,24]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "N Face",
+					"from": [ -16.0, 0.0, 0.0 ],
+					"to": [ 16.0, 24.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 32.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "E Face",
+					"from": [ 0.0, 0.0, -16.0 ],
+					"to": [ 0.0, 24.0, 16.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 32.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "NE Face",
+					"from": [ 0.0, 0.0, -16.0 ],
+					"to": [ 0.0, 24.0, 16.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -45.0,
+					"faces": {
+						"east": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 32.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "NW Face",
+					"from": [ 0.0, 0.0, -16.0 ],
+					"to": [ 0.0, 24.0, 16.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 45.0,
+					"faces": {
+						"west": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 32.0, 24.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "Angled face",
+					"from": [ -16.0, 0.0, 1.0 ],
+					"to": [ 16.0, 24.0, 1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 1.0 ],
+					"rotationX": 10.0,
+					"faces": {
+						"north": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 32.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Angled face2",
+					"from": [ -15.134, 0.0, -0.5 ],
+					"to": [ 16.866, 24.0, -0.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.866, 0.0, -0.5 ],
+					"rotationX": 160.5746,
+					"rotationY": 58.525,
+					"rotationZ": -163.2604,
+					"faces": {
+						"south": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 32.0, 24.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "Angled face3",
+					"from": [ -16.866, 0.0, -0.5 ],
+					"to": [ 15.134, 24.0, -0.5 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -0.866, 0.0, -0.5 ],
+					"rotationX": 160.5746,
+					"rotationY": -58.525,
+					"rotationZ": 163.2604,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 32.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		}
+	]}

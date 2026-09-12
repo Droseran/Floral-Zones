@@ -1,0 +1,107 @@
+{
+	"code": "smallberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperature": 9,
+		"resetBelowTemperature": 11,
+		"stopBelowTemperature": 13,
+		
+		"revertBlockAboveTemperature": 53,
+		"resetAboveTemperature": 49,
+		"stopAboveTemperature": 45,
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-empty": { "avg": 4.25, "var": 0.09 },
+		"*-flowering": { "avg": 3.49, "var": 0.09 },
+		"*-ripe": { "avg": 0.48, "var": 0.09 }}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 0.6, 
+			"harvestedStack": { "type": "item", "code": "floralzonescosmopolitanregion:fruit-{type}", "quantity": { "avg": 1.2 }  },
+			"harvestedBlockCode": "floralzonescosmopolitanregion:fruitingbush-wild-{type}-free"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["cucurbitaficifolia"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"randomDrawOffset": true,
+	"shapeByType": {
+		"*-empty": { "base": "block/plant/berrybush/cucurbitaficifolia*",
+			"selectiveElements": [ "Leaves/*" ]},
+		"*": { "base": "block/plant/berrybush/cucurbitaficifolia*"}
+	},
+	"randomizeRotations": true,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+			"*-empty": {
+				"leavescenter1": {
+					base: "floralzonescosmopolitanregion:block/plant/berrybush/{type}/leaves/leavescenter1"
+				},
+				"leavescenter2": {
+					base: "floralzonescosmopolitanregion:block/plant/berrybush/{type}/leaves/leavescenter2"
+				}
+			},
+			"*": {
+				"leavescenter1": {
+					base: "floralzonescosmopolitanregion:block/plant/berrybush/{type}/leaves/leavescenter1"
+				},
+				"leavescenter2": {
+					base: "floralzonescosmopolitanregion:block/plant/berrybush/{type}/leaves/leavescenter2"
+				},
+				"flowerberrycenter1": {
+					base: "floralzonescosmopolitanregion:block/plant/berrybush/{type}/berries/healthy/{state}center1"
+				}
+			}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-ripe": [
+			{ "type": "item", "code": "floralzonescosmopolitanregion:fruit-{type}", "quantity": { "avg": 1.2 }  },
+			{ "type": "block", "code": "floralzonescosmopolitanregion:fruitingbushcutting-{type}-free", "quantity": { "avg": 2 }  },
+		],
+		"*": [			{ "type": "block", "code": "floralzonescosmopolitanregion:fruitingbushcutting-{type}-free", "quantity": { "avg": 2 }  },]
+	},
+	"materialDensity": 200,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	}
+}

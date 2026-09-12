@@ -1,0 +1,38 @@
+[
+   {
+    "file": "floralzonescentralaustralianregion:blocktypes/plant/kangaroograss",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-normal-*": [
+        {
+          "name": "XSkillsMushroom",
+          "properties": {
+            "xp": 0.1
+          }
+        }
+    ]
+  }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonescentralaustralianregion:blocktypes/plant/porcgrass",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-normal-*": [
+        {
+          "name": "XSkillsMushroom",
+          "properties": {
+            "xp": 0.1
+          }
+        }
+    ]
+  }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

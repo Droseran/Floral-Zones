@@ -1,0 +1,1399 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 12,
+	"textureSizes": {
+		"trachycarpusfortunei": [24,12]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Frond Root 1",
+					"from": [ 0.0, 4.0, 0.0 ],
+					"to": [ 0.0, 4.0, 0.0 ],
+					"shade": false,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk1",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk1",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 5.0,
+									"rotationZ": -5.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3]},
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets1",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets1",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 2",
+					"from": [ -1.0, 3.8, 1.0 ],
+					"to": [ -1.0, 3.8, 1.0 ],
+					"shade": false,
+					"rotationOrigin": [ -1.0, 3.8, 1.0 ],
+					"rotationY": -172.0,
+					"rotationZ": -15.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk2",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk2",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 15.0,
+									"rotationZ": -15.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets2",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets2",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 3",
+					"from": [ 0.0, 4.0, -2.0 ],
+					"to": [ 0.0, 4.0, -2.0 ],
+					"shade": false,
+					"rotationOrigin": [ 0.0, 4.0, -2.0 ],
+					"rotationY": 45.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk3",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 5.0,
+							"rotationY": 45.0,
+							"rotationZ": -5.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk3",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 5.0,
+									"rotationY": -35.0,
+									"rotationZ": -5.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets3",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets3",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 4",
+					"from": [ 2.0, 4.0, 2.0 ],
+					"to": [ 2.0, 4.0, 2.0 ],
+					"shade": false,
+					"rotationOrigin": [ 2.0, 4.0, 2.0 ],
+					"rotationX": 15.0,
+					"rotationY": -25.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk4",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"rotationZ": -15.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk4",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 5.0,
+									"rotationZ": -5.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets4",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets4",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 5",
+					"from": [ -2.0, 4.0, -1.0 ],
+					"to": [ -2.0, 4.0, -1.0 ],
+					"shade": false,
+					"rotationOrigin": [ -2.0, 4.0, -1.0 ],
+					"rotationY": 120.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk5",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk5",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 2.0,
+									"rotationZ": -2.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets5",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets5",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 6",
+					"from": [ -2.0, 4.0, 2.0 ],
+					"to": [ -2.0, 4.0, 2.0 ],
+					"shade": false,
+					"rotationOrigin": [ -2.0, 4.0, 2.0 ],
+					"rotationY": -120.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk6",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk6",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 15.0,
+									"rotationZ": -15.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets6",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets6",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 7",
+					"from": [ 2.0, 4.0, -1.0 ],
+					"to": [ 2.0, 4.0, -1.0 ],
+					"shade": false,
+					"rotationOrigin": [ 2.0, 4.0, -1.0 ],
+					"rotationX": -15.0,
+					"rotationZ": -25.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk7",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk7",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 5.0,
+									"rotationZ": -5.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets7",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 65.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets7",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 8",
+					"from": [ -1.0, 4.0, -2.0 ],
+					"to": [ -1.0, 4.0, -2.0 ],
+					"shade": false,
+					"rotationOrigin": [ -1.0, 4.0, -2.0 ],
+					"rotationY": 150.0,
+					"rotationZ": -15.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk8",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk8",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 5.0,
+									"rotationZ": -5.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets8",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets8",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 9",
+					"from": [ 2.0, 4.0, 0.0 ],
+					"to": [ 2.0, 4.0, 0.0 ],
+					"shade": false,
+					"rotationOrigin": [ 2.0, 4.0, 0.0 ],
+					"rotationZ": -45.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk9",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk9",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 5.0,
+									"rotationZ": -5.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets9",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets9",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 10",
+					"from": [ 0.0, 4.0, -2.0 ],
+					"to": [ 0.0, 4.0, -2.0 ],
+					"shade": false,
+					"rotationOrigin": [ 0.0, 4.0, -2.0 ],
+					"rotationY": 90.0,
+					"rotationZ": -49.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk10",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk10",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 5.0,
+									"rotationZ": -5.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets10",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets10",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 11",
+					"from": [ -2.0, 4.0, -1.0 ],
+					"to": [ -2.0, 4.0, -1.0 ],
+					"shade": false,
+					"rotationOrigin": [ -2.0, 4.0, -1.0 ],
+					"rotationY": 175.0,
+					"rotationZ": -49.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk11",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk11",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 25.0,
+									"rotationZ": -25.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets11",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets11",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 12",
+					"from": [ 0.0, 4.0, 2.0 ],
+					"to": [ 0.0, 4.0, 2.0 ],
+					"shade": false,
+					"rotationOrigin": [ 0.0, 4.0, 2.0 ],
+					"rotationY": -80.0,
+					"rotationZ": -49.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk12",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk12",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 5.0,
+									"rotationZ": -5.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets12",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets12",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 13",
+					"from": [ 2.0, 2.0, -2.0 ],
+					"to": [ 2.0, 2.0, -2.0 ],
+					"shade": false,
+					"rotationOrigin": [ 2.0, 2.0, -2.0 ],
+					"rotationY": 50.0,
+					"rotationZ": -50.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk13",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 15.0,
+							"rotationY": 45.0,
+							"rotationZ": -15.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk13",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 25.0,
+									"rotationZ": -25.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets13",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets13",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 14",
+					"from": [ -2.0, 1.0, 0.0 ],
+					"to": [ -2.0, 1.0, 0.0 ],
+					"shade": false,
+					"rotationOrigin": [ -2.0, 1.0, 0.0 ],
+					"rotationY": 120.0,
+					"rotationZ": -70.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk14",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 2.0,
+							"rotationY": 45.0,
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk14",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 1.0,
+									"rotationZ": -1.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets14",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets14",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 15",
+					"from": [ 0.0, 2.0, 2.0 ],
+					"to": [ 0.0, 2.0, 2.0 ],
+					"shade": false,
+					"rotationOrigin": [ 0.0, 2.0, 2.0 ],
+					"rotationY": -50.0,
+					"rotationZ": -70.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk15",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 2.0,
+							"rotationY": 45.0,
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk15",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 1.0,
+									"rotationZ": -1.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets15",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets15",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 16",
+					"from": [ -2.0, 0.0, 2.0 ],
+					"to": [ -2.0, 0.0, 2.0 ],
+					"shade": false,
+					"rotationOrigin": [ -2.0, 0.0, 2.0 ],
+					"rotationY": -140.0,
+					"rotationZ": -70.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk16",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 32.0,
+							"rotationY": 45.0,
+							"rotationZ": -32.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk16",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 31.0,
+									"rotationZ": -31.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets16",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets16",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 17",
+					"from": [ 2.0, 2.0, 1.0 ],
+					"to": [ 2.0, 2.0, 1.0 ],
+					"shade": false,
+					"rotationOrigin": [ 2.0, 2.0, 1.0 ],
+					"rotationY": 10.0,
+					"rotationZ": -70.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk17",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 2.0,
+							"rotationY": 45.0,
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk17",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 1.0,
+									"rotationY": 15.0,
+									"rotationZ": -1.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets17",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets17",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 18",
+					"from": [ -2.0, 4.0, -1.0 ],
+					"to": [ -2.0, 4.0, -1.0 ],
+					"shade": false,
+					"rotationOrigin": [ -2.0, 4.0, -1.0 ],
+					"rotationY": 150.0,
+					"rotationZ": -50.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk18",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 2.0,
+							"rotationY": 45.0,
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk18",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 1.0,
+									"rotationZ": -1.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets18",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets18",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 19",
+					"from": [ -2.0, 4.0, 2.0 ],
+					"to": [ -2.0, 4.0, 2.0 ],
+					"shade": false,
+					"rotationOrigin": [ -2.0, 4.0, 2.0 ],
+					"rotationY": -150.0,
+					"rotationZ": -60.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk19",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 2.0,
+							"rotationY": 45.0,
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk19",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 1.0,
+									"rotationZ": -1.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets19",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets19",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond Root 20",
+					"from": [ -2.0, 1.0, 2.0 ],
+					"to": [ -2.0, 1.0, 2.0 ],
+					"shade": false,
+					"rotationOrigin": [ -2.0, 1.0, 2.0 ],
+					"rotationY": -110.0,
+					"rotationZ": -80.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frondlstalk20",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 0.3, 8.0, 0.3 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 2.0,
+							"rotationY": 45.0,
+							"rotationZ": -2.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.5, 12.0, 9.5 ], "windMode": [0,3,3,0] },
+								"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [0,0,3,3] }
+							},
+							"children": [
+								{
+									"name": "Frondustalk20",
+									"from": [ 0.0, 8.0, 0.0 ],
+									"to": [ 0.3, 16.0, 0.3 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+									"rotationX": 1.0,
+									"rotationZ": -1.0,
+									"faces": {
+										"north": { "texture": "#trachycarpusfortunei", "uv": [ 11.5, 1.0, 12.0, 9.0 ], "windMode": [3,3,3,3] },
+										"west": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 1.5, 12.5, 9.5 ], "windMode": [3,3,3,3] }
+									},
+									"children": [
+										{
+											"name": "lleaftlets20",
+											"from": [ 0.0, 8.0, 0.0 ],
+											"to": [ 12.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 12.0, 0.0, 24.0, 12.0 ], "rotation": 270, "windMode": [3,3,3,3] }
+											}
+										},
+										{
+											"name": "rleaftlets20",
+											"from": [ -12.0, 8.0, 0.0 ],
+											"to": [ 0.0, 20.0, 0.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 8.0, 0.0 ],
+											"rotationY": 45.0,
+											"faces": {
+												"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "rotation": 90, "windMode": [3,3,3,3] }
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

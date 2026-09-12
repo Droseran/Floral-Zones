@@ -1,0 +1,263 @@
+[
+	{
+		"ingredientPattern": "SLH,ALC",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "skipVariants": ["larixlaricina", "pinussibirica", "quercuspetraea"], "quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-bear", "quantity": 1, "attributes": { "material": "{material}" } }
+	},
+	{
+		"ingredientPattern": "SLH,ALC",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["larixlaricina"], "quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-bear", "quantity": 1, "attributes": { "material": "larch" } }
+	},
+	{
+		"ingredientPattern": "SLH,ALC",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["pinussibirica"], "quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-bear", "quantity": 1, "attributes": { "material": "pine" } }
+	},
+	{
+		"ingredientPattern": "SLH,ALC",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["quercuspetraea"], "quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-bear", "quantity": 1, "attributes": { "material": "oak" } }
+	},
+	{
+		"ingredientPattern": "ALH,SLC",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "skipVariants": ["larixlaricina", "pinussibirica", "quercuspetraea"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-gear", "quantity": 1, "attributes": { "material": "{material}" } }
+	},
+	{
+		"ingredientPattern": "ALH,SLC",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["larixlaricina"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-gear", "quantity": 1, "attributes": { "material": "larch" } }
+	},
+	{
+		"ingredientPattern": "ALH,SLC",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["pinussibirica"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-gear", "quantity": 1, "attributes": { "material": "pine" } }
+	},
+	{
+		"ingredientPattern": "ALH,SLC",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["quercuspetraea"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-gear", "quantity": 1, "attributes": { "material": "oak" } }
+	},
+	{
+		"ingredientPattern": "HLA,CLS",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "skipVariants": ["larixlaricina", "pinussibirica", "quercuspetraea"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-siren", "quantity": 1, "attributes": { "material": "{material}" } }
+	},
+	{
+		"ingredientPattern": "HLA,CLS",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["larixlaricina"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-siren", "quantity": 1, "attributes": { "material": "larch" } }
+	},
+	{
+		"ingredientPattern": "HLA,CLS",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["pinussibirica"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-siren", "quantity": 1, "attributes": { "material": "pine" } }
+	},
+	{
+		"ingredientPattern": "HLA,CLS",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["quercuspetraea"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-siren", "quantity": 1, "attributes": { "material": "oak" } }
+	},
+	{
+		"ingredientPattern": "ALH,CLS",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "skipVariants": ["larixlaricina", "pinussibirica", "quercuspetraea"],"quantity": 3 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-skull", "quantity": 1, "attributes": { "material": "{material}" } }
+	},
+	{
+		"ingredientPattern": "ALH,CLS",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["larixlaricina"],"quantity": 3 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-skull", "quantity": 1, "attributes": { "material": "larch" } }
+	},
+	{
+		"ingredientPattern": "ALH,CLS",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["pinussibirica"],"quantity": 3 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-skull", "quantity": 1, "attributes": { "material": "pine" } }
+	},
+	{
+		"ingredientPattern": "ALH,CLS",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["quercuspetraea"],"quantity": 3 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-skull", "quantity": 1, "attributes": { "material": "oak" } }
+	},
+	{
+		"ingredientPattern": "HLS,CLA",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "skipVariants": ["larixlaricina", "pinussibirica", "quercuspetraea"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-wolf", "quantity": 1, "attributes": { "material": "{material}" } }
+	},
+	{
+		"ingredientPattern": "HLS,CLA",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["larixlaricina"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-wolf", "quantity": 1, "attributes": { "material": "larch" } }
+	},
+	{
+		"ingredientPattern": "HLS,CLA",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["pinussibirica"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-wolf", "quantity": 1, "attributes": { "material": "pine" } }
+	},
+	{
+		"ingredientPattern": "HLS,CLA",
+		"ingredients": {
+			"A": { "type": "item", "tags": ["tool-axe"], "isTool": true, "toolDurabilityCost": 1  },
+			"S": { "type": "item", "tags": ["tool-saw"], "isTool": true, "toolDurabilityCost": 1  },
+			"H": { "type": "item", "tags": ["tool-hammer"], "isTool": true, "toolDurabilityCost": 1  },
+			"C": { "type": "item", "tags": ["tool-chisel"], "isTool": true, "toolDurabilityCost": 1  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "material", "allowedVariants": ["quercuspetraea"],"quantity": 2 }
+		},
+		"width": 3,
+		"height": 2,
+		"output": { "type": "block", "code": "game:figurehead-wolf", "quantity": 1, "attributes": { "material": "oak" } }
+	}
+
+]

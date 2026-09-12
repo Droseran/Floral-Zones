@@ -1,0 +1,32 @@
+[
+	{
+		"ingredientPattern": "A	L",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescaperegion:log-*" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "game:firewood", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "A	L",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescaperegion:logsection-*" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "game:firewood", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "A	L",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescaperegion:lognarrow-*" }
+		},
+		"width": 1,
+		"height": 2,
+		"output": { "type": "item", "code": "game:firewood", "quantity": 2  }
+	}
+]

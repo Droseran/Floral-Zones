@@ -1,0 +1,192 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Iceland Lichen",
+          "blockCodes": [
+            "floralzonescircumborealregion:fern-cetrariaislandica"
+          ],
+          "minTemp": -10,
+          "maxTemp": 0,
+          "minRain": 0.12,
+          "maxRain": 1,
+		  "minFertility":0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minY": 0,
+          "maxY": 0.7,
+          "chance": 0.05,
+		"maxHeightDifferential": 3,
+          "quantity": { "dist": "invexp", "avg": 9, "var": 4 },
+          "offsetX": { "avg": 1, "var": 3 },
+          "offsetZ": { "avg": 1, "var": 2 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Vast patches of Iceland Lichen",
+          "blockCodes": [
+            "floralzonescircumborealregion:fern-cetrariaislandica"
+          ],
+          "minTemp": -10,
+          "maxTemp": -6,
+          "minRain": 0.12,
+          "maxRain": 1,
+		  "minFertility":0,
+		  "maxFertility": 1,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minY": 0,
+          "maxY": 0.7,
+          "chance": 0.3,
+		"maxHeightDifferential": 6,
+          "quantity": { "dist": "invexp", "avg": 50, "var": 350 },
+          "offsetX": { "avg": 1, "var": 10 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Creeping Juniper",
+          "blockCodes": [
+            "floralzonescircumborealregion:fern-juniperushorizontalis"
+          ],
+          "minTemp": -6,
+          "maxTemp": 9,
+          "minRain": 0.26,
+          "maxRain": 0.78,
+		  "minFertility":0,
+		  "maxFertility": 0.4,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minY": 0,
+          "maxY": 0.65,
+          "chance": 0.25,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 33 },
+          "offsetX": { "avg": 1, "var": 3 },
+          "offsetZ": { "avg": 1, "var": 3 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Austin's Sphagnum away from water water",
+          "blockCodes": [
+            "floralzonescircumborealregion:fern-sphagnumaustinii"
+          ],
+          "minTemp": 3,
+          "maxTemp": 9,
+          "minRain": 0.47,
+          "maxRain": 1,
+		  "minFertility":0,
+		  "maxFertility": 0.5,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minY": 0,
+          "maxY": 0.12,
+          "chance": 0.0125,
+		"maxHeightDifferential": 1,
+          "quantity": { "dist": "invexp", "avg": 45, "var": 95 },
+          "offsetX": { "avg": 1, "var": 6 },
+          "offsetZ": { "avg": 1, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Austin's Sphagnum near water",
+          "blockCodes": [
+            "floralzonescircumborealregion:fern-sphagnumaustinii"
+          ],
+          "minTemp": 3,
+          "maxTemp": 9,
+          "minRain": 0.27,
+          "maxRain": 1,
+		  "minFertility":0,
+		  "maxFertility": 0.5,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minY": 0,
+          "maxY": 0.12,
+		  "placement": "NearWater",
+          "chance": 0.9,
+		"maxHeightDifferential": 1,
+          "quantity": { "dist": "invexp", "avg": 25, "var": 55 },
+          "offsetX": { "avg": 1, "var": 10 },
+          "offsetZ": { "avg": 1, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Northern Sphagnum near water",
+          "blockCodes": [
+            "floralzonescircumborealregion:fern-sphagnumcapillifolium"
+          ],
+          "minTemp": -4,
+          "maxTemp": 12,
+          "minRain": 0.12,
+          "maxRain": 1,
+		  "minFertility":0,
+		  "maxFertility": 0.5,
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minY": 0,
+          "maxY": 0.3,
+		  "placement": "NearWater",
+          "chance": 0.95,
+		"maxHeightDifferential": 1,
+          "quantity": { "dist": "invexp", "avg": 25, "var": 120 },
+          "offsetX": { "avg": 1, "var": 6 },
+          "offsetZ": { "avg": 1, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Dense patches of Northern Sphagnum away from water",
+          "blockCodes": [
+            "floralzonescircumborealregion:fern-sphagnumcapillifolium"
+          ],
+          "minTemp": -4,
+          "maxTemp": 12,
+          "minRain": 0.32,
+          "maxRain": 1,
+		  "minFertility":0,
+		  "maxFertility": 0.6,
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minY": 0,
+          "maxY": 0.2,
+          "chance": 0.0125,
+		"maxHeightDifferential": 1,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 48 },
+          "offsetX": { "avg": 1, "var": 4 },
+          "offsetZ": { "avg": 1, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+		}
+]

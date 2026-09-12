@@ -1,0 +1,38 @@
+[
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/horsetail",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-normal-*": [
+        {
+          "name": "XSkillsMushroom",
+          "properties": {
+            "xp": 0.1
+          }
+        }
+    ]
+  }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/plant/taro",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-normal-*": [
+        {
+          "name": "XSkillsMushroom",
+          "properties": {
+            "xp": 0.1
+          }
+        }
+    ]
+  }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

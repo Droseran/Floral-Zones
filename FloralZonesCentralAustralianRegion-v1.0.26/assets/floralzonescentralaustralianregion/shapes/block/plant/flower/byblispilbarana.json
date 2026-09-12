@@ -1,0 +1,166 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"flower": [8,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "plant 1",
+					"from": [ -1.5, 0.0, 0.0 ],
+					"to": [ 1.5, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"south": { "texture": "#flower", "uv": [ 0.0, 0.0, 6.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] }
+					},
+					"children": [
+						{
+							"name": "plant 3",
+							"from": [ 1.5, 0.0, -1.5 ],
+							"to": [ 1.5, 4.1, 1.5 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 0.0, 0.1 ],
+							"rotationY": 30.0,
+							"faces": {
+								"east": { "texture": "#flower", "uv": [ 0.0, 0.0, 6.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] }
+							},
+							"children": [
+								{
+									"name": "flower 3",
+									"from": [ -0.3, 4.1, 0.3 ],
+									"to": [ 0.3, 4.1, 0.9 ],
+									"rotationOrigin": [ 0.0, 4.1, 0.6 ],
+									"rotationX": 1.0,
+									"rotationZ": 1.0,
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 6.0, 0.0, 8.0, 2.0 ], "autoUv": false, "windMode": [7,7,7,7] }
+									}
+								},
+								{
+									"name": "flower 4",
+									"from": [ -0.3, 4.1, 2.1 ],
+									"to": [ 0.3, 4.1, 2.7 ],
+									"rotationOrigin": [ 0.0, 4.1, 2.4 ],
+									"rotationX": 1.0,
+									"rotationY": 45.0,
+									"rotationZ": 1.0,
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 6.0, 0.0, 8.0, 2.0 ], "autoUv": false, "windMode": [7,7,7,7] }
+									}
+								},
+								{
+									"name": "tendril 2",
+									"from": [ 0.0, 1.6, -1.5 ],
+									"to": [ 0.0, 2.6, 1.5 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 0.0, 1.5 ],
+									"faces": {
+										"east": { "texture": "#flower", "uv": [ 6.0, 2.0, 8.0, 8.0 ], "rotation": 270, "autoUv": false, "windMode": [7,7,7,7] }
+									}
+								}
+							]
+						},
+						{
+							"name": "flower 1",
+							"from": [ 0.3, 4.0, -0.2 ],
+							"to": [ 0.9, 4.0, 0.4 ],
+							"rotationOrigin": [ 0.6, 4.0, 0.1 ],
+							"rotationX": 1.0,
+							"rotationZ": 1.0,
+							"faces": {
+								"up": { "texture": "#flower", "uv": [ 6.0, 0.0, 8.0, 2.0 ], "autoUv": false, "windMode": [7,7,7,7] }
+							}
+						},
+						{
+							"name": "flower 2",
+							"from": [ 2.1, 4.0, -0.3 ],
+							"to": [ 2.7, 4.0, 0.3 ],
+							"rotationOrigin": [ 2.4, 4.0, 0.0 ],
+							"rotationX": 1.0,
+							"rotationZ": 1.0,
+							"faces": {
+								"up": { "texture": "#flower", "uv": [ 6.0, 0.0, 8.0, 2.0 ], "autoUv": false, "windMode": [7,7,7,7] }
+							}
+						},
+						{
+							"name": "plant 4",
+							"from": [ 1.5, 0.5, -1.5 ],
+							"to": [ 1.5, 4.5, 1.5 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 0.5, 0.0 ],
+							"rotationY": -30.0,
+							"faces": {
+								"east": { "texture": "#flower", "uv": [ 0.0, 0.0, 6.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] }
+							},
+							"children": [
+								{
+									"name": "flower 5",
+									"from": [ -0.3, 4.0, 0.3 ],
+									"to": [ 0.3, 4.0, 0.9 ],
+									"rotationOrigin": [ 0.0, 4.0, 0.6 ],
+									"rotationX": 1.0,
+									"rotationZ": 1.0,
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 6.0, 0.0, 8.0, 2.0 ], "autoUv": false, "windMode": [7,7,7,7] }
+									}
+								},
+								{
+									"name": "flower 6",
+									"from": [ -0.3, 4.0, 2.1 ],
+									"to": [ 0.3, 4.0, 2.7 ],
+									"rotationOrigin": [ 0.0, 4.0, 2.4 ],
+									"rotationX": 1.0,
+									"rotationY": 45.0,
+									"rotationZ": 1.0,
+									"faces": {
+										"up": { "texture": "#flower", "uv": [ 6.0, 0.0, 8.0, 2.0 ], "autoUv": false, "windMode": [7,7,7,7] }
+									}
+								},
+								{
+									"name": "tendril 3",
+									"from": [ 0.0, 1.5, -1.5 ],
+									"to": [ 0.0, 2.5, 1.5 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 0.0, 1.5, 1.5 ],
+									"rotationY": -179.0,
+									"faces": {
+										"east": { "texture": "#flower", "uv": [ 6.0, 2.0, 8.0, 8.0 ], "rotation": 270, "autoUv": false, "windMode": [7,7,7,7] }
+									}
+								}
+							]
+						},
+						{
+							"name": "tendril 1",
+							"from": [ 1.5, 1.5, 0.0 ],
+							"to": [ 4.5, 2.5, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 1.5, 1.5, 0.0 ],
+							"faces": {
+								"south": { "texture": "#flower", "uv": [ 6.0, 2.0, 8.0, 8.0 ], "rotation": 270, "autoUv": false, "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

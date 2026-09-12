@@ -1,0 +1,26 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Dwarf Cabbage Tree",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:crop-cordylinepumilio-4", "floralzonesneozeylandicregion:crop-cordylinepumilio-6", "floralzonesneozeylandicregion:crop-cordylinepumilio-4", "floralzonesneozeylandicregion:crop-cordylinepumilio-7"
+          ],
+          "minTemp": 12,
+          "maxTemp": 16,
+		  "minForest": 0,
+		  "maxForest": 0.6,
+          "minRain": 0.63,
+          "maxRain": 0.92,
+          "chance": 0.3,
+		  "minY": 0,
+          "maxY": 0.15,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 2 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+		},
+]

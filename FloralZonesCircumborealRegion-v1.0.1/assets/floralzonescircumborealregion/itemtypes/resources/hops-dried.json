@@ -1,0 +1,62 @@
+{
+	"code": "hops",
+  "variantgroups": [
+    {"code": "type","states": [ "dried"]}],
+	"shapebytype": {
+		"*": { "base": "item/food/vegetable/humuluslupulus" }
+	},
+	"texturebytype": {
+		"*": { "base": "item/food/vegetable/humuluslupulus-dried" }
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"maxstacksize": 64,
+	"attributes": {
+		"handbook": {"groupBy": ["hops-*"]},
+		"displaycaseable": false, 
+		"shelvable": false,
+		"onDisplayTransform": {
+			"translation": { "x": 0, "y": -0.05, "z": 0.0 },
+			"rotation": { "x": 0, "y": -45, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+			"scale": 1.0
+		},
+		"groundStorageTransform": {
+			"translation": { "x": 0, "y": 0.0, "z": -0.0 },
+			"rotation": { "x": 0, "y": 90, "z": 0 },
+			"scale": 1.00
+		}
+	},
+	"materialDensity": 500,
+	"heldTpHitAnimation": "breaktool",
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 3.2
+		}
+	},
+	"fpHandTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.7, "y": -0.14, "z": -0.6 },
+			"rotation": { "x": 1, "y": -1, "z": -31 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.79
+		}
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1.75
+		}
+	}
+}

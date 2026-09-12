@@ -1,0 +1,43 @@
+[
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Larges patches of fynbos aloe",
+          "blockCodes": [
+            "floralzonescaperegion:tallplant-aloesuccotrina-land-normal-free"
+          ],
+		"minTemp": 14,
+		"maxTemp": 18,
+		"minRain": 0.20,
+		"maxRain": 0.53,
+		"maxForest": 0.35,
+		"quantity": { "avg": 10, "var": 5 },
+		"chance": 0.1,
+		"minY": 0,
+        "maxY": 0.28,
+	    "maxFertility": 0.4
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      }, {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Larges patches of cape pondweed",
+          "blockCodes": [
+            "floralzonescaperegion:waterlily-aponogetondistachyos"
+          ],
+		"minTemp": 14,
+		"maxTemp": 18,
+		"minRain": 0.60,
+		"maxRain": 0.64,
+		"quantity": { "avg": 40, "var": 35 },
+		"chance": 0.8
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      }
+]

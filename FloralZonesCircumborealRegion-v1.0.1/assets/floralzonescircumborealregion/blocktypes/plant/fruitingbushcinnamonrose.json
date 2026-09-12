@@ -1,0 +1,210 @@
+{
+	code: "fruitingbush",
+	class: "BlockRequireFertileGround",
+	behaviors: [ 
+		{ name: "FruitingBush" }, 
+		{ name: "BlockEntityInteract" },
+		{ name: "Unstable" }
+	],
+	entityClassByType: {
+		"fruitingbush-wild-*": "WildFruitingBush",
+		"*": "Generic"
+	},
+	entityBehaviors: [ 
+		{ name: "FruitingBush" }, 
+		{ name: "FruitingBushMesh" }
+	],
+	variantgroups: [
+		{ code: "state", states: ["wild", "grown"] },
+		{ code: "type",	states: [ "rosamajalis" ]},
+		{ code: "cover", states: ["free", "snow"] }
+	],
+	attributes: {
+		foodTags: ["sweetBerryBush"],
+		forageStatAffectedByType: {
+			"*-wild-*": true,
+			"*": false
+		},
+		textureVariantsByType: {
+			"*": 1
+		},
+		cuttingBlockCode: "floralzonescircumborealregion:fruitingbushcutting-{type}-free",
+		growthProperties: {
+			pauseGrowthBelowTemperature: -1,
+			pauseGrowthAboveTemperature: 31,
+			resetGrowthBelowTemperature: -3,
+			resetGrowthAboveTemperature: 35,
+			goDormantBelowTemperatureByType: {
+				"*": -5
+			},
+			leaveDormantAboveTemperatureByType: {
+				"*": 39
+			},
+			nutrientUseByHealthStateByType: {
+				"*": {
+					"bountiful": { n: 10, p: 10, k: 10 },
+					"healthy": { n: 7, p: 7, k: 7 },
+					"struggling": { n: 4, p: 4, k: 4 },
+					"barren": { n: 1, p: 1, k: 1 }
+				},
+			},
+			youngStageMonths: { avg: 2, var: 1 },
+			emptyStageMonths: { avg: 4, var: 0.1 },
+			floweringStageMonths: { avg: 1, var: 0.1 },
+			ripeningStageMonths: { avg: 4, var: 0.1 },
+			ripeStageMonths: { avg: 1, var: 0.1 }
+		},
+		harvestedStacksByType: {
+			"*": [{ type: "item", code: "floralzonescircumborealregion:fruit-{type}", quantity: { avg: 5.5 }  }]
+		},
+		textureMappingByType: {
+			"*": {
+				"flowerberrycenter1": {
+					base: "floralzonescircumborealregion:block/plant/berrybush/{type}/berries/{healthstate}/{berrystage}center1",
+					alternates: [
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/berries/{healthstate}/{berrystage}center*" },
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/berries/{healthstate}/{berrystage}center2" }
+					]
+				},
+				"flowerberrycenter2": {
+					base: "floralzonescircumborealregion:block/plant/berrybush/{type}/berries/{healthstate}/{berrystage}center2",
+					alternates: [
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/berries/{healthstate}/{berrystage}center*" },
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/berries/{healthstate}/{berrystage}center1" }
+					]
+				},
+				"flowerberrycenter3": {
+					base: "floralzonescircumborealregion:block/plant/berrybush/{type}/berries/{healthstate}/{berrystage}center1",
+					alternates: [
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/berries/{healthstate}/{berrystage}center*" },
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/berries/{healthstate}/{berrystage}center2" }
+					]
+				},
+				"leavescenter1": {
+					base: "floralzonescircumborealregion:block/plant/berrybush/{type}/leaves/leavescenter1",
+					alternates: [
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/leaves/leavescenter*" },
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/leaves/leavescenter2" }
+					]
+				},
+				"leavescenter2": {
+					base: "floralzonescircumborealregion:block/plant/berrybush/{type}/leaves/leavescenter2",
+					alternates: [
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/leaves/leavescenter*" },
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/leaves/leavescenter1" }
+					]
+				},
+				"leavescenter3": {
+					base: "floralzonescircumborealregion:block/plant/berrybush/{type}/leaves/leavescenter1",
+					alternates: [
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/leaves/leavescenter*" },
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/leaves/leavescenter2" }
+					]
+				},
+				"stemcenter1": {
+					base: "floralzonescircumborealregion:block/plant/berrybush/{type}/stem/stemcenter1",
+					alternates: [
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/stem/stemcenter*" },
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/stem/stemcenter2" }
+					]
+				},
+				"stemcenter2": {
+					base: "floralzonescircumborealregion:block/plant/berrybush/{type}/stem/stemcenter2",
+					alternates: [
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/stem/stemcenter*" },
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/stem/stemcenter1" }
+					]
+				},
+				"stemcenter3": {
+					base: "floralzonescircumborealregion:block/plant/berrybush/{type}/stem/stemcenter1",
+					alternates: [
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/stem/stemcenter*" },
+						{ base: "floralzonescircumborealregion:block/plant/berrybush/{type}/stem/stemcenter2" }
+					]
+				}
+			}
+		},
+		youngTextureMappingByType: {
+			"*": {
+			north1: { base: "floralzonescircumborealregion:block/plant/berrybush/cuttings/{type}-stem1" },
+			south1: { base: "floralzonescircumborealregion:block/plant/berrybush/cuttings/{type}-stem2"}
+			}
+		},
+		youngShape: { base: "block/plant/flower/1patch-cross-16x16",
+			"selectiveElements": [ "origin/South","origin/North" ] },
+		reinforcable: true,
+		overrideRandomDrawOffset: 14,
+		allowOverlays: false
+	},
+	shapeByType: {
+		"*": { "base": "block/plant/berrybush/{type}*",
+			"selectiveElements": [ "Stem/*","Leaves/*" ],
+			alternates: [
+				{ rotateY: 10 },
+				{ rotateY: 70 },
+				{ rotateY: 130 },
+				{ rotateY: 190 },
+				{ rotateY: 250 },
+				{ rotateY: 310 }
+			]}
+	},
+	texturesByType: {
+		"*": { 
+			"particle": { base: "floralzonescircumborealregion:block/plant/berrybush/{type}/leaves/leavescenter1" }
+		}
+	},
+	drawtypeByType: {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	blockmaterialByType: {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	faceCullModeByType: {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},	
+	climateColorMap: "climatePlantTint",
+	seasonColorMapByType: {
+		"*": "seasonalLarch"
+	},
+	particlesTextureCode: "particle",
+	creativeinventory: { "general": [ "*-free" ], "flora": [ "*-free" ] },
+	randomizeRotations: true,
+	renderpass: "OpaqueNoCull",
+	renderAlphaTest: 0.4,
+	blockmaterial: "Plant",
+	sideopaqueByType: {
+		"*-snow": { all: false, down: true },
+		"*": { all: false }
+	},
+	sidesolid: {"all": false},
+	replaceable: 3000,
+	lightAbsorption: 0,
+	resistance: 0.5,
+	collisionbox: null,
+	selectionboxByType: {
+		"*": { x1: 0.1, y1: 0, z1: 0.1, x2: 0.9, y2: 0.9, z2: 0.9 }
+	},
+	sounds: {
+		place: "game:block/plant",
+		break: "game:block/plant",
+		hit: "game:block/plant",
+		inside: "game:walk/inside/leafy/bushrustle*"
+	},
+	rainPermeable: false,
+	drops: [
+		{
+			type: "item",
+			code: "game:plantdebris-leafy",
+			quantity: { "avg": 3 }
+		}
+	],
+	materialDensity: 200,
+	frostable: true,
+	combustibleProps: {
+		burnTemperature: 600,
+		burnDuration: 10
+	}
+}

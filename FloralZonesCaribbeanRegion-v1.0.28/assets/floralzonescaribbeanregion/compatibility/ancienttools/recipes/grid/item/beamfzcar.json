@@ -1,0 +1,42 @@
+﻿[
+	{
+		"enabled": false,
+		ingredientPattern: "B",
+		width: 1,
+		height: 1,
+		ingredients: {
+			"B": {
+				type: "item",
+				name: "wood",
+				code: "ancienttools:beam-*",
+				allowedVariants: ["lysilomalatisiliquum"],
+				quantity: 1
+			}
+		},
+		output: {
+			type: "block",
+			code: "floralzonescaribbeanregion:supportbeam-{wood}",
+			quantity: 1
+		}
+    },
+	{
+		"enabled": false,
+		ingredientPattern: "B",
+		width: 1,
+		height: 1,
+		ingredients: {
+			"B": {
+				type: "block",
+				name: "wood",
+				code: "floralzonescaribbeanregion:supportbeam-*",
+				allowedVariants: ["lysilomalatisiliquum"],
+				quantity: 1
+			}
+		},
+		output: {
+			type: "item",
+			code: "ancienttools:beam-{wood}",
+			quantity: 1
+		}
+    },
+]

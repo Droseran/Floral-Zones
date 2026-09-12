@@ -1,0 +1,27 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of European Fan Palm",
+          "blockCodes": [
+            "floralzonesmediterraneanregion:fern-chamaeropshumilis"
+          ],
+          "minTemp": 10,
+          "maxTemp": 18,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.12,
+          "maxRain": 0.55,
+          "chance": 0.3,
+          "maxY": 0.15,
+		  "minFertility":0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 24, "var": 12 },
+          "offsetX": { "avg": 1, "var": 4 },
+          "offsetZ": { "avg": 1, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server"
+		}
+]

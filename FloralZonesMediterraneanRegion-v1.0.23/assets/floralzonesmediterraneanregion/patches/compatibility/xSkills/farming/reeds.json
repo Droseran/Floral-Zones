@@ -1,0 +1,38 @@
+[
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/broom",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-normal-*": [
+        {
+          "name": "XSkillsMushroom",
+          "properties": {
+            "xp": 0.1
+          }
+        }
+    ]
+  }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/fennel",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-normal-*": [
+        {
+          "name": "XSkillsMushroom",
+          "properties": {
+            "xp": 0.1
+          }
+        }
+    ]
+	}, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

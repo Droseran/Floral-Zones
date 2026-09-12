@@ -1,0 +1,28 @@
+[
+	{
+		"code": "cider",
+		"sealHours": 168,
+		"ingredients": [
+			{ "type": "item", "code": "floralzonescosmopolitanregion:juiceportion-*",  "name": "fruit", "allowedVariants": ["caricapapaya","cocosnucifera","cucurbitaficifolia","empetrumnigrum","juniperuscommunis","rubuschamaemorus"], "litres": 0.1 }
+		],
+		"output": { "type": "item", "code": "floralzonescosmopolitanregion:ciderportion-{fruit}", "litres": 0.1 }
+	},
+	{
+		code: "ipomoeabatatas",
+		sealHours: 336,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "floralzonescosmopolitanregion:flour-ipomoeabatatas", quantity: 1 }
+		],
+		output: { type: "item", code: "floralzonescosmopolitanregion:ciderportion-ipomoeabatatas", litres: .2 }
+	},
+	{
+		code: "zeamays",
+		sealHours: 336,
+		ingredients: [
+			{ type: "item", code: "game:waterportion",  litres: 1 },
+			{ type: "item", code: "floralzonescosmopolitanregion:flour-zeamays", quantity: 1 }
+		],
+		output: { type: "item", code: "floralzonescosmopolitanregion:ciderportion-zeamays", litres: .2 }
+	},
+]

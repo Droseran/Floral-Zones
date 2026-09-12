@@ -1,0 +1,497 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"petasitesjaponicus4": [12,12],
+		"petasitesjaponicus5": [16,16],
+		"petasitesjaponicus2": [8,8],
+		"petasitesjaponicus3": [4,16]
+	},
+	"textures": {
+		"petasitesjaponicus2": "block/plant/crop/petasitesjaponicus2",
+		"petasitesjaponicus3": "block/plant/crop/petasitesjaponicus3",
+		"petasitesjaponicus4": "block/plant/crop/petasitesjaponicus4",
+		"petasitesjaponicus5": "block/plant/crop/petasitesjaponicus5"
+	},
+	"elements": [
+		{
+			"name": "shootorigin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot1",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 8.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] }
+					},
+					"children": [
+						{
+							"name": "Leaf 1",
+							"from": [ -3.7, 8.1, -2.0 ],
+							"to": [ 4.3, 8.1, 6.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 8.1, 0.0 ],
+							"faces": {
+								"up": { "texture": "#petasitesjaponicus2", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin2",
+			"from": [ 12.0, 0.0, 12.0 ],
+			"to": [ 12.0, 0.0, 12.0 ],
+			"rotationOrigin": [ 12.0, 0.0, 12.0 ],
+			"rotationY": 60.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot2",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 8.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] }
+					},
+					"children": [
+						{
+							"name": "Leaf 2",
+							"from": [ -3.7, 8.1, -2.0 ],
+							"to": [ 4.3, 8.1, 6.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 8.1, 0.0 ],
+							"faces": {
+								"up": { "texture": "#petasitesjaponicus2", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin3",
+			"from": [ 10.0, 0.0, 4.0 ],
+			"to": [ 10.0, 0.0, 4.0 ],
+			"rotationOrigin": [ 10.0, 0.0, 4.0 ],
+			"rotationY": 120.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot3",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 8.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] }
+					},
+					"children": [
+						{
+							"name": "Leaf 3",
+							"from": [ -3.7, 8.1, -2.0 ],
+							"to": [ 4.3, 8.1, 6.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 8.1, 0.0 ],
+							"faces": {
+								"up": { "texture": "#petasitesjaponicus2", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin4",
+			"from": [ 4.0, 0.0, 4.0 ],
+			"to": [ 4.0, 0.0, 4.0 ],
+			"rotationOrigin": [ 4.0, 0.0, 4.0 ],
+			"rotationY": -120.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot4",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 8.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] }
+					},
+					"children": [
+						{
+							"name": "Leaf 4",
+							"from": [ -3.7, 8.1, -2.0 ],
+							"to": [ 4.3, 8.1, 6.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 8.1, 0.0 ],
+							"faces": {
+								"up": { "texture": "#petasitesjaponicus2", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin5",
+			"from": [ 5.0, 0.0, 10.0 ],
+			"to": [ 5.0, 0.0, 10.0 ],
+			"rotationOrigin": [ 5.0, 0.0, 10.0 ],
+			"rotationY": -60.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot5",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 8.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 8.0 ], "autoUv": false, "windMode": [0,0,7,7] }
+					},
+					"children": [
+						{
+							"name": "Leaf 5",
+							"from": [ -3.7, 8.1, -2.0 ],
+							"to": [ 4.3, 8.1, 6.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 8.1, 0.0 ],
+							"faces": {
+								"up": { "texture": "#petasitesjaponicus2", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin6",
+			"from": [ 8.0, 0.0, 6.0 ],
+			"to": [ 8.0, 0.0, 6.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 6.0 ],
+			"rotationY": -180.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot6",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 12.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 12.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 12.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 12.0 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 12.0 ], "autoUv": false, "windMode": [0,0,7,7] }
+					},
+					"children": [
+						{
+							"name": "Leaf 6",
+							"from": [ -5.7, 12.1, -3.0 ],
+							"to": [ 6.3, 12.1, 9.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 12.1, 0.0 ],
+							"faces": {
+								"up": { "texture": "#petasitesjaponicus4", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin7",
+			"from": [ 4.0, 0.0, 7.0 ],
+			"to": [ 4.0, 0.0, 7.0 ],
+			"rotationOrigin": [ 4.0, 0.0, 7.0 ],
+			"rotationY": -80.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot7",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 13.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 13.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 13.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 13.0 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 13.0 ], "autoUv": false, "windMode": [0,0,7,7] }
+					},
+					"children": [
+						{
+							"name": "Leaf 7",
+							"from": [ -5.7, 13.1, -3.0 ],
+							"to": [ 6.3, 13.1, 9.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 13.1, 0.0 ],
+							"faces": {
+								"up": { "texture": "#petasitesjaponicus4", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin8",
+			"from": [ 10.0, 0.0, 7.0 ],
+			"to": [ 10.0, 0.0, 7.0 ],
+			"rotationOrigin": [ 10.0, 0.0, 7.0 ],
+			"rotationY": 80.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot8",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 11.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 11.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 11.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 11.0 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 11.0 ], "autoUv": false, "windMode": [0,0,7,7] }
+					},
+					"children": [
+						{
+							"name": "Leaf 8",
+							"from": [ -5.7, 11.1, -3.0 ],
+							"to": [ 6.3, 11.1, 9.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 11.1, 0.0 ],
+							"faces": {
+								"up": { "texture": "#petasitesjaponicus4", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin9",
+			"from": [ 11.0, 0.0, 12.0 ],
+			"to": [ 11.0, 0.0, 12.0 ],
+			"rotationOrigin": [ 11.0, 0.0, 12.0 ],
+			"rotationY": 10.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot9",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 14.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 14.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 14.0 ], "autoUv": false, "windMode": [0,7,7,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 14.0 ], "autoUv": false, "windMode": [0,0,7,7] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 14.0 ], "autoUv": false, "windMode": [0,0,7,7] }
+					},
+					"children": [
+						{
+							"name": "Leaf 9",
+							"from": [ -5.7, 14.1, -3.0 ],
+							"to": [ 6.3, 14.1, 9.0 ],
+							"renderPass": 1,
+							"rotationOrigin": [ 0.3, 14.1, 0.0 ],
+							"faces": {
+								"up": { "texture": "#petasitesjaponicus4", "uv": [ 0.0, 0.0, 12.0, 12.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin10",
+			"from": [ 9.0, 0.0, 8.0 ],
+			"to": [ 9.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 9.0, 0.0, 8.0 ],
+			"rotationY": 20.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot10",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 16.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,0,1,1] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,0,1,1] }
+					},
+					"children": [
+						{
+							"name": "shootb10",
+							"from": [ 0.0, 16.0, 0.0 ],
+							"to": [ 0.6, 24.0, 0.6 ],
+							"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+							"rotationX": 12.0,
+							"faces": {
+								"north": { "texture": "#petasitesjaponicus3", "uv": [ 0.5, 2.0, 1.5, 10.0 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,1,1,0] },
+								"east": { "texture": "#petasitesjaponicus3", "uv": [ 0.0, 7.0, 1.0, 15.0 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,1,1,0] },
+								"south": { "texture": "#petasitesjaponicus3", "uv": [ 0.5, 2.5, 1.5, 10.5 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#petasitesjaponicus3", "uv": [ 0.0, 3.0, 1.0, 11.0 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf 11",
+									"from": [ -7.7, 8.1, -5.0 ],
+									"to": [ 8.3, 8.1, 11.0 ],
+									"renderPass": 1,
+									"rotationOrigin": [ -1.7, 8.1, 0.0 ],
+									"faces": {
+										"up": { "texture": "#petasitesjaponicus5", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [1,1,1,1], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin11",
+			"from": [ 8.0, 0.0, 7.0 ],
+			"to": [ 8.0, 0.0, 7.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+			"rotationY": 120.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot11",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 16.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,0,1,1] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,0,1,1] }
+					},
+					"children": [
+						{
+							"name": "shootb11",
+							"from": [ 0.0, 16.0, 0.0 ],
+							"to": [ 0.6, 24.0, 0.6 ],
+							"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+							"rotationX": 12.0,
+							"faces": {
+								"north": { "texture": "#petasitesjaponicus3", "uv": [ 0.5, 2.0, 1.5, 10.0 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,1,1,0] },
+								"east": { "texture": "#petasitesjaponicus3", "uv": [ 0.0, 7.0, 1.0, 15.0 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,1,1,0] },
+								"south": { "texture": "#petasitesjaponicus3", "uv": [ 0.5, 2.5, 1.5, 10.5 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#petasitesjaponicus3", "uv": [ 0.0, 3.0, 1.0, 11.0 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf 12",
+									"from": [ -7.7, 8.1, -5.0 ],
+									"to": [ 8.3, 8.1, 11.0 ],
+									"renderPass": 1,
+									"rotationOrigin": [ -1.7, 8.1, 0.0 ],
+									"faces": {
+										"up": { "texture": "#petasitesjaponicus5", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [1,1,1,1], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "shootorigin12",
+			"from": [ 8.0, 0.0, 7.0 ],
+			"to": [ 8.0, 0.0, 7.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+			"rotationY": -120.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot12",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.6, 16.0, 0.6 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 12.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"east": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,1,1,0] },
+						"south": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,0,1,1] },
+						"west": { "texture": "#petasitesjaponicus3", "uv": [ 3.0, 0.0, 4.0, 16.0 ], "autoUv": false, "windMode": [0,0,1,1] }
+					},
+					"children": [
+						{
+							"name": "shootb12",
+							"from": [ 0.0, 16.0, 0.0 ],
+							"to": [ 0.6, 24.0, 0.6 ],
+							"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+							"rotationX": 12.0,
+							"faces": {
+								"north": { "texture": "#petasitesjaponicus3", "uv": [ 0.5, 2.0, 1.5, 10.0 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,1,1,0] },
+								"east": { "texture": "#petasitesjaponicus3", "uv": [ 0.0, 7.0, 1.0, 15.0 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,1,1,0] },
+								"south": { "texture": "#petasitesjaponicus3", "uv": [ 0.5, 2.5, 1.5, 10.5 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#petasitesjaponicus3", "uv": [ 0.0, 3.0, 1.0, 11.0 ], "autoUv": false, "windMode": [1,1,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf 13",
+									"from": [ -7.7, 8.1, -5.0 ],
+									"to": [ 8.3, 8.1, 11.0 ],
+									"renderPass": 1,
+									"rotationOrigin": [ -1.7, 8.1, 0.0 ],
+									"faces": {
+										"up": { "texture": "#petasitesjaponicus5", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [1,1,1,1], "windData": [1,1,1,1] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

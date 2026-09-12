@@ -1,0 +1,69 @@
+{
+	"code": "lognarrow",
+	"behaviorsByType": {
+		"*-grown-*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventname": "testForDecay"}}],
+		"*": [{"name": "Pillar"}]
+	},
+	"attributes": {
+		"preventsDecayByType": {
+			"*-grown-*": true
+		},
+		"treeFellingGroupCodeByType": {
+			"*-grown-*": "{wood}"
+		},
+		"treeFellingGroupSpreadIndex": 3
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["grown", "placed"] },
+		{ "code": "wood", "states": ["alsophilatricolor","enteleaarborescens","psuedopanaxcrassifolius","psuedopanaxcrassifoliusyoung","rhopalostylissapida"] },
+		{ "code": "rotation", "states": ["ud", "ns", "we"] }
+	],
+	"creativeinventory": { "general": ["lognarrow-placed-*-ud"], "flora": ["lognarrow-placed-*-ud"]},
+	"shapeByType": {
+		"*-alsophilatricolor-*":{ "base": "game:block/plant/ferntree/trunk"},
+		"*-enteleaarborescens-*":{ "base": "block/wood/log/enteleaarborescens"},
+		"*-psuedopanaxcrassifoliusyoung-*":{ "base": "block/wood/log/psuedopanaxcrassifoliusyoung"},
+		"*-rhopalostylissapida-*":{ "base": "block/wood/log/enteleaarborescens"},
+		"*":{ "base": "block/wood/log/thintrunk" }},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"blockmaterial": "Wood",
+	"requiredMiningTier": 1,
+	"texturesByType": {
+		"*-alsophilatricolor-*":{"all": { "base": "game:block/plant/ferntree/bark" }},
+		"*":{"all": { "base": "floralzonesneozeylandicregion:block/wood/treetrunk/{wood}" }}
+	},
+	"replaceable": 500,
+	"resistance": 4,
+	"fertility": 30,
+	"sounds": {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"byTool": {
+			"Axe": { "hit": "game:block/chop", "break": "game:block/planks" }
+		}
+	},
+	"drops": [
+		{ "type": "block", "code": "floralzonesneozeylandicregion:lognarrow-placed-{wood}-ud", "quantity": { "avg": 1 } }
+	],
+	"combustibleProps": {
+		"burnTemperature": 800,
+		"burnDuration": 48
+	},
+	"collisionBox": { "x1": 0.25, "y1": 0, "z1": 0.25, "x2": 0.75, "y2": 1, "z2": 0.75 },
+	"selectionBox": { "x1": 0.21, "y1": 0, "z1": 0.21, "x2": 0.79, "y2": 1, "z2": 0.79 },
+	"maxstacksize": 16,
+	"materialDensity": 700,
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	}
+}

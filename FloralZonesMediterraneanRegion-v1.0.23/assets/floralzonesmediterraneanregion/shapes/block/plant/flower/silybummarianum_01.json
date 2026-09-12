@@ -1,0 +1,67 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 12,
+	"textureHeight": 32,
+	"textureSizes": {
+		"flower": [12,32]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Flowerbase1",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Flowera1",
+							"from": [ -4.7, 0.0, 0.0 ],
+							"to": [ 4.3, 24.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"faces": {
+								"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 12.0, 32.0 ], "autoUv": false, "windMode": [0,1,1,0] }
+							}
+						},
+						{
+							"name": "Flowerb1",
+							"from": [ -4.7, 0.0, 0.0 ],
+							"to": [ 4.3, 24.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": 120.0,
+							"faces": {
+								"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 12.0, 32.0 ], "autoUv": false, "windMode": [0,1,1,0] }
+							}
+						},
+						{
+							"name": "Flowerc1",
+							"from": [ -4.7, 0.0, 0.0 ],
+							"to": [ 4.3, 24.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationY": -120.0,
+							"faces": {
+								"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 12.0, 32.0 ], "autoUv": false, "windMode": [0,1,1,0] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

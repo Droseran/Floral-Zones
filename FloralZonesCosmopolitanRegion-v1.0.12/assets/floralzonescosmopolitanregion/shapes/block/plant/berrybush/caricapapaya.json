@@ -1,0 +1,822 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 12,
+	"textureHeight": 16,
+	"textureSizes": {
+		"caricapapaya1": [12,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Base",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Rotation point1",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk1",
+							"from": [ -0.2, 2.0, -0.7 ],
+							"to": [ 0.2, 18.0, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 2.0, -0.5 ],
+							"rotationX": -15.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf1",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point2",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -61.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk2",
+							"from": [ -0.2, 1.9, -0.7 ],
+							"to": [ 0.2, 17.9, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 1.9, -0.5 ],
+							"rotationX": -22.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf2",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 10.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point3",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -125.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk3",
+							"from": [ -0.2, 1.8, -0.7 ],
+							"to": [ 0.2, 17.8, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 1.8, -0.5 ],
+							"rotationX": -12.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf3",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 5.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point4",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -174.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk4",
+							"from": [ -0.2, 1.7, -0.7 ],
+							"to": [ 0.2, 17.7, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 1.7, -0.5 ],
+							"rotationX": -24.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf4",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 17.0,
+									"rotationZ": 5.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point5",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 125.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk5",
+							"from": [ -0.2, 1.6, -0.7 ],
+							"to": [ 0.2, 17.6, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 1.6, -0.5 ],
+							"rotationX": -14.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf5",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 6.0,
+									"rotationZ": 5.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point6",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 69.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk6",
+							"from": [ -0.2, 1.5, -0.7 ],
+							"to": [ 0.2, 17.5, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 1.5, -0.5 ],
+							"rotationX": -22.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf6",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 6.0,
+									"rotationZ": 5.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point7",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 17.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk7",
+							"from": [ -0.2, 1.4, -0.7 ],
+							"to": [ 0.2, 17.4, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 1.4, -0.5 ],
+							"rotationX": -66.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf7",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 36.0,
+									"rotationY": 8.0,
+									"rotationZ": 5.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point8",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -55.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk8",
+							"from": [ -0.2, 1.3, -0.7 ],
+							"to": [ 0.2, 17.3, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 1.3, -0.5 ],
+							"rotationX": -66.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf8",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 32.0,
+									"rotationY": 8.0,
+									"rotationZ": 5.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point9",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -125.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk9",
+							"from": [ -0.2, 1.2, -0.7 ],
+							"to": [ 0.2, 17.2, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 1.2, -0.5 ],
+							"rotationX": -66.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf9",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 32.0,
+									"rotationY": -8.0,
+									"rotationZ": -4.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point10",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 172.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk10",
+							"from": [ -0.2, 1.1, -0.7 ],
+							"to": [ 0.2, 17.1, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 1.1, -0.5 ],
+							"rotationX": -66.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf10",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 17.0,
+									"rotationY": 8.0,
+									"rotationZ": -4.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point11",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 125.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk11",
+							"from": [ -0.2, 1.0, -0.7 ],
+							"to": [ 0.2, 17.0, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 1.0, -0.5 ],
+							"rotationX": -66.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf11",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 8.0,
+									"rotationY": -8.0,
+									"rotationZ": -19.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point12",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 66.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk12",
+							"from": [ -0.2, 0.9, -0.7 ],
+							"to": [ 0.2, 16.9, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 0.9, -0.5 ],
+							"rotationX": -66.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf12",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 8.0,
+									"rotationY": -3.0,
+									"rotationZ": -6.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point13",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -17.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk13",
+							"from": [ -0.2, 0.8, -0.7 ],
+							"to": [ 0.2, 16.8, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 0.8, -0.5 ],
+							"rotationX": -102.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf13",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 47.0,
+									"rotationY": -3.0,
+									"rotationZ": -8.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point14",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -86.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk14",
+							"from": [ -0.2, 0.7, -0.7 ],
+							"to": [ 0.2, 16.7, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 0.7, -0.5 ],
+							"rotationX": -91.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf14",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 19.0,
+									"rotationY": 8.0,
+									"rotationZ": -14.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point15",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -150.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk15",
+							"from": [ -0.2, 0.6, -0.7 ],
+							"to": [ 0.2, 16.6, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 0.6, -0.5 ],
+							"rotationX": -91.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf15",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 19.0,
+									"rotationY": -3.0,
+									"rotationZ": 6.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point16",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 150.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk16",
+							"from": [ -0.2, 0.5, -0.7 ],
+							"to": [ 0.2, 16.5, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 0.5, -0.5 ],
+							"rotationX": -102.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf16",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 61.0,
+									"rotationY": -3.0,
+									"rotationZ": 6.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point17",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 91.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk17",
+							"from": [ -0.2, 0.4, -0.7 ],
+							"to": [ 0.2, 16.4, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 0.4, -0.5 ],
+							"rotationX": -125.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf17",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 33.0,
+									"rotationY": 6.0,
+									"rotationZ": 6.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Rotation point18",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 44.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Stalk18",
+							"from": [ -0.2, 0.3, -0.7 ],
+							"to": [ 0.2, 16.3, -0.3 ],
+							"shade": false,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "seasonalFoliage",
+							"rotationOrigin": [ 0.0, 0.3, -0.5 ],
+							"rotationX": -100.0,
+							"faces": {
+								"north": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"east": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] },
+								"south": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] },
+								"west": { "texture": "#caricapapaya1", "uv": [ 11.5, 0.0, 12.0, 16.0 ], "windMode": [0,0,1,1], "windData": [0,0,1,1] }
+							},
+							"children": [
+								{
+									"name": "Leaf18",
+									"from": [ -5.5, 16.1, -9.0 ],
+									"to": [ 6.0, 16.1, 4.0 ],
+									"shade": false,
+									"climateColorMap": "climatePlantTint",
+									"seasonColorMap": "seasonalFoliage",
+									"renderPass": 1,
+									"rotationOrigin": [ 0.2, 16.1, 0.2 ],
+									"rotationX": 19.0,
+									"rotationY": 17.0,
+									"rotationZ": 3.0,
+									"faces": {
+										"up": { "texture": "#caricapapaya1", "uv": [ 0.0, 0.0, 11.5, 13.0 ], "windMode": [1,1,1,1], "windData": [0,1,1,0] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

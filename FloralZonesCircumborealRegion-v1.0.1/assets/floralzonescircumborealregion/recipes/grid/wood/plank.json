@@ -1,0 +1,95 @@
+[
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "wood", "skipVariants": ["larixlaricina", "pinussibirica", "quercuspetraea"] }
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "floralzonescircumborealregion:plank-{wood}", "quantity": 12  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "wood", "allowedVariants": ["larixlaricina"] }
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:plank-larch", "quantity": 12  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "wood", "allowedVariants": ["pinussibirica"] }
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:plank-pine", "quantity": 12  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "wood", "allowedVariants": ["quercuspetraea"] }
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "game:plank-oak", "quantity": 12  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:lognarrow-placed-*-ud", "name": "wood", "allowedVariants": ["piceamariana"] }
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "plank-piceaglauca", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:planks-*-ns", "name": "wood" }
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "floralzonescircumborealregion:plank-{wood}", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:plankstairs-*-up-north-free", "name": "wood" }
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "floralzonescircumborealregion:plank-{wood}", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:plankslab-*-down-free", "name": "wood" }
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "floralzonescircumborealregion:plank-{wood}", "quantity": 2  }
+	},
+]

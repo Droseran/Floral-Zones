@@ -1,0 +1,119 @@
+{
+	"code": "tallplant",
+	"class": "BlockReeds",
+	"entityClassByType": {
+		"*-harvested-*": "Transient"
+	},
+	"attributes": {
+        "butterflyFeedByType": {"*-normal": false},
+        "beeFeedByType": {"*-normal": false},
+		"transientPropsByType": {
+			"tallplant-*": {
+				"convertFrom": "*-harvested-{cover}", 
+				"convertTo": "tallplant-{type}-land-normal-{cover}", 
+				"inGameHours": "1188",
+				"resetBelowTemperature": -8,
+				"stopBelowTemperature": 0
+			}
+		},
+		"maxWaterDepthByType": {
+			"tallplant-*": 0
+		}
+	},
+	"allowedVariants": [ 
+		"*-land-*" 
+	],
+	"variantgroups": [
+		{ "code": "type", "states": ["stipapennata"] },
+		{ "code": "habitat", "states": ["land"] },
+		{ "code": "state", "states": ["normal", "harvested"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"creativeinventory": { 
+		"general": ["*-land-normal-free"], 
+		"flora": ["*-land-normal-free"] 
+	},
+	"shapeByType": {
+		"*-harvested-*":{"base": "block/plant/flower/{type}-harvested*" },
+		"*-stipapennata-*":{"base": "block/plant/flower/{type}1","alternates": [ 			
+				{ "base": "block/plant/flower/{type}1", rotateY: 10 },			
+				{ "base": "block/plant/flower/{type}2", rotateY: 10 },				
+				{ "base": "block/plant/flower/{type}1", rotateY: 20 },			
+				{ "base": "block/plant/flower/{type}2", rotateY: 20 },			
+				{ "base": "block/plant/flower/{type}1", rotateY: 30 },			
+				{ "base": "block/plant/flower/{type}2", rotateY: 30 },		
+				{ "base": "block/plant/flower/{type}1", rotateY: 330 },			
+				{ "base": "block/plant/flower/{type}2", rotateY: 330 },	
+				{ "base": "block/plant/flower/{type}1", rotateY: 340 },			
+				{ "base": "block/plant/flower/{type}2", rotateY: 340 },
+				{ "base": "block/plant/flower/{type}1", rotateY: 350 },			
+				{ "base": "block/plant/flower/{type}2", rotateY: 350 }] },
+	},
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"renderpass": "OpaqueNoCull",
+	"matterstate": "solid",
+	"blockmaterial": "plant",
+	"faceCullMode": "NeverCull",
+	"randomDrawOffset": true,
+	"randomizeRotations": false,
+	"texturesByType": {
+		"*harvested*": {
+			"northTinted1": { "base": "block/plant/flower/stem/{type}-harvested*" },
+			"southTinted1": { "base": "block/plant/flower/stem/{type}-harvested*" }
+		},
+		"*": {
+			"north1": { "base": "block/plant/flower/petal/{type}1","alternates": [ { "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}3"} ] },
+			"south1": { "base": "block/plant/flower/petal/{type}2","alternates": [ { "base": "block/plant/flower/petal/{type}3"},{ "base": "block/plant/flower/petal/{type}1"} ] },
+			"northTinted1": { "base": "block/plant/flower/stem/{type}1","alternates": [ { "base": "block/plant/flower/stem/{type}2"},{ "base": "block/plant/flower/stem/{type}3"} ] },
+			"southTinted1": { "base": "block/plant/flower/stem/{type}2","alternates": [ { "base": "block/plant/flower/stem/{type}3"},{ "base": "block/plant/flower/stem/{type}1"} ] }
+		}
+	},
+	"randomSizeAdjust": 0.1,
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": { "all" : false },
+	"emitsideao": { "all": false },
+	"sideao": { "all": true },
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0, "y1": 0, "z1": 0,
+		"x2": 1, "y2": 0.25, "z2": 1
+	},
+	"guitransform": {
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+  	"inside": "game:walk/grass"
+	},
+	"rainPermeableByType": {
+		"*-land-*": true
+	},
+	"materialDensity": 200,
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": -1.5, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 1.2, "z": 0.5 },
+		"scale": 0.65
+	},
+	"dropsByType": {
+	"*-stipapennata-*-harvested-*": [{ "type": "block", "code": "tallplant-stipapennata-land-harvested-free" }],
+		"*-stipapennata-*-normal-*": [ { "type": "item", "code": "game:drygrass", "quantity": { "avg": 1.4 }}]
+	}
+}

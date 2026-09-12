@@ -1,0 +1,25 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:entities/humanoid/usefultrader-chef.json",
+		"op": "addmerge",
+		"path": "/attributes/tradeProps/buying/list",
+		"value": [
+			{
+				"code": "floralzonescaperegion:fruit-carpobrotusacinaciformis",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			}
+		]
+	}
+]

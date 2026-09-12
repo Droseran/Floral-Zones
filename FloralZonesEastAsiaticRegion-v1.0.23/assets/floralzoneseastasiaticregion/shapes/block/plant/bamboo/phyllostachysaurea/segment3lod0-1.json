@@ -1,0 +1,31 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"leaves-large": [32,32]
+	},
+	"textures": {
+		"leaves-large": "game:block/plant/bamboo/leaves-large"
+	},
+	"elements": [
+		{
+			"name": "FoliageCube",
+			"from": [ 0.1, 0.1, 0.1 ],
+			"to": [ 15.9, 15.9, 15.9 ],
+			"shade": false,			"gradientShade": true,
+			"climateColorMap": "climatePlantTint",
+			"renderPass": 1,
+			"faces": {
+				"north": { "texture": "#leaves-large", "uv": [ 0.0, 0.0, 15.5, 15.5 ], "windMode": [5,5,5,5] },
+				"east": { "texture": "#leaves-large", "uv": [ 0.0, 0.0, 15.5, 15.5 ], "windMode": [5,5,5,5] },
+				"south": { "texture": "#leaves-large", "uv": [ 0.0, 0.0, 15.5, 15.5 ], "windMode": [5,5,5,5] },
+				"west": { "texture": "#leaves-large", "uv": [ 0.0, 0.0, 15.5, 15.5 ], "windMode": [5,5,5,5] },
+				"up": { "texture": "#leaves-large", "uv": [ 0.0, 0.0, 15.5, 15.5 ], "windMode": [5,5,5,5] },
+				"down": { "texture": "#leaves-large", "uv": [ 0.0, 0.0, 15.5, 15.5 ], "windMode": [5,5,5,5] }
+			}
+		}
+	]}

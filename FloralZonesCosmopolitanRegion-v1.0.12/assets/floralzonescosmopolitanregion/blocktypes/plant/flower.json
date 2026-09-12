@@ -1,0 +1,99 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+	"variantgroups": [
+		{ "code": "type", "states": ["chamaenerionangustifolium","cladoniarangiferina","crinumasiaticum","ludwigiapeploides","menyanthestrifoliata","rhododendrontomentosum","surianamaritima"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"reinforcable": true,
+		"plantContainable": {
+			"smallContainerByType": {
+				"*-chamaenerionangustifolium-*": {"shape": {"base": "block/plant/flower/{type}05"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1"},"flower2": { "base": "block/plant/flower/petal/{type}2"},"flower3": { "base": "block/plant/flower/petal/{type}3"},"leaves1": { "base": "block/plant/flower/leaves/{type}1" },"leaves2": { "base": "block/plant/flower/leaves/{type}2" },"leaves3": { "base": "block/plant/flower/leaves/{type}3" }}},
+				"*-cladoniarangiferina": {"shape": {"base": "block/plant/fern/cladoniarangiferina04"},"textures": {"fern0": { "base": "block/plant/fern/{type}2" },"fern1": { "base": "block/plant/fern/{type}1" },"fern2": { "base": "block/plant/fern/{type}2" },"fern3": { "base": "block/plant/fern/{type}3" }}},
+				"*-rhododendrontomentosum-*": {"shape": {"base": "block/plant/flower/{type}03"},"textures": {"leaves1": { "base": "block/plant/flower/leaves/{type}01"},"leaves2": { "base": "block/plant/flower/leaves/{type}02" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}04" }]},"leaves3": { "base": "block/plant/flower/leaves/{type}03" ,"alternates": [{ "base": "block/plant/flower/leaves/{type}04" }]}}},
+				"*-surianamaritima-*": {"shape": {"base": "block/plant/flower/{type}01"},"textures": {"leaves1": { "base": "block/plant/flower/leaves/{type}1","alternates": [ { "base": "block/plant/flower/leaves/{type}1" },{ "base": "block/plant/flower/leaves/{type}2" }]},"leaves2": { "base": "block/plant/flower/leaves/{type}2" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}1" },{ "base": "block/plant/flower/leaves/{type}2" }]}}}
+			},
+			"largeContainerByType": {
+				"*-chamaenerionangustifolium-*": {"shape": {"base": "block/plant/flower/{type}05"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1"},"flower2": { "base": "block/plant/flower/petal/{type}2"},"flower3": { "base": "block/plant/flower/petal/{type}3"},"leaves1": { "base": "block/plant/flower/leaves/{type}1" },"leaves2": { "base": "block/plant/flower/leaves/{type}2" },"leaves3": { "base": "block/plant/flower/leaves/{type}3" }}},
+				"*-cladoniarangiferina": {"shape": {"base": "block/plant/fern/cladoniarangiferina04"},"textures": {"fern0": { "base": "block/plant/fern/{type}2" },"fern1": { "base": "block/plant/fern/{type}1" },"fern2": { "base": "block/plant/fern/{type}2" },"fern3": { "base": "block/plant/fern/{type}3" }}},
+				"*-crinumasiaticum-*": {"shape": {"base": "block/plant/flower/{type}02"},"textures": { "leaves1": { "base": "block/plant/flower/leaves/{type}1" },"leaves2": { "base": "block/plant/flower/leaves/{type}2" },"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-rhododendrontomentosum-*": {"shape": {"base": "block/plant/flower/{type}03"},"textures": {"leaves1": { "base": "block/plant/flower/leaves/{type}01"},"leaves2": { "base": "block/plant/flower/leaves/{type}02" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}04" }]},"leaves3": { "base": "block/plant/flower/leaves/{type}03" ,"alternates": [{ "base": "block/plant/flower/leaves/{type}04" }]}}},
+				"*-surianamaritima-*": {"shape": {"base": "block/plant/flower/{type}01"},"textures": {"leaves1": { "base": "block/plant/flower/leaves/{type}1","alternates": [ { "base": "block/plant/flower/leaves/{type}1" },{ "base": "block/plant/flower/leaves/{type}2" }]},"leaves2": { "base": "block/plant/flower/leaves/{type}2" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}1" },{ "base": "block/plant/flower/leaves/{type}2" }]}}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"*-ludwigiapeploides-*":{"base": "block/plant/flower/{type}01","alternates": [ { "base": "block/plant/flower/{type}03" } ]},
+		"*":{"base": "block/plant/flower/{type}*"}
+
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"*-chamaenerionangustifolium-*": {
+		 "flower1": { "base": "block/plant/flower/petal/{type}1"},"flower2": { "base": "block/plant/flower/petal/{type}2"},"flower3": { "base": "block/plant/flower/petal/{type}3"},
+		 "leaves1": { "base": "block/plant/flower/leaves/{type}1" },"leaves2": { "base": "block/plant/flower/leaves/{type}2" },"leaves3": { "base": "block/plant/flower/leaves/{type}3" }},	
+		"*-cladoniarangiferina-*": {"fern0": { "base": "block/plant/fern/{type}2" },"fern1": { "base": "block/plant/fern/{type}1" },"fern2": { "base": "block/plant/fern/{type}2" },"fern3": { "base": "block/plant/fern/{type}3" }},	
+		"*-crinumasiaticum-*": {
+		 "leaves1": { "base": "block/plant/flower/leaves/{type}1" },"leaves2": { "base": "block/plant/flower/leaves/{type}2" },"flower": { "base": "block/plant/flower/petal/{type}" }},
+		"*-menyanthestrifoliata-*": {
+		 "leaves1": { "base": "block/plant/flower/leaves/{type}1" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}1" },{ "base": "block/plant/flower/petal/{type}1" },{ "base": "block/plant/flower/leaves/{type}1" } ]},"flower1": { "base": "block/plant/flower/petal/{type}1" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}1" },{ "base": "block/plant/flower/petal/{type}1" },{ "base": "block/plant/flower/leaves/{type}1" } ]}},				
+		"*-ludwigiapeploides-*": {
+		 "leaves1": { "base": "block/plant/flower/leaves/{type}1" ,"alternates": [ { "base": "block/plant/flower/petal/{type}1" },{ "base": "block/plant/flower/petal/{type}1" } ]},"leaves2": { "base": "block/plant/flower/petal/{type}2" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}2" },{ "base": "block/plant/flower/leaves/{type}2" } ]}},		
+		"*-rhododendrontomentosum-*": {
+		 "leaves1": { "base": "block/plant/flower/leaves/{type}01"},"leaves2": { "base": "block/plant/flower/leaves/{type}02" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}04" }]},"leaves3": { "base": "block/plant/flower/leaves/{type}03" ,"alternates": [{ "base": "block/plant/flower/leaves/{type}04" }]}},		
+		"*-surianamaritima-*": {
+		 "leaves1": { "base": "block/plant/flower/leaves/{type}1","alternates": [ { "base": "block/plant/flower/leaves/{type}1" },{ "base": "block/plant/flower/leaves/{type}2" }]},"leaves2": { "base": "block/plant/flower/leaves/{type}2" ,"alternates": [ { "base": "block/plant/flower/leaves/{type}1" },{ "base": "block/plant/flower/leaves/{type}2" }]}}						
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+		"inside": "game:walk/grass"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*": { "scale": 1.5}
+	}
+}

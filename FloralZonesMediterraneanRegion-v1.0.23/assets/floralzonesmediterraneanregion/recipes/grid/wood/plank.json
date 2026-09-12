@@ -1,0 +1,59 @@
+[
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonesmediterraneanregion:log-placed-*-ud", "name": "wood" }
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "floralzonesmediterraneanregion:plank-{wood}", "quantity": 12  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonesmediterraneanregion:logsection-placed-*-ne-ud", "name": "wood" }
+		},
+		"width": 2,
+		"height": 1,
+		"recipeGroup": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "floralzonesmediterraneanregion:plank-{wood}", "quantity": 12  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonesmediterraneanregion:planks-*-ns", "name": "wood" }
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "floralzonesmediterraneanregion:plank-{wood}", "quantity": 4  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonesmediterraneanregion:plankstairs-*-up-north-free", "name": "wood" }
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "floralzonesmediterraneanregion:plank-{wood}", "quantity": 3  }
+	},
+	{
+		"ingredientPattern": "SL",
+		"ingredients": {
+			"S": { "type": "item", "code": "game:saw-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonesmediterraneanregion:plankslab-*-down-free", "name": "wood" }
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "item", "code": "floralzonesmediterraneanregion:plank-{wood}", "quantity": 2  }
+	},
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Tree Nettle",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:silvertorchcactus-urticaferox"
+          ],
+          "minTemp": 8,
+          "maxTemp": 14,
+		  "minForest": 0.1,
+		  "maxForest": 0.6,
+          "minRain": 0.26,
+          "maxRain": 1,
+          "chance": 1,
+		  "minY": 0,
+          "maxY": 0.18,
+		  "minFertility":0.7,
+		  "maxFertility": 1,
+		  "placement": "OnSurfacePlusUnderTrees",
+          "quantity": { "dist": "invexp", "avg": 8, "var": 5 },
+          "offsetX": { "avg": 0, "var": 5 },
+          "offsetZ": { "avg": 0, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small varied patches of Shore Puha",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:tallplant-sonchuskirkii-land-normal-free"
+          ],
+          "minTemp": 10,
+          "maxTemp": 16,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minRain": 0.26,
+          "maxRain": 0.8,
+          "chance": 1,
+		  "minY": 0,
+          "maxY": 0.05,
+		  "minFertility":0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 3 },
+          "offsetX": { "avg": 1, "var": 4 },
+          "offsetZ": { "avg": 1, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of New Zealand Flax",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:tallplant-phormiumtenax-land-normal-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 20,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "minRain": 0.26,
+          "maxRain": 1,
+          "chance": 0.2,
+		  "minY": 0,
+          "maxY": 0.41,
+		  "minFertility":0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 2 },
+          "offsetX": { "avg": 1, "var": 4 },
+          "offsetZ": { "avg": 1, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+		},
+]

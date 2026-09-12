@@ -1,0 +1,64 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+"variantgroups": [
+        { "code": "type", "states": ["asparagusscandens"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+		"plantContainable": {
+			"smallContainer": {
+				"shapeByType": { "base": "block/plant/fern/asparagusscandens-ground" }
+			},
+			"largeContainer": {
+				"shape": { "base": "block/plant/fern/asparagusscandens-ground" }
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-asparagusscandens":{"base": "block/plant/fern/asparagusscandens-ground"},
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"*-asparagusscandens": {
+			"asparagusscandens": { "base": "block/plant/fern/asparagusscandens" }
+		},
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5,
+	},
+	"frostable": true,
+	"guiTransform": {
+		"scale": 1.5
+	}
+}

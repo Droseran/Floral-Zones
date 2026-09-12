@@ -1,0 +1,106 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Garlic",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:crop-alliumsativum-4", "floralzonescosmopolitanregion:crop-alliumsativum-7", "floralzonescosmopolitanregion:crop-alliumsativum-6", "floralzonescosmopolitanregion:crop-alliumsativum-3"
+          ],
+          "minTemp": 7,
+          "maxTemp": 14,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "minRain": 0.44,
+          "maxRain": 0.65,
+          "chance": 0.05,
+		  "minFertility": 0.4,
+		  "maxFertility": 1,
+		  "minY": 0,
+          "maxY": 0.8,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 3 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Sweet Potato",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:crop-ipomoeabatatas-4", "floralzonescosmopolitanregion:crop-ipomoeabatatas-6", "floralzonescosmopolitanregion:crop-ipomoeabatatas-3", "floralzonescosmopolitanregion:crop-ipomoeabatatas-5"
+          ],
+          "minTemp": 21,
+          "maxTemp": 40,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.6,
+          "maxRain": 1,
+          "chance": 0.05,
+		  "minFertility": 0.6,
+		  "maxFertility": 1,
+		  "minY": 0,
+          "maxY": 0.68,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 0, "var": 5 },
+          "offsetZ": { "avg": 0, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Bean",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:crop-phaseolusvulgaris-4", "floralzonescosmopolitanregion:crop-phaseolusvulgaris-5", "floralzonescosmopolitanregion:crop-phaseolusvulgaris-6", "floralzonescosmopolitanregion:crop-phaseolusvulgaris-3"
+          ],
+          "minTemp": 16,
+          "maxTemp": 40,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "minRain": 0.5,
+          "maxRain": 1,
+          "chance": 0.05,
+		  "minFertility": 0.6,
+		  "maxFertility": 1,
+		  "minY": 0,
+          "maxY": 0.7,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 3 },
+          "offsetX": { "avg": 2, "var": 8 },
+          "offsetZ": { "avg": 2, "var": 8 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied Small patches of Maize",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:crop-zeamays-4", "floralzonescosmopolitanregion:crop-zeamays-1", "floralzonescosmopolitanregion:crop-zeamays-2", "floralzonescosmopolitanregion:crop-zeamays-3"
+          ],
+          "minTemp": 14,
+          "maxTemp": 34,
+		  "minForest": 0,
+		  "maxForest": 0.4,
+          "minRain": 0.6,
+          "maxRain": 1,
+          "chance": 0.05,
+		  "minFertility": 0.6,
+		  "maxFertility": 1,
+		  "minY": 0,
+          "maxY": 0.8,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 1, "var": 5 },
+          "offsetZ": { "avg": 1, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/crop.json",
+        "side": "server",
+		}
+]

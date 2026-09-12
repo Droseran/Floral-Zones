@@ -1,0 +1,171 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+	"variantgroups": [
+		{ "code": "type", "states": ["bergeniacrassifolia","calthanatans","cirsiumhelenioides","digitalispurpurea","hemerocallislilioasphodelus","irisiberica","oreomeconlapponica","pedicularisverticillata","rhododendronaureum","rhododendronponticum","salixarctica","sarraceniapurpurea","sileneacaulis","trifoliumpratense","typhaminima"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"reinforcable": true,
+		"plantContainable": {
+			"smallContainerByType": {	
+				"*-cirsiumhelenioides-*": {"shape": {"base": "block/plant/flower/cirsiumhelenioides3"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1"},"flower2": { "base": "block/plant/flower/petal/{type}2"}}},
+				"*-digitalispurpurea-*": {"shape": {"base": "block/plant/flower/digitalispurpurea1"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1"},"flower2": { "base": "block/plant/flower/petal/{type}2"}}},
+				"*-eriophorumcallitrix-*": {"shape": {"base": "block/plant/flower/eriophorumcallitrix3"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"},"leaves": { "base": "block/plant/flower/stem/{type}1"}}},
+				"*-irisiberica-*": {"shape": {"base": "block/plant/flower/irisiberica1"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"},"leaves": { "base": "block/plant/flower/stem/{type}1"}}},
+				"*-oreomeconlapponica-*": {"shape": {"base": "block/plant/flower/oreomeconlapponica1"}},
+				"*-pedicularisverticillata-*": {"shape": {"base": "block/plant/flower/pedicularisverticillata1"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"}}},
+				"*-salixarctica-*": {"shape": {"base": "block/plant/flower/salixarctica3"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"}}},
+				"*-trifoliumpratense-*": {"shape": {"base": "block/plant/flower/trifoliumpratense3"},"textures": {"leavesa": { "base": "block/plant/flower/stem/{type}1"},"leavesb": { "base": "block/plant/flower/stem/{type}2"},"leavesc": { "base": "block/plant/flower/stem/{type}3"},"flowera": { "base": "block/plant/flower/petal/{type}1"},"flowerb": { "base": "block/plant/flower/petal/{type}2"},"flowerc": { "base": "block/plant/flower/petal/{type}3"}}},
+				"*-typhaminima-*": {"shape": {"base": "block/plant/flower/typhaminima1"}}		
+			},
+			"largeContainerByType": {
+				"*-bergeniacrassifolia-*": {"shape": {"base": "block/plant/flower/bergeniacrassifolia1"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1"}}},
+				"*-cirsiumhelenioides-*": {"shape": {"base": "block/plant/flower/cirsiumhelenioides3"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1"},"flower2": { "base": "block/plant/flower/petal/{type}2"}}},
+				"*-eriophorumcallitrix-*": {"shape": {"base": "block/plant/flower/eriophorumcallitrix3"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"},"leaves": { "base": "block/plant/flower/stem/{type}1"}}},
+				"*-hemerocallislilioasphodelus-*": {"shape": {"base": "block/plant/flower/hemerocallislilioasphodelus1"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1" },"flower2": { "base": "block/plant/flower/petal/{type}2" },"flower3": { "base": "block/plant/flower/petal/{type}3" },"leaves1": { "base": "block/plant/flower/stem/{type}1" },"leaves2": { "base": "block/plant/flower/stem/{type}2" },"leaves3": { "base": "block/plant/flower/stem/{type}3" },"stem1": { "base": "block/plant/flower/stem/{type}-stem1" },"stem2": { "base": "block/plant/flower/stem/{type}-stem2" },"stem3": { "base": "block/plant/flower/stem/{type}-stem3" }}},
+				"*-irisiberica-*": {"shape": {"base": "block/plant/flower/irisiberica1"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"},"leaves": { "base": "block/plant/flower/stem/{type}1"}}},
+				"*-oreomeconlapponica-*": {"shape": {"base": "block/plant/flower/oreomeconlapponica1"}},
+				"*-pedicularisverticillata-*": {"shape": {"base": "block/plant/flower/pedicularisverticillata1"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"}}},
+				"*-rhododendronaureum-*": {"shape": {"base": "block/plant/flower/rhododendronaureum1"},"textures": {"flower1": { "base": "block/plant/flower/petal/{type}1"}}},
+				"*-rhododendronponticum-*": {"shape": {"base": "block/plant/flower/rhododendronponticum4"},"textures": {"stem": { "base": "block/plant/flower/stem/{type}1"},"leaves1": { "base": "block/plant/flower/petal/{type}1"},"leaves2": { "base": "block/plant/flower/petal/{type}2"}}},
+				"*-salixarctica-*": {"shape": {"base": "block/plant/flower/salixarctica3"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"}}},
+				"*-sarraceniapurpurea-*": {"shape": {"base": "block/plant/flower/sarraceniapurpurea2"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"}}},
+				"*-sileneacaulis-*": {"shape": {"base": "block/plant/flower/sileneacaulis2"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}1"},"leaves": { "base": "block/plant/flower/stem/{type}1"}}},
+				"*-trifoliumpratense-*": {"shape": {"base": "block/plant/flower/trifoliumpratense3"},"textures": {"leavesa": { "base": "block/plant/flower/stem/{type}1"},"leavesb": { "base": "block/plant/flower/stem/{type}2"},"leavesc": { "base": "block/plant/flower/stem/{type}3"},"flowera": { "base": "block/plant/flower/petal/{type}1"},"flowerb": { "base": "block/plant/flower/petal/{type}2"},"flowerc": { "base": "block/plant/flower/petal/{type}3"}}},
+				"*-typhaminima-*": {"shape": {"base": "block/plant/flower/typhaminima2"}}					
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"@.*-(bergeniacrassifolia)-.*":{"base": "block/plant/flower/{type}1","alternates": [ { "base": "block/plant/flower/{type}1", "selectiveElements": [ "Origin/*" ]},{ "base": "block/plant/flower/{type}2"},{ "base": "block/plant/flower/{type}2", "selectiveElements": [ "Origin/*","Origin2/*","Origin3/*","Origin4/*" ]}]},
+		"@.*-(calthanatans)-.*":{"base": "block/plant/aquatic/{type}2"},
+		"@.*-(rosamajalis)-.*":{"base": "block/plant/flower/{type}"},
+		"@.*-(pedicularisverticillata)-.*":{"base": "block/plant/flower/{type}2","alternates": [ { "base": "block/plant/flower/{type}3"} ]},
+		"@.*-(salixarctica)-.*":{"base": "block/plant/flower/{type}1","alternates": [ { "base": "block/plant/flower/{type}2"} ]},
+		"@.*-(sarraceniapurpurea)-.*":{"base": "block/plant/flower/{type}1","alternates": [ { "base": "block/plant/flower/{type}1","selectiveElements": [ "Flower Origin1/*","Flower Origin3/*" ]},{ "base": "block/plant/flower/{type}1","selectiveElements": [ "Flower Origin4/*","Flower Origin5/*" ]} ]},
+		"@.*-(sileneacaulis)-.*":{"base": "block/plant/flower/{type}1","alternates": [ { "base": "block/plant/flower/{type}2"} ]},
+		"@.*-(trifoliumpratense)-.*":{"base": "block/plant/flower/{type}1"},
+		"*":{"base": "block/plant/flower/{type}*"}
+	},
+	"randomDrawOffset": true,
+  "texturesByType": {
+    "@.*-(bergeniacrassifolia)-.*": {
+      "flower1": { "base": "block/plant/flower/petal/{type}1" }
+    },
+		"*-calthanatans-*": {
+		 "leaves": { "base": "block/plant/aquatic/{type}1"},"stem": { "base": "block/plant/aquatic/{type}2"},"flower": { "base": "block/plant/aquatic/{type}3"}},
+    "@.*-(cirsiumhelenioides)-.*": {
+      "flower1": { "base": "block/plant/flower/petal/{type}1","alternates": [ { "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}3"} ] },
+      "flower2": { "base": "block/plant/flower/petal/{type}2","alternates": [ { "base": "block/plant/flower/petal/{type}3"},{ "base": "block/plant/flower/petal/{type}1"} ] }
+    },
+    "@.*-(digitalispurpurea)-.*": {
+      "flower1": { "base": "block/plant/flower/petal/{type}1","alternates": [ { "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}3"},{ "base": "block/plant/flower/petal/{type}3"},{ "base": "block/plant/flower/petal/{type}3"} ] },
+      "flower2": { "base": "block/plant/flower/petal/{type}1","alternates": [ { "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}3"},{ "base": "block/plant/flower/petal/{type}3"},{ "base": "block/plant/flower/petal/{type}3"} ] },
+      "flower3": { "base": "block/plant/flower/petal/{type}1","alternates": [ { "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}3"},{ "base": "block/plant/flower/petal/{type}3"},{ "base": "block/plant/flower/petal/{type}3"} ] }
+    },
+    "@.*-(hemerocallislilioasphodelus)-.*": {
+      "flower1": { "base": "block/plant/flower/petal/{type}1" },
+      "flower2": { "base": "block/plant/flower/petal/{type}2" },
+      "flower3": { "base": "block/plant/flower/petal/{type}3" },
+      "leaves1": { "base": "block/plant/flower/stem/{type}1" },
+      "leaves2": { "base": "block/plant/flower/stem/{type}2" },
+      "leaves3": { "base": "block/plant/flower/stem/{type}3" },
+      "stem1": { "base": "block/plant/flower/stem/{type}-stem1" },
+      "stem2": { "base": "block/plant/flower/stem/{type}-stem2" },
+      "stem3": { "base": "block/plant/flower/stem/{type}-stem3" }
+    },
+    "@.*-(irisiberica)-.*": {
+      "flower1": { "base": "block/plant/flower/petal/{type}*" },
+      "leaves1": { "base": "block/plant/flower/stem/{type}*" }
+    },
+    "@.*-(oreomeconlapponica)-.*": {
+      "flower1": { "base": "block/plant/flower/petal/{type}1" },
+      "flower2": { "base": "block/plant/flower/petal/{type}2" },
+      "flower3": { "base": "block/plant/flower/petal/{type}3" },
+      "leaves1": { "base": "block/plant/flower/stem/{type}1" }
+    },
+    "@.*-(pedicularisverticillata)-.*": {
+      "flower": { "base": "block/plant/flower/petal/{type}*","alternates": [ { "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}2"} ] }
+    },
+    "@.*-(rhododendronaureum)-.*": {
+      "flower1": { "base": "block/plant/flower/petal/{type}1" },
+      "flower2": { "base": "block/plant/flower/petal/{type}2" }
+    },
+    "@.*-(rhododendronponticum)-.*": {
+      "stem": { "base": "block/plant/flower/stem/{type}*" },
+      "leaves1": { "base": "block/plant/flower/petal/{type}1","alternates": [ { "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}2"} ] },
+      "leaves2": { "base": "block/plant/flower/petal/{type}2","alternates": [ { "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}2"} ] }
+    },
+    "@.*-(salixarctica)-.*": {
+      "flower": { "base": "block/plant/flower/petal/{type}1","alternates": [ { "base": "block/plant/flower/petal/{type}2"},{ "base": "block/plant/flower/petal/{type}1"},{ "base": "block/plant/flower/petal/{type}2"} ] },
+      "leaves": { "base": "block/plant/flower/stem/{type}1","alternates": [ { "base": "block/plant/flower/stem/{type}2"},{ "base": "block/plant/flower/stem/{type}2"},{ "base": "block/plant/flower/stem/{type}1"} ] },
+      "stem": { "base": "block/plant/flower/stem/{type}-stem1","alternates": [ { "base": "block/plant/flower/stem/{type}-stem2"},{ "base": "block/plant/flower/stem/{type}-stem2"},{ "base": "block/plant/flower/stem/{type}-stem1"} ] }
+    },
+    "@.*-(sarraceniapurpurea)-.*": {
+      "flower1": { "base": "block/plant/flower/petal/{type}1" }
+    },
+    "@.*-(sileneacaulis)-.*": { "leaves1": { "base": "block/plant/flower/stem/{type}1","alternates": [ { "base": "block/plant/flower/stem/{type}*"},{ "base": "block/plant/flower/stem/{type}2"} ]},"flower1": { "base": "block/plant/flower/petal/{type}1"}},
+    "@.*-(trifoliumpratense)-.*": {
+      "flower": { "base": "block/plant/flower/petal/{type}1"},
+      "leaves": { "base": "block/plant/flower/stem/{type}2" },
+      "stem": { "base": "block/plant/flower/stem/{type}1" }
+    }
+  },
+	"walkspeedmultiplierByType": {"*-rhododendronponticum-*":0.3, "*":1.0},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+	"selectionboxByType": {
+		"@.*-(calthanatans|salixarctica|sileneacaulis)-.*":{
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+		"@.*-(rhododendronponticum)-.*":{
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.95, "z2": 0.875
+	},"*":{
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.5, "z2": 0.875
+	}},
+	"soundsByType": {
+		"@.*-(rhododendronponticum|rosamajalis)-.*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass","inside": "game:walk/inside/leafy/bushrustle*"},
+		"*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass"}},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*": { "scale": 1.5}
+	}
+}

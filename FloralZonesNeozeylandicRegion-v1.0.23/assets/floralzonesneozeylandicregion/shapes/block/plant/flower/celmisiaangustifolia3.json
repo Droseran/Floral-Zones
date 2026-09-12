@@ -1,0 +1,52 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 8,
+	"textureSizes": {
+		"flower": [16,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Flowera5",
+			"from": [ 6.0, 0.0, 8.0 ],
+			"to": [ 10.0, 8.0, 8.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 8.25, 0.0, 8.0 ],
+			"rotationY": 30.0,
+			"faces": {
+				"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "windMode": [0,1,1,0] }
+			},
+			"children": [
+				{
+					"name": "Flowerb5",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 4.0, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 2.25, 0.0, 0.0 ],
+					"rotationY": 120.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "windMode": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Flowerc5",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 4.0, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 2.25, 0.0, 0.0 ],
+					"rotationY": -120.0,
+					"faces": {
+						"north": { "texture": "#flower", "uv": [ 0.0, 0.0, 4.0, 8.0 ], "windMode": [0,1,1,0] }
+					}
+				}
+			]
+		}
+	]}

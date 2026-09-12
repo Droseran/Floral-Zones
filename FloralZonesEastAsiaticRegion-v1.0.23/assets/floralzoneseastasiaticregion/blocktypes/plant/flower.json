@@ -1,0 +1,107 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+	"variantgroups": [
+		{ "code": "type", "states": ["deutziagracilis","hibiscussyriacus","iristyphifolia","liliumauratum","liliumlancifolium","linnaeaamabilis","loropetalumchinense","lycorisradiata","paeonialactiflora","platycodongrandiflorus","utriculariawarburgii"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true,
+		"reinforcable": true,
+		"stackableByType": {"*-loropetalumchinense-*" :true, "*" : false},
+		"plantContainable": {
+			"smallContainerByType": {	
+				"*-deutziagracilis-*": {"shape": {"base": "block/plant/flower/deutziagracilis"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-iristyphifolia-*": {"shape": {"base": "block/plant/flower/iristyphifolia-01"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-liliumlancifolium-*": {"shape": {"base": "block/plant/flower/liliumlancifolium"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-lycorisradiata-*": {"shape": {"base": "block/plant/flower/lycorisradiata2"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-loropetalumchinense-*": {"shape": {"base": "block/plant/flower/loropetalumchinense1"},"textures": {"smallleaves": { "base": "block/plant/leaves/small/loropetalumchinense" },"largeleaves": { "base": "block/plant/leaves/large/loropetalumchinense" }}},
+				"*-paeonialactiflora-*": {"shape": {"base": "block/plant/flower/platycodongrandiflorus2"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-platycodongrandiflorus-*": {"shape": {"base": "block/plant/flower/platycodongrandiflorus2"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-utriculariawarburgii-*": {"shape": {"base": "block/plant/flower/utriculariawarburgii1"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}}						
+			},
+			"largeContainerByType": {
+				"*-deutziagracilis-*": {"shape": {"base": "block/plant/flower/deutziagracilis"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-iristyphifolia-*": {"shape": {"base": "block/plant/flower/iristyphifolia-01"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-hibiscussyriacus-*": {"shape": {"base": "block/plant/flower/hibiscussyriacus2"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},		
+				"*-liliumlancifolium-*": {"shape": {"base": "block/plant/flower/liliumlancifolium"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-linnaeaamabilis-*": {"shape": {"base": "block/plant/flower/linnaeaamabilis3"},"textures": {"flower": { "base": "floralzoneseastasiaticregion:block/plant/flower/petal/linnaeaamabilis" },"leaves": { "base": "floralzoneseastasiaticregion:block/plant/flower/stem/linnaeaamabilis-largeleaves"},"stem": { "base": "floralzoneseastasiaticregion:block/plant/flower/stem/linnaeaamabilis" }}},
+				"*-loropetalumchinense-*": {"shape": {"base": "block/plant/flower/loropetalumchinense1"},"textures": {"smallleaves": { "base": "block/plant/leaves/small/loropetalumchinense" },"largeleaves": { "base": "block/plant/leaves/large/loropetalumchinense" }}},
+				"*-lycorisradiata-*": {"shape": {"base": "block/plant/flower/lycorisradiata0"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}}	,
+				"*-paeonialactiflora-*": {"shape": {"base": "block/plant/flower/platycodongrandiflorus2"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-platycodongrandiflorus-*": {"shape": {"base": "block/plant/flower/platycodongrandiflorus2"},"textures": {"leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }}},
+				"*-utriculariawarburgii-*": {"shape": {"base": "block/plant/flower/utriculariawarburgii1"},"textures": {"flower": { "base": "block/plant/flower/petal/{type}" }}}									
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"@.*-(deutziagracilis|iristyphifolia|liliumlancifolium)-.*":{"base": "block/plant/flower/{type}"},
+		"@.*-(hibiscussyriacus|liliumauratum|linnaeaamabilis|loropetalumchinense|lycorisradiata|platycodongrandiflorus|utriculariawarburgii)-.*":{"base": "block/plant/flower/{type}*"},
+		"@.*-(paeonialactiflora)-.*":{"base": "block/plant/flower/platycodongrandiflorus*"}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"@.*-(deutziagracilis|iristyphifolia|liliumauratum|lycorisradiata|paeonialactiflora|platycodongrandiflorus)-.*": {
+		 "leaves": { "base": "block/plant/flower/stem/{type}" },"flower": { "base": "block/plant/flower/petal/{type}" }
+		},
+		"@.*-(hibiscussyriacus|liliumlancifolium|utriculariawarburgii)-.*": {"flower": { "base": "block/plant/flower/petal/{type}" }},
+		"@.*-(linnaeaamabilis)-.*": {
+		 "flower": { "base": "floralzoneseastasiaticregion:block/plant/flower/petal/linnaeaamabilis" },"leaves": { "base": "floralzoneseastasiaticregion:block/plant/flower/stem/linnaeaamabilis-largeleaves"},"stem": { "base": "floralzoneseastasiaticregion:block/plant/flower/stem/linnaeaamabilis" }
+		},
+		"@.*-(loropetalumchinense)-.*": {
+		 "smallleaves": { "base": "floralzoneseastasiaticregion:block/plant/leaves/small/loropetalumchinense" },"largeleaves": { "base": "floralzoneseastasiaticregion:block/plant/leaves/large/loropetalumchinense" }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": null,
+  "dropsByType": {    
+  "*-loropetalumchinense-*":[{"type": "block","code": "floralzoneseastasiaticregion:leaves-placed-loropetalumchinense","quantityByType": {"*": { "avg": 1.1, "var": 0 }}}]},
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"soundsByType": {
+		"@.*-(deutziagracilis|hibiscussyriacus|linnaeaamabilis|loropetalumchinense)-.*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass","inside": "game:walk/inside/leafy/bushrustle*"},
+		"*" : {"place": "game:block/plant","break": "game:block/plant","hit": "game:block/plant","walk": "game:walk/grass"}},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-hibiscussyriacus-*": { "origin": { "x": 0.5, "y": 1.0, "z": 0.53 },"scale": 0.75},
+		"*-liliumauratum-*": { "origin": { "x": 0.5, "y": 1.0, "z": 0.53 },"scale": 0.75},
+		"*-linnaeaamabilis-*": { "origin": { "x": 0.5, "y": 1.0, "z": 0.53 },"scale": 0.75},
+		"*-utriculariawarburgii-*": { "origin": { "x": 0.5, "y": 0.1, "z": 0.53 },"scale": 4.5},
+		"*": { "scale": 1.5}
+	}
+}

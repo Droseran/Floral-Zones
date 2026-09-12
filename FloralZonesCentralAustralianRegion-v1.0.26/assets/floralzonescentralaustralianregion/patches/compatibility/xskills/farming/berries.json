@@ -1,0 +1,50 @@
+[
+  {
+    "file": "floralzonescentralaustralianregion:blocktypes/plant/bushtomato",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-ripe",
+    "value": [
+      {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonescentralaustralianregion:blocktypes/plant/pea",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-ripe",
+    "value": [
+      {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonescentralaustralianregion:blocktypes/plant/rubysaltbush",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-ripe",
+    "value": [
+      {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/fountainbamboo",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-normal-*": [
+        {
+          "name": "XSkillsMushroom",
+          "properties": {
+            "xp": 0.1
+          }
+        }
+    ]
+  }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzoneseastasiaticregion:blocktypes/plant/kudzu",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-normal-*": [
+        {
+          "name": "XSkillsMushroom",
+          "properties": {
+            "xp": 0.1
+          }
+        }
+    ]
+  }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

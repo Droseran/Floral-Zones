@@ -1,0 +1,18 @@
+[
+  {
+    "file": "floralzonescosmopolitanregion:blocktypes/plant/wildvanilla",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsMushroom",
+        "properties": {
+          "xp": 0.2
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

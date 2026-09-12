@@ -1,0 +1,87 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:config/tradelists/trader-luxuries.json",
+		"op": "addmerge",
+		"path": "/selling/list",
+		"value": [
+			{
+				"code": "floralzonesmediterraneanregion:flower-antirrhinummajus-white-free",
+				"type": "block",
+				"stacksize": 8,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:flower-antirrhinummajus-red-free",
+				"type": "block",
+				"stacksize": 8,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:grapeclipping-black",
+				"type": "item",
+				"stacksize": 5,
+				"stock": {
+					"avg": 3,
+					"var": 1
+				},
+				"price": {
+					"avg": 15,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:grapeclipping-yellow",
+				"type": "item",
+				"stacksize": 5,
+				"stock": {
+					"avg": 3,
+					"var": 1
+				},
+				"price": {
+					"avg": 15,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:grapeclipping-green",
+				"type": "item",
+				"stacksize": 5,
+				"stock": {
+					"avg": 2,
+					"var": 1
+				},
+				"price": {
+					"avg": 30,
+					"var": 3
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:grapeclipping-white",
+				"type": "item",
+				"stacksize": 5,
+				"stock": {
+					"avg": 1
+				},
+				"price": {
+					"avg": 50,
+					"var": 5
+				}
+			}
+		]
+	}
+]

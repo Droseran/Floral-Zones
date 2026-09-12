@@ -1,0 +1,34 @@
+[
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/wood/woodtyped/thintrunk",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-grown-*",
+    "value": [
+      {
+        "name": "XSkillsWood",
+        "properties": {
+          "xp": 0.25
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonescaribbeanregion:blocktypes/wood/woodtyped/log-cecropia",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-grown-*",
+    "value": [
+      {
+        "name": "XSkillsWood",
+        "properties": {
+          "xp": 0.25
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "file": "floralzonesneozeylandicregion:blocktypes/plant/astelia",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-ripe",
+    "value": [
+      {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  },
+  {
+    "file": "floralzonesneozeylandicregion:blocktypes/plant/palmfruits",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-ripe",
+    "value": [
+      {
+        "name": "XSkillsBerryBush",
+        "properties": {
+          "xp": 0.33
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

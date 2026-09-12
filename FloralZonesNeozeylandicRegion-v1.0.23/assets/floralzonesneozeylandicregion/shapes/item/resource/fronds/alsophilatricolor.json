@@ -1,0 +1,110 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 64,
+	"textureSizes": {
+		"top": [24,64],
+		"bottom": [24,64]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Rotation point",
+					"from": [ 0.0, 4.0, 24.0 ],
+					"to": [ 0.0, 4.0, 24.0 ],
+					"rotationOrigin": [ 0.0, 4.0, 24.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond a1",
+							"from": [ -8.0, 0.0, 0.0 ],
+							"to": [ 8.0, 0.0, 16.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationX": 166.0,
+							"faces": {
+								"down": { "texture": "#top", "uv": [ 0.0, 40.0, 24.0, 64.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+							},
+							"children": [
+								{
+									"name": "Frond b1",
+									"from": [ 0.0, 0.0, 16.0 ],
+									"to": [ 16.0, 0.0, 32.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 8.0, 0.0, 16.0 ],
+									"rotationX": 15.0,
+									"faces": {
+										"down": { "texture": "#top", "uv": [ 0.0, 16.0, 24.0, 40.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+									},
+									"children": [
+										{
+											"name": "Frond c1",
+											"from": [ 0.0, 0.0, 16.0 ],
+											"to": [ 16.0, 0.0, 32.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 8.0, 0.0, 16.0 ],
+											"rotationX": 15.0,
+											"faces": {
+												"down": { "texture": "#top", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+											},
+											"children": [
+												{
+													"name": "Frond f1",
+													"from": [ 0.0, -0.05, 0.0 ],
+													"to": [ 16.0, -0.05, 16.0 ],
+													"shade": false,
+													"renderPass": 1,
+													"rotationOrigin": [ 8.0, -0.05, 0.0 ],
+													"faces": {
+														"down": { "texture": "#bottom", "uv": [ 0.0, 0.0, 24.0, 24.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+													}
+												}
+											]
+										},
+										{
+											"name": "Frond e1",
+											"from": [ 0.0, -0.05, 0.0 ],
+											"to": [ 16.0, -0.05, 16.0 ],
+											"shade": false,
+											"renderPass": 1,
+											"rotationOrigin": [ 8.0, -0.05, 0.0 ],
+											"faces": {
+												"down": { "texture": "#bottom", "uv": [ 0.0, 16.0, 24.0, 40.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+											}
+										}
+									]
+								},
+								{
+									"name": "Frond d1",
+									"from": [ 0.0, -0.05, 0.0 ],
+									"to": [ 16.0, -0.05, 16.0 ],
+									"shade": false,
+									"renderPass": 1,
+									"rotationOrigin": [ 8.0, -0.05, 0.0 ],
+									"faces": {
+										"down": { "texture": "#bottom", "uv": [ 0.0, 40.0, 24.0, 64.0 ], "rotation": 180, "autoUv": false, "windMode": [-1,-1,-1,-1] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

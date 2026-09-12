@@ -1,0 +1,31 @@
+[
+  {
+    "file": "game:recipes/cooking/porridge",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonescosmopolitanregion:treeseed-caricapapaya",
+      "shapeElement": "bowl/fruit 1/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/porridge",
+    "side": "server",
+    "op": "add",
+    "path": "/ingredients/2/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "floralzonescosmopolitanregion:treeseed-caricapapaya",
+      "shapeElement": "bowl/fruit 2/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/fired/pot",
+    "side": "server",
+    "op": "add",
+    "path": "/attributesByType/claypot-blue-cooked/textureMapping/treeseed-caricapapaya",
+    "value": [ "fruit", "group5" ]
+  }
+]

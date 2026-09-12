@@ -1,0 +1,4499 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 24,
+	"textureSizes": {
+		"roystonearegia-stem": [8,24],
+		"roystonearegia": [16,24]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Trunk",
+			"from": [ 4.0, 0.0, 4.0 ],
+			"to": [ 12.0, 16.0, 12.0 ],
+			"rotationOrigin": [ 4.0, 0.0, 4.0 ],
+			"faces": {
+				"north": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 8.0, 8.0, 24.0 ], "windMode": [0,0,0,0], "windData": [1,2,2,1] },
+				"east": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 8.0, 8.0, 24.0 ], "windMode": [0,0,0,0], "windData": [1,2,2,1] },
+				"south": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 8.0, 8.0, 24.0 ], "windMode": [0,0,0,0], "windData": [1,1,2,2] },
+				"west": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 8.0, 8.0, 24.0 ], "windMode": [0,0,0,0], "windData": [1,1,2,2] },
+				"up": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "windMode": [0,0,0,0], "windData": [2,2,2,2] },
+				"down": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "windMode": [0,0,0,0], "windData": [1,1,1,1] }
+			},
+			"children": [
+				{
+					"name": "Frond origin 15",
+					"from": [ 5.0, 2.0, 5.0 ],
+					"to": [ 5.0, 2.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 2.0, 5.0 ],
+					"rotationX": -180.0,
+					"rotationY": -8.0,
+					"rotationZ": -180.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 15",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 119.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,1,1,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 15",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 12.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL15",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR 15",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond LBaseL15",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,0,0,1] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 15",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [0,0,1,1] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 15",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 28.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 15",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond SecondR 15",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 15",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,0,0,1] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 15",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [0,0,1,1] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 15",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 8.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 15",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 15",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 15",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,0,0,1] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 15",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [0,0,1,1] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 15",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 8.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 15",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [1,1,0,0] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 15",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [1,0,0,1] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 15",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [1,0,0,0] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 15",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [0,0,0,1] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 14",
+					"from": [ 5.0, 3.0, 5.0 ],
+					"to": [ 5.0, 3.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 3.0, 5.0 ],
+					"rotationX": -180.0,
+					"rotationY": -83.0,
+					"rotationZ": -180.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 14",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 115.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,1,1,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 14",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 12.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL14",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR 14",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond LBaseL14",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,0,1,1] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 14",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [0,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 14",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 18.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 14",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond SecondR 14",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 14",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,0,1] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 14",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [1,0,1,1] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 14",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 18.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 14",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 14",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 14",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,0,0,1] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 14",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [0,0,1,1] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 14",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 18.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 14",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,0] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 14",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [1,1,0,1] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 14",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [1,0,0,0] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 14",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [0,0,0,1] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 13",
+					"from": [ 5.0, 4.0, 5.0 ],
+					"to": [ 5.0, 4.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 4.0, 5.0 ],
+					"rotationY": -44.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 13",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 103.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,1,1,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 13",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 22.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL13",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR 13",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond LBaseL13",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 13",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 13",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 18.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 13",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond SecondR 13",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 13",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 13",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 13",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 18.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 13",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 13",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 13",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,0,1] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 13",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [1,0,1,1] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 13",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 8.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 13",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 13",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 13",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [1,0,0,1] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 13",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [0,0,1,1] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 12",
+					"from": [ 5.0, 5.0, 5.0 ],
+					"to": [ 5.0, 5.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 5.0, 5.0 ],
+					"rotationY": 17.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 12",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 91.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,1,1,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 12",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 22.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL12",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR 12",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond LBaseL12",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 12",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 12",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 18.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 12",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond SecondR 12",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 12",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 12",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 12",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 18.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 12",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 12",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 12",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 12",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 12",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 18.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 12",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 12",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 12",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [1,1,0,1] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 12",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [1,0,1,1] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 11",
+					"from": [ 5.0, 6.0, 5.0 ],
+					"to": [ 5.0, 6.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 6.0, 5.0 ],
+					"rotationY": 78.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 11",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 87.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,1,1,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 11",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 22.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL11",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,2,1] }
+											}
+										},
+										{
+											"name": "Frond BaseR 11",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,2,1,1] }
+											}
+										},
+										{
+											"name": "Frond LBaseL11",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 11",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 11",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 28.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 11",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,2,2,2] }
+													}
+												},
+												{
+													"name": "Frond SecondR 11",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,1] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 11",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,2] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 11",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [1,1,2,1] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 11",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 28.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 11",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [2,2,2,1] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 11",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [2,2,1,2] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 11",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,1,1,1] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 11",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,2] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 11",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 8.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 11",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [1,2,1,1] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 11",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [2,1,1,1] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 11",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 11",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,1] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 10",
+					"from": [ 5.0, 7.0, 5.0 ],
+					"to": [ 5.0, 7.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 7.0, 5.0 ],
+					"rotationX": -180.0,
+					"rotationY": 44.0,
+					"rotationZ": -180.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 10",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 74.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,1,1,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 10",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 12.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL10",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,2,2,2] }
+											}
+										},
+										{
+											"name": "Frond BaseR 10",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,1] }
+											}
+										},
+										{
+											"name": "Frond LBaseL10",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,2] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 10",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,2,1] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 10",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 8.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 10",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+													}
+												},
+												{
+													"name": "Frond SecondR 10",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 10",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,1,1,2] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 10",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [1,1,2,2] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 10",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 8.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 10",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 10",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 10",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,1,1,2] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 10",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [1,1,2,2] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 10",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 8.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 10",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 10",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 10",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [2,1,1,2] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 10",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [1,1,2,2] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 9",
+					"from": [ 5.0, 8.0, 5.0 ],
+					"to": [ 5.0, 8.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 8.0, 5.0 ],
+					"rotationX": -180.0,
+					"rotationY": -72.0,
+					"rotationZ": -180.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 9",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 71.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,1,1,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 9",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 22.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL9",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,2,2,2] }
+											}
+										},
+										{
+											"name": "Frond BaseR 9",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,1] }
+											}
+										},
+										{
+											"name": "Frond LBaseL9",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,1,2] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 9",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,1,2,1] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 9",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 18.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 9",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+													}
+												},
+												{
+													"name": "Frond SecondR 9",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 9",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,1,1,2] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 9",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [1,1,2,2] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 9",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 18.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 9",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 9",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 9",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,1,1,2] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 9",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [1,1,2,2] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 9",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 18.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 9",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 9",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 9",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [2,1,1,2] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 9",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [1,1,2,2] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 8",
+					"from": [ 5.0, 9.0, 5.0 ],
+					"to": [ 5.0, 9.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 9.0, 5.0 ],
+					"rotationY": -6.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 8",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 66.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,1,1,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 8",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 18.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL8",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+											}
+										},
+										{
+											"name": "Frond BaseR 8",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+											}
+										},
+										{
+											"name": "Frond LBaseL8",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,1,2,2] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 8",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,2,2,2] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 8",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 8.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 8",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,2] }
+													}
+												},
+												{
+													"name": "Frond SecondR 8",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,3,2,2] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 8",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 8",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [2,2,2,2] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 8",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 8.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 8",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [2,3,3,3] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 8",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [3,3,3,2] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 8",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,3] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 8",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,2] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 8",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 8.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 8",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,3] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 8",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,3] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 8",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [3,2,2,3] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 8",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 7",
+					"from": [ 5.0, 10.0, 5.0 ],
+					"to": [ 5.0, 10.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 10.0, 5.0 ],
+					"rotationY": 64.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 7",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 58.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,1,1,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 7",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 8.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL7",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,2] }
+											}
+										},
+										{
+											"name": "Frond BaseR 7",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,2,2] }
+											}
+										},
+										{
+											"name": "Frond LBaseL7",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,1,2,2] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 7",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [1,2,2,2] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 7",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 8.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 7",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,3] }
+													}
+												},
+												{
+													"name": "Frond SecondR 7",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,2] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 7",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,3] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 7",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [2,2,3,2] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 7",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 8.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 7",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [3,3,3,3] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 7",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [3,3,3,3] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 7",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,2,3,3] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 7",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,3] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 7",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 8.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 7",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,3] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 7",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,3] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 7",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,3] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 7",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,3] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 6",
+					"from": [ 5.0, 11.0, 5.0 ],
+					"to": [ 5.0, 11.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 11.0, 5.0 ],
+					"rotationX": -180.0,
+					"rotationY": -11.0,
+					"rotationZ": -180.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 6",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 47.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,1,1,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,1,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 6",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 8.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL6",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+											}
+										},
+										{
+											"name": "Frond BaseR 6",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,2] }
+											}
+										},
+										{
+											"name": "Frond LBaseL6",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,2,3] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 6",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,2] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 6",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 8.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 6",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,3] }
+													}
+												},
+												{
+													"name": "Frond SecondR 6",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,3] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 6",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,2,3,3] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 6",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [2,3,3,3] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 6",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 8.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 6",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [3,3,4,4] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 6",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [3,4,4,3] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 6",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,4] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 6",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [3,3,4,3] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 6",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 8.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 6",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [4,4,4,4] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 6",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [4,4,4,4] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 6",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [4,3,3,4] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 6",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [3,3,4,4] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 5",
+					"from": [ 5.0, 12.0, 5.0 ],
+					"to": [ 5.0, 12.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 12.0, 5.0 ],
+					"rotationY": -66.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 5",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 42.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,2,2,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,2,2] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,2,2,1] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 5",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 8.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL5",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+											}
+										},
+										{
+											"name": "Frond BaseR 5",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,2] }
+											}
+										},
+										{
+											"name": "Frond LBaseL5",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 5",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,2] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 5",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 8.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 5",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,4,4] }
+													}
+												},
+												{
+													"name": "Frond SecondR 5",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,4,4,3] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 5",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,2,3,4] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 5",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [2,3,4,3] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 5",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 8.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 5",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [4,4,4,4] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 5",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [4,4,4,4] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 5",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [4,3,4,4] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 5",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [3,4,4,4] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 5",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 8.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 5",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [4,4,5,5] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 5",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [4,5,5,4] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 5",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [4,4,4,5] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 5",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [4,4,5,4] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 4",
+					"from": [ 5.0, 13.0, 5.0 ],
+					"to": [ 5.0, 13.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 13.0, 5.0 ],
+					"rotationY": 22.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 4",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 30.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,2,2,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,2,2] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,2,2] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 4",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 8.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL4",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+											}
+										},
+										{
+											"name": "Frond BaseR 4",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,2] }
+											}
+										},
+										{
+											"name": "Frond LBaseL4",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 4",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,2] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 4",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 8.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 4",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,4,4] }
+													}
+												},
+												{
+													"name": "Frond SecondR 4",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,4,4,3] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 4",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,3,4] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 4",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [3,3,4,3] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 4",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 8.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 4",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [4,4,4,4] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 4",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [4,4,4,4] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 4",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [4,3,4,4] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 4",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [3,4,4,4] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 4",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 8.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 4",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [4,4,5,5] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 4",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [4,5,5,4] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 4",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [4,4,4,5] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 4",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [4,4,5,4] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 3",
+					"from": [ 5.0, 14.0, 5.0 ],
+					"to": [ 5.0, 14.0, 5.0 ],
+					"rotationOrigin": [ 5.0, 14.0, 5.0 ],
+					"rotationX": -180.0,
+					"rotationY": 53.0,
+					"rotationZ": -180.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 3",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 15.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,2,2,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,2,2] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,2,2] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 3",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 9.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL3",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+											}
+										},
+										{
+											"name": "Frond BaseR 3",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,2] }
+											}
+										},
+										{
+											"name": "Frond LBaseL3",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 3",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,2] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 3",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 11.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 3",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,4,4] }
+													}
+												},
+												{
+													"name": "Frond SecondR 3",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,4,4,3] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 3",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,4,4] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 3",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [3,4,4,3] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 3",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 14.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 3",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [4,4,5,5] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 3",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [4,5,5,4] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 3",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [4,4,5,5] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 3",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [4,5,5,4] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 3",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 18.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 3",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [5,5,6,6] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 3",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [5,6,6,5] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 3",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [5,5,5,6] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 3",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [5,5,6,5] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 2",
+					"from": [ 5.0, 15.0, 3.0 ],
+					"to": [ 5.0, 15.0, 3.0 ],
+					"rotationOrigin": [ 5.0, 15.0, 3.0 ],
+					"rotationX": -180.0,
+					"rotationY": -64.0,
+					"rotationZ": -180.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 2",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 17.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [1,2,2,1] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,2,2] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [1,1,2,2] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 2",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 8.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL2",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+											}
+										},
+										{
+											"name": "Frond BaseR 2",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,2] }
+											}
+										},
+										{
+											"name": "Frond LBaseL2",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 2",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,2] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 2",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 12.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 2",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,4,4] }
+													}
+												},
+												{
+													"name": "Frond SecondR 2",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,4,4,3] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 2",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,4,4] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 2",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [3,4,4,3] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 2",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 16.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 2",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [4,4,5,5] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 2",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [4,5,5,4] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 2",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [4,4,5,5] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 2",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [4,5,5,4] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 2",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 20.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 2",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [5,5,6,6] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 2",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [5,6,6,5] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 2",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [5,5,5,6] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 2",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [5,5,6,5] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Frond origin 1",
+					"from": [ 4.0, 16.0, 4.0 ],
+					"to": [ 4.0, 16.0, 4.0 ],
+					"rotationOrigin": [ 4.0, 16.0, 4.0 ],
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Frond Stem 1",
+							"from": [ 0.0, 0.0, -0.5 ],
+							"to": [ 1.0, 16.0, 0.5 ],
+							"shade": false, "gradientShade": true,
+							"climateColorMap": "climatePlantTint",
+							"seasonColorMap": "tropicalKapok",
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+							"rotationZ": 5.0,
+							"faces": {
+								"north": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,3,3,0], "windData": [2,2,3,2] },
+								"south": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [2,2,3,2] },
+								"west": { "texture": "#roystonearegia", "uv": [ 0.0, 0.0, 1.0, 16.0 ], "windMode": [0,0,3,3], "windData": [2,2,2,2] }
+							},
+							"children": [
+								{
+									"name": "Frond Segment 1 1",
+									"from": [ 0.0, 16.0, 0.5 ],
+									"to": [ 0.0, 16.0, 0.5 ],
+									"rotationOrigin": [ 0.0, 16.0, 0.5 ],
+									"rotationZ": 8.0,
+									"faces": {
+									},
+									"children": [
+										{
+											"name": "Frond BaseL1",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 12.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,4,3] }
+											}
+										},
+										{
+											"name": "Frond BaseR 1",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -12.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [3,4,3,2] }
+											}
+										},
+										{
+											"name": "Frond LBaseL1",
+											"from": [ 0.0, 0.0, 0.0 ],
+											"to": [ 0.0, 16.0, 15.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": -32.0,
+											"faces": {
+												"west": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,2,3,3] }
+											}
+										},
+										{
+											"name": "Frond RBaseR 1",
+											"from": [ 0.0, 0.0, -15.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"shade": false, "gradientShade": true,
+											"climateColorMap": "climatePlantTint",
+											"seasonColorMap": "tropicalKapok",
+											"renderPass": 1,
+											"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+											"rotationY": 32.0,
+											"faces": {
+												"east": { "texture": "#roystonearegia", "uv": [ 1.0, 8.0, 16.0, 24.0 ], "windMode": [3,3,3,3], "windData": [2,3,3,2] }
+											}
+										},
+										{
+											"name": "Frond Segment 2 1",
+											"from": [ 0.0, 16.0, 0.0 ],
+											"to": [ 0.0, 16.0, 0.0 ],
+											"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+											"rotationZ": 8.0,
+											"faces": {
+											},
+											"children": [
+												{
+													"name": "Frond SecondL 1",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 12.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,4,4,4] }
+													}
+												},
+												{
+													"name": "Frond SecondR 1",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -12.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [4,4,4,3] }
+													}
+												},
+												{
+													"name": "Frond LSecondL 1",
+													"from": [ 0.0, 0.0, 0.0 ],
+													"to": [ 0.0, 16.0, 15.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": -32.0,
+													"faces": {
+														"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [3,3,4,4] }
+													}
+												},
+												{
+													"name": "Frond RSecondR 1",
+													"from": [ 0.0, 0.0, -15.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"shade": false, "gradientShade": true,
+													"climateColorMap": "climatePlantTint",
+													"seasonColorMap": "tropicalKapok",
+													"renderPass": 1,
+													"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+													"rotationY": 32.0,
+													"faces": {
+														"east": { "texture": "#roystonearegia", "uv": [1.0, 6.5, 16.0, 22.5 ], "windMode": [3,3,3,3], "windData": [3,4,4,3] }
+													}
+												},
+												{
+													"name": "Frond Segment 3 1",
+													"from": [ 0.0, 16.0, 0.0 ],
+													"to": [ 0.0, 16.0, 0.0 ],
+													"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+													"rotationZ": 8.0,
+													"faces": {
+													},
+													"children": [
+														{
+															"name": "Frond ThirdL 1",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 12.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [4,4,5,5] }
+															}
+														},
+														{
+															"name": "Frond ThirdR 1",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -12.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.5, 16.0, 21.5 ], "windMode": [3,3,3,3], "windData": [4,5,5,4] }
+															}
+														},
+														{
+															"name": "Frond LThirdL 1",
+															"from": [ 0.0, 0.0, 0.0 ],
+															"to": [ 0.0, 16.0, 15.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": -32.0,
+															"faces": {
+																"west": { "texture": "#roystonearegia", "uv": [1.0, 6.0, 16.0, 22.0 ], "windMode": [3,3,3,3], "windData": [4,4,5,5] }
+															}
+														},
+														{
+															"name": "Frond RThirdR 1",
+															"from": [ 0.0, 0.0, -15.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"shade": false, "gradientShade": true,
+															"climateColorMap": "climatePlantTint",
+															"seasonColorMap": "tropicalKapok",
+															"renderPass": 1,
+															"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+															"rotationY": 32.0,
+															"faces": {
+																"east": { "texture": "#roystonearegia", "uv": [ 1.0, 5.0, 16.0, 21.0 ], "windMode": [3,3,3,3], "windData": [4,5,5,4] }
+															}
+														},
+														{
+															"name": "Frond Segment 4 1",
+															"from": [ 0.0, 16.0, 0.0 ],
+															"to": [ 0.0, 16.0, 0.0 ],
+															"rotationOrigin": [ 0.0, 16.0, 0.0 ],
+															"rotationZ": 8.0,
+															"faces": {
+															},
+															"children": [
+																{
+																	"name": "Frond EndL 1",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 12.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [5,5,6,6] }
+																	}
+																},
+																{
+																	"name": "Frond EndR 1",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -12.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 0.0, 16.0, 16.0 ], "windMode": [3,3,3,3], "windData": [5,6,6,5] }
+																	}
+																},
+																{
+																	"name": "Frond LEndL 1",
+																	"from": [ 0.0, 0.0, 0.0 ],
+																	"to": [ 0.0, 16.0, 15.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": -32.0,
+																	"faces": {
+																		"west": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [5,5,6,6] }
+																	}
+																},
+																{
+																	"name": "Frond REndR 1",
+																	"from": [ 0.0, 0.0, -15.0 ],
+																	"to": [ 0.0, 16.0, 0.0 ],
+																	"shade": false, "gradientShade": true,
+																	"climateColorMap": "climatePlantTint",
+																	"seasonColorMap": "tropicalKapok",
+																	"renderPass": 1,
+																	"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+																	"rotationY": 32.0,
+																	"faces": {
+																		"east": { "texture": "#roystonearegia", "uv": [ 1.0, 1.0, 16.0, 17.0 ], "windMode": [3,3,3,3], "windData": [5,6,6,5] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

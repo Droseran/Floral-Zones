@@ -1,0 +1,18 @@
+[{
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "game:brineportion", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["capparisspinosa","cynaracardunculusscolymuspetals"] }
+	],
+	output: { type: "item", code: "pickledvegetable-{vegetable}", stackSize: 1 }
+},
+{
+	code: "pickledvegetable",
+	sealHours: 336,
+	ingredients: [
+		{ type: "item", code: "game:brineportion", litres: 1, consumeLitres: 1 },
+		{ type: "item", code: "vegetable-*", name: "vegetable", quantity: 1, allowedVariants: ["armoraciarusticanaprepared"] }
+	],
+	output: { type: "item", code: "pickledvegetable-armoraciarusticana", stackSize: 1 }
+}]

@@ -1,0 +1,343 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"pneumatophores1": [24,4],
+		"pneumatophores2": [24,4]
+	},
+	"textures": {
+		"pneumatophores1": "block/plant/mangroves/lagunculariaracemosa/pneumatophores1",
+		"pneumatophores2": "block/plant/mangroves/lagunculariaracemosa/pneumatophores2"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "N1",
+					"from": [ -12.0, 0.0, 0.0 ],
+					"to": [ 12.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "N2",
+					"from": [ -12.0, 0.0, -2.0 ],
+					"to": [ 12.0, 4.0, -2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -2.0 ],
+					"faces": {
+						"north": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "S1",
+					"from": [ -12.0, 0.0, 2.0 ],
+					"to": [ 12.0, 4.0, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "S2",
+					"from": [ -12.0, 0.0, 4.0 ],
+					"to": [ 12.0, 4.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 4.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "S3",
+					"from": [ -12.0, 0.0, -4.0 ],
+					"to": [ 12.0, 4.0, -4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -4.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "S4",
+					"from": [ -12.0, 0.0, -6.0 ],
+					"to": [ 12.0, 4.0, -6.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -6.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "N3",
+					"from": [ -12.0, 0.0, -8.0 ],
+					"to": [ 12.0, 4.0, -8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "N4",
+					"from": [ -12.0, 0.0, 6.0 ],
+					"to": [ 12.0, 4.0, 6.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 6.0 ],
+					"faces": {
+						"north": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "S5",
+					"from": [ -12.0, 0.0, 8.0 ],
+					"to": [ 12.0, 4.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Origin2",
+			"from": [ 10.0, 0.0, 6.0 ],
+			"to": [ 10.0, 0.0, 6.0 ],
+			"rotationOrigin": [ 10.0, 0.0, 6.0 ],
+			"rotationY": -45.0,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "N5",
+					"from": [ -12.0, 0.0, 0.0 ],
+					"to": [ 12.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "N6",
+					"from": [ -12.0, 0.0, -2.0 ],
+					"to": [ 12.0, 4.0, -2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -2.0 ],
+					"faces": {
+						"north": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "S6",
+					"from": [ -12.0, 0.0, 2.0 ],
+					"to": [ 12.0, 4.0, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "S7",
+					"from": [ -12.0, 0.0, 4.0 ],
+					"to": [ 12.0, 4.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 4.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "S8",
+					"from": [ -12.0, 0.0, -4.0 ],
+					"to": [ 12.0, 4.0, -4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -4.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "S9",
+					"from": [ -12.0, 0.0, -6.0 ],
+					"to": [ 12.0, 4.0, -6.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -6.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "N7",
+					"from": [ -12.0, 0.0, -8.0 ],
+					"to": [ 12.0, 4.0, -8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "N8",
+					"from": [ -12.0, 0.0, 6.0 ],
+					"to": [ 12.0, 4.0, 6.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 6.0 ],
+					"faces": {
+						"north": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "S10",
+					"from": [ -12.0, 0.0, 8.0 ],
+					"to": [ 12.0, 4.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Origin3",
+			"from": [ 6.0, 0.0, 10.0 ],
+			"to": [ 6.0, 0.0, 10.0 ],
+			"rotationOrigin": [ 6.0, 0.0, 10.0 ],
+			"rotationY": -112.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "N9",
+					"from": [ -12.0, 0.0, 0.0 ],
+					"to": [ 12.0, 4.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "N10",
+					"from": [ -12.0, 0.0, -2.0 ],
+					"to": [ 12.0, 4.0, -2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -2.0 ],
+					"faces": {
+						"north": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "S11",
+					"from": [ -12.0, 0.0, 2.0 ],
+					"to": [ 12.0, 4.0, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 2.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "S12",
+					"from": [ -12.0, 0.0, 4.0 ],
+					"to": [ 12.0, 4.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 4.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "S13",
+					"from": [ -12.0, 0.0, -4.0 ],
+					"to": [ 12.0, 4.0, -4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -4.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "S14",
+					"from": [ -12.0, 0.0, -6.0 ],
+					"to": [ 12.0, 4.0, -6.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -6.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "N11",
+					"from": [ -12.0, 0.0, -8.0 ],
+					"to": [ 12.0, 4.0, -8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -8.0 ],
+					"faces": {
+						"north": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "N12",
+					"from": [ -12.0, 0.0, 6.0 ],
+					"to": [ 12.0, 4.0, 6.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 6.0 ],
+					"faces": {
+						"north": { "texture": "#pneumatophores1", "uv": [ 0.0, 0.0, 24.0, 4.0 ] }
+					}
+				},
+				{
+					"name": "S15",
+					"from": [ -12.0, 0.0, 8.0 ],
+					"to": [ 12.0, 4.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 8.0 ],
+					"faces": {
+						"south": { "texture": "#pneumatophores2", "uv": [ 0.0, 0.0, 24.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}

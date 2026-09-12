@@ -1,0 +1,244 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"selenicereuscostaricensis": [4,4]
+	},
+	"textures": {
+		"selenicereuscostaricensis": "item/resource/selenicereuscostaricensis"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "pinecone",
+					"from": [ -1.5, 0.7, -1.5 ],
+					"to": [ 1.5, 2.7, 1.5 ],
+					"rotationOrigin": [ 0.0, 1.7, 0.0 ],
+					"faces": {
+						"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.5, 2.0, 3.5, 4.0 ] },
+						"east": { "texture": "#selenicereuscostaricensis", "uv": [ 0.5, 2.0, 3.5, 4.0 ] },
+						"south": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 2.0, 4.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#selenicereuscostaricensis", "uv": [ 0.5, 2.0, 3.5, 4.0 ] },
+						"up": { "texture": "#selenicereuscostaricensis", "uv": [ 0.5, 1.0, 3.5, 4.0 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#selenicereuscostaricensis", "uv": [ 0.5, 1.0, 3.5, 4.0 ] }
+					},
+					"children": [
+						{
+							"name": "bottom",
+							"from": [ 0.5, -0.8, 0.5 ],
+							"to": [ 2.5, 0.2, 2.5 ],
+							"rotationOrigin": [ 1.5, -0.8, 1.5 ],
+							"faces": {
+								"north": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 2.5, 3.0, 3.5 ] },
+								"east": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 2.5, 3.0, 3.5 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#selenicereuscostaricensis", "uv": [ 0.5, 1.5, 2.5, 2.5 ] },
+								"west": { "texture": "#selenicereuscostaricensis", "uv": [ 0.5, 2.0, 2.5, 3.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 2.0, 3.0, 4.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "body1",
+							"from": [ 0.3, 1.8, 0.3 ],
+							"to": [ 2.7, 3.3, 2.7 ],
+							"rotationOrigin": [ 1.5, 1.8, 1.5 ],
+							"faces": {
+								"north": { "texture": "#selenicereuscostaricensis", "uv": [ 0.5, 2.0, 2.5, 3.5 ] },
+								"east": { "texture": "#selenicereuscostaricensis", "uv": [ 0.5, 2.0, 2.5, 3.5 ] },
+								"south": { "texture": "#selenicereuscostaricensis", "uv": [ 1.5, 2.0, 3.5, 3.5 ] },
+								"west": { "texture": "#selenicereuscostaricensis", "uv": [ 1.5, 1.5, 3.5, 3.0 ] },
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 1.5, 3.0, 3.5 ] }
+							},
+							"children": [
+								{
+									"name": "mE",
+									"from": [ 2.2, 1.5, 0.0 ],
+									"to": [ 2.2, 2.5, 2.4 ],
+									"rotationOrigin": [ 2.2, 1.5, 1.2 ],
+									"rotationZ": -25.0,
+									"faces": {
+										"east": { "texture": "#selenicereuscostaricensis", "uv": [ 2.0, 0.0, 4.0, 1.0 ] }
+									}
+								},
+								{
+									"name": "mW",
+									"from": [ 0.2, 1.5, 0.0 ],
+									"to": [ 0.2, 2.5, 2.4 ],
+									"rotationOrigin": [ 0.2, 1.5, 1.2 ],
+									"rotationZ": 25.0,
+									"faces": {
+										"west": { "texture": "#selenicereuscostaricensis", "uv": [ 1.5, 0.0, 3.5, 1.0 ] }
+									}
+								},
+								{
+									"name": "mN",
+									"from": [ 0.0, 1.5, 0.2 ],
+									"to": [ 2.4, 2.5, 0.2 ],
+									"rotationOrigin": [ 1.2, 1.5, 0.2 ],
+									"rotationX": -25.0,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 2.0, 0.0, 4.0, 1.0 ] }
+									}
+								},
+								{
+									"name": "mS",
+									"from": [ 0.0, 1.5, 2.0 ],
+									"to": [ 2.4, 2.5, 2.0 ],
+									"rotationOrigin": [ 1.2, 1.5, 2.0 ],
+									"rotationX": 25.0,
+									"faces": {
+										"south": { "texture": "#selenicereuscostaricensis", "uv": [ 1.5, 0.0, 3.5, 1.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "body2",
+							"from": [ 0.7, 3.3, 0.7 ],
+							"to": [ 2.2, 4.3, 2.2 ],
+							"rotationOrigin": [ 1.5, 3.3, 1.5 ],
+							"faces": {
+								"north": { "texture": "#selenicereuscostaricensis", "uv": [ 2.0, 1.5, 3.5, 2.5 ] },
+								"east": { "texture": "#selenicereuscostaricensis", "uv": [ 2.5, 2.0, 4.0, 3.0 ] },
+								"south": { "texture": "#selenicereuscostaricensis", "uv": [ 2.0, 2.0, 3.5, 3.0 ] },
+								"west": { "texture": "#selenicereuscostaricensis", "uv": [ 1.5, 2.0, 3.0, 3.0 ] },
+								"up": { "texture": "#selenicereuscostaricensis", "uv": [ 2.0, 2.5, 3.5, 4.0 ], "windMode": [-1,-1,-1,-1] }
+							},
+							"children": [
+								{
+									"name": "tN",
+									"from": [ 0.0, 1.0, 0.2 ],
+									"to": [ 1.5, 2.5, 0.2 ],
+									"rotationOrigin": [ 0.8, 1.0, 0.2 ],
+									"rotationX": -15.0,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 0.0, 2.5, 1.5 ] }
+									}
+								},
+								{
+									"name": "tS",
+									"from": [ 0.0, 1.0, 1.2 ],
+									"to": [ 1.5, 2.5, 1.2 ],
+									"rotationOrigin": [ 0.8, 1.0, 1.2 ],
+									"rotationX": 15.0,
+									"faces": {
+										"north": { "texture": "#selenicereuscostaricensis", "uv": [ 2.0, 0.0, 3.5, 1.5 ] }
+									}
+								},
+								{
+									"name": "tW",
+									"from": [ 0.2, 1.0, 0.0 ],
+									"to": [ 0.2, 2.5, 1.5 ],
+									"rotationOrigin": [ 0.2, 1.0, 0.8 ],
+									"rotationZ": 15.0,
+									"faces": {
+										"west": { "texture": "#selenicereuscostaricensis", "uv": [ 2.0, 0.0, 3.5, 1.5 ] }
+									}
+								},
+								{
+									"name": "tE",
+									"from": [ 1.2, 1.0, 0.0 ],
+									"to": [ 1.2, 2.5, 1.5 ],
+									"rotationOrigin": [ 1.2, 1.0, 0.8 ],
+									"rotationZ": -15.0,
+									"faces": {
+										"east": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 0.0, 2.5, 1.5 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "bE",
+							"from": [ 0.2, 2.0, 0.0 ],
+							"to": [ 0.2, 3.0, 3.0 ],
+							"rotationOrigin": [ 0.2, 2.0, 1.5 ],
+							"rotationZ": 22.5,
+							"faces": {
+								"west": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 0.0, 4.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "bW",
+							"from": [ 2.8, 2.0, 0.0 ],
+							"to": [ 2.8, 3.0, 3.0 ],
+							"rotationOrigin": [ 2.8, 2.0, 1.5 ],
+							"rotationZ": -22.5,
+							"faces": {
+								"east": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 0.0, 4.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "bN",
+							"from": [ 0.0, 2.0, 0.2 ],
+							"to": [ 3.0, 3.0, 0.2 ],
+							"rotationOrigin": [ 1.5, 2.0, 0.2 ],
+							"rotationX": -22.5,
+							"faces": {
+								"north": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 0.0, 4.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "bS",
+							"from": [ 0.0, 2.0, 2.7 ],
+							"to": [ 3.0, 3.0, 2.7 ],
+							"rotationOrigin": [ 1.5, 2.0, 2.7 ],
+							"rotationX": 22.5,
+							"faces": {
+								"south": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 0.0, 4.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "dN",
+							"from": [ 0.0, 1.0, 0.0 ],
+							"to": [ 3.0, 2.0, 0.0 ],
+							"rotationOrigin": [ 1.5, 1.0, 0.0 ],
+							"rotationX": -36.0,
+							"faces": {
+								"north": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 0.0, 4.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "dE",
+							"from": [ 3.0, 1.0, 0.0 ],
+							"to": [ 3.0, 2.0, 3.0 ],
+							"rotationOrigin": [ 3.0, 1.0, 1.5 ],
+							"rotationZ": -36.0,
+							"faces": {
+								"east": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 0.0, 4.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "dW",
+							"from": [ 0.0, 1.0, 0.0 ],
+							"to": [ 0.0, 2.0, 3.0 ],
+							"rotationOrigin": [ 0.0, 1.0, 1.5 ],
+							"rotationZ": 36.0,
+							"faces": {
+								"west": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 0.0, 4.0, 1.0 ] }
+							}
+						},
+						{
+							"name": "dS",
+							"from": [ 0.0, 1.0, 3.0 ],
+							"to": [ 3.0, 2.0, 3.0 ],
+							"rotationOrigin": [ 1.5, 1.0, 3.0 ],
+							"rotationX": 36.0,
+							"faces": {
+								"south": { "texture": "#selenicereuscostaricensis", "uv": [ 1.0, 0.0, 4.0, 1.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

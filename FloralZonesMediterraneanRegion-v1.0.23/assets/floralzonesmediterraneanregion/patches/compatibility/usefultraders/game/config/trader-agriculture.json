@@ -1,0 +1,108 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:config/tradelists/trader-agriculture.json",
+		"op": "addmerge",
+		"path": "/selling/list",
+		"value": [
+			{
+				"code": "floralzonesmediterraneanregion:seeds-armoraciarusticana",
+				"type": "item",
+				"stacksize": 4,
+				"stock": {
+					"avg": 2
+				},
+				"price": {
+					"avg": 4,
+					"var": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:seeds-cynaracardunculusscolymus",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 2
+				},
+				"price": {
+					"avg": 6,
+					"var": 2
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:grapeclipping-purple",
+				"type": "item",
+				"stacksize": 5,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 10,
+					"var": 2
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:grapeclipping-red",
+				"type": "item",
+				"stacksize": 5,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 10,
+					"var": 2
+				}
+			},
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:config/tradelists/trader-agriculture.json",
+		"op": "addmerge",
+		"path": "/buying/list",
+		"value": [
+			{
+				"code": "floralzonesmediterraneanregion:fruit-vitisvinifera-blue",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:vegetable-armoraciarusticana",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 4,
+					"var": 1
+				},
+				"price": {
+					"avg": 1
+				}
+			},
+			{
+				"code": "floralzonesmediterraneanregion:vegetable-cynaracardunculusscolymus",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 4,
+					"var": 2
+				},
+				"price": {
+					"avg": 1
+				}
+			}
+		]
+	}
+]

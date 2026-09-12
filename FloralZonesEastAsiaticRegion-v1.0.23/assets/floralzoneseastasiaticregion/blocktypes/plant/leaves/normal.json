@@ -1,0 +1,132 @@
+{
+    "code": "leaves",
+    "__comment": "BlockLeaves contains some code for map color tinting, stuff for wind affectedness and random testForDecay server block ticks",
+    "class": "BlockLeaves",
+    "behaviorsByType": {
+	"*-grown*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventname": "testForDecay"}}, { "name": "RainDrip" }],
+        "*": [{ "name": "RainDrip" }]
+    },
+    "attributes": {
+        "handbook": {
+            "groupBy": ["leaves-*"]
+        },
+        "treeFellingGroupCodeByType": {
+            "*-grown-acerginnala": "0maple",
+            "*-grown1-acerginnala": "1maple",
+            "*-grown2-acerginnala": "2maple",
+            "*-grown3-acerginnala": "3maple",
+            "*-grown4-acerginnala": "4maple",
+            "*-grown5-acerginnala": "5maple",
+            "*-grown6-acerginnala": "6maple",
+            "*-grown7-acerginnala": "7maple",
+            "*-grown-metasequoiaglyptostroboides": "0redwood",
+            "*-grown1-metasequoiaglyptostroboides": "1redwood",
+            "*-grown2-metasequoiaglyptostroboides": "2redwood",
+            "*-grown3-metasequoiaglyptostroboides": "3redwood",
+            "*-grown4-metasequoiaglyptostroboides": "4redwood",
+            "*-grown5-metasequoiaglyptostroboides": "5redwood",
+            "*-grown6-metasequoiaglyptostroboides": "6redwood",
+            "*-grown7-metasequoiaglyptostroboides": "7redwood",
+            "*-grown-quercusserrata": "0oak",
+            "*-grown1-quercusserrata": "1oak",
+            "*-grown2-quercusserrata": "2oak",
+            "*-grown3-quercusserrata": "3oak",
+            "*-grown4-quercusserrata": "4oak",
+            "*-grown5-quercusserrata": "5oak",
+            "*-grown6-quercusserrata": "6oak",
+            "*-grown7-quercusserrata": "7oak",
+            "*-grown-*": "0{wood}",
+            "*-grown1-*": "1{wood}",
+            "*-grown2-*": "2{wood}",
+            "*-grown3-*": "3{wood}",
+            "*-grown4-*": "4{wood}",
+            "*-grown5-*": "5{wood}",
+            "*-grown6-*": "6{wood}",
+            "*-grown7-*": "7{wood}",
+
+	    "*-placed-*": "3{wood}"
+        },
+        "treeFellingGroupSpreadIndex": 0,
+        "canDecayByType": {
+            "*-grown*-*": true
+        }
+    },
+    "variantgroups": [
+        { "code": "type", "states": ["grown", "grown1", "grown2", "grown3", "grown4", "grown5", "grown6", "grown7", "placed"] },
+        { "code": "wood", "states": ["abieskoreana","acerginnala","loropetalumchinense","metasequoiaglyptostroboides","quercusserrata"]}
+    ],
+    "creativeinventory": { "general": ["leaves-placed-*"], "flora": ["leaves-placed-*"] },
+    "shape": {
+        "base": "game:block/plant/leaves/normal",
+        "rotateY": 10,
+        "alternates": [{ "rotateY": 61 }, { "rotateY": 113 }, { "rotateY": 164 }, { "rotateY": 216 }, { "rotateY": 267 }, { "rotateY": 319 }]
+    },
+    "lod0Shape": {
+        "base": "game:block/plant/leaves/normal-lod0",
+        "rotateY": 10,
+        "alternates": [{ "rotateY": 61 }, { "rotateY": 113 }, { "rotateY": 164 }, { "rotateY": 216 }, { "rotateY": 267 }, { "rotateY": 319 }]
+    },
+    "shapeInventory": { "base": "game:block/plant/leaves/normal-lod0" },
+    "renderpass": "OpaqueNoCull",
+    "faceCullMode": "CollapseMaterial",
+    "blockmaterial": "Leaves",
+    "climateColorMapByType": {
+        "*-loropetalumchinense": "climateCrimsonKingTint",
+        "*": "climatePlantTint"
+    },
+    "seasonColorMapByType": {
+        "*-abieskoreana": "seasonalNeedles",
+        "*-acerginnala": "seasonalBlueberry",
+        "*-loropetalumchinense": "seasonalCrimsonKingMaple",
+        "*": "seasonalFoliage"
+    },
+    "vertexFlags": {
+        "zOffset": 4,
+        "windMode": "Leaves"
+    },
+    "textures": {
+	"largeleavesByType": {
+		"*-metasequoiaglyptostroboides": { "base": "game:block/plant/leaves/large/pine*" },
+	    "*": { "base": "floralzoneseastasiaticregion:block/plant/leaves/large/{wood}*" }
+	  },
+   "smallleavesByType": {
+		"*-metasequoiaglyptostroboides": { "base": "game:block/plant/leaves/small/pine*" },
+	    "*": { "base": "floralzoneseastasiaticregion:block/plant/leaves/small/{wood}*" }
+    }
+    },
+    "sideopaque": {"all": false},
+    "sidesolid": {"all": false},
+    "sideao": {"all": true},
+    "emitSideAo": {"all": false},
+    "snowCoverage": true,
+    "replaceable": 4000,
+    "lightAbsorption": 1,
+    "resistance": 0.5,
+    "collisionbox": null,
+    "dropsByType": {    
+      "*-loropetalumchinense":[{"type": "block","code": "floralzoneseastasiaticregion:leaves-placed-loropetalumchinense","quantityByType": {"*": { "avg": 1.05, "var": 0 }}}],
+      "*":[{"type": "item","code": "floralzoneseastasiaticregion:treeseed-{wood}","quantityByType": {"*": { "avg": 0.05, "var": 0 }}},{"type": "item","code": "game:stick","quantity": { "avg": 0.02, "var": 0 }}]},
+    "sounds": {
+        "break": "game:block/plant",
+        "place": "game:block/plant",
+        "hit": "game:block/plant",
+        "walk": "game:walk/grass",
+	      "inside": "game:walk/inside/leafy/bushrustle*"
+    },
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 10
+    },
+    "materialDensity": 300,
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+        "rotation": { "x": -2, "y": 25, "z": -78 },
+        "scale": 0.4
+    },
+    "guiTransform": {
+        "scale": 0.8
+    },
+    "frostable": true
+}

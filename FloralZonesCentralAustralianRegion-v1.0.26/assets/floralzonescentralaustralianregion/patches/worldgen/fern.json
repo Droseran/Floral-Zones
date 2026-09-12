@@ -1,0 +1,29 @@
+[
+	      {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small varied patches of Macdonnel Range Cycad",
+          "blockCodes": [
+            "floralzonescentralaustralianregion:fern-macrozamiamacdonnellii"
+          ],
+          "minTemp": 20,
+          "maxTemp": 24,
+		      "minForest": 0,
+		      "maxForest": 0.6,
+          "minRain": 0.15,
+          "maxRain": 0.38,
+          "chance": 0.35,
+	    	  "minY": 0.1,
+          "maxY": 0.21,
+		      "maxFertility": 0.2,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 5, "var": 7 },
+          "offsetZ": { "avg": 5, "var": 7 }
+        },
+        "file": "game:worldgen/blockpatches/fern.json",
+        "side": "server",
+			"dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_paleartic","invert": true }]
+      }
+
+]

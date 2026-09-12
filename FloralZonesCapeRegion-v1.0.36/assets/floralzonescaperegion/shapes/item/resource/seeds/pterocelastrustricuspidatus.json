@@ -1,0 +1,283 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+	},
+	"textures": {
+		"pterocelastrustricuspidatus": "item/resource/seeds/pterocelastrustricuspidatus"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "branch",
+					"from": [ -0.3, 1.0, -0.3 ],
+					"to": [ 0.3, 6.0, 0.3 ],
+					"rotationOrigin": [ 0.0, 1.0, 0.0 ],
+					"rotationX": -22.5,
+					"faces": {
+						"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 1.0, 7.0, 6.0, 7.5 ], "rotation": 90 },
+						"east": { "texture": "#pterocelastrustricuspidatus", "uv": [ 1.5, 6.0, 6.5, 6.5 ], "rotation": 90 },
+						"south": { "texture": "#pterocelastrustricuspidatus", "uv": [ 1.0, 7.5, 6.0, 8.0 ], "rotation": 90 },
+						"west": { "texture": "#pterocelastrustricuspidatus", "uv": [ 1.5, 7.0, 6.5, 7.5 ], "rotation": 90 },
+						"up": { "texture": "#pterocelastrustricuspidatus", "uv": [ 5.5, 7.5, 6.0, 8.0 ] },
+						"down": { "texture": "#pterocelastrustricuspidatus", "uv": [ 2.0, 7.0, 2.5, 7.5 ] }
+					},
+					"children": [
+						{
+							"name": "berry1",
+							"from": [ 0.4, 1.0, 0.5 ],
+							"to": [ 2.4, 3.0, 2.5 ],
+							"rotationOrigin": [ 1.4, 2.0, 1.5 ],
+							"rotationX": 112.5,
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"east": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"south": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"west": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"up": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"down": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+							},
+							"children": [
+								{
+									"name": "w1",
+									"from": [ 0.0, -0.5, 1.0 ],
+									"to": [ 2.0, 2.5, 1.0 ],
+									"rotationOrigin": [ 1.0, 1.0, 1.0 ],
+									"rotationY": -45.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 2.0, 0.0, 4.0, 3.0 ] }
+									}
+								},
+								{
+									"name": "e1",
+									"from": [ 0.0, -0.5, 1.0 ],
+									"to": [ 2.0, 2.5, 1.0 ],
+									"rotationOrigin": [ 1.0, 1.0, 1.0 ],
+									"rotationY": 45.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 2.0, 0.0, 4.0, 3.0 ] }
+									}
+								},
+								{
+									"name": "altberry",
+									"from": [ 0.0, 0.1, 0.0 ],
+									"to": [ 2.0, 2.1, 2.0 ],
+									"rotationOrigin": [ 1.0, 1.1, 1.0 ],
+									"rotationX": 0.0,
+									"rotationY": 45.0,
+									"rotationZ": 0.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"east": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"south": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"west": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"up": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+										"down": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "berry3",
+							"from": [ 0.3, 1.1, -2.2 ],
+							"to": [ 2.3, 3.1, -0.2 ],
+							"rotationOrigin": [ 1.3, 2.1, -1.2 ],
+							"rotationX": -67.5,
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"east": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"south": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"west": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"up": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"down": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+							},
+							"children": [
+								{
+									"name": "w3",
+									"from": [ 0.0, -0.5, 1.0 ],
+									"to": [ 2.0, 2.5, 1.0 ],
+									"rotationOrigin": [ 1.0, 1.0, 1.0 ],
+									"rotationY": -45.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 2.0, 0.0, 4.0, 3.0 ] }
+									}
+								},
+								{
+									"name": "e3",
+									"from": [ 0.0, -0.5, 1.0 ],
+									"to": [ 2.0, 2.5, 1.0 ],
+									"rotationOrigin": [ 1.0, 1.0, 1.0 ],
+									"rotationY": 45.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 2.0, 0.0, 4.0, 3.0 ] }
+									}
+								},
+								{
+									"name": "alt berry",
+									"from": [ 0.0, 0.1, 0.0 ],
+									"to": [ 2.0, 2.1, 2.0 ],
+									"rotationOrigin": [ 1.0, 1.1, 1.0 ],
+									"rotationY": 45.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"east": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"south": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"west": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"up": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+										"down": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "berry4",
+							"from": [ -2.5, 2.0, -0.7 ],
+							"to": [ -0.5, 4.0, 1.3 ],
+							"rotationOrigin": [ -1.5, 3.0, 0.3 ],
+							"rotationX": 67.5,
+							"rotationZ": 90.0,
+							"faces": {
+								"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"east": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"south": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"west": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"up": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"down": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+							},
+							"children": [
+								{
+									"name": "w4",
+									"from": [ 0.5, -0.5, 1.0 ],
+									"to": [ 1.5, 2.5, 1.0 ],
+									"rotationOrigin": [ 1.0, 1.0, 1.0 ],
+									"rotationY": 45.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 2.5, 0.0, 3.5, 3.0 ] }
+									}
+								},
+								{
+									"name": "e4",
+									"from": [ 0.5, -0.5, 1.0 ],
+									"to": [ 1.5, 2.5, 1.0 ],
+									"rotationOrigin": [ 1.0, 1.0, 1.0 ],
+									"rotationY": -45.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 2.5, 0.0, 3.5, 3.0 ] }
+									}
+								},
+								{
+									"name": "berry6",
+									"from": [ 0.0, 0.1, 0.0 ],
+									"to": [ 2.0, 2.1, 2.0 ],
+									"rotationOrigin": [ 1.0, 1.1, 1.0 ],
+									"rotationX": 0.0,
+									"rotationY": 45.0,
+									"rotationZ": 0.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"east": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"south": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"west": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"up": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+										"down": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "berry5",
+							"from": [ -1.5, -1.5, 0.5 ],
+							"to": [ 0.5, 0.5, 2.5 ],
+							"rotationOrigin": [ -0.5, -0.5, 1.5 ],
+							"rotationX": -67.5,
+							"rotationY": -45.0,
+							"rotationZ": 157.5,
+							"faces": {
+								"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"east": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"south": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"west": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+								"up": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"down": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+							},
+							"children": [
+								{
+									"name": "w5",
+									"from": [ 0.5, -0.5, 1.0 ],
+									"to": [ 1.5, 2.5, 1.0 ],
+									"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+									"rotationY": -45.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 2.5, 0.0, 3.5, 3.0 ] }
+									}
+								},
+								{
+									"name": "e5",
+									"from": [ 0.5, -0.5, 1.0 ],
+									"to": [ 1.5, 2.5, 1.0 ],
+									"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+									"rotationY": 45.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 2.5, 0.0, 3.5, 3.0 ] }
+									}
+								},
+								{
+									"name": "berry7",
+									"from": [ 0.0, 0.1, 0.0 ],
+									"to": [ 2.0, 2.1, 2.0 ],
+									"rotationOrigin": [ 1.0, 1.1, 1.0 ],
+									"rotationX": 0.0,
+									"rotationY": 45.0,
+									"rotationZ": 0.0,
+									"faces": {
+										"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"east": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"south": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"west": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.5, 2.0, 2.5 ] },
+										"up": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+										"down": { "texture": "#pterocelastrustricuspidatus", "uv": [ 0.0, 2.0, 2.0, 4.0 ] }
+									}
+								}
+							]
+						},
+						{
+							"name": "leaf1",
+							"from": [ -1.2, 4.0, 0.3 ],
+							"to": [ 1.3, 10.0, 0.3 ],
+							"rotationOrigin": [ 0.3, 4.0, 0.3 ],
+							"rotationX": -45.0,
+							"rotationZ": 45.0,
+							"faces": {
+								"south": { "texture": "#pterocelastrustricuspidatus", "uv": [ 5.0, 0.0, 7.5, 6.0 ] }
+							}
+						},
+						{
+							"name": "leaf2",
+							"from": [ -1.2, 4.0, 0.3 ],
+							"to": [ 1.3, 10.0, 0.3 ],
+							"rotationOrigin": [ 0.3, 4.0, 0.3 ],
+							"rotationX": -45.0,
+							"rotationY": -45.0,
+							"rotationZ": -45.0,
+							"faces": {
+								"north": { "texture": "#pterocelastrustricuspidatus", "uv": [ 5.0, 0.0, 7.5, 6.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,22 @@
+{
+	"code": "seeds",
+	"class": "ItemPlantableSeed",
+	"maxstacksize": 64,
+	"variantgroups": [
+		{ "code": "type", "states": [ "alliumsativum","ipomoeabatatas","phaseolusvulgaris","zeamays"] },
+	],
+	"shape": { "base": "game:item/resource/seeds/seedbag" },
+	"textures": {
+		"seed": { "base": "floralzonescosmopolitanregion:item/resource/seeds/{type}" }},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 180, "y": 90, "z": 13 }
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 159, "y": 148, "z": 0 },
+		"origin": { "x": 0.53, "y": 0.37, "z": 0.5 },
+		"scale": 1.99},
+	"materialDensity": 450
+}

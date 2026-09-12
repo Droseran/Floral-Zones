@@ -1,0 +1,60 @@
+[
+  {
+    "op": "addeach",
+    "path": "/variantgroups/0/states/-",
+    "value": ["corymbiaaparrerinja", "eucalyptuscamaldulensis"],
+    "file": "ancienttools:itemtypes/resources/bark",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "value": {        
+      "@bark-(corymbiaaparrerinja|eucalyptuscamaldulensis)": {
+        handbook: {
+          groupBy: ["bark-*"],
+          createdBy: "ancienttools:handbook-barkstripping-craftinfo" },
+        },
+      },
+    "file": "ancienttools:itemtypes/resources/bark",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "@bark-(corymbiaaparrerinja|eucalyptuscamaldulensis)": [{ "name": "GroundStorable", "properties": { "layout": "Quadrants" } }]
+      },
+    "file": "ancienttools:itemtypes/resources/bark",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  },
+  {
+    "op": "addmerge",
+    "path": "/texturesByType/@bark-(corymbiaaparrerinja|eucalyptuscamaldulensis)",
+    "value": {
+        bark: { base: "floralzonescentralaustralianregion:block/wood/bark/{bark}" },
+    },
+    "file": "ancienttools:itemtypes/resources/bark",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "frompath": "/texturesByType/*",
+    "path": "/temp",
+    "file": "ancienttools:itemtypes/resources/bark.json",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "frompath": "/temp",
+    "path": "/texturesByType/*",
+    "file": "ancienttools:itemtypes/resources/bark.json",
+    "dependsOn": [{ "modid": "ancienttools" }],
+    "side": "Server"
+  }
+]

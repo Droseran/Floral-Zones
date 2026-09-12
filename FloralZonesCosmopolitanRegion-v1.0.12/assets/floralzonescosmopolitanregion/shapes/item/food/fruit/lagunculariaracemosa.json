@@ -1,0 +1,159 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"lagunculariaracemosa": [4,8]
+	},
+	"textures": {
+		"lagunculariaracemosa": "item/food/fruit/lagunculariaracemosa"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "branch",
+					"from": [ -0.3, 2.0, -3.3 ],
+					"to": [ 0.3, 10.0, -2.7 ],
+					"rotationOrigin": [ 0.0, 2.0, -3.0 ],
+					"rotationX": 72.0,
+					"faces": {
+						"north": { "texture": "#lagunculariaracemosa", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#lagunculariaracemosa", "uv": [ 0.5, 0.0, 1.0, 8.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#lagunculariaracemosa", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#lagunculariaracemosa", "uv": [ 0.5, 0.0, 1.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#lagunculariaracemosa", "uv": [ 0.0, 7.0, 0.5, 7.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#lagunculariaracemosa", "uv": [ 0.0, 2.0, 0.5, 2.5 ], "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "olive1",
+							"from": [ 0.0, -0.7, -0.2 ],
+							"to": [ 1.0, 1.3, 0.8 ],
+							"rotationOrigin": [ 0.5, 1.3, 0.3 ],
+							"rotationX": -86.0,
+							"rotationY": -6.0,
+							"rotationZ": 86.0,
+							"faces": {
+								"north": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 2.5, 3.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#lagunculariaracemosa", "uv": [ 2.0, 2.5, 3.0, 4.5 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 3.5, 2.5, 5.5 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#lagunculariaracemosa", "uv": [ 1.0, 2.5, 2.0, 4.5 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#lagunculariaracemosa", "uv": [ 3.0, 3.0, 4.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 4.0, 3.5, 5.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "olive2",
+							"from": [ -0.3, -2.0, -0.1 ],
+							"to": [ 0.7, 0.0, 0.9 ],
+							"rotationOrigin": [ 0.2, 0.0, 0.4 ],
+							"rotationX": 3.0,
+							"rotationY": 81.0,
+							"faces": {
+								"north": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#lagunculariaracemosa", "uv": [ 3.0, 4.5, 4.0, 6.5 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#lagunculariaracemosa", "uv": [ 2.0, 5.0, 3.0, 7.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#lagunculariaracemosa", "uv": [ 3.0, 5.5, 4.0, 7.5 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 5.0, 3.5, 6.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 5.0, 3.5, 6.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "olive5",
+							"from": [ 0.0, 1.3, 0.0 ],
+							"to": [ 1.0, 3.3, 1.0 ],
+							"rotationOrigin": [ 0.5, 3.3, 0.5 ],
+							"rotationX": -81.0,
+							"rotationY": 9.0,
+							"rotationZ": 86.0,
+							"faces": {
+								"north": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 6.0, 2.5, 8.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 4.0, 2.5, 6.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#lagunculariaracemosa", "uv": [ 2.0, 4.5, 3.0, 6.5 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 5.0, 2.5, 6.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 5.5, 3.5, 6.5 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "olive3",
+							"from": [ -0.3, 0.3, 0.0 ],
+							"to": [ 0.7, 2.3, 1.0 ],
+							"rotationOrigin": [ 0.2, 2.3, 0.5 ],
+							"rotationX": -91.0,
+							"rotationY": -3.0,
+							"rotationZ": -94.0,
+							"faces": {
+								"north": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 5.5, 3.5, 7.5 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 5.0, 3.5, 7.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 5.5, 2.5, 7.5 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 6.0, 3.5, 7.0 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 5.5, 3.5, 6.5 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "olive4",
+							"from": [ -0.1, 2.3, -0.2 ],
+							"to": [ 0.9, 4.3, 0.8 ],
+							"rotationOrigin": [ 0.4, 4.3, 0.3 ],
+							"rotationX": -89.0,
+							"rotationY": 3.0,
+							"rotationZ": -180.0,
+							"faces": {
+								"north": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 3.0, 2.5, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#lagunculariaracemosa", "uv": [ 2.0, 2.5, 3.0, 4.5 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 2.5, 2.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#lagunculariaracemosa", "uv": [ 2.0, 3.5, 3.0, 5.5 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#lagunculariaracemosa", "uv": [ 2.0, 3.5, 3.0, 4.5 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#lagunculariaracemosa", "uv": [ 2.0, 4.0, 3.0, 5.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "olive6",
+							"from": [ 0.0, -1.1, 0.2 ],
+							"to": [ 1.0, 0.9, 1.2 ],
+							"rotationOrigin": [ 0.5, 0.9, 0.7 ],
+							"rotationX": -132.0,
+							"rotationY": -86.0,
+							"rotationZ": -56.0,
+							"faces": {
+								"north": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 3.0, 2.5, 5.0 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 2.5, 2.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#lagunculariaracemosa", "uv": [ 2.5, 3.5, 3.5, 5.5 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#lagunculariaracemosa", "uv": [ 3.0, 3.5, 4.0, 5.5 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 3.5, 2.5, 4.5 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 2.5, 2.5, 3.5 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "olive7",
+							"from": [ -0.3, 2.9, -0.1 ],
+							"to": [ 0.7, 4.9, 0.9 ],
+							"rotationOrigin": [ 0.2, 4.9, 0.4 ],
+							"rotationY": -6.0,
+							"rotationZ": -94.0,
+							"faces": {
+								"north": { "texture": "#lagunculariaracemosa", "uv": [ 1.0, 4.5, 2.0, 6.5 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#lagunculariaracemosa", "uv": [ 2.0, 6.0, 3.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
+								"south": { "texture": "#lagunculariaracemosa", "uv": [ 1.5, 4.0, 2.5, 6.0 ], "windMode": [-1,-1,-1,-1] },
+								"west": { "texture": "#lagunculariaracemosa", "uv": [ 2.0, 5.0, 3.0, 7.0 ], "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#lagunculariaracemosa", "uv": [ 1.0, 5.5, 2.0, 6.5 ], "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#lagunculariaracemosa", "uv": [ 2.0, 5.5, 3.0, 6.5 ], "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

@@ -1,0 +1,43 @@
+﻿[
+	{
+		"op": "addeach",
+		"path": "/variantgroups/1/states/-",
+		"value": ["afrocarpusfalcatus"],
+		"file": "ancienttools:blocktypes/directionalresin",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"condition": { "when": "AllowCarvingForResin", "isValue": "true" },
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/directionalresin-*-afrocarpusfalcatus-*-*",
+		"value": [
+			{
+			type: "block", 
+			code: "floralzonescaperegion:log-placed-{wood}-ud",
+			quantity: { avg: 1 },
+			states: ["afrocarpusfalcatus"]
+			}
+		],
+		"file": "ancienttools:blocktypes/directionalresin",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"condition": { "when": "AllowCarvingForResin", "isValue": "true" },
+		"side": "Server"
+	},
+	{
+        "op": "move",
+		"frompath": "/dropsByType/directionalresin-*-*-*-*",
+		"path": "/temp",
+		"file": "ancienttools:blocktypes/directionalresin",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server",
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/dropsByType/directionalresin-*-*-*-*",
+		"file": "ancienttools:blocktypes/directionalresin",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server",
+    }
+]

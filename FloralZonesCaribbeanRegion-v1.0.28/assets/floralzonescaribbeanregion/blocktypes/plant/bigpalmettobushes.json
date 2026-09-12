@@ -1,0 +1,142 @@
+{
+	"code": "bigberrybush",
+	"class": "FZBlockBerryBush",
+	"attributes": {
+		"foodTags": ["sweetBerryBush"],
+		"butterflyFeedByType": {
+			"*-flowering": true
+		},
+		"beeFeedByType": {
+			"*-flowering": true
+		},
+		"forageStatAffected": true,
+		"reinforcable": true,
+		"revertBlockBelowTemperatureByType": {"*acoelorrhaphewrightii*": 16,"*sabalminor*": 2},
+		"resetBelowTemperatureByType": {"*acoelorrhaphewrightii*": 18,"*sabalminor*": 4},
+		"stopBelowTemperatureByType": {"*acoelorrhaphewrightii*": 20,"*sabalminor*": 6},
+		
+		"revertBlockAboveTemperatureByType": {"*acoelorrhaphewrightii*": 60,"*sabalminor*": 46},
+		"resetAboveTemperatureByType": {"*acoelorrhaphewrightii*": 56,"*sabalminor*": 42},
+		"stopAboveTemperatureByType": {"*acoelorrhaphewrightii*": 52,"*sabalminor*": 38},
+		"overrideRandomDrawOffset": 14,
+
+		"nextStageMonthsByType": {
+		"*-acoelorrhaphewrightii-empty": { "avg": 0.25, "var": 0.09 },"*-acoelorrhaphewrightii-flowering": { "avg": 4.98, "var": 0.09 },"*-acoelorrhaphewrightii-ripe": { "avg": 0.8, "var": 0.13 },
+		"*-sabalminor-empty": { "avg": 2.25, "var": 0.09 },"*-sabalminor-flowering": { "avg": 3.04, "var": 0.09 },"*-sabalminor-ripe": { "avg": 0.98, "var": 0.09 }},
+		"stackable": false,
+		"plantContainable": {
+			"largeContainerByType": {
+				"*-acoelorrhaphewrightii-*": {"shape": {"base": "block/plant/berrybush/acoelorrhaphewrightii-empty"},"textures": {"sabalpalmetto": { "base": "game:block/plant/fern/sabalpalmetto" },"frond": { "base": "block/plant/berrybush/sabalpalmetto-dead" },"trunk": { "base": "block/plant/berrybush/acoelorrhaphewrightii-trunk" }}},
+				"*-sabalminor-*": {"shape": {"base": "block/plant/berrybush/sabalminor-empty"},"textures": {"sabalpalmetto": { "base": "game:block/plant/fern/sabalpalmetto" },"frond": { "base": "block/plant/berrybush/sabalpalmetto-dead" }}}}
+		}
+	},
+	"entityclass": "FZBerryBush",
+	"behaviorsByType": {
+		"*-ripe": [ {"name": "Harvestable", "properties": { 
+			"harvestTime": 1.0, 
+			"harvestedStack": { "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 8.5 }  },
+			"harvestedBlockCode": "floralzonescaribbeanregion:fruitingbush-wild-{type}-free"
+		}} ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["acoelorrhaphewrightii","sabalminor"] },
+		{ "code": "state", "states": ["empty", "flowering", "ripe"] }
+	],
+	"creativeinventory": { "general": [""], "flora": [""] },
+	"renderpass": "OpaqueNoCull",
+	"renderAlphaTest": 0.4,
+	"shapeByType": {
+		"*-acoelorrhaphewrightii-empty": { "base": "block/plant/berrybush/acoelorrhaphewrightii1",
+			"selectiveElements": [ "stem/*" ]},
+		"*-acoelorrhaphewrightii-*": { "base": "block/plant/berrybush/acoelorrhaphewrightii1"},
+		"*-sabalminor-empty": { "base": "block/plant/berrybush/sabalminor1",
+			"selectiveElements": [ "Stem/*" ]},
+		"*-sabalminor-*": { "base": "block/plant/berrybush/sabalminor1"},
+		"*": { "base": "block/plant/berrybush/sabalminor1" }
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.33,
+	"blockmaterial": "Plant",
+	"texturesByType": {
+		"*-acoelorrhaphewrightii-flowering": {
+			"stemcenter1": { "base": "floralzonescaribbeanregion:block/plant/berrybush/acoelorrhaphewrightii-trunk" },
+				"leavescenter1": {"base": "floralzonescaribbeanregion:block/plant/berrybush/sabalpalmetto-dead"},
+				"leavesinside1": {"base": "floralzonescaribbeanregion:block/plant/fern/sabalpalmetto"},
+				"flowerberrycenter1": {"base": "floralzonescaribbeanregion:block/plant/berrybush/sabalpalmetto/berries/bountiful/floweringcenter1"}
+		},
+		"*-acoelorrhaphewrightii-ripe": {
+			"stemcenter1": { "base": "floralzonescaribbeanregion:block/plant/berrybush/acoelorrhaphewrightii-trunk" },
+				"leavescenter1": {"base": "floralzonescaribbeanregion:block/plant/berrybush/sabalpalmetto-dead"},
+				"leavesinside1": {"base": "floralzonescaribbeanregion:block/plant/fern/sabalpalmetto"},
+				"flowerberrycenter1": {"base": "floralzonescaribbeanregion:block/plant/berrybush/sabalpalmetto/berries/bountiful/ripecenter1"}
+		},
+		"*-acoelorrhaphewrightii-empty": {
+			"stemcenter1": { "base": "floralzonescaribbeanregion:block/plant/berrybush/acoelorrhaphewrightii-trunk" },
+				"leavescenter1": {"base": "floralzonescaribbeanregion:block/plant/berrybush/sabalpalmetto-dead"},
+				"leavesinside1": {"base": "floralzonescaribbeanregion:block/plant/fern/sabalpalmetto"},
+				"flowerberrycenter1": {"base": "floralzonescaribbeanregion:block/plant/berrybush/sabalpalmetto/berries/bountiful/ripecenter1"}
+		},
+		"*-sabalminor-flowering": {
+			"leavesinside1": { "base": "floralzonescaribbeanregion:block/plant/fern/sabalpalmetto" },
+			"flowerberrycenter1": { "base": "block/plant/berrybush/sabalpalmetto/berries/bountiful/floweringcenter1" },
+			"leavescenter1": { "base": "block/plant/berrybush/sabalpalmetto-dead" }
+		},
+		"*-sabalminor-ripe": {
+			"leavesinside1": { "base": "floralzonescaribbeanregion:block/plant/fern/sabalpalmetto" },
+			"flowerberrycenter1": { "base": "block/plant/berrybush/sabalpalmetto/berries/bountiful/ripecenter1" },
+			"leavescenter1": { "base": "block/plant/berrybush/sabalpalmetto-dead" }
+		},
+		"*-sabalminor-empty": {
+			"leavesinside1": { "base": "floralzonescaribbeanregion:block/plant/fern/sabalpalmetto" },
+			"leavescenter1": { "base": "block/plant/berrybush/sabalpalmetto-dead" }
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionboxByType": {"*acoelorrhaphewrightii*":{ "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1.5, "z2": 0.8125 },"*sabalminor*": null},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-acoelorrhaphewrightii-ripe": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:palmleaf-palmetto", "quantity": { "avg": 5.1, "var": 2 }  },
+			{ "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 8.5, "var": 2  }  },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 4, "var": 2  }  }
+		],
+		"*-sabalminor-ripe": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:palmleaf-palmetto", "quantity": { "avg": 5.1, "var": 2 }  },
+			{ "type": "item", "code": "floralzonescaribbeanregion:fruit-{type}", "quantity": { "avg": 8.5, "var": 2  }  },
+		],
+		"*-acoelorrhaphewrightii-*": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:palmleaf-palmetto", "quantity": { "avg": 5.1, "var": 2 }  },
+			{ "type": "item", "code": "game:firewood", "quantity": { "avg": 4, "var": 2  }  }
+		],
+		"*-sabalminor-*": [
+			{ "type": "item", "code": "floralzonescaribbeanregion:palmleaf-palmetto", "quantity": { "avg": 5.1, "var": 2 }  },
+		]
+	},
+	"materialDensity": 400,
+	"vertexFlags": {
+		"zOffset": 2
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10,
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-acoelorrhaphewrightii-*": { "origin": { "x": 0.5, "y": 2.5, "z": 0.5},"scale": 0.25},
+		"*": { "scale": 1.0}
+	}
+}

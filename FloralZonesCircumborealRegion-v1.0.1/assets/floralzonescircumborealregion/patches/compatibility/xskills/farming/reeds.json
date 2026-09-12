@@ -1,0 +1,21 @@
+[
+
+  {
+    "file": "floralzonescircumborealregion:blocktypes/plant/grass",
+    "op": "addmerge",
+    "path": "/behaviorsByType",
+    "value": {
+      "*-normal-*": [
+        {
+          "name": "XSkillsGrass",
+          "properties": {
+            "xp": 0.1
+          }
+        }
+      ]
+  }, "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

@@ -1,0 +1,92 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"hydnoraafricana": [4,4]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 1.0, 1.0, 1.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stalk 5",
+					"from": [ 9.5, -1.1, 7.3 ],
+					"to": [ 10.5, -0.1, 8.3 ],
+					"rotationOrigin": [ 9.5, -1.1, 7.3 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#hydnoraafricana", "uv": [ 0.0, 1.5, 2.0, 3.5 ], "autoUv": false },
+						"east": { "texture": "#hydnoraafricana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+						"south": { "texture": "#hydnoraafricana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+						"west": { "texture": "#hydnoraafricana", "uv": [ 0.0, 2.0, 2.0, 4.0 ], "autoUv": false },
+						"up": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Stalk 4",
+					"from": [ 8.5, -1.1, 8.3 ],
+					"to": [ 9.5, 0.4, 9.3 ],
+					"rotationOrigin": [ 8.5, -1.1, 8.3 ],
+					"faces": {
+						"north": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "autoUv": false },
+						"east": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "autoUv": false },
+						"south": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "autoUv": false },
+						"west": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "autoUv": false },
+						"up": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Stalk 3",
+					"from": [ 6.5, -1.1, 7.9 ],
+					"to": [ 7.5, 0.4, 8.9 ],
+					"rotationOrigin": [ 6.5, -1.1, 7.9 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "autoUv": false },
+						"east": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "autoUv": false },
+						"south": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "autoUv": false },
+						"west": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 3.0 ], "autoUv": false },
+						"up": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Stalk 2",
+					"from": [ 8.2, -1.1, 6.6 ],
+					"to": [ 9.2, -0.1, 7.6 ],
+					"rotationOrigin": [ 8.2, -1.1, 6.6 ],
+					"rotationY": -45.0,
+					"faces": {
+						"north": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+						"east": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+						"south": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+						"west": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+						"up": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false }
+					}
+				},
+				{
+					"name": "Stalk 1",
+					"from": [ 6.9, -1.1, 6.1 ],
+					"to": [ 7.9, -0.1, 7.1 ],
+					"rotationOrigin": [ 6.9, -1.1, 6.1 ],
+					"rotationY": -67.5,
+					"faces": {
+						"north": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+						"east": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+						"south": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+						"west": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false },
+						"up": { "texture": "#hydnoraafricana", "uv": [ 0.0, 0.0, 2.0, 2.0 ], "autoUv": false }
+					}
+				}
+			]
+		}
+	]}

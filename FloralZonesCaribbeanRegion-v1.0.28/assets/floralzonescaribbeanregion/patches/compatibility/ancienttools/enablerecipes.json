@@ -1,0 +1,74 @@
+[
+	{
+		"op": "replace",
+		"path": "/0/enabled",
+		"value": true,
+		"file": "compatibility/ancienttools/recipes/grid/block/curingrackfzcar",
+		"dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "compatibility/ancienttools/recipes/grid/block/stretchingframefzcar",
+        "dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "compatibility/ancienttools/recipes/grid/block/debarkedlogfzcar",
+        "dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "compatibility/ancienttools/recipes/grid/spawners/cartfzcar",
+        "dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+        "path": "/1/enabled",
+        "value": true,
+        "file": "compatibility/ancienttools/recipes/grid/spawners/cartfzcar",
+        "dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "compatibility/ancienttools/recipes/grid/item/wheelfzcar",
+        "dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+        "path": "/1/enabled",
+        "value": true,
+        "file": "compatibility/ancienttools/recipes/grid/item/wheelfzcar",
+        "dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+        "path": "/0/enabled",
+        "value": true,
+        "file": "compatibility/ancienttools/recipes/grid/item/beamfzcar",
+        "dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+        "path": "/1/enabled",
+        "value": true,
+        "file": "compatibility/ancienttools/recipes/grid/item/beamfzcar",
+        "dependsOn": [ { "modid": "ancienttools" }],
+		"side": "Server"
+	}
+]

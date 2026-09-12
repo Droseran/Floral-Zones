@@ -1,0 +1,85 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 12,
+	"textureSizes": {
+		"fronds1": [8,16],
+		"center": [8,12],
+		"fronds2": [8,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Upper frond 1",
+					"from": [ -3.0, 0.0, 1.0 ],
+					"to": [ 5.0, 16.0, 1.0 ],
+					"shade": false,
+					"climateColorMap": "none",
+					"seasonColorMap": "none",
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+					"rotationX": 25.0,
+					"faces": {
+						"south": { "texture": "#fronds1", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "windMode": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "Upper frond 2",
+					"from": [ -5.0, 0.0, -1.0 ],
+					"to": [ 3.0, 16.0, -1.0 ],
+					"shade": false,
+					"climateColorMap": "none",
+					"seasonColorMap": "none",
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 0.0, -1.0 ],
+					"rotationX": 140.768,
+					"rotationY": -37.761,
+					"rotationZ": 153.435,
+					"faces": {
+						"south": { "texture": "#fronds2", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "windMode": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "Upper frond 3",
+					"from": [ -3.0, 0.0, -1.0 ],
+					"to": [ 5.0, 16.0, -1.0 ],
+					"shade": false,
+					"climateColorMap": "none",
+					"seasonColorMap": "none",
+					"renderPass": 1,
+					"rotationOrigin": [ 1.0, 0.0, -1.0 ],
+					"rotationX": 136.436,
+					"rotationY": 60.246,
+					"rotationZ": -140.453,
+					"faces": {
+						"south": { "texture": "#fronds1", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "windMode": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "Lower frond 1",
+					"from": [ 0.0, 0.0, -4.0 ],
+					"to": [ 16.0, 0.0, 4.0 ],
+					"climateColorMap": "none",
+					"seasonColorMap": "none",
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationZ": 25.0,
+					"faces": {
+						"up": { "texture": "#fronds1", "uv": [ 0.0, 0.0, 8.0, 16.0 ], "rotation": 90, "windMode": [0,0,1,1] }
+					}
+				}
+			]
+		}
+	]}

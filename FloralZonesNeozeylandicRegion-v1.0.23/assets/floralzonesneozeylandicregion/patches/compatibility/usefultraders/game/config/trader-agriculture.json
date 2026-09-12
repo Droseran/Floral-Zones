@@ -1,0 +1,61 @@
+[
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:config/tradelists/trader-agriculture.json",
+		"op": "addmerge",
+		"path": "/selling/list",
+		"value": [
+			{
+				"code": "floralzonesneozeylandicregion:seeds-cordylinepumilio",
+				"type": "item",
+				"stacksize": 2,
+				"stock": {
+					"avg": 2,
+					"var": 0
+				},
+				"price": {
+					"avg": 3,
+					"var": 1
+				}
+			}
+		]
+	},
+	{
+		"dependsOn": [
+			{ "modid": "usefultraders" }
+		],
+		"file": "game:config/tradelists/trader-agriculture.json",
+		"op": "addmerge",
+		"path": "/buying/list",
+		"value": [
+			{
+				"code": "floralzonesneozeylandicregion:fruit-asteliagrandis",
+				"type": "item",
+				"stacksize": 16,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			},
+			{
+				"code": "floralzonesneozeylandicregion:vegetable-cordylinepumilio",
+				"type": "item",
+				"stacksize": 8,
+				"stock": {
+					"avg": 8,
+					"var": 2
+				},
+				"price": {
+					"avg": 1,
+					"var": 0
+				}
+			}
+		]
+	}
+]

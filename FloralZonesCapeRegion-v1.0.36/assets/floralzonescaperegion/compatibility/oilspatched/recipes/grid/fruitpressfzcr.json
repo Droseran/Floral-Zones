@@ -1,0 +1,23 @@
+[
+	{
+		"ingredientPattern": "HIO,CPR,PPP",
+		"ingredients": {
+			"R": { "type": "item", "code": "game:resin", "quantity": 2 },
+			"O": { "type": "block", "code": "game:woodbucket" },
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true, "toolDurabilityCost": 30 },
+			"C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 40 },
+			"P": { "type": "item", "code": "floralzonescaperegion:plank-*", "name": "wood", "quantity": 3 },
+			"I": { "type": "item", "code": "game:rod-*", "name": "metal", "allowedVariants": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "steel"] }
+		},
+		"width": 3,
+		"height": 3,
+		"attributes": {
+			"liquidContainerProps": {
+				"requiresContent": { "type": "item", "code": "oils:plantoil-*" },
+				"requiresLitres": 1
+			}
+		},
+		"output": { "type": "block", "code": "game:fruitpress-ns", "quantity": 1  },
+		"enabled": false
+	}
+]

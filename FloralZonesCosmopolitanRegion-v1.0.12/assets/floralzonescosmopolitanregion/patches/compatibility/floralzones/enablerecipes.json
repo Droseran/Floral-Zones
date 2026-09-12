@@ -1,0 +1,34 @@
+[
+	{
+		"op": "replace",
+		"path": "/1/enabled",
+		"value": true,
+		"file": "recipes/grid/fiber-palm/cadjan",
+		"dependsOn": [ { "modid": "floralzonescaribbeanregion" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/2/enabled",
+		"value": true,
+		"file": "recipes/grid/fiber-palm/cadjan",
+		"dependsOn": [ { "modid": "floralzonescaribbeanregion" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/3/enabled",
+		"value": true,
+		"file": "recipes/grid/fiber-palm/cadjan",
+		"dependsOn": [ { "modid": "floralzoneseastasiaticregion" }],
+		"side": "Server"
+	},
+	{
+		"op": "replace",
+		"path": "/4/enabled",
+		"value": true,
+		"file": "recipes/grid/fiber-palm/cadjan",
+		"dependsOn": [ { "modid": "floralzonesneozeylandicregion" }],
+		"side": "Server"
+	}
+]

@@ -1,0 +1,444 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Taramea",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-aciphyllaaurea-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 12,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minRain": 0.26,
+          "maxRain": 0.75,
+          "chance": 0.3,
+		  "minY": 0.05,
+          "maxY": 0.25,
+		  "minFertility": 0,
+		  "maxFertility": 0.7,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 4 },
+          "offsetX": { "avg": 1, "var": 9 },
+          "offsetZ": { "avg": 1, "var": 9 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Alpine patches of Taramea",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-aciphyllaaurea-free"
+          ],
+          "minTemp": -2,
+          "maxTemp": 4,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minRain": 0.26,
+          "maxRain": 0.75,
+          "chance": 0.3,
+		  "minY": 0.25,
+          "maxY": 0.5,
+		  "minFertility": 0,
+		  "maxFertility": 0.7,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 4 },
+          "offsetX": { "avg": 1, "var": 9 },
+          "offsetZ": { "avg": 1, "var": 9 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Ross Lily",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-bulbinellarossii-free"
+          ],
+          "minTemp": 8,
+          "maxTemp": 10,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minRain": 0.65,
+          "maxRain": 0.73,
+          "chance": 0.6,
+		  "minY": 0,
+          "maxY": 0.18,
+		  "minFertility": 0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 16, "var": 6 },
+          "offsetX": { "avg": 0, "var": 9 },
+          "offsetZ": { "avg": 0, "var": 9 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Cotton Daisy",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-celmisiaangustifolia-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 10,
+		  "minForest": 0,
+		  "maxForest": 0.1,
+          "minRain": 0.48,
+          "maxRain": 0.80,
+          "chance": 0.2,
+		  "minY": 0.08,
+          "maxY": 0.4,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 2 },
+          "offsetX": { "avg": 0, "var": 3 },
+          "offsetZ": { "avg": 0, "var": 3 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Alpine patches of Cotton Daisy",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-celmisiaangustifolia-free"
+          ],
+          "minTemp": -2,
+          "maxTemp": 4,
+		  "minForest": 0,
+		  "maxForest": 0.1,
+          "minRain": 0.48,
+          "maxRain": 0.80,
+          "chance": 0.2,
+		  "minY": 0.28,
+          "maxY": 0.6,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 5, "var": 2 },
+          "offsetX": { "avg": 0, "var": 3 },
+          "offsetZ": { "avg": 0, "var": 3 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Lord Howe Wedding Lily",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-dietesrobinsoniana-free"
+          ],
+          "minTemp": 18,
+          "maxTemp": 20,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "minRain": 0.62,
+          "maxRain": 0.68,
+          "chance": 0.6,
+		  "minY": 0,
+          "maxY": 0.22,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 3, "var": 9 },
+          "offsetZ": { "avg": 3, "var": 9 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Forked Sundew",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-droserabinata-free"
+          ],
+          "minTemp": 10,
+          "maxTemp": 20,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minRain": 0.26,
+          "maxRain": 0.75,
+          "chance": 0.05,
+		  "minY": 0,
+          "maxY": 0.1,
+		  "minFertility": 0,
+		  "maxFertility": 0.6,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 0, "var": 3 },
+          "offsetZ": { "avg": 0, "var": 3 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Medium patches of Chatham Island Forget-me-nots",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-myosotidiumhortensia-free"
+          ],
+          "minTemp": 11,
+          "maxTemp": 13,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.29,
+          "maxRain": 0.63,
+          "chance": 0.6,
+		  "minY": 0,
+          "maxY": 0.05,
+		  "minFertility": 0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 8, "var": 2 },
+          "offsetX": { "avg": 0, "var": 5 },
+          "offsetZ": { "avg": 0, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Dense patches of Chatham Island Forget-me-nots",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-myosotidiumhortensia-free"
+          ],
+          "minTemp": 11,
+          "maxTemp": 13,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.29,
+          "maxRain": 0.63,
+          "chance": 0.2,
+		  "minY": 0,
+          "maxY": 0.05,
+		  "minFertility": 0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 80, "var": 20 },
+          "offsetX": { "avg": 5, "var": 5 },
+          "offsetZ": { "avg": 5, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of 	Giant Button Daisy",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-pleurophyllumcriniferum-free"
+          ],
+          "minTemp": 4,
+          "maxTemp": 10,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minRain": 0.65,
+          "maxRain": 0.73,
+          "chance": 0.6,
+		  "minY": 0,
+          "maxY": 0.18,
+		  "minFertility": 0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 4 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Campbell Island Daisy",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-pleurophyllumspeciosum-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 10,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minRain": 0.65,
+          "maxRain": 0.73,
+          "chance": 0.6,
+		  "minY": 0,
+          "maxY": 0.18,
+		  "minFertility": 0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 4 },
+          "offsetX": { "avg": 0, "var": 6 },
+          "offsetZ": { "avg": 0, "var": 6 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Mount Cook Buttercups",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-ranunculuslyallii-free"
+          ],
+          "minTemp": 4,
+          "maxTemp": 8,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.5,
+          "maxRain": 1,
+          "chance": 0.6,
+		  "minY": 0.18,
+          "maxY": 0.25,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 2, "var": 5 },
+          "offsetZ": { "avg": 2, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Alpine patches of Mount Cook Buttercups",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-ranunculuslyallii-free"
+          ],
+          "minTemp": -2,
+          "maxTemp": 4,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.5,
+          "maxRain": 1,
+          "chance": 0.6,
+		  "minY": 0.25,
+          "maxY": 0.5,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 2, "var": 5 },
+          "offsetZ": { "avg": 2, "var": 5 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Dwarf Kowhai",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-sophoraprostrata-free"
+          ],
+          "minTemp": 8,
+          "maxTemp": 12,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.26,
+          "maxRain": 0.70,
+          "chance": 0.2,
+		  "minY": 0,
+          "maxY": 0.1,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 0, "var": 3 },
+          "offsetZ": { "avg": 0, "var": 3 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server",
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Hebe",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-veronicaepacridea-free"
+          ],
+          "minTemp": 6,
+          "maxTemp": 10,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.21,
+          "maxRain": 1,
+          "chance": 0.2,
+		  "minY": 0.15,
+          "maxY": 0.48,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Alpine patches of Hebe",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-veronicaepacridea-free"
+          ],
+          "minTemp": -2,
+          "maxTemp": 4,
+		  "minForest": 0,
+		  "maxForest": 0.3,
+          "minRain": 0.21,
+          "maxRain": 1,
+          "chance": 0.2,
+		  "minY": 0.25,
+          "maxY": 0.68,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 4, "var": 2 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		},
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Ross Lily, Giant Button Daisy, and Campbell Island Daisy",
+          "blockCodes": [
+            "floralzonesneozeylandicregion:flower-pleurophyllumspeciosum-free", "floralzonesneozeylandicregion:flower-pleurophyllumcriniferum-free", "floralzonesneozeylandicregion:flower-bulbinellarossii-free",
+          ],
+          "minTemp": 8,
+          "maxTemp": 10,
+		  "minForest": 0,
+		  "maxForest": 0.2,
+          "minRain": 0.65,
+          "maxRain": 0.73,
+          "chance": 1,
+		  "minY": 0,
+          "maxY": 0.18,
+		  "minFertility": 0.4,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 162, "var": 81 },
+          "offsetX": { "avg": 0, "var": 9 },
+          "offsetZ": { "avg": 0, "var": 9 }
+        },
+        "file": "game:worldgen/blockpatches/flower.json",
+        "side": "server"
+		}
+]

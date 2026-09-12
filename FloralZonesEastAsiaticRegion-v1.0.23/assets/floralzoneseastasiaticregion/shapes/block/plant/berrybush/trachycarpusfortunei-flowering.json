@@ -1,0 +1,828 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"trachycarpusfortunei": [16,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Trunk segment1",
+			"from": [ 4.0, 0.0, 4.0 ],
+			"to": [ 12.0, 4.0, 12.0 ],
+			"faces": {
+				"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"up": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 8.0, 8.0 ] },
+				"down": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 8.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Fibers W1",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationZ": -10.0,
+					"faces": {
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Fibers E1",
+					"from": [ 8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 4.0, 0.0 ],
+					"rotationZ": 10.0,
+					"faces": {
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Fibers N1",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 8.0, 4.0, 0.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationX": 10.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers S1",
+					"from": [ 0.0, 0.0, 8.0 ],
+					"to": [ 8.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 8.0 ],
+					"rotationX": -10.0,
+					"faces": {
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Broken stem 1",
+					"from": [ 0.0, 4.0, 4.0 ],
+					"to": [ 0.5, 7.0, 5.0 ],
+					"rotationOrigin": [ 1.0, 4.0, 4.0 ],
+					"rotationZ": 25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Broken stem 2",
+					"from": [ 5.0, 4.0, 0.0 ],
+					"to": [ 6.0, 7.0, 0.5 ],
+					"rotationOrigin": [ 5.0, 4.0, 1.0 ],
+					"rotationX": -25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Broken stem 3",
+					"from": [ 2.5, 4.0, 7.5 ],
+					"to": [ 3.5, 7.0, 8.0 ],
+					"rotationOrigin": [ 2.5, 4.0, 7.0 ],
+					"rotationX": 25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Broken stem 4",
+					"from": [ 7.5, 4.0, 5.0 ],
+					"to": [ 8.0, 7.0, 6.0 ],
+					"rotationOrigin": [ 7.0, 4.0, 5.0 ],
+					"rotationZ": -25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ], "rotation": 90 }
+					}
+				}
+			]
+		},
+		{
+			"name": "Trunk segment2",
+			"from": [ 4.0, 4.0, 4.0 ],
+			"to": [ 12.0, 8.0, 12.0 ],
+			"rotationOrigin": [ 8.0, 4.0, 8.0 ],
+			"rotationY": 5.0,
+			"faces": {
+				"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"up": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 8.0, 8.0 ] },
+				"down": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 8.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Fibers W2",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationZ": -10.0,
+					"faces": {
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers E2",
+					"from": [ 8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 4.0, 0.0 ],
+					"rotationZ": 10.0,
+					"faces": {
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers N2",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 8.0, 4.0, 0.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationX": 10.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers S2",
+					"from": [ 0.0, 0.0, 8.0 ],
+					"to": [ 8.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 8.0 ],
+					"rotationX": -10.0,
+					"faces": {
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Broken stem 5",
+					"from": [ 0.0, 4.0, 5.0 ],
+					"to": [ 0.5, 7.0, 6.0 ],
+					"rotationOrigin": [ 1.0, 4.0, 5.0 ],
+					"rotationZ": 25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Broken stem 6",
+					"from": [ 2.0, 4.0, 0.0 ],
+					"to": [ 3.0, 7.0, 0.5 ],
+					"rotationOrigin": [ 2.0, 4.0, 1.0 ],
+					"rotationX": -25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Broken stem 7",
+					"from": [ 4.0, 4.0, 7.5 ],
+					"to": [ 5.0, 7.0, 8.0 ],
+					"rotationOrigin": [ 4.0, 4.0, 7.0 ],
+					"rotationX": 25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Broken stem 8",
+					"from": [ 7.5, 4.0, 2.0 ],
+					"to": [ 8.0, 7.0, 3.0 ],
+					"rotationOrigin": [ 7.0, 4.0, 2.0 ],
+					"rotationZ": -25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ], "rotation": 90 }
+					}
+				}
+			]
+		},
+		{
+			"name": "Trunk segment3",
+			"from": [ 4.0, 8.0, 4.0 ],
+			"to": [ 12.0, 12.0, 12.0 ],
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"rotationY": -5.0,
+			"faces": {
+				"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"up": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 8.0, 8.0 ] },
+				"down": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 8.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Fibers W3",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationZ": -10.0,
+					"faces": {
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers E3",
+					"from": [ 8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 4.0, 0.0 ],
+					"rotationZ": 10.0,
+					"faces": {
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers N3",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 8.0, 4.0, 0.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationX": 10.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers S3",
+					"from": [ 0.0, 0.0, 8.0 ],
+					"to": [ 8.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 8.0 ],
+					"rotationX": -10.0,
+					"faces": {
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Broken stem 9",
+					"from": [ 0.0, 4.0, 2.0 ],
+					"to": [ 0.5, 7.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 4.0, 2.0 ],
+					"rotationZ": 25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Broken stem 10",
+					"from": [ 4.0, 4.0, 0.0 ],
+					"to": [ 5.0, 7.0, 0.5 ],
+					"rotationOrigin": [ 4.0, 4.0, 1.0 ],
+					"rotationX": -25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Broken stem 11",
+					"from": [ 2.0, 4.0, 7.5 ],
+					"to": [ 3.0, 7.0, 8.0 ],
+					"rotationOrigin": [ 2.0, 4.0, 7.0 ],
+					"rotationX": 25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Broken stem 12",
+					"from": [ 7.5, 4.0, 3.0 ],
+					"to": [ 8.0, 7.0, 4.0 ],
+					"rotationOrigin": [ 7.0, 4.0, 3.0 ],
+					"rotationZ": -25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ], "rotation": 90 }
+					}
+				}
+			]
+		},
+		{
+			"name": "Trunk segment4",
+			"from": [ 4.0, 12.0, 4.0 ],
+			"to": [ 12.0, 16.0, 12.0 ],
+			"rotationOrigin": [ 8.0, 12.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 8.0, 12.0 ] },
+				"up": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 8.0, 8.0 ] },
+				"down": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 8.0, 8.0 ] }
+			},
+			"children": [
+				{
+					"name": "Fibers W4",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationZ": -10.0,
+					"faces": {
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers E4",
+					"from": [ 8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 4.0, 0.0 ],
+					"rotationZ": 10.0,
+					"faces": {
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers N4",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 8.0, 4.0, 0.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationX": 10.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers S4",
+					"from": [ 0.0, 0.0, 8.0 ],
+					"to": [ 8.0, 4.0, 8.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 8.0 ],
+					"rotationX": -10.0,
+					"faces": {
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 8.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Broken stem 13",
+					"from": [ 0.0, 4.0, 4.0 ],
+					"to": [ 0.5, 7.0, 5.0 ],
+					"rotationOrigin": [ 1.0, 4.0, 4.0 ],
+					"rotationZ": 25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Broken stem 14",
+					"from": [ 5.0, 4.0, 0.0 ],
+					"to": [ 6.0, 7.0, 0.5 ],
+					"rotationOrigin": [ 5.0, 4.0, 1.0 ],
+					"rotationX": -25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Broken stem 15",
+					"from": [ 5.0, 4.0, 7.5 ],
+					"to": [ 6.0, 7.0, 8.0 ],
+					"rotationOrigin": [ 5.0, 4.0, 7.0 ],
+					"rotationX": 25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Broken stem 16",
+					"from": [ 7.5, 4.0, 5.0 ],
+					"to": [ 8.0, 7.0, 6.0 ],
+					"rotationOrigin": [ 7.0, 4.0, 5.0 ],
+					"rotationZ": -25.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ], "rotation": 90 }
+					}
+				}
+			]
+		},
+		{
+			"name": "Trunk segment5",
+			"from": [ 5.0, 16.0, 5.0 ],
+			"to": [ 11.0, 20.0, 11.0 ],
+			"rotationOrigin": [ 8.0, 16.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 6.0, 12.0 ] },
+				"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 6.0, 12.0 ] },
+				"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 6.0, 12.0 ] },
+				"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 6.0, 12.0 ] },
+				"up": { "texture": "#trachycarpusfortunei", "uv": [ 1.0, 1.0, 7.0, 7.0 ] },
+				"down": { "texture": "#trachycarpusfortunei", "uv": [ 1.0, 1.0, 7.0, 7.0 ] }
+			},
+			"children": [
+				{
+					"name": "Fibers W5",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 4.0, 6.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationZ": -160.0,
+					"faces": {
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 6.0, 16.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "Fibers E5",
+					"from": [ 6.0, 0.0, 0.0 ],
+					"to": [ 6.0, 4.0, 6.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+					"rotationZ": 160.0,
+					"faces": {
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 6.0, 16.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "Fibers N5",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 6.0, 4.0, 0.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationX": 160.0,
+					"faces": {
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 6.0, 16.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "Fibers S5",
+					"from": [ 0.0, 0.0, 6.0 ],
+					"to": [ 6.0, 4.0, 6.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 6.0 ],
+					"rotationX": -160.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 6.0, 16.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Trunk segment6",
+			"from": [ 5.0, -4.0, 5.0 ],
+			"to": [ 11.0, 0.0, 11.0 ],
+			"rotationOrigin": [ 8.0, -4.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 6.0, 12.0 ] },
+				"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 6.0, 12.0 ] },
+				"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 6.0, 12.0 ] },
+				"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 8.0, 6.0, 12.0 ] },
+				"up": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 6.0, 6.0 ] },
+				"down": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 0.0, 6.0, 6.0 ] }
+			},
+			"children": [
+				{
+					"name": "Fibers W6",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 4.0, 6.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationZ": -10.0,
+					"faces": {
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 6.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers E6",
+					"from": [ 6.0, 0.0, 0.0 ],
+					"to": [ 6.0, 4.0, 6.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 6.0, 4.0, 0.0 ],
+					"rotationZ": 10.0,
+					"faces": {
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 6.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers N6",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 6.0, 4.0, 0.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 0.0 ],
+					"rotationX": 10.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 6.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Fibers S6",
+					"from": [ 0.0, 0.0, 6.0 ],
+					"to": [ 6.0, 4.0, 6.0 ],
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 4.0, 6.0 ],
+					"rotationX": -10.0,
+					"faces": {
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 0.0, 12.0, 6.0, 16.0 ] }
+					}
+				},
+				{
+					"name": "Broken stem 17",
+					"from": [ 0.0, 4.0, 4.0 ],
+					"to": [ 0.5, 7.0, 5.0 ],
+					"rotationOrigin": [ 1.0, 4.0, 4.0 ],
+					"rotationZ": 65.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ], "rotation": 90 }
+					}
+				},
+				{
+					"name": "Broken stem 18",
+					"from": [ 2.0, 4.0, 0.0 ],
+					"to": [ 3.0, 7.0, 0.5 ],
+					"rotationOrigin": [ 2.0, 4.0, 1.0 ],
+					"rotationX": -55.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Broken stem 19",
+					"from": [ 2.5, 4.0, 5.5 ],
+					"to": [ 3.5, 7.0, 6.0 ],
+					"rotationOrigin": [ 2.5, 4.0, 5.0 ],
+					"rotationX": 65.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ] }
+					}
+				},
+				{
+					"name": "Broken stem 20",
+					"from": [ 5.5, 4.0, 3.0 ],
+					"to": [ 6.0, 7.0, 4.0 ],
+					"rotationOrigin": [ 5.0, 4.0, 3.0 ],
+					"rotationZ": -65.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 0.5, 8.5, 3.5 ] },
+						"east": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.5, 9.5, 3.5 ] },
+						"south": { "texture": "#trachycarpusfortunei", "uv": [ 9.5, 0.5, 10.0, 3.5 ] },
+						"west": { "texture": "#trachycarpusfortunei", "uv": [ 10.0, 0.5, 11.0, 3.5 ] },
+						"up": { "texture": "#trachycarpusfortunei", "uv": [ 8.5, 0.0, 9.5, 0.5 ], "rotation": 90 }
+					}
+				}
+			]
+		},
+		{
+			"name": "Flower 1",
+			"from": [ 3.0, 0.0, 3.0 ],
+			"to": [ 11.0, 12.0, 3.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 7.0, 12.0, 3.0 ],
+			"rotationY": 22.5,
+			"faces": {
+				"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [0,7,7,0] }
+			},
+			"children": [
+				{
+					"name": "Flower 2",
+					"from": [ 0.0, 3.0, 0.0 ],
+					"to": [ 8.0, 15.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 4.0, 15.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": -67.5,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [7,7,7,7], "windData": [1,1,0,0] }
+					},
+					"children": [
+						{
+							"name": "Flower 5",
+							"from": [ 2.0, 0.0, 0.0 ],
+							"to": [ 10.0, 12.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 12.0, 0.0 ],
+							"rotationX": 0.0,
+							"rotationY": 112.5,
+							"rotationZ": 0.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flower 3",
+					"from": [ 4.0, 3.0, -2.0 ],
+					"to": [ 12.0, 15.0, -2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 15.0, -2.0 ],
+					"rotationY": -112.5,
+					"rotationZ": -45.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [7,7,7,7], "windData": [0,1,0,0] }
+					},
+					"children": [
+						{
+							"name": "Flower 4",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 8.0, 12.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 4.0, 12.0, 0.0 ],
+							"rotationX": 0.0,
+							"rotationY": -90.0,
+							"rotationZ": 0.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [7,7,7,7] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flower 6",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 8.0, 12.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 4.0, 12.0, 0.0 ],
+					"rotationY": 90.0,
+					"rotationZ": 45.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [0,7,7,7] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Flower 7",
+			"from": [ 3.0, 0.0, 13.0 ],
+			"to": [ 11.0, 12.0, 13.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 7.0, 12.0, 13.0 ],
+			"rotationY": -135.0,
+			"rotationZ": 22.5,
+			"faces": {
+				"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [0,7,7,0] }
+			},
+			"children": [
+				{
+					"name": "Flower 8",
+					"from": [ 0.0, 3.0, 0.0 ],
+					"to": [ 8.0, 15.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 4.0, 15.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": -67.5,
+					"rotationZ": 90.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [7,7,7,7], "windData": [1,1,0,0] }
+					},
+					"children": [
+						{
+							"name": "Flower 9",
+							"from": [ 2.0, 0.0, 0.0 ],
+							"to": [ 10.0, 12.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 6.0, 12.0, 0.0 ],
+							"rotationX": 0.0,
+							"rotationY": 112.5,
+							"rotationZ": 0.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [7,7,7,7], "windData": [0,0,0,1] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flower 10",
+					"from": [ 4.0, 3.0, -2.0 ],
+					"to": [ 12.0, 15.0, -2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 8.0, 15.0, -2.0 ],
+					"rotationY": -112.5,
+					"rotationZ": -45.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [7,7,7,7], "windData": [0,1,0,0] }
+					},
+					"children": [
+						{
+							"name": "Flower 11",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 8.0, 12.0, 0.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 4.0, 12.0, 0.0 ],
+							"rotationX": 0.0,
+							"rotationY": -90.0,
+							"rotationZ": 0.0,
+							"faces": {
+								"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [7,7,7,7], "windData": [0,1,0,0] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Flower 12",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 8.0, 12.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 4.0, 12.0, 0.0 ],
+					"rotationY": 90.0,
+					"rotationZ": 45.0,
+					"faces": {
+						"north": { "texture": "#trachycarpusfortunei", "uv": [ 8.0, 4.0, 16.0, 16.0 ], "windMode": [0,7,7,7] }
+					}
+				}
+			]
+		}
+	]}

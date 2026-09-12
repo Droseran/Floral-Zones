@@ -1,0 +1,32 @@
+[
+     {
+        "op": "addeach",
+        "path": "/attributes/contentConfig/0",
+        "side": "server",
+        "value": [ 
+            { "code": "cordylinepumilio",
+                "content": { "type": "item", "code": "floralzonesneozeylandicregion:vegetable-cordylinepumilio" },
+                "quantityPerFillLevel": 2,
+                "maxFillLevels": 8,
+                "shapesPerFillLevel": [ "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", 
+                                        "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2",
+                                        "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3",
+                                        "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4" ],
+                "textureCode": "contents-cordylinepumilio" } ],
+        "file": "game:blocktypes/wood/trough-large.json"
+    },
+    {
+        "op": "addmerge",
+        "path": "/textures",
+        "side": "server",
+        "value": {
+            "contents-cordylinepumilio": {
+                "base": "block/food/pie/fill-onion",
+                "overlays": [
+                  "block/wood/trough/large/shadow"
+                ]
+            }
+        },
+        "file": "game:blocktypes/wood/trough-large.json"
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Varied patches of Lava Cactus",
+          "blockCodes": [
+            "floralzonescaribbeanregion:silvertorchcactus-brachycereusnesioticus"
+          ],
+          "minTemp": 22,
+          "maxTemp": 26,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "minRain": 0.12,
+          "maxRain": 0.44,
+          "chance": 1,
+		  "minY": 0,
+          "maxY": 0.3,
+		  "minFertility":0,
+		  "maxFertility": 0.2,
+          "quantity": { "dist": "invexp", "avg": 6, "var": 5 },
+          "offsetX": { "avg": 0, "var": 4 },
+          "offsetZ": { "avg": 0, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Giant Horsetail",
+          "blockCodes": [
+            "floralzonescaribbeanregion:tallplant-equisetummyriochaetum-land-normal-free"
+          ],
+          "minTemp": 20,
+          "maxTemp": 26,
+		  "minForest": 0.5,
+		  "maxForest": 1,
+          "minRain": 0.4,
+          "maxRain": 1,
+          "chance": 1,
+		  "minY": 0.05,
+          "maxY": 0.7,
+		  "placement": "NearWater",
+		  "minFertility":0.5,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 26, "var": 5 },
+          "offsetX": { "avg": 1, "var": 4 },
+          "offsetZ": { "avg": 1, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Giant Horsetail",
+          "blockCodes": [
+            "floralzonescaribbeanregion:tallplant-equisetummyriochaetum-land-normal-free"
+          ],
+          "minTemp": 20,
+          "maxTemp": 26,
+		  "minForest": 0.5,
+		  "maxForest": 1,
+          "minRain": 0.4,
+          "maxRain": 1,
+          "chance": 1,
+		  "minY": 0.05,
+          "maxY": 0.7,
+		  "placement": "NearWater",
+		  "minFertility":0.5,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 26, "var": 5 },
+          "offsetX": { "avg": 1, "var": 4 },
+          "offsetZ": { "avg": 1, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of Giant Horsetail",
+          "blockCodes": [
+            "floralzonescaribbeanregion:tallplant-equisetummyriochaetum-land-normal-free"
+          ],
+          "minTemp": 20,
+          "maxTemp": 26,
+		  "minForest": 0.5,
+		  "maxForest": 1,
+          "minRain": 0.4,
+          "maxRain": 1,
+          "chance": 1,
+		  "minY": 0.05,
+          "maxY": 0.7,
+		  "placement": "NearWater",
+		  "minFertility":0.5,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 26, "var": 5 },
+          "offsetX": { "avg": 1, "var": 4 },
+          "offsetZ": { "avg": 1, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_nearctic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Small patches of Jumping Prickly Pear",
+          "blockCodes": [
+            "floralzonescaribbeanregion:silvertorchcactus-opuntiatriacantha"
+          ],
+          "minTemp": 25,
+          "maxTemp": 29,
+		  "minForest": 0,
+		  "maxForest": 0.4,
+          "minRain": 0.24,
+          "maxRain": 0.55,
+          "chance": 1,
+		  "minY": 0,
+          "maxY": 0.1,
+		  "minFertility":0,
+		  "maxFertility": 0.4,
+          "quantity": { "dist": "invexp", "avg": 3, "var": 2 },
+          "offsetX": { "avg": 4, "var": 4 },
+          "offsetZ": { "avg": 4, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_neotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_nearctic","invert": true },{ "modid": "bio_pacific_neotropic","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of American Taro",
+          "blockCodes": [
+            "floralzonescaribbeanregion:tallplant-xanthosomasagittifolium-land-normal-free"
+          ],
+          "minTemp": 21,
+          "maxTemp": 40,
+		  "minForest": 0.5,
+		  "maxForest": 1,
+          "minRain": 0.55,
+          "maxRain": 1,
+          "chance": 2,
+		  "minY": 0,
+          "maxY": 0.5,
+		  "placement": "NearWater",
+		  "minFertility":0.5,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 16, "var": 5 },
+          "offsetX": { "avg": 1, "var": 4 },
+          "offsetZ": { "avg": 1, "var": 4 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large patches of American Taro on land",
+          "blockCodes": [
+            "floralzonescaribbeanregion:tallplant-xanthosomasagittifolium-land-normal-free"
+          ],
+          "minTemp": 21,
+          "maxTemp": 40,
+		  "minForest": 0.05,
+		  "maxForest": 0.5,
+          "minRain": 0.55,
+          "maxRain": 1,
+          "chance": 0.01,
+		  "minY": 0,
+          "maxY": 0.5,
+		  "minFertility":0.5,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 76, "var": 55 },
+          "offsetX": { "avg": 0, "var": 30 },
+          "offsetZ": { "avg": 0, "var": 30 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+        "dependsOn": [{ "modid": "bio_atlantic_afrotropic","invert": true },{ "modid": "bio_atlantic_palearctic","invert": true },{ "modid": "bio_australasian","invert": true },{ "modid": "bio_central_palearctic","invert": true },{ "modid": "bio_eastern_palearctic","invert": true },{ "modid": "bio_eastern_afrotropic","invert": true },{ "modid": "bio_oceanian","invert": true },{ "modid": "bio_pacific_palearctic","invert": true }]
+      }
+]

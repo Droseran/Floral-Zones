@@ -1,0 +1,145 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 24,
+	"textureHeight": 12,
+	"textureSizes": {
+		"leaves1": [24,12],
+		"leaves2": [24,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, -4.0, 8.0 ],
+			"to": [ 8.0, -4.0, 8.0 ],
+			"rotationOrigin": [ 8.0, -1.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Leaves 1",
+					"from": [ 2.0, 0.0, -12.0 ],
+					"to": [ 2.0, 12.0, 12.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+					"rotationZ": -10.0,
+					"faces": {
+						"east": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 24.0, 12.0 ], "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Leaves 2",
+					"from": [ -1.0, 0.0, -13.7321 ],
+					"to": [ -1.0, 12.0, 10.2679 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 0.0, -1.7321 ],
+					"rotationX": 180.0,
+					"rotationY": 60.0,
+					"rotationZ": 170.0,
+					"faces": {
+						"west": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 24.0, 12.0 ], "windMode": [0,0,7,7] }
+					}
+				},
+				{
+					"name": "Leaves 3",
+					"from": [ -1.0, 0.0, -10.2679 ],
+					"to": [ -1.0, 12.0, 13.7321 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -1.0, 0.0, 1.7321 ],
+					"rotationX": -180.0,
+					"rotationY": -60.0,
+					"rotationZ": 170.0,
+					"faces": {
+						"west": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 24.0, 12.0 ], "windMode": [0,0,7,7] }
+					}
+				},
+				{
+					"name": "Vinesa",
+					"from": [ 2.0, 0.0, 0.0 ],
+					"to": [ 26.0, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+					"rotationX": 15.0,
+					"faces": {
+						"south": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 24.0, 8.0 ], "windMode": [0,0,7,7] }
+					}
+				},
+				{
+					"name": "Vinesb",
+					"from": [ 2.0, 0.0, 0.0 ],
+					"to": [ 26.0, 8.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 2.0, 0.0, 0.0 ],
+					"rotationX": -15.0,
+					"faces": {
+						"north": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 24.0, 8.0 ], "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Vinesa1",
+					"from": [ -2.0, 0.0, -2.0 ],
+					"to": [ 22.0, 8.0, -2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -2.0, 0.0, -2.0 ],
+					"rotationX": 151.8132,
+					"rotationY": 56.7741,
+					"rotationZ": -155.8539,
+					"faces": {
+						"south": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 24.0, 8.0 ], "windMode": [0,0,7,7] }
+					}
+				},
+				{
+					"name": "Vinesb1",
+					"from": [ -2.0, 0.0, -2.0 ],
+					"to": [ 22.0, 8.0, -2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -2.0, 0.0, -2.0 ],
+					"rotationX": -151.8132,
+					"rotationY": 56.7741,
+					"rotationZ": 155.8539,
+					"faces": {
+						"north": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 24.0, 8.0 ], "windMode": [0,7,7,0] }
+					}
+				},
+				{
+					"name": "Vinesa2",
+					"from": [ -2.0, 0.0, 2.0 ],
+					"to": [ 22.0, 8.0, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -2.0, 0.0, 2.0 ],
+					"rotationX": 151.8132,
+					"rotationY": -56.7741,
+					"rotationZ": 155.8539,
+					"faces": {
+						"south": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 24.0, 8.0 ], "windMode": [0,0,7,7] }
+					}
+				},
+				{
+					"name": "Vinesb2",
+					"from": [ -2.0, 0.0, 2.0 ],
+					"to": [ 22.0, 8.0, 2.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ -2.0, 0.0, 2.0 ],
+					"rotationX": -151.8132,
+					"rotationY": -56.7741,
+					"rotationZ": -155.8539,
+					"faces": {
+						"north": { "texture": "#leaves2", "uv": [ 0.0, 0.0, 24.0, 8.0 ], "windMode": [0,7,7,0] }
+					}
+				}
+			]
+		}
+	]}

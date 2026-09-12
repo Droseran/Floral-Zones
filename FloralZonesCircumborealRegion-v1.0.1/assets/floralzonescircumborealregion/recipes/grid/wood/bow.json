@@ -1,0 +1,25 @@
+[
+
+	{
+		"ingredientPattern": "K,L,L",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:saw-*", "isTool": true },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "allowedVariants": ["abiesbalsamea","alnusglutinosa","larixlaricina","piceaglauca","pinussibirica","quercuspetraea"] }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "game:bowstave-long-raw"  }
+	},
+
+	{
+		"ingredientPattern": "K,L,L",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:saw-*", "isTool": true },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:lognarrow-placed-*-ud", "allowedVariants": ["piceamariana","populustremuloides"] }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "game:bowstave-long-raw"  }
+	}
+
+]

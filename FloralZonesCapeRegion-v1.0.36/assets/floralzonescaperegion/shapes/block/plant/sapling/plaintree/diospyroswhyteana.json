@@ -1,0 +1,39 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"diospyroswhyteana-sapling": [8,12]
+	},
+	"textures": {
+		"diospyroswhyteana-sapling": "block/plant/berrybush/diospyroswhyteana-sapling"
+	},
+	"elements": [
+		{
+			"name": "Face 1",
+			"from": [ 4.0, 0.0, 8.0 ],
+			"to": [ 12.0, 12.0, 8.0 ],
+			"shade": false,
+			"renderPass": 1,
+			"rotationOrigin": [ 4.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#diospyroswhyteana-sapling", "uv": [ 0.0, 0.0, 8.0, 12.0 ], "windMode": [0,7,7,0] }
+			},
+			"children": [
+				{
+					"name": "Face 2",
+					"from": [ 4.0, 0.0, -4.0 ],
+					"to": [ 4.0, 12.0, 4.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 4.0, 0.0, -4.0 ],
+					"faces": {
+						"east": { "texture": "#diospyroswhyteana-sapling", "uv": [ 0.0, 0.0, 8.0, 12.0 ], "windMode": [0,7,7,0] }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,68 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"sapling": "block/plant/mangroves/lagunculariaracemosa/sapling"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "N1",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 11.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#sapling", "uv": [ 0.0, 5.0, 16.0, 16.0 ], "windMode": [0,9,9,0] }
+					}
+				},
+				{
+					"name": "N2",
+					"from": [ -8.0, 11.0, 0.0 ],
+					"to": [ 8.0, 16.0, 0.0 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#sapling", "uv": [ 0.0, 0.0, 16.0, 5.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "E1",
+					"from": [ 0.0, 0.0, -8.0 ],
+					"to": [ 0.0, 11.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#sapling", "uv": [ 0.0, 5.0, 16.0, 16.0 ], "windMode": [0,9,9,0] }
+					}
+				},
+				{
+					"name": "E2",
+					"from": [ 0.0, 11.0, -8.0 ],
+					"to": [ 0.0, 16.0, 8.0 ],
+					"shade": false,
+					"climateColorMap": "climatePlantTint",
+					"seasonColorMap": "seasonalFoliage",
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#sapling", "uv": [ 0.0, 0.0, 16.0, 5.0 ], "windMode": [9,9,9,9], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		}
+	]}

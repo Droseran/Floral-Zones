@@ -1,0 +1,18 @@
+[
+  {
+    "file": "floralzonescircumborealregion:blocktypes/wood/woodtyped/thintrunk",
+    "op": "addmerge",
+    "path": "/behaviorsByType/*-grown-*",
+    "value": [
+      {
+        "name": "XSkillsWood",
+        "properties": {
+          "xp": 0.25
+        }
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

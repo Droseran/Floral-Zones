@@ -1,0 +1,119 @@
+{
+	"code": "tallplant",
+	"class": "BlockReeds",
+	"entityClassByType": {
+		"*-harvested-*": "Transient"
+	},
+	"attributes": {
+        "butterflyFeedByType": {"*-normal": true},
+        "beeFeedByType": {"*-normal": true},
+		"plantContainable": {
+			"largeContainerByType": {
+				"*": {
+				"shape": { "base": "block/plant/aloe/aloesuccotrina-var3" },
+					"textures": {
+			"succotrina-center": { "base": "block/plant/aloe/succotrina-center" },
+			"succotrina-flowers": { "base": "block/plant/aloe/succotrina-flowers" },
+			"succotrina-tall": { "base": "block/plant/aloe/succotrina-tall" },
+			"succotrina-stem": { "base": "block/plant/aloe/succotrina-stem" },
+			"succotrina-tip": { "base": "block/plant/aloe/succotrina-tip" }
+					}}
+			}
+		},
+		"climateColorMapForMap": "climatePlantTint", 
+		"seasonColorMapForMap": "seasonalFoliage",
+		"transientPropsByType": {
+			"tallplant-aloesuccotrina-*": {
+				"convertFrom": "*-harvested-{cover}", 
+				"convertTo": "tallplant-aloesuccotrina-land-normal-{cover}", 
+				"inGameHours": "168",
+				"resetBelowTemperature": -4,
+				"stopBelowTemperature": 2
+			}
+		},
+		"maxWaterDepthByType": {
+			"tallplant-aloesuccotrina-*": 0,
+		}
+	},
+	"allowedVariants": [ 
+		"*-land-*", 
+	],
+	"variantgroups": [
+		{ "code": "type", "states": ["aloesuccotrina"] },
+		{ "code": "habitat", "states": ["land"] },
+		{ "code": "state", "states": ["normal", "harvested"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"creativeinventory": { 
+		"general": ["*-land-normal-free"], 
+		"flora": ["*-land-normal-free"] 
+	},
+	"shapeByType": {
+		"tallplant-aloesuccotrina-*-harvested-*": { "base": "block/plant/aloe/aloesuccotrina-harvested" },		
+		"tallplant-aloesuccotrina-*": { "base": "block/plant/aloe/aloesuccotrina-var0", "alternates": [ { "base": "block/plant/aloe/aloesuccotrina-var1" },{ "base": "block/plant/aloe/aloesuccotrina-var2" },{ "base": "block/plant/aloe/aloesuccotrina-var3" } ] }
+	},
+	"lod2shapeByType": {
+	},
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"renderpass": "OpaqueNoCull",
+	"matterstate": "solid",
+	"blockmaterial": "plant",
+	"faceCullMode": "NeverCull",
+	"randomDrawOffset": true,
+	"randomizeRotations": true,
+	"texturesByType": {
+		"tallplant-aloesuccotrina-*": {
+			"succotrina-center": { "base": "block/plant/aloe/succotrina-center" },
+			"succotrina-flowers": { "base": "block/plant/aloe/succotrina-flowers" },
+			"succotrina-tall": { "base": "block/plant/aloe/succotrina-tall" },
+			"succotrina-stem": { "base": "block/plant/aloe/succotrina-stem" },
+			"succotrina-tip": { "base": "block/plant/aloe/succotrina-tip" }
+		}
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": { "all" : false },
+	"emitsideao": { "all": false },
+	"sideao": { "all": true },
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1,
+	"collisionbox": null,
+	"selectionbox": {
+		"x1": 0, "y1": 0, "z1": 0,
+		"x2": 1, "y2": 1, "z2": 1
+	},
+	"guitransform": {
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeableByType": {
+		"*-land-*": true
+	},
+	"materialDensity": 200,
+	"frostable": true,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"guiTransform": {
+		"translation": { "x": 0, "y": -1.5, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 1.2, "z": 0.5 },
+		"scale": 0.65
+	},
+	"dropsByType": {
+		"*aloesuccotrina-*-normal-*": [ { "type": "item", "code": "floralzonescaperegion:vegetable-aloesuccotrina", "quantity": { "avg": 2.6 }    } ],
+		"*aloesuccotrina-*-harvested-*":  [ { "type": "block", "code": "tallplant-aloesuccotrina-land-harvested-free", "quantity": { "avg": 0.7 }   } ]
+	}
+}

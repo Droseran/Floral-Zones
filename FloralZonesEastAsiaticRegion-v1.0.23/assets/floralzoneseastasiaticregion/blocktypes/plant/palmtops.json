@@ -1,0 +1,65 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+	"behaviorsByType": {
+		"*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventName": "testForDecay"}}, { "name": "RainDrip" }]
+	},
+"variantgroups": [
+        { "code": "type", "states": ["trachycarpusfortunei"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+		"treeFellingGroupCodeByType": {"*": "{type}"},
+			"treeFellingGroupSpreadIndexByType": {"*": 1}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-trachycarpusfortunei":{"base": "block/plant/fern/trachycarpusfortunei-leaves_var0"}
+	},
+	"randomDrawOffset": false,
+	"texturesByType": {
+		"*-trachycarpusfortunei": {
+			"trachycarpusfortunei": { "base": "block/plant/fern/trachycarpusfortunei" }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+  "sideao": {"all": true},
+  "emitSideAo": {"all": false},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 1, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*-trachycarpusfortunei": [			{ "type": "item", "code": "floralzoneseastasiaticregion:palmleaf-trachycarpusfortunei", "quantity": { "avg": 10, "var": 5 }  }],
+	},
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 30
+	},
+	"frostable": true,
+	"guiTransform": {
+		"scale": 1.5
+	}
+}

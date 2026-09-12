@@ -1,0 +1,65 @@
+{
+	"code": "palmleaf",
+		"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "SingleCenter"}}
+	],
+  "variantgroups": [
+    {"code": "type","states": ["cocosnucifera"]}],
+
+  "shapebytype": {
+    "*": {
+      "base": "item/resource/fronds/{type}"
+    }
+  },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"maxstacksize": 64,
+	"attributes": {
+		"handbook": {"groupBy": ["palmleaf-*"]},
+		"displaycaseable": false, 
+		"shelvable": false,
+		"onDisplayTransform": {
+			"translation": { "x": 0, "y": -0.05, "z": 0.0 },
+			"rotation": { "x": 0, "y": -45, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5 },
+			"scale": 1.0
+		},
+		"groundStorageTransform": {
+			"translation": { "x": 0, "y": 0.0, "z": -0.0 },
+			"rotation": { "x": 0, "y": 90, "z": 0 },
+			"scale": 1.00
+		}
+	},
+  "sounds": {
+    "walk": "game:walk/plant"
+  },
+	"materialDensity": 500,
+	"heldTpHitAnimation": "breaktool",
+	"combustibleProps": {
+		"burnTemperature": 400,
+		"burnDuration": 8,
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0, "y": -0.5, "z": -1.5 },
+		"rotation": { "x": 160, "y": -23, "z": -108 },
+		"origin": { "x": 0, "y": -1, "z": 1 },
+		"scale": 1.05
+	},
+	"guiTransformByType": {
+    "*": {"translation": {"x": 0,"y": 1,"z": 0},"rotation": {"x": 0,"y": 145,"z": 125},"origin": {"x": 0.5,"y": 0.1,"z": 0.5},"scale": 0.65}
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.55, "y": -0.10, "z": -0.45},
+		"rotation": { "x": 90, "y": 90, "z": 90 },
+		"origin": { "x": 0.5, "y": 0.0, "z": 0.5 },
+		"scale": 0.5
+	},
+
+		"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0.0, "z": 0.5299 },
+		"scale": 3
+	}
+	
+
+}

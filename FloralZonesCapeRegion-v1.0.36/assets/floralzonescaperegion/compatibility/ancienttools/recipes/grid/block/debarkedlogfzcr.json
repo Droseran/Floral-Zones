@@ -1,0 +1,71 @@
+[
+	{
+		"enabled": false,
+		ingredientPattern: "LA",
+		width: 2,
+		height: 1,
+		ingredients: {
+			"L": { 
+				type: "block",
+				code: "floralzonescaperegion:log-placed-afrocarpusfalcatus-ud",
+				returnedStack: { type: "block", code: "floralzonescaperegion:debarkedlog-afrocarpusfalcatus-ud" }
+			},
+			"A": {
+				type: "item",
+				code: "ancienttools:adze-*",
+				isTool: true
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:bark-afrocarpusfalcatus",
+			quantity: 4
+		}
+	},
+	{
+		"enabled": false,
+		ingredientPattern: "LA",
+		width: 2,
+		height: 1,
+		ingredients: {
+			"L": { 
+				type: "block",
+				code: "floralzonescaperegion:log-placed-searsialancea-ud",
+				returnedStack: { type: "block", code: "floralzonescaperegion:debarkedlog-searsialancea-ud" }
+			},
+			"A": {
+				type: "item",
+				code: "ancienttools:adze-*",
+				isTool: true
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:bark-searsialancea",
+			quantity: 4
+		}
+	},
+	{
+		"enabled": false,
+		ingredientPattern: "LA",
+		width: 2,
+		height: 1,
+		ingredients: {
+			"L": { 
+				type: "block",
+				code: "floralzonescaperegion:log-placed-ocoteabullata-ud",
+				returnedStack: { type: "block", code: "floralzonescaperegion:debarkedlog-ocoteabullata-ud" }
+			},
+			"A": {
+				type: "item",
+				code: "ancienttools:adze-*",
+				isTool: true
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:bark-ocoteabullata",
+			quantity: 4
+		}
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"ingredientPattern": "AHL",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "wood", "skipVariants": ["larixlaricina", "pinussibirica", "quercuspetraea"] }
+		},
+		"width": 3,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "block", "code": "floralzonescircumborealregion:debarkedlog-{wood}-ud", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "AHL",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "wood", "allowedVariants": ["larixlaricina"] }
+		},
+		"width": 3,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "block", "code": "game:debarkedlog-larch-ud", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "AHL",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "wood", "allowedVariants": ["pinussibirica"] }
+		},
+		"width": 3,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "block", "code": "game:debarkedlog-pine-ud", "quantity": 1  }
+	},
+	{
+		"ingredientPattern": "AHL",
+		"ingredients": {
+			"A": { "type": "item", "code": "game:axe-*", "isTool": true  },
+			"H": { "type": "item", "code": "game:hammer-*", "isTool": true  },
+			"L": { "type": "block", "code": "floralzonescircumborealregion:log-placed-*-ud", "name": "wood", "allowedVariants": ["quercuspetraea"] }
+		},
+		"width": 3,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "block", "code": "game:debarkedlog-oak-ud", "quantity": 1  }
+	}
+]

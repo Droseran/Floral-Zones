@@ -1,0 +1,100 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 4,
+	"textureSizes": {
+		"rubuschamaemorus": [4,4]
+	},
+	"textures": {
+		"rubuschamaemorus": "item/food/fruit/rubuschamaemorus"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Stem",
+					"from": [ -0.5, 0.0, -0.5 ],
+					"to": [ 0.5, 1.0, 0.5 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": 22.5,
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 2.5, 1.0, 3.5 ] },
+						"east": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 2.5, 1.0, 3.5 ] },
+						"south": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 2.5, 1.0, 3.5 ] },
+						"west": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 2.5, 1.0, 3.5 ] },
+						"down": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 2.5, 1.0, 3.5 ] }
+					},
+					"children": [
+						{
+							"name": "Berry",
+							"from": [ -0.5, 1.0, -0.5 ],
+							"to": [ 1.5, 3.0, 1.5 ],
+							"rotationOrigin": [ -0.5, 1.0, -0.5 ],
+							"faces": {
+								"north": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"east": { "texture": "#rubuschamaemorus", "uv": [ 0.5, 0.0, 2.5, 2.0 ] },
+								"south": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"west": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+								"up": { "texture": "#rubuschamaemorus", "uv": [ 0.5, 0.0, 2.5, 2.0 ] },
+								"down": { "texture": "#rubuschamaemorus", "uv": [ 0.5, 0.0, 2.5, 2.0 ] }
+							}
+						},
+						{
+							"name": "leaflet1",
+							"from": [ 0.0, 1.0, 0.5 ],
+							"to": [ 1.0, 1.0, 2.5 ],
+							"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+							"rotationX": 2.0,
+							"rotationY": 45.0,
+							"faces": {
+								"up": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 2.5, 2.0, 3.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "leaflet2",
+							"from": [ 0.0, 1.0, 0.5 ],
+							"to": [ 1.0, 1.0, 2.5 ],
+							"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+							"rotationX": -2.0,
+							"rotationY": 135.0,
+							"faces": {
+								"up": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 3.0, 2.0, 4.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "leaflet3",
+							"from": [ 0.0, 1.0, 0.5 ],
+							"to": [ 1.0, 1.0, 2.5 ],
+							"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+							"rotationX": 2.0,
+							"rotationY": -45.0,
+							"faces": {
+								"up": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 2.0, 2.0, 3.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "leaflet4",
+							"from": [ 0.0, 1.0, 0.5 ],
+							"to": [ 1.0, 1.0, 2.5 ],
+							"rotationOrigin": [ 0.5, 1.0, 0.5 ],
+							"rotationX": -4.0,
+							"rotationY": -135.0,
+							"faces": {
+								"up": { "texture": "#rubuschamaemorus", "uv": [ 0.0, 2.5, 2.0, 3.5 ], "rotation": 90, "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

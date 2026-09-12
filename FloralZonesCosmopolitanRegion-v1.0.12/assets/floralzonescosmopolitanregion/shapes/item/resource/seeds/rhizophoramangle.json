@@ -1,0 +1,147 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 8,
+	"textureSizes": {
+		"rhizophoramangle": [4,8]
+	},
+	"textures": {
+		"rhizophoramangle": "item/resource/seeds/rhizophoramangle"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Body",
+					"from": [ 0.0, 0.0, -3.0 ],
+					"to": [ 1.0, 1.0, 3.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"east": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 6.0 ], "rotation": 90 },
+						"south": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"west": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 6.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 6.0 ] },
+						"down": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 6.0 ] }
+					},
+					"children": [
+						{
+							"name": "Point",
+							"from": [ 0.2, 0.2, -2.0 ],
+							"to": [ 0.8, 0.8, 0.0 ],
+							"rotationOrigin": [ 0.2, 0.2, 0.0 ],
+							"rotationY": -5.0,
+							"faces": {
+								"north": { "texture": "#rhizophoramangle", "uv": [ 1.0, 7.0, 1.5, 7.5 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#rhizophoramangle", "uv": [ 0.0, 6.0, 0.5, 8.0 ], "rotation": 270 },
+								"west": { "texture": "#rhizophoramangle", "uv": [ 0.0, 6.0, 0.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#rhizophoramangle", "uv": [ 1.0, 6.0, 1.5, 8.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#rhizophoramangle", "uv": [ 1.0, 6.0, 1.5, 8.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "End",
+							"from": [ 0.2, 0.2, 6.0 ],
+							"to": [ 0.8, 0.8, 7.5 ],
+							"rotationOrigin": [ 0.2, 0.2, 6.0 ],
+							"rotationY": 15.0,
+							"faces": {
+								"east": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+								"west": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+								"up": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+								"down": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 0.5, 1.5 ] }
+							},
+							"children": [
+								{
+									"name": "Tip",
+									"from": [ -0.2, -0.2, 1.5 ],
+									"to": [ 0.8, 0.8, 3.5 ],
+									"rotationOrigin": [ 0.3, -0.2, 1.5 ],
+									"rotationY": -10.0,
+									"faces": {
+										"north": { "texture": "#rhizophoramangle", "uv": [ 2.0, 0.0, 3.0, 1.0 ] },
+										"east": { "texture": "#rhizophoramangle", "uv": [ 2.0, 1.0, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1] },
+										"south": { "texture": "#rhizophoramangle", "uv": [ 2.0, 3.0, 3.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+										"west": { "texture": "#rhizophoramangle", "uv": [ 2.0, 1.0, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1] },
+										"up": { "texture": "#rhizophoramangle", "uv": [ 2.0, 0.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#rhizophoramangle", "uv": [ 2.0, 0.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1] }
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Body2",
+					"from": [ -1.0, 0.0, -1.0 ],
+					"to": [ 0.0, 1.0, 5.0 ],
+					"rotationOrigin": [ -1.0, 0.0, 2.0 ],
+					"rotationY": 55.0,
+					"faces": {
+						"north": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"east": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 6.0 ], "rotation": 90 },
+						"south": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"west": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 6.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 6.0 ] },
+						"down": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.0, 6.0 ] }
+					},
+					"children": [
+						{
+							"name": "Point2",
+							"from": [ 0.2, 0.2, -2.0 ],
+							"to": [ 0.8, 0.8, 0.0 ],
+							"rotationOrigin": [ 0.2, 0.2, 0.0 ],
+							"rotationY": -5.0,
+							"faces": {
+								"north": { "texture": "#rhizophoramangle", "uv": [ 1.0, 7.0, 1.5, 7.5 ], "windMode": [-1,-1,-1,-1] },
+								"east": { "texture": "#rhizophoramangle", "uv": [ 0.0, 6.0, 0.5, 8.0 ], "rotation": 270 },
+								"west": { "texture": "#rhizophoramangle", "uv": [ 0.0, 6.0, 0.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+								"up": { "texture": "#rhizophoramangle", "uv": [ 1.0, 6.0, 1.5, 8.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+								"down": { "texture": "#rhizophoramangle", "uv": [ 1.0, 6.0, 1.5, 8.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "End2",
+							"from": [ 0.2, 0.2, 6.0 ],
+							"to": [ 0.8, 0.8, 7.5 ],
+							"rotationOrigin": [ 0.2, 0.2, 6.0 ],
+							"rotationY": 15.0,
+							"faces": {
+								"east": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+								"west": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 1.5, 0.5 ] },
+								"up": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+								"down": { "texture": "#rhizophoramangle", "uv": [ 0.0, 0.0, 0.5, 1.5 ] }
+							},
+							"children": [
+								{
+									"name": "Tip2",
+									"from": [ -0.2, -0.2, 1.5 ],
+									"to": [ 0.8, 0.8, 3.5 ],
+									"rotationOrigin": [ 0.3, -0.2, 1.5 ],
+									"rotationY": -10.0,
+									"faces": {
+										"north": { "texture": "#rhizophoramangle", "uv": [ 2.0, 0.0, 3.0, 1.0 ] },
+										"east": { "texture": "#rhizophoramangle", "uv": [ 2.0, 1.0, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1] },
+										"south": { "texture": "#rhizophoramangle", "uv": [ 2.0, 3.0, 3.0, 4.0 ], "windMode": [-1,-1,-1,-1] },
+										"west": { "texture": "#rhizophoramangle", "uv": [ 2.0, 1.0, 4.0, 2.0 ], "windMode": [-1,-1,-1,-1] },
+										"up": { "texture": "#rhizophoramangle", "uv": [ 2.0, 0.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1] },
+										"down": { "texture": "#rhizophoramangle", "uv": [ 2.0, 0.0, 3.0, 2.0 ], "windMode": [-1,-1,-1,-1] }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

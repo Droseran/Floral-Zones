@@ -1,0 +1,76 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 8,
+	"textureSizes": {
+		"laurusnobilis": [8,8]
+	},
+	"textures": {
+		"laurusnobilis": "item/resource/seeds/laurusnobilis"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "branch",
+					"from": [ -0.3, 2.0, -3.3 ],
+					"to": [ 0.3, 10.0, -2.7 ],
+					"rotationOrigin": [ 0.0, 2.0, -3.0 ],
+					"rotationX": 72.0,
+					"faces": {
+						"north": { "texture": "#laurusnobilis", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#laurusnobilis", "uv": [ 0.5, 0.0, 1.0, 8.0 ], "rotation": 180, "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#laurusnobilis", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#laurusnobilis", "uv": [ 0.5, 0.0, 1.0, 8.0 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#laurusnobilis", "uv": [ 0.0, 7.0, 0.5, 7.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#laurusnobilis", "uv": [ 0.0, 2.0, 0.5, 2.5 ], "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "leaf1",
+							"from": [ -1.0, 0.0, -5.0 ],
+							"to": [ 1.5, 0.0, 0.0 ],
+							"rotationOrigin": [ 0.3, 0.0, 0.0 ],
+							"rotationX": 72.0,
+							"rotationY": -72.0,
+							"faces": {
+								"up": { "texture": "#laurusnobilis", "uv": [ 5.5, 0.0, 8.0, 5.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "leaf2",
+							"from": [ -1.0, 2.0, -5.0 ],
+							"to": [ 1.5, 2.0, 0.0 ],
+							"rotationOrigin": [ 0.3, 2.0, 0.0 ],
+							"rotationX": 36.0,
+							"rotationY": 36.0,
+							"rotationZ": -36.0,
+							"faces": {
+								"up": { "texture": "#laurusnobilis", "uv": [ 5.5, 0.0, 8.0, 5.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						},
+						{
+							"name": "leaf3",
+							"from": [ -1.0, 5.0, -5.0 ],
+							"to": [ 1.5, 5.0, 0.0 ],
+							"rotationOrigin": [ 0.3, 5.0, 0.0 ],
+							"rotationY": -36.0,
+							"rotationZ": -36.0,
+							"faces": {
+								"up": { "texture": "#laurusnobilis", "uv": [ 5.5, 0.0, 8.0, 5.0 ], "windMode": [-1,-1,-1,-1] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

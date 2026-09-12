@@ -1,0 +1,34 @@
+{
+	"treeWorldPropertyCode": "roystonearegia",
+	"sizeMultiplier": 1.9,
+	"trunks": [{
+		"widthloss": 0.1,
+		"dieAt": { "avg": 0.001 },
+		"branchStart": { "dist": "gaussian", "avg": 0.2,  "var": 0.1 },
+		"branchSpacing": { "dist": "gaussian", "avg": 0.2,  "var": 0.1 },
+		"branchVerticalAngle":  { "avg": 0.8,  "var": 0.1 },
+		"branchHorizontalAngle": { "avg": 0,  "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.1,  "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 1 },
+		"branchQuantity": { "avg": 0,  "var": 0 },
+		"branchWidthLossMul": 0.98,
+		"angleVert": { "avg": 0, "var": 0 }
+	}],
+	"branches": [{
+		"widthLoss": 0.02,
+		"gravityDrag": 0.01,
+		"dieAt": { "avg": 0.005 },
+		"branchStart": { "dist": "gaussian", "avg": 0.2, "var": 0.2 },
+		"branchSpacing": { "avg": 0.2, "var": 0.005 },
+		"branchVerticalAngle":  { "dist": "gaussian", "avg": 0.8, "var": 0.1 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.4, "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 0.1 },
+		"branchQuantity": { "avg": 0, "var": 0 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "floralzonescaribbeanregion:lognarrow-grown-roystonearegia-ud",
+		"leavesBlockCode": "floralzonescaribbeanregion:fern-roystonearegia",
+		"leavesBranchyBlockCode": "floralzonescaribbeanregion:bigberrybush-roystonearegia-ripe"
+	}
+}

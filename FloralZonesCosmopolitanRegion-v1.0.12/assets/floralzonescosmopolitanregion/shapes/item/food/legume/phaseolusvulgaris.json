@@ -1,0 +1,207 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"phaseolusvulgaris": [4,4]
+	},
+	"textures": {
+		"phaseolusvulgaris": "item/food/legume/phaseolusvulgaris"
+	},
+	"elements": [
+		{
+			"name": "Bean a1",
+			"from": [ 8.0, 0.0, 7.0 ],
+			"to": [ 9.0, 1.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 7.0 ],
+			"rotationY": -22.5,
+			"faces": {
+				"north": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 1.0, 1.5, 2.0 ] },
+				"east": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 2.0, 3.5, 3.0 ] },
+				"south": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+				"west": { "texture": "#phaseolusvulgaris", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+				"up": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 0.5, 2.0, 1.5 ] },
+				"down": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 0.5, 2.0, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "Bean b1",
+					"from": [ 0.0, -0.01, 1.0 ],
+					"to": [ 1.0, 0.99, 2.0 ],
+					"rotationOrigin": [ 0.0, -0.01, 1.0 ],
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+						"east": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 2.0, 3.0, 3.0 ] },
+						"south": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+						"west": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 0.5, 2.0, 1.5 ] },
+						"up": { "texture": "#phaseolusvulgaris", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+						"down": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 1.0, 2.0, 2.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Bean a2",
+			"from": [ 9.0, 0.0, 9.0 ],
+			"to": [ 10.0, 1.0, 10.0 ],
+			"rotationOrigin": [ 9.0, 0.0, 9.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"north": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+				"east": { "texture": "#phaseolusvulgaris", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"south": { "texture": "#phaseolusvulgaris", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+				"west": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 0.0, 2.0, 1.0 ] },
+				"up": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+				"down": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
+			},
+			"children": [
+				{
+					"name": "Bean b2",
+					"from": [ 0.0, -0.01, 1.0 ],
+					"to": [ 1.0, 0.99, 2.0 ],
+					"rotationOrigin": [ 0.0, -0.01, 1.0 ],
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+						"east": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+						"south": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+						"west": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+						"up": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+						"down": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 1.0, 1.5, 2.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Bean a3",
+			"from": [ 7.0, 0.0, 10.0 ],
+			"to": [ 8.0, 1.0, 11.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 10.0 ],
+			"rotationY": 72.0,
+			"faces": {
+				"north": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 0.5, 2.0, 1.5 ] },
+				"east": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 2.0, 2.0, 3.0 ] },
+				"south": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 0.5, 2.0, 1.5 ] },
+				"west": { "texture": "#phaseolusvulgaris", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"up": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+				"down": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 1.0, 2.0, 2.0 ] }
+			},
+			"children": [
+				{
+					"name": "Bean b3",
+					"from": [ 0.0, -0.01, 1.0 ],
+					"to": [ 1.0, 0.99, 2.0 ],
+					"rotationOrigin": [ 0.0, -0.01, 1.0 ],
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 0.0, 1.5, 1.0 ] },
+						"east": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 2.5, 2.0, 3.5 ] },
+						"south": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+						"west": { "texture": "#phaseolusvulgaris", "uv": [ 0.0, 0.5, 1.0, 1.5 ] },
+						"up": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 0.5, 2.0, 1.5 ] },
+						"down": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 0.5, 2.0, 1.5 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Bean a4",
+			"from": [ 6.0, 0.0, 10.0 ],
+			"to": [ 7.0, 1.0, 11.0 ],
+			"rotationOrigin": [ 6.0, 0.0, 10.0 ],
+			"rotationY": 152.0,
+			"faces": {
+				"north": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 0.0, 3.0, 1.0 ] },
+				"east": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 2.5, 1.5, 3.5 ] },
+				"south": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 0.5, 3.5, 1.5 ] },
+				"west": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+				"up": { "texture": "#phaseolusvulgaris", "uv": [ 3.0, 0.5, 4.0, 1.5 ] },
+				"down": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 1.0, 3.5, 2.0 ] }
+			},
+			"children": [
+				{
+					"name": "Bean b4",
+					"from": [ 0.0, -0.01, 1.0 ],
+					"to": [ 1.0, 0.99, 2.0 ],
+					"rotationOrigin": [ 0.0, -0.01, 1.0 ],
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 0.0, 3.0, 1.0 ] },
+						"east": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 2.0, 1.5, 3.0 ] },
+						"south": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 0.5, 3.0, 1.5 ] },
+						"west": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 0.0, 3.0, 1.0 ] },
+						"up": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 1.0, 3.5, 2.0 ] },
+						"down": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 0.0, 3.0, 1.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Bean a5",
+			"from": [ 7.0, 0.0, 6.0 ],
+			"to": [ 8.0, 1.0, 7.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 6.0 ],
+			"rotationY": -66.0,
+			"faces": {
+				"north": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+				"east": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 2.0, 3.0, 3.0 ] },
+				"south": { "texture": "#phaseolusvulgaris", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+				"west": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 1.0, 3.5, 2.0 ] },
+				"up": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 0.0, 3.5, 1.0 ] },
+				"down": { "texture": "#phaseolusvulgaris", "uv": [ 3.0, 0.5, 4.0, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "Bean b5",
+					"from": [ 0.0, -0.01, 1.0 ],
+					"to": [ 1.0, 0.99, 2.0 ],
+					"rotationOrigin": [ 0.0, -0.01, 1.0 ],
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 0.5, 3.5, 1.5 ] },
+						"east": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 2.0, 3.0, 3.0 ] },
+						"south": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 0.5, 3.0, 1.5 ] },
+						"west": { "texture": "#phaseolusvulgaris", "uv": [ 3.0, 0.5, 4.0, 1.5 ] },
+						"up": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+						"down": { "texture": "#phaseolusvulgaris", "uv": [ 3.0, 1.0, 4.0, 2.0 ] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Bean a6",
+			"from": [ 10.0, 0.0, 6.0 ],
+			"to": [ 11.0, 1.0, 7.0 ],
+			"rotationOrigin": [ 10.0, 0.0, 6.0 ],
+			"rotationY": -22.0,
+			"faces": {
+				"north": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 1.0, 3.5, 2.0 ] },
+				"east": { "texture": "#phaseolusvulgaris", "uv": [ 0.5, 2.5, 1.5, 3.5 ] },
+				"south": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 0.5, 3.5, 1.5 ] },
+				"west": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 0.5, 3.5, 1.5 ] },
+				"up": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+				"down": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 0.5, 3.0, 1.5 ] }
+			},
+			"children": [
+				{
+					"name": "Bean b6",
+					"from": [ 0.0, -0.01, 1.0 ],
+					"to": [ 1.0, 0.99, 2.0 ],
+					"rotationOrigin": [ 0.0, -0.01, 1.0 ],
+					"rotationY": 22.5,
+					"faces": {
+						"north": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 0.5, 3.5, 1.5 ] },
+						"east": { "texture": "#phaseolusvulgaris", "uv": [ 1.0, 2.5, 2.0, 3.5 ] },
+						"south": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+						"west": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 1.0, 3.5, 2.0 ] },
+						"up": { "texture": "#phaseolusvulgaris", "uv": [ 2.0, 0.5, 3.0, 1.5 ] },
+						"down": { "texture": "#phaseolusvulgaris", "uv": [ 2.5, 1.0, 3.5, 2.0 ] }
+					}
+				}
+			]
+		}
+	]}

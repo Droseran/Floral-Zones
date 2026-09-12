@@ -1,0 +1,160 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"leavesside": [16,16],
+		"leavestop": [16,16]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Leaves 1",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 16.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#leavestop", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,2,2,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Leaves 2",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 16.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": -60.0,
+					"rotationZ": -180.0,
+					"faces": {
+						"north": { "texture": "#leavesside", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,2,2,0] }
+					}
+				},
+				{
+					"name": "Leaves 3",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 16.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationX": -180.0,
+					"rotationY": 60.0,
+					"rotationZ": -180.0,
+					"faces": {
+						"north": { "texture": "#leavestop", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,2,2,0], "windData": [0,0,1,0] }
+					}
+				},
+				{
+					"name": "Leaves 4",
+					"from": [ -8.0, 0.0, 1.0 ],
+					"to": [ 8.0, 16.0, 1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 1.0 ],
+					"rotationX": 45.0,
+					"faces": {
+						"north": { "texture": "#leavestop", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,2,2,0] }
+					}
+				},
+				{
+					"name": "Leaves 5",
+					"from": [ -8.0, 0.0, -1.0 ],
+					"to": [ 8.0, 16.0, -1.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, -1.0 ],
+					"rotationX": -45.0,
+					"faces": {
+						"north": { "texture": "#leavesside", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,2,2,0] }
+					}
+				},
+				{
+					"name": "Rotation point",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -60.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Leaves 6",
+							"from": [ -8.0, 0.0, 1.0 ],
+							"to": [ 8.0, 16.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 1.0 ],
+							"rotationX": 45.0,
+							"rotationY": -10.0,
+							"faces": {
+								"north": { "texture": "#leavestop", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,2,2,0] }
+							}
+						},
+						{
+							"name": "Leaves 7",
+							"from": [ -8.0, 0.0, -1.0 ],
+							"to": [ 8.0, 16.0, -1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, -1.0 ],
+							"rotationX": -45.0,
+							"rotationY": 10.0,
+							"faces": {
+								"north": { "texture": "#leavestop", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,2,2,0] }
+							}
+						}
+					]
+				},
+				{
+					"name": "Rotation point2",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 0.0, 0.0, 0.0 ],
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": 45.0,
+					"faces": {
+					},
+					"children": [
+						{
+							"name": "Leaves 8",
+							"from": [ -8.0, 0.0, 1.0 ],
+							"to": [ 8.0, 16.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, 1.0 ],
+							"rotationX": 45.0,
+							"rotationY": -10.0,
+							"faces": {
+								"north": { "texture": "#leavesside", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,2,2,0] }
+							}
+						},
+						{
+							"name": "Leaves 9",
+							"from": [ -8.0, 0.0, -1.0 ],
+							"to": [ 8.0, 16.0, -1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 0.0, 0.0, -1.0 ],
+							"rotationX": -45.0,
+							"faces": {
+								"north": { "texture": "#leavesside", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,2,2,0] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

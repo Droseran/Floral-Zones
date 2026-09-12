@@ -1,0 +1,79 @@
+{
+	"code": "flower",
+	"class": "BlockPlant",
+	"variantgroups": [
+		{ "code": "type", "states": ["allocasuarinarobusta","xanthorrhoeathorntonii"] },
+		{ "code": "cover", "states": ["free", "snow"] }
+	],
+	"attributes": {
+		"butterflyFeed": true,
+		"beeFeed": true
+	},
+	"creativeinventory": { "general": ["*-free"], "flora": ["*-free"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtypeByType": {
+		"*-snow": "JSONAndSnowLayer",
+		"*": "JSON"
+	},
+	"shapeByType": {
+		"*-allocasuarinarobusta-*":{"base": "block/plant/flower/atriplexnummularia_var0", "alternates": [ { "base": "block/plant/flower/atriplexnummularia_var1" },{ "base": "block/plant/flower/atriplexnummularia_var2" },{ "base": "block/plant/flower/atriplexnummularia_var3" } ] },
+		"*-xanthorrhoeathorntonii-*":{"base": "block/plant/flower/xanthorrhoeathorntonii_*"},
+
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"@.*-(allocasuarinarobusta)-.*": {
+		 "flower": { "base": "block/plant/flower/petal/{type}" }
+		},
+    "*-xanthorrhoeathorntonii-*": {
+    "trunk": { "base": "block/plant/flower/stem/xanthorrhoeathorntonii-trunk" },
+    "deadleaves": { "base": "block/plant/flower/stem/xanthorrhoeathorntonii-deadleaves" },
+    "leaves": { "base": "block/plant/flower/stem/xanthorrhoeathorntonii-leaves1" ,"alternates": [ { "base": "block/plant/flower/stem/xanthorrhoeathorntonii-leaves2" }]},
+    "flower": { "base": "block/plant/flower/petal/xanthorrhoeathorntonii-flower" }
+    }
+
+		
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterialByType": {
+		"*-free": "Plant",
+		"*": "Snow"
+	},
+	"faceCullModeByType": {
+		"*-free": "Default",
+		"*": "MergeSnowLayer"
+	},
+	"sideopaqueByType": {
+		"*-snow": { "all": false, "down": true },
+		"*": { "all": false }
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.2,
+	"collisionboxByType":  {"*-xanthorrhoeathorntonii-*":{ "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 2, "z2": 0.8125 },"*": null},
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.75, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+		"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustiblePropsByType": {"*-allocasuarinarobusta-*":{
+		"burnTemperature": 600,
+		"burnDuration": 10}
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-mimetesfimbriifolius-*": { "origin": { "x": 0.5, "y": 1.25, "z": 0.5},"scale": 0.4},
+		"*": { "scale": 1.5}
+	}
+}

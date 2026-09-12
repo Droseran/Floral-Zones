@@ -1,0 +1,169 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 24,
+	"textureSizes": {
+		"flower1": [16,24],
+		"flower2": [16,24]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Flower 1",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face N1",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 24.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face E1",
+					"from": [ 0.0, 0.0, -8.0 ],
+					"to": [ 0.0, 24.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Flower 2",
+			"from": [ 3.0, 0.0, 3.0 ],
+			"to": [ 3.0, 0.0, 3.0 ],
+			"rotationOrigin": [ 3.0, 0.0, 3.0 ],
+			"rotationY": 12.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face N2",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 24.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face E2",
+					"from": [ 0.0, 0.0, -8.0 ],
+					"to": [ 0.0, 24.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Flower 3",
+			"from": [ 10.0, 0.0, 6.0 ],
+			"to": [ 10.0, 0.0, 6.0 ],
+			"rotationOrigin": [ 10.0, 0.0, 6.0 ],
+			"rotationY": -12.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face N3",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 24.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face E3",
+					"from": [ 0.0, 0.0, -8.0 ],
+					"to": [ 0.0, 24.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Flower 4",
+			"from": [ 12.0, 0.0, 12.0 ],
+			"to": [ 12.0, 0.0, 12.0 ],
+			"rotationOrigin": [ 12.0, 0.0, 12.0 ],
+			"rotationY": 57.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face N4",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 24.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face E4",
+					"from": [ 0.0, 0.0, -8.0 ],
+					"to": [ 0.0, 24.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Flower 5",
+			"from": [ 2.0, 0.0, 11.0 ],
+			"to": [ 2.0, 0.0, 11.0 ],
+			"rotationOrigin": [ 2.0, 0.0, 11.0 ],
+			"rotationY": -57.5,
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face N5",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 24.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face E5",
+					"from": [ 0.0, 0.0, -8.0 ],
+					"to": [ 0.0, 24.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		}
+	]}

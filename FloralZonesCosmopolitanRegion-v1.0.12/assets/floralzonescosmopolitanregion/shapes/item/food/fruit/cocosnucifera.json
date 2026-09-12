@@ -1,0 +1,59 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"fill-breadfruit": [16,16]
+	},
+	"textures": {
+		"fill-breadfruit": "game:block/food/pie/fill-breadfruit"
+	},
+	"elements": [
+		{
+			"name": "Wedge 1",
+			"from": [ 7.0, 0.0, 7.0 ],
+			"to": [ 9.0, 0.5, 9.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"east": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"south": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"west": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"up": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+				"down": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+			}
+		},
+		{
+			"name": "Wedge 2",
+			"from": [ 6.8, 0.5, 7.3 ],
+			"to": [ 8.8, 1.0, 9.3 ],
+			"rotationOrigin": [ 6.8, 0.5, 7.3 ],
+			"rotationY": 22.5,
+			"faces": {
+				"north": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"east": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"south": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"west": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"up": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+				"down": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+			}
+		},
+		{
+			"name": "Wedge 3",
+			"from": [ 7.1, 1.0, 7.5 ],
+			"to": [ 9.1, 1.5, 9.5 ],
+			"rotationOrigin": [ 7.1, 1.0, 7.5 ],
+			"rotationY": 35.0,
+			"faces": {
+				"north": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"east": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"south": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"west": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 0.5 ] },
+				"up": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+				"down": { "texture": "#fill-breadfruit", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+			}
+		}
+	]}

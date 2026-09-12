@@ -1,0 +1,27 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 24,
+	"textureSizes": {
+		"roystonearegia-stem": [8,24]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "pine",
+			"from": [ 4.0, 0.0, 4.0 ],
+			"to": [ 12.0, 16.0, 12.0 ],
+			"faces": {
+				"north": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 8.0, 8.0, 24.0 ] },
+				"east": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 8.0, 8.0, 24.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
+				"south": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 8.0, 8.0, 24.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"west": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 8.0, 8.0, 24.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,1,1] },
+				"up": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 0.0, 8.0, 8.0 ] },
+				"down": { "texture": "#roystonearegia-stem", "uv": [ 0.0, 0.0, 8.0, 8.0 ] }
+			}
+		}
+	]}

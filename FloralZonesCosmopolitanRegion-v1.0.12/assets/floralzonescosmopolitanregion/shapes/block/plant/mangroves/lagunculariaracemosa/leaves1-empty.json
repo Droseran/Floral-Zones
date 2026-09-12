@@ -1,0 +1,59 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"leaves1": [32,32]
+	},
+	"textures": {
+		"leaves1": "block/plant/mangroves/lagunculariaracemosa/leaves1"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Leaves 1",
+					"from": [ -16.0, 0.0, 0.0 ],
+					"to": [ 16.0, 32.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 32.0, 32.0 ] }
+					}
+				},
+				{
+					"name": "Leaves 2",
+					"from": [ 0.0, 0.0, -16.0 ],
+					"to": [ 0.0, 32.0, 16.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -30.0,
+					"faces": {
+						"east": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "Leaves 3",
+					"from": [ 0.0, 0.0, -16.0 ],
+					"to": [ 0.0, 32.0, 16.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"rotationOrigin": [ 0.0, 0.0, 0.0 ],
+					"rotationY": -150.0,
+					"faces": {
+						"east": { "texture": "#leaves1", "uv": [ 0.0, 0.0, 32.0, 32.0 ], "windMode": [-1,-1,-1,-1] }
+					}
+				}
+			]
+		}
+	]}

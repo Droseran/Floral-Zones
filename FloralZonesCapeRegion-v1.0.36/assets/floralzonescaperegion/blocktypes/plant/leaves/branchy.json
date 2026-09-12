@@ -1,0 +1,143 @@
+{
+	"code": "leavesbranchy",
+	"__comment": "BlockLeaves contains some code for map color tinting, stuff for wind affectedness and random testForDecay server block ticks",
+	"class": "BlockLeaves",
+	"behaviorsByType": {
+		"*-placed*-*": [{"name": "PushEventOnBlockBroken",	"properties": {"eventname": "testForDecay"}}, { "name": "RainDrip" }],
+		"*": [{ "name": "RainDrip" }]
+	},
+	"attributes": {
+		"fenceConnect": { "north": false, "east": false, "west": false, "south": false },
+		"asphyxiating": false,
+		"handbook": {
+			"groupBy": ["leavesbranchy-*"]
+		},
+		"treeFellingGroupCodeByType": {
+			"*-placed-*": "{wood}",
+			"*-placed1-*": "{wood}",
+			"*-placed2-*": "{wood}",
+			"*-placed3-*": "{wood}",
+			"*-placed4-*": "{wood}",
+			"*-placed5-*": "{wood}",
+			"*-placed6-*": "{wood}",
+			"*-placed7-*": "{wood}",
+
+			"*-grown-*": "{wood}"
+		},
+		"treeFellingGroupSpreadIndex": 1,
+		"canDecayByType": {
+			"*-placed*-*": true
+		},
+		"liquidBarrierOnSides": [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["placed", "placed1", "placed2", "placed3", "placed4", "placed5", "placed6", "placed7", "grown"] },
+		{ "code": "wood", "states": ["leucadendronargenteum","pterocelastrustricuspidatus"], "loadFromProperties": "floralzonescaperegion:block/wood" }
+	],
+	"creativeinventory": { "general": ["leavesbranchy-placed-*"], "flora": ["leavesbranchy-placed-*"] },
+	
+	"shape": {
+		"baseByType": {
+			"*-leucadendronargenteum": "floralzonescaperegion:block/plant/leaves/branchy-leucadendronargenteum",
+			"*-ocoteabullata": "game:block/plant/leaves/branchy-larch",
+			"*": "game:block/plant/leaves/branchy"
+		},
+		"rotatey": 10,
+		"alternates": [
+			{ "rotatey": 61 },
+			{ "rotatey": 113 },
+			{ "rotatey": 164 },
+			{ "rotatey": 216 },
+			{ "rotatey": 267 },
+			{ "rotatey": 319 }
+		]
+	},
+	"lod0shape": {
+		"baseByType": {
+			"*-leucadendronargenteum": "floralzonescaperegion:block/plant/leaves/branchy-leucadendronargenteum-lod0",
+			"*-ocoteabullata": "game:block/plant/leaves/branchy-larch-lod0",
+			"*": "game:block/plant/leaves/branchy-lod0"
+		},
+		"rotatey": 10,
+		"alternates": [
+			{ "rotatey": 61 },
+			{ "rotatey": 113 },
+			{ "rotatey": 164 },
+			{ "rotatey": 216 },
+			{ "rotatey": 267 },
+			{ "rotatey": 319 }
+		]
+	},
+	"shapeInventory": {
+		"baseByType": {
+			"*-leucadendronargenteum": "floralzonescaperegion:block/plant/leaves/branchy-leucadendronargenteum-lod0",
+			"*-ocoteabullata": "game:block/plant/leaves/branchy-larch-lod0",
+			"*": "game:block/plant/leaves/branchy-lod0"
+		}
+	},
+	"renderPass": "OpaqueNoCull",
+	"faceCullMode": "CollapseMaterial",
+	"blockmaterial": "Leaves",
+	"vertexFlags": {
+		"zOffset": 4,
+		"windMode": "Leaves"
+	},
+	"textures": {
+		"largeleavesBytype": {
+			"*": { "base": "floralzonescaperegion:block/plant/leaves/large/{wood}*" }
+		},
+		"smallleavesBytype": {
+			"*": { "base": "floralzonescaperegion:block/plant/leaves/small/{wood}*" },
+		},
+		"branch": { "base": "game:block/plant/leaves/large/branch" }
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sideAo": {
+		"all": true
+	},
+	"emitSideAo": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 1,
+	"resistance": 0.9,
+	"snowCoverage": true,
+	"drops": [
+		{
+			"type": "item",
+			"code": "floralzonescaperegion:treeseed-{wood}",
+			"quantityByType": {
+				"*": { "avg": 0.05, "var": 0 }
+			}
+		},
+		{
+			"type": "item",
+			"code": "game:stick",
+			"quantity": { "avg": 1, "var": 0 },
+		}
+	],
+	"sounds": {
+		"break": "game:block/plant",
+		"place": "game:block/plant",
+		"hit": "game:block/plant",
+		"walk": "game:walk/grass",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	},
+	"materialDensity": 400,
+	"heldTpIdleAnimation": "holdbothhandslarge", "heldTpUseAnimation": "twohandplaceblock",
+	"tpHandTransform": {
+		"translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+		"rotation": { "x": -2, "y": 25, "z": -78 },
+		"scale": 0.4
+	},
+	"guiTransform": {
+		"scale": 0.8
+	},
+	"frostable": true
+}

@@ -1,0 +1,74 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+"variantgroups": [
+        { "code": "type", "states": ["cycasrevoluta","polystichumpolyblepharum"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+		"plantContainable": {
+			"smallContainerByType": {
+			},
+			"largeContainerByType": {
+				"*-cycasrevoluta": {"shape": {"base": "block/plant/fern/cycasrevoluta/var3"}},
+				"*-polystichumpolyblepharum": {"shape": {"base": "block/plant/fern/polystichumpolyblepharum1"}}
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-cycasrevoluta":{"base": "block/plant/fern/cycasrevoluta/var*"},
+		"*-polystichumpolyblepharum":{"base": "block/plant/fern/polystichumpolyblepharum*"}
+	},
+	"randomDrawOffset": true,
+	"texturesByType": {
+		"*-cycasrevoluta": {
+		 "fronds": { "base": "block/plant/fern/cycasrevoluta/fronds" },
+		 "trunk": { "base": "block/plant/fern/cycasrevoluta/trunk" },
+		 "cone": { "base": "block/plant/fern/cycasrevoluta/cone" }
+		},
+		"*-polystichumpolyblepharum": {
+		 "leaves": { "base": "block/plant/fern/polystichumpolyblepharum*" }
+		}
+	},
+	"randomizeRotations": true,
+	"randomSizeAdjust": 0.1,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"collisionboxByType": {
+		"*-cycasrevoluta": {"x1": 0.125, "y1": 0, "z1": 0.125,"x2": 0.875, "y2": 1.0, "z2": 0.875},
+		"*" :null},
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 0.75, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant",
+  	"walk": "game:walk/inside/leafy/bushrustle*",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5
+	},
+	"frostable": true,
+	"guiTransformByType": {
+		"*-cycasrevoluta": { "origin": { "x": 0.5, "y": 1.2, "z": 0.5},"scale": 0.5},
+		"*": { "scale": 1.5}
+	}
+}

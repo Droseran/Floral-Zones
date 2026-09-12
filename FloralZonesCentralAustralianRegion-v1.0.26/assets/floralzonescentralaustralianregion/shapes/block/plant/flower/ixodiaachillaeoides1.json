@@ -1,0 +1,45 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 24,
+	"textureSizes": {
+		"flower1": [16,24],
+		"flower2": [16,24]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "Flower 1",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "Face N1",
+					"from": [ -8.0, 0.0, 0.0 ],
+					"to": [ 8.0, 24.0, 0.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"north": { "texture": "#flower1", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				},
+				{
+					"name": "Face E1",
+					"from": [ 0.0, 0.0, -8.0 ],
+					"to": [ 0.0, 24.0, 8.0 ],
+					"shade": false,
+					"renderPass": 1,
+					"faces": {
+						"east": { "texture": "#flower2", "uv": [ 0.0, 0.0, 16.0, 24.0 ], "windMode": [0,1,1,0], "windData": [0,1,1,0] }
+					}
+				}
+			]
+		}
+	]}

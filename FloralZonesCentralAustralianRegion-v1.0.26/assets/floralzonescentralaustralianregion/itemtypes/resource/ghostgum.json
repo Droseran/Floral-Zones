@@ -1,0 +1,36 @@
+{
+	"code": "corymbiasap",
+	"shape": { "base": "floralzonescentralaustralianregion:item/resource/corymbiasap" },
+	"texture": { "base": "floralzonescentralaustralianregion:item/resource/corymbiasap" },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"maxstacksize": 64,
+	"guiTransform": {
+		translation: { x: 1, y: 0, z: 0 },
+		rotation: { x: -31, y: -39, z: -180 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 3.6
+	},
+	"fpHandTransform": {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 4, y: 15, z: 0 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 1.97
+	},
+	"tpHandTransform": {
+		translation: { x: -0.73, y: -0.1, z: -0.67 },
+		rotation: { x: -50, y: 27, z: -28 },
+		origin: { x: 0.5, y: 0.1, z: 0.5 },
+		scale: 0.75
+	},
+	"groundTransform": {
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.7
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 4,
+	},
+	"materialDensity": 100,
+}

@@ -1,0 +1,65 @@
+﻿[
+	{
+		"op": "addeach",
+		"path": "/variantgroups/0/states/-",
+		"value": ["afrocarpusfalcatus", "searsialancea", "ocoteabullata"],
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType/*-afrocarpusfalcatus-*",
+		"value": {
+			"bark": { base: "floralzonescaperegion:block/wood/bark/{variant}"},
+			"inside": { base: "floralzonescaperegion:block/wood/debarked/{variant}", rotation: 90 },
+			"basket-bark": { base: "floralzonescaperegion:block/wood/bark/{variant}"},
+			"basket-inside": { base: "floralzonescaperegion:block/wood/debarked/{variant}", rotation: 90 },
+		},
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType/*-searsialancea-*",
+		"value": {
+			"bark": { base: "floralzonescaperegion:block/wood/bark/{variant}"},
+			"inside": { base: "floralzonescaperegion:block/wood/debarked/{variant}", rotation: 90 },
+			"basket-bark": { base: "floralzonescaperegion:block/wood/bark/{variant}"},
+			"basket-inside": { base: "floralzonescaperegion:block/wood/debarked/{variant}", rotation: 90 },
+		},
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/texturesByType/*-ocoteabullata-*",
+		"value": {
+			"bark": { base: "floralzonescaperegion:block/wood/bark/{variant}"},
+			"inside": { base: "floralzonescaperegion:block/wood/debarked/{variant}", rotation: 90 },
+			"basket-bark": { base: "floralzonescaperegion:block/wood/bark/{variant}"},
+			"basket-inside": { base: "floralzonescaperegion:block/wood/debarked/{variant}", rotation: 90 },
+		},
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server"
+	},
+	{
+        "op": "move",
+		"frompath": "/texturesByType/*",
+		"path": "/temp",
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server",
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/texturesByType/*",
+		"file": "ancienttools:blocktypes/barkbasket",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server",
+    },
+]

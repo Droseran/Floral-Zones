@@ -1,0 +1,36 @@
+[
+
+	{
+		"ingredientPattern": "K,L,L",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:saw-*", "isTool": true },
+			"L": { "type": "block", "code": "floralzonesneozeylandicregion:log-placed-*-ud", "allowedVariants": ["araucariaheterophylla","dacrydiumcupressinum","podocarpustotara","nothofagusmenziesii"] }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "game:bowstave-long-raw"  }
+	},
+
+	{
+		"ingredientPattern": "K,L,L",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:saw-*", "isTool": true },
+			"L": { "type": "block", "code": "floralzonesneozeylandicregion:logsection-*" }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "game:bowstave-long-raw"  }
+	},
+
+	{
+		"ingredientPattern": "K,L,L",
+		"ingredients": {
+			"K": { "type": "item", "code": "game:saw-*", "isTool": true },
+			"L": { "type": "block", "code": "floralzonesneozeylandicregion:lognarrow-placed-*-ud", "allowedVariants": ["psuedopanaxcrassifolius","psuedopanaxcrassifoliusyoung"] }
+		},
+		"width": 1,
+		"height": 3,
+		"output": { "type": "item", "code": "game:bowstave-long-raw"  }
+	}
+
+]

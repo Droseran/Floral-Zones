@@ -1,0 +1,59 @@
+﻿[
+	{
+		"op": "addeach",
+		"path": "/variantgroups/1/states/-",
+		"value": ["corymbiaaparrerinja", "eucalyptuscamaldulensis"],
+		"file": "ancienttools:blocktypes/directionalresin",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"condition": { "when": "AllowCarvingForResin", "isValue": "true" },
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/directionalresin-*-corymbiaaparrerinja-*-*",
+		"value": [
+			{
+			type: "block", 
+			code: "floralzonescentralaustralianregion:log-placed-{wood}-ud",
+			quantity: { avg: 1 },
+			states: ["corymbiaaparrerinja"]
+			}
+		],
+		"file": "ancienttools:blocktypes/directionalresin",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"condition": { "when": "AllowCarvingForResin", "isValue": "true" },
+		"side": "Server"
+	},
+	{
+		"op": "addmerge",
+		"path": "/dropsByType/directionalresin-*-eucalyptuscamaldulensis-*-*",
+		"value": [
+			{
+			type: "block", 
+			code: "floralzonescentralaustralianregion:log-placed-{wood}-ud",
+			quantity: { avg: 1 },
+			states: ["eucalyptuscamaldulensis"]
+			}
+		],
+		"file": "ancienttools:blocktypes/directionalresin",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"condition": { "when": "AllowCarvingForResin", "isValue": "true" },
+		"side": "Server"
+	},
+	{
+        "op": "move",
+		"frompath": "/dropsByType/directionalresin-*-*-*-*",
+		"path": "/temp",
+		"file": "ancienttools:blocktypes/directionalresin",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server",
+    },
+    {
+        "op": "move",
+		"frompath": "/temp",
+		"path": "/dropsByType/directionalresin-*-*-*-*",
+		"file": "ancienttools:blocktypes/directionalresin",
+		"dependsOn": [{ "modid": "ancienttools" }],
+		"side": "Server",
+    }
+]

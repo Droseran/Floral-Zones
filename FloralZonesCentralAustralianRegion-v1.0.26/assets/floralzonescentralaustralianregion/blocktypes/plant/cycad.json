@@ -1,0 +1,67 @@
+{
+	"code": "fern",
+	"class": "BlockPlant",
+	"behaviors": [ { "name": "DropNotSnowCovered" } ],
+"variantgroups": [
+        { "code": "type", "states": ["macrozamiamacdonnellii"] }
+    ],
+	"attributes": {
+		"butterflyFeed": false,
+		"beeFeed": false,
+		"reinforcable": true,
+		"plantContainable": {
+			"largeContainerByType": {
+				"*-macrozamiamacdonnellii": {"shape": { "base": "block/plant/fern/macrozamiamacdonnellii/var*"}}				
+			}
+		}
+	},
+	"creativeinventory": { "general": ["*"], "flora": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"drawtype": "JSON",
+	"shapeByType": {
+		"*-macrozamiamacdonnellii":{"base": "block/plant/fern/macrozamiamacdonnellii/var*", "alternates": [ { "base": "block/plant/fern/macrozamiamacdonnellii/var1" },{ "base": "block/plant/fern/macrozamiamacdonnellii/var2" },{ "base": "block/plant/fern/macrozamiamacdonnellii/var3" } ]}
+	},
+	"texturesByType": {
+		"*-macrozamiamacdonnellii": {
+		 "center": { "base": "block/plant/fern/macrozamiamacdonnellii/center" },
+		 "dead": { "base": "block/plant/fern/macrozamiamacdonnellii/dead" },
+		 "tall": { "base": "block/plant/fern/macrozamiamacdonnellii/tall*" },
+		 "trunk": { "base": "block/plant/fern/macrozamiamacdonnellii/trunk" }
+		}
+	},
+	"randomDrawOffset": true,
+	"randomizeRotations": true,
+	"randomizeAxes": "xz",
+	"randomSizeAdjust": 0.2,
+	"blockmaterial": "Plant",
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 1.5,
+	"collisionbox": { "x1": 0.1875, "y1": 0, "z1": 0.1875, "x2": 0.8125, "y2": 2, "z2": 0.8125 },
+	"selectionbox": {
+		"x1": 0.125, "y1": 0, "z1": 0.125,
+		"x2": 0.875, "y2": 1.25, "z2": 0.875
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"break": "game:block/planks",
+		"hit": "game:block/planks",
+		"walk": "game:walk/inside/leafy/bushrustle*",
+  	"inside": "game:walk/inside/leafy/bushrustle*"
+	},
+	"rainPermeable": false,
+	"materialDensity": 200,
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 5
+	},
+	"frostable": true,
+	"guiTransform": { "origin": { "x": 0.5, "y": 1.5, "z": 0.5},"scale": 0.5
+	}
+}

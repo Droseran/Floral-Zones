@@ -1,0 +1,88 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 8,
+	"textureHeight": 12,
+	"textureSizes": {
+		"enteleaarborescens": [8,12]
+	},
+	"textures": {
+		"enteleaarborescens": "item/resource/treeseeds/enteleaarborescens"
+	},
+	"elements": [
+		{
+			"name": "Origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "base",
+					"from": [ -1.0, 0.0, -1.0 ],
+					"to": [ 1.0, 2.0, 1.0 ],
+					"rotationOrigin": [ -1.0, 0.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#enteleaarborescens", "uv": [ 3.0, 3.5, 5.0, 5.5 ], "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#enteleaarborescens", "uv": [ 3.0, 4.5, 5.0, 6.5 ], "windMode": [-1,-1,-1,-1] },
+						"south": { "texture": "#enteleaarborescens", "uv": [ 3.0, 4.5, 5.0, 6.5 ], "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#enteleaarborescens", "uv": [ 3.5, 5.0, 5.5, 7.0 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#enteleaarborescens", "uv": [ 2.5, 4.5, 4.5, 6.5 ], "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#enteleaarborescens", "uv": [ 3.0, 5.0, 5.0, 7.0 ], "windMode": [-1,-1,-1,-1] }
+					},
+					"children": [
+						{
+							"name": "Flat plane",
+							"from": [ -1.0, 0.0, 1.0 ],
+							"to": [ 3.0, 4.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+							"faces": {
+								"north": { "texture": "#enteleaarborescens", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Flat plane2",
+							"from": [ -1.0, 0.0, 1.0 ],
+							"to": [ 3.0, 4.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+							"rotationY": 135.0,
+							"faces": {
+								"north": { "texture": "#enteleaarborescens", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Flat plane3",
+							"from": [ -1.0, 0.0, 1.0 ],
+							"to": [ 3.0, 4.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+							"rotationY": -135.0,
+							"faces": {
+								"north": { "texture": "#enteleaarborescens", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "autoUv": false }
+							}
+						},
+						{
+							"name": "Flat plane4",
+							"from": [ -1.0, 0.0, 1.0 ],
+							"to": [ 3.0, 4.0, 1.0 ],
+							"shade": false,
+							"renderPass": 1,
+							"rotationOrigin": [ 1.0, 0.0, 1.0 ],
+							"rotationY": -90.0,
+							"faces": {
+								"north": { "texture": "#enteleaarborescens", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "autoUv": false }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

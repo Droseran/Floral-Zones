@@ -1,0 +1,51 @@
+{
+	code: "clothes",
+	"variantgroups": [
+		{ code: "category",  states: ["arm"] },
+		{ code: "arm", states: [
+			"abiesbalsamea","alnusglutinosa","larixlaricina","piceaglauca","piceamariana","pinussibirica","populustremuloides","quercuspetraea"
+		  ] }
+	],
+	storageFlags: 128,
+    behaviors: [
+        { "name": "Wearable" }
+    ],
+	"attributes": {
+		clothescategory: "arm",
+		wearableAttachment: true,
+		warmth: 0
+	},
+	"shapeByType": {
+		"*-piceaglauca":{ base: "entity/humanoid/seraph/clothing/arm/piceamariana" },
+		"*-pinussibirica":{ base: "game:entity/humanoid/seraph/clothing/arm/pine" },
+		"*-quercuspetraea":{ base: "game:entity/humanoid/seraph/clothing/arm/oak" },
+		"*":{ base: "entity/humanoid/seraph/clothing/arm/{arm}" }},
+	texturesByType: {
+		"*": {
+			"seraph": { base: "game:block/transparent" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	renderAlphaTest: 0.25,
+	tpHandTransformByType: {
+        "*": {
+			translation: { x: -1.02, y: -0.62, z: -0.76 },
+		    rotation: { x: -14, y: -71, z: 105 },
+		    scale: 0.9
+		}
+	},
+	guiTransformByType: {
+		"*": {
+			rotation: { x: 174, y: -49, z: 23 },
+			origin: { x: 0.42, y: 0.9, z: 0.7 },
+			scale: 4.71
+		}
+	},
+	groundTransformByType: {
+		"*": {
+			translation: { x: 0.05, y: -0.18, z: 0 },
+			rotation: { x: 0, y: 0, z: 0 },
+			scale: 4
+		}
+	}
+}

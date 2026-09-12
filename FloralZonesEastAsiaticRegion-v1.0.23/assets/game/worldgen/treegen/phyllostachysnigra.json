@@ -1,0 +1,33 @@
+{
+	"treeWorldPropertyCode": "phyllostachysnigra",
+	"sizeMultiplier": 0.45,
+	"trunks": [{
+		"widthloss": 0.016,
+		"dieAt": { "avg": 0.001 },
+		"branchStart": { "dist": "gaussian", "avg": 0.4,  "var": 0 },
+		"branchSpacing": { "dist": "gaussian", "avg": 0.2,  "var": 0.1 },
+		"branchVerticalAngle":  { "dist": "gaussian", "avg": 0.97,  "var": 0.2 },
+		"branchHorizontalAngle": { "avg": 0,  "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.1,  "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 1 },
+		"branchQuantity": { "avg": 6,  "var": 2 },
+		"branchWidthLossMul": 0.98
+	}],
+	"branches": [{
+		"widthLoss": 0.04,
+		"gravityDrag": 0.04,
+		"dieAt": { "avg": 0.001 },
+		"branchStart": { "dist": "gaussian", "avg": 0.1, "var": 0.1 },
+		"branchSpacing": { "avg": 0.2, "var": 0.25 },
+		"branchVerticalAngle":  { "dist": "inversegaussian", "avg": 1, "var": 0.4 },
+		"branchHorizontalAngle": { "avg": 0, "var": 3.1415 },
+		"branchWidthMultiplier": { "avg": 0.4, "var": 0 },
+		"branchWidthMultiplierEvolve": { "transform": "linear", "factor": 0.1 },
+		"branchQuantity": { "avg": 5, "var": 2 }
+	}],
+	"treeBlocks": {
+		"logBlockCode": "floralzoneseastasiaticregion:bamboo-grown-phyllostachysnigra-segment1",
+		"leavesBlockCode": "floralzoneseastasiaticregion:bamboo-placed-phyllostachysnigra-segment3",
+		"leavesBranchyBlockCode": "floralzoneseastasiaticregion:bamboo-placed-phyllostachysnigra-segment2"
+	}
+}

@@ -1,0 +1,110 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 4,
+	"textureHeight": 8,
+	"textureSizes": {
+		"petasitesjaponicus": [4,8]
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "shoot1",
+					"from": [ -3.5, 0.0, 0.0 ],
+					"to": [ 4.5, 0.5, 0.5 ],
+					"rotationOrigin": [ -3.5, 0.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "rotation": 270, "windMode": [-1,-1,-1,-1] },
+						"east": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#petasitesjaponicus", "uv": [ 3.0, 0.0, 3.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 7.0, 0.5, 7.5 ], "windMode": [-1,-1,-1,-1] },
+						"up": { "texture": "#petasitesjaponicus", "uv": [ 1.0, 0.0, 1.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#petasitesjaponicus", "uv": [ 2.0, 0.0, 2.5, 8.0 ], "rotation": 270, "windMode": [-1,-1,-1,-1] }
+					}
+				},
+				{
+					"name": "shoot2",
+					"from": [ -3.0, 0.0, 0.6 ],
+					"to": [ 5.0, 0.5, 1.1 ],
+					"rotationOrigin": [ -3.0, 0.0, 0.6 ],
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus", "uv": [ 1.5, 0.0, 2.0, 8.0 ], "rotation": 270 },
+						"east": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#petasitesjaponicus", "uv": [ 1.0, 0.0, 1.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 7.0, 0.5, 7.5 ] },
+						"up": { "texture": "#petasitesjaponicus", "uv": [ 2.0, 0.0, 2.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#petasitesjaponicus", "uv": [ 2.0, 0.0, 2.5, 8.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "shoot3",
+					"from": [ -2.9, 0.0, -0.6 ],
+					"to": [ 5.1, 0.5, -0.1 ],
+					"rotationOrigin": [ -2.9, 0.0, -0.6 ],
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus", "uv": [ 3.0, 0.0, 3.5, 8.0 ], "rotation": 270 },
+						"east": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#petasitesjaponicus", "uv": [ 2.0, 0.0, 2.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 7.0, 0.5, 7.5 ] },
+						"up": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 0.0, 0.5, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#petasitesjaponicus", "uv": [ 2.0, 0.0, 2.5, 8.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "shoot4",
+					"from": [ -3.3, 0.5, -0.3 ],
+					"to": [ 4.7, 1.0, 0.2 ],
+					"rotationOrigin": [ -3.3, 0.5, -0.3 ],
+					"rotationY": 1.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus", "uv": [ 1.0, 0.0, 1.5, 8.0 ], "rotation": 270 },
+						"east": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#petasitesjaponicus", "uv": [ 3.5, 0.0, 4.0, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 7.0, 0.5, 7.5 ] },
+						"up": { "texture": "#petasitesjaponicus", "uv": [ 1.5, 0.0, 2.0, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#petasitesjaponicus", "uv": [ 2.0, 0.0, 2.5, 8.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "shoot5",
+					"from": [ -2.9, 0.5, 0.3 ],
+					"to": [ 5.1, 1.0, 0.8 ],
+					"rotationOrigin": [ -2.9, 0.5, 0.3 ],
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus", "uv": [ 2.0, 0.0, 2.5, 8.0 ], "rotation": 270 },
+						"east": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#petasitesjaponicus", "uv": [ 1.5, 0.0, 2.0, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"west": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 7.0, 0.5, 7.5 ] },
+						"up": { "texture": "#petasitesjaponicus", "uv": [ 2.5, 0.0, 3.0, 8.0 ], "rotation": 90, "windMode": [-1,-1,-1,-1] },
+						"down": { "texture": "#petasitesjaponicus", "uv": [ 2.0, 0.0, 2.5, 8.0 ], "rotation": 270 }
+					}
+				},
+				{
+					"name": "shoot6",
+					"from": [ -3.8, 0.0, 1.2 ],
+					"to": [ 4.2, 0.5, 1.7 ],
+					"rotationOrigin": [ -3.8, 0.0, 1.2 ],
+					"rotationY": -2.0,
+					"faces": {
+						"north": { "texture": "#petasitesjaponicus", "uv": [ 1.5, 0.0, 2.0, 8.0 ], "rotation": 270 },
+						"east": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#petasitesjaponicus", "uv": [ 1.0, 0.0, 1.5, 8.0 ], "rotation": 90 },
+						"west": { "texture": "#petasitesjaponicus", "uv": [ 0.0, 7.0, 0.5, 7.5 ] },
+						"up": { "texture": "#petasitesjaponicus", "uv": [ 2.0, 0.0, 2.5, 8.0 ], "rotation": 90 },
+						"down": { "texture": "#petasitesjaponicus", "uv": [ 2.0, 0.0, 2.5, 8.0 ], "rotation": 270 }
+					}
+				}
+			]
+		}
+	]}

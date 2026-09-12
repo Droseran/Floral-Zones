@@ -1,0 +1,56 @@
+﻿[
+	{
+		"enabled": false,
+        ingredientPattern: "PBPB BPBP",
+		width: 3,
+		height: 3,
+		ingredients: {
+			"P": {
+				type: "block",
+				name: "wood",
+				code: "floralzonesmediterraneanregion:supportbeam-*",
+				allowedVariants: ["populusalba", "taxusbaccata"],
+				quantity: 1
+			},
+			"B": {
+				type: "item",
+				name: "wood",
+				code: "floralzonesmediterraneanregion:plank-*",
+				allowedVariants: ["populusalba", "taxusbaccata"],
+				quantity: 2
+			}
+		},
+		output: {
+			type: "item",
+			code: "ancienttools:wheel-{wood}",
+			quantity: 1
+		}
+	},
+	{
+		"enabled": false,
+        ingredientPattern: "PBPB BPBP",
+		width: 3,
+		height: 3,
+		ingredients: {
+			"P": {
+				type: "item",
+				name: "wood",
+				code: "ancienttools:beam-*",
+				allowedVariants: ["populusalba", "taxusbaccata"],
+				quantity: 1
+			},
+			"B": {
+				type: "item",
+				name: "wood",
+				code: "floralzonesmediterraneanregion:plank-*",
+				allowedVariants: ["populusalba", "taxusbaccata"],
+				quantity: 2
+			}
+		},
+		output: {
+			type: "item",
+			code: "ancienttools:wheel-{wood}",
+			quantity: 1
+		}
+    },
+]

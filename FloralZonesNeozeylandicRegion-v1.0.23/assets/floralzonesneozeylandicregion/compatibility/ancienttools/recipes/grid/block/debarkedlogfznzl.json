@@ -1,0 +1,94 @@
+[
+	{
+		"enabled": false,
+		ingredientPattern: "LA",
+		width: 2,
+		height: 1,
+		ingredients: {
+			"L": { 
+				type: "block",
+				code: "floralzonesneozeylandicregion:log-placed-nothofagusmenziesii-ud",
+				returnedStack: { type: "block", code: "floralzonesneozeylandicregion:debarkedlog-dacrydiumcupressinum-ud" }
+			},
+			"A": {
+				type: "item",
+				code: "ancienttools:adze-*",
+				isTool: true
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:bark-dacrydiumcupressinum",
+			quantity: 4
+		}
+	},
+	{
+		"enabled": false,
+		ingredientPattern: "LA",
+		width: 2,
+		height: 1,
+		ingredients: {
+			"L": { 
+				type: "block",
+				code: "floralzonesneozeylandicregion:log-placed-nothofagusmenziesii-ud",
+				returnedStack: { type: "block", code: "floralzonesneozeylandicregion:debarkedlog-nothofagusmenziesii-ud" }
+			},
+			"A": {
+				type: "item",
+				code: "ancienttools:adze-*",
+				isTool: true
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:bark-nothofagusmenziesii",
+			quantity: 4
+		}
+	},
+	{
+		"enabled": false,
+		ingredientPattern: "LA",
+		width: 2,
+		height: 1,
+		ingredients: {
+			"L": { 
+				type: "block",
+				code: "floralzonesneozeylandicregion:log-placed-podocarpustotara-ud",
+				returnedStack: { type: "block", code: "floralzonesneozeylandicregion:debarkedlog-podocarpustotara-ud" }
+			},
+			"A": {
+				type: "item",
+				code: "ancienttools:adze-*",
+				isTool: true
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:bark-podocarpustotara",
+			quantity: 4
+		}
+	},
+	{
+		"enabled": false,
+		ingredientPattern: "LA",
+		width: 2,
+		height: 1,
+		ingredients: {
+			"L": { 
+				type: "block",
+				code: "floralzonesneozeylandicregion:log-placed-araucariaheterophylla-ud",
+				returnedStack: { type: "block", code: "floralzonesneozeylandicregion:debarkedlog-araucariaheterophylla-ud" }
+			},
+			"A": {
+				type: "item",
+				code: "ancienttools:adze-*",
+				isTool: true
+			}
+		},
+		output: { 
+			type: "item", 
+			code: "ancienttools:bark-araucariaheterophylla",
+			quantity: 4
+		}
+	}
+]

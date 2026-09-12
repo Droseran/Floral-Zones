@@ -1,0 +1,15 @@
+[
+  {
+    "file": "floralzonesmediterraneanregion:blocktypes/plant/plaintreesapling",
+    "op": "addmerge",
+    "path": "/behaviors",
+    "value": [
+      {
+        "name": "XSkillsSapling"
+      }
+    ], "side": "server",
+		"dependsOn": [
+			{ "modid": "xskills" }
+		]
+  }
+]

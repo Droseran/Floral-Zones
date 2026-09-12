@@ -1,0 +1,129 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large Varied patches of Golden Leather Fern",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:fern-acrostichumaureum"
+          ],
+          "minTemp": 24,
+          "maxTemp": 40,
+		  "minForest": 0,
+		  "maxForest": 1,
+          "minRain": 0.7,
+          "maxRain": 1,
+          "chance": 0.3,
+          "maxY": 0.15,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 15, "var": 13 },
+          "offsetX": { "avg": 1, "var": 12 },
+          "offsetZ": { "avg": 1, "var": 12 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Dense thicket of Golden Leather Fern",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:fern-acrostichumaureum"
+          ],
+          "minTemp": 24,
+          "maxTemp": 40,
+		  "minForest": 0,
+		  "maxForest": 1,
+          "minRain": 0.7,
+          "maxRain": 1,
+          "chance": 0.05,
+          "maxY": 0.15,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 150, "var": 125 },
+          "offsetX": { "avg": 1, "var": 25 },
+          "offsetZ": { "avg": 1, "var": 25 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Sparse thicket of Coconuts",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:fern-cocosnucifera"
+          ],
+          "minTemp": 19,
+          "maxTemp": 40,
+		  "minForest": 0.2,
+		  "maxForest": 0.6,
+          "minRain": 0.6,
+          "maxRain": 1,
+          "chance": 0.05,
+          "maxY": 0.4,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+		  "placement": "NearWater",
+          "quantity": { "dist": "invexp", "avg": 15, "var": 25 },
+          "offsetX": { "avg": 1, "var": 45 },
+          "offsetZ": { "avg": 1, "var": 45 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Meadow of Coconuts",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:fern-cocosnucifera"
+          ],
+          "minTemp": 19,
+          "maxTemp": 40,
+		  "minForest": 0.4,
+		  "maxForest": 0.8,
+          "minRain": 0.6,
+          "maxRain": 1,
+          "chance": 0.01,
+          "maxY": 0.4,
+		  "minFertility": 0,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 25, "var": 15 },
+          "offsetX": { "avg": 1, "var": 65 },
+          "offsetZ": { "avg": 1, "var": 65 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+    {
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+          "comment": "Large Varied patches of Antarctic Hard-Fern",
+          "blockCodes": [
+            "floralzonescosmopolitanregion:fern-austroblechnumpennamarina"
+          ],
+          "minTemp": 4,
+          "maxTemp": 16,
+		  "minForest": 0,
+		  "maxForest": 0.5,
+          "minRain": 0.55,
+          "maxRain": 1,
+          "chance": 0.5,
+          "maxY": 0.6,
+		  "minFertility": 0.7,
+		  "maxFertility": 1,
+          "quantity": { "dist": "invexp", "avg": 10, "var": 8 },
+          "offsetX": { "avg": 0, "var": 10 },
+          "offsetZ": { "avg": 0, "var": 10 }
+        },
+        "file": "game:worldgen/blockpatches/other.json",
+        "side": "server",
+      },
+]
